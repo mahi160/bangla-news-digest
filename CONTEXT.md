@@ -19,3 +19,7 @@ _Avoid_: Feed (feed = the RSS mechanism; Source = the thing that owns a Section 
 **Entertainment** (Section):
 Showbiz/entertainment news — films, TV, music, celebrities (বিনোদন). Not media-industry news (press/journalism business) and not social-media/viral content.
 _Avoid_: Media
+
+**Subscriber**:
+An email address that receives every Run's digest. Stored as a comma-separated list in the `EMAIL_TO` secret (not committed to the repo — this repo is public, subscriber emails are PII). Bcc'd on send so subscribers don't see each other's addresses.
+_Avoid_: Customer, recipient

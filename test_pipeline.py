@@ -62,8 +62,45 @@ def test_build_epub_smoke(tmp_path=None):
     print("ok: build_epub smoke test")
 
 
+def test_retry_succeeds_after_transient_failures():
+    calls = {"n": 0}
+
+    def flaky():
+        calls["n"] += 1
+        if calls["n"] < 3:
+            raise ValueError("transient")
+        return "ok"
+
+    with patch.object(pipeline.time, "sleep", return_value=None):
+        assert pipeline.retry(flaky, what="test", attempts=3, backoff=1) == "ok"
+    assert calls["n"] == 3
+    print("ok: retry recovers from transient failures")
+
+
+def test_retry_raises_after_exhausting_attempts():
+    def always_fails():
+        raise ValueError("permanent")
+
+    with patch.object(pipeline.time, "sleep", return_value=None):
+        try:
+            pipeline.retry(always_fails, what="test", attempts=2, backoff=1)
+            assert False, "should have raised"
+        except ValueError:
+            pass
+    print("ok: retry raises after exhausting attempts")
+
+
+def test_parse_recipients_handles_separators_and_whitespace():
+    raw = "a@x.com, b@y.com;\nc@z.com ,, "
+    assert pipeline.parse_recipients(raw) == ["a@x.com", "b@y.com", "c@z.com"]
+    print("ok: parse_recipients")
+
+
 if __name__ == "__main__":
     test_group_by_section_uses_hint_then_ai_then_drops_unknown()
     test_fetch_new_entries_dedups_and_respects_cutoff()
     test_build_epub_smoke()
+    test_retry_succeeds_after_transient_failures()
+    test_retry_raises_after_exhausting_attempts()
+    test_parse_recipients_handles_separators_and_whitespace()
     print("all tests passed")

@@ -30,3 +30,8 @@ MAX_ARTICLE_CHARS = 3000
 
 # How many recent (url) entries to remember per source, to bound state.json growth.
 SEEN_URLS_KEEP = 500
+
+# Retry knobs for the two network-dependent steps (Claude call, email send).
+# Linear backoff: attempt N waits RETRY_BACKOFF_SECONDS * N before the next try.
+RETRY_ATTEMPTS = 3
+RETRY_BACKOFF_SECONDS = 5

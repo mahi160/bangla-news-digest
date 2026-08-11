@@ -12,6 +12,7 @@ import re
 import smtplib
 import subprocess
 import sys
+import time
 from datetime import datetime, timedelta, timezone
 from email.message import EmailMessage
 from pathlib import Path
@@ -20,10 +21,28 @@ import feedparser
 import trafilatura
 from ebooklib import epub
 
-from config import LOOKBACK_HOURS, MAX_ARTICLE_CHARS, SECTIONS, SEEN_URLS_KEEP, SOURCES
+from config import (
+    LOOKBACK_HOURS, MAX_ARTICLE_CHARS, RETRY_ATTEMPTS, RETRY_BACKOFF_SECONDS,
+    SECTIONS, SEEN_URLS_KEEP, SOURCES,
+)
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
 log = logging.getLogger("digest")
+
+
+def retry(fn, what, attempts=RETRY_ATTEMPTS, backoff=RETRY_BACKOFF_SECONDS):
+    """Retry a flaky network call with linear backoff. Raises the last
+    exception if every attempt fails."""
+    last_exc = None
+    for attempt in range(1, attempts + 1):
+        try:
+            return fn()
+        except Exception as e:
+            last_exc = e
+            log.warning("%s failed (attempt %d/%d): %s", what, attempt, attempts, e)
+            if attempt < attempts:
+                time.sleep(backoff * attempt)
+    raise last_exc
 
 ROOT = Path(__file__).parent
 STATE_PATH = ROOT / "state.json"
@@ -265,8 +284,17 @@ def update_site(grouped, run_dt):
 
 # --- email -------------------------------------------------------------------
 
+def parse_recipients(raw):
+    """EMAIL_TO secret holds a comma/newline/semicolon-separated list --
+    grows into a subscriber list without touching code or committing PII
+    to this (public) repo."""
+    return [e.strip() for e in re.split(r"[,\n;]+", raw) if e.strip()]
+
+
 def send_email(epub_path, run_dt, grouped):
-    to_addr = os.environ["EMAIL_TO"]
+    to_addrs = parse_recipients(os.environ["EMAIL_TO"])
+    if not to_addrs:
+        raise RuntimeError("EMAIL_TO has no valid addresses")
     smtp_host = os.environ.get("SMTP_HOST", "smtp.gmail.com")
     smtp_port = int(os.environ.get("SMTP_PORT", "465"))
     smtp_user = os.environ["SMTP_USER"]
@@ -276,7 +304,7 @@ def send_email(epub_path, run_dt, grouped):
     msg = EmailMessage()
     msg["Subject"] = f"বাংলা সংবাদ সংক্ষেপ - {run_dt.strftime('%Y-%m-%d %H:%M')}"
     msg["From"] = smtp_user
-    msg["To"] = to_addr
+    msg["To"] = smtp_user  # subscribers are Bcc'd -- they shouldn't see each other's addresses
     msg.set_content(f"আজকের সংক্ষেপ সংযুক্ত। ({counts})")
     msg.add_attachment(
         epub_path.read_bytes(), maintype="application", subtype="epub+zip",
@@ -285,7 +313,12 @@ def send_email(epub_path, run_dt, grouped):
 
     with smtplib.SMTP_SSL(smtp_host, smtp_port) as smtp:
         smtp.login(smtp_user, smtp_pass)
-        smtp.send_message(msg)
+        # sendmail() only raises if EVERY recipient is refused; a partial
+        # failure (one bad address) still delivers to the rest and returns
+        # the refused ones here instead of blowing up the whole send.
+        refused = smtp.sendmail(smtp_user, to_addrs, msg.as_string())
+    if refused:
+        log.warning("some recipients refused: %s", refused)
 
 
 # --- main --------------------------------------------------------------------
@@ -304,16 +337,29 @@ def main():
         return
 
     log.info("summarizing %d articles via Claude Code (opus)", len(articles))
-    ai_results = summarize_batch(articles)
+    try:
+        ai_results = retry(lambda: summarize_batch(articles), what="claude summarization")
+    except Exception:
+        log.exception("summarization failed after retries -- nothing sent, articles retried next run")
+        return  # state NOT saved: seen_urls stay unset so these get retried next run
+
     grouped = group_by_section(articles, ai_results)
 
     epub_path = ROOT / f"digest-{now.strftime('%Y%m%d-%H%M')}.epub"
     build_epub(grouped, now, epub_path)
     update_site(grouped, now)
-    send_email(epub_path, now, grouped)
-    epub_path.unlink()  # not archived in git -- email + site/ are the archive
-
+    # Content is on the site archive now -- mark seen regardless of whether
+    # email succeeds below, so a flaky SMTP send doesn't resurface/duplicate
+    # the same articles next run.
     save_state(state)
+
+    try:
+        retry(lambda: send_email(epub_path, now, grouped), what="email send")
+    except Exception:
+        log.exception("email send failed after retries -- digest is still on the site archive")
+    finally:
+        epub_path.unlink(missing_ok=True)  # not archived in git either way
+
     log.info("run complete")
 
 

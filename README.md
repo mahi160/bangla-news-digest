@@ -12,7 +12,7 @@ See `CONTEXT.md` for terminology and `docs/adr/` for the why-behind design decis
 1. **Repo secrets** (Settings → Secrets and variables → Actions):
    - `ANTHROPIC_API_KEY` — for the Claude Code CLI in CI
    - `SMTP_USER` / `SMTP_PASS` — an email account + [app password](https://support.google.com/accounts/answer/185833) (Gmail default; override `SMTP_HOST`/`SMTP_PORT` for another provider)
-   - `EMAIL_TO` — where the digest gets sent
+   - `EMAIL_TO` — subscriber list: comma/newline/semicolon-separated addresses, e.g. `a@x.com, b@y.com`. Add a subscriber by editing this secret's value — no code change, no redeploy. Kept as a secret (not a repo file) since the repo is public and subscriber emails are PII; they're Bcc'd on send so subscribers never see each other's address.
 
 2. **GitHub Pages**: Settings → Pages → Source → "GitHub Actions" (the workflow deploys `site/` itself, no branch/folder setting needed).
 
