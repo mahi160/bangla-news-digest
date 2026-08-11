@@ -54,6 +54,36 @@ DEGRADED_NOTICE = (
     "AI সারাংশ পরিষেবা অনুপলব্ধ ছিল — সারাংশের বদলে মূল শিরোনাম ও অংশ দেখানো হলো।"
 )
 
+STYLE_CSS = """\
+:root{--fg:#1b1b1b;--muted:#6b6b6b;--accent:#0a6847;--border:#e4e4e4;--bg:#fdfdfb}
+*{box-sizing:border-box}
+body{max-width:42em;margin:0 auto;padding:2rem 1.25rem 4rem;
+  font-family:"Noto Sans Bengali","Segoe UI",system-ui,-apple-system,sans-serif;
+  line-height:1.7;color:var(--fg);background:var(--bg)}
+h1{font-size:1.6rem;margin:.5rem 0 1rem}
+h2{font-size:1.25rem;margin:2rem 0 .75rem;border-bottom:2px solid var(--accent);padding-bottom:.3rem}
+h3{font-size:1.05rem;margin:1.5rem 0 .5rem;color:var(--accent)}
+h4{font-size:1rem;margin:0 0 .35rem}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.back{display:inline-block;margin-bottom:.5rem;font-size:.9rem;color:var(--muted)}
+.hint{color:var(--muted);font-weight:normal;font-size:.85rem;margin:0 0 1.5rem}
+.notice{background:#fff4e5;border:1px solid #f0c36d;border-radius:8px;padding:.6rem .9rem;font-size:.9rem;margin-bottom:1.5rem}
+.quick-digest{background:#f6f8f7;border:1px solid var(--border);border-radius:12px;padding:.25rem 1.25rem 1.25rem;margin-bottom:2.5rem}
+.teaser-list{list-style:none;margin:0;padding:0}
+.teaser-list li{padding:.55rem 0;border-bottom:1px solid var(--border)}
+.teaser-list li:last-child{border-bottom:none}
+article{margin-bottom:1.75rem;padding-bottom:1.75rem;border-bottom:1px solid var(--border)}
+article:last-child{border-bottom:none}
+.meta{color:var(--muted);font-size:.85rem}
+ul.runs{list-style:none;padding:0;margin-top:1.5rem}
+ul.runs li{border:1px solid var(--border);border-radius:10px;padding:.85rem 1.1rem;margin-bottom:.6rem;
+  display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:.5rem}
+.badge{display:inline-block;background:#eef6f2;color:var(--accent);border-radius:12px;padding:.2rem .65rem;
+  font-size:.8rem;margin-left:.35rem}
+.badge.warn{background:#fff4e5;color:#8a5a00}
+"""
+
 
 # --- state -----------------------------------------------------------------
 
@@ -202,9 +232,24 @@ def fallback_results(articles):
 
 # --- assemble ----------------------------------------------------------------
 
+def make_teaser(text, max_chars=120):
+    """First sentence (Bengali or Latin punctuation) of the full summary, capped.
+    This is the one-line version readers see in the 5-7 min quick digest --
+    the full multi-sentence text is only shown in the details section."""
+    text = text.strip()
+    for sep in ("\u0964", ".", "!", "?"):  # । = Bengali sentence-ending mark
+        idx = text.find(sep)
+        if 0 < idx <= max_chars:
+            return text[:idx + 1].strip()
+    if len(text) <= max_chars:
+        return text
+    return text[:max_chars].rsplit(" ", 1)[0] + "…"
+
+
 def group_by_section(articles, ai_results):
     grouped = {s: [] for s in SECTIONS}
     by_index = {r["index"]: r for r in ai_results}
+    anchor_n = 0
     for i, a in enumerate(articles):
         r = by_index.get(i)
         if not r:
@@ -214,11 +259,14 @@ def group_by_section(articles, ai_results):
             log.warning("unknown section %r from AI, dropping article", section)
             continue
         grouped[section].append({
+            "anchor": f"a{anchor_n}",
             "headline": r["headline"],
             "summary": r["summary"],
+            "teaser": make_teaser(r["summary"]),
             "source": a["source"],
             "link": a["link"],
         })
+        anchor_n += 1
     return grouped
 
 
@@ -230,21 +278,40 @@ def build_epub(grouped, run_dt, out_path, degraded=False):
     book.set_title(f"বাংলা সংবাদ সংক্ষেপ - {run_dt.strftime('%Y-%m-%d %H:%M')}")
     book.set_language("bn")
 
-    chapters = []
+    # Chapter 1: quick digest -- headline + one-line teaser for every article,
+    # a ~5-7 min read. Each links into the matching detail chapter below for
+    # readers who want the full elaborate summary.
+    digest_html = "<h1>সংক্ষিপ্ত সারাংশ (৫-৭ মিনিট)</h1>"
+    if degraded:
+        digest_html += f"<p><i>{DEGRADED_NOTICE}</i></p>"
     for section in SECTIONS:
         items = grouped.get(section, [])
         if not items:
             continue
-        html = f"<h1>{section}</h1>"
+        fname = f"{section.lower()}.xhtml"
+        digest_html += f"<h2>{section}</h2><ul>"
+        for a in items:
+            digest_html += f'<li><a href="{fname}#{a["anchor"]}"><b>{a["headline"]}</b></a> — {a["teaser"]}</li>'
+        digest_html += "</ul>"
+    digest_ch = epub.EpubHtml(title="সংক্ষিপ্ত সারাংশ", file_name="digest.xhtml", lang="bn")
+    digest_ch.content = digest_html
+    book.add_item(digest_ch)
+
+    chapters = [digest_ch]
+    for section in SECTIONS:
+        items = grouped.get(section, [])
+        if not items:
+            continue
+        html = f"<h1>{section} — বিস্তারিত</h1>"
         if degraded:
             html += f"<p><i>{DEGRADED_NOTICE}</i></p>"
         for a in items:
             html += (
-                f"<h2>{a['headline']}</h2>"
+                f"<h2 id=\"{a['anchor']}\">{a['headline']}</h2>"
                 f"<p>{a['summary']}</p>"
                 f"<p><i>{a['source']}</i> — <a href=\"{a['link']}\">মূল প্রতিবেদন</a></p>"
             )
-        ch = epub.EpubHtml(title=section, file_name=f"{section.lower()}.xhtml", lang="bn")
+        ch = epub.EpubHtml(title=f"{section} (বিস্তারিত)", file_name=f"{section.lower()}.xhtml", lang="bn")
         ch.content = html
         book.add_item(ch)
         chapters.append(ch)
@@ -259,22 +326,31 @@ def build_epub(grouped, run_dt, out_path, degraded=False):
 # --- site (GitHub Pages archive) --------------------------------------------
 
 def render_run_html(grouped, run_dt, degraded=False):
-    body = f"<p class=meta>{DEGRADED_NOTICE}</p>" if degraded else ""
+    notice = f"<p class=notice>{DEGRADED_NOTICE}</p>" if degraded else ""
+    digest = f"<section class=quick-digest><h2>সংক্ষিপ্ত সারাংশ <span class=hint>(৫-৭ মিনিট)</span></h2>"
+    details = "<section class=details><h2>বিস্তারিত</h2>"
     for section in SECTIONS:
         items = grouped.get(section, [])
         if not items:
             continue
-        body += f"<h1>{section}</h1>"
+        digest += f"<h3>{section}</h3><ul class=teaser-list>"
         for a in items:
-            body += (
-                f"<article><h2>{a['headline']}</h2><p>{a['summary']}</p>"
-                f"<p class=meta>{a['source']} — <a href=\"{a['link']}\">মূল প্রতিবেদন</a></p></article>"
+            digest += f'<li><a href="#{a["anchor"]}"><strong>{a["headline"]}</strong></a> — {a["teaser"]}</li>'
+        digest += "</ul>"
+        details += f"<h3>{section}</h3>"
+        for a in items:
+            details += (
+                f'<article id="{a["anchor"]}"><h4>{a["headline"]}</h4><p>{a["summary"]}</p>'
+                f'<p class=meta>{a["source"]} — <a href="{a["link"]}">মূল প্রতিবেদন</a></p></article>'
             )
+    digest += "</section>"
+    details += "</section>"
     return (
         "<!doctype html><html lang=bn><head><meta charset=utf-8>"
         f"<title>{run_dt.strftime('%Y-%m-%d %H:%M')} digest</title>"
         "<link rel=stylesheet href=\"../style.css\"></head><body>"
-        f"<p><a href=\"../index.html\">← সব সংস্করণ</a></p>{body}</body></html>"
+        f"<a class=back href=\"../index.html\">← সব সংস্করণ</a>"
+        f"<h1>{run_dt.strftime('%Y-%m-%d %H:%M')}</h1>{notice}{digest}{details}</body></html>"
     )
 
 
@@ -291,23 +367,22 @@ def update_site(grouped, run_dt, degraded=False):
     RUNS_MANIFEST.write_text(json.dumps(manifest, ensure_ascii=False, indent=2))
 
     rows = "".join(
-        f"<li><a href=\"{r['file']}\">{r['dt']}</a> "
-        f"({', '.join(f'{k}: {v}' for k, v in r['counts'].items())})"
-        f"{' ⚠ AI অনুপলব্ধ' if r.get('degraded') else ''}</li>"
+        "<li><a href=\"{file}\">{dt}</a><span>{badges}{warn}</span></li>".format(
+            file=r["file"], dt=r["dt"],
+            badges="".join(f'<span class=badge>{k} {v}</span>' for k, v in r["counts"].items()),
+            warn='<span class="badge warn">AI অনুপলব্ধ</span>' if r.get("degraded") else "",
+        )
         for r in manifest
     )
     index_html = (
         "<!doctype html><html lang=bn><head><meta charset=utf-8>"
         "<title>বাংলা সংবাদ সংক্ষেপ</title><link rel=stylesheet href=style.css></head>"
-        f"<body><h1>বাংলা সংবাদ সংক্ষেপ</h1><ul>{rows}</ul></body></html>"
+        "<body><h1>বাংলা সংবাদ সংক্ষেপ</h1>"
+        "<p class=hint>প্রতিদিন ০৬টা ও ১৮টায় নতুন সংক্ষেপ।</p>"
+        f"<ul class=runs>{rows}</ul></body></html>"
     )
     (SITE_DIR / "index.html").write_text(index_html)
-    style_path = SITE_DIR / "style.css"
-    if not style_path.exists():
-        style_path.write_text(
-            "body{max-width:40em;margin:2em auto;font-family:sans-serif;line-height:1.6;padding:0 1em}"
-            "article{margin-bottom:2em}.meta{color:#666;font-size:.9em}"
-        )
+    (SITE_DIR / "style.css").write_text(STYLE_CSS)
 
 
 # --- email -------------------------------------------------------------------

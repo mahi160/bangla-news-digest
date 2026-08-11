@@ -26,7 +26,17 @@ def test_group_by_section_uses_hint_then_ai_then_drops_unknown():
     assert len(grouped["Tech"]) == 1, grouped
     assert grouped["Tech"][0]["headline"] == "h1"
     assert sum(len(v) for v in grouped.values()) == 2, "unknown section must be dropped"
+    assert grouped["Sports"][0]["anchor"] != grouped["Tech"][0]["anchor"], "anchors must be unique across sections"
+    assert grouped["Sports"][0]["teaser"], "teaser must be derived, not empty"
     print("ok: group_by_section")
+
+
+def test_make_teaser_stops_at_first_sentence_and_caps_length():
+    assert pipeline.make_teaser("পহেলা বাক্য। দ্রুতীয় বাক্য।") == "পহেলা বাক্য।"
+    long_text = "word " * 100
+    teaser = pipeline.make_teaser(long_text, max_chars=50)
+    assert len(teaser) <= 52 and teaser.endswith("…")
+    print("ok: make_teaser")
 
 
 def test_fetch_new_entries_dedups_and_respects_cutoff():
@@ -55,7 +65,7 @@ def test_build_epub_smoke(tmp_path=None):
     import tempfile
     from pathlib import Path
     grouped = {s: [] for s in pipeline.SECTIONS}
-    grouped["Tech"] = [{"headline": "শিরোনাম", "summary": "সারাংশ", "source": "Src", "link": "https://x"}]
+    grouped["Tech"] = [{"anchor": "a0", "headline": "শিরোনাম", "summary": "সারাংশ", "teaser": "সারাংশ", "source": "Src", "link": "https://x"}]
     out = Path(tempfile.mkdtemp()) / "t.epub"
     pipeline.build_epub(grouped, datetime.now(timezone.utc), out)
     assert out.exists() and out.stat().st_size > 0
@@ -114,6 +124,7 @@ if __name__ == "__main__":
     test_group_by_section_uses_hint_then_ai_then_drops_unknown()
     test_fetch_new_entries_dedups_and_respects_cutoff()
     test_build_epub_smoke()
+    test_make_teaser_stops_at_first_sentence_and_caps_length()
     test_retry_succeeds_after_transient_failures()
     test_retry_raises_after_exhausting_attempts()
     test_fallback_results_uses_raw_title_and_excerpt()
