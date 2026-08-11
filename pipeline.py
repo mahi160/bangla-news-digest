@@ -44,10 +44,15 @@ def retry(fn, what, attempts=RETRY_ATTEMPTS, backoff=RETRY_BACKOFF_SECONDS):
                 time.sleep(backoff * attempt)
     raise last_exc
 
+
 ROOT = Path(__file__).parent
 STATE_PATH = ROOT / "state.json"
 SITE_DIR = ROOT / "site"
 RUNS_MANIFEST = SITE_DIR / "runs.json"
+
+DEGRADED_NOTICE = (
+    "AI সারাংশ পরিষেবা অনুপলব্ধ ছিল — সারাংশের বদলে মূল শিরোনাম ও অংশ দেখানো হলো।"
+)
 
 
 # --- state -----------------------------------------------------------------
@@ -175,6 +180,26 @@ def summarize_batch(articles):
     return json.loads(text)
 
 
+def fallback_results(articles):
+    """No-AI fallback: raw title + plain-text excerpt, no translation/summary.
+    Section defaults to Local when there's no section_hint, since real
+    classification needs the AI we don't have right now -- best-effort, not
+    accurate, but subscribers still get every headline instead of nothing.
+    """
+    results = []
+    for i, a in enumerate(articles):
+        excerpt = a["text"][:400].strip()
+        if len(a["text"]) > 400:
+            excerpt = excerpt.rsplit(" ", 1)[0] + "…"
+        results.append({
+            "index": i,
+            "headline": a["title"] or "(শিরোনামহীন)",
+            "summary": excerpt,
+            "section": a["section_hint"] or "Local",
+        })
+    return results
+
+
 # --- assemble ----------------------------------------------------------------
 
 def group_by_section(articles, ai_results):
@@ -199,7 +224,7 @@ def group_by_section(articles, ai_results):
 
 # --- epub --------------------------------------------------------------------
 
-def build_epub(grouped, run_dt, out_path):
+def build_epub(grouped, run_dt, out_path, degraded=False):
     book = epub.EpubBook()
     book.set_identifier(f"bn-news-digest-{run_dt.isoformat()}")
     book.set_title(f"বাংলা সংবাদ সংক্ষেপ - {run_dt.strftime('%Y-%m-%d %H:%M')}")
@@ -211,6 +236,8 @@ def build_epub(grouped, run_dt, out_path):
         if not items:
             continue
         html = f"<h1>{section}</h1>"
+        if degraded:
+            html += f"<p><i>{DEGRADED_NOTICE}</i></p>"
         for a in items:
             html += (
                 f"<h2>{a['headline']}</h2>"
@@ -231,8 +258,8 @@ def build_epub(grouped, run_dt, out_path):
 
 # --- site (GitHub Pages archive) --------------------------------------------
 
-def render_run_html(grouped, run_dt):
-    body = ""
+def render_run_html(grouped, run_dt, degraded=False):
+    body = f"<p class=meta>{DEGRADED_NOTICE}</p>" if degraded else ""
     for section in SECTIONS:
         items = grouped.get(section, [])
         if not items:
@@ -251,21 +278,22 @@ def render_run_html(grouped, run_dt):
     )
 
 
-def update_site(grouped, run_dt):
+def update_site(grouped, run_dt, degraded=False):
     SITE_DIR.mkdir(exist_ok=True)
     (SITE_DIR / "runs").mkdir(exist_ok=True)
 
     manifest = json.loads(RUNS_MANIFEST.read_text()) if RUNS_MANIFEST.exists() else []
     fname = f"runs/{run_dt.strftime('%Y-%m-%d-%H%M')}.html"
-    (SITE_DIR / fname).write_text(render_run_html(grouped, run_dt))
+    (SITE_DIR / fname).write_text(render_run_html(grouped, run_dt, degraded=degraded))
 
     counts = {s: len(grouped.get(s, [])) for s in SECTIONS if grouped.get(s)}
-    manifest.insert(0, {"dt": run_dt.isoformat(), "file": fname, "counts": counts})
+    manifest.insert(0, {"dt": run_dt.isoformat(), "file": fname, "counts": counts, "degraded": degraded})
     RUNS_MANIFEST.write_text(json.dumps(manifest, ensure_ascii=False, indent=2))
 
     rows = "".join(
         f"<li><a href=\"{r['file']}\">{r['dt']}</a> "
-        f"({', '.join(f'{k}: {v}' for k, v in r['counts'].items())})</li>"
+        f"({', '.join(f'{k}: {v}' for k, v in r['counts'].items())})"
+        f"{' ⚠ AI অনুপলব্ধ' if r.get('degraded') else ''}</li>"
         for r in manifest
     )
     index_html = (
@@ -291,7 +319,7 @@ def parse_recipients(raw):
     return [e.strip() for e in re.split(r"[,\n;]+", raw) if e.strip()]
 
 
-def send_email(epub_path, run_dt, grouped):
+def send_email(epub_path, run_dt, grouped, degraded=False):
     to_addrs = parse_recipients(os.environ["EMAIL_TO"])
     if not to_addrs:
         raise RuntimeError("EMAIL_TO has no valid addresses")
@@ -301,11 +329,12 @@ def send_email(epub_path, run_dt, grouped):
     smtp_pass = os.environ["SMTP_PASS"]
 
     counts = ", ".join(f"{s}: {len(grouped.get(s, []))}" for s in SECTIONS if grouped.get(s))
+    note = f" {DEGRADED_NOTICE}" if degraded else ""
     msg = EmailMessage()
     msg["Subject"] = f"বাংলা সংবাদ সংক্ষেপ - {run_dt.strftime('%Y-%m-%d %H:%M')}"
     msg["From"] = smtp_user
     msg["To"] = smtp_user  # subscribers are Bcc'd -- they shouldn't see each other's addresses
-    msg.set_content(f"আজকের সংক্ষেপ সংযুক্ত। ({counts})")
+    msg.set_content(f"আজকের সংক্ষেপ সংযুক্ত। ({counts}){note}")
     msg.add_attachment(
         epub_path.read_bytes(), maintype="application", subtype="epub+zip",
         filename=epub_path.name,
@@ -337,30 +366,32 @@ def main():
         return
 
     log.info("summarizing %d articles via Claude Code (opus)", len(articles))
+    degraded = False
     try:
         ai_results = retry(lambda: summarize_batch(articles), what="claude summarization")
     except Exception:
-        log.exception("summarization failed after retries -- nothing sent, articles retried next run")
-        return  # state NOT saved: seen_urls stay unset so these get retried next run
+        log.exception("summarization failed after retries -- falling back to raw listings, no AI summary this run")
+        ai_results = fallback_results(articles)
+        degraded = True
 
     grouped = group_by_section(articles, ai_results)
 
     epub_path = ROOT / f"digest-{now.strftime('%Y%m%d-%H%M')}.epub"
-    build_epub(grouped, now, epub_path)
-    update_site(grouped, now)
+    build_epub(grouped, now, epub_path, degraded=degraded)
+    update_site(grouped, now, degraded=degraded)
     # Content is on the site archive now -- mark seen regardless of whether
     # email succeeds below, so a flaky SMTP send doesn't resurface/duplicate
     # the same articles next run.
     save_state(state)
 
     try:
-        retry(lambda: send_email(epub_path, now, grouped), what="email send")
+        retry(lambda: send_email(epub_path, now, grouped, degraded=degraded), what="email send")
     except Exception:
         log.exception("email send failed after retries -- digest is still on the site archive")
     finally:
         epub_path.unlink(missing_ok=True)  # not archived in git either way
 
-    log.info("run complete")
+    log.info("run complete (degraded=%s)", degraded)
 
 
 if __name__ == "__main__":
