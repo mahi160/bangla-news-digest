@@ -5,7 +5,7 @@ An automated system that pulls Bangla news and tech RSS feeds, summarizes them, 
 ## Language
 
 **Run**:
-A single digest generation cycle, kicked off on a schedule (6am and 6pm), that gathers articles published since the previous Run, summarizes them, builds an EPUB, and emails it out.
+A single digest generation cycle, kicked off manually (`python pipeline.py` on your own machine), that gathers articles published since the previous Run, summarizes them, builds an EPUB, and emails it out. Pushing the result updates the GitHub Pages archive.
 _Avoid_: Batch, cycle, job
 
 **Section**:

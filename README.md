@@ -1,29 +1,34 @@
 # Bangla News Digest
 
-Twice a day (6am / 6pm Bangladesh time), pulls RSS from Prothom Alo, Banglanews24,
-BBC Bangla, ESPN Cricinfo, and a handful of tech blogs, summarizes each article
-into Bengali (via Claude Code / Opus), builds a Bengali EPUB, emails it, and
-publishes a browsable archive to GitHub Pages.
+Pulls RSS from Prothom Alo, Banglanews24, BBC Bangla, ESPN Cricinfo, and a
+handful of tech blogs, summarizes each article into Bengali (via `pi` CLI /
+Claude Sonnet 5), builds a Bengali EPUB, emails it, and publishes a browsable
+archive to GitHub Pages.
+
+Run manually/locally whenever you want a fresh digest -- no scheduled CI run
+(pi's subscription auth is local-only, see docs/adr/0003). Pushing the result
+updates the GitHub Pages archive automatically (`.github/workflows/pages.yml`
+just deploys `site/`, it doesn't run the pipeline).
 
 See `CONTEXT.md` for terminology and `docs/adr/` for the why-behind design decisions.
 
 ## Setup
 
-1. **Repo secrets** (Settings → Secrets and variables → Actions):
-   - `ANTHROPIC_API_KEY` — for the Claude Code CLI in CI
-   - `SMTP_USER` / `SMTP_PASS` — an email account + [app password](https://support.google.com/accounts/answer/185833) (Gmail default; override `SMTP_HOST`/`SMTP_PORT` for another provider)
-   - `EMAIL_TO` — subscriber list: comma/newline/semicolon-separated addresses, e.g. `a@x.com, b@y.com`. Add a subscriber by editing this secret's value — no code change, no redeploy. Kept as a secret (not a repo file) since the repo is public and subscriber emails are PII; they're Bcc'd on send so subscribers never see each other's address.
+1. **GitHub Pages**: Settings → Pages → Source → "GitHub Actions".
 
-2. **GitHub Pages**: Settings → Pages → Source → "GitHub Actions" (the workflow deploys `site/` itself, no branch/folder setting needed).
+2. **Sections/sources**: edit `config.py`. Adding a source is one dict entry; set `section` to a fixed section name if the feed is already single-category, or `None` to let the model classify each article.
 
-3. **Sections/sources**: edit `config.py`. Adding a source is one dict entry; set `section` to a fixed section name if the feed is already single-category, or `None` to let Claude classify each article.
+3. **pi auth**: `pi auth check --provider anthropic` should say "ready" (uses your existing subscription login, no API key needed).
 
 ## Run locally
 
 ```
 python -m venv .venv && .venv/bin/pip install -r requirements.txt
-ANTHROPIC_API_KEY=... SMTP_USER=... SMTP_PASS=... EMAIL_TO=... .venv/bin/python pipeline.py
+SMTP_USER=... SMTP_PASS=... EMAIL_TO=... .venv/bin/python pipeline.py
+git add state.json site/ && git commit -m "digest: $(date -u +%Y-%m-%dT%H:%M)Z" && git push
 ```
+
+`EMAIL_TO` is a comma/newline/semicolon-separated subscriber list -- add a subscriber by adding their address there. Since it's a plain env var (not a repo file) subscriber emails never get committed to this public repo; they're Bcc'd on send too.
 
 ## Tests
 

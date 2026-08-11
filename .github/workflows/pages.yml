@@ -1,0 +1,26 @@
+name: pages
+
+# No pipeline execution here -- pipeline.py runs locally (needs your pi/
+# Sonnet subscription auth), you git push the result, this just deploys the
+# updated site/ folder to GitHub Pages.
+on:
+  push:
+    branches: [main]
+    paths: ["site/**"]
+  workflow_dispatch: {}
+
+permissions:
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/
+      - uses: actions/deploy-pages@v4
