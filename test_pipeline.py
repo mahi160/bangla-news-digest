@@ -1,0 +1,69 @@
+"""Self-check for the non-trivial logic: dedup, cutoff filtering, section
+resolution. No network calls -- feedparser.parse and extract_text are
+monkeypatched. Run with: python test_pipeline.py
+"""
+from datetime import datetime, timedelta, timezone
+from types import SimpleNamespace
+from unittest.mock import patch
+
+import pipeline
+
+
+def test_group_by_section_uses_hint_then_ai_then_drops_unknown():
+    articles = [
+        {"section_hint": "Sports", "source": "A", "link": "l1"},
+        {"section_hint": None, "source": "B", "link": "l2"},
+        {"section_hint": None, "source": "C", "link": "l3"},
+    ]
+    ai_results = [
+        {"index": 0, "headline": "h0", "summary": "s0", "section": "Tech"},  # hint wins over this
+        {"index": 1, "headline": "h1", "summary": "s1", "section": "Tech"},
+        {"index": 2, "headline": "h2", "summary": "s2", "section": "Nonsense"},  # dropped
+    ]
+    grouped = pipeline.group_by_section(articles, ai_results)
+    assert len(grouped["Sports"]) == 1, grouped
+    assert grouped["Sports"][0]["headline"] == "h0"
+    assert len(grouped["Tech"]) == 1, grouped
+    assert grouped["Tech"][0]["headline"] == "h1"
+    assert sum(len(v) for v in grouped.values()) == 2, "unknown section must be dropped"
+    print("ok: group_by_section")
+
+
+def test_fetch_new_entries_dedups_and_respects_cutoff():
+    now = datetime(2024, 1, 2, 6, 0, tzinfo=timezone.utc)
+    old = (now - timedelta(hours=48)).timetuple()
+    fresh = (now - timedelta(hours=2)).timetuple()
+
+    fake_feed = SimpleNamespace(bozo=False, entries=[
+        {"link": "https://x/already-seen", "title": "seen", "published_parsed": fresh},
+        {"link": "https://x/too-old", "title": "old", "published_parsed": old},
+        {"link": "https://x/new-one", "title": "new", "published_parsed": fresh},
+    ])
+    source = {"name": "Test Source", "url": "https://x/feed", "section": "Tech", "lang": "en"}
+    state = {"Test Source": {"seen_urls": ["https://x/already-seen"]}}
+
+    with patch.object(pipeline.feedparser, "parse", return_value=fake_feed), \
+         patch.object(pipeline, "extract_text", return_value="some article body"):
+        new_articles = pipeline.fetch_new_entries(source, state, now)
+
+    links = {a["link"] for a in new_articles}
+    assert links == {"https://x/new-one"}, links
+    print("ok: fetch_new_entries dedup + cutoff")
+
+
+def test_build_epub_smoke(tmp_path=None):
+    import tempfile
+    from pathlib import Path
+    grouped = {s: [] for s in pipeline.SECTIONS}
+    grouped["Tech"] = [{"headline": "শিরোনাম", "summary": "সারাংশ", "source": "Src", "link": "https://x"}]
+    out = Path(tempfile.mkdtemp()) / "t.epub"
+    pipeline.build_epub(grouped, datetime.now(timezone.utc), out)
+    assert out.exists() and out.stat().st_size > 0
+    print("ok: build_epub smoke test")
+
+
+if __name__ == "__main__":
+    test_group_by_section_uses_hint_then_ai_then_drops_unknown()
+    test_fetch_new_entries_dedups_and_respects_cutoff()
+    test_build_epub_smoke()
+    print("all tests passed")

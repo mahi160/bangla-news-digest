@@ -1,0 +1,57 @@
+name: digest
+
+on:
+  schedule:
+    - cron: "0 0,12 * * *"   # 00:00 & 12:00 UTC = 6am & 6pm Bangladesh time (UTC+6)
+  workflow_dispatch: {}       # manual trigger for testing
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: digest
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - run: npm install -g @anthropic-ai/claude-code
+      - run: pip install -r requirements.txt
+
+      - name: run pipeline
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+        run: python pipeline.py
+
+      - name: commit state + site archive
+        run: |
+          git config user.name "digest-bot"
+          git config user.email "digest-bot@users.noreply.github.com"
+          git add state.json site/
+          git diff --quiet --cached || git commit -m "digest: $(date -u +%Y-%m-%dT%H:%M)Z"
+          git push
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/
+      - uses: actions/deploy-pages@v4
