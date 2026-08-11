@@ -1,9 +1,9 @@
-"""Bangla news digest: fetch -> extract -> summarize (Claude Code/Opus) ->
+"""Bangla news digest: fetch -> extract -> summarize (pi CLI / Claude Sonnet 5) ->
 EPUB + HTML archive page -> email. Run twice a day by GitHub Actions.
 
 Everything except summarize_batch() is deterministic, boring code on purpose
-(see docs/adr/0001, 0002) -- Claude only turns article text into a Bengali
-headline+summary+section, no tool use, one batched call per run.
+(see docs/adr/0001, 0002, 0003) -- the model only turns article text into a
+Bengali headline+summary+section, no tool use, one batched call per run.
 """
 import json
 import logging
@@ -156,9 +156,9 @@ def extract_text(url):
         return None
 
 
-# --- summarize via Claude Code ----------------------------------------------
+# --- summarize via pi CLI (Claude Sonnet 5) ---------------------------------
 
-CLAUDE_SYSTEM_PROMPT = (
+SUMMARY_SYSTEM_PROMPT = (
     "You are a news summarization engine. You will be given a JSON array of "
     "articles (fields: index, source, lang, section_hint, title, text). For "
     "each article, produce a Bengali (Bangla script) headline and an "
@@ -172,7 +172,8 @@ CLAUDE_SYSTEM_PROMPT = (
 
 
 def summarize_batch(articles):
-    """One batched, non-agentic Claude Code call for the whole run.
+    """One batched, non-agentic pi CLI call for the whole run (Claude Sonnet 5
+    via pi's existing subscription auth -- no separate ANTHROPIC_API_KEY).
     Returns list of {index, headline, summary, section}."""
     if not articles:
         return []
@@ -188,25 +189,23 @@ def summarize_batch(articles):
         }
         for i, a in enumerate(articles)
     ]
-    prompt = CLAUDE_SYSTEM_PROMPT + "\n\n" + json.dumps(payload, ensure_ascii=False)
+    prompt = json.dumps(payload, ensure_ascii=False)
 
     result = subprocess.run(
         [
-            "claude", "-p", "--model", "opus", "--output-format", "json",
-            "--bare",
-            "--disallowedTools", "Bash Read Write Edit Glob Grep WebFetch WebSearch Task",
+            "pi", "--print", "--mode", "text",
+            "--model", "anthropic/claude-sonnet-5",
+            "--system-prompt", SUMMARY_SYSTEM_PROMPT,
+            "--no-tools", "--no-session", "--no-extensions", "--no-skills",
+            "--no-prompt-templates", "--no-themes", "--no-context-files",
         ],
         input=prompt, capture_output=True, text=True, timeout=600,
     )
     if result.returncode != 0:
-        raise RuntimeError(f"claude CLI failed: {result.stderr[:2000]}")
+        raise RuntimeError(f"pi CLI failed: {result.stderr[:2000]}")
 
-    envelope = json.loads(result.stdout)
-    if envelope.get("is_error"):
-        raise RuntimeError(f"claude error: {envelope.get('result')}")
-
-    text = envelope["result"].strip()
-    text = re.sub(r"^```(json)?|```$", "", text.strip(), flags=re.MULTILINE).strip()
+    text = result.stdout.strip()
+    text = re.sub(r"^```(json)?|```$", "", text, flags=re.MULTILINE).strip()
     return json.loads(text)
 
 
@@ -440,7 +439,7 @@ def main():
         save_state(state)
         return
 
-    log.info("summarizing %d articles via Claude Code (opus)", len(articles))
+    log.info("summarizing %d articles via pi CLI (Claude Sonnet 5)", len(articles))
     degraded = False
     try:
         ai_results = retry(lambda: summarize_batch(articles), what="claude summarization")
