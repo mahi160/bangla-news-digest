@@ -1,31 +1,11 @@
 [
   {
-    "dt": "2026-08-12T12:58:31.420177+00:00",
-    "file": "runs/2026-08-12-1258.html",
+    "dt": "2026-08-12T18:08:40.915254+00:00",
+    "file": "runs/2026-08-12-1808.html",
     "counts": {
-      "Local": 21,
-      "Tech": 5
-    },
-    "degraded": true
-  },
-  {
-    "dt": "2026-08-12T11:30:04.022166+00:00",
-    "file": "runs/2026-08-12-1130.html",
-    "counts": {
-      "Local": 42,
-      "Tech": 2,
-      "Sports": 1
-    },
-    "degraded": true
-  },
-  {
-    "dt": "2026-08-12T09:24:56.360665+00:00",
-    "file": "runs/2026-08-12-0924.html",
-    "counts": {
-      "Local": 70,
-      "Tech": 12,
-      "Sports": 6
-    },
-    "degraded": true
+      "Local": 62,
+      "Tech": 35,
+      "Sports": 3
+    }
   }
 ]
