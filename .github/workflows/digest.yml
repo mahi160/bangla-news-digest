@@ -1,10 +1,12 @@
-name: digest (manual)
+name: digest
 
-# Manual-only: pi CLI auth (AI summaries) and SMTP secrets are local-only, so
-# a run triggered here always falls back to degraded mode (raw headlines, no
-# email) -- see pipeline.py's own fallback handling. Still fetches articles
-# and rebuilds the site/ archive, then pushes so pages.yml deploys it.
+# pi CLI auth (AI summaries) and SMTP secrets are local-only, so a scheduled
+# run here always falls back to degraded mode (raw headlines, no email) --
+# see pipeline.py's own fallback handling. Still fetches articles and
+# rebuilds the site/ archive, then pushes so pages.yml deploys it.
 on:
+  schedule:
+    - cron: "0 0,12 * * *"  # 06:00 and 18:00 Bangladesh time (UTC+6)
   workflow_dispatch: {}
 
 permissions:
