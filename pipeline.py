@@ -15,7 +15,9 @@ import sys
 import time
 from datetime import datetime, timedelta, timezone
 from email.message import EmailMessage
+from email.utils import format_datetime
 from pathlib import Path
+from xml.sax.saxutils import escape as xml_escape
 
 import feedparser
 import trafilatura
@@ -49,6 +51,8 @@ ROOT = Path(__file__).parent
 STATE_PATH = ROOT / "state.json"
 SITE_DIR = ROOT / "site"
 RUNS_MANIFEST = SITE_DIR / "runs.json"
+SITE_URL = "https://mahi160.github.io/bangla-news-digest/"
+RSS_ITEM_CAP = 30  # ponytail: fixed cap, plenty for a twice-daily feed -- add paging if this site outlives that
 
 DEGRADED_NOTICE = (
     "AI সারাংশ পরিষেবা অনুপলব্ধ ছিল — সারাংশের বদলে মূল শিরোনাম ও অংশ দেখানো হলো।"
@@ -107,6 +111,8 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--dusk);outline-offse
   letter-spacing:.04em;color:var(--muted)}
 .back:hover{color:var(--dusk)}
 .hint{color:var(--muted);font-size:.9rem;margin:0 0 2rem}
+.hint .feed{font-family:var(--font-mono);font-size:.78rem;letter-spacing:.04em;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:.1rem .55rem}
+.hint .feed:hover{color:var(--dusk);border-color:var(--dusk)}
 .masthead h1{font-family:var(--font-display);font-size:2rem;margin:0 0 .5rem;font-weight:600}
 .masthead .arc{height:3px;border:0;border-radius:2px;margin:0 0 1.1rem;
   background:linear-gradient(90deg,var(--dawn),var(--paper-raised) 50%,var(--dusk))}
@@ -436,6 +442,39 @@ def render_run_html(grouped, run_dt, degraded=False):
     )
 
 
+def build_rss(manifest):
+    """Plain RSS 2.0 feed of runs, newest first (manifest is already in that
+    order) -- one <item> per edition, linking to its HTML archive page."""
+    items = []
+    for r in manifest[:RSS_ITEM_CAP]:
+        dt = datetime.fromisoformat(r["dt"])
+        ed_label, _ = edition(dt)
+        title = f"{ed_label} — {bn_date(dt)}, {bn_time(dt)}"
+        link = SITE_URL + r["file"]
+        desc = ", ".join(f"{k}: {v}" for k, v in r["counts"].items())
+        if r.get("degraded"):
+            desc += " (AI অনুপলব্ধ)"
+        items.append(
+            "<item>"
+            f"<title>{xml_escape(title)}</title>"
+            f"<link>{xml_escape(link)}</link>"
+            f"<guid>{xml_escape(link)}</guid>"
+            f"<pubDate>{format_datetime(dt)}</pubDate>"
+            f"<description>{xml_escape(desc)}</description>"
+            "</item>"
+        )
+    return (
+        '<?xml version="1.0" encoding="UTF-8"?>'
+        '<rss version="2.0"><channel>'
+        "<title>বাংলা সংবাদ সংক্ষেপ</title>"
+        f"<link>{SITE_URL}</link>"
+        "<description>প্রতিদিন ০৬টা ও ১৮টায় নতুন বাংলা সংবাদ সংক্ষেপ</description>"
+        "<language>bn</language>"
+        + "".join(items) +
+        "</channel></rss>"
+    )
+
+
 def update_site(grouped, run_dt, degraded=False):
     SITE_DIR.mkdir(exist_ok=True)
     (SITE_DIR / "runs").mkdir(exist_ok=True)
@@ -464,13 +503,16 @@ def update_site(grouped, run_dt, degraded=False):
     rows = "".join(_row(r) for r in manifest)
     index_html = (
         "<!doctype html><html lang=bn><head><meta charset=utf-8>"
-        "<title>বাংলা সংবাদ সংক্ষেপ</title><link rel=stylesheet href=style.css></head>"
+        "<title>বাংলা সংবাদ সংক্ষেপ</title><link rel=stylesheet href=style.css>"
+        "<link rel=alternate type=application/rss+xml title=\"বাংলা সংবাদ সংক্ষেপ RSS\" href=feed.xml></head>"
         "<body><header class=masthead><h1>বাংলা সংবাদ সংক্ষেপ</h1><hr class=arc></header>"
-        "<p class=hint>প্রতিদিন ০৬টা ও ১৮টায় নতুন সংক্ষেপ — প্রভাতী ও সান্ধ্য সংস্করণ।</p>"
+        "<p class=hint>প্রতিদিন ০৬টা ও ১৮টায় নতুন সংক্ষেপ — প্রভাতী ও সান্ধ্য সংস্করণ। "
+        "<a class=feed href=feed.xml>RSS</a></p>"
         f"<ul class=runs>{rows}</ul></body></html>"
     )
     (SITE_DIR / "index.html").write_text(index_html)
     (SITE_DIR / "style.css").write_text(STYLE_CSS)
+    (SITE_DIR / "feed.xml").write_text(build_rss(manifest))
 
 
 # --- email -------------------------------------------------------------------

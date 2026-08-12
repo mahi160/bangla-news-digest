@@ -16,6 +16,8 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--dusk);outline-offse
   letter-spacing:.04em;color:var(--muted)}
 .back:hover{color:var(--dusk)}
 .hint{color:var(--muted);font-size:.9rem;margin:0 0 2rem}
+.hint .feed{font-family:var(--font-mono);font-size:.78rem;letter-spacing:.04em;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:.1rem .55rem}
+.hint .feed:hover{color:var(--dusk);border-color:var(--dusk)}
 .masthead h1{font-family:var(--font-display);font-size:2rem;margin:0 0 .5rem;font-weight:600}
 .masthead .arc{height:3px;border:0;border-radius:2px;margin:0 0 1.1rem;
   background:linear-gradient(90deg,var(--dawn),var(--paper-raised) 50%,var(--dusk))}
