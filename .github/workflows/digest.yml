@@ -9,6 +9,7 @@ on:
 
 permissions:
   contents: write
+  actions: write  # to kick off pages.yml below
 
 jobs:
   run:
@@ -26,3 +27,8 @@ jobs:
           git add site/ state.json
           git diff --cached --quiet || git commit -m "digest: $(date -u +%Y-%m-%dT%H:%MZ) (CI, degraded)"
           git push
+      # pushes made with GITHUB_TOKEN don't trigger other workflows (anti-
+      # recursion), so pages.yml's `on: push` won't fire on its own here.
+      - run: gh workflow run pages.yml --ref main
+        env:
+          GH_TOKEN: ${{ github.token }}
