@@ -54,34 +54,110 @@ DEGRADED_NOTICE = (
     "AI সারাংশ পরিষেবা অনুপলব্ধ ছিল — সারাংশের বদলে মূল শিরোনাম ও অংশ দেখানো হলো।"
 )
 
+# --- date formatting (Bangla, twice-daily edition-aware) --------------------
+# ponytail: fixed 06:00/18:00 cadence per README -- hour<12 is always the
+# morning run in practice, no timezone-of-reader handling needed for a
+# single-author digest site.
+
+_BN_DIGITS = str.maketrans("0123456789", "০১২৩৪৫৬৭৮৯")
+_BN_MONTHS = ["জানুয়ারি", "ফেব্রুয়ারি", "মার্চ", "এপ্রিল", "মে", "জুন", "জুলাই",
+              "আগস্ট", "সেপ্টেম্বর", "অক্টোবর", "নভেম্বর", "ডিসেম্বর"]
+_BN_WEEKDAYS = ["সোমবার", "মঙ্গলবার", "বুধবার", "বৃহস্পতিবার", "শুক্রবার", "শনিবার", "রবিবার"]
+
+
+def bn_date(dt):
+    return f"{dt.day} {_BN_MONTHS[dt.month - 1]}, {dt.year}".translate(_BN_DIGITS)
+
+
+def bn_weekday(dt):
+    return _BN_WEEKDAYS[dt.weekday()]
+
+
+def bn_time(dt):
+    period = ("রাত" if dt.hour < 4 else "ভোর" if dt.hour < 6 else "সকাল" if dt.hour < 12
+              else "দুপুর" if dt.hour < 16 else "বিকাল" if dt.hour < 18 else "সন্ধ্যা" if dt.hour < 20
+              else "রাত")
+    h12 = dt.hour % 12 or 12
+    return f"{period} {h12}:{dt.minute:02d}".translate(_BN_DIGITS)
+
+
+def edition(dt):
+    """(label, css-class) for the twice-daily run cadence -- the one piece
+    of structure in this UI that actually encodes something (which of the
+    two daily runs this is), so it gets its own visual treatment."""
+    return ("প্রভাতী সংস্করণ", "dawn") if dt.hour < 12 else ("সান্ধ্য সংস্করণ", "dusk")
+
+
 STYLE_CSS = """\
-:root{--fg:#1b1b1b;--muted:#6b6b6b;--accent:#0a6847;--border:#e4e4e4;--bg:#fdfdfb}
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Bangla&family=Hind+Siliguri:wght@400;600&family=IBM+Plex+Mono:wght@400;500&display=swap');
+:root{
+  --ink:#211f1a;--muted:#6d7266;--paper:#eef0e6;--paper-raised:#e6e9da;--line:#d5d8c8;
+  --dawn:#d99a2b;--dusk:#46527a;--warn-bg:#f5e6d8;--warn-fg:#8a4a1f;
+  --font-display:'Tiro Bangla',Georgia,serif;
+  --font-body:'Hind Siliguri','Noto Sans Bengali',system-ui,-apple-system,sans-serif;
+  --font-mono:'IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,monospace;
+}
 *{box-sizing:border-box}
-body{max-width:42em;margin:0 auto;padding:2rem 1.25rem 4rem;
-  font-family:"Noto Sans Bengali","Segoe UI",system-ui,-apple-system,sans-serif;
-  line-height:1.7;color:var(--fg);background:var(--bg)}
-h1{font-size:1.6rem;margin:.5rem 0 1rem}
-h2{font-size:1.25rem;margin:2rem 0 .75rem;border-bottom:2px solid var(--accent);padding-bottom:.3rem}
-h3{font-size:1.05rem;margin:1.5rem 0 .5rem;color:var(--accent)}
-h4{font-size:1rem;margin:0 0 .35rem}
-a{color:var(--accent);text-decoration:none}
+body{max-width:42em;margin:0 auto;padding:2.5rem 1.25rem 4rem;font-family:var(--font-body);
+  line-height:1.75;color:var(--ink);background:var(--paper)}
+a{color:var(--dusk);text-decoration:none}
 a:hover{text-decoration:underline}
-.back{display:inline-block;margin-bottom:.5rem;font-size:.9rem;color:var(--muted)}
-.hint{color:var(--muted);font-weight:normal;font-size:.85rem;margin:0 0 1.5rem}
-.notice{background:#fff4e5;border:1px solid #f0c36d;border-radius:8px;padding:.6rem .9rem;font-size:.9rem;margin-bottom:1.5rem}
-.quick-digest{background:#f6f8f7;border:1px solid var(--border);border-radius:12px;padding:.25rem 1.25rem 1.25rem;margin-bottom:2.5rem}
+a:focus-visible,button:focus-visible{outline:2px solid var(--dusk);outline-offset:2px}
+.back{display:inline-block;margin-bottom:.5rem;font-family:var(--font-mono);font-size:.78rem;
+  letter-spacing:.04em;color:var(--muted)}
+.back:hover{color:var(--dusk)}
+.hint{color:var(--muted);font-size:.9rem;margin:0 0 2rem}
+.masthead h1{font-family:var(--font-display);font-size:2rem;margin:0 0 .5rem;font-weight:600}
+.masthead .arc{height:3px;border:0;border-radius:2px;margin:0 0 1.1rem;
+  background:linear-gradient(90deg,var(--dawn),var(--paper-raised) 50%,var(--dusk))}
+.run-head{border-left:4px solid var(--line);padding-left:1rem;margin:0 0 2.25rem}
+.run-head.dawn{border-color:var(--dawn)}
+.run-head.dusk{border-color:var(--dusk)}
+.run-head .eyebrow{font-family:var(--font-mono);font-size:.72rem;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--muted);margin:0 0 .35rem}
+.run-head.dawn .eyebrow{color:var(--dawn)}
+.run-head.dusk .eyebrow{color:var(--dusk)}
+.run-head h1{font-family:var(--font-display);font-size:1.85rem;margin:0;font-weight:600}
+.run-head h1 .time{font-family:var(--font-body);font-weight:400;color:var(--muted);font-size:1.1rem;margin-left:.5rem}
+h2{font-family:var(--font-display);font-size:1.2rem;margin:2.25rem 0 .9rem;padding-bottom:.35rem;
+  border-bottom:1px solid var(--line);font-weight:600}
+h3{font-family:var(--font-mono);font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--dusk);margin:1.75rem 0 .6rem;font-weight:500}
+article h4{font-family:var(--font-display);font-size:1.08rem;margin:0 0 .4rem;line-height:1.5;font-weight:600}
+.teaser-list strong{font-family:var(--font-display);font-weight:600}
+.notice{background:var(--warn-bg);color:var(--warn-fg);border:1px solid #e3c39a;border-radius:8px;
+  padding:.65rem .95rem;font-size:.9rem;margin-bottom:1.75rem}
+.quick-digest{background:var(--paper-raised);border:1px solid var(--line);border-radius:14px;
+  padding:.3rem 1.35rem 1.35rem;margin-bottom:2.75rem}
 .teaser-list{list-style:none;margin:0;padding:0}
-.teaser-list li{padding:.55rem 0;border-bottom:1px solid var(--border)}
+.teaser-list li{padding:.6rem 0;border-bottom:1px solid var(--line)}
 .teaser-list li:last-child{border-bottom:none}
-article{margin-bottom:1.75rem;padding-bottom:1.75rem;border-bottom:1px solid var(--border)}
+article{margin-bottom:1.85rem;padding-bottom:1.85rem;border-bottom:1px solid var(--line)}
 article:last-child{border-bottom:none}
-.meta{color:var(--muted);font-size:.85rem}
-ul.runs{list-style:none;padding:0;margin-top:1.5rem}
-ul.runs li{border:1px solid var(--border);border-radius:10px;padding:.85rem 1.1rem;margin-bottom:.6rem;
-  display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:.5rem}
-.badge{display:inline-block;background:#eef6f2;color:var(--accent);border-radius:12px;padding:.2rem .65rem;
-  font-size:.8rem;margin-left:.35rem}
-.badge.warn{background:#fff4e5;color:#8a5a00}
+article p{margin:.5rem 0}
+.meta{font-family:var(--font-mono);color:var(--muted);font-size:.78rem}
+.meta a{color:var(--muted)}
+.meta a:hover{color:var(--dusk)}
+ul.runs{list-style:none;padding:0;margin:0}
+ul.runs li{border:1px solid var(--line);border-left:4px solid var(--line);border-radius:10px;
+  padding:.9rem 1.1rem;margin-bottom:.65rem;display:flex;justify-content:space-between;
+  align-items:center;flex-wrap:wrap;gap:.6rem;background:var(--paper-raised)}
+ul.runs li.dawn{border-left-color:var(--dawn)}
+ul.runs li.dusk{border-left-color:var(--dusk)}
+ul.runs li a{display:flex;align-items:baseline;gap:.6rem;flex-wrap:wrap}
+.run-edition{font-family:var(--font-mono);font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+ul.runs li.dawn .run-edition{color:var(--dawn)}
+ul.runs li.dusk .run-edition{color:var(--dusk)}
+.run-date{font-family:var(--font-display);font-weight:600;color:var(--ink)}
+.run-time{font-family:var(--font-body);color:var(--muted);font-size:.9rem}
+.badge{display:inline-block;font-family:var(--font-mono);background:var(--paper);color:var(--dusk);
+  border:1px solid var(--line);border-radius:999px;padding:.2rem .65rem;font-size:.72rem;margin-left:.35rem}
+.badge.warn{background:var(--warn-bg);color:var(--warn-fg);border-color:#e3c39a}
+@media(max-width:30em){
+  .masthead h1{font-size:1.6rem}
+  .run-head h1{font-size:1.45rem}
+  .run-head h1 .time{display:block;margin-left:0}
+}
 """
 
 
@@ -344,12 +420,19 @@ def render_run_html(grouped, run_dt, degraded=False):
             )
     digest += "</section>"
     details += "</section>"
+    ed_label, ed_cls = edition(run_dt)
+    date_str, time_str = bn_date(run_dt), bn_time(run_dt)
+    header = (
+        f"<a class=back href=\"../index.html\">← সব সংস্করণ</a>"
+        f"<header class=\"run-head {ed_cls}\">"
+        f"<p class=eyebrow>{ed_label} · {bn_weekday(run_dt)}</p>"
+        f"<h1>{date_str} <span class=time>{time_str}</span></h1></header>"
+    )
     return (
         "<!doctype html><html lang=bn><head><meta charset=utf-8>"
-        f"<title>{run_dt.strftime('%Y-%m-%d %H:%M')} digest</title>"
+        f"<title>{date_str}, {time_str} — বাংলা সংবাদ সংক্ষেপ</title>"
         "<link rel=stylesheet href=\"../style.css\"></head><body>"
-        f"<a class=back href=\"../index.html\">← সব সংস্করণ</a>"
-        f"<h1>{run_dt.strftime('%Y-%m-%d %H:%M')}</h1>{notice}{digest}{details}</body></html>"
+        f"{header}{notice}{digest}{details}</body></html>"
     )
 
 
@@ -365,19 +448,25 @@ def update_site(grouped, run_dt, degraded=False):
     manifest.insert(0, {"dt": run_dt.isoformat(), "file": fname, "counts": counts, "degraded": degraded})
     RUNS_MANIFEST.write_text(json.dumps(manifest, ensure_ascii=False, indent=2))
 
-    rows = "".join(
-        "<li><a href=\"{file}\">{dt}</a><span>{badges}{warn}</span></li>".format(
-            file=r["file"], dt=r["dt"],
-            badges="".join(f'<span class=badge>{k} {v}</span>' for k, v in r["counts"].items()),
-            warn='<span class="badge warn">AI অনুপলব্ধ</span>' if r.get("degraded") else "",
+    def _row(r):
+        dt = datetime.fromisoformat(r["dt"])
+        ed_label, ed_cls = edition(dt)
+        badges = "".join(f'<span class=badge>{k} {v}</span>' for k, v in r["counts"].items())
+        warn = '<span class="badge warn">AI অনুপলব্ধ</span>' if r.get("degraded") else ""
+        return (
+            f'<li class="{ed_cls}"><a href="{r["file"]}">'
+            f'<span class=run-edition>{ed_label.split()[0]}</span>'
+            f'<span class=run-date>{bn_date(dt)}</span>'
+            f'<span class=run-time>{bn_time(dt)}</span></a>'
+            f'<span>{badges}{warn}</span></li>'
         )
-        for r in manifest
-    )
+
+    rows = "".join(_row(r) for r in manifest)
     index_html = (
         "<!doctype html><html lang=bn><head><meta charset=utf-8>"
         "<title>বাংলা সংবাদ সংক্ষেপ</title><link rel=stylesheet href=style.css></head>"
-        "<body><h1>বাংলা সংবাদ সংক্ষেপ</h1>"
-        "<p class=hint>প্রতিদিন ০৬টা ও ১৮টায় নতুন সংক্ষেপ।</p>"
+        "<body><header class=masthead><h1>বাংলা সংবাদ সংক্ষেপ</h1><hr class=arc></header>"
+        "<p class=hint>প্রতিদিন ০৬টা ও ১৮টায় নতুন সংক্ষেপ — প্রভাতী ও সান্ধ্য সংস্করণ।</p>"
         f"<ul class=runs>{rows}</ul></body></html>"
     )
     (SITE_DIR / "index.html").write_text(index_html)
