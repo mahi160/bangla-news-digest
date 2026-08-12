@@ -451,9 +451,19 @@ def render_run_html(grouped, run_dt, degraded=False):
     )
 
 
+def _run_fragment(fname):
+    """The digest+details body of an archived run page, stripped of its
+    outer <html>/<head>/header chrome -- shared by the tabbed index and the
+    RSS feed so both show the actual news, not just a link to it."""
+    html = (SITE_DIR / fname).read_text()
+    m = re.search(r"</header>(.*)</body>", html, re.S)
+    return m.group(1) if m else ""
+
+
 def build_rss(manifest):
-    """Plain RSS 2.0 feed of runs, newest first (manifest is already in that
-    order) -- one <item> per edition, linking to its HTML archive page."""
+    """RSS 2.0 feed of runs, newest first (manifest is already in that
+    order) -- one <item> per edition, full digest+details content inlined
+    into <description> so feed readers show the actual news, not a stub."""
     items = []
     for r in manifest[:RSS_ITEM_CAP]:
         dt = datetime.fromisoformat(r["dt"])
@@ -461,16 +471,13 @@ def build_rss(manifest):
         ed_label, _ = edition(bd)
         title = f"{ed_label} — {bn_date(bd)}, {bn_time(bd)}"
         link = SITE_URL + r["file"]
-        desc = ", ".join(f"{k}: {v}" for k, v in r["counts"].items())
-        if r.get("degraded"):
-            desc += " (AI অনুপলব্ধ)"
         items.append(
             "<item>"
             f"<title>{xml_escape(title)}</title>"
             f"<link>{xml_escape(link)}</link>"
             f"<guid>{xml_escape(link)}</guid>"
             f"<pubDate>{format_datetime(dt)}</pubDate>"
-            f"<description>{xml_escape(desc)}</description>"
+            f"<description>{xml_escape(_run_fragment(r['file']))}</description>"
             "</item>"
         )
     return (
@@ -541,11 +548,6 @@ def _prune_before(manifest, cutoff_date):
 def render_index(manifest):
     """Today's editions as tabs (radio-input CSS hack, no JS) instead of a
     growing list -- retention now caps this at a handful of same-day runs."""
-    def fragment(fname):
-        html = (SITE_DIR / fname).read_text()
-        m = re.search(r"</header>(.*)</body>", html, re.S)
-        return m.group(1) if m else ""
-
     tabs, panels = [], []
     for i, r in enumerate(manifest[:3]):
         bd = to_bd(datetime.fromisoformat(r["dt"]))
@@ -556,7 +558,7 @@ def render_index(manifest):
             f'<label for=tab-{i} class={ed_cls}>{ed_label.split()[0]} · {bn_time(bd)}</label>'
         )
         panels.append(
-            f'<div class=panel>{fragment(r["file"])}'
+            f'<div class=panel>{_run_fragment(r["file"])}'
             f'<p class=permalink><a href="{r["file"]}">স্থায়ী লিংক</a></p></div>'
         )
     return (
