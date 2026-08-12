@@ -67,6 +67,14 @@ _BN_DIGITS = str.maketrans("0123456789", "০১২৩৪৫৬৭৮৯")
 _BN_MONTHS = ["জানুয়ারি", "ফেব্রুয়ারি", "মার্চ", "এপ্রিল", "মে", "জুন", "জুলাই",
               "আগস্ট", "সেপ্টেম্বর", "অক্টোবর", "নভেম্বর", "ডিসেম্বর"]
 _BN_WEEKDAYS = ["সোমবার", "মঙ্গলবার", "বুধবার", "বৃহস্পতিবার", "শুক্রবার", "শনিবার", "রবিবার"]
+BD_TZ = timezone(timedelta(hours=6))
+
+
+def to_bd(dt):
+    """Editions/dates are always shown in Bangladesh local time -- run_dt is
+    UTC (datetime.now(timezone.utc)), so every display/labeling call site
+    converts through here first."""
+    return dt.astimezone(BD_TZ)
 
 
 def bn_date(dt):
@@ -144,21 +152,21 @@ article p{margin:.5rem 0}
 .meta{font-family:var(--font-mono);color:var(--muted);font-size:.78rem}
 .meta a{color:var(--muted)}
 .meta a:hover{color:var(--dusk)}
-ul.runs{list-style:none;padding:0;margin:0}
-ul.runs li{border:1px solid var(--line);border-left:4px solid var(--line);border-radius:10px;
-  padding:.9rem 1.1rem;margin-bottom:.65rem;display:flex;justify-content:space-between;
-  align-items:center;flex-wrap:wrap;gap:.6rem;background:var(--paper-raised)}
-ul.runs li.dawn{border-left-color:var(--dawn)}
-ul.runs li.dusk{border-left-color:var(--dusk)}
-ul.runs li a{display:flex;align-items:baseline;gap:.6rem;flex-wrap:wrap}
-.run-edition{font-family:var(--font-mono);font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
-ul.runs li.dawn .run-edition{color:var(--dawn)}
-ul.runs li.dusk .run-edition{color:var(--dusk)}
-.run-date{font-family:var(--font-display);font-weight:600;color:var(--ink)}
-.run-time{font-family:var(--font-body);color:var(--muted);font-size:.9rem}
-.badge{display:inline-block;font-family:var(--font-mono);background:var(--paper);color:var(--dusk);
-  border:1px solid var(--line);border-radius:999px;padding:.2rem .65rem;font-size:.72rem;margin-left:.35rem}
-.badge.warn{background:var(--warn-bg);color:var(--warn-fg);border-color:#e3c39a}
+.tabs{margin-top:1.5rem}
+.tabs input{position:absolute;width:1px;height:1px;opacity:0}
+.tabs input:focus-visible + label{outline:2px solid var(--dusk);outline-offset:2px}
+.tabs label{display:inline-block;font-family:var(--font-mono);font-size:.78rem;letter-spacing:.06em;
+  text-transform:uppercase;padding:.45rem 1.1rem;border:1px solid var(--line);border-radius:999px;
+  margin:0 .5rem .6rem 0;cursor:pointer;color:var(--muted);background:var(--paper-raised)}
+.tabs label.dawn{color:var(--dawn)}
+.tabs label.dusk{color:var(--dusk)}
+.tabs input:checked + label{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.tabs .panel{display:none}
+.tabs input:nth-of-type(1):checked ~ .panel:nth-of-type(1),
+.tabs input:nth-of-type(2):checked ~ .panel:nth-of-type(2),
+.tabs input:nth-of-type(3):checked ~ .panel:nth-of-type(3){display:block}
+.permalink{margin-top:1.5rem;font-family:var(--font-mono);font-size:.78rem}
+.permalink a{color:var(--muted)}
 @media(max-width:30em){
   .masthead h1{font-size:1.6rem}
   .run-head h1{font-size:1.45rem}
@@ -426,12 +434,13 @@ def render_run_html(grouped, run_dt, degraded=False):
             )
     digest += "</section>"
     details += "</section>"
-    ed_label, ed_cls = edition(run_dt)
-    date_str, time_str = bn_date(run_dt), bn_time(run_dt)
+    bd = to_bd(run_dt)
+    ed_label, ed_cls = edition(bd)
+    date_str, time_str = bn_date(bd), bn_time(bd)
     header = (
         f"<a class=back href=\"../index.html\">← সব সংস্করণ</a>"
         f"<header class=\"run-head {ed_cls}\">"
-        f"<p class=eyebrow>{ed_label} · {bn_weekday(run_dt)}</p>"
+        f"<p class=eyebrow>{ed_label} · {bn_weekday(bd)}</p>"
         f"<h1>{date_str} <span class=time>{time_str}</span></h1></header>"
     )
     return (
@@ -448,8 +457,9 @@ def build_rss(manifest):
     items = []
     for r in manifest[:RSS_ITEM_CAP]:
         dt = datetime.fromisoformat(r["dt"])
-        ed_label, _ = edition(dt)
-        title = f"{ed_label} — {bn_date(dt)}, {bn_time(dt)}"
+        bd = to_bd(dt)
+        ed_label, _ = edition(bd)
+        title = f"{ed_label} — {bn_date(bd)}, {bn_time(bd)}"
         link = SITE_URL + r["file"]
         desc = ", ".join(f"{k}: {v}" for k, v in r["counts"].items())
         if r.get("degraded"):
@@ -475,44 +485,115 @@ def build_rss(manifest):
     )
 
 
-def update_site(grouped, run_dt, degraded=False):
+def build_opds(manifest):
+    """Minimal OPDS 1.2 acquisition feed (Atom + acquisition links) -- only
+    entries with an archived EPUB get a download link; degraded runs still
+    have one (build_epub always runs), older pre-this-feature entries won't."""
+    entries = []
+    for r in manifest[:RSS_ITEM_CAP]:
+        epub_name = Path(r["file"]).stem + ".epub"
+        if not (SITE_DIR / "epubs" / epub_name).exists():
+            continue
+        dt = datetime.fromisoformat(r["dt"])
+        bd = to_bd(dt)
+        ed_label, _ = edition(bd)
+        title = f"{ed_label} — {bn_date(bd)}, {bn_time(bd)}"
+        html_link = SITE_URL + r["file"]
+        epub_link = f"{SITE_URL}epubs/{epub_name}"
+        desc = ", ".join(f"{k}: {v}" for k, v in r["counts"].items())
+        entries.append(
+            "<entry>"
+            f"<title>{xml_escape(title)}</title>"
+            f"<id>{xml_escape(html_link)}</id>"
+            f"<updated>{dt.isoformat()}</updated>"
+            f'<content type="text">{xml_escape(desc)}</content>'
+            f'<link rel="http://opds-spec.org/acquisition" href="{xml_escape(epub_link)}" type="application/epub+zip"/>'
+            f'<link rel="alternate" href="{xml_escape(html_link)}" type="text/html"/>'
+            "</entry>"
+        )
+    return (
+        '<?xml version="1.0" encoding="UTF-8"?>'
+        '<feed xmlns="http://www.w3.org/2005/Atom" xmlns:opds="http://opds-spec.org/2010/catalog">'
+        f"<id>{SITE_URL}opds.xml</id>"
+        "<title>বাংলা সংবাদ সংক্ষেপ</title>"
+        f"<updated>{datetime.now(timezone.utc).isoformat()}</updated>"
+        f'<link rel="self" href="{SITE_URL}opds.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>'
+        + "".join(entries) +
+        "</feed>"
+    )
+
+
+def _prune_before(manifest, cutoff_date):
+    """Drop (and delete the archived .html/.epub for) every run older than
+    cutoff_date (a BD-local date()). Called on the first edition of a new
+    day, so the site/feed only ever hold \"today so far\" -- what keeps
+    site/epubs/ bounded enough for OPDS to make sense."""
+    kept, dropped = [], []
+    for r in manifest:
+        target = kept if to_bd(datetime.fromisoformat(r["dt"])).date() >= cutoff_date else dropped
+        target.append(r)
+    for r in dropped:
+        (SITE_DIR / r["file"]).unlink(missing_ok=True)
+        (SITE_DIR / "epubs" / (Path(r["file"]).stem + ".epub")).unlink(missing_ok=True)
+    return kept
+
+
+def render_index(manifest):
+    """Today's editions as tabs (radio-input CSS hack, no JS) instead of a
+    growing list -- retention now caps this at a handful of same-day runs."""
+    def fragment(fname):
+        html = (SITE_DIR / fname).read_text()
+        m = re.search(r"</header>(.*)</body>", html, re.S)
+        return m.group(1) if m else ""
+
+    tabs, panels = [], []
+    for i, r in enumerate(manifest[:3]):
+        bd = to_bd(datetime.fromisoformat(r["dt"]))
+        ed_label, ed_cls = edition(bd)
+        checked = " checked" if i == 0 else ""
+        tabs.append(
+            f'<input type=radio name=tab id=tab-{i}{checked}>'
+            f'<label for=tab-{i} class={ed_cls}>{ed_label.split()[0]} · {bn_time(bd)}</label>'
+        )
+        panels.append(
+            f'<div class=panel>{fragment(r["file"])}'
+            f'<p class=permalink><a href="{r["file"]}">স্থায়ী লিংক</a></p></div>'
+        )
+    return (
+        "<!doctype html><html lang=bn><head><meta charset=utf-8>"
+        "<title>বাংলা সংবাদ সংক্ষেপ</title><link rel=stylesheet href=style.css>"
+        "<link rel=alternate type=application/rss+xml title=\"বাংলা সংবাদ সংক্ষেপ RSS\" href=feed.xml></head>"
+        "<body><header class=masthead><h1>বাংলা সংবাদ সংক্ষেপ</h1><hr class=arc></header>"
+        "<p class=hint>আজকের প্রভাতী ও সান্ধ্য সংস্করণ — গতকালের সংস্করণ পরের সকালে সরে যায়। "
+        "<a class=feed href=feed.xml>RSS</a> <a class=feed href=opds.xml>OPDS</a></p>"
+        f'<div class=tabs>{"".join(tabs)}{"".join(panels)}</div></body></html>'
+    )
+
+
+def update_site(grouped, run_dt, degraded=False, epub_path=None):
     SITE_DIR.mkdir(exist_ok=True)
     (SITE_DIR / "runs").mkdir(exist_ok=True)
+    (SITE_DIR / "epubs").mkdir(exist_ok=True)
 
+    bd_now = to_bd(run_dt)
+    _, ed_cls = edition(bd_now)
     manifest = json.loads(RUNS_MANIFEST.read_text()) if RUNS_MANIFEST.exists() else []
+    if ed_cls == "dawn":  # morning edition: drop everything from before today
+        manifest = _prune_before(manifest, bd_now.date())
+
     fname = f"runs/{run_dt.strftime('%Y-%m-%d-%H%M')}.html"
     (SITE_DIR / fname).write_text(render_run_html(grouped, run_dt, degraded=degraded))
+    if epub_path and epub_path.exists():
+        (SITE_DIR / "epubs" / (Path(fname).stem + ".epub")).write_bytes(epub_path.read_bytes())
 
     counts = {s: len(grouped.get(s, [])) for s in SECTIONS if grouped.get(s)}
     manifest.insert(0, {"dt": run_dt.isoformat(), "file": fname, "counts": counts, "degraded": degraded})
     RUNS_MANIFEST.write_text(json.dumps(manifest, ensure_ascii=False, indent=2))
 
-    def _row(r):
-        dt = datetime.fromisoformat(r["dt"])
-        ed_label, ed_cls = edition(dt)
-        badges = "".join(f'<span class=badge>{k} {v}</span>' for k, v in r["counts"].items())
-        warn = '<span class="badge warn">AI অনুপলব্ধ</span>' if r.get("degraded") else ""
-        return (
-            f'<li class="{ed_cls}"><a href="{r["file"]}">'
-            f'<span class=run-edition>{ed_label.split()[0]}</span>'
-            f'<span class=run-date>{bn_date(dt)}</span>'
-            f'<span class=run-time>{bn_time(dt)}</span></a>'
-            f'<span>{badges}{warn}</span></li>'
-        )
-
-    rows = "".join(_row(r) for r in manifest)
-    index_html = (
-        "<!doctype html><html lang=bn><head><meta charset=utf-8>"
-        "<title>বাংলা সংবাদ সংক্ষেপ</title><link rel=stylesheet href=style.css>"
-        "<link rel=alternate type=application/rss+xml title=\"বাংলা সংবাদ সংক্ষেপ RSS\" href=feed.xml></head>"
-        "<body><header class=masthead><h1>বাংলা সংবাদ সংক্ষেপ</h1><hr class=arc></header>"
-        "<p class=hint>প্রতিদিন ০৬টা ও ১৮টায় নতুন সংক্ষেপ — প্রভাতী ও সান্ধ্য সংস্করণ। "
-        "<a class=feed href=feed.xml>RSS</a></p>"
-        f"<ul class=runs>{rows}</ul></body></html>"
-    )
-    (SITE_DIR / "index.html").write_text(index_html)
+    (SITE_DIR / "index.html").write_text(render_index(manifest))
     (SITE_DIR / "style.css").write_text(STYLE_CSS)
     (SITE_DIR / "feed.xml").write_text(build_rss(manifest))
+    (SITE_DIR / "opds.xml").write_text(build_opds(manifest))
 
 
 # --- email -------------------------------------------------------------------
@@ -583,7 +664,7 @@ def main():
 
     epub_path = ROOT / f"digest-{now.strftime('%Y%m%d-%H%M')}.epub"
     build_epub(grouped, now, epub_path, degraded=degraded)
-    update_site(grouped, now, degraded=degraded)
+    update_site(grouped, now, degraded=degraded, epub_path=epub_path)
     # Content is on the site archive now -- mark seen regardless of whether
     # email succeeds below, so a flaky SMTP send doesn't resurface/duplicate
     # the same articles next run.
