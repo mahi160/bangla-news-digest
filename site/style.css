@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Tiro+Bangla&family=Hind+Siliguri:wght@400;600&family=IBM+Plex+Mono:wght@400;500&display=swap');
 :root{
   --ink:#211f1a;--muted:#6d7266;--paper:#eef0e6;--paper-raised:#e6e9da;--line:#d5d8c8;
-  --dawn:#d99a2b;--dusk:#46527a;--warn-bg:#f5e6d8;--warn-fg:#8a4a1f;
+  --dawn:#d99a2b;--dusk:#46527a;
   --font-display:'Tiro Bangla',Georgia,serif;
   --font-body:'Hind Siliguri','Noto Sans Bengali',system-ui,-apple-system,sans-serif;
   --font-mono:'IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,monospace;
@@ -36,8 +36,6 @@ h3{font-family:var(--font-mono);font-size:.72rem;letter-spacing:.12em;text-trans
   color:var(--dusk);margin:1.75rem 0 .6rem;font-weight:500}
 article h4{font-family:var(--font-display);font-size:1.08rem;margin:0 0 .4rem;line-height:1.5;font-weight:600}
 .teaser-list strong{font-family:var(--font-display);font-weight:600}
-.notice{background:var(--warn-bg);color:var(--warn-fg);border:1px solid #e3c39a;border-radius:8px;
-  padding:.65rem .95rem;font-size:.9rem;margin-bottom:1.75rem}
 .quick-digest{background:var(--paper-raised);border:1px solid var(--line);border-radius:14px;
   padding:.3rem 1.35rem 1.35rem;margin-bottom:2.75rem}
 .teaser-list{list-style:none;margin:0;padding:0}

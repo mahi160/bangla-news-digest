@@ -1,14 +1,13 @@
 # Bangla News Digest
 
 Pulls RSS from Prothom Alo, Banglanews24, BBC Bangla, ESPN Cricinfo, and a
-handful of tech blogs, summarizes each article into Bengali (via `pi` CLI /
-Claude Sonnet 5), builds a Bengali EPUB, emails it, and publishes a browsable
-archive to GitHub Pages.
+handful of tech blogs, collects each article's headline + a plain-text
+excerpt (no AI summary, see docs/adr/0004), builds a Bengali EPUB, emails it,
+and publishes a browsable archive + RSS + OPDS feed to GitHub Pages.
 
-Run manually/locally whenever you want a fresh digest -- no scheduled CI run
-(pi's subscription auth is local-only, see docs/adr/0003). Pushing the result
-updates the GitHub Pages archive automatically (`.github/workflows/pages.yml`
-just deploys `site/`, it doesn't run the pipeline).
+Runs on a schedule (06:00/18:00 Bangladesh time, `.github/workflows/digest.yml`)
+and can also be run manually/locally. Either way it commits+pushes `site/` and
+`state.json`; `.github/workflows/pages.yml` deploys the pushed `site/` to Pages.
 
 See `CONTEXT.md` for terminology and `docs/adr/` for the why-behind design decisions.
 
@@ -16,9 +15,9 @@ See `CONTEXT.md` for terminology and `docs/adr/` for the why-behind design decis
 
 1. **GitHub Pages**: Settings → Pages → Source → "GitHub Actions".
 
-2. **Sections/sources**: edit `config.py`. Adding a source is one dict entry; set `section` to a fixed section name if the feed is already single-category, or `None` to let the model classify each article.
+2. **Sections/sources/knobs**: edit `config.py`. Adding a source is one dict entry; set `section` to a fixed section name if the feed is already single-category, or `None` to fall back to `Local`. Retention window, excerpt/teaser length, RSS cap, and local timezone are all knobs there too.
 
-3. **pi auth**: `pi auth check --provider anthropic` should say "ready" (uses your existing subscription login, no API key needed).
+3. **Email (optional)**: set `SMTP_USER`/`SMTP_PASS`/`EMAIL_TO` as repo secrets (or env vars locally) to also email subscribers. Without them, the run still updates the site/feeds, it just logs and skips the email step.
 
 ## Run locally
 

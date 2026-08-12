@@ -49,7 +49,7 @@ def test_fetch_new_entries_dedups_and_respects_cutoff():
         {"link": "https://x/too-old", "title": "old", "published_parsed": old},
         {"link": "https://x/new-one", "title": "new", "published_parsed": fresh},
     ])
-    source = {"name": "Test Source", "url": "https://x/feed", "section": "Tech", "lang": "en"}
+    source = {"name": "Test Source", "url": "https://x/feed", "section": "Tech"}
     state = {"Test Source": {"seen_urls": ["https://x/already-seen"]}}
 
     with patch.object(pipeline.feedparser, "parse", return_value=fake_feed), \
@@ -100,18 +100,18 @@ def test_retry_raises_after_exhausting_attempts():
     print("ok: retry raises after exhausting attempts")
 
 
-def test_fallback_results_uses_raw_title_and_excerpt():
+def test_collect_results_uses_raw_title_and_excerpt():
     articles = [
         {"title": "Some Headline", "text": "a" * 500, "section_hint": None},
         {"title": "", "text": "short body", "section_hint": "Tech"},
     ]
-    results = pipeline.fallback_results(articles)
+    results = pipeline.collect_results(articles)
     assert results[0]["headline"] == "Some Headline"
     assert results[0]["summary"].endswith("…")
     assert results[0]["section"] == "Local", "no hint -> defaults to Local, not crash"
     assert results[1]["headline"], "missing title still gets a placeholder, not empty"
     assert results[1]["section"] == "Tech", "hinted section passed through untouched"
-    print("ok: fallback_results")
+    print("ok: collect_results")
 
 
 def test_parse_recipients_handles_separators_and_whitespace():
@@ -127,6 +127,6 @@ if __name__ == "__main__":
     test_make_teaser_stops_at_first_sentence_and_caps_length()
     test_retry_succeeds_after_transient_failures()
     test_retry_raises_after_exhausting_attempts()
-    test_fallback_results_uses_raw_title_and_excerpt()
+    test_collect_results_uses_raw_title_and_excerpt()
     test_parse_recipients_handles_separators_and_whitespace()
     print("all tests passed")

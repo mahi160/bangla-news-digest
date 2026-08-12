@@ -1,11 +1,11 @@
 # Bangla News Digest
 
-An automated system that pulls Bangla news and tech RSS feeds, summarizes them, and delivers a Bengali EPUB digest by email twice a day.
+An automated system that pulls Bangla news and tech RSS feeds, collects each article's headline + excerpt (no AI summary, see docs/adr/0004), and delivers a Bengali EPUB digest by email twice a day.
 
 ## Language
 
 **Run**:
-A single digest generation cycle, kicked off manually (`python pipeline.py` on your own machine), that gathers articles published since the previous Run, summarizes them, builds an EPUB, and emails it out. Pushing the result updates the GitHub Pages archive.
+A single digest generation cycle -- scheduled in CI (`.github/workflows/digest.yml`) or kicked off manually (`python pipeline.py`) -- that gathers articles published since the previous Run, collects each into a headline+excerpt, builds an EPUB, and emails it out. Pushing the result updates the GitHub Pages archive.
 _Avoid_: Batch, cycle, job
 
 **Section**:

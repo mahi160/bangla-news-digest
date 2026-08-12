@@ -1,9 +1,10 @@
 name: digest
 
-# pi CLI auth (AI summaries) and SMTP secrets are local-only, so a scheduled
-# run here always falls back to degraded mode (raw headlines, no email) --
-# see pipeline.py's own fallback handling. Still fetches articles and
-# rebuilds the site/ archive, then pushes so pages.yml deploys it.
+# No AI summary step anymore (see docs/adr/0004) -- collection is plain
+# fetch+extract, no external auth needed. SMTP secrets are still optional;
+# a scheduled run here just logs and skips email if EMAIL_TO/SMTP_* aren't
+# set. Fetches articles, rebuilds the site/ archive, pushes so pages.yml
+# deploys it.
 on:
   schedule:
     - cron: "0 0,12 * * *"  # 06:00 and 18:00 Bangladesh time (UTC+6)
@@ -27,7 +28,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add site/ state.json
-          git diff --cached --quiet || git commit -m "digest: $(date -u +%Y-%m-%dT%H:%MZ) (CI, degraded)"
+          git diff --cached --quiet || git commit -m "digest: $(date -u +%Y-%m-%dT%H:%MZ) (CI)"
           git push
       # pushes made with GITHUB_TOKEN don't trigger other workflows (anti-
       # recursion), so pages.yml's `on: push` won't fire on its own here.

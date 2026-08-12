@@ -1,16 +1,14 @@
-"""Bangla news digest: fetch -> extract -> summarize (pi CLI / Claude Sonnet 5) ->
-EPUB + HTML archive page -> email. Run twice a day by GitHub Actions.
+"""Bangla news digest: fetch -> extract -> collect (no AI summary, see
+docs/adr/0004) -> EPUB + HTML archive page -> email. Run twice a day by
+GitHub Actions.
 
-Everything except summarize_batch() is deterministic, boring code on purpose
-(see docs/adr/0001, 0002, 0003) -- the model only turns article text into a
-Bengali headline+summary+section, no tool use, one batched call per run.
+Deterministic, boring code throughout -- knobs live in config.py.
 """
 import json
 import logging
 import os
 import re
 import smtplib
-import subprocess
 import sys
 import time
 from datetime import datetime, timedelta, timezone
@@ -24,8 +22,9 @@ import trafilatura
 from ebooklib import epub
 
 from config import (
-    LOOKBACK_HOURS, MAX_ARTICLE_CHARS, RETRY_ATTEMPTS, RETRY_BACKOFF_SECONDS,
-    SECTIONS, SEEN_URLS_KEEP, SOURCES,
+    EXCERPT_CHARS, LOCAL_TZ_OFFSET_HOURS, LOOKBACK_HOURS, MAX_ARTICLE_CHARS,
+    RETRY_ATTEMPTS, RETRY_BACKOFF_SECONDS, RSS_ITEM_CAP, SECTIONS,
+    SEEN_URLS_KEEP, SITE_URL, SOURCES, TEASER_CHARS,
 )
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
@@ -51,12 +50,6 @@ ROOT = Path(__file__).parent
 STATE_PATH = ROOT / "state.json"
 SITE_DIR = ROOT / "site"
 RUNS_MANIFEST = SITE_DIR / "runs.json"
-SITE_URL = "https://mahi160.github.io/bangla-news-digest/"
-RSS_ITEM_CAP = 30  # ponytail: fixed cap, plenty for a twice-daily feed -- add paging if this site outlives that
-
-DEGRADED_NOTICE = (
-    "AI সারাংশ পরিষেবা অনুপলব্ধ ছিল — সারাংশের বদলে মূল শিরোনাম ও অংশ দেখানো হলো।"
-)
 
 # --- date formatting (Bangla, twice-daily edition-aware) --------------------
 # ponytail: fixed 06:00/18:00 cadence per README -- hour<12 is always the
@@ -67,7 +60,7 @@ _BN_DIGITS = str.maketrans("0123456789", "০১২৩৪৫৬৭৮৯")
 _BN_MONTHS = ["জানুয়ারি", "ফেব্রুয়ারি", "মার্চ", "এপ্রিল", "মে", "জুন", "জুলাই",
               "আগস্ট", "সেপ্টেম্বর", "অক্টোবর", "নভেম্বর", "ডিসেম্বর"]
 _BN_WEEKDAYS = ["সোমবার", "মঙ্গলবার", "বুধবার", "বৃহস্পতিবার", "শুক্রবার", "শনিবার", "রবিবার"]
-BD_TZ = timezone(timedelta(hours=6))
+BD_TZ = timezone(timedelta(hours=LOCAL_TZ_OFFSET_HOURS))
 
 
 def to_bd(dt):
@@ -104,7 +97,7 @@ STYLE_CSS = """\
 @import url('https://fonts.googleapis.com/css2?family=Tiro+Bangla&family=Hind+Siliguri:wght@400;600&family=IBM+Plex+Mono:wght@400;500&display=swap');
 :root{
   --ink:#211f1a;--muted:#6d7266;--paper:#eef0e6;--paper-raised:#e6e9da;--line:#d5d8c8;
-  --dawn:#d99a2b;--dusk:#46527a;--warn-bg:#f5e6d8;--warn-fg:#8a4a1f;
+  --dawn:#d99a2b;--dusk:#46527a;
   --font-display:'Tiro Bangla',Georgia,serif;
   --font-body:'Hind Siliguri','Noto Sans Bengali',system-ui,-apple-system,sans-serif;
   --font-mono:'IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,monospace;
@@ -139,8 +132,6 @@ h3{font-family:var(--font-mono);font-size:.72rem;letter-spacing:.12em;text-trans
   color:var(--dusk);margin:1.75rem 0 .6rem;font-weight:500}
 article h4{font-family:var(--font-display);font-size:1.08rem;margin:0 0 .4rem;line-height:1.5;font-weight:600}
 .teaser-list strong{font-family:var(--font-display);font-weight:600}
-.notice{background:var(--warn-bg);color:var(--warn-fg);border:1px solid #e3c39a;border-radius:8px;
-  padding:.65rem .95rem;font-size:.9rem;margin-bottom:1.75rem}
 .quick-digest{background:var(--paper-raised);border:1px solid var(--line);border-radius:14px;
   padding:.3rem 1.35rem 1.35rem;margin-bottom:2.75rem}
 .teaser-list{list-style:none;margin:0;padding:0}
@@ -224,7 +215,6 @@ def fetch_new_entries(source, state, now):
         new_articles.append({
             "source": source["name"],
             "section_hint": source["section"],
-            "lang": source["lang"],
             "title": entry.get("title", "").strip(),
             "link": link,
             "text": text[:MAX_ARTICLE_CHARS],
@@ -246,69 +236,15 @@ def extract_text(url):
         return None
 
 
-# --- summarize via pi CLI (Claude Sonnet 5) ---------------------------------
-
-SUMMARY_SYSTEM_PROMPT = (
-    "You are a news summarization engine. You will be given a JSON array of "
-    "articles (fields: index, source, lang, section_hint, title, text). For "
-    "each article, produce a Bengali (Bangla script) headline and an "
-    "elaborate 3-6 sentence Bengali summary of its substance, regardless of "
-    "the article's original language. If section_hint is one of "
-    f"{SECTIONS}, copy it verbatim as \"section\". If section_hint is null, "
-    f"classify the article into exactly one of {SECTIONS} yourself.\n\n"
-    "Respond with ONLY a JSON array, no prose, no markdown fences: "
-    '[{"index": 0, "headline": "...", "summary": "...", "section": "..."}, ...]'
-)
-
-
-def summarize_batch(articles):
-    """One batched, non-agentic pi CLI call for the whole run (Claude Sonnet 5
-    via pi's existing subscription auth -- no separate ANTHROPIC_API_KEY).
-    Returns list of {index, headline, summary, section}."""
-    if not articles:
-        return []
-
-    payload = [
-        {
-            "index": i,
-            "source": a["source"],
-            "lang": a["lang"],
-            "section_hint": a["section_hint"],
-            "title": a["title"],
-            "text": a["text"],
-        }
-        for i, a in enumerate(articles)
-    ]
-    prompt = json.dumps(payload, ensure_ascii=False)
-
-    result = subprocess.run(
-        [
-            "pi", "--print", "--mode", "text",
-            "--model", "anthropic/claude-sonnet-5",
-            "--system-prompt", SUMMARY_SYSTEM_PROMPT,
-            "--no-tools", "--no-session", "--no-extensions", "--no-skills",
-            "--no-prompt-templates", "--no-themes", "--no-context-files",
-        ],
-        input=prompt, capture_output=True, text=True, timeout=600,
-    )
-    if result.returncode != 0:
-        raise RuntimeError(f"pi CLI failed: {result.stderr[:2000]}")
-
-    text = result.stdout.strip()
-    text = re.sub(r"^```(json)?|```$", "", text, flags=re.MULTILINE).strip()
-    return json.loads(text)
-
-
-def fallback_results(articles):
-    """No-AI fallback: raw title + plain-text excerpt, no translation/summary.
-    Section defaults to Local when there's no section_hint, since real
-    classification needs the AI we don't have right now -- best-effort, not
-    accurate, but subscribers still get every headline instead of nothing.
-    """
+def collect_results(articles):
+    """No AI: each article's own title as headline, a plain-text excerpt of
+    its extracted body as "summary". Section defaults to Local when the
+    source doesn't map cleanly (see SOURCES in config.py) -- no classifier
+    to do better than that."""
     results = []
     for i, a in enumerate(articles):
-        excerpt = a["text"][:400].strip()
-        if len(a["text"]) > 400:
+        excerpt = a["text"][:EXCERPT_CHARS].strip()
+        if len(a["text"]) > EXCERPT_CHARS:
             excerpt = excerpt.rsplit(" ", 1)[0] + "…"
         results.append({
             "index": i,
@@ -321,7 +257,7 @@ def fallback_results(articles):
 
 # --- assemble ----------------------------------------------------------------
 
-def make_teaser(text, max_chars=120):
+def make_teaser(text, max_chars=TEASER_CHARS):
     """First sentence (Bengali or Latin punctuation) of the full summary, capped.
     This is the one-line version readers see in the 5-7 min quick digest --
     the full multi-sentence text is only shown in the details section."""
@@ -335,9 +271,9 @@ def make_teaser(text, max_chars=120):
     return text[:max_chars].rsplit(" ", 1)[0] + "…"
 
 
-def group_by_section(articles, ai_results):
+def group_by_section(articles, results):
     grouped = {s: [] for s in SECTIONS}
-    by_index = {r["index"]: r for r in ai_results}
+    by_index = {r["index"]: r for r in results}
     anchor_n = 0
     for i, a in enumerate(articles):
         r = by_index.get(i)
@@ -345,7 +281,7 @@ def group_by_section(articles, ai_results):
             continue
         section = a["section_hint"] or r.get("section")
         if section not in grouped:
-            log.warning("unknown section %r from AI, dropping article", section)
+            log.warning("unknown section %r, dropping article", section)
             continue
         grouped[section].append({
             "anchor": f"a{anchor_n}",
@@ -361,7 +297,7 @@ def group_by_section(articles, ai_results):
 
 # --- epub --------------------------------------------------------------------
 
-def build_epub(grouped, run_dt, out_path, degraded=False):
+def build_epub(grouped, run_dt, out_path):
     book = epub.EpubBook()
     book.set_identifier(f"bn-news-digest-{run_dt.isoformat()}")
     book.set_title(f"বাংলা সংবাদ সংক্ষেপ - {run_dt.strftime('%Y-%m-%d %H:%M')}")
@@ -369,10 +305,8 @@ def build_epub(grouped, run_dt, out_path, degraded=False):
 
     # Chapter 1: quick digest -- headline + one-line teaser for every article,
     # a ~5-7 min read. Each links into the matching detail chapter below for
-    # readers who want the full elaborate summary.
+    # readers who want the full excerpt.
     digest_html = "<h1>সংক্ষিপ্ত সারাংশ (৫-৭ মিনিট)</h1>"
-    if degraded:
-        digest_html += f"<p><i>{DEGRADED_NOTICE}</i></p>"
     for section in SECTIONS:
         items = grouped.get(section, [])
         if not items:
@@ -392,8 +326,6 @@ def build_epub(grouped, run_dt, out_path, degraded=False):
         if not items:
             continue
         html = f"<h1>{section} — বিস্তারিত</h1>"
-        if degraded:
-            html += f"<p><i>{DEGRADED_NOTICE}</i></p>"
         for a in items:
             html += (
                 f"<h2 id=\"{a['anchor']}\">{a['headline']}</h2>"
@@ -414,8 +346,7 @@ def build_epub(grouped, run_dt, out_path, degraded=False):
 
 # --- site (GitHub Pages archive) --------------------------------------------
 
-def render_run_html(grouped, run_dt, degraded=False):
-    notice = f"<p class=notice>{DEGRADED_NOTICE}</p>" if degraded else ""
+def render_run_html(grouped, run_dt):
     digest = f"<section class=quick-digest><h2>সংক্ষিপ্ত সারাংশ <span class=hint>(৫-৭ মিনিট)</span></h2>"
     details = "<section class=details><h2>বিস্তারিত</h2>"
     for section in SECTIONS:
@@ -447,7 +378,7 @@ def render_run_html(grouped, run_dt, degraded=False):
         "<!doctype html><html lang=bn><head><meta charset=utf-8>"
         f"<title>{date_str}, {time_str} — বাংলা সংবাদ সংক্ষেপ</title>"
         "<link rel=stylesheet href=\"../style.css\"></head><body>"
-        f"{header}{notice}{digest}{details}</body></html>"
+        f"{header}{digest}{details}</body></html>"
     )
 
 
@@ -494,8 +425,8 @@ def build_rss(manifest):
 
 def build_opds(manifest):
     """Minimal OPDS 1.2 acquisition feed (Atom + acquisition links) -- only
-    entries with an archived EPUB get a download link; degraded runs still
-    have one (build_epub always runs), older pre-this-feature entries won't."""
+    entries with an archived EPUB get a download link (pre-this-feature
+    entries won't have one)."""
     entries = []
     for r in manifest[:RSS_ITEM_CAP]:
         epub_name = Path(r["file"]).stem + ".epub"
@@ -572,7 +503,7 @@ def render_index(manifest):
     )
 
 
-def update_site(grouped, run_dt, degraded=False, epub_path=None):
+def update_site(grouped, run_dt, epub_path=None):
     SITE_DIR.mkdir(exist_ok=True)
     (SITE_DIR / "runs").mkdir(exist_ok=True)
     (SITE_DIR / "epubs").mkdir(exist_ok=True)
@@ -584,12 +515,12 @@ def update_site(grouped, run_dt, degraded=False, epub_path=None):
         manifest = _prune_before(manifest, bd_now.date())
 
     fname = f"runs/{run_dt.strftime('%Y-%m-%d-%H%M')}.html"
-    (SITE_DIR / fname).write_text(render_run_html(grouped, run_dt, degraded=degraded))
+    (SITE_DIR / fname).write_text(render_run_html(grouped, run_dt))
     if epub_path and epub_path.exists():
         (SITE_DIR / "epubs" / (Path(fname).stem + ".epub")).write_bytes(epub_path.read_bytes())
 
     counts = {s: len(grouped.get(s, [])) for s in SECTIONS if grouped.get(s)}
-    manifest.insert(0, {"dt": run_dt.isoformat(), "file": fname, "counts": counts, "degraded": degraded})
+    manifest.insert(0, {"dt": run_dt.isoformat(), "file": fname, "counts": counts})
     RUNS_MANIFEST.write_text(json.dumps(manifest, ensure_ascii=False, indent=2))
 
     (SITE_DIR / "index.html").write_text(render_index(manifest))
@@ -607,7 +538,7 @@ def parse_recipients(raw):
     return [e.strip() for e in re.split(r"[,\n;]+", raw) if e.strip()]
 
 
-def send_email(epub_path, run_dt, grouped, degraded=False):
+def send_email(epub_path, run_dt, grouped):
     to_addrs = parse_recipients(os.environ["EMAIL_TO"])
     if not to_addrs:
         raise RuntimeError("EMAIL_TO has no valid addresses")
@@ -617,12 +548,11 @@ def send_email(epub_path, run_dt, grouped, degraded=False):
     smtp_pass = os.environ["SMTP_PASS"]
 
     counts = ", ".join(f"{s}: {len(grouped.get(s, []))}" for s in SECTIONS if grouped.get(s))
-    note = f" {DEGRADED_NOTICE}" if degraded else ""
     msg = EmailMessage()
     msg["Subject"] = f"বাংলা সংবাদ সংক্ষেপ - {run_dt.strftime('%Y-%m-%d %H:%M')}"
     msg["From"] = smtp_user
     msg["To"] = smtp_user  # subscribers are Bcc'd -- they shouldn't see each other's addresses
-    msg.set_content(f"আজকের সংক্ষেপ সংযুক্ত। ({counts}){note}")
+    msg.set_content(f"আজকের সংক্ষেপ সংযুক্ত। ({counts})")
     msg.add_attachment(
         epub_path.read_bytes(), maintype="application", subtype="epub+zip",
         filename=epub_path.name,
@@ -653,33 +583,26 @@ def main():
         save_state(state)
         return
 
-    log.info("summarizing %d articles via pi CLI (Claude Sonnet 5)", len(articles))
-    degraded = False
-    try:
-        ai_results = retry(lambda: summarize_batch(articles), what="claude summarization")
-    except Exception:
-        log.exception("summarization failed after retries -- falling back to raw listings, no AI summary this run")
-        ai_results = fallback_results(articles)
-        degraded = True
-
-    grouped = group_by_section(articles, ai_results)
+    log.info("collecting %d articles (no AI summary)", len(articles))
+    results = collect_results(articles)
+    grouped = group_by_section(articles, results)
 
     epub_path = ROOT / f"digest-{now.strftime('%Y%m%d-%H%M')}.epub"
-    build_epub(grouped, now, epub_path, degraded=degraded)
-    update_site(grouped, now, degraded=degraded, epub_path=epub_path)
+    build_epub(grouped, now, epub_path)
+    update_site(grouped, now, epub_path=epub_path)
     # Content is on the site archive now -- mark seen regardless of whether
     # email succeeds below, so a flaky SMTP send doesn't resurface/duplicate
     # the same articles next run.
     save_state(state)
 
     try:
-        retry(lambda: send_email(epub_path, now, grouped, degraded=degraded), what="email send")
+        retry(lambda: send_email(epub_path, now, grouped), what="email send")
     except Exception:
         log.exception("email send failed after retries -- digest is still on the site archive")
     finally:
         epub_path.unlink(missing_ok=True)  # not archived in git either way
 
-    log.info("run complete (degraded=%s)", degraded)
+    log.info("run complete")
 
 
 if __name__ == "__main__":
