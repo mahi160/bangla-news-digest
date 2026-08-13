@@ -115,142 +115,173 @@ FONT_LINKS = (
     '<link rel=preconnect href="https://fonts.googleapis.com">'
     '<link rel=preconnect href="https://fonts.gstatic.com" crossorigin>'
     '<link rel=stylesheet href="https://fonts.googleapis.com/css2'
-    "?family=Anek+Bangla:wdth,wght@75..100,400..700"
-    "&amp;family=Mina:wght@400;700"
-    "&amp;family=Noto+Serif+Bengali:wght@500;700;800"
+    "?family=Galada"
+    "&amp;family=Tiro+Bangla:ital@0;1"
+    "&amp;family=Hind+Siliguri:wght@400;500;600;700"
     '&amp;display=swap">'
 )
 
-# Same two-ink identity as before (docs/adr/0005) -- only the *structure*
-# changed (tabs + modal, see docs/adr/0006), not the palette/type.
+# Palette + type + signature: see docs/adr/0007. Three roles --
+# Galada (hero date, used once), Tiro Bangla (headlines), Hind Siliguri
+# (everything else) -- and one signature element, .horizon, a gradient
+# strip that's literally the sky colour of whichever edition is showing:
+# amber dawn, indigo dusk. Driven by :has() off the same tab radios used
+# for panel switching (see docs/adr/0006), so it costs no extra JS.
 STYLE_CSS = """\
 :root{
-  --stock:#f1e4c3; --block:#f0e2be; --ink:#191410;
-  --red:#b82219;  --red-rev:#f0674c; --rule:#c2a96f; --faded:#6f5f42;
-  --display:'Noto Serif Bengali',Georgia,serif;
-  --body:'Mina','Noto Sans Bengali',system-ui,-apple-system,sans-serif;
-  --util:'Anek Bangla','Noto Sans Bengali',system-ui,-apple-system,sans-serif;
-  --grain:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)' opacity='.05'/%3E%3C/svg%3E");
+  --paper:#ECEAE4; --paper-deep:#E3E0D6; --ink:#16181D;
+  --iris:#453E78; --iris-soft:#E4E1F0;
+  --dawn:#E2963C; --dusk:#2C2653;
+  --rule:#D6D2C6; --faded:#5F5A49;
+  --display:'Galada',cursive;
+  --headline:'Tiro Bangla',Georgia,serif;
+  --ui:'Hind Siliguri','Noto Sans Bengali',system-ui,-apple-system,sans-serif;
 }
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
 body{max-width:56rem;margin:0 auto;padding:1.75rem 1.15rem 4rem;
-  font-family:var(--body);font-size:1.02rem;line-height:1.7;
-  color:var(--ink);background:var(--stock) var(--grain) repeat}
-a{color:var(--red);text-decoration:none}
+  font-family:var(--ui);font-size:1.02rem;line-height:1.7;
+  color:var(--ink);background:var(--paper)}
+a{color:var(--iris);text-decoration:none}
 a:hover{text-decoration:underline;text-underline-offset:.18em}
-a:focus-visible{outline:2px solid var(--red);outline-offset:3px}
-.rule2{border:0;height:3px;margin:0;
-  border-top:3px solid var(--ink);border-bottom:2px solid var(--red)}
+a:focus-visible{outline:2px solid var(--iris);outline-offset:3px}
+@media(prefers-reduced-motion:no-preference){
+  body{animation:rise .5s ease-out both}
+}
+@keyframes rise{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
 
-/* --- masthead -------------------------------------------------------- */
-.masthead{margin:0 0 1.5rem}
-.masthead .eyebrow{font-family:var(--util);font-variation-settings:'wdth' 84,'wght' 600;
-  font-size:.82rem;letter-spacing:.06em;color:var(--red);margin:.9rem 0 .2rem}
-.masthead .date{font-family:var(--display);font-weight:800;
-  font-size:clamp(1.7rem,6.5vw,2.4rem);line-height:1.2;margin:0 0 .3rem;
-  display:flex;flex-wrap:wrap;align-items:baseline;gap:.6rem}
-.masthead .weekday{font-family:var(--util);font-variation-settings:'wdth' 86,'wght' 500;
-  font-size:1rem;font-weight:400;color:var(--faded)}
-.masthead .feeds{margin:.2rem 0 0;display:flex;gap:.4rem}
-.feeds a{font-family:var(--util);font-variation-settings:'wdth' 82,'wght' 600;
-  font-size:.72rem;letter-spacing:.1em;padding:.16rem .6rem;
-  border:1.5px solid var(--rule);color:var(--faded)}
-.feeds a:hover{border-color:var(--red);color:var(--red);text-decoration:none}
-.back{display:inline-block;margin:0 0 1.1rem;font-family:var(--util);
-  font-variation-settings:'wdth' 85;font-size:.82rem;color:var(--faded)}
-.back:hover{color:var(--red)}
+/* --- masthead + signature horizon ------------------------------------ */
+.masthead{margin:0 0 1.6rem}
+.masthead .eyebrow{font-family:var(--ui);font-weight:600;
+  font-size:.82rem;letter-spacing:.02em;color:var(--iris);margin:0 0 .25rem}
+.masthead .date{font-family:var(--display);font-weight:400;
+  font-size:clamp(2.3rem,9vw,3.4rem);line-height:1;margin:0 0 .5rem;
+  display:flex;flex-wrap:wrap;align-items:baseline;gap:.7rem}
+.masthead .weekday{font-family:var(--ui);font-weight:500;
+  font-size:.95rem;color:var(--faded)}
+.masthead .feeds{margin:0 0 .9rem;display:flex;gap:.4rem}
+.feeds a{font-family:var(--ui);font-weight:600;
+  font-size:.72rem;letter-spacing:.06em;padding:.16rem .6rem;
+  border:1.5px solid var(--rule);color:var(--faded);border-radius:1rem}
+.feeds a:hover{border-color:var(--iris);color:var(--iris);text-decoration:none}
+.back{display:inline-block;margin:0 0 1.1rem;font-family:var(--ui);
+  font-weight:500;font-size:.82rem;color:var(--faded)}
+.back:hover{color:var(--iris)}
+/* The one bold move on the page: a strip that's the actual sky colour of
+   the edition being read. Static ed_cls class on the standalone run page,
+   :has() off the tab radios on the interactive index. */
+.horizon{height:.5rem;border-radius:.25rem;margin:0 0 1.5rem;background-size:200% 100%;
+  background-image:linear-gradient(100deg,#F6D9A8,var(--dawn) 45%,#B9542F 85%)}
+.horizon.dusk,body:has(#ed1:checked) .horizon{
+  background-image:linear-gradient(100deg,var(--dusk),#5B4B8A 55%,#8A7BB8 100%)}
+@media(prefers-reduced-motion:no-preference){
+  .horizon{animation:drift 16s ease-in-out infinite alternate}
+}
+@keyframes drift{from{background-position:0% 0}to{background-position:100% 0}}
 
 /* --- visually-hidden radios (CSS-only tabs + column toggle) ---------- */
 /* No JS for either control: :checked drives the panel/grid it targets via
    :has(), which also means these controls work with JS disabled. Not
    display:none -- kept focusable, and popped visible on keyboard focus. */
-.vh{position:absolute;opacity:0;width:1px;height:1px;margin:-1px;overflow:hidden}
-.vh:focus-visible{opacity:1;width:auto;height:auto;position:static;margin:0 .4rem 0 0;outline:2px solid var(--red)}
+.vh{position:absolute;appearance:none;opacity:0;width:1px;height:1px;margin:-1px;overflow:hidden;border:none;background:transparent}
+.vh:focus-visible{opacity:1;width:auto;height:auto;position:static;margin:0 .4rem 0 0;outline:2px solid var(--iris)}
 
 /* --- edition tabs ------------------------------------------------------ */
-.tabs{display:flex;gap:.5rem;margin:0 0 1.1rem;border-bottom:2px solid var(--ink)}
-.tab{font-family:var(--display);font-weight:700;font-size:1.02rem;cursor:pointer;
-  padding:.55rem 1rem .5rem;color:var(--faded);border-bottom:3px solid transparent;
-  margin-bottom:-2px;user-select:none}
-.tab .tab-sub{display:block;font-family:var(--util);font-variation-settings:'wdth' 84;
-  font-weight:400;font-size:.74rem;color:var(--faded)}
+.tabs{display:flex;gap:.3rem;margin:0 0 1.1rem;border-bottom:1px solid var(--rule)}
+.tab{font-family:var(--headline);font-style:italic;font-size:1.05rem;cursor:pointer;
+  padding:.55rem 1rem .5rem;color:var(--faded);border-bottom:2px solid transparent;
+  margin-bottom:-1px;user-select:none;transition:color .15s}
+.tab .tab-sub{display:block;font-family:var(--ui);font-style:normal;
+  font-weight:500;font-size:.72rem;color:var(--faded)}
 main:has(#ed0:checked) label.tab[for=ed0],
-main:has(#ed1:checked) label.tab[for=ed1]{color:var(--red);border-bottom-color:var(--red)}
+main:has(#ed1:checked) label.tab[for=ed1]{color:var(--iris);border-bottom-color:var(--iris)}
 
 /* --- column toggle ------------------------------------------------------ */
 .colsbar{display:flex;justify-content:flex-end;gap:.3rem;margin:0 0 1.2rem}
-.colsbar label{font-family:var(--util);font-variation-settings:'wdth' 84,'wght' 600;
+.colsbar label{font-family:var(--ui);font-weight:600;
   font-size:.76rem;padding:.28rem .65rem;border:1.5px solid var(--rule);
-  color:var(--faded);cursor:pointer}
+  color:var(--faded);cursor:pointer;border-radius:1.2rem;transition:color .15s,border-color .15s}
 main:has(#c1:checked) label[for=c1],
-main:has(#c2:checked) label[for=c2]{color:var(--red);border-color:var(--red)}
+main:has(#c2:checked) label[for=c2]{color:var(--iris);border-color:var(--iris)}
 
 /* --- panels + category chips ------------------------------------------- */
 .panel{display:none}
 main:has(#ed0:checked) #p0{display:block}
 main:has(#ed1:checked) #p1{display:block}
-.chips{display:flex;flex-wrap:wrap;gap:.5rem;margin:0 0 1.6rem}
-.chip{font-family:var(--util);font-variation-settings:'wdth' 82,'wght' 600;
+.chips{display:flex;flex-wrap:wrap;gap:.5rem;margin:0 0 1.7rem}
+.chip{font-family:var(--ui);font-weight:600;
   font-size:.82rem;padding:.32rem .55rem .28rem .75rem;border:1.5px solid var(--rule);
-  color:var(--ink);display:flex;align-items:center;gap:.4rem}
-.chip:hover{border-color:var(--red);color:var(--red);text-decoration:none}
-.chip-n{font-family:var(--display);font-weight:700;color:var(--red);font-size:.85rem}
+  border-radius:1.2rem;color:var(--ink);display:flex;align-items:center;gap:.4rem;
+  transition:border-color .15s,color .15s}
+.chip:hover{border-color:var(--iris);color:var(--iris);text-decoration:none}
+.chip-n{font-family:var(--headline);font-style:italic;color:var(--iris);font-size:.85rem}
 
-.catgrid{display:grid;grid-template-columns:1fr;gap:2.1rem}
+.catgrid{display:grid;grid-template-columns:1fr;gap:2.2rem}
 @media(min-width:640px){
   main:has(#c2:checked) .catgrid{grid-template-columns:1fr 1fr}
 }
 .cat{min-width:0}
-.cat-head{display:flex;align-items:center;gap:.7rem;margin:0 0 .5rem;
-  font-family:var(--display);font-weight:700;font-size:1.15rem}
-.cat-head .cat-n{font-family:var(--util);font-variation-settings:'wdth' 84,'wght' 600;
-  font-size:.85rem;color:var(--red);margin-left:auto}
-.rows{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule)}
+@media(prefers-reduced-motion:no-preference){
+  .cat{animation:rise .45s ease-out both}
+  .cat:nth-of-type(1){animation-delay:.03s} .cat:nth-of-type(2){animation-delay:.09s}
+  .cat:nth-of-type(3){animation-delay:.15s} .cat:nth-of-type(4){animation-delay:.21s}
+  .cat:nth-of-type(5){animation-delay:.27s}
+}
+.cat-head{display:flex;align-items:baseline;gap:.6rem;margin:0 0 .6rem;
+  padding-bottom:.4rem;border-bottom:1px solid var(--rule);
+  font-family:var(--headline);font-weight:400;font-size:1.2rem}
+.cat-head .cat-n{font-family:var(--ui);font-weight:600;
+  font-size:.78rem;color:var(--iris);margin-left:auto}
+.rows{list-style:none;margin:0;padding:0}
 .rows>li{border-bottom:1px solid var(--rule)}
-.row{display:block;padding:.68rem .1rem;color:var(--ink)}
-.row:hover{background:rgba(184,34,25,.08);text-decoration:none}
-.row-hl{display:block;font-family:var(--display);font-weight:700;
-  font-size:1rem;line-height:1.45}
-.row-meta{display:block;font-family:var(--util);font-variation-settings:'wdth' 82;
+.rows>li:last-child{border-bottom:none}
+.row{display:block;padding:.7rem .15rem;color:var(--ink);border-radius:.3rem;transition:background .15s}
+.row:hover{background:var(--iris-soft);text-decoration:none}
+.row-hl{display:block;font-family:var(--headline);font-weight:400;
+  font-size:1.06rem;line-height:1.5}
+.row-meta{display:block;font-family:var(--ui);font-weight:500;
   font-size:.76rem;color:var(--faded);margin-top:.2rem}
 .empty{color:var(--faded)}
 
 /* --- modal / bottom sheet ------------------------------------------------ */
-dialog.modal{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);
-  margin:0;width:min(34rem,92vw);max-height:85vh;overflow:auto;border:2px solid var(--ink);
-  border-radius:.4rem;padding:0;background:var(--stock);color:var(--ink)}
-dialog.modal::backdrop{background:rgba(20,15,10,.55)}
-.m-img{display:block;width:100%;max-height:15rem;object-fit:cover;background:var(--block)}
-.modal-close{position:absolute;top:.5rem;right:.5rem;margin:0}
+dialog.modal{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%) scale(.97);
+  margin:0;width:min(34rem,92vw);max-height:85vh;overflow:auto;border:none;
+  border-radius:.6rem;padding:0;background:var(--paper);color:var(--ink);
+  box-shadow:0 24px 60px -12px rgba(22,24,29,.35);opacity:0;transition:opacity .18s,transform .18s}
+dialog.modal[open]{opacity:1;transform:translate(-50%,-50%) scale(1)}
+dialog.modal::backdrop{background:rgba(22,24,29,.5)}
+.m-img{display:block;width:100%;max-height:15rem;object-fit:cover;background:var(--paper-deep)}
+.modal-close{position:absolute;top:.6rem;right:.6rem;margin:0}
 .modal-close button{width:2.1rem;height:2.1rem;border:none;border-radius:50%;
-  background:var(--ink);color:var(--stock);font-size:1.1rem;line-height:1;cursor:pointer}
-.modal-body{padding:1.3rem 1.4rem 1.6rem}
-.m-hl{font-family:var(--display);font-weight:700;font-size:1.3rem;line-height:1.4;margin:0 0 .55rem}
-.modal-meta{display:flex;flex-wrap:wrap;gap:.5rem;margin:0 0 .8rem;
-  font-family:var(--util);font-variation-settings:'wdth' 84;font-size:.8rem;color:var(--faded)}
+  background:var(--ink);color:var(--paper);font-size:1.1rem;line-height:1;cursor:pointer}
+.modal-body{padding:1.4rem 1.5rem 1.7rem}
+.m-hl{font-family:var(--headline);font-weight:400;font-size:1.4rem;line-height:1.4;margin:0 0 .6rem}
+.modal-meta{display:flex;flex-wrap:wrap;gap:.5rem;margin:0 0 .9rem;
+  font-family:var(--ui);font-weight:500;font-size:.8rem;color:var(--faded)}
 .modal-meta>*+*::before{content:'·';margin-right:.5rem;color:var(--rule)}
-.m-excerpt{margin:0 0 1.1rem;color:var(--faded);line-height:1.65}
-.m-link{display:inline-block;background:var(--red);color:var(--stock);
-  font-family:var(--util);font-variation-settings:'wdth' 84,'wght' 600;
-  font-size:.85rem;padding:.55rem 1rem;border-radius:2rem}
+.m-excerpt{margin:0 0 1.2rem;color:var(--faded);line-height:1.65}
+.m-link{display:inline-block;background:var(--iris);color:var(--paper);
+  font-family:var(--ui);font-weight:600;
+  font-size:.85rem;padding:.55rem 1rem;border-radius:2rem;transition:background .15s}
 .m-link:hover{text-decoration:none;background:var(--ink)}
 @media(max-width:640px){
   dialog.modal{top:auto;left:0;bottom:0;transform:none;width:100%;max-width:none;
-    border-radius:1rem 1rem 0 0;border-bottom:none;max-height:88vh;
+    border-radius:1rem 1rem 0 0;max-height:88vh;opacity:1;
     animation:sheet-up .22s ease-out}
+  dialog.modal[open]{transform:none}
 }
 @keyframes sheet-up{from{transform:translateY(100%)}to{transform:translateY(0)}}
-@media(prefers-reduced-motion:reduce){dialog.modal{animation:none}}
+@media(prefers-reduced-motion:reduce){
+  dialog.modal,.horizon,.cat,body{animation:none;transition:none;opacity:1}
+}
 
-.colophon{margin:2.5rem 0 0;padding-top:.9rem;border-top:3px solid var(--ink);
-  font-family:var(--util);font-variation-settings:'wdth' 86;
-  font-size:.8rem;color:var(--faded)}
+.colophon{margin:2.6rem 0 0;padding-top:1rem;border-top:1px solid var(--rule);
+  font-family:var(--ui);font-size:.82rem;color:var(--faded)}
 .colophon p{margin:.35rem 0}
 
 @media print{
-  body{background:#fff;max-width:none}
-  .back,.feeds,.tabs,.colsbar,dialog{display:none}
+  body{background:#fff;max-width:none;animation:none}
+  .back,.feeds,.tabs,.colsbar,.horizon,dialog{display:none}
 }
 """
 
@@ -625,8 +656,7 @@ MODAL_SCRIPT = """\
 """
 
 
-MIXPANEL_SCRIPT = r"""\
-<script type="text/javascript">
+MIXPANEL_SCRIPT = r"""<script type="text/javascript">
   (function(e,c){if(!c.__SV){var l,h;window.mixpanel=c;c._i=[];c.init=function(q,r,f){function t(d,a){var g=a.split(".");2==g.length&&(d=d[g[0]],a=g[1]);d[a]=function(){d.push([a].concat(Array.prototype.slice.call(arguments,0)))}}var b=c;"undefined"!==typeof f?b=c[f]=[]:f="mixpanel";b.people=b.people||[];b.toString=function(d){var a="mixpanel";"mixpanel"!==f&&(a+="."+f);d||(a+=" (stub)");return a};b.people.toString=function(){return b.toString(1)+".people (stub)"};l="disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders start_session_recording stop_session_recording people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
   for(h=0;h<l.length;h++)t(b,l[h]);var n="set set_once union unset remove delete".split(" ");b.get_group=function(){function d(p){a[p]=function(){b.push([g,[p].concat(Array.prototype.slice.call(arguments,0))])}}for(var a={},g=["get_group"].concat(Array.prototype.slice.call(arguments,0)),m=0;m<n.length;m++)d(n[m]);return a};c._i.push([q,r,f])};c.__SV=1.2;var k=e.createElement("script");k.type="text/javascript";k.async=!0;k.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===
   e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";e=e.getElementsByTagName("script")[0];e.parentNode.insertBefore(k,e)}})(document,window.mixpanel||[])
@@ -656,13 +686,14 @@ def render_run_html(grouped, run_dt):
     direct link. Headlines link straight to the source (no modal needed on
     a page that's only ever read, not interacted with)."""
     bd = to_bd(run_dt)
-    ed_label, _ = edition(bd)
+    ed_label, ed_cls = edition(bd)
     title = f"{ed_label} \u00b7 {bn_date(bd)}"
     body = (
         '<link rel=stylesheet href="../style.css">'
         '<a class=back href="../index.html">\u2190 \u0986\u099c\u0995\u09c7\u09b0 \u09b8\u09ac \u09b8\u0982\u09b8\u09cd\u0995\u09b0\u09a3</a>'
         f'<header class=masthead><p class=eyebrow>{ed_label}</p>'
-        f'<h1 class=date>{bn_date(bd)}<span class=weekday>{bn_weekday(bd)}, {bn_time(bd)}</span></h1></header>'
+        f'<h1 class=date>{bn_date(bd)}<span class=weekday>{bn_weekday(bd)}, {bn_time(bd)}</span></h1>'
+        f'<div class="horizon {ed_cls}"></div></header>'
         f'<main>{_panel_html(grouped, "r")}</main>'
     )
     return _doc(
@@ -679,9 +710,9 @@ def render_index(manifest):
     editions = manifest[:2]  # a news-day is at most one dawn + one dusk run
     if not editions:
         body = (
-            "<header class=masthead><hr class=rule2>"
+            "<header class=masthead>"
             "<p class=eyebrow>বাংলা সংবাদ সংক্ষেপ</p>"
-            "<hr class=rule2></header>"
+            "</header>"
             "<p class=colophon>আজকের কোনো সংস্করণ এখনো প্রকাশ হয়নি।</p>"
         )
         return _doc("বাংলা সংবাদ সংক্ষেপ", body, "<link rel=stylesheet href=style.css>")
@@ -701,11 +732,11 @@ def render_index(manifest):
     tabs_html = f'<div class=tabs role=tablist>{tabs}</div>' if len(editions) > 1 else ""
 
     body = (
-        "<header class=masthead><hr class=rule2>"
+        "<header class=masthead>"
         "<p class=eyebrow>বাংলা সংবাদ সংক্ষেপ</p>"
         f'<h1 class=date>{bn_date(bd0)}<span class=weekday>{bn_weekday(bd0)}</span></h1>'
         "<p class=feeds><a href=feed.xml>RSS</a><a href=opds.xml>OPDS</a></p>"
-        "<hr class=rule2></header>"
+        "<div class=horizon></div></header>"
         f"<main>{radios}{tabs_html}"
         '<div class=colsbar aria-label="কলাম">'
         '<input type=radio name=cols id=c1 class=vh><label for=c1>১ কলাম</label>'
