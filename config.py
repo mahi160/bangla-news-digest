@@ -16,7 +16,8 @@ SECTIONS = ["Local", "International", "Entertainment", "Tech", "Sports"]
 SOURCES = [
     {"name": "Prothom Alo", "url": "https://www.prothomalo.com/feed", "section": None},
     {"name": "Banglanews24", "url": "https://www.banglanews24.com/rss.xml", "section": None},
-    {"name": "BDNews24 Bangla", "url": "https://bangla.bdnews24.com/rss", "section": None},
+    # BDNews24 Bangla (bangla.bdnews24.com/rss) tried and dropped: Cloudflare
+    # JS-challenge gates the feed URL, not fetchable by a plain HTTP client.
     {"name": "BBC Bangla World", "url": "https://feeds.bbci.co.uk/bengali/world/rss.xml", "section": "International"},
     {"name": "BBC Bangla Entertainment", "url": "https://feeds.bbci.co.uk/bengali/topics/entertainment/rss.xml", "section": "Entertainment"},
     {"name": "BBC Bangla Sport", "url": "https://feeds.bbci.co.uk/bengali/sport/rss.xml", "section": "Sports"},

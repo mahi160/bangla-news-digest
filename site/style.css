@@ -88,6 +88,12 @@ main:has(#ed3:checked) label.tab[for=ed3]{color:var(--iris);border-bottom-color:
 main:has(#c1:checked) label[for=c1],
 main:has(#c2:checked) label[for=c2]{color:var(--iris);border-color:var(--iris)}
 
+/* --- source filter (index page only -- JS-driven, see SRC_FILTER_SCRIPT) */
+.srcfilter{margin:0 0 1.2rem}
+.srcfilter summary{cursor:pointer;font-family:var(--ui);font-weight:600;font-size:.76rem;color:var(--faded)}
+.srclist{display:flex;flex-wrap:wrap;gap:.5rem .9rem;margin:.7rem 0 0;font-family:var(--ui);font-size:.76rem}
+.srclist label{display:flex;align-items:center;gap:.35rem;cursor:pointer}
+
 /* --- panels + category chips ------------------------------------------- */
 .panel{display:none}
 main:has(#ed0:checked) #p0{display:block}
@@ -136,6 +142,7 @@ main:has(#ed3:checked) #p3{display:block}
 .rows>li{border-bottom:1px solid var(--rule)}
 .rows>li:last-child{border-bottom:none}
 .row{display:block;padding:.7rem .15rem;color:var(--ink);border-radius:.3rem;transition:background .15s}
+.row[hidden]{display:none}  /* .row's own display:block above would otherwise beat the UA [hidden] rule */
 .row:hover{background:rgba(255,255,255,.5);text-decoration:none}
 .row-hl{display:block;font-family:var(--headline);font-weight:400;
   font-size:1.06rem;line-height:1.5}
