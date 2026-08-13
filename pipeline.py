@@ -208,10 +208,12 @@ a:focus-visible{outline:2px solid var(--iris);outline-offset:3px}
 .masthead .weekday{font-family:var(--ui);font-weight:500;
   font-size:.95rem;color:var(--faded)}
 .masthead .feeds{margin:0 0 .9rem;display:flex;gap:.4rem}
-.feeds a{font-family:var(--ui);font-weight:600;
+.feeds a,.feeds button{font-family:var(--ui);font-weight:600;
   font-size:.72rem;letter-spacing:.06em;padding:.16rem .6rem;
-  border:1.5px solid var(--rule);color:var(--faded);border-radius:1rem}
-.feeds a:hover{border-color:var(--iris);color:var(--iris);text-decoration:none}
+  border:1.5px solid var(--rule);color:var(--faded);border-radius:1rem;background:none;cursor:pointer}
+.feeds a:hover,.feeds button:hover{border-color:var(--iris);color:var(--iris);text-decoration:none}
+.sync-badge{display:inline-block;width:.4rem;height:.4rem;margin-left:.35rem;
+  border-radius:50%;background:var(--iris)}
 .back{display:inline-block;margin:0 0 1.1rem;font-family:var(--ui);
   font-weight:500;font-size:.82rem;color:var(--faded)}
 .back:hover{color:var(--iris)}
@@ -911,6 +913,106 @@ SRC_FILTER_SCRIPT = """\
 """
 
 
+# --- PWA (install + offline shell + manual/auto sync) -----------------------
+# Registered only from render_index -- the manifest's start_url is index.html,
+# and a service worker's default scope covers everything below its own URL,
+# so one registration on the index page is enough to also cover archived
+# /runs/*.html pages; those pages stay untouched (see render_run_html) rather
+# than each registering it themselves.
+
+# Single hand-authored mark (no image tooling / new dependency) -- iris disc,
+# paper glyph, colours copied from :root in STYLE_CSS. No apple-touch-icon
+# PNG yet, so "Add to Home Screen" on iOS won't pick up an icon -- add one if
+# iOS install starts mattering.
+ICON_SVG = """\
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<rect width="512" height="512" rx="96" fill="#453E78"/>
+<text x="256" y="336" font-family="sans-serif" font-size="260" font-weight="700" text-anchor="middle" fill="#ECEAE4">সং</text>
+</svg>
+"""
+
+# background/theme colours mirror :root's --paper/--ink in STYLE_CSS -- kept
+# in sync by hand, same call as the horizon-gradient duplication in
+# docs/adr/0010: not worth a shared templating path for two colour strings.
+PWA_MANIFEST = json.dumps({
+    "name": "বাংলা সংবাদ সংক্ষেপ",
+    "short_name": "সংক্ষেপ",
+    "start_url": "./index.html",
+    "scope": "./",
+    "display": "standalone",
+    "background_color": "#ECEAE4",
+    "theme_color": "#16181D",
+    "icons": [{"src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any"}],
+}, ensure_ascii=False, indent=2)
+
+# Network-first for pages (always try for the latest edition; only fall back
+# to whatever's cached when offline), cache-first for everything else
+# (style.css/icon/manifest/fonts -- rarely change, no reason to hit the
+# network for them every visit). Cache grows as-you-go (whatever a visitor
+# has actually opened), not pre-filled with the whole archive -- unbounded
+# for now, add pruning if that ever becomes a real problem.
+#
+# CACHE version bumps when this *strategy* changes, not per digest -- that's
+# what the update badge (PWA_SCRIPT below) is watching for.
+SW_JS = """\
+var CACHE = 'nd-v1';
+
+self.addEventListener('install', function(e){ self.skipWaiting(); });
+self.addEventListener('activate', function(e){ e.waitUntil(self.clients.claim()); });
+
+self.addEventListener('fetch', function(e){
+  if (e.request.method !== 'GET') return;
+  if (e.request.mode === 'navigate') {
+    e.respondWith(
+      fetch(e.request).then(function(res){
+        var copy = res.clone();
+        caches.open(CACHE).then(function(c){ c.put(e.request, copy); });
+        return res;
+      }).catch(function(){ return caches.match(e.request); })
+    );
+    return;
+  }
+  e.respondWith(
+    caches.match(e.request).then(function(cached){
+      return cached || fetch(e.request).then(function(res){
+        var copy = res.clone();
+        caches.open(CACHE).then(function(c){ c.put(e.request, copy); });
+        return res;
+      });
+    })
+  );
+});
+"""
+
+# Registers the service worker and wires the header's #sync button/#sync-badge
+# (markup added in render_index). "Sync" just reloads -- the fetch handler
+# above already goes to the network first on every navigation, so a reload is
+# the real "get the latest edition" action; the badge is the separate,
+# standard PWA signal that a *new service worker* (i.e. we shipped a new
+# caching strategy) is waiting, not a content-freshness indicator.
+PWA_SCRIPT = """\
+<script>
+(function(){
+  var btn = document.getElementById('sync');
+  if (btn) btn.addEventListener('click', function(){ location.reload(); });
+  if (!('serviceWorker' in navigator)) return;
+  navigator.serviceWorker.register('sw.js').then(function(reg){
+    reg.addEventListener('updatefound', function(){
+      var installing = reg.installing;
+      if (!installing) return;
+      installing.addEventListener('statechange', function(){
+        if (installing.state === 'installed' && reg.active) {
+          var badge = document.getElementById('sync-badge');
+          if (badge) badge.hidden = false;
+        }
+      });
+    });
+  });
+})();
+</script>
+"""
+
+
 MIXPANEL_SCRIPT = r"""<script type="text/javascript">
   (function(e,c){if(!c.__SV){var l,h;window.mixpanel=c;c._i=[];c.init=function(q,r,f){function t(d,a){var g=a.split(".");2==g.length&&(d=d[g[0]],a=g[1]);d[a]=function(){d.push([a].concat(Array.prototype.slice.call(arguments,0)))}}var b=c;"undefined"!==typeof f?b=c[f]=[]:f="mixpanel";b.people=b.people||[];b.toString=function(d){var a="mixpanel";"mixpanel"!==f&&(a+="."+f);d||(a+=" (stub)");return a};b.people.toString=function(){return b.toString(1)+".people (stub)"};l="disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders start_session_recording stop_session_recording people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
   for(h=0;h<l.length;h++)t(b,l[h]);var n="set set_once union unset remove delete".split(" ");b.get_group=function(){function d(p){a[p]=function(){b.push([g,[p].concat(Array.prototype.slice.call(arguments,0))])}}for(var a={},g=["get_group"].concat(Array.prototype.slice.call(arguments,0)),m=0;m<n.length;m++)d(n[m]);return a};c._i.push([q,r,f])};c.__SV=1.2;var k=e.createElement("script");k.type="text/javascript";k.async=!0;k.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===
@@ -1020,7 +1122,8 @@ def render_index(manifest):
         "<header class=masthead>"
         "<p class=eyebrow>বাংলা সংবাদ সংক্ষেপ</p>"
         f'<h1 class=date>{bn_date(bd0)}<span class=weekday>{bn_weekday(bd0)}</span></h1>'
-        "<p class=feeds><a href=feed.xml>RSS</a><a href=opds.xml>OPDS</a></p>"
+        "<p class=feeds><a href=feed.xml>RSS</a><a href=opds.xml>OPDS</a>"
+        '<button type=button id=sync>সিঙ্ক<span id=sync-badge class=sync-badge hidden></span></button></p>'
         "<div class=horizon></div></header>"
         f"<main>{radios}{tabs_html}"
         '<div class=colsbar aria-label="কলাম">'
@@ -1034,11 +1137,14 @@ def render_index(manifest):
         f"<style>{horizon_rules}</style>"
         f"{MODAL_SCRIPT}"
         f"{SRC_FILTER_SCRIPT}"
+        f"{PWA_SCRIPT}"
     )
     return _doc(
         f"{ed_label0} \u00b7 {bn_date(bd0)} \u2014 \u09ac\u09be\u0982\u09b2\u09be \u09b8\u0982\u09ac\u09be\u09a6 \u09b8\u0982\u0995\u09cd\u09b7\u09c7\u09aa",
         body,
         "<link rel=stylesheet href=style.css>"
+        "<link rel=manifest href=manifest.json>"
+        '<meta name=theme-color content="#16181D">'
         '<link rel=alternate type=application/rss+xml title="\u09ac\u09be\u0982\u09b2\u09be \u09b8\u0982\u09ac\u09be\u09a6 \u09b8\u0982\u0995\u09cd\u09b7\u09c7\u09aa RSS" href=feed.xml>',
     )
 
@@ -1156,6 +1262,9 @@ def update_site(grouped, run_dt, epub_path=None):
     (SITE_DIR / "style.css").write_text(STYLE_CSS)
     (SITE_DIR / "feed.xml").write_text(build_rss(manifest))
     (SITE_DIR / "opds.xml").write_text(build_opds(manifest))
+    (SITE_DIR / "manifest.json").write_text(PWA_MANIFEST)
+    (SITE_DIR / "icon.svg").write_text(ICON_SVG)
+    (SITE_DIR / "sw.js").write_text(SW_JS)
 
 
 # --- email -------------------------------------------------------------------

@@ -36,10 +36,12 @@ a:focus-visible{outline:2px solid var(--iris);outline-offset:3px}
 .masthead .weekday{font-family:var(--ui);font-weight:500;
   font-size:.95rem;color:var(--faded)}
 .masthead .feeds{margin:0 0 .9rem;display:flex;gap:.4rem}
-.feeds a{font-family:var(--ui);font-weight:600;
+.feeds a,.feeds button{font-family:var(--ui);font-weight:600;
   font-size:.72rem;letter-spacing:.06em;padding:.16rem .6rem;
-  border:1.5px solid var(--rule);color:var(--faded);border-radius:1rem}
-.feeds a:hover{border-color:var(--iris);color:var(--iris);text-decoration:none}
+  border:1.5px solid var(--rule);color:var(--faded);border-radius:1rem;background:none;cursor:pointer}
+.feeds a:hover,.feeds button:hover{border-color:var(--iris);color:var(--iris);text-decoration:none}
+.sync-badge{display:inline-block;width:.4rem;height:.4rem;margin-left:.35rem;
+  border-radius:50%;background:var(--iris)}
 .back{display:inline-block;margin:0 0 1.1rem;font-family:var(--ui);
   font-weight:500;font-size:.82rem;color:var(--faded)}
 .back:hover{color:var(--iris)}
