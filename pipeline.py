@@ -17,6 +17,7 @@ from email.message import EmailMessage
 from email.utils import format_datetime
 from html import escape as h_esc
 from pathlib import Path
+from urllib.parse import urlparse
 from xml.sax.saxutils import escape as xml_escape
 
 import feedparser
@@ -115,30 +116,29 @@ FONT_LINKS = (
     '<link rel=preconnect href="https://fonts.googleapis.com">'
     '<link rel=preconnect href="https://fonts.gstatic.com" crossorigin>'
     '<link rel=stylesheet href="https://fonts.googleapis.com/css2'
-    "?family=Galada"
-    "&amp;family=Tiro+Bangla:ital@0;1"
-    "&amp;family=Hind+Siliguri:wght@400;500;600;700"
+    "?family=Noto+Serif+Bengali:wght@500;700;800"
+    "&amp;family=Noto+Sans+Bengali:wght@400;500;600;700"
     '&amp;display=swap">'
 )
 
-# Palette + type + signature: see docs/adr/0007. Three roles --
-# Galada (hero date, used once), Tiro Bangla (headlines), Hind Siliguri
-# (everything else) -- and one signature element, .horizon, a gradient
-# strip that's literally the sky colour of whichever edition is showing:
-# amber dawn, indigo dusk. Driven by :has() off the same tab radios used
-# for panel switching (see docs/adr/0006), so it costs no extra JS.
+# Palette + type + signature: see docs/adr/0007 (superseded on type by the
+# follow-up in 0008: Noto Serif/Sans Bengali have the most complete glyph
+# and conjunct coverage of the options tried, which matters more for
+# Bengali body text than a characterful-but-thinner-coverage display face).
+# .horizon is the signature -- a gradient strip that's literally the sky
+# colour of whichever edition is showing, amber dawn / indigo dusk, driven
+# by :has() off the same tab radios used for panel switching (docs/adr/0006).
 STYLE_CSS = """\
 :root{
   --paper:#ECEAE4; --paper-deep:#E3E0D6; --ink:#16181D;
   --iris:#453E78; --iris-soft:#E4E1F0;
   --dawn:#E2963C; --dusk:#2C2653;
   --rule:#D6D2C6; --faded:#5F5A49;
-  --display:'Galada',cursive;
-  --headline:'Tiro Bangla',Georgia,serif;
-  --ui:'Hind Siliguri','Noto Sans Bengali',system-ui,-apple-system,sans-serif;
+  --headline:'Noto Serif Bengali',Georgia,serif;
+  --ui:'Noto Sans Bengali',system-ui,-apple-system,sans-serif;
 }
 *{box-sizing:border-box}
-html{-webkit-text-size-adjust:100%}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
 body{max-width:56rem;margin:0 auto;padding:1.75rem 1.15rem 4rem;
   font-family:var(--ui);font-size:1.02rem;line-height:1.7;
   color:var(--ink);background:var(--paper)}
@@ -149,6 +149,14 @@ a:focus-visible{outline:2px solid var(--iris);outline-offset:3px}
   body{animation:rise .5s ease-out both}
 }
 @keyframes rise{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+/* Jumping to a category via a chip is a real navigation, not just a
+   scroll -- a brief highlight on arrival confirms which one you landed on. */
+.cat:target{animation:landed 1.1s ease-out}
+@keyframes landed{from{background:var(--iris-soft)}to{background:transparent}}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .cat:target{animation:none}
+}
 
 /* --- masthead + signature horizon ------------------------------------ */
 .masthead{margin:0 0 1.6rem}
@@ -216,11 +224,17 @@ main:has(#ed1:checked) #p1{display:block}
 .chip:hover{border-color:var(--iris);color:var(--iris);text-decoration:none}
 .chip-n{font-family:var(--headline);font-style:italic;color:var(--iris);font-size:.85rem}
 
-.catgrid{display:grid;grid-template-columns:1fr;gap:2.2rem}
+/* Column flow, not a 2-cell grid: a grid would pin one category per cell,
+   so a 55-headline দেশ next to a 1-headline প্রযুক্তি leaves one column
+   towering over an almost-empty other. column-count lets categories
+   reflow across columns so the total text height balances instead. */
+.catgrid{column-count:1;column-gap:3rem}
 @media(min-width:640px){
-  main:has(#c2:checked) .catgrid{grid-template-columns:1fr 1fr}
+  main:has(#c2:checked) .catgrid{column-count:2}
 }
 .cat{min-width:0}
+.cat-head{break-after:avoid-column}
+.rows>li{break-inside:avoid-column}
 @media(prefers-reduced-motion:no-preference){
   .cat{animation:rise .45s ease-out both}
   .cat:nth-of-type(1){animation-delay:.03s} .cat:nth-of-type(2){animation-delay:.09s}
@@ -244,15 +258,25 @@ main:has(#ed1:checked) #p1{display:block}
 .empty{color:var(--faded)}
 
 /* --- modal / bottom sheet ------------------------------------------------ */
-dialog.modal{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%) scale(.97);
+/* Open: @starting-style gives the browser a real "from" state for an
+   element that's display:none the frame before, so the fade-in actually
+   plays instead of just appearing. Close: dialog has no closing event of
+   its own to animate against, so the .closing class (toggled by the modal
+   script, see MODAL_SCRIPT) holds the same off-state while [open] is still
+   true, and JS calls .close() only once that transition finishes. */
+dialog.modal{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%) scale(1);
   margin:0;width:min(34rem,92vw);max-height:85vh;overflow:auto;border:none;
   border-radius:.6rem;padding:0;background:var(--paper);color:var(--ink);
-  box-shadow:0 24px 60px -12px rgba(22,24,29,.35);opacity:0;transition:opacity .18s,transform .18s}
-dialog.modal[open]{opacity:1;transform:translate(-50%,-50%) scale(1)}
-dialog.modal::backdrop{background:rgba(22,24,29,.5)}
+  box-shadow:0 24px 60px -12px rgba(22,24,29,.35);opacity:1;
+  transition:opacity .18s ease,transform .18s ease}
+dialog.modal.closing{opacity:0;transform:translate(-50%,-50%) scale(.97)}
+@starting-style{
+  dialog.modal[open]{opacity:0;transform:translate(-50%,-50%) scale(.97)}
+}
+dialog.modal::backdrop{background:rgba(22,24,29,.5);transition:background .18s ease}
+@starting-style{ dialog.modal[open]::backdrop{background:rgba(22,24,29,0)} }
 .m-img{display:block;width:100%;max-height:15rem;object-fit:cover;background:var(--paper-deep)}
-.modal-close{position:absolute;top:.6rem;right:.6rem;margin:0}
-.modal-close button{width:2.1rem;height:2.1rem;border:none;border-radius:50%;
+.modal-close{position:absolute;top:.6rem;right:.6rem;width:2.1rem;height:2.1rem;border:none;border-radius:50%;
   background:var(--ink);color:var(--paper);font-size:1.1rem;line-height:1;cursor:pointer}
 .modal-body{padding:1.4rem 1.5rem 1.7rem}
 .m-hl{font-family:var(--headline);font-weight:400;font-size:1.4rem;line-height:1.4;margin:0 0 .6rem}
@@ -265,14 +289,13 @@ dialog.modal::backdrop{background:rgba(22,24,29,.5)}
   font-size:.85rem;padding:.55rem 1rem;border-radius:2rem;transition:background .15s}
 .m-link:hover{text-decoration:none;background:var(--ink)}
 @media(max-width:640px){
-  dialog.modal{top:auto;left:0;bottom:0;transform:none;width:100%;max-width:none;
-    border-radius:1rem 1rem 0 0;max-height:88vh;opacity:1;
-    animation:sheet-up .22s ease-out}
-  dialog.modal[open]{transform:none}
+  dialog.modal{top:auto;left:0;bottom:0;transform:translateY(0);width:100%;max-width:none;
+    border-radius:1rem 1rem 0 0;max-height:88vh;opacity:1;transition:transform .22s ease-out}
+  dialog.modal.closing{opacity:1;transform:translateY(100%)}
+  @starting-style{ dialog.modal[open]{transform:translateY(100%)} }
 }
-@keyframes sheet-up{from{transform:translateY(100%)}to{transform:translateY(0)}}
 @media(prefers-reduced-motion:reduce){
-  dialog.modal,.horizon,.cat,body{animation:none;transition:none;opacity:1}
+  dialog.modal,dialog.modal::backdrop,.horizon,.cat,body{animation:none!important;transition:none!important}
 }
 
 .colophon{margin:2.6rem 0 0;padding-top:1rem;border-top:1px solid var(--rule);
@@ -322,9 +345,15 @@ def extract_meta(url):
         return None
 
 
-def fetch_new_entries(source, state, now):
+def fetch_new_entries(source, state, now, seen_this_run):
     """Return new articles (dicts) from one source's feed. Never raises --
-    a dead source is logged and skipped, the run continues."""
+    a dead source is logged and skipped, the run continues.
+
+    seen_this_run is shared across every source in the same call to main()
+    -- some outlets (BBC Bangla) are listed both as a topic-specific feed
+    (World/Entertainment) and as their general mixed feed; SOURCES lists
+    the specific ones first, so an article both feeds carry only gets
+    captured once, with the more specific section."""
     src_state = state.setdefault(source["name"], {"seen_urls": []})
     seen = set(src_state["seen_urls"])
     cutoff = now - timedelta(hours=LOOKBACK_HOURS)
@@ -340,7 +369,7 @@ def fetch_new_entries(source, state, now):
     new_articles = []
     for entry in feed.entries:
         link = entry.get("link")
-        if not link or link in seen:
+        if not link or link in seen or link in seen_this_run:
             continue
 
         pub_dt = None
@@ -366,9 +395,29 @@ def fetch_new_entries(source, state, now):
             "published": pub_dt.isoformat() if pub_dt else None,
         })
         seen.add(link)
+        seen_this_run.add(link)
 
     src_state["seen_urls"] = list(seen)[-SEEN_URLS_KEEP:]
     return new_articles
+
+
+# First URL path segment -> section, for feeds that mix categories but whose
+# own site structure (e.g. prothomalo.com/sports/..., /technology/...)
+# already encodes one. No AI: just reading the outlet's own URLs. Outlets
+# with opaque/ID-only paths (Banglanews24's /news/<id>, BBC's hashed
+# /articles/<id>) don't match anything here and fall back to Local same as
+# before -- see BBC's topic-specific sources in config.py instead.
+_PATH_SECTION = {
+    "sports": "Sports", "sport": "Sports", "cricket": "Sports",
+    "entertainment": "Entertainment", "showbiz": "Entertainment", "glitz": "Entertainment",
+    "technology": "Tech", "tech": "Tech", "science": "Tech",
+    "world": "International", "international": "International",
+}
+
+
+def classify_by_link(link):
+    path = urlparse(link or "").path.strip("/").split("/")
+    return _PATH_SECTION.get(path[0].lower()) if path and path[0] else None
 
 
 def _strip_repeated_headline(text, title):
@@ -413,7 +462,7 @@ def collect_results(articles):
             "index": i,
             "headline": a["title"] or "(শিরোনামহীন)",
             "summary": excerpt,
-            "section": a["section_hint"] or "Local",
+            "section": a["section_hint"] or classify_by_link(a.get("link")) or "Local",
         })
     return results
 
@@ -612,7 +661,7 @@ def _panel_html(grouped, idx):
 
 MODAL_HTML = (
     '<dialog id=modal class=modal>'
-    '<form method=dialog class=modal-close><button aria-label="বন্ধ করুন">\u00d7</button></form>'
+    '<button type=button class=modal-close aria-label="বন্ধ করুন">\u00d7</button>'
     '<img class=m-img alt="" hidden>'
     '<div class=modal-body>'
     '<h3 class=m-hl></h3>'
@@ -623,15 +672,33 @@ MODAL_HTML = (
     '</div></dialog>'
 )
 
-# Vanilla, ~25 lines: reads the clicked row's data-* attributes into the one
-# modal, opens it with the native <dialog> API (backdrop dimming, Esc-to-close
-# and focus handling all come from the browser, not from this script).
+# Vanilla, ~35 lines. Reads the clicked row's data-* into the one modal and
+# opens it -- CSS (@starting-style, see STYLE_CSS) handles the open fade/scale
+# on its own. Closing needs this script either way: a <dialog> has no built-in
+# "about to close" moment to animate against, so close() is deferred until a
+# .closing transition finishes (or skipped straight to close() if the visitor
+# prefers reduced motion).
 MODAL_SCRIPT = """\
 <script>
 (function(){
   var modal = document.getElementById('modal');
   if (!modal) return;
+  var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  function closeModal(){
+    if (!modal.open || modal.classList.contains('closing')) return;
+    if (reduceMotion) { modal.close(); return; }
+    modal.classList.add('closing');
+    modal.addEventListener('transitionend', function onEnd(e){
+      if (e.target !== modal) return;
+      modal.removeEventListener('transitionend', onEnd);
+      modal.classList.remove('closing');
+      modal.close();
+    }, { once: true });
+  }
+
   document.addEventListener('click', function(e){
+    if (e.target.closest('.modal-close')) { closeModal(); return; }
     var row = e.target.closest('.row');
     if (!row) return;
     e.preventDefault();
@@ -650,7 +717,8 @@ MODAL_SCRIPT = """\
     else { link.hidden = true; }
     modal.showModal();
   });
-  modal.addEventListener('click', function(e){ if (e.target === modal) modal.close(); });
+  modal.addEventListener('click', function(e){ if (e.target === modal) closeModal(); });
+  modal.addEventListener('cancel', function(e){ e.preventDefault(); closeModal(); });
 })();
 </script>
 """
@@ -739,8 +807,8 @@ def render_index(manifest):
         "<div class=horizon></div></header>"
         f"<main>{radios}{tabs_html}"
         '<div class=colsbar aria-label="কলাম">'
-        '<input type=radio name=cols id=c1 class=vh><label for=c1>১ কলাম</label>'
-        '<input type=radio name=cols id=c2 class=vh checked><label for=c2>২ কলাম</label>'
+        '<input type=radio name=cols id=c1 class=vh checked><label for=c1>১ কলাম</label>'
+        '<input type=radio name=cols id=c2 class=vh><label for=c2>২ কলাম</label>'
         "</div>"
         f"<div class=panels>{panels}</div></main>"
         f"{MODAL_HTML}"
@@ -981,8 +1049,9 @@ def main():
     state = load_state()
 
     articles = []
+    seen_this_run = set()
     for source in SOURCES:
-        articles.extend(fetch_new_entries(source, state, now))
+        articles.extend(fetch_new_entries(source, state, now, seen_this_run))
 
     if not articles:
         log.info("no new articles this run, skipping digest")

@@ -67,11 +67,57 @@ def test_fetch_new_entries_dedups_and_respects_cutoff():
 
     with patch.object(pipeline.feedparser, "parse", return_value=fake_feed), \
          patch.object(pipeline, "extract_meta", return_value={"text": "some article body", "author": "", "image": ""}):
-        new_articles = pipeline.fetch_new_entries(source, state, now)
+        new_articles = pipeline.fetch_new_entries(source, state, now, set())
 
     links = {a["link"] for a in new_articles}
     assert links == {"https://x/new-one"}, links
     print("ok: fetch_new_entries dedup + cutoff")
+
+
+def test_fetch_new_entries_skips_urls_already_seen_this_run():
+    """Some outlets (BBC Bangla) are listed both as a topic feed and as
+    their general mixed feed; a shared seen_this_run set stops the same
+    article being captured twice with two different sections."""
+    now = datetime(2024, 1, 2, 6, 0, tzinfo=timezone.utc)
+    fresh = (now - timedelta(hours=1)).timetuple()
+    fake_feed = SimpleNamespace(bozo=False, entries=[
+        {"link": "https://x/already-this-run", "title": "t", "published_parsed": fresh},
+    ])
+    source = {"name": "Test Source", "url": "https://x/feed", "section": "Tech"}
+    seen_this_run = {"https://x/already-this-run"}
+
+    with patch.object(pipeline.feedparser, "parse", return_value=fake_feed), \
+         patch.object(pipeline, "extract_meta", return_value={"text": "body", "author": "", "image": ""}):
+        new_articles = pipeline.fetch_new_entries(source, {}, now, seen_this_run)
+    assert new_articles == []
+    print("ok: fetch_new_entries skips urls already seen this run")
+
+
+def test_classify_by_link():
+    assert pipeline.classify_by_link("https://www.prothomalo.com/sports/cricket/8fdqj2xuxp") == "Sports"
+    assert pipeline.classify_by_link("https://www.prothomalo.com/technology/xyz") == "Tech"
+    assert pipeline.classify_by_link("https://www.prothomalo.com/entertainment/xyz") == "Entertainment"
+    assert pipeline.classify_by_link("https://www.prothomalo.com/world/xyz") == "International"
+    assert pipeline.classify_by_link("https://www.prothomalo.com/bangladesh/xyz") is None, \
+        "unmapped path segments fall through to the Local fallback, not a wrong guess"
+    assert pipeline.classify_by_link("https://www.banglanews24.com/news/123") is None, \
+        "opaque numeric-id paths carry no signal"
+    assert pipeline.classify_by_link(None) is None
+    assert pipeline.classify_by_link("") is None
+    print("ok: classify_by_link")
+
+
+def test_collect_results_uses_url_path_when_source_has_no_section_hint():
+    articles = [
+        {"title": "h", "text": "body", "section_hint": None, "link": "https://x/sports/1"},
+        {"title": "h", "text": "body", "section_hint": None, "link": "https://x/news/1"},
+        {"title": "h", "text": "body", "section_hint": "Tech", "link": "https://x/sports/1"},
+    ]
+    results = pipeline.collect_results(articles)
+    assert results[0]["section"] == "Sports", "mixed feed, but the URL says sports"
+    assert results[1]["section"] == "Local", "no signal anywhere -- Local fallback"
+    assert results[2]["section"] == "Tech", "a real section_hint always wins over the URL guess"
+    print("ok: collect_results uses url path when source has no section hint")
 
 
 def test_build_epub_smoke():
@@ -257,6 +303,9 @@ if __name__ == "__main__":
     test_group_by_section_uses_hint_then_drops_unknown()
     test_group_by_section_carries_author_image_time()
     test_fetch_new_entries_dedups_and_respects_cutoff()
+    test_fetch_new_entries_skips_urls_already_seen_this_run()
+    test_classify_by_link()
+    test_collect_results_uses_url_path_when_source_has_no_section_hint()
     test_build_epub_smoke()
     test_make_teaser_stops_at_first_sentence_and_caps_length()
     test_retry_succeeds_after_transient_failures()

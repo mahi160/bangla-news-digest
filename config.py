@@ -2,15 +2,24 @@
 
 SECTIONS = ["Local", "International", "Entertainment", "Tech", "Sports"]
 
-# section=None means the feed mixes categories. There's no AI classifier
-# anymore, so these just land in the fallback section (see collect_results
-# in pipeline.py) -- set section=<name> per-source instead if you want a
-# clean mapping.
+# section=None means the feed mixes categories -- pipeline.py's
+# classify_by_link() reads the outlet's own URL path (e.g. prothomalo.com's
+# /sports/... vs /technology/...) to sort those without AI; anything it
+# can't place falls back to Local. Set section=<name> per-source instead
+# when the feed (or a topic-specific variant of it) is already clean.
+#
+# BBC Bangla's own URLs are opaque IDs with no path signal, so its World/
+# Entertainment topic feeds are listed as separate sources instead -- ahead
+# of the general feed, so the shared same-run URL dedup (see
+# fetch_new_entries) lets the more specific tag win over the general feed's
+# copy of the same article.
 SOURCES = [
     {"name": "Prothom Alo", "url": "https://www.prothomalo.com/feed", "section": None},
     {"name": "Banglanews24", "url": "https://www.banglanews24.com/rss.xml", "section": None},
-    {"name": "BBC Bangla", "url": "https://feeds.bbci.co.uk/bengali/rss.xml", "section": None},
+    {"name": "BBC Bangla World", "url": "https://feeds.bbci.co.uk/bengali/world/rss.xml", "section": "International"},
+    {"name": "BBC Bangla Entertainment", "url": "https://feeds.bbci.co.uk/bengali/topics/entertainment/rss.xml", "section": "Entertainment"},
     {"name": "BBC Bangla Sport", "url": "https://feeds.bbci.co.uk/bengali/sport/rss.xml", "section": "Sports"},
+    {"name": "BBC Bangla", "url": "https://feeds.bbci.co.uk/bengali/rss.xml", "section": None},
     {"name": "ESPN Cricinfo", "url": "https://www.espncricinfo.com/rss/content/story/feeds/6.xml", "section": "Sports"},
     {"name": "omg! ubuntu", "url": "https://www.omgubuntu.co.uk/feed", "section": "Tech"},
     {"name": "It's FOSS", "url": "https://www.itsfoss.com/feed/", "section": "Tech"},
