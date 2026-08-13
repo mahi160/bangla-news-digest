@@ -962,12 +962,18 @@ def main():
     # the same articles next run.
     save_state(state)
 
-    try:
-        retry(lambda: send_email(epub_path, now, grouped), what="email send")
-    except Exception:
-        log.exception("email send failed after retries -- digest is still on the site archive")
-    finally:
-        epub_path.unlink(missing_ok=True)  # not archived in git either way
+    # EMAIL_TO absent/empty means "no subscribers configured" (see README) --
+    # a config gap, not a flaky send, so it shouldn't burn 3 retries/15s of
+    # backoff on something that can never succeed. send_email() itself still
+    # raises on an empty EMAIL_TO for the case where it's called directly.
+    if parse_recipients(os.environ.get("EMAIL_TO", "")):
+        try:
+            retry(lambda: send_email(epub_path, now, grouped), what="email send")
+        except Exception:
+            log.exception("email send failed after retries -- digest is still on the site archive")
+    else:
+        log.info("EMAIL_TO not set -- skipping email, digest is still on the site archive")
+    epub_path.unlink(missing_ok=True)  # not archived in git either way
 
     log.info("run complete")
 
