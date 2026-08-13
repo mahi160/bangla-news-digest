@@ -86,22 +86,29 @@ main:has(#c2:checked) label[for=c2]{color:var(--iris);border-color:var(--iris)}
 main:has(#ed0:checked) #p0{display:block}
 main:has(#ed1:checked) #p1{display:block}
 .chips{display:flex;flex-wrap:wrap;gap:.5rem;margin:0 0 1.7rem}
-.chip{font-family:var(--ui);font-weight:600;
-  font-size:.82rem;padding:.32rem .55rem .28rem .75rem;border:1.5px solid var(--rule);
-  border-radius:1.2rem;color:var(--ink);display:flex;align-items:center;gap:.4rem;
-  transition:border-color .15s,color .15s}
-.chip:hover{border-color:var(--iris);color:var(--iris);text-decoration:none}
-.chip-n{font-family:var(--headline);font-style:italic;color:var(--iris);font-size:.85rem}
+.chip{font-family:var(--ui);font-weight:700;
+  font-size:.82rem;padding:.32rem .55rem .28rem .7rem;border:none;border-left:4px solid var(--accent,var(--iris));
+  border-radius:.3rem;color:var(--ink);background:var(--paper-deep);display:flex;align-items:center;gap:.45rem;
+  transition:filter .15s}
+.chip:hover{filter:brightness(.96);text-decoration:none}
+.chip-n{font-family:var(--headline);font-weight:700;color:var(--accent,var(--iris));font-size:.85rem}
 
 /* Column flow, not a 2-cell grid: a grid would pin one category per cell,
    so a 55-headline দেশ next to a 1-headline প্রযুক্তি leaves one column
    towering over an almost-empty other. column-count lets categories
    reflow across columns so the total text height balances instead. */
-.catgrid{column-count:1;column-gap:3rem}
+.catgrid{column-count:1;column-gap:1.8rem}
 @media(min-width:640px){
   main:has(#c2:checked) .catgrid{column-count:2}
 }
-.cat{min-width:0}
+/* Categories as their own segmented, coloured card (see docs/adr/0009) --
+   each carries --accent (set inline per section) for the left rule, the
+   heading dot and the count badge. box-decoration-break:clone means a
+   category long enough to split across the column gap still renders as
+   two complete little cards instead of one box sliced in half. */
+.cat{min-width:0;background:var(--paper-deep);border-left:5px solid var(--accent,var(--iris));
+  border-radius:.15rem .6rem .6rem .15rem;padding:1.15rem 1.3rem 1.35rem;margin:0 0 1.6rem;
+  box-decoration-break:clone;-webkit-box-decoration-break:clone}
 .cat-head{break-after:avoid-column}
 .rows>li{break-inside:avoid-column}
 @media(prefers-reduced-motion:no-preference){
@@ -110,16 +117,17 @@ main:has(#ed1:checked) #p1{display:block}
   .cat:nth-of-type(3){animation-delay:.15s} .cat:nth-of-type(4){animation-delay:.21s}
   .cat:nth-of-type(5){animation-delay:.27s}
 }
-.cat-head{display:flex;align-items:baseline;gap:.6rem;margin:0 0 .6rem;
-  padding-bottom:.4rem;border-bottom:1px solid var(--rule);
-  font-family:var(--headline);font-weight:400;font-size:1.2rem}
-.cat-head .cat-n{font-family:var(--ui);font-weight:600;
-  font-size:.78rem;color:var(--iris);margin-left:auto}
+.cat-head{display:flex;align-items:baseline;gap:.55rem;margin:0 0 .7rem;
+  padding-bottom:.5rem;border-bottom:1px solid var(--rule);
+  font-family:var(--headline);font-weight:700;font-size:1.28rem}
+.cat-head .cat-n{font-family:var(--headline);font-weight:700;color:var(--paper);
+  background:var(--accent,var(--iris));border-radius:1rem;padding:.05rem .55rem;
+  font-size:.78rem;margin-left:auto}
 .rows{list-style:none;margin:0;padding:0}
 .rows>li{border-bottom:1px solid var(--rule)}
 .rows>li:last-child{border-bottom:none}
 .row{display:block;padding:.7rem .15rem;color:var(--ink);border-radius:.3rem;transition:background .15s}
-.row:hover{background:var(--iris-soft);text-decoration:none}
+.row:hover{background:rgba(255,255,255,.5);text-decoration:none}
 .row-hl{display:block;font-family:var(--headline);font-weight:400;
   font-size:1.06rem;line-height:1.5}
 .row-meta{display:block;font-family:var(--ui);font-weight:500;
@@ -144,10 +152,31 @@ dialog.modal.closing{opacity:0;transform:translate(-50%,-50%) scale(.97)}
 }
 dialog.modal::backdrop{background:rgba(22,24,29,.5);transition:background .18s ease}
 @starting-style{ dialog.modal[open]::backdrop{background:rgba(22,24,29,0)} }
-.m-img{display:block;width:100%;max-height:15rem;object-fit:cover;background:var(--paper-deep)}
+/* Fixed aspect ratio reserves the space before the image ever loads (the
+   fix for the open-jump), and the shimmer behind it -- visible until
+   .m-img gets its 'loaded' class from MODAL_SCRIPT's 'load' handler -- is
+   what covers both the initial wait and the moment between two different
+   articles' images (that class is stripped before the new src is set). */
+.m-img-wrap{position:relative;aspect-ratio:16/8;overflow:hidden;background:var(--paper-deep);
+  border-radius:.6rem .6rem 0 0}
+.m-img-wrap::before{content:'';position:absolute;inset:0;
+  background:linear-gradient(100deg,var(--paper-deep) 35%,#F4F1E9 50%,var(--paper-deep) 65%);
+  background-size:200% 100%;animation:shimmer 1.3s ease-in-out infinite}
+.m-img-wrap:has(.m-img.loaded)::before{display:none}
+.m-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;
+  opacity:0;transition:opacity .25s ease}
+.m-img.loaded{opacity:1}
+@keyframes shimmer{from{background-position:200% 0}to{background-position:-200% 0}}
+@media(prefers-reduced-motion:reduce){.m-img-wrap::before{animation:none}}
 .modal-close{position:absolute;top:.6rem;right:.6rem;width:2.1rem;height:2.1rem;border:none;border-radius:50%;
-  background:var(--ink);color:var(--paper);font-size:1.1rem;line-height:1;cursor:pointer}
-.modal-body{padding:1.4rem 1.5rem 1.7rem}
+  background:var(--ink);color:var(--paper);font-size:1.1rem;line-height:1;cursor:pointer;z-index:1}
+.modal-body{padding:1.3rem 1.5rem 1.7rem}
+.m-nav{display:flex;gap:.5rem;margin:0 0 .9rem}
+.m-prev,.m-next{width:2rem;height:2rem;border-radius:50%;border:1.5px solid var(--rule);
+  background:transparent;color:var(--ink);font-size:1.1rem;line-height:1;cursor:pointer;
+  display:inline-flex;align-items:center;justify-content:center;transition:border-color .15s,color .15s}
+.m-prev:hover,.m-next:hover{border-color:var(--iris);color:var(--iris)}
+.m-prev:disabled,.m-next:disabled{opacity:.35;cursor:default;border-color:var(--rule);color:var(--ink)}
 .m-hl{font-family:var(--headline);font-weight:400;font-size:1.4rem;line-height:1.4;margin:0 0 .6rem}
 .modal-meta{display:flex;flex-wrap:wrap;gap:.5rem;margin:0 0 .9rem;
   font-family:var(--ui);font-weight:500;font-size:.8rem;color:var(--faded)}
@@ -162,6 +191,7 @@ dialog.modal::backdrop{background:rgba(22,24,29,.5);transition:background .18s e
     border-radius:1rem 1rem 0 0;max-height:88vh;opacity:1;transition:transform .22s ease-out}
   dialog.modal.closing{opacity:1;transform:translateY(100%)}
   @starting-style{ dialog.modal[open]{transform:translateY(100%)} }
+  .m-img-wrap{border-radius:1rem 1rem 0 0}
 }
 @media(prefers-reduced-motion:reduce){
   dialog.modal,dialog.modal::backdrop,.horizon,.cat,body{animation:none!important;transition:none!important}

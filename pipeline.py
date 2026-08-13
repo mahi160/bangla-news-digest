@@ -108,6 +108,20 @@ SECTION_BN = {
     "Sports": "খেলা",
 }
 
+# One accent per section so categories read as distinct, segmented blocks
+# rather than same-looking text under a label (see docs/adr/0009) --
+# decorative only (left border + a small dot + the count badge's own
+# background), never a text colour, so it can't create a contrast problem.
+# Each clears 4.5:1 against --paper as the count badge's background with
+# --paper text on top.
+SECTION_ACCENT = {
+    "Local": "#453E78",
+    "International": "#35597A",
+    "Entertainment": "#8B3F63",
+    "Tech": "#2F6E62",
+    "Sports": "#8F4E16",
+}
+
 
 # Loaded from <head> rather than @import-ed here: an @import inside a linked
 # stylesheet serializes the round trips (html -> style.css -> fonts api ->
@@ -217,22 +231,29 @@ main:has(#c2:checked) label[for=c2]{color:var(--iris);border-color:var(--iris)}
 main:has(#ed0:checked) #p0{display:block}
 main:has(#ed1:checked) #p1{display:block}
 .chips{display:flex;flex-wrap:wrap;gap:.5rem;margin:0 0 1.7rem}
-.chip{font-family:var(--ui);font-weight:600;
-  font-size:.82rem;padding:.32rem .55rem .28rem .75rem;border:1.5px solid var(--rule);
-  border-radius:1.2rem;color:var(--ink);display:flex;align-items:center;gap:.4rem;
-  transition:border-color .15s,color .15s}
-.chip:hover{border-color:var(--iris);color:var(--iris);text-decoration:none}
-.chip-n{font-family:var(--headline);font-style:italic;color:var(--iris);font-size:.85rem}
+.chip{font-family:var(--ui);font-weight:700;
+  font-size:.82rem;padding:.32rem .55rem .28rem .7rem;border:none;border-left:4px solid var(--accent,var(--iris));
+  border-radius:.3rem;color:var(--ink);background:var(--paper-deep);display:flex;align-items:center;gap:.45rem;
+  transition:filter .15s}
+.chip:hover{filter:brightness(.96);text-decoration:none}
+.chip-n{font-family:var(--headline);font-weight:700;color:var(--accent,var(--iris));font-size:.85rem}
 
 /* Column flow, not a 2-cell grid: a grid would pin one category per cell,
    so a 55-headline দেশ next to a 1-headline প্রযুক্তি leaves one column
    towering over an almost-empty other. column-count lets categories
    reflow across columns so the total text height balances instead. */
-.catgrid{column-count:1;column-gap:3rem}
+.catgrid{column-count:1;column-gap:1.8rem}
 @media(min-width:640px){
   main:has(#c2:checked) .catgrid{column-count:2}
 }
-.cat{min-width:0}
+/* Categories as their own segmented, coloured card (see docs/adr/0009) --
+   each carries --accent (set inline per section) for the left rule, the
+   heading dot and the count badge. box-decoration-break:clone means a
+   category long enough to split across the column gap still renders as
+   two complete little cards instead of one box sliced in half. */
+.cat{min-width:0;background:var(--paper-deep);border-left:5px solid var(--accent,var(--iris));
+  border-radius:.15rem .6rem .6rem .15rem;padding:1.15rem 1.3rem 1.35rem;margin:0 0 1.6rem;
+  box-decoration-break:clone;-webkit-box-decoration-break:clone}
 .cat-head{break-after:avoid-column}
 .rows>li{break-inside:avoid-column}
 @media(prefers-reduced-motion:no-preference){
@@ -241,16 +262,17 @@ main:has(#ed1:checked) #p1{display:block}
   .cat:nth-of-type(3){animation-delay:.15s} .cat:nth-of-type(4){animation-delay:.21s}
   .cat:nth-of-type(5){animation-delay:.27s}
 }
-.cat-head{display:flex;align-items:baseline;gap:.6rem;margin:0 0 .6rem;
-  padding-bottom:.4rem;border-bottom:1px solid var(--rule);
-  font-family:var(--headline);font-weight:400;font-size:1.2rem}
-.cat-head .cat-n{font-family:var(--ui);font-weight:600;
-  font-size:.78rem;color:var(--iris);margin-left:auto}
+.cat-head{display:flex;align-items:baseline;gap:.55rem;margin:0 0 .7rem;
+  padding-bottom:.5rem;border-bottom:1px solid var(--rule);
+  font-family:var(--headline);font-weight:700;font-size:1.28rem}
+.cat-head .cat-n{font-family:var(--headline);font-weight:700;color:var(--paper);
+  background:var(--accent,var(--iris));border-radius:1rem;padding:.05rem .55rem;
+  font-size:.78rem;margin-left:auto}
 .rows{list-style:none;margin:0;padding:0}
 .rows>li{border-bottom:1px solid var(--rule)}
 .rows>li:last-child{border-bottom:none}
 .row{display:block;padding:.7rem .15rem;color:var(--ink);border-radius:.3rem;transition:background .15s}
-.row:hover{background:var(--iris-soft);text-decoration:none}
+.row:hover{background:rgba(255,255,255,.5);text-decoration:none}
 .row-hl{display:block;font-family:var(--headline);font-weight:400;
   font-size:1.06rem;line-height:1.5}
 .row-meta{display:block;font-family:var(--ui);font-weight:500;
@@ -275,10 +297,31 @@ dialog.modal.closing{opacity:0;transform:translate(-50%,-50%) scale(.97)}
 }
 dialog.modal::backdrop{background:rgba(22,24,29,.5);transition:background .18s ease}
 @starting-style{ dialog.modal[open]::backdrop{background:rgba(22,24,29,0)} }
-.m-img{display:block;width:100%;max-height:15rem;object-fit:cover;background:var(--paper-deep)}
+/* Fixed aspect ratio reserves the space before the image ever loads (the
+   fix for the open-jump), and the shimmer behind it -- visible until
+   .m-img gets its 'loaded' class from MODAL_SCRIPT's 'load' handler -- is
+   what covers both the initial wait and the moment between two different
+   articles' images (that class is stripped before the new src is set). */
+.m-img-wrap{position:relative;aspect-ratio:16/8;overflow:hidden;background:var(--paper-deep);
+  border-radius:.6rem .6rem 0 0}
+.m-img-wrap::before{content:'';position:absolute;inset:0;
+  background:linear-gradient(100deg,var(--paper-deep) 35%,#F4F1E9 50%,var(--paper-deep) 65%);
+  background-size:200% 100%;animation:shimmer 1.3s ease-in-out infinite}
+.m-img-wrap:has(.m-img.loaded)::before{display:none}
+.m-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;
+  opacity:0;transition:opacity .25s ease}
+.m-img.loaded{opacity:1}
+@keyframes shimmer{from{background-position:200% 0}to{background-position:-200% 0}}
+@media(prefers-reduced-motion:reduce){.m-img-wrap::before{animation:none}}
 .modal-close{position:absolute;top:.6rem;right:.6rem;width:2.1rem;height:2.1rem;border:none;border-radius:50%;
-  background:var(--ink);color:var(--paper);font-size:1.1rem;line-height:1;cursor:pointer}
-.modal-body{padding:1.4rem 1.5rem 1.7rem}
+  background:var(--ink);color:var(--paper);font-size:1.1rem;line-height:1;cursor:pointer;z-index:1}
+.modal-body{padding:1.3rem 1.5rem 1.7rem}
+.m-nav{display:flex;gap:.5rem;margin:0 0 .9rem}
+.m-prev,.m-next{width:2rem;height:2rem;border-radius:50%;border:1.5px solid var(--rule);
+  background:transparent;color:var(--ink);font-size:1.1rem;line-height:1;cursor:pointer;
+  display:inline-flex;align-items:center;justify-content:center;transition:border-color .15s,color .15s}
+.m-prev:hover,.m-next:hover{border-color:var(--iris);color:var(--iris)}
+.m-prev:disabled,.m-next:disabled{opacity:.35;cursor:default;border-color:var(--rule);color:var(--ink)}
 .m-hl{font-family:var(--headline);font-weight:400;font-size:1.4rem;line-height:1.4;margin:0 0 .6rem}
 .modal-meta{display:flex;flex-wrap:wrap;gap:.5rem;margin:0 0 .9rem;
   font-family:var(--ui);font-weight:500;font-size:.8rem;color:var(--faded)}
@@ -293,6 +336,7 @@ dialog.modal::backdrop{background:rgba(22,24,29,.5);transition:background .18s e
     border-radius:1rem 1rem 0 0;max-height:88vh;opacity:1;transition:transform .22s ease-out}
   dialog.modal.closing{opacity:1;transform:translateY(100%)}
   @starting-style{ dialog.modal[open]{transform:translateY(100%)} }
+  .m-img-wrap{border-radius:1rem 1rem 0 0}
 }
 @media(prefers-reduced-motion:reduce){
   dialog.modal,dialog.modal::backdrop,.horizon,.cat,body{animation:none!important;transition:none!important}
@@ -646,12 +690,13 @@ def _panel_html(grouped, idx):
     if not present:
         return '<p class=empty>এই সংস্করণে এখনও কোনো খবর নেই।</p>'
     chips = "".join(
-        f'<a class=chip href="#p{idx}-{s}">{SECTION_BN[s]}'
+        f'<a class=chip href="#p{idx}-{s}" style="--accent:{SECTION_ACCENT[s]}">{SECTION_BN[s]}'
         f'<span class=chip-n>{bn_num(len(grouped[s]))}</span></a>'
         for s in present
     )
     cats = "".join(
-        f'<section class=cat id="p{idx}-{s}"><h3 class=cat-head><span>{SECTION_BN[s]}</span>'
+        f'<section class=cat id="p{idx}-{s}" style="--accent:{SECTION_ACCENT[s]}">'
+        f'<h3 class=cat-head><span>{SECTION_BN[s]}</span>'
         f'<span class=cat-n>{bn_num(len(grouped[s]))}</span></h3>'
         f'<ul class=rows>{"".join(_row_html(a) for a in grouped[s])}</ul></section>'
         for s in present
@@ -662,8 +707,12 @@ def _panel_html(grouped, idx):
 MODAL_HTML = (
     '<dialog id=modal class=modal>'
     '<button type=button class=modal-close aria-label="বন্ধ করুন">\u00d7</button>'
-    '<img class=m-img alt="" hidden>'
+    '<div class=m-img-wrap hidden><img class=m-img alt=""></div>'
     '<div class=modal-body>'
+    '<div class=m-nav>'
+    '<button type=button class=m-prev aria-label="আগের খবর">\u2039</button>'
+    '<button type=button class=m-next aria-label="পরের খবর">\u203a</button>'
+    '</div>'
     '<h3 class=m-hl></h3>'
     '<p class=modal-meta><span class=m-src></span><span class=m-author hidden></span>'
     '<span class=m-time></span></p>'
@@ -672,18 +721,36 @@ MODAL_HTML = (
     '</div></dialog>'
 )
 
-# Vanilla, ~35 lines. Reads the clicked row's data-* into the one modal and
-# opens it -- CSS (@starting-style, see STYLE_CSS) handles the open fade/scale
-# on its own. Closing needs this script either way: a <dialog> has no built-in
+# Vanilla, ~65 lines. Reads a row's data-* into the one modal and opens it --
+# CSS (@starting-style, see STYLE_CSS) handles the open fade/scale on its
+# own. Closing needs this script either way: a <dialog> has no built-in
 # "about to close" moment to animate against, so close() is deferred until a
 # .closing transition finishes (or skipped straight to close() if the visitor
 # prefers reduced motion).
+#
+# Prev/Next walk every currently *visible* .row (offsetParent check, so it
+# naturally follows whichever edition tab is showing without knowing
+# anything about the tab mechanism) -- recomputed fresh on each open so it
+# always matches what's on screen right now.
+#
+# The image loads asynchronously after the rest of the modal is already
+# showing, which is exactly what caused both image bugs: no reserved space
+# -> the dialog jumps once the image decodes and the box gets its real
+# height; reusing the same <img> for the next article -> the old picture
+# stays on screen (browsers don't clear on a new src) until the new one
+# finishes. Fixed by (1) a fixed-aspect-ratio wrapper so the space never
+# changes, with a shimmer shown until 'load' fires, and (2) immediately
+# dropping the 'loaded' class -- back to the shimmer -- before ever setting
+# the new src, so the stale picture is never on screen for the new article.
 MODAL_SCRIPT = """\
 <script>
 (function(){
   var modal = document.getElementById('modal');
   if (!modal) return;
+  var imgWrap = modal.querySelector('.m-img-wrap');
+  var img = modal.querySelector('.m-img');
   var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var current = null;
 
   function closeModal(){
     if (!modal.open || modal.classList.contains('closing')) return;
@@ -697,11 +764,14 @@ MODAL_SCRIPT = """\
     }, { once: true });
   }
 
-  document.addEventListener('click', function(e){
-    if (e.target.closest('.modal-close')) { closeModal(); return; }
-    var row = e.target.closest('.row');
-    if (!row) return;
-    e.preventDefault();
+  function visibleRows(){
+    return Array.prototype.filter.call(document.querySelectorAll('.row'), function(r){
+      return r.offsetParent !== null;
+    });
+  }
+
+  function openRow(row){
+    current = row;
     modal.querySelector('.m-hl').textContent = row.dataset.headline;
     modal.querySelector('.m-src').textContent = row.dataset.source;
     modal.querySelector('.m-time').textContent = row.dataset.time || '';
@@ -709,16 +779,51 @@ MODAL_SCRIPT = """\
     var author = modal.querySelector('.m-author');
     author.textContent = row.dataset.author || '';
     author.hidden = !row.dataset.author;
-    var img = modal.querySelector('.m-img');
-    if (row.dataset.image) { img.src = row.dataset.image; img.hidden = false; }
-    else { img.hidden = true; img.removeAttribute('src'); }
     var link = modal.querySelector('.m-link');
     if (row.dataset.link) { link.href = row.dataset.link; link.hidden = false; }
     else { link.hidden = true; }
-    modal.showModal();
+
+    img.classList.remove('loaded');
+    if (row.dataset.image) {
+      imgWrap.hidden = false;
+      img.src = row.dataset.image;
+    } else {
+      imgWrap.hidden = true;
+      img.removeAttribute('src');
+    }
+
+    var rows = visibleRows();
+    var i = rows.indexOf(row);
+    modal.querySelector('.m-prev').disabled = i <= 0;
+    modal.querySelector('.m-next').disabled = i === -1 || i >= rows.length - 1;
+
+    if (!modal.open) modal.showModal();
+  }
+
+  function step(delta){
+    var rows = visibleRows();
+    var i = rows.indexOf(current) + delta;
+    if (i >= 0 && i < rows.length) openRow(rows[i]);
+  }
+
+  img.addEventListener('load', function(){ img.classList.add('loaded'); });
+  img.addEventListener('error', function(){ imgWrap.hidden = true; });
+
+  document.addEventListener('click', function(e){
+    if (e.target.closest('.modal-close')) { closeModal(); return; }
+    if (e.target.closest('.m-prev')) { step(-1); return; }
+    if (e.target.closest('.m-next')) { step(1); return; }
+    var row = e.target.closest('.row');
+    if (!row) return;
+    e.preventDefault();
+    openRow(row);
   });
   modal.addEventListener('click', function(e){ if (e.target === modal) closeModal(); });
   modal.addEventListener('cancel', function(e){ e.preventDefault(); closeModal(); });
+  modal.addEventListener('keydown', function(e){
+    if (e.key === 'ArrowRight') step(1);
+    else if (e.key === 'ArrowLeft') step(-1);
+  });
 })();
 </script>
 """
