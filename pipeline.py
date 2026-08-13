@@ -260,6 +260,12 @@ main:has(#ed3:checked) label.tab[for=ed3]{color:var(--iris);border-bottom-color:
 main:has(#c1:checked) label[for=c1],
 main:has(#c2:checked) label[for=c2]{color:var(--iris);border-color:var(--iris)}
 
+/* --- source filter (index page only -- JS-driven, see SRC_FILTER_SCRIPT) */
+.srcfilter{margin:0 0 1.2rem}
+.srcfilter summary{cursor:pointer;font-family:var(--ui);font-weight:600;font-size:.76rem;color:var(--faded)}
+.srclist{display:flex;flex-wrap:wrap;gap:.5rem .9rem;margin:.7rem 0 0;font-family:var(--ui);font-size:.76rem}
+.srclist label{display:flex;align-items:center;gap:.35rem;cursor:pointer}
+
 /* --- panels + category chips ------------------------------------------- */
 .panel{display:none}
 main:has(#ed0:checked) #p0{display:block}
@@ -308,6 +314,7 @@ main:has(#ed3:checked) #p3{display:block}
 .rows>li{border-bottom:1px solid var(--rule)}
 .rows>li:last-child{border-bottom:none}
 .row{display:block;padding:.7rem .15rem;color:var(--ink);border-radius:.3rem;transition:background .15s}
+.row[hidden]{display:none}  /* .row's own display:block above would otherwise beat the UA [hidden] rule */
 .row:hover{background:rgba(255,255,255,.5);text-decoration:none}
 .row-hl{display:block;font-family:var(--headline);font-weight:400;
   font-size:1.06rem;line-height:1.5}
@@ -865,6 +872,45 @@ MODAL_SCRIPT = """\
 """
 
 
+# Vanilla, ~20 lines. Reader-side display filter only -- doesn't change what's
+# fetched, emailed, or put in the EPUB/RSS/OPDS, and only ships on the index
+# page (today's editions), not archive permalinks (render_run_html stays
+# read-only, same reasoning as its own docstring). Hides via the native
+# `hidden` attribute (see the `.row[hidden]` override in STYLE_CSS), so the
+# modal's existing visibleRows()/offsetParent check in MODAL_SCRIPT already
+# skips filtered-out rows for free -- no extra wiring needed there.
+#
+# Known simplification: category chip counts (cat-n) still show the day's
+# total, not the filtered count. Fine for a hide-some-sources toggle; revisit
+# if that reads as a bug rather than "count is before filtering."
+SRC_FILTER_SCRIPT = """\
+<script>
+(function(){
+  var KEY = 'nd-hidden-sources';
+  function hiddenSet(){
+    try { return new Set(JSON.parse(localStorage.getItem(KEY) || '[]')); }
+    catch (e) { return new Set(); }
+  }
+  function apply(hidden){
+    var boxes = document.querySelectorAll('.srclist input[type=checkbox]');
+    for (var i = 0; i < boxes.length; i++) boxes[i].checked = !hidden.has(boxes[i].value);
+    var rows = document.querySelectorAll('.row');
+    for (var j = 0; j < rows.length; j++) rows[j].hidden = hidden.has(rows[j].dataset.source);
+  }
+  apply(hiddenSet());
+  document.addEventListener('change', function(e){
+    var box = e.target.closest('.srclist input[type=checkbox]');
+    if (!box) return;
+    var hidden = hiddenSet();
+    if (box.checked) hidden.delete(box.value); else hidden.add(box.value);
+    localStorage.setItem(KEY, JSON.stringify(Array.from(hidden)));
+    apply(hidden);
+  });
+})();
+</script>
+"""
+
+
 MIXPANEL_SCRIPT = r"""<script type="text/javascript">
   (function(e,c){if(!c.__SV){var l,h;window.mixpanel=c;c._i=[];c.init=function(q,r,f){function t(d,a){var g=a.split(".");2==g.length&&(d=d[g[0]],a=g[1]);d[a]=function(){d.push([a].concat(Array.prototype.slice.call(arguments,0)))}}var b=c;"undefined"!==typeof f?b=c[f]=[]:f="mixpanel";b.people=b.people||[];b.toString=function(d){var a="mixpanel";"mixpanel"!==f&&(a+="."+f);d||(a+=" (stub)");return a};b.people.toString=function(){return b.toString(1)+".people (stub)"};l="disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders start_session_recording stop_session_recording people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
   for(h=0;h<l.length;h++)t(b,l[h]);var n="set set_once union unset remove delete".split(" ");b.get_group=function(){function d(p){a[p]=function(){b.push([g,[p].concat(Array.prototype.slice.call(arguments,0))])}}for(var a={},g=["get_group"].concat(Array.prototype.slice.call(arguments,0)),m=0;m<n.length;m++)d(n[m]);return a};c._i.push([q,r,f])};c.__SV=1.2;var k=e.createElement("script");k.type="text/javascript";k.async=!0;k.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===
@@ -960,6 +1006,16 @@ def render_index(manifest):
 
     tabs_html = f'<div class=tabs role=tablist>{tabs}</div>' if len(editions) > 1 else ""
 
+    # Configured sources, de-duplicated, in config.py order -- always the
+    # full list regardless of which sources happen to have articles today,
+    # so the toggle set doesn't shuffle around day to day.
+    source_names = list(dict.fromkeys(s["name"] for s in SOURCES))
+    srcboxes = "".join(
+        f'<label><input type=checkbox value="{esc(name)}" checked> {esc(name)}</label>'
+        for name in source_names
+    )
+    srcfilter_html = f'<details class=srcfilter><summary>উৎস ফিল্টার</summary><div class=srclist>{srcboxes}</div></details>'
+
     body = (
         "<header class=masthead>"
         "<p class=eyebrow>বাংলা সংবাদ সংক্ষেপ</p>"
@@ -971,11 +1027,13 @@ def render_index(manifest):
         '<input type=radio name=cols id=c1 class=vh checked><label for=c1>১ কলাম</label>'
         '<input type=radio name=cols id=c2 class=vh><label for=c2>২ কলাম</label>'
         "</div>"
+        f"{srcfilter_html}"
         f"<div class=panels>{panels}</div></main>"
         f"{MODAL_HTML}"
         "<footer class=colophon><p>আজকের সংস্করণ -- নতুন সংস্করণ প্রতি ৬ ঘণ্টা পর (ভোর ৬টা, দুপুর ১২টা, সন্ধ্যা ৬টা ও রাত ১২টায়)।</p></footer>"
         f"<style>{horizon_rules}</style>"
         f"{MODAL_SCRIPT}"
+        f"{SRC_FILTER_SCRIPT}"
     )
     return _doc(
         f"{ed_label0} \u00b7 {bn_date(bd0)} \u2014 \u09ac\u09be\u0982\u09b2\u09be \u09b8\u0982\u09ac\u09be\u09a6 \u09b8\u0982\u0995\u09cd\u09b7\u09c7\u09aa",

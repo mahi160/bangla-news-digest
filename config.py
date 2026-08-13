@@ -16,6 +16,7 @@ SECTIONS = ["Local", "International", "Entertainment", "Tech", "Sports"]
 SOURCES = [
     {"name": "Prothom Alo", "url": "https://www.prothomalo.com/feed", "section": None},
     {"name": "Banglanews24", "url": "https://www.banglanews24.com/rss.xml", "section": None},
+    {"name": "BDNews24 Bangla", "url": "https://bangla.bdnews24.com/rss", "section": None},
     {"name": "BBC Bangla World", "url": "https://feeds.bbci.co.uk/bengali/world/rss.xml", "section": "International"},
     {"name": "BBC Bangla Entertainment", "url": "https://feeds.bbci.co.uk/bengali/topics/entertainment/rss.xml", "section": "Entertainment"},
     {"name": "BBC Bangla Sport", "url": "https://feeds.bbci.co.uk/bengali/sport/rss.xml", "section": "Sports"},
@@ -23,6 +24,8 @@ SOURCES = [
     {"name": "ESPN Cricinfo", "url": "https://www.espncricinfo.com/rss/content/story/feeds/6.xml", "section": "Sports"},
     {"name": "omg! ubuntu", "url": "https://www.omgubuntu.co.uk/feed", "section": "Tech"},
     {"name": "It's FOSS", "url": "https://www.itsfoss.com/feed/", "section": "Tech"},
+    {"name": "Phoronix", "url": "https://www.phoronix.com/rss.php", "section": "Tech"},
+    {"name": "TechShohor", "url": "https://techshohor.com/feed/", "section": "Tech"},
     {"name": "Ars Technica", "url": "https://arstechnica.com/feed/", "section": "Tech"},
     {"name": "TechCrunch", "url": "https://techcrunch.com/feed/", "section": "Tech"},
     {"name": "The Verge", "url": "https://www.theverge.com/rss/index.xml", "section": "Tech"},
