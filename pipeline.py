@@ -1,6 +1,6 @@
 """Bangla news digest: fetch -> extract -> collect (no AI summary, see
-docs/adr/0004) -> EPUB + HTML archive page -> email. Run twice a day by
-GitHub Actions.
+docs/adr/0004) -> EPUB + HTML site + email. Run twice a day by GitHub
+Actions.
 
 Deterministic, boring code throughout -- knobs live in config.py.
 """
@@ -22,6 +22,7 @@ from xml.sax.saxutils import escape as xml_escape
 import feedparser
 import trafilatura
 from ebooklib import epub
+from trafilatura.metadata import extract_metadata
 
 from config import (
     EXCERPT_CHARS, LOCAL_TZ_OFFSET_HOURS, LOOKBACK_HOURS, MAX_ARTICLE_CHARS,
@@ -89,18 +90,12 @@ def bn_time(dt):
 
 
 def edition(dt):
-    """(label, css-class) for the twice-daily run cadence -- the one piece
-    of structure in this UI that actually encodes something (which of the
-    two daily runs this is), so it gets its own visual treatment."""
+    """(label, css-class) for the twice-daily run cadence."""
     return ("প্রভাতী সংস্করণ", "dawn") if dt.hour < 12 else ("সান্ধ্য সংস্করণ", "dusk")
 
 
 def bn_num(n):
     return str(n).translate(_BN_DIGITS)
-
-
-PART_TOC = "সূচি"        # the headline list -- "contents"
-PART_FULL = "বিস্তারিত"   # the excerpts
 
 
 # SECTIONS are English because they're dict keys/state; readers get Bangla.
@@ -126,13 +121,9 @@ FONT_LINKS = (
     '&amp;display=swap">'
 )
 
+# Same two-ink identity as before (docs/adr/0005) -- only the *structure*
+# changed (tabs + modal, see docs/adr/0006), not the palette/type.
 STYLE_CSS = """\
-/* Two-ink panjika: black + vermilion on saffron newsprint. No third colour
-   anywhere -- links are vermilion, the evening edition is a reversed plate
-   (ink-filled block) rather than a new hue. That constraint is the design. */
-/* Tints are set by contrast, not by eye: the vermilion has to clear 4.5:1 on
-   both the paper and the tint block, which is what fixes --block and --red
-   at these values. --red-rev is the same ink with no paper behind it. */
 :root{
   --stock:#f1e4c3; --block:#f0e2be; --ink:#191410;
   --red:#b82219;  --red-rev:#f0674c; --rule:#c2a96f; --faded:#6f5f42;
@@ -143,24 +134,25 @@ STYLE_CSS = """\
 }
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
-body{max-width:41rem;margin:0 auto;padding:1.75rem 1.15rem 4rem;
+body{max-width:56rem;margin:0 auto;padding:1.75rem 1.15rem 4rem;
   font-family:var(--body);font-size:1.02rem;line-height:1.7;
   color:var(--ink);background:var(--stock) var(--grain) repeat}
 a{color:var(--red);text-decoration:none}
 a:hover{text-decoration:underline;text-underline-offset:.18em}
 a:focus-visible{outline:2px solid var(--red);outline-offset:3px}
-
-/* --- printed rules --------------------------------------------------- */
 .rule2{border:0;height:3px;margin:0;
   border-top:3px solid var(--ink);border-bottom:2px solid var(--red)}
 
 /* --- masthead -------------------------------------------------------- */
-.masthead{margin:0 0 2.5rem}
-.masthead h1{font-family:var(--display);font-weight:800;font-size:clamp(1.7rem,7vw,2.5rem);
-  line-height:1.25;margin:.85rem 0 .3rem}
-.masthead .cadence{font-family:var(--util);font-variation-settings:'wdth' 88;
-  font-size:.95rem;color:var(--faded);margin:0 0 .9rem}
-.masthead .feeds{margin:0 0 .85rem;display:flex;gap:.4rem}
+.masthead{margin:0 0 1.5rem}
+.masthead .eyebrow{font-family:var(--util);font-variation-settings:'wdth' 84,'wght' 600;
+  font-size:.82rem;letter-spacing:.06em;color:var(--red);margin:.9rem 0 .2rem}
+.masthead .date{font-family:var(--display);font-weight:800;
+  font-size:clamp(1.7rem,6.5vw,2.4rem);line-height:1.2;margin:0 0 .3rem;
+  display:flex;flex-wrap:wrap;align-items:baseline;gap:.6rem}
+.masthead .weekday{font-family:var(--util);font-variation-settings:'wdth' 86,'wght' 500;
+  font-size:1rem;font-weight:400;color:var(--faded)}
+.masthead .feeds{margin:.2rem 0 0;display:flex;gap:.4rem}
 .feeds a{font-family:var(--util);font-variation-settings:'wdth' 82,'wght' 600;
   font-size:.72rem;letter-spacing:.1em;padding:.16rem .6rem;
   border:1.5px solid var(--rule);color:var(--faded)}
@@ -169,121 +161,96 @@ a:focus-visible{outline:2px solid var(--red);outline-offset:3px}
   font-variation-settings:'wdth' 85;font-size:.82rem;color:var(--faded)}
 .back:hover{color:var(--red)}
 
-/* --- edition block (the panjika day-page head) ----------------------- */
-.edition{background:var(--block);border:2px solid var(--ink);
-  padding:.85rem 1.05rem .95rem;margin:0 0 2rem}
-/* No letter-spacing on Bangla anywhere: tracking pulls the parts of an
-   akshara apart, so the Latin small-caps label trick doesn't transfer.
-   Weight, size and the second ink carry the label hierarchy instead.
-   .feeds is the one exception -- RSS/OPDS are Latin. */
-.edition .prahar{display:flex;justify-content:space-between;align-items:baseline;
-  gap:1rem;margin:0 0 .2rem;font-family:var(--util);
-  font-variation-settings:'wdth' 86,'wght' 600;
-  font-size:.86rem;color:var(--red)}
-.edition .weekday{font-variation-settings:'wdth' 86,'wght' 500;color:var(--faded)}
-.edition .date{font-family:var(--display);font-weight:800;
-  font-size:clamp(1.45rem,5.5vw,2rem);line-height:1.2;margin:0;
-  display:flex;flex-wrap:wrap;align-items:baseline;gap:.6rem}
-.edition .clock{font-family:var(--util);font-variation-settings:'wdth' 86,'wght' 500;
-  font-size:.98rem;font-weight:400;color:var(--red)}
-/* reversed plate: same two inks, no paper behind them */
-.edition.dusk{background:var(--ink);color:var(--stock);border-color:var(--ink)}
-.edition.dusk .prahar,.edition.dusk .clock,.edition.dusk .seg-n{color:var(--red-rev)}
-.edition.dusk .weekday{color:#a89778}
-.edition.dusk .seg{border-color:var(--red-rev)}
-.edition.dusk .seg + .seg{box-shadow:inset 1px 0 0 #4a3f31}
-.edition.dusk .seg a{color:var(--stock)}
+/* --- visually-hidden radios (CSS-only tabs + column toggle) ---------- */
+/* No JS for either control: :checked drives the panel/grid it targets via
+   :has(), which also means these controls work with JS disabled. Not
+   display:none -- kept focusable, and popped visible on keyboard focus. */
+.vh{position:absolute;opacity:0;width:1px;height:1px;margin:-1px;overflow:hidden}
+.vh:focus-visible{opacity:1;width:auto;height:auto;position:static;margin:0 .4rem 0 0;outline:2px solid var(--red)}
 
-/* --- SIGNATURE: the tally rule -------------------------------------- */
-/* One segment per section, width proportional to how many articles landed
-   in it. Shows where the day's weight actually sits, and is the section nav. */
-.tally{display:flex;list-style:none;margin:.95rem 0 0;padding:0;
-  border-top:1px solid var(--rule)}
-.edition.dusk .tally{border-top-color:#4a3f31}
-/* flex-basis is a legibility floor: every section keeps a readable label,
-   and only the space above that floor is shared out by article count. */
-.seg{flex:var(--n) 1 4.6rem;min-width:0;overflow:hidden;
-  border-top:3px solid var(--red);
-  transform-origin:left center;animation:ink .5s cubic-bezier(.2,.7,.3,1) both;
-  animation-delay:calc(var(--i) * 70ms)}
-.seg + .seg{box-shadow:inset 1px 0 0 var(--rule)}
-.seg a{display:block;padding:.4rem .5rem .1rem;color:var(--ink)}
-.seg a:hover{text-decoration:none;background:rgba(184,34,25,.12)}
-.seg-name{display:block;font-family:var(--util);
-  font-variation-settings:'wdth' 80,'wght' 600;font-size:.8rem;
-  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.seg-n{display:block;font-family:var(--display);font-weight:700;
-  font-size:1.05rem;line-height:1.2;color:var(--red)}
-@keyframes ink{from{transform:scaleX(0);opacity:0}to{transform:scaleX(1);opacity:1}}
+/* --- edition tabs ------------------------------------------------------ */
+.tabs{display:flex;gap:.5rem;margin:0 0 1.1rem;border-bottom:2px solid var(--ink)}
+.tab{font-family:var(--display);font-weight:700;font-size:1.02rem;cursor:pointer;
+  padding:.55rem 1rem .5rem;color:var(--faded);border-bottom:3px solid transparent;
+  margin-bottom:-2px;user-select:none}
+.tab .tab-sub{display:block;font-family:var(--util);font-variation-settings:'wdth' 84;
+  font-weight:400;font-size:.74rem;color:var(--faded)}
+main:has(#ed0:checked) label.tab[for=ed0],
+main:has(#ed1:checked) label.tab[for=ed1]{color:var(--red);border-bottom-color:var(--red)}
 
-/* --- part headings (\u09b8\u09c2\u099a\u09bf / \u09ac\u09bf\u09b8\u09cd\u09a4\u09be\u09b0\u09bf\u09a4) -------------------------------- */
-.part{font-family:var(--util);font-variation-settings:'wdth' 84,'wght' 600;
-  font-size:.88rem;color:var(--red);margin:0 0 1.1rem;font-weight:400}
-.detail{margin-top:3rem}
-.detail .part{padding-top:1.1rem;border-top:3px solid var(--ink)}
+/* --- column toggle ------------------------------------------------------ */
+.colsbar{display:flex;justify-content:flex-end;gap:.3rem;margin:0 0 1.2rem}
+.colsbar label{font-family:var(--util);font-variation-settings:'wdth' 84,'wght' 600;
+  font-size:.76rem;padding:.28rem .65rem;border:1.5px solid var(--rule);
+  color:var(--faded);cursor:pointer}
+main:has(#c1:checked) label[for=c1],
+main:has(#c2:checked) label[for=c2]{color:var(--red);border-color:var(--red)}
 
-/* --- section heading with two-ink leader ---------------------------- */
-.sec{display:flex;align-items:center;gap:.7rem;margin:1.9rem 0 .55rem;
-  font-family:var(--display);font-weight:700;font-size:1.15rem;line-height:1.3}
-.digest .sec:first-of-type,.detail .sec:first-of-type{margin-top:0}
-.sec-fill{flex:1;height:5px;border-top:1px solid var(--ink);border-bottom:2px solid var(--red)}
-.sec-n{font-family:var(--util);font-variation-settings:'wdth' 84,'wght' 600;
-  font-size:.85rem;color:var(--red)}
+/* --- panels + category chips ------------------------------------------- */
+.panel{display:none}
+main:has(#ed0:checked) #p0{display:block}
+main:has(#ed1:checked) #p1{display:block}
+.chips{display:flex;flex-wrap:wrap;gap:.5rem;margin:0 0 1.6rem}
+.chip{font-family:var(--util);font-variation-settings:'wdth' 82,'wght' 600;
+  font-size:.82rem;padding:.32rem .55rem .28rem .75rem;border:1.5px solid var(--rule);
+  color:var(--ink);display:flex;align-items:center;gap:.4rem}
+.chip:hover{border-color:var(--red);color:var(--red);text-decoration:none}
+.chip-n{font-family:var(--display);font-weight:700;color:var(--red);font-size:.85rem}
 
-/* --- digest rows ---------------------------------------------------- */
-.rows{list-style:none;margin:0;padding:0}
-.rows > li{padding:.62rem 0;border-bottom:1px solid var(--rule)}
-.rows > li:last-child{border-bottom:none}
-.row{display:flex;align-items:flex-end;gap:.3rem}
-.row .hl{flex:1 1 auto;min-width:0;font-family:var(--display);font-weight:700;
-  font-size:1.02rem;line-height:1.45;color:var(--ink)}
-.row .hl:hover{color:var(--red);text-decoration:none}
-.row .dots{flex:1 0 1.5rem;height:0;margin-bottom:.42em;
-  border-bottom:2px dotted var(--rule)}
-.row .src{flex:0 0 auto;font-family:var(--util);
-  font-variation-settings:'wdth' 82;font-size:.76rem;
-  color:var(--faded);white-space:nowrap}
-.teaser{margin:.18rem 0 0;font-size:.92rem;line-height:1.6;color:var(--faded)}
+.catgrid{display:grid;grid-template-columns:1fr;gap:2.1rem}
+@media(min-width:640px){
+  main:has(#c2:checked) .catgrid{grid-template-columns:1fr 1fr}
+}
+.cat{min-width:0}
+.cat-head{display:flex;align-items:center;gap:.7rem;margin:0 0 .5rem;
+  font-family:var(--display);font-weight:700;font-size:1.15rem}
+.cat-head .cat-n{font-family:var(--util);font-variation-settings:'wdth' 84,'wght' 600;
+  font-size:.85rem;color:var(--red);margin-left:auto}
+.rows{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule)}
+.rows>li{border-bottom:1px solid var(--rule)}
+.row{display:block;padding:.68rem .1rem;color:var(--ink)}
+.row:hover{background:rgba(184,34,25,.08);text-decoration:none}
+.row-hl{display:block;font-family:var(--display);font-weight:700;
+  font-size:1rem;line-height:1.45}
+.row-meta{display:block;font-family:var(--util);font-variation-settings:'wdth' 82;
+  font-size:.76rem;color:var(--faded);margin-top:.2rem}
+.empty{color:var(--faded)}
 
-/* --- detail articles ------------------------------------------------ */
-.detail article{margin:0 0 1.6rem;padding:0 0 1.6rem;border-bottom:1px solid var(--rule)}
-.detail article:last-child{border-bottom:none}
-.detail h4{font-family:var(--display);font-weight:700;font-size:1.16rem;
-  line-height:1.42;margin:0 0 .45rem}
-.detail p{margin:0 0 .5rem}
-.meta{display:flex;flex-wrap:wrap;gap:.6rem;margin:.55rem 0 0;
-  font-family:var(--util);font-variation-settings:'wdth' 84;font-size:.78rem;
-  color:var(--faded)}
-.meta .src{color:var(--faded)}
+/* --- modal / bottom sheet ------------------------------------------------ */
+dialog.modal{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);
+  margin:0;width:min(34rem,92vw);max-height:85vh;overflow:auto;border:2px solid var(--ink);
+  border-radius:.4rem;padding:0;background:var(--stock);color:var(--ink)}
+dialog.modal::backdrop{background:rgba(20,15,10,.55)}
+.m-img{display:block;width:100%;max-height:15rem;object-fit:cover;background:var(--block)}
+.modal-close{position:absolute;top:.5rem;right:.5rem;margin:0}
+.modal-close button{width:2.1rem;height:2.1rem;border:none;border-radius:50%;
+  background:var(--ink);color:var(--stock);font-size:1.1rem;line-height:1;cursor:pointer}
+.modal-body{padding:1.3rem 1.4rem 1.6rem}
+.m-hl{font-family:var(--display);font-weight:700;font-size:1.3rem;line-height:1.4;margin:0 0 .55rem}
+.modal-meta{display:flex;flex-wrap:wrap;gap:.5rem;margin:0 0 .8rem;
+  font-family:var(--util);font-variation-settings:'wdth' 84;font-size:.8rem;color:var(--faded)}
+.modal-meta>*+*::before{content:'·';margin-right:.5rem;color:var(--rule)}
+.m-excerpt{margin:0 0 1.1rem;color:var(--faded);line-height:1.65}
+.m-link{display:inline-block;background:var(--red);color:var(--stock);
+  font-family:var(--util);font-variation-settings:'wdth' 84,'wght' 600;
+  font-size:.85rem;padding:.55rem 1rem;border-radius:2rem}
+.m-link:hover{text-decoration:none;background:var(--ink)}
+@media(max-width:640px){
+  dialog.modal{top:auto;left:0;bottom:0;transform:none;width:100%;max-width:none;
+    border-radius:1rem 1rem 0 0;border-bottom:none;max-height:88vh;
+    animation:sheet-up .22s ease-out}
+}
+@keyframes sheet-up{from{transform:translateY(100%)}to{transform:translateY(0)}}
+@media(prefers-reduced-motion:reduce){dialog.modal{animation:none}}
 
-/* --- index sheets --------------------------------------------------- */
-.sheet{margin:0 0 3.25rem}
-.sheet:last-child{margin-bottom:1.5rem}
-.more{margin:1.4rem 0 0;font-family:var(--util);
-  font-variation-settings:'wdth' 84,'wght' 600;font-size:.88rem}
 .colophon{margin:2.5rem 0 0;padding-top:.9rem;border-top:3px solid var(--ink);
   font-family:var(--util);font-variation-settings:'wdth' 86;
   font-size:.8rem;color:var(--faded)}
 .colophon p{margin:.35rem 0}
 
-/* degrade gracefully for pre-redesign archived fragments */
-.digest ul:not(.rows):not(.tally){padding-left:1.1rem}
-
-@media(max-width:34rem){
-  .row{flex-wrap:wrap}
-  .row .dots{display:none}
-  .row .src{margin-left:auto;margin-top:.1rem}
-  .seg{flex-basis:3.5rem}
-  .seg a{padding:.35rem .35rem .1rem}
-  .seg-name{font-size:.68rem}
-}
-@media(prefers-reduced-motion:reduce){
-  .seg{animation:none}
-}
 @media print{
   body{background:#fff;max-width:none}
-  .back,.feeds,.more{display:none}
-  .edition.dusk{background:#fff;color:#000}
+  .back,.feeds,.tabs,.colsbar,dialog{display:none}
 }
 """
 
@@ -301,6 +268,28 @@ def save_state(state):
 
 
 # --- fetch + extract ---------------------------------------------------------
+
+def extract_meta(url):
+    """Fetch a URL once and return {text, author, image} or None. Author/image
+    come from the page's own metadata (og:*, byline) -- no extra request,
+    same download trafilatura.extract() already needed for the body."""
+    try:
+        downloaded = trafilatura.fetch_url(url)
+        if not downloaded:
+            return None
+        text = trafilatura.extract(downloaded)
+        if not text:
+            return None
+        meta = extract_metadata(downloaded, default_url=url)
+        return {
+            "text": text,
+            "author": (getattr(meta, "author", None) or "").strip(),
+            "image": (getattr(meta, "image", None) or "").strip(),
+        }
+    except Exception as e:
+        log.warning("extraction failed for %s: %s", url, e)
+        return None
+
 
 def fetch_new_entries(source, state, now):
     """Return new articles (dicts) from one source's feed. Never raises --
@@ -323,14 +312,15 @@ def fetch_new_entries(source, state, now):
         if not link or link in seen:
             continue
 
+        pub_dt = None
         published = entry.get("published_parsed") or entry.get("updated_parsed")
         if published:
             pub_dt = datetime(*published[:6], tzinfo=timezone.utc)
             if pub_dt < cutoff:
                 continue
 
-        text = extract_text(link)
-        if not text:
+        meta = extract_meta(link)
+        if not meta:
             log.warning("skipping article, no extractable text: %s", link)
             continue
 
@@ -339,7 +329,10 @@ def fetch_new_entries(source, state, now):
             "section_hint": source["section"],
             "title": entry.get("title", "").strip(),
             "link": link,
-            "text": text[:MAX_ARTICLE_CHARS],
+            "text": meta["text"][:MAX_ARTICLE_CHARS],
+            "author": meta["author"],
+            "image": meta["image"],
+            "published": pub_dt.isoformat() if pub_dt else None,
         })
         seen.add(link)
 
@@ -347,26 +340,14 @@ def fetch_new_entries(source, state, now):
     return new_articles
 
 
-def extract_text(url):
-    try:
-        downloaded = trafilatura.fetch_url(url)
-        if not downloaded:
-            return None
-        return trafilatura.extract(downloaded)
-    except Exception as e:
-        log.warning("extraction failed for %s: %s", url, e)
-        return None
-
-
 def _strip_repeated_headline(text, title):
     """Most Bangla outlets open the article body with the headline again --
-    sometimes twice, once as a kicker. Left in, every teaser is just its own
+    sometimes twice, once as a kicker. Left in, every excerpt is just its own
     headline restated.
 
     Compared in NFD because the feed title and the extracted body disagree on
-    how they spell য়/ড়/ঢ়: one uses the precomposed য় (U+09DF), the other য +
-    nukta. Those three letters are Unicode composition exclusions, so NFC
-    won't reconcile them and a plain == or startswith silently misses.
+    how they spell য়/ড়/ঢ় (composition exclusions -- NFC does not reconcile
+    them, so a plain startswith silently misses).
     """
     nfd = lambda s: unicodedata.normalize("NFD", s)  # noqa: E731
     target = nfd(title.strip())
@@ -376,8 +357,6 @@ def _strip_repeated_headline(text, title):
         body = text.lstrip()
         if not nfd(body).startswith(target):
             break
-        # NFD only ever expands, so the cut in the original text is at most
-        # len(target) characters in.
         cut = next((i for i in range(1, min(len(body), len(target)) + 1)
                     if nfd(body[:i]) == target), None)
         if cut is None:
@@ -388,9 +367,8 @@ def _strip_repeated_headline(text, title):
 
 def collect_results(articles):
     """No AI: each article's own title as headline, a plain-text excerpt of
-    its extracted body as "summary". Section defaults to Local when the
-    source doesn't map cleanly (see SOURCES in config.py) -- no classifier
-    to do better than that."""
+    its extracted body. Section defaults to Local when the source doesn't
+    map cleanly (see SOURCES in config.py) -- no classifier to do better."""
     results = []
     for i, a in enumerate(articles):
         title = (a["title"] or "").strip()
@@ -412,9 +390,8 @@ def collect_results(articles):
 # --- assemble ----------------------------------------------------------------
 
 def make_teaser(text, max_chars=TEASER_CHARS):
-    """First sentence (Bengali or Latin punctuation) of the full summary, capped.
-    This is the one-line version readers see in the 5-7 min quick digest --
-    the full multi-sentence text is only shown in the details section."""
+    """First sentence (Bengali or Latin punctuation) of a longer excerpt,
+    capped -- used only for the email's one-line preview."""
     text = text.strip()
     for sep in ("\u0964", ".", "!", "?"):  # । = Bengali sentence-ending mark
         idx = text.find(sep)
@@ -426,9 +403,11 @@ def make_teaser(text, max_chars=TEASER_CHARS):
 
 
 def group_by_section(articles, results):
+    """Section -> list of articles, each carrying everything a headline row
+    or the detail modal needs (no anchors: nothing links within-page
+    anymore, see docs/adr/0006)."""
     grouped = {s: [] for s in SECTIONS}
     by_index = {r["index"]: r for r in results}
-    anchor_n = 0
     for i, a in enumerate(articles):
         r = by_index.get(i)
         if not r:
@@ -437,22 +416,26 @@ def group_by_section(articles, results):
         if section not in grouped:
             log.warning("unknown section %r, dropping article", section)
             continue
+        time_label = ""
+        if a.get("published"):
+            try:
+                time_label = bn_time(to_bd(datetime.fromisoformat(a["published"])))
+            except ValueError:
+                pass
         grouped[section].append({
-            "anchor": f"a{anchor_n}",
             "headline": r["headline"],
-            "summary": r["summary"],
-            "teaser": make_teaser(r["summary"]),
+            "excerpt": r["summary"],
             "source": a["source"],
             "link": safe_url(a["link"]),  # untrusted: feeds can send javascript: URLs
+            "author": (a.get("author") or "").strip(),
+            "image": safe_url(a.get("image")),
+            "time": time_label,
         })
-        anchor_n += 1
     return grouped
 
 
 # --- epub --------------------------------------------------------------------
 
-# E-readers strip most CSS, so this only carries the two-ink hierarchy where
-# it survives: heavy display headings, vermilion section rules, quiet sources.
 EPUB_CSS = """\
 body{font-family:serif;line-height:1.65;margin:0 6%}
 h1{font-size:1.5em;font-weight:700;margin:1em 0 .2em}
@@ -465,7 +448,6 @@ ol.rows{list-style:none;margin:0;padding:0}
 ol.rows li{margin:0 0 .9em}
 ol.rows .hl{font-weight:700}
 .src{font-size:.8em;color:#6f5f42}
-.teaser{margin:.15em 0 0;font-size:.92em;color:#3a3128}
 article{margin:0 0 1.4em}
 article h3{font-size:1.05em;font-weight:700;margin:0 0 .3em}
 .meta{font-size:.8em;color:#6f5f42;margin:.4em 0 0}
@@ -490,23 +472,20 @@ def build_epub(grouped, run_dt, out_path):
         return (f'<h2 class="sec">{SECTION_BN[section]}'
                 f'<span class="n">{bn_num(n)}</span></h2>')
 
-    # Chapter 1: the \u09b8\u09c2\u099a\u09bf -- every headline with its source and a one-line
-    # teaser, each linking into the matching detail chapter below.
-    digest_html = f'<h1>{esc(title)}</h1><h1 class="part">{PART_TOC}</h1>'
+    digest_html = f'<h1>{esc(title)}</h1>'
     for section in SECTIONS:
         items = grouped.get(section, [])
         if not items:
             continue
         fname = f"{section.lower()}.xhtml"
         digest_html += _sec(section, len(items)) + '<ol class="rows">'
-        for a in items:
+        for n, a in enumerate(items):
             digest_html += (
-                f'<li><a class="hl" href="{fname}#{a["anchor"]}">{esc(a["headline"])}</a>'
-                f' <span class="src">{esc(a["source"])}</span>'
-                f'<p class="teaser">{esc(a["teaser"])}</p></li>'
+                f'<li><a class="hl" href="{fname}#a{n}">{esc(a["headline"])}</a>'
+                f' <span class="src">{esc(a["source"])}</span></li>'
             )
         digest_html += "</ol>"
-    digest_ch = epub.EpubHtml(title=PART_TOC, file_name="digest.xhtml", lang="bn")
+    digest_ch = epub.EpubHtml(title="সূচি", file_name="digest.xhtml", lang="bn")
     digest_ch.content = digest_html
     digest_ch.add_item(css)
     book.add_item(digest_ch)
@@ -516,15 +495,16 @@ def build_epub(grouped, run_dt, out_path):
         items = grouped.get(section, [])
         if not items:
             continue
-        html = f'<h1>{SECTION_BN[section]}</h1><h1 class="part">{PART_FULL}</h1>'
-        for a in items:
-            link = safe_url(a.get("link"))
+        html = f'<h1>{SECTION_BN[section]}</h1>'
+        for n, a in enumerate(items):
+            link = a.get("link")
             origin = (f' \u2014 <a href="{esc(link)}">\u09ae\u09c2\u09b2 \u09aa\u09cd\u09b0\u09a4\u09bf\u09ac\u09c7\u09a6\u09a8</a>'
                       if link else "")
+            byline = f' \u2014 {esc(a["author"])}' if a.get("author") else ""
             html += (
-                f'<article id="{a["anchor"]}"><h3>{esc(a["headline"])}</h3>'
-                f'<p>{esc(a["summary"])}</p>'
-                f'<p class="meta">{esc(a["source"])}{origin}</p></article>'
+                f'<article id="a{n}"><h3>{esc(a["headline"])}</h3>'
+                f'<p>{esc(a["excerpt"])}</p>'
+                f'<p class="meta">{esc(a["source"])}{byline}{origin}</p></article>'
             )
         ch = epub.EpubHtml(title=SECTION_BN[section], file_name=f"{section.lower()}.xhtml", lang="bn")
         ch.content = html
@@ -539,135 +519,201 @@ def build_epub(grouped, run_dt, out_path):
     epub.write_epub(str(out_path), book)
 
 
-
 # --- site (GitHub Pages archive) --------------------------------------------
 
 def esc(t):
     """Feed titles/excerpts are plain text (feedparser decodes entities,
     trafilatura returns text) -- so they need escaping on the way into HTML,
     not passing through raw."""
-    return h_esc(str(t), quote=True)
+    return h_esc(str(t or ""), quote=True)
 
 
 def safe_url(url):
-    """Feed-provided links get interpolated into href="..." on the published
-    site, in EPUB chapters and in subscriber email. Escaping alone does not
-    defuse a `javascript:`/`data:`/`vbscript:` URL -- those stay live links --
-    so anything that isn't plain http(s) is dropped and the source is rendered
-    without a link instead. Sources are third-party RSS, i.e. untrusted.
-
-    Applied at each sink that emits an href, not only once upstream, so it
-    holds however the article dict was built.
+    """Feed-provided links/images get interpolated into href=/src=... on the
+    published site, in EPUB chapters and in subscriber email. Escaping alone
+    does not defuse a `javascript:`/`data:`/`vbscript:` URL -- those stay
+    live -- so anything that isn't plain http(s) is dropped. Applied at each
+    sink that emits one, not only once upstream, so it holds however the
+    article dict was built. Sources are third-party RSS, i.e. untrusted.
     """
     url = (url or "").strip()
     return url if url.lower().startswith(("http://", "https://")) else ""
 
 
-def _tally_html(counts, id_prefix):
-    """SIGNATURE: one segment per section, flex-sized by article count, so the
-    bar shows where the run's weight actually landed -- and doubles as the
-    section nav. Not decoration: remove it and you lose real information."""
-    live = [s for s in SECTIONS if counts.get(s)]
-    segs = "".join(
-        f'<li class=seg style="--n:{counts[s]};--i:{i}">'
-        f'<a href="#{id_prefix}-{s}"><span class=seg-name>{SECTION_BN[s]}</span>'
-        f'<span class=seg-n>{bn_num(counts[s])}</span></a></li>'
-        for i, s in enumerate(live)
-    )
-    return f"<ul class=tally>{segs}</ul>" if segs else ""
-
-
-def _edition_header(bd, counts, id_prefix, level=1):
-    """The panjika day-page head: prahar + weekday, the date set large, and
-    the tally rule beneath. `level` so the run page's date is its <h1> but on
-    the index the site name keeps that role."""
-    ed_label, ed_cls = edition(bd)
+def _row_html(a):
+    """One headline. A real <a href> to the source (works with JS off), plus
+    data-* the modal script reads to show the full detail without a second
+    request."""
+    href = esc(a["link"] or "#")
+    meta = esc(a["source"])
+    if a["time"]:
+        meta += f" · {esc(a['time'])}"
     return (
-        f'<header class="edition {ed_cls}">'
-        f"<p class=prahar>{ed_label}<span class=weekday>{bn_weekday(bd)}</span></p>"
-        f'<h{level} class=date>{bn_date(bd)}<span class=clock>{bn_time(bd)}</span></h{level}>'
-        f"{_tally_html(counts, id_prefix)}</header>"
+        f'<li><a class=row href="{href}" data-headline="{esc(a["headline"])}" '
+        f'data-source="{esc(a["source"])}" data-time="{esc(a["time"])}" '
+        f'data-author="{esc(a["author"])}" data-image="{esc(a["image"])}" '
+        f'data-link="{esc(a["link"])}" data-excerpt="{esc(a["excerpt"])}">'
+        f'<span class=row-hl>{esc(a["headline"])}</span>'
+        f'<span class=row-meta>{meta}</span></a></li>'
     )
 
 
-def _sec_head(section, n, id_prefix=None):
-    """Section name, a two-ink leader filling the gap, then the count. The
-    count is the point -- it's what the tally segment above links to."""
-    sid = f" id={id_prefix}-{section}" if id_prefix else ""
-    return (
-        f"<h3 class=sec{sid}><span>{SECTION_BN[section]}</span>"
-        f"<span class=sec-fill></span><span class=sec-n>{bn_num(n)}</span></h3>"
+def _panel_html(grouped, idx):
+    """Category chips (quick nav) + the categories themselves, each a plain
+    headline list -- no descriptions here by design (see docs/adr/0006);
+    full detail is only ever in the modal."""
+    present = [s for s in SECTIONS if grouped.get(s)]
+    if not present:
+        return '<p class=empty>এই সংস্করণে এখনও কোনো খবর নেই।</p>'
+    chips = "".join(
+        f'<a class=chip href="#p{idx}-{s}">{SECTION_BN[s]}'
+        f'<span class=chip-n>{bn_num(len(grouped[s]))}</span></a>'
+        for s in present
     )
+    cats = "".join(
+        f'<section class=cat id="p{idx}-{s}"><h3 class=cat-head><span>{SECTION_BN[s]}</span>'
+        f'<span class=cat-n>{bn_num(len(grouped[s]))}</span></h3>'
+        f'<ul class=rows>{"".join(_row_html(a) for a in grouped[s])}</ul></section>'
+        for s in present
+    )
+    return f'<nav class=chips>{chips}</nav><div class=catgrid>{cats}</div>'
 
 
-def render_run_html(grouped, run_dt):
-    counts = {s: len(grouped.get(s, [])) for s in SECTIONS}
-    digest = f"<section class=digest><h2 class=part>{PART_TOC}</h2>"
-    details = f"<section class=detail><h2 class=part>{PART_FULL}</h2>"
-    for section in SECTIONS:
-        items = grouped.get(section, [])
-        if not items:
-            continue
-        digest += _sec_head(section, len(items), id_prefix="s") + "<ol class=rows>"
-        for a in items:
-            digest += (
-                f'<li><span class=row><a class=hl href="#{a["anchor"]}">{esc(a["headline"])}</a>'
-                f"<span class=dots></span><span class=src>{esc(a['source'])}</span></span>"
-                f"<p class=teaser>{esc(a['teaser'])}</p></li>"
-            )
-        digest += "</ol>"
-        details += _sec_head(section, len(items))
-        for a in items:
-            link = safe_url(a.get("link"))
-            details += (
-                f'<article id="{a["anchor"]}"><h4>{esc(a["headline"])}</h4>'
-                f"<p>{esc(a['summary'])}</p>"
-                f"<p class=meta><span class=src>{esc(a['source'])}</span>"
-                + (f'<a href="{esc(link)}">\u09ae\u09c2\u09b2 \u09aa\u09cd\u09b0\u09a4\u09bf\u09ac\u09c7\u09a6\u09a8</a>' if link else "")
-                + "</p></article>"
-            )
-    digest += "</section>"
-    details += "</section>"
+MODAL_HTML = (
+    '<dialog id=modal class=modal>'
+    '<form method=dialog class=modal-close><button aria-label="বন্ধ করুন">\u00d7</button></form>'
+    '<img class=m-img alt="" hidden>'
+    '<div class=modal-body>'
+    '<h3 class=m-hl></h3>'
+    '<p class=modal-meta><span class=m-src></span><span class=m-author hidden></span>'
+    '<span class=m-time></span></p>'
+    '<p class=m-excerpt></p>'
+    '<a class=m-link href="#" target=_blank rel="noopener noreferrer" hidden>মূল প্রতিবেদন পড়ুন \u2192</a>'
+    '</div></dialog>'
+)
 
-    bd = to_bd(run_dt)
-    ed_label, _ = edition(bd)
-    date_str = bn_date(bd)
+# Vanilla, ~25 lines: reads the clicked row's data-* attributes into the one
+# modal, opens it with the native <dialog> API (backdrop dimming, Esc-to-close
+# and focus handling all come from the browser, not from this script).
+MODAL_SCRIPT = """\
+<script>
+(function(){
+  var modal = document.getElementById('modal');
+  if (!modal) return;
+  document.addEventListener('click', function(e){
+    var row = e.target.closest('.row');
+    if (!row) return;
+    e.preventDefault();
+    modal.querySelector('.m-hl').textContent = row.dataset.headline;
+    modal.querySelector('.m-src').textContent = row.dataset.source;
+    modal.querySelector('.m-time').textContent = row.dataset.time || '';
+    modal.querySelector('.m-excerpt').textContent = row.dataset.excerpt || '';
+    var author = modal.querySelector('.m-author');
+    author.textContent = row.dataset.author || '';
+    author.hidden = !row.dataset.author;
+    var img = modal.querySelector('.m-img');
+    if (row.dataset.image) { img.src = row.dataset.image; img.hidden = false; }
+    else { img.hidden = true; img.removeAttribute('src'); }
+    var link = modal.querySelector('.m-link');
+    if (row.dataset.link) { link.href = row.dataset.link; link.hidden = false; }
+    else { link.hidden = true; }
+    modal.showModal();
+  });
+  modal.addEventListener('click', function(e){ if (e.target === modal) modal.close(); });
+})();
+</script>
+"""
+
+
+def _doc(title, body_html, extra_head=""):
     return (
         "<!doctype html><html lang=bn><head><meta charset=utf-8>"
         '<meta name=viewport content="width=device-width,initial-scale=1">'
         "<meta name=color-scheme content=light>"
-        f"<title>{ed_label} \u00b7 {date_str} \u2014 \u09ac\u09be\u0982\u09b2\u09be \u09b8\u0982\u09ac\u09be\u09a6 \u09b8\u0982\u0995\u09cd\u09b7\u09c7\u09aa</title>"
-        f"{FONT_LINKS}"
-        '<link rel=stylesheet href="../style.css"></head><body>'
-        '<a class=back href="../index.html">\u2190 \u0986\u099c\u0995\u09c7\u09b0 \u09b8\u09ac \u09b8\u0982\u09b8\u09cd\u0995\u09b0\u09a3</a>'
-        f"{_edition_header(bd, counts, 's', level=1)}"
-        f"<main>{digest}{details}</main></body></html>"
+        f"<title>{title}</title>{FONT_LINKS}{extra_head}"
+        "</head><body>"
+        f"{body_html}"
+        "</body></html>"
     )
 
 
-_DIGEST_RE = re.compile(r"<section class=(?:quick-)?digest>.*?</section>", re.S)
+def render_run_html(grouped, run_dt):
+    """Standalone permalink for one edition -- used by RSS/OPDS and as a
+    direct link. Headlines link straight to the source (no modal needed on
+    a page that's only ever read, not interacted with)."""
+    bd = to_bd(run_dt)
+    ed_label, _ = edition(bd)
+    title = f"{ed_label} \u00b7 {bn_date(bd)}"
+    body = (
+        '<link rel=stylesheet href="../style.css">'
+        '<a class=back href="../index.html">\u2190 \u0986\u099c\u0995\u09c7\u09b0 \u09b8\u09ac \u09b8\u0982\u09b8\u09cd\u0995\u09b0\u09a3</a>'
+        f'<header class=masthead><p class=eyebrow>{ed_label}</p>'
+        f'<h1 class=date>{bn_date(bd)}<span class=weekday>{bn_weekday(bd)}, {bn_time(bd)}</span></h1></header>'
+        f'<main>{_panel_html(grouped, "r")}</main>'
+    )
+    return _doc(
+        f"{ed_label} \u00b7 {bn_date(bd)} \u2014 \u09ac\u09be\u0982\u09b2\u09be \u09b8\u0982\u09ac\u09be\u09a6 \u09b8\u0982\u0995\u09cd\u09b7\u09c7\u09aa",
+        body,
+    )
 
 
-def _run_fragment(fname, part="all"):
-    """Pull a piece of an already-written run page back out.
+def render_index(manifest):
+    """Today's editions as tabs (CSS-only, driven by radio :checked ->
+    :has(); default-checked tab is manifest[0] = the latest, so opening the
+    link always lands on the current edition), a 1/2-column toggle for the
+    category grid, and a shared modal for detail. See docs/adr/0006."""
+    editions = manifest[:2]  # a news-day is at most one dawn + one dusk run
+    if not editions:
+        body = (
+            "<header class=masthead><hr class=rule2>"
+            "<p class=eyebrow>বাংলা সংবাদ সংক্ষেপ</p>"
+            "<hr class=rule2></header>"
+            "<p class=colophon>আজকের কোনো সংস্করণ এখনো প্রকাশ হয়নি।</p>"
+        )
+        return _doc("বাংলা সংবাদ সংক্ষেপ", body, "<link rel=stylesheet href=style.css>")
 
-    part="all"    -> everything after the edition header (RSS description).
-    part="digest" -> just the \u09b8\u09c2\u099a\u09bf section (the index, which is digest-only).
-    Tolerates pre-redesign archived pages (class=quick-digest) so the day a
-    redesign ships doesn't blank out earlier editions.
-    """
-    html = (SITE_DIR / fname).read_text()
-    if part == "digest":
-        m = _DIGEST_RE.search(html)
-        return m.group(0) if m else ""
-    m = re.search(r"</header>(.*)</body>", html, re.S)
-    return m.group(1) if m else ""
+    bd0 = to_bd(datetime.fromisoformat(editions[0]["dt"]))
+    ed_label0, _ = edition(bd0)
+
+    radios, tabs, panels = "", "", ""
+    for i, r in enumerate(editions):
+        bd = to_bd(datetime.fromisoformat(r["dt"]))
+        ed_label, _ = edition(bd)
+        checked = " checked" if i == 0 else ""
+        radios += f'<input type=radio name=ed id=ed{i} class=vh{checked}>'
+        tabs += f'<label class=tab for=ed{i}>{ed_label}<span class=tab-sub>{bn_time(bd)}</span></label>'
+        panels += f'<section class=panel id=p{i}>{_panel_html(r.get("grouped", {}), i)}</section>'
+
+    tabs_html = f'<div class=tabs role=tablist>{tabs}</div>' if len(editions) > 1 else ""
+
+    body = (
+        "<header class=masthead><hr class=rule2>"
+        "<p class=eyebrow>বাংলা সংবাদ সংক্ষেপ</p>"
+        f'<h1 class=date>{bn_date(bd0)}<span class=weekday>{bn_weekday(bd0)}</span></h1>'
+        "<p class=feeds><a href=feed.xml>RSS</a><a href=opds.xml>OPDS</a></p>"
+        "<hr class=rule2></header>"
+        f"<main>{radios}{tabs_html}"
+        '<div class=colsbar aria-label="কলাম">'
+        '<input type=radio name=cols id=c1 class=vh><label for=c1>১ কলাম</label>'
+        '<input type=radio name=cols id=c2 class=vh checked><label for=c2>২ কলাম</label>'
+        "</div>"
+        f"<div class=panels>{panels}</div></main>"
+        f"{MODAL_HTML}"
+        "<footer class=colophon><p>আজকের সংস্করণ -- পরবর্তী সংস্করণ ভোর/সন্ধ্যা ৬টায়।</p></footer>"
+        f"{MODAL_SCRIPT}"
+    )
+    return _doc(
+        f"{ed_label0} \u00b7 {bn_date(bd0)} \u2014 \u09ac\u09be\u0982\u09b2\u09be \u09b8\u0982\u09ac\u09be\u09a6 \u09b8\u0982\u0995\u09cd\u09b7\u09c7\u09aa",
+        body,
+        "<link rel=stylesheet href=style.css>"
+        '<link rel=alternate type=application/rss+xml title="\u09ac\u09be\u0982\u09b2\u09be \u09b8\u0982\u09ac\u09be\u09a6 \u09b8\u0982\u0995\u09cd\u09b7\u09c7\u09aa RSS" href=feed.xml>',
+    )
 
 
 def build_rss(manifest):
-    """RSS 2.0 feed of runs, newest first (manifest is already in that
-    order) -- one <item> per edition, full digest+details content inlined
-    into <description> so feed readers show the actual news, not a stub."""
+    """RSS 2.0 feed of runs, newest first -- one <item> per edition, the
+    headline list (grouped, straight from the manifest -- no re-reading
+    already-written HTML off disk) inlined as <description>."""
     items = []
     for r in manifest[:RSS_ITEM_CAP]:
         dt = datetime.fromisoformat(r["dt"])
@@ -681,7 +727,7 @@ def build_rss(manifest):
             f"<link>{xml_escape(link)}</link>"
             f"<guid>{xml_escape(link)}</guid>"
             f"<pubDate>{format_datetime(dt)}</pubDate>"
-            f"<description>{xml_escape(_run_fragment(r['file']))}</description>"
+            f"<description>{xml_escape(_panel_html(r.get('grouped', {}), 'r'))}</description>"
             "</item>"
         )
     return (
@@ -698,8 +744,7 @@ def build_rss(manifest):
 
 def build_opds(manifest):
     """Minimal OPDS 1.2 acquisition feed (Atom + acquisition links) -- only
-    entries with an archived EPUB get a download link (pre-this-feature
-    entries won't have one)."""
+    entries with an archived EPUB get a download link."""
     entries = []
     for r in manifest[:RSS_ITEM_CAP]:
         epub_name = Path(r["file"]).stem + ".epub"
@@ -737,8 +782,7 @@ def build_opds(manifest):
 def _prune_before(manifest, cutoff_date):
     """Drop (and delete the archived .html/.epub for) every run older than
     cutoff_date (a BD-local date()). Called on the first edition of a new
-    day, so the site/feed only ever hold \"today so far\" -- what keeps
-    site/epubs/ bounded enough for OPDS to make sense."""
+    day, so the site/feed only ever hold "today so far"."""
     kept, dropped = [], []
     for r in manifest:
         target = kept if to_bd(datetime.fromisoformat(r["dt"])).date() >= cutoff_date else dropped
@@ -747,55 +791,6 @@ def _prune_before(manifest, cutoff_date):
         (SITE_DIR / r["file"]).unlink(missing_ok=True)
         (SITE_DIR / "epubs" / (Path(r["file"]).stem + ".epub")).unlink(missing_ok=True)
     return kept
-
-
-def render_index(manifest):
-    """Today's editions stacked newest-first, digest only. The full excerpts
-    live on each edition's own page -- inlining them here duplicated every
-    article body two or three times and made index.html tens of kilobytes of
-    text nobody scrolled to."""
-    sheets = []
-    for i, r in enumerate(manifest[:3]):
-        bd = to_bd(datetime.fromisoformat(r["dt"]))
-        # Re-point the extracted digest at the edition page (the detail
-        # anchors it links to only exist there) and namespace its section ids
-        # so three stacked editions don't collide.
-        frag = _run_fragment(r["file"], part="digest")
-        frag = (frag
-                .replace(f"<h2 class=part>{PART_TOC}</h2>", "")  # the sheet header already says it
-                .replace("id=s-", f"id=s{i}-")
-                .replace('href="#', f'href="{r["file"]}#'))
-        sheets.append(
-            "<article class=sheet>"
-            f"{_edition_header(bd, r['counts'], f's{i}', level=2)}"
-            f"{frag}"
-            f'<p class=more><a href="{r["file"]}">\u098f\u0987 \u09b8\u0982\u09b8\u09cd\u0995\u09b0\u09a3 \u09ac\u09bf\u09b8\u09cd\u09a4\u09be\u09b0\u09bf\u09a4 \u09aa\u09dc\u09c1\u09a8 \u2192</a></p>'
-            "</article>"
-        )
-    body = "".join(sheets) or (
-        "<p class=colophon>\u0986\u099c\u0995\u09c7\u09b0 \u0995\u09cb\u09a8\u09cb \u09b8\u0982\u09b8\u09cd\u0995\u09b0\u09a3 \u098f\u0996\u09a8\u09cb \u09aa\u09cd\u09b0\u0995\u09be\u09b6 \u09b9\u09df\u09a8\u09bf\u0964 "
-        "\u09aa\u09b0\u09ac\u09b0\u09cd\u09a4\u09c0 \u09b8\u0982\u09b8\u09cd\u0995\u09b0\u09a3 \u09ad\u09cb\u09b0 \u09ec\u099f\u09be\u09df\u0964</p>"
-    )
-    return (
-        "<!doctype html><html lang=bn><head><meta charset=utf-8>"
-        '<meta name=viewport content="width=device-width,initial-scale=1">'
-        "<meta name=color-scheme content=light>"
-        "<title>\u09ac\u09be\u0982\u09b2\u09be \u09b8\u0982\u09ac\u09be\u09a6 \u09b8\u0982\u0995\u09cd\u09b7\u09c7\u09aa</title>"
-        f"{FONT_LINKS}"
-        "<link rel=stylesheet href=style.css>"
-        '<link rel=alternate type=application/rss+xml title="\u09ac\u09be\u0982\u09b2\u09be \u09b8\u0982\u09ac\u09be\u09a6 \u09b8\u0982\u0995\u09cd\u09b7\u09c7\u09aa RSS" href=feed.xml>'
-        "</head><body>"
-        "<header class=masthead><hr class=rule2>"
-        "<h1>\u09ac\u09be\u0982\u09b2\u09be \u09b8\u0982\u09ac\u09be\u09a6 \u09b8\u0982\u0995\u09cd\u09b7\u09c7\u09aa</h1>"
-        "<p class=cadence>\u09aa\u09cd\u09b0\u09a4\u09bf\u09a6\u09bf\u09a8 \u09ad\u09cb\u09b0 \u09ec\u099f\u09be \u0993 \u09b8\u09a8\u09cd\u09a7\u09cd\u09af\u09be \u09ec\u099f\u09be\u09df \u2014 \u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6 \u09b8\u09ae\u09df</p>"
-        "<p class=feeds><a href=feed.xml>RSS</a><a href=opds.xml>OPDS</a></p>"
-        "<hr class=rule2></header>"
-        f"<main>{body}</main>"
-        "<footer class=colophon>"
-        "<p>\u098f\u0987 \u09aa\u09be\u09a4\u09be\u09df \u09b6\u09c1\u09a7\u09c1 \u0986\u099c\u0995\u09c7\u09b0 \u09b8\u0982\u09b8\u09cd\u0995\u09b0\u09a3 \u09a5\u09be\u0995\u09c7 \u2014 \u09aa\u09b0\u09a6\u09bf\u09a8 \u09ad\u09cb\u09b0\u09c7 \u0986\u0997\u09c7\u09b0\u0997\u09c1\u09b2\u09cb \u09b8\u09b0\u09c7 \u09af\u09be\u09df\u0964</p>"
-        "<p>\u09aa\u09cd\u09b0\u09a4\u09bf\u099f\u09bf \u09b8\u0982\u09b8\u09cd\u0995\u09b0\u09a3 EPUB \u09b9\u09bf\u09b8\u09c7\u09ac\u09c7 \u09a8\u09be\u09ae\u09be\u09a8\u09cb \u09af\u09be\u09df OPDS \u09ab\u09bf\u09a1 \u09a5\u09c7\u0995\u09c7\u0964</p>"
-        "</footer></body></html>"
-    )
 
 
 def update_site(grouped, run_dt, epub_path=None):
@@ -815,7 +810,10 @@ def update_site(grouped, run_dt, epub_path=None):
         (SITE_DIR / "epubs" / (Path(fname).stem + ".epub")).write_bytes(epub_path.read_bytes())
 
     counts = {s: len(grouped.get(s, [])) for s in SECTIONS if grouped.get(s)}
-    manifest.insert(0, {"dt": run_dt.isoformat(), "file": fname, "counts": counts})
+    # Full article data lives here now, not just counts -- index/RSS/OPDS
+    # read it straight from the manifest instead of re-parsing rendered HTML
+    # (see docs/adr/0006). Bounded: pruning above keeps this at <= 2 runs.
+    manifest.insert(0, {"dt": run_dt.isoformat(), "file": fname, "counts": counts, "grouped": grouped})
     RUNS_MANIFEST.write_text(json.dumps(manifest, ensure_ascii=False, indent=2))
 
     (SITE_DIR / "index.html").write_text(render_index(manifest))
@@ -856,7 +854,7 @@ def render_email_html(grouped, run_dt):
             f"</tr></table></td></tr>"
         )
         for a in items:
-            link = safe_url(a.get("link"))
+            link = a.get("link")
             hl_style = "font:700 16px Georgia,serif;color:#191410;text-decoration:none;line-height:1.45"
             headline = (
                 f'<a href="{esc(link)}" style="{hl_style}">{esc(a["headline"])}</a>'
@@ -867,7 +865,7 @@ def render_email_html(grouped, run_dt):
                 f"{headline}"
                 f'<div style="font:12px Arial,sans-serif;color:#6f5f42;padding-top:3px">{esc(a["source"])}</div>'
                 f'<div style="font:14px Georgia,serif;color:#6f5f42;line-height:1.55;'
-                f'padding-top:4px">{esc(a["teaser"])}</div>'
+                f'padding-top:4px">{esc(make_teaser(a["excerpt"]))}</div>'
                 "</td></tr>"
             )
 
@@ -926,13 +924,9 @@ def send_email(epub_path, run_dt, grouped):
 
     with smtplib.SMTP_SSL(smtp_host, smtp_port) as smtp:
         smtp.login(smtp_user, smtp_pass)
-        # sendmail() only raises if EVERY recipient is refused; a partial
-        # failure (one bad address) still delivers to the rest and returns
-        # the refused ones here instead of blowing up the whole send.
         refused = smtp.sendmail(smtp_user, to_addrs, msg.as_string())
     if refused:
         log.warning("some recipients refused: %s", refused)
-
 
 
 # --- main --------------------------------------------------------------------
@@ -957,15 +951,8 @@ def main():
     epub_path = ROOT / f"digest-{now.strftime('%Y%m%d-%H%M')}.epub"
     build_epub(grouped, now, epub_path)
     update_site(grouped, now, epub_path=epub_path)
-    # Content is on the site archive now -- mark seen regardless of whether
-    # email succeeds below, so a flaky SMTP send doesn't resurface/duplicate
-    # the same articles next run.
     save_state(state)
 
-    # EMAIL_TO absent/empty means "no subscribers configured" (see README) --
-    # a config gap, not a flaky send, so it shouldn't burn 3 retries/15s of
-    # backoff on something that can never succeed. send_email() itself still
-    # raises on an empty EMAIL_TO for the case where it's called directly.
     if parse_recipients(os.environ.get("EMAIL_TO", "")):
         try:
             retry(lambda: send_email(epub_path, now, grouped), what="email send")
