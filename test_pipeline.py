@@ -2,6 +2,7 @@
 resolution, tabbed/modal site rendering. No network calls -- feedparser.parse
 and extract_meta are monkeypatched. Run with: python test_pipeline.py
 """
+import json
 import unicodedata
 from datetime import datetime, timedelta, timezone
 from types import SimpleNamespace
@@ -244,35 +245,36 @@ def _article(headline, source="Src", link="https://x", **extra):
 def test_render_run_html_is_headline_only_and_escaped():
     grouped = {s: [] for s in pipeline.SECTIONS}
     grouped["Local"] = [_article("শিরোনাম ১ & Q<A", link="https://x?a=1&b=2")]
-    run_dt = datetime(2026, 8, 12, 0, 30, tzinfo=timezone.utc)  # 06:30 BD -> dawn
+    run_dt = datetime(2026, 8, 12, 0, 30, tzinfo=timezone.utc)  # 06:30 BD -> morning
     html = pipeline.render_run_html(grouped, run_dt)
     assert "&amp;" in html and "Q&lt;A" in html, "headlines/links must be HTML-escaped"
-    assert "প্রভাতী" in html, "dawn edition label"
+    assert "সকালের" in html, "morning edition label"
     assert 'href="https://x?a=1&amp;b=2"' in html, "headline links straight to the source"
     assert "class=modal" not in html, "the static permalink page has no interactive modal"
     print("ok: render_run_html")
 
 
 def test_render_index_tabs_default_to_latest_edition():
-    grouped_dawn = {s: [] for s in pipeline.SECTIONS}
-    grouped_dawn["Local"] = [_article("দুপুরের আগের খবর")]
-    grouped_dusk = {s: [] for s in pipeline.SECTIONS}
-    grouped_dusk["Tech"] = [_article("সান্ধ্য খবর", author="লেখক", image="https://x/i.jpg", time="সন্ধ্যা ৬:০০")]
+    grouped_morning = {s: [] for s in pipeline.SECTIONS}
+    grouped_morning["Local"] = [_article("দুপুরের আগের খবর")]
+    grouped_evening = {s: [] for s in pipeline.SECTIONS}
+    grouped_evening["Tech"] = [_article("সান্ধ্য খবর", author="লেখক", image="https://x/i.jpg", time="সন্ধ্যা ৬:০০")]
 
     manifest = [
-        {"dt": datetime(2026, 8, 12, 12, 5, tzinfo=timezone.utc).isoformat(),  # 18:05 BD -> dusk, newest
-         "file": "runs/a.html", "counts": {"Tech": 1}, "grouped": grouped_dusk},
-        {"dt": datetime(2026, 8, 12, 0, 30, tzinfo=timezone.utc).isoformat(),  # 06:30 BD -> dawn
-         "file": "runs/b.html", "counts": {"Local": 1}, "grouped": grouped_dawn},
+        {"dt": datetime(2026, 8, 12, 12, 5, tzinfo=timezone.utc).isoformat(),  # 18:05 BD -> evening, newest
+         "file": "runs/a.html", "counts": {"Tech": 1}, "grouped": grouped_evening},
+        {"dt": datetime(2026, 8, 12, 0, 30, tzinfo=timezone.utc).isoformat(),  # 06:30 BD -> morning
+         "file": "runs/b.html", "counts": {"Local": 1}, "grouped": grouped_morning},
     ]
     index = pipeline.render_index(manifest)
 
     assert '<input type=radio name=ed id=ed0 class=vh checked>' in index, "latest edition tab is checked by default"
-    assert "সান্ধ্য সংস্করণ" in index and "প্রভাতী সংস্করণ" in index, "both tabs present"
+    assert "সান্ধ্য সংস্করণ" in index and "সকালের সংস্করণ" in index, "both tabs present"
     assert 'data-headline="সান্ধ্য খবর"' in index, "row carries its data for the modal"
     assert 'data-author="লেখক"' in index and 'data-image="https://x/i.jpg"' in index
     assert "<p>সারাংশ</p>" not in index, "no inline description -- headline only, detail lives in the modal"
     assert '<dialog id=modal' in index, "shared modal present"
+    assert index.count("body:has(#ed") == 2, "one .horizon colour rule generated per tab"
     print("ok: render_index tabs default to latest edition")
 
 
@@ -299,6 +301,58 @@ def test_parse_recipients_handles_separators_and_whitespace():
     print("ok: parse_recipients")
 
 
+def test_edition_four_buckets_centred_on_scheduled_hours():
+    bd = lambda h, m=0: datetime(2026, 1, 1, h, m, tzinfo=pipeline.BD_TZ)
+    assert pipeline.edition(bd(6))[1] == "morning"
+    assert pipeline.edition(bd(12))[1] == "noon"
+    assert pipeline.edition(bd(18))[1] == "evening"
+    assert pipeline.edition(bd(0))[1] == "night"
+    # +/- a few minutes of CI scheduling drift must not flip the bucket
+    assert pipeline.edition(bd(5, 40))[1] == "morning"
+    assert pipeline.edition(bd(23, 50))[1] == "night"
+    assert pipeline.edition(bd(2, 55))[1] == "night", "just before 03:00 is still last night's bucket"
+    print("ok: edition four buckets")
+
+
+def test_todays_editions_filters_to_newest_calendar_date():
+    """Manifest can (briefly, pre-prune) hold runs from two different BD
+    dates -- the index must only ever show the newest date's, capped at 4."""
+    mk = lambda h, day=13: {"dt": datetime(2026, 8, day, h, 0, tzinfo=timezone.utc).isoformat(),
+                            "file": "r.html", "counts": {}, "grouped": {}}
+    manifest = [
+        mk(18, day=13),  # 2026-08-14 00:00 BD -- newest, night edition of the 14th
+        mk(12, day=13),  # 2026-08-13 18:00 BD -- previous date, not yet pruned
+        mk(6, day=13),   # 2026-08-13 12:00 BD -- previous date
+        mk(0, day=13),   # 2026-08-13 06:00 BD -- previous date
+    ]
+    todays = pipeline._todays_editions(manifest)
+    assert len(todays) == 1, "only the one run on the newest date should show"
+    assert pipeline._todays_editions([]) == []
+    print("ok: _todays_editions filters by newest calendar date")
+
+
+def test_update_site_prunes_on_the_night_edition_not_morning():
+    """Night (~00:00 BD) is chronologically the first of each date's four
+    runs, so it's the one that should reset retention -- not morning."""
+    import tempfile
+    from pathlib import Path
+    from unittest.mock import patch
+
+    site = Path(tempfile.mkdtemp())
+    grouped = {s: [] for s in pipeline.SECTIONS}
+    old_run = datetime(2026, 8, 12, 12, 0, tzinfo=timezone.utc)   # 18:00 BD Aug 12 -- evening
+    night_run = datetime(2026, 8, 12, 18, 0, tzinfo=timezone.utc)  # 00:00 BD Aug 13 -- night
+
+    with patch.object(pipeline, "SITE_DIR", site), patch.object(pipeline, "RUNS_MANIFEST", site / "runs.json"):
+        pipeline.update_site(grouped, old_run)
+        pipeline.update_site(grouped, night_run)
+        manifest = json.loads((site / "runs.json").read_text())
+
+    assert len(manifest) == 1, "the night run must have pruned the previous date's run"
+    assert manifest[0]["dt"] == night_run.isoformat()
+    print("ok: update_site prunes on the night edition")
+
+
 if __name__ == "__main__":
     test_group_by_section_uses_hint_then_drops_unknown()
     test_group_by_section_carries_author_image_time()
@@ -318,4 +372,7 @@ if __name__ == "__main__":
     test_render_index_empty_manifest()
     test_feed_links_are_scheme_restricted()
     test_parse_recipients_handles_separators_and_whitespace()
+    test_edition_four_buckets_centred_on_scheduled_hours()
+    test_todays_editions_filters_to_newest_calendar_date()
+    test_update_site_prunes_on_the_night_edition_not_morning()
     print("all tests passed")

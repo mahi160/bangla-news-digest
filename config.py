@@ -31,15 +31,15 @@ SOURCES = [
 # Where the site is deployed -- used to build absolute links in feed.xml/opds.xml.
 SITE_URL = "https://mahi160.github.io/bangla-news-digest/"
 
-# Local timezone editions/dates are displayed in, and that the twice-daily
-# dawn/dusk split (hour < 12 local = dawn) and retention pruning key off of.
+# Local timezone editions/dates are displayed in, and that the four-times-
+# daily edition split (pipeline.py's edition()) and retention pruning key off of.
 LOCAL_TZ_OFFSET_HOURS = 6  # Bangladesh Standard Time
 
 # ponytail: fixed lookback window. If a run is skipped/fails, the gap widens
 # silently until the next successful run picks up whatever's still in the
 # feed. Fine for a hobby digest; add a "catch up from last success" mode if
 # missed runs become a real problem.
-LOOKBACK_HOURS = 13  # slightly over 12h to cover clock drift / late-starting runs
+LOOKBACK_HOURS = 7  # slightly over the 6h run cadence, to cover drift/late starts
 
 # Cap on extracted article text kept in memory per article, before it's
 # trimmed further to EXCERPT_CHARS for display.

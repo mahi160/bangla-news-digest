@@ -90,9 +90,36 @@ def bn_time(dt):
     return f"{period} {h12}:{dt.minute:02d}".translate(_BN_DIGITS)
 
 
+# Four runs/day, six hours apart (06/12/18/24 BD) -- each bucket is centred
+# on its own scheduled hour with a 3h either-side margin, so a run that
+# fires a little early/late from CI scheduling drift still lands in the
+# bucket it was meant for.
+_EDITIONS = [
+    (3, "সকালের সংস্করণ", "morning"),   # ~06:00
+    (9, "দুপুরের সংস্করণ", "noon"),     # ~12:00
+    (15, "সান্ধ্য সংস্করণ", "evening"), # ~18:00
+    (21, "রাতের সংস্করণ", "night"),      # ~00:00 (wraps past 21:00)
+]
+
+
 def edition(dt):
-    """(label, css-class) for the twice-daily run cadence."""
-    return ("প্রভাতী সংস্করণ", "dawn") if dt.hour < 12 else ("সান্ধ্য সংস্করণ", "dusk")
+    """(label, css-class) for the four-times-daily run cadence."""
+    for start, label, cls in reversed(_EDITIONS):
+        if dt.hour >= start:
+            return label, cls
+    return _EDITIONS[-1][1], _EDITIONS[-1][2]  # hour < 3 -> still last night's "night" bucket
+
+
+# Mirrors the .horizon.<cls> rules in STYLE_CSS -- see the comment there.
+# Needed in Python too because render_index's tabs don't have a fixed
+# class-per-index (which editions exist varies day to day), so its
+# :has(#edN:checked) rules for .horizon have to be generated per page.
+_HORIZON_GRADIENT = {
+    "morning": "linear-gradient(100deg,#F6D9A8,#E2963C 45%,#B9542F 85%)",
+    "noon": "linear-gradient(100deg,#FCE9C6,#E2B33C 50%,#C9862E 100%)",
+    "evening": "linear-gradient(100deg,#2C2653,#5B4B8A 55%,#8A7BB8 100%)",
+    "night": "linear-gradient(100deg,#141224,#2C2653 55%,#453E78 100%)",
+}
 
 
 def bn_num(n):
@@ -146,7 +173,6 @@ STYLE_CSS = """\
 :root{
   --paper:#ECEAE4; --paper-deep:#E3E0D6; --ink:#16181D;
   --iris:#453E78; --iris-soft:#E4E1F0;
-  --dawn:#E2963C; --dusk:#2C2653;
   --rule:#D6D2C6; --faded:#5F5A49;
   --headline:'Noto Serif Bengali',Georgia,serif;
   --ui:'Noto Sans Bengali',system-ui,-apple-system,sans-serif;
@@ -176,7 +202,7 @@ a:focus-visible{outline:2px solid var(--iris);outline-offset:3px}
 .masthead{margin:0 0 1.6rem}
 .masthead .eyebrow{font-family:var(--ui);font-weight:600;
   font-size:.82rem;letter-spacing:.02em;color:var(--iris);margin:0 0 .25rem}
-.masthead .date{font-family:var(--display);font-weight:400;
+.masthead .date{font-family:var(--headline);font-weight:800;
   font-size:clamp(2.3rem,9vw,3.4rem);line-height:1;margin:0 0 .5rem;
   display:flex;flex-wrap:wrap;align-items:baseline;gap:.7rem}
 .masthead .weekday{font-family:var(--ui);font-weight:500;
@@ -190,12 +216,18 @@ a:focus-visible{outline:2px solid var(--iris);outline-offset:3px}
   font-weight:500;font-size:.82rem;color:var(--faded)}
 .back:hover{color:var(--iris)}
 /* The one bold move on the page: a strip that's the actual sky colour of
-   the edition being read. Static ed_cls class on the standalone run page,
-   :has() off the tab radios on the interactive index. */
+   the edition being read -- one of four now (docs/adr/0010), not just
+   dawn/dusk. Static .horizon.<cls> class on the standalone run page;
+   the interactive index instead gets a handful of :has() rules generated
+   per-page in render_index (each tab index doesn't have a fixed class --
+   which four editions actually exist varies day to day), pointing at the
+   same four gradients defined here. Keep those two in sync by hand: only
+   four short values, not worth a shared-templating mechanism for. */
 .horizon{height:.5rem;border-radius:.25rem;margin:0 0 1.5rem;background-size:200% 100%;
-  background-image:linear-gradient(100deg,#F6D9A8,var(--dawn) 45%,#B9542F 85%)}
-.horizon.dusk,body:has(#ed1:checked) .horizon{
-  background-image:linear-gradient(100deg,var(--dusk),#5B4B8A 55%,#8A7BB8 100%)}
+  background-image:linear-gradient(100deg,#F6D9A8,#E2963C 45%,#B9542F 85%)}
+.horizon.noon{background-image:linear-gradient(100deg,#FCE9C6,#E2B33C 50%,#C9862E 100%)}
+.horizon.evening{background-image:linear-gradient(100deg,#2C2653,#5B4B8A 55%,#8A7BB8 100%)}
+.horizon.night{background-image:linear-gradient(100deg,#141224,#2C2653 55%,#453E78 100%)}
 @media(prefers-reduced-motion:no-preference){
   .horizon{animation:drift 16s ease-in-out infinite alternate}
 }
@@ -208,15 +240,17 @@ a:focus-visible{outline:2px solid var(--iris);outline-offset:3px}
 .vh{position:absolute;appearance:none;opacity:0;width:1px;height:1px;margin:-1px;overflow:hidden;border:none;background:transparent}
 .vh:focus-visible{opacity:1;width:auto;height:auto;position:static;margin:0 .4rem 0 0;outline:2px solid var(--iris)}
 
-/* --- edition tabs ------------------------------------------------------ */
-.tabs{display:flex;gap:.3rem;margin:0 0 1.1rem;border-bottom:1px solid var(--rule)}
-.tab{font-family:var(--headline);font-style:italic;font-size:1.05rem;cursor:pointer;
-  padding:.55rem 1rem .5rem;color:var(--faded);border-bottom:2px solid transparent;
+/* --- edition tabs (up to four -- 06/12/18/24, docs/adr/0010) ----------- */
+.tabs{display:flex;flex-wrap:wrap;gap:.3rem;margin:0 0 1.1rem;border-bottom:1px solid var(--rule)}
+.tab{font-family:var(--headline);font-style:italic;font-size:1rem;cursor:pointer;
+  padding:.5rem .85rem .45rem;color:var(--faded);border-bottom:2px solid transparent;
   margin-bottom:-1px;user-select:none;transition:color .15s}
 .tab .tab-sub{display:block;font-family:var(--ui);font-style:normal;
-  font-weight:500;font-size:.72rem;color:var(--faded)}
+  font-weight:500;font-size:.7rem;color:var(--faded)}
 main:has(#ed0:checked) label.tab[for=ed0],
-main:has(#ed1:checked) label.tab[for=ed1]{color:var(--iris);border-bottom-color:var(--iris)}
+main:has(#ed1:checked) label.tab[for=ed1],
+main:has(#ed2:checked) label.tab[for=ed2],
+main:has(#ed3:checked) label.tab[for=ed3]{color:var(--iris);border-bottom-color:var(--iris)}
 
 /* --- column toggle ------------------------------------------------------ */
 .colsbar{display:flex;justify-content:flex-end;gap:.3rem;margin:0 0 1.2rem}
@@ -230,6 +264,8 @@ main:has(#c2:checked) label[for=c2]{color:var(--iris);border-color:var(--iris)}
 .panel{display:none}
 main:has(#ed0:checked) #p0{display:block}
 main:has(#ed1:checked) #p1{display:block}
+main:has(#ed2:checked) #p2{display:block}
+main:has(#ed3:checked) #p3{display:block}
 .chips{display:flex;flex-wrap:wrap;gap:.5rem;margin:0 0 1.7rem}
 .chip{font-family:var(--ui);font-weight:700;
   font-size:.82rem;padding:.32rem .55rem .28rem .7rem;border:none;border-left:4px solid var(--accent,var(--iris));
@@ -875,12 +911,28 @@ def render_run_html(grouped, run_dt):
     )
 
 
+def _todays_editions(manifest, max_n=4):
+    """The newest run's calendar date, and every other run sharing it (up to
+    four runs/day now -- 06/12/18/24 BD, docs/adr/0010). Filtering by date
+    rather than just slicing manifest[:max_n] matters in the ~6h window
+    after the night edition ticks BD's calendar over to a new date but
+    before the morning run has pruned anything: without this, the index
+    would mix that one new-date run in with up to three still-unpruned
+    runs from the date before, showing tabs spanning two dates under a
+    header that only names one."""
+    if not manifest:
+        return []
+    newest_date = to_bd(datetime.fromisoformat(manifest[0]["dt"])).date()
+    same_day = [r for r in manifest if to_bd(datetime.fromisoformat(r["dt"])).date() == newest_date]
+    return same_day[:max_n]
+
+
 def render_index(manifest):
     """Today's editions as tabs (CSS-only, driven by radio :checked ->
     :has(); default-checked tab is manifest[0] = the latest, so opening the
     link always lands on the current edition), a 1/2-column toggle for the
     category grid, and a shared modal for detail. See docs/adr/0006."""
-    editions = manifest[:2]  # a news-day is at most one dawn + one dusk run
+    editions = _todays_editions(manifest)
     if not editions:
         body = (
             "<header class=masthead>"
@@ -893,14 +945,18 @@ def render_index(manifest):
     bd0 = to_bd(datetime.fromisoformat(editions[0]["dt"]))
     ed_label0, _ = edition(bd0)
 
-    radios, tabs, panels = "", "", ""
+    radios, tabs, panels, horizon_rules = "", "", "", ""
     for i, r in enumerate(editions):
         bd = to_bd(datetime.fromisoformat(r["dt"]))
-        ed_label, _ = edition(bd)
+        ed_label, ed_cls = edition(bd)
         checked = " checked" if i == 0 else ""
         radios += f'<input type=radio name=ed id=ed{i} class=vh{checked}>'
         tabs += f'<label class=tab for=ed{i}>{ed_label}<span class=tab-sub>{bn_time(bd)}</span></label>'
         panels += f'<section class=panel id=p{i}>{_panel_html(r.get("grouped", {}), i)}</section>'
+        # Which tab holds which edition varies day to day (see
+        # _todays_editions), so the .horizon colour-per-tab rule has to be
+        # generated per page -- see the comment by _HORIZON_GRADIENT.
+        horizon_rules += f'body:has(#ed{i}:checked) .horizon{{background-image:{_HORIZON_GRADIENT[ed_cls]}}}'
 
     tabs_html = f'<div class=tabs role=tablist>{tabs}</div>' if len(editions) > 1 else ""
 
@@ -917,7 +973,8 @@ def render_index(manifest):
         "</div>"
         f"<div class=panels>{panels}</div></main>"
         f"{MODAL_HTML}"
-        "<footer class=colophon><p>আজকের সংস্করণ -- পরবর্তী সংস্করণ ভোর/সন্ধ্যা ৬টায়।</p></footer>"
+        "<footer class=colophon><p>আজকের সংস্করণ -- নতুন সংস্করণ প্রতি ৬ ঘণ্টা পর (ভোর ৬টা, দুপুর ১২টা, সন্ধ্যা ৬টা ও রাত ১২টায়)।</p></footer>"
+        f"<style>{horizon_rules}</style>"
         f"{MODAL_SCRIPT}"
     )
     return _doc(
@@ -1019,7 +1076,10 @@ def update_site(grouped, run_dt, epub_path=None):
     bd_now = to_bd(run_dt)
     _, ed_cls = edition(bd_now)
     manifest = json.loads(RUNS_MANIFEST.read_text()) if RUNS_MANIFEST.exists() else []
-    if ed_cls == "dawn":  # morning edition: drop everything from before today
+    # "night" (~00:00 BD) is the *first* of each calendar date's four runs
+    # -- 00:00 lands before that date's own morning/noon/evening runs -- so
+    # it's the one that should drop everything from the date before.
+    if ed_cls == "night":
         manifest = _prune_before(manifest, bd_now.date())
 
     fname = f"runs/{run_dt.strftime('%Y-%m-%d-%H%M')}.html"
@@ -1055,8 +1115,13 @@ def render_email_html(grouped, run_dt):
     the full excerpts are in the attached EPUB."""
     bd = to_bd(run_dt)
     ed_label, ed_cls = edition(bd)
-    head_bg, head_fg = ("#e7d5a8", "#191410") if ed_cls == "dawn" else ("#191410", "#f1e4c3")
-    accent = "#b82219" if ed_cls == "dawn" else "#f0674c"
+    # Email keeps a simple two-look split -- light header for the daytime
+    # runs, dark for the two around dark out -- rather than four distinct
+    # treatments; mail clients strip enough styling that four near-
+    # identical variants wouldn't read as different anyway.
+    light = ed_cls in ("morning", "noon")
+    head_bg, head_fg = ("#e7d5a8", "#191410") if light else ("#191410", "#f1e4c3")
+    accent = "#b82219" if light else "#f0674c"
 
     rows = ""
     for section in SECTIONS:
