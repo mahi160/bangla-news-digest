@@ -49,7 +49,7 @@ test("groupBySection strips a repeated headline from the excerpt", () => {
 			source: "Test", sectionHint: "Tech", title: "শিরোনাম টেস্ট",
 			link: "https://example.com/a", author: "", image: "",
 			text: "শিরোনাম টেস্ট রাখা হলো এখানে আসল লেখা শুরু হচ্ছে।",
-			published: null,
+			published: null, feedIndex: 0,
 		},
 	]);
 	const a = grouped.Tech![0];
@@ -61,12 +61,49 @@ test("groupBySection drops javascript: URLs via safeUrl", () => {
 		{
 			source: "Test", sectionHint: "Local", title: "t",
 			link: "javascript:alert(1)", author: "", image: "javascript:alert(2)",
-			text: "body text here", published: null,
+			text: "body text here", published: null, feedIndex: 0,
 		},
 	]);
 	const a = grouped.Local![0];
 	assert.equal(a.link, "");
 	assert.equal(a.image, "");
+});
+
+test("groupBySection ranks multi-outlet (echoed) stories before single-source ones", () => {
+	const grouped = groupBySection([
+		{
+			source: "A", sectionHint: "Tech", title: "একটি এক্সক্লুসিভ খবর যা শুধু এই সংস্থা দিয়েছে",
+			link: "https://a.example/1", author: "", image: "", text: "body", published: null, feedIndex: 0,
+		},
+		{
+			source: "B", sectionHint: "Tech", title: "বড় ভূমিকম্প আঘাত হানলো রাজধানীতে আজ সকালে",
+			link: "https://b.example/1", author: "", image: "", text: "body", published: null, feedIndex: 5,
+		},
+		{
+			source: "C", sectionHint: "Tech", title: "বড় ভূমিকম্প আঘাত হানলো রাজধানীতে আজ সকাল বেলায়",
+			link: "https://c.example/1", author: "", image: "", text: "body", published: null, feedIndex: 2,
+		},
+	]);
+	const headlines = grouped.Tech!.map((a) => a.headline);
+	// the two-outlet earthquake story (echoed) should rank above the
+	// single-source exclusive, regardless of feed position.
+	assert.ok(headlines[0].includes("ভূমিকম্প"), `got order: ${headlines}`);
+	assert.ok(headlines[1].includes("ভূমিকম্প"), `got order: ${headlines}`);
+});
+
+test("groupBySection uses feedIndex as a tiebreaker within equal echo counts", () => {
+	const grouped = groupBySection([
+		{
+			source: "A", sectionHint: "Tech", title: "দ্বিতীয় সংবাদ আজকের",
+			link: "https://a.example/2", author: "", image: "", text: "body", published: null, feedIndex: 3,
+		},
+		{
+			source: "A", sectionHint: "Tech", title: "প্রথম সংবাদ আজকের",
+			link: "https://a.example/1", author: "", image: "", text: "body", published: null, feedIndex: 0,
+		},
+	]);
+	const headlines = grouped.Tech!.map((a) => a.headline);
+	assert.deepEqual(headlines, ["প্রথম সংবাদ আজকের", "দ্বিতীয় সংবাদ আজকের"]);
 });
 
 test("makeTeaser cuts at Bengali sentence-ending mark within the cap", () => {

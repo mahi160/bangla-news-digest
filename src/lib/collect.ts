@@ -20,6 +20,10 @@ interface RawArticle {
 	author: string;
 	image: string;
 	published: string | null;
+	/** Position within this source's own feed, in feed order (0 = first/top
+	 * story) -- an outlet's own feed order is usually already its own
+	 * editorial priority; used as an importance tiebreaker (see groupBySection). */
+	feedIndex: number;
 }
 
 /** Fetch every configured source, skipping ones that error, deduping against
@@ -44,7 +48,8 @@ export async function fetchAllNewArticles(state: State, now: Date): Promise<RawA
 			continue;
 		}
 
-		for (const entry of entries) {
+		for (let feedIndex = 0; feedIndex < entries.length; feedIndex++) {
+			const entry = entries[feedIndex];
 			if (!entry.link || seen.has(entry.link) || seenThisRun.has(entry.link)) continue;
 			if (entry.published && new Date(entry.published).getTime() < cutoff) continue;
 
@@ -63,6 +68,7 @@ export async function fetchAllNewArticles(state: State, now: Date): Promise<RawA
 				author: meta.author,
 				image: meta.image,
 				published: entry.published,
+				feedIndex,
 			});
 			seen.add(entry.link);
 			seenThisRun.add(entry.link);
@@ -115,13 +121,78 @@ export function makeTeaser(text: string, maxChars = TEASER_CHARS): string {
 	return (lastSpace > 0 ? cut.slice(0, lastSpace) : cut) + "…";
 }
 
+// Bengali/English punctuation stripped, lowercased, split on whitespace --
+// good enough to catch "same story, near-identical headline" across
+// outlets; won't catch heavily paraphrased headlines (no AI used, see
+// docs discussion), which is an accepted miss, not a bug.
+function titleTokens(title: string): Set<string> {
+	return new Set(
+		title
+			.toLowerCase()
+			.replace(/[।,.!?"'‘’“”():;\-]/g, " ")
+			.split(/\s+/)
+			.filter(Boolean),
+	);
+}
+
+function jaccard(a: Set<string>, b: Set<string>): number {
+	if (a.size === 0 || b.size === 0) return 0;
+	let intersection = 0;
+	for (const t of a) if (b.has(t)) intersection++;
+	const union = a.size + b.size - intersection;
+	return union === 0 ? 0 : intersection / union;
+}
+
+const ECHO_SIMILARITY_THRESHOLD = 0.5;
+
+// ponytail: O(n^2) title comparison -- fine at run-size (tens of articles),
+// revisit only if a run ever collects thousands at once.
+/** How many *other* articles this run look like the same story (by
+ * headline similarity), for every article -- a free, deterministic proxy
+ * for "important" (multi-source coverage) with no AI/network call: if 4
+ * outlets ran the same story, each of those 4 gets echoCount=4. */
+function echoCounts(raw: RawArticle[]): number[] {
+	const n = raw.length;
+	const parent = Array.from({ length: n }, (_, i) => i);
+	function find(x: number): number {
+		while (parent[x] !== x) {
+			parent[x] = parent[parent[x]];
+			x = parent[x];
+		}
+		return x;
+	}
+	const tokens = raw.map((a) => titleTokens(a.title));
+	for (let i = 0; i < n; i++) {
+		for (let j = i + 1; j < n; j++) {
+			if (jaccard(tokens[i], tokens[j]) >= ECHO_SIMILARITY_THRESHOLD) {
+				const ri = find(i);
+				const rj = find(j);
+				if (ri !== rj) parent[ri] = rj;
+			}
+		}
+	}
+	const clusterSize = new Map<number, number>();
+	const roots = raw.map((_, i) => find(i));
+	for (const r of roots) clusterSize.set(r, (clusterSize.get(r) ?? 0) + 1);
+	return roots.map((r) => clusterSize.get(r)!);
+}
+
 /** Section -> list of articles ready to render, grouped from this run's raw
- * fetch results. No AI: each article's own title as headline, a plain-text
- * excerpt of its extracted body. Section defaults to Local when the source
- * doesn't map cleanly. */
+ * fetch results, ordered by a no-AI importance heuristic: stories multiple
+ * outlets covered first (echoCounts), then each outlet's own feed order as
+ * a tiebreaker (feedIndex -- a feed's own order is usually already its own
+ * editorial priority). No AI: each article's own title as headline, a
+ * plain-text excerpt of its extracted body. Section defaults to Local when
+ * the source doesn't map cleanly. */
 export function groupBySection(raw: RawArticle[]): Grouped {
+	const echo = echoCounts(raw);
+	const order = raw
+		.map((_, i) => i)
+		.sort((i, j) => echo[j] - echo[i] || raw[i].feedIndex - raw[j].feedIndex);
+
 	const grouped: Grouped = {};
-	for (const a of raw) {
+	for (const idx of order) {
+		const a = raw[idx];
 		const title = (a.title || "").trim();
 		let text = stripRepeatedHeadline(a.text.trim(), title);
 		text = text || a.text.trim(); // body was nothing but the headline
