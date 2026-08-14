@@ -24,6 +24,9 @@ interface RawArticle {
 	 * story) -- an outlet's own feed order is usually already its own
 	 * editorial priority; used as an importance tiebreaker (see groupBySection). */
 	feedIndex: number;
+	/** Source.weight (config.ts) -- summed across a story's covering outlets
+	 * to score importance (see groupBySection), not just counted. */
+	sourceWeight: number;
 }
 
 /** Fetch every configured source, skipping ones that error, deduping against
@@ -69,6 +72,7 @@ export async function fetchAllNewArticles(state: State, now: Date): Promise<RawA
 				image: meta.image,
 				published: entry.published,
 				feedIndex,
+				sourceWeight: source.weight,
 			});
 			seen.add(entry.link);
 			seenThisRun.add(entry.link);
@@ -147,11 +151,11 @@ const ECHO_SIMILARITY_THRESHOLD = 0.5;
 
 // ponytail: O(n^2) title comparison -- fine at run-size (tens of articles),
 // revisit only if a run ever collects thousands at once.
-/** How many *other* articles this run look like the same story (by
- * headline similarity), for every article -- a free, deterministic proxy
- * for "important" (multi-source coverage) with no AI/network call: if 4
- * outlets ran the same story, each of those 4 gets echoCount=4. */
-function echoCounts(raw: RawArticle[]): number[] {
+/** Importance score per article: the *sum of source weights* of every
+ * outlet covering the same story this run (by headline similarity), not
+ * just a raw outlet count -- one major outlet's exclusive can outrank three
+ * small blogs echoing each other. Free, deterministic, no AI/network call. */
+function importanceScores(raw: RawArticle[]): number[] {
 	const n = raw.length;
 	const parent = Array.from({ length: n }, (_, i) => i);
 	function find(x: number): number {
@@ -171,24 +175,25 @@ function echoCounts(raw: RawArticle[]): number[] {
 			}
 		}
 	}
-	const clusterSize = new Map<number, number>();
+	const clusterWeight = new Map<number, number>();
 	const roots = raw.map((_, i) => find(i));
-	for (const r of roots) clusterSize.set(r, (clusterSize.get(r) ?? 0) + 1);
-	return roots.map((r) => clusterSize.get(r)!);
+	roots.forEach((r, i) => clusterWeight.set(r, (clusterWeight.get(r) ?? 0) + raw[i].sourceWeight));
+	return roots.map((r) => clusterWeight.get(r)!);
 }
 
 /** Section -> list of articles ready to render, grouped from this run's raw
- * fetch results, ordered by a no-AI importance heuristic: stories multiple
- * outlets covered first (echoCounts), then each outlet's own feed order as
- * a tiebreaker (feedIndex -- a feed's own order is usually already its own
- * editorial priority). No AI: each article's own title as headline, a
- * plain-text excerpt of its extracted body. Section defaults to Local when
- * the source doesn't map cleanly. */
+ * fetch results, ordered by a no-AI importance heuristic: stories with the
+ * highest combined source weight first (importanceScores -- multi-outlet
+ * coverage and outlet authority both count), then each outlet's own feed
+ * order as a tiebreaker (feedIndex -- a feed's own order is usually already
+ * its own editorial priority). No AI: each article's own title as headline,
+ * a plain-text excerpt of its extracted body. Section defaults to Local
+ * when the source doesn't map cleanly. */
 export function groupBySection(raw: RawArticle[]): Grouped {
-	const echo = echoCounts(raw);
+	const score = importanceScores(raw);
 	const order = raw
 		.map((_, i) => i)
-		.sort((i, j) => echo[j] - echo[i] || raw[i].feedIndex - raw[j].feedIndex);
+		.sort((i, j) => score[j] - score[i] || raw[i].feedIndex - raw[j].feedIndex);
 
 	const grouped: Grouped = {};
 	for (const idx of order) {

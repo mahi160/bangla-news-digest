@@ -16,12 +16,38 @@ export interface FeedEntry {
 	published: string | null;
 }
 
+// Some real-world feeds put markup inside <title> (e.g. The Daily Star wraps
+// the whole title in an <a href=...>), which makes rss-parser's XML parser
+// hand back a nested object -- e.g. { a: [{ _: "text", $: {href:...} }] } --
+// instead of a plain string. Untrusted third-party input -- recurse to find
+// the first text node instead of assuming a fixed shape or that .trim()
+// exists, so one malformed <title> doesn't throw and lose every other
+// (valid) entry in the same feed.
+function extractText(value: unknown): string {
+	if (typeof value === "string") return value;
+	if (Array.isArray(value)) return value.map(extractText).find(Boolean) ?? "";
+	if (value && typeof value === "object") {
+		const obj = value as Record<string, unknown>;
+		if (typeof obj._ === "string") return obj._;
+		for (const key of Object.keys(obj)) {
+			if (key === "$") continue; // xml attributes, not text content
+			const found = extractText(obj[key]);
+			if (found) return found;
+		}
+	}
+	return "";
+}
+
+function safeTitle(raw: unknown): string {
+	return extractText(raw).trim();
+}
+
 /** Never throws -- a dead/unparseable feed is the caller's problem to log and skip. */
 export async function fetchFeed(url: string): Promise<FeedEntry[]> {
 	const feed = await rssParser.parseURL(url);
 	return (feed.items ?? []).map((item) => ({
 		link: item.link ?? "",
-		title: (item.title ?? "").trim(),
+		title: safeTitle(item.title),
 		published: item.isoDate ?? (item.pubDate ? new Date(item.pubDate).toISOString() : null),
 	}));
 }
