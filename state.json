@@ -56,7 +56,23 @@
       "https://www.prothomalo.com/video/bangladesh/dkz2ka7wrw",
       "https://www.prothomalo.com/video/sports/o9sbo545uv",
       "https://www.prothomalo.com/bangladesh/77iset21qv",
-      "https://www.prothomalo.com/sports/cricket/qaqcb0tvpm"
+      "https://www.prothomalo.com/sports/cricket/qaqcb0tvpm",
+      "https://www.prothomalo.com/world/pakistan/w9l1lf5boy",
+      "https://www.prothomalo.com/sports/football/m6udefjg0w",
+      "https://www.prothomalo.com/bangladesh/district/sp8batqr43",
+      "https://www.prothomalo.com/entertainment/song/ujkmprspyf",
+      "https://www.prothomalo.com/bangladesh/district/417mljgr3d",
+      "https://www.prothomalo.com/bangladesh/district/fbm8ggv8pt",
+      "https://www.prothomalo.com/world/asia/yyepqvokyo",
+      "https://www.prothomalo.com/lifestyle/travel/j6bht8oubf",
+      "https://www.prothomalo.com/video/bangladesh/nhyyi6wltz",
+      "https://www.prothomalo.com/bangladesh/tufayio48f",
+      "https://www.prothomalo.com/photo/bangladesh/vrseobdd2e",
+      "https://www.prothomalo.com/technology/science/5pe1zioda2",
+      "https://www.prothomalo.com/bangladesh/district/oziic82s6c",
+      "https://www.prothomalo.com/bangladesh/olukt5qofu",
+      "https://www.prothomalo.com/politics/cwdva7yg4w",
+      "https://trust.prothomalo.com/activities/alor-school/wkwzl8o3cv"
     ]
   },
   "Banglanews24": {
@@ -72,11 +88,16 @@
     "seen_urls": [
       "https://www.bbc.com/bengali/articles/cwyldjydj0jo?at_medium=RSS&at_campaign=rss",
       "https://www.bbc.com/bengali/articles/cy7427x2pn1o?at_medium=RSS&at_campaign=rss",
-      "https://www.bbc.co.uk/bengali/live/ckqx7pp791qqt?at_medium=RSS&at_campaign=rss"
+      "https://www.bbc.co.uk/bengali/live/ckqx7pp791qqt?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.com/bengali/articles/c1718krllp4o?at_medium=RSS&at_campaign=rss"
     ]
   },
   "BBC Bangla Entertainment": {
-    "seen_urls": []
+    "seen_urls": [
+      "https://www.bbc.com/bengali/articles/cwyldjydj0jo?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.com/bengali/articles/cy7427x2pn1o?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.co.uk/bengali/live/ckqx7pp791qqt?at_medium=RSS&at_campaign=rss"
+    ]
   },
   "BBC Bangla Sport": {
     "seen_urls": []
@@ -110,7 +131,12 @@
       "https://www.aljazeera.com/sports/2026/8/14/south-africa-end-nigerias-womens-world-cup-hope-ghana-beat-ivory-coast?traffic_source=rss",
       "https://www.aljazeera.com/sports/2026/8/14/boxer-prichard-colon-dies-from-brain-injury-that-resulted-in-221-day-coma?traffic_source=rss",
       "https://www.aljazeera.com/news/2026/8/14/nigel-farage-defeats-count-binface-to-reclaim-uk-parliamentary-seat?traffic_source=rss",
-      "https://www.aljazeera.com/news/2026/8/14/flock-adds-safeguards-to-licence-plate-readers-after-wave-of-stalking-cases?traffic_source=rss"
+      "https://www.aljazeera.com/news/2026/8/14/flock-adds-safeguards-to-licence-plate-readers-after-wave-of-stalking-cases?traffic_source=rss",
+      "https://www.aljazeera.com/news/2026/8/14/saudi-arabia-announces-start-of-red-sea-defence-alliance-will-it-work?traffic_source=rss",
+      "https://www.aljazeera.com/video/newsfeed/2026/8/14/israeli-soldiers-prevent-aid-delivery-to-besieged-palestinians?traffic_source=rss",
+      "https://www.aljazeera.com/news/2026/8/14/israeli-forces-block-activists-from-reaching-besieged-qusra-families?traffic_source=rss",
+      "https://www.aljazeera.com/sports/2026/8/14/rising-australian-golfer-bang-dies-of-brain-haemorrhage-in-thailand-aged-18?traffic_source=rss",
+      "https://www.aljazeera.com/news/2026/8/14/israeli-pm-netanyahu-calls-uk-the-islamic-republic-of?traffic_source=rss"
     ]
   },
   "The Guardian World": {
@@ -134,12 +160,16 @@
       "https://www.theguardian.com/us-news/2026/aug/14/first-thing-court-files-federal-agents-spying-anti-ice-protesters",
       "https://www.theguardian.com/us-news/2026/aug/14/nolan-wells-parents-nabj",
       "https://www.theguardian.com/world/2026/aug/14/dei-policy-company-performance",
-      "https://www.theguardian.com/us-news/2026/aug/14/luigi-mangione-hearing-federal-case"
+      "https://www.theguardian.com/us-news/2026/aug/14/luigi-mangione-hearing-federal-case",
+      "https://www.theguardian.com/world/2026/aug/14/arrested-suspicion-starting-wildfires-europe-france",
+      "https://www.theguardian.com/uk-news/2026/aug/14/two-men-charged-attempted-murder-sara-sharif-father-urfan",
+      "https://www.theguardian.com/uk-news/2026/aug/13/train-derailment-east-sussex-closes-several-routes-lewes"
     ]
   },
   "ESPN Cricinfo": {
     "seen_urls": [
-      "https://www.cricinfo.com/ci/content/story/1549891.html?ex_cid=OTC-RSS"
+      "https://www.cricinfo.com/ci/content/story/1549891.html?ex_cid=OTC-RSS",
+      "https://www.cricinfo.com/ci/content/story/1549895.html?ex_cid=OTC-RSS"
     ]
   },
   "ESPN": {
@@ -199,7 +229,9 @@
       "https://www.bbc.co.uk/sport/football/articles/c36dx26l68lo?at_medium=RSS&at_campaign=rss",
       "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/cd0xpjm42nyo?at_medium=RSS&at_campaign=rss",
       "https://www.bbc.co.uk/sport/football/articles/c4g4v4mm9r8o?at_medium=RSS&at_campaign=rss",
-      "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/cn9n4yp500eo?at_medium=RSS&at_campaign=rss"
+      "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/cn9n4yp500eo?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.co.uk/sport/football/articles/c7vgyrl2573o?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.co.uk/sport/athletics/videos/c04kyqzg4peo?at_medium=RSS&at_campaign=rss"
     ]
   },
   "The Daily Star Sports": {
@@ -208,7 +240,8 @@
       "https://www.thedailystar.net/sports/cricket/news/kept-calm-and-played-the-merit-the-ball-how-tanzid-made-history-darwin-4247601",
       "https://www.thedailystar.net/sports/more-sports/tennis/news/swiatek-rolls-past-rybakina-wta-toronto-title-4247591",
       "https://www.thedailystar.net/sports/cricket/news/sri-lankan-coach-dies-after-altercation-young-cricketers-4247576",
-      "https://www.thedailystar.net/sports/cricket/news/sri-lanka-name-strong-squad-asia-cup-title-defence-4247561"
+      "https://www.thedailystar.net/sports/cricket/news/sri-lanka-name-strong-squad-asia-cup-title-defence-4247561",
+      "https://www.thedailystar.net/sports/football/news/the-khep-question-bangladesh-football-needs-address-4247626"
     ]
   },
   "The Daily Star Entertainment": {
@@ -217,7 +250,9 @@
       "https://www.thedailystar.net/culture/entertainment/news/dragging-artistes-court-over-every-little-matter-shameful-nusraat-faria-4247566",
       "https://www.thedailystar.net/culture/tv-film/news/rani-mukerji-honoured-excellence-acting-iffm-2026-4247551",
       "https://www.thedailystar.net/culture/entertainment/news/spardha-take-tobuo-jege-uthi-chattogram-sylhet-and-rajshahi-month-4247536",
-      "https://www.thedailystar.net/culture/entertainment/news/dilruba-doyel-nishat-priom-lead-bihan-the-realities-working-women-4247531"
+      "https://www.thedailystar.net/culture/entertainment/news/dilruba-doyel-nishat-priom-lead-bihan-the-realities-working-women-4247531",
+      "https://www.thedailystar.net/culture/tv-film/news/bangladeshi-short-film-let-competes-australian-festival-4247641",
+      "https://www.thedailystar.net/culture/entertainment/news/oindrila-eyes-live-performances-australia-4247631"
     ]
   },
   "omg! ubuntu": {
@@ -238,7 +273,11 @@
     "seen_urls": []
   },
   "Ars Technica": {
-    "seen_urls": []
+    "seen_urls": [
+      "https://arstechnica.com/space/2026/08/rocket-report-rocket-lab-shows-off-its-flexibility-blue-origins-two-pad-plan/",
+      "https://arstechnica.com/gadgets/2026/08/samsung-galaxy-z-fold-8-ultra-review-the-ultra-foldable-with-an-ultra-price/",
+      "https://arstechnica.com/cars/2026/08/czinger-debuts-topology-optimized-brakes-with-21c-spyder/"
+    ]
   },
   "TechCrunch": {
     "seen_urls": [
@@ -248,7 +287,10 @@
   "The Verge": {
     "seen_urls": [
       "https://www.theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba",
-      "https://www.theverge.com/tech/980142/cards-against-humanity-elon-musk-monument"
+      "https://www.theverge.com/tech/980142/cards-against-humanity-elon-musk-monument",
+      "https://www.theverge.com/tech/979928/cmf-clip-pro-review",
+      "https://www.theverge.com/games/977646/msi-claw-8-ex-review-intel-panther-lake-handheld",
+      "https://www.theverge.com/tech/979576/hoto-i-a06-cordless-soldering-iron-snapbloq-rechargeable"
     ]
   },
   "Wired": {
@@ -271,7 +313,8 @@
       "https://www.wired.com/story/hellofresh-coupon/",
       "https://www.wired.com/story/pura-promo-code/",
       "https://www.wired.com/story/babbel-promo-code/",
-      "https://www.wired.com/story/acer-promo-code/"
+      "https://www.wired.com/story/acer-promo-code/",
+      "https://www.wired.com/gallery/best-wireless-chargers/"
     ]
   },
   "Engadget": {
@@ -283,7 +326,10 @@
     ]
   },
   "9to5Google": {
-    "seen_urls": []
+    "seen_urls": [
+      "https://9to5google.com/2026/08/14/8bitdo-flippad-compact-game-controller-android/",
+      "https://9to5google.com/2026/08/14/google-play-pixel-11-discount/"
+    ]
   },
   "The Hacker News": {
     "seen_urls": []

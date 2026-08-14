@@ -1,5 +1,415 @@
 [
   {
+    "dt": "2026-08-14T13:04:18.671Z",
+    "file": "runs/2026-08-14-1304.html",
+    "counts": {
+      "Local": 11,
+      "International": 11,
+      "Entertainment": 6,
+      "Tech": 10,
+      "Sports": 5
+    },
+    "grouped": {
+      "International": [
+        {
+          "headline": "পানির প্রতিটি ফোঁটাই আমাদের কাছে রেড লাইন: ভারতের উদ্দেশে পাকিস্তানের প্রধানমন্ত্রী",
+          "excerpt": "তথ্যসূত্র: দ্য এক্সপ্রেস ট্রিবিউনশাহবাজ শরিফরয়টার্স ফাইল ছবিপাকিস্তান আন্তরিকভাবে শান্তি চায়। তবে শান্তির এই ইচ্ছাকে কোনোভাবেই দুর্বলতা হিসেবে ভাবতে দেওয়া হবে না। গতকাল বৃহস্পতিবার এ কথা বলেছেন পাকিস্তানের প্রধানমন্ত্রী শাহবাজ শরিফ। তিনি ঘোষণা দিয়েছেন, ভবিষ্যতে দেশের সার্বভৌমত্ব ও নিরাপত্তার ওপর কোনো আঘাত এলে তা গুঁড়িয়ে দেওয়া হবে। ২০২৫ সালের মে মাসের চূড়ান্ত বিজয়ের চেয়ে বেশি শক্তি প্রয়োগ করে এই…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/world/pakistan/w9l1lf5boy",
+          "author": "তথ্যসূত্র:",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-06-13%2F7tmrubsz%2FShehbaz-Sharif.avif?rect=0%2C0%2C558%2C293&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-09-22%2F5lwyn5je%2Fdefaultog.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সন্ধ্যা ৬:৩৪"
+        },
+        {
+          "headline": "আওয়ামী লীগের অগাস্ট ফ্যাক্টর: হত্যা, হামলা, ক্ষমতাচ্যুতি",
+          "excerpt": "কম ডেটা ব্যবহার করতে শুধু টেক্সট পড়ুনছবির উৎস, Getty Imagesছবির ক্যাপশান, অগাস্ট মাসেই আওয়ামী লীগের শীর্ষ নেতাকে হত্যা ও হামলার ঘটনা যেমন ঘটেছে, আবার দলটি দুইবার ক্ষমতাও হারিয়েছে এই অগাস্ট মাসেইAuthor, মরিয়ম সুলতানাRole,  বিবিসি নিউজ বাংলাPublished ১৩ মিনিট আগেপড়ার সময়: ১১ মিনিটবাংলাদেশের রাজনীতিতে অগাস্ট মাসের সঙ্গে আওয়ামী লীগের সম্পর্ক মূলত শোক, সহিংসতা ও রাজনৈতিক বিপর্যয়ের স্মৃতিতে জড়িয়ে…",
+          "source": "BBC Bangla World",
+          "link": "https://www.bbc.com/bengali/articles/c1718krllp4o?at_medium=RSS&at_campaign=rss",
+          "author": "মরিয়ম সুলতানা",
+          "image": "https://ichef.bbci.co.uk/news/1200/branded_bengali/29a5/live/503e1ad0-97dd-11f1-870d-5d08c49babb2.jpg",
+          "time": "সন্ধ্যা ৬:৪৯"
+        },
+        {
+          "headline": "Saudi Arabia announces start of Red Sea defence alliance: Will it work?",
+          "excerpt": "Saudi Arabia and 13 other countries have confirmed the creation of a maritime military coalition to safeguard freedom of navigation through the Bab al-Mandeb Strait, the Red Sea and the Gulf of Aden, with more nations expected to join.Bahrain, Bangladesh, the Comoros, Djibouti, Egypt, Jordan, Kuwait, Pakistan, Qatar, Saudi Arabia, Somalia, Sudan, Turkiye and Yemen are the first to sign…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/14/saudi-arabia-announces-start-of-red-sea-defence-alliance-will-it-work?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/afp_6a7b062d0685-1786447405.jpg?resize=1920%2C1440",
+          "time": "সন্ধ্যা ৬:৪৫"
+        },
+        {
+          "headline": "Israeli soldiers prevent aid delivery to besieged Palestinians",
+          "excerpt": "NewsFeedActivists say Israeli soldiers have prevented them from delivering aid to Palestinians who have been besieged by settlers outside their homes in the occupied West Bank village of Qusra for nearly a week. We spoke to Jonathan Pollak from the Sumud Network.Published On 14 Aug 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/8/14/israeli-soldiers-prevent-aid-delivery-to-besieged-palestinians?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/Qusra-activist-horizontal-thumb-1786709377.jpg?resize=1920%2C1080&quality=80",
+          "time": "সন্ধ্যা ৬:১১"
+        },
+        {
+          "headline": "Israeli forces block activists from reaching besieged Qusra families",
+          "excerpt": "About 15 Palestinians, including two children, have been trapped in three homes in Qusra for nearly a week as settlers block access to the area.Israeli forces have prevented Israeli and foreign activists from reaching Palestinian families whose homes have been surrounded by settlers for nearly a week in the occupied West Bank town of Qusra, south of Nablus.The activists were trying to deliver…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/14/israeli-forces-block-activists-from-reaching-besieged-qusra-families?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/AP26224599849869-1786702435.jpg?resize=1920%2C1440",
+          "time": "সন্ধ্যা ৬:০৯"
+        },
+        {
+          "headline": "Rising Australian golfer Bang dies of brain haemorrhage in Thailand aged 18",
+          "excerpt": "Jessica Bang won her first professional event this year but died after emergency surgery, following collapse in Thailand.Promising teenage Australian golfer Jessica Bang died after suffering a brain haemorrhage while preparing for a tournament in Thailand, her family and tour officials said.The 18-year-old, who won her first professional event in just her fifth start earlier this year, collapsed…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/sports/2026/8/14/rising-australian-golfer-bang-dies-of-brain-haemorrhage-in-thailand-aged-18?traffic_source=rss",
+          "author": "By AFP",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/2026_MOSS_VALE_RQ_RD_2-IMG_9322-2-scaled-1-1786704544.jpg?resize=1920%2C1350",
+          "time": "সন্ধ্যা ৬:০২"
+        },
+        {
+          "headline": "Israeli PM Netanyahu calls UK ‘the Islamic Republic of Britain’",
+          "excerpt": "The Israeli PM’s remark comes amid signs of growing tension between Israel and the UK’s Labour government.Israeli Prime Minister Benjamin Netanyahu has referred to the United Kingdom as the “Islamic Republic of Britain”, a dig at one of Israel’s historically closest European allies.Netanyahu made the remark on the Israeli podcast Melech Blitzer Haim that aired on Thursday as he objected to…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/14/israeli-pm-netanyahu-calls-uk-the-islamic-republic-of?traffic_source=rss",
+          "author": "Stephen Quillen",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/ap_6a7ef214701ba-1786704404.jpg?resize=1920%2C1440",
+          "time": "বিকাল ৫:৫৭"
+        },
+        {
+          "headline": "বাদাখশানে বিস্ফোরণে মেয়র নিহত, দুই সপ্তাহে দ্বিতীয় তালেবান কর্মকর্তা খুন",
+          "excerpt": "এপি কাবুলগাড়িতে বিস্ফোরণে বাদাখশান প্রদেশের মেয়র হাবিব উর রহমান মনসুর নিহত হয়েছেনছবি: এক্স থেকে নেওয়াআফগানিস্তানের উত্তর–পূর্বাঞ্চলীয় বাদাখশান প্রদেশের মেয়র হাবিব উর রহমান মনসুর বিস্ফোরণে নিহত হয়েছেন। গত দুই সপ্তাহে এ অঞ্চলে হামলার লক্ষ্যবস্তু হয়ে নিহত হওয়া তালেবান প্রশাসনের দ্বিতীয় উচ্চপদস্থ কর্মকর্তা তিনি। প্রাদেশিক রাজধানী ফয়জাবাদে গতকাল বৃহস্পতিবার রাতে গাড়িতে থাকা অবস্থায় বিস্ফোরণে নিহত হন…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/world/asia/yyepqvokyo",
+          "author": "এপি",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-14%2Fhhdi8w0z%2FBadakhshan-Mayor-Death.jpg?rect=0%2C207%2C1070%2C562&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-09-22%2F5lwyn5je%2Fdefaultog.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সন্ধ্যা ৬:০৮"
+        },
+        {
+          "headline": "Almost 500 arrested on suspicion of starting wildfires in France this summer",
+          "excerpt": "Almost 500 people have been arrested on suspicion of starting wildfires in France since the start of the summer, authorities have said, as firefighters in half a dozen European countries tackle ferocious blazes amid a record-breaking heatwave.With three out of five Europeans facing temperatures of at least 30C on Friday and about 150 million enduring 35C or more, France’s interior ministry said…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/world/2026/aug/14/arrested-suspicion-starting-wildfires-europe-france",
+          "author": "Jon Henley",
+          "image": "https://i.guim.co.uk/img/media/4e74294d7fc12a4f6c823be60d68e8ff43d71b97/984_0_5000_4000/master/5000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=378563bd61dc281f936978cbc7eccf38",
+          "time": "সন্ধ্যা ৬:১৮"
+        },
+        {
+          "headline": "Two men charged with attempted murder of Sara Sharif’s father",
+          "excerpt": "Two men have been charged with attempted murder after the father of the murdered schoolgirl Sara Sharif was attacked in prison.Steven Sansom, 47, and Adam Watson, 39, are accused of trying to kill Urfan Sharif at HMP Belmarsh on New Year’s Day last year.The Crown Prosecution Service said the pair were due to appear at Westminster magistrates court on 26 August.It is understood the charges relate…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/uk-news/2026/aug/14/two-men-charged-attempted-murder-sara-sharif-father-urfan",
+          "author": "Guardian staff reporter",
+          "image": "https://i.guim.co.uk/img/media/47a874895030b9d5f8d607044c6f90d340637333/0_281_810_648/master/810.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=71a35417dbca1db3a7bf146d3002ce5c",
+          "time": "সন্ধ্যা ৬:৫৪"
+        },
+        {
+          "headline": "Operator boss insists UK trains are safe in heatwave after Lewes derailment",
+          "excerpt": "Two people were seriously injured when a passenger train derailed between Haywards Heath and Lewes in East Sussex on Thursday.The South East Coast ambulance service said two people had been taken to major trauma centres with severe injuries.Images of the aftermath appeared to show passengers standing on top of the toppled carriages of the Southern service, while others could be seen in an area…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/uk-news/2026/aug/13/train-derailment-east-sussex-closes-several-routes-lewes",
+          "author": "Matthew Weaver, Gwyn Topham",
+          "image": "https://i.guim.co.uk/img/media/605df0d4374300febfdacce0576120a19d4d0d48/549_61_2179_1743/master/2179.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ab74ae69cf6d49ee926c0b8429c9aa25",
+          "time": "বিকাল ৫:৫২"
+        }
+      ],
+      "Sports": [
+        {
+          "headline": "India and Sri Lanka meet in a vastly different Test landscape",
+          "excerpt": "Edition USTomorrowMatch yet to beginPreviewStranded in the middle of the table, both teams need a 2-0 win to stay in realistic contention of making the WTC finalBig picture: India's 600th, Galle's 50thThe last time India toured Sri Lanka for Tests they were bang in the middle of a golden era and ended up making the hosts look ordinary. A lot has changed since then, including the frequency and…",
+          "source": "ESPN Cricinfo",
+          "link": "https://www.cricinfo.com/ci/content/story/1549895.html?ex_cid=OTC-RSS",
+          "author": "Sidharth Monga",
+          "image": "https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/421100/421138.6.jpg",
+          "time": "সন্ধ্যা ৬:১১"
+        },
+        {
+          "headline": "পিএসজিতে যাচ্ছেন ফেরান তোরেস, আলভারেজকে কি পাবে বার্সা",
+          "excerpt": "খেলা ডেস্ক বার্সার জয়ে জোড়া গোল করেছেন ফেরান তোরেসরয়টার্স বিশ্বকাপ ফাইনালে আর্জেন্টিনাকে স্তব্ধ করে দেওয়া ফেরান তোরেসের সেই গোলের কথা নিশ্চয় মনে আছে আপনার। সেই গোলের পর এখনো মাসখানেক পার হয়নি, ঠিকানা বদলে ফেলছেন এই স্প্যানিশ স্ট্রাইকার। পাঁচ বছরের চুক্তিতে প্যারিসের ক্লাব পিএসজিতে যাচ্ছেন তোরেস, তাঁর জন্য প্রায় ৫ কোটি ইউরো খরচ করছে পিএসজি। কিন্তু প্রশ্ন হচ্ছে, তোরেস চলে গেলে বার্সেলোনায় তাঁর…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/sports/football/m6udefjg0w",
+          "author": "খেলা ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-04-11%2Feojoq81u%2F2026-04-11T170441Z1444022056UP1EM4B1BFSRJRTRMADP3SOCCER-SPAIN-BAR-ESP.JPG?rect=0%2C0%2C5180%2C2720&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সন্ধ্যা ৬:৩৪"
+        },
+        {
+          "headline": "A pivotal day for Chelsea, Man City and Fernandez - what's going on?",
+          "excerpt": "Image source, Getty ImagesImage caption, Enzo Fernandez has had a tumultuous time at ChelseaByEmlyn BegleyBBC Sport journalistCould today be the day that decides potentially one of the biggest transfers in history?Chelsea set a deadline of Friday at 17:00 BST for offers for Manchester City target Enzo Fernandez, who they value at £120m.The potential move would see the Argentina midfielder link…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/c7vgyrl2573o?at_medium=RSS&at_campaign=rss",
+          "author": "Emlyn Begley",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/b082/live/a40cb340-97d5-11f1-b1e0-bbc28f2688df.jpg",
+          "time": "সন্ধ্যা ৬:৪০"
+        },
+        {
+          "headline": "The 'khep' question Bangladesh football needs to address",
+          "excerpt": "55 MIN(s)\n\t\t\t\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tShabab Chowdhury\n\t\t\t\t\t\t\n\t\t\t\t\t\n\n\t\t\t\n  \n                  \n              \n                  \n\n  \n\n\n\t\t\t\n\t\t\t\t\t\t\tPhoto: AI Assisted \n\t\t\t\t\t\t\n\t\t\nSeveral national footballers have come under fire for taking part in ‘khep’ outings earlier this week.Much of the public discourse has centred on how playing in these local matches undermines the reputation of established national…",
+          "source": "The Daily Star Sports",
+          "link": "https://www.thedailystar.net/sports/football/news/the-khep-question-bangladesh-football-needs-address-4247626",
+          "author": "Shabab Chowdhury",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-08/Gemini_Generated_Image_kyiqvzkyiqvzkyiq.jpeg",
+          "time": "সন্ধ্যা ৬:০৭"
+        },
+        {
+          "headline": "'She knows how to deliver' - Johnson-Thompson's 'huge' high jump",
+          "excerpt": "Two-time world champion Katarina Johnson-Thompson gets a third-time clearance at 1.83m in the heptathlon high jump at the European Athletics Championships in Birmingham.WATCH MORE: Athletics on the BBCAvailable to UK users only.",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/athletics/videos/c04kyqzg4peo?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/fa71/live/6eaee130-97dc-11f1-a7ab-8b30adf0800a.jpg",
+          "time": "সন্ধ্যা ৬:৩৮"
+        }
+      ],
+      "Entertainment": [
+        {
+          "headline": "চট্টগ্রামে জাহাজ ভাঙার সময় বিষাক্ত গ্যাসে অন্তত আট জনের মৃত্যু",
+          "excerpt": "কম ডেটা ব্যবহার করতে শুধু টেক্সট পড়ুনছবির ক্যাপশান, পুরোনো জাহাজ কাটার সময় এই দুর্ঘটনা ঘটেPublished ২ ঘন্টা আগেপড়ার সময়: ৩ মিনিটচট্টগ্রামের সীতাকুণ্ডে একটি জাহাজ ভাঙার ইয়ার্ডে বিষাক্ত গ্যাস ছড়িয়ে অন্তত আটজন নিহত হয়েছেন। আহত হয়েছেন আরও বেশ কয়েকজন। শুক্রবার সকালে সীতাকুণ্ড উপজেলায় ফেরদৌস স্টিল শিপ ব্রেকিং ইয়ার্ডে এ ঘটনা ঘটে। সেখানে পুরোনো জাহাজ ভাঙার পর স্টিল রিসাইকেল করে বিক্রিও করা হয় বলে…",
+          "source": "BBC Bangla Entertainment",
+          "link": "https://www.bbc.com/bengali/articles/cwyldjydj0jo?at_medium=RSS&at_campaign=rss",
+          "author": "BBC News বাংলা",
+          "image": "https://ichef.bbci.co.uk/news/1200/branded_bengali/450e/live/91b84f10-97c6-11f1-870d-5d08c49babb2.png",
+          "time": "বিকাল ৪:২০"
+        },
+        {
+          "headline": "বাংলাদেশে গ্যাসের তীব্র সংকটের কারণ কী এবং সমাধানে সরকার কী করছে?",
+          "excerpt": "কম ডেটা ব্যবহার করতে শুধু টেক্সট পড়ুনছবির ক্যাপশান, বাংলাদেশে গ্যাসের উৎপাদন কমছে Author, আবুল কালাম আজাদRole,  বিবিসি নিউজ বাংলাPublished ৪ ঘন্টা আগেপড়ার সময়: ৬ মিনিটঢাকার পূর্ব রামপুরার একই বাড়িতে ১০ বছর ধরে বসবাস করছেন হাজেরা খাতুন। তবে রান্নার জন্য গ্যাসের চুলা সম্পূর্ণ বন্ধ থাকার অভিজ্ঞতা তার এবারই প্রথম। হাজেরা জানান, অতীতেও গ্যাস সংকটের ভেতর দিয়ে তাদের যেতে হয়েছে, কিন্তু এত তীব্র সংকটের…",
+          "source": "BBC Bangla Entertainment",
+          "link": "https://www.bbc.com/bengali/articles/cy7427x2pn1o?at_medium=RSS&at_campaign=rss",
+          "author": "আবুল কালাম আজাদ",
+          "image": "https://ichef.bbci.co.uk/news/1200/branded_bengali/7eff/live/ac991350-9735-11f1-a7ab-8b30adf0800a.jpg",
+          "time": "দুপুর ২:২৭"
+        },
+        {
+          "headline": "বন্ধু মাইকেল জ্যাকসনেকে দেওয়া পরামর্শই শেষ পর্যন্ত কাল হয়েছিল ম্যাকার্টনির",
+          "excerpt": "বন্ধু মাইকেল জ্যাকসনকে দেওয়া পরামর্শই শেষ পর্যন্ত কাল হয়েছিল ম্যাকার্টনির‘একদিন আমি তোমার গানগুলো কিনে নেব’—বন্ধু মাইকেল জ্যাকসনের এ কথায় হেসেছিলেন পল ম্যাকার্টনি। কয়েক বছর পর সেই হাসিই হয়তো তাঁর কাছে সবচেয়ে অস্বস্তিকর স্মৃতিগুলোর একটি হয়ে দাঁড়িয়েছিল।নাজমুল হক ঢাকাযুক্তরাজ্যের সাসেক্সে পল ম্যাকার্টনির ফার্মহাউসে মাইকেল জ্যাকসনছবি: লিন ম্যাকার্টনিমাইকেল জ্যাকসন তখন ক্যারিয়ারের শীর্ষে। পল…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/entertainment/song/ujkmprspyf",
+          "author": "নাজমুল হক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-14%2F9qw3mgqg%2Fimages.jfif?rect=0%2C0%2C678%2C356&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সন্ধ্যা ৬:৩০"
+        },
+        {
+          "headline": "রাষ্ট্রপতি নির্বাচনে মির্জা ফখরুল ইসলাম আলমগীরকে মনোনয়ন বিএনপির",
+          "excerpt": "১৩ অগাস্ট ২০২৬আজ বৃহস্পতিবার যা যা হলো:\n      বাংলাদেশের ২৩তম রাষ্ট্রপতি পদে নির্বাচনের জন্য মির্জা ফখরুল ইসলাম আলমগীরকে মনোনয়ন দিয়েছে বিএনপি। মনোনয়ন পাওয়ার পর তিনি দলীয় পদ থেকে পদত্যাগ করেছেন বলে রাষ্ট্রীয় বার্তা সংস্থা বাসস জানিয়েছে।\n    \n      রাষ্ট্রপতি নির্বাচনে অলি আহমদের মনোনয়নপত্র নির্বাচন কমিশনে জমা দিয়েছে জামায়াতে ইসলামী নেতৃত্বাধীন ১১ দলীয় জোট।\n    \n      রাষ্ট্রবিরোধী ‘গোপন তৎপরতায়’…",
+          "source": "BBC Bangla Entertainment",
+          "link": "https://www.bbc.co.uk/bengali/live/ckqx7pp791qqt?at_medium=RSS&at_campaign=rss",
+          "author": "BBC News বাংলা",
+          "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f5a6/live/8526b230-96ec-11f1-9b96-77d3dc534330.jpg",
+          "time": ""
+        },
+        {
+          "headline": "Bangladeshi short film ‘To-Let’ competes at Australian festival",
+          "excerpt": "Bangladeshi short film “To-Let”, directed by Jubair Shawan, is competing at the 2026 Focus on Ability Short Film Festival in Australia, marking the first time a film from Bangladesh has been selected for the festival.According to a press release from the production house, the film is among the international entries competing at this year’s festival.\n\n\n  \n    \n  \nEstablished in 2009, the Focus on…",
+          "source": "The Daily Star Entertainment",
+          "link": "https://www.thedailystar.net/culture/tv-film/news/bangladeshi-short-film-let-competes-australian-festival-4247641",
+          "author": "Arts & Entertainment Desk",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-08/to-let%20movie.png",
+          "time": "সন্ধ্যা ৭:০১"
+        },
+        {
+          "headline": "Oindrila eyes live performances in Australia",
+          "excerpt": "47 MIN(s)\n\t\t\t\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tS\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tShah Alam Shazu\n\t\t\t\t\t\t\n\t\t\t\t\t\n\n\t\t\t\n  \n                  \n              \n                  \n\n  \n\n\n\t\t\t\n\t\t\t\t\t\t\tPhotos: Courtesy \n\t\t\t\t\t\t\n\t\t\nTazrin Farhana Oindrila, daughter of renowned actor Bulbul Ahmed, has been involved in acting, singing, presenting, and dancing since childhood. She made her singing debut in “Gorom Hawa”, a film directed by her…",
+          "source": "The Daily Star Entertainment",
+          "link": "https://www.thedailystar.net/culture/entertainment/news/oindrila-eyes-live-performances-australia-4247631",
+          "author": "Shah Alam Shazu",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-08/Messenger_creation_D40FBB95-471B-4F84-82F0-23BF27545C6B.jpeg",
+          "time": "সন্ধ্যা ৬:১৬"
+        }
+      ],
+      "Local": [
+        {
+          "headline": "চট্টগ্রাম বন্দর জলসীমায় দুই জাহাজের\nসংঘর্ষ, একটির ইঞ্জিনকক্ষে ফাটল",
+          "excerpt": "নিজস্ব প্রতিবেদক চট্টগ্রামচট্টগ্রাম বন্দরের জলসীমায় সংঘর্ষে ক্ষতিগ্রস্ত প্রায় ৩৩ হাজার মেট্রিক টন ডিজেলবাহী তেল ট্যাংকার (জাহাজ)ছবি: বন্দর কর্তৃপক্ষের সৌজন্যেচট্টগ্রাম বন্দরের জলসীমায় প্রায় ৩৩ হাজার মেট্রিক টন ডিজেলবাহী একটি তেল ট্যাংকারের সঙ্গে নোঙর করে থাকা আরেকটি জাহাজের (বাল্ক ক্যারিয়ার) সংঘর্ষ হয়েছে। সংঘর্ষে তেলবাহী জাহাজটির ইঞ্জিনকক্ষের এক পাশে প্রায় এক বর্গমিটার ফাটল সৃষ্টি হয়ে পানি…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/district/sp8batqr43",
+          "author": "নিজস্ব প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-14%2F4v8sdn3m%2FWhatsApp-Image-2026-08-14-at-6.18.44-PM.jpeg?rect=0%2C180%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সন্ধ্যা ৬:৩০"
+        },
+        {
+          "headline": "স্যান্ডেল ও পোশাক দেখে পুকুরে নেমে পাওয়া গেল দুই বোনসহ তিন শিশুর লাশ",
+          "excerpt": "প্রতিনিধি যশোরপানিতে ডুবে মৃত্যুপ্রতীকী ছবিপুকুরপাড়ে স্যান্ডেল ও পোশাক রেখে গোসলে নেমেছিল দুই বোনসহ তিন শিশু। কিন্তু তারা পুকুর থেকে আর ওপরে উঠতে পারেনি। পানিতে ডুবে তাদের মৃত্যু হয়েছে। আজ শুক্রবার দুপুরে যশোরের বাঘারপাড়া উপজেলার জামদিয়া ইউনিয়নের জামদিয়া গ্রামে এ ঘটনা ঘটে।মারা যাওয়া তিন শিশু হলো জামদিয়া গ্রামের নিছার আলীর মেয়ে লামিয়া আক্তার (১৩) ও সুলতানা আক্তার (১০) এবং একই গ্রামের আশিকুর…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/district/417mljgr3d",
+          "author": "প্রতিনিধি",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2022-07%2F97e603a5-1fca-4f8e-b458-78b957b3726e%2FUntitled_2.jpg?rect=0%2C43%2C965%2C507&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সন্ধ্যা ৬:২২"
+        },
+        {
+          "headline": "গণভোটে হ্যাঁ ভোট দেবেন, আবার মানবেন না—এটা মুনাফেকি: গোলাম পরওয়ার",
+          "excerpt": "নিজস্ব প্রতিবেদক খুলনাআন্তর্জাতিক যুব দিবস উপলক্ষে খুলনায় যুব সম্মেলনে প্রধান অতিথির বক্তব্য দেন জামায়াতের সেক্রেটারি জেনারেল মিয়া গোলাম পরওয়ার। শুক্রবার খুলনা প্রেসক্লাবের লিয়াকত আলী মিলনায়তনেছবি: প্রথম আলোগণভোটের প্রসঙ্গ টেনে বিএনপির সমালোচনা করে জামায়াতে ইসলামীর সেক্রেটারি জেনারেল মিয়া গোলাম পরওয়ার বলেছেন, ‘বিএনপি একবারও বলে না, আমরা গণভোট মানব। তাঁরা বলেন, আমরা জুলাই সনদ মানব। এর অর্থ হলো—যে…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/district/fbm8ggv8pt",
+          "author": "নিজস্ব প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-14%2Ft3knb7i6%2FKhulnaDH.jpg?rect=0%2C0%2C975%2C512&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সন্ধ্যা ৬:২০"
+        },
+        {
+          "headline": "কেব্‌ল কারে মাত্র ৮ মিনিটেই চলে যেতে পারবেন যেই দুই দেশে",
+          "excerpt": "এক দেশের সীমান্ত থেকে আরেক দেশে কেব্‌ল কারে যেতে যদি সময় লাগে মাত্র ৬ থেকে ৮ মিনিট, তাহলে কেমন হবে? জাকারিয়া সুমন হেইলংজিয়াং নদীর ওপর দিয়েই চলবে রোপওয়ের কেবিনছবি: সিনহুয়াদীর্ঘ সড়কযাত্রা বা ফেরির জন্য অপেক্ষা না করে এবার আকাশপথে কেব্‌ল কারে চেপে পাড়ি দেওয়া যাবে আন্তর্জাতিক সীমান্ত। চীন ও রাশিয়া এমনই একটি রোপওয়ে তৈরি করেছে। এটি চালু হলে উত্তর-পূর্ব চীনের হেইলংজিয়াং প্রদেশের হেইহে শহর থেকে নদী পার…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/lifestyle/travel/j6bht8oubf",
+          "author": "জাকারিয়া সুমন",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-13%2For7wae5e%2Fac6bf1bb-112a-4dff-9d22-f2fb5112f063.jpg?rect=0%2C275%2C729%2C383&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সন্ধ্যা ৬:০০"
+        },
+        {
+          "headline": "মিরপুরের ৩টি ডুপ্লেক্স বাড়িতে কেন থাকেন না বিশ্ববিদ্যালয় মঞ্জুরি কমিশনের চেয়ারম্যান ও সদস্যরা?",
+          "excerpt": "0",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/video/bangladesh/nhyyi6wltz",
+          "author": "ভিডিও ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-14%2Fufwui2m3%2FWEB.jpg?rect=0%2C22%2C800%2C420&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2022-01%2F5a36c819-05a2-4bfb-ac50-57dd67355acb%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "বিকাল ৫:৫৯"
+        },
+        {
+          "headline": "অফিস সহকারী থেকে যুক্তরাষ্ট্রে পিএইচডি, এবার সেখানেই ওষুধ তৈরির গবেষণাগারে তিনি",
+          "excerpt": "মোছাব্বের হোসেন যুক্তরাষ্ট্র থেকেআশুতোষ নাথ শিক্ষাবৃত্তি নিয়ে যুক্তরাষ্ট্রে যান ২০২১ সালের আগস্টেছবি: আশুতোষ নাথের সৌজন্যেজীবনে কম সংগ্রাম করেননি আশুতোষ নাথ। খাগড়াছড়ির প্রত্যন্ত এলাকা থেকে উঠে আসা এই মানুষটি পড়াশোনার খরচ চালাতে একসময় দোকানে কাজ করেছেন। চাকরি করেছেন অফিস সহকারী হিসেবে। নানা প্রতিকূলতা পেরিয়ে সেই আশুতোষ পিএইচডি করতে যুক্তরাষ্ট্রে পাড়ি জমিয়েছিলেন। পিএইচডি শেষে এখন সেই দেশে যোগ…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/tufayio48f",
+          "author": "মোছাব্বের হোসেন",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-14%2F24v541zc%2FAsutosh_Prothomalo.jpeg?rect=0%2C49%2C1066%2C560&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "বিকাল ৫:৫৯"
+        },
+        {
+          "headline": "সীতাকুণ্ডে জাহাজভাঙা কারখানায় বিষাক্ত গ্যাসে গেল ৮ প্রাণ",
+          "excerpt": "চট্টগ্রামের সীতাকুণ্ডের ভাটিয়ারীতে ফেরদৌস স্টিল নামের জাহাজভাঙা কারখানায় স্ক্র্যাপ জাহাজের গ্যাস সিলিন্ডার থেকে ছড়িয়ে পড়া বিষাক্ত গ্যাসে আটজনের মৃত্যু হয়েছে। স্থানীয় জেলেরা জানান, গ্যাসের তীব্র গন্ধে কারখানার পাশের খালে নৌকা ভেড়াতে পারেননি তাঁরা। প্রায় আধা কিলোমিটার দূরে গিয়ে নৌকা ভেড়াতে হয়। এ ঘটনায় বিক্ষুব্ধ স্থানীয় লোকজন কারখানায় ঢুকে ভাঙচুর করে। পরে পুলিশ গিয়ে পরিস্থিতি নিয়ন্ত্রণে আনে।জুয়েল…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/photo/bangladesh/vrseobdd2e",
+          "author": "জুয়েল শীল",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-14%2F1rscjmsj%2Fthumb.jpeg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2022-01%2F18c58c05-9e66-46f3-8946-4437460f8f90%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "বিকাল ৫:৫৭"
+        },
+        {
+          "headline": "সীতাকুণ্ডের জাহাজ কারখানায় কী কারণে এত বড় দুর্ঘটনা",
+          "excerpt": "বিষক্রিয়ায় ৮ শ্রমিকের মৃত্যু সীতাকুণ্ডের জাহাজ কারখানায় কী কারণে এত বড় দুর্ঘটনানিজস্ব প্রতিবেদক চট্টগ্রামফেরদৌস স্টিল শিপ ব্রেকিং ইয়ার্ড ও রিসাইক্লিং কারখানা। আজ দুপুরে তোলাছবি: জুয়েল শীলচট্টগ্রামের সীতাকুণ্ডের একটি জাহাজভাঙা কারখানায় স্ক্র্যাপ জাহাজ কাটার সময় ‘বিষাক্ত গ্যাসে’ মৃত্যু হয়েছে আট শ্রমিকের। ওই শ্রমিকেরা অসুস্থ হয়ে পড়ার পর তাঁদের সময়মতো চিকিৎসা দেওয়া হয়নি বলে অভিযোগ সহকর্মীদের।…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/district/oziic82s6c",
+          "author": "নিজস্ব প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-14%2Fpfkr9jip%2FWhatsApp-Image-2026-08-14-at-5.17.15-PM.jpeg?rect=0%2C142%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "বিকাল ৫:৪৯"
+        },
+        {
+          "headline": "অন্য ঘটনার ভিডিও ছড়ানো হচ্ছে রাজনৈতিক নেতাদের পরিচয়ে",
+          "excerpt": "প্রথম আলো ফ্যাক্ট চেক অন্য ঘটনার ভিডিও ছড়ানো হচ্ছে রাজনৈতিক নেতাদের পরিচয়েনিজস্ব প্রতিবেদক ঢাকাসামাজিক যোগাযোগমাধ্যমে ছড়িয়ে দেওয়া ৩১ সেকেন্ডের একটি ভিডিওতে দেখা যাচ্ছে, একটি দোকানের বেঞ্চের ওপর দাঁড়িয়ে থাকা এক নারীকে পেছন থেকে লাকড়ির টুকরা দিয়ে পেটাচ্ছেন এক ব্যক্তি। পাশে ছড়িয়ে-ছিটিয়ে আছে কিছু পণ্য। মারধরের একপর্যায়ে ভুক্তভোগী নারী বেঞ্চ থেকে নেমে চলে যাওয়ার চেষ্টা করলে ওই ব্যক্তি পেছন থেকে তাঁকে…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/olukt5qofu",
+          "author": "নিজস্ব প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-14%2F0evje02o%2F%E0%A6%B2%E0%A6%BF%E0%A6%A1-%E0%A6%87%E0%A6%AE%E0%A7%87%E0%A6%9C.jpg?rect=0%2C54%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "বিকাল ৫:৪৪"
+        },
+        {
+          "headline": "জগন্নাথ বিশ্ববিদ্যালয়ে নিষিদ্ধ ছাত্রলীগের ব্যানার, পুড়িয়ে দিল ছাত্রদল",
+          "excerpt": "প্রতিবেদক জগন্নাথ বিশ্ববিদ্যালয়জগন্নাথ বিশ্ববিদ্যালয়ের তৃতীয় গেটসংলগ্ন পদচারী–সেতুতে শাখা ছাত্রলীগের টানানো সেই ব্যানার। সকালে ছাত্রদলের নেতা–কর্মীরা এটি নামিয়ে পুড়িয়ে দেন। ছবি: ১৪ আগস্ট ২০২৬ছবি: প্রথম আলোআগামীকাল ১৫ আগস্ট উপলক্ষে জগন্নাথ বিশ্ববিদ্যালয়ে (জবি) নিষিদ্ধঘোষিত ছাত্রসংগঠন ছাত্রলীগের টানানো একটি ব্যানার পুড়িয়ে দিয়েছে বিশ্ববিদ্যালয় শাখা ছাত্রদল। আজ শুক্রবার সকালে বিশ্ববিদ্যালয়ের তৃতীয়…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/politics/cwdva7yg4w",
+          "author": "প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-14%2Fml97uy9y%2FJnUChhatraLeagueBanner.jpg?rect=0%2C450%2C4160%2C2184&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2022-01%2F5a36c819-05a2-4bfb-ac50-57dd67355acb%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "বিকাল ৫:৪৩"
+        },
+        {
+          "headline": "অশ্রু মুছে সাফল্যের পথে চরের কন্যা শারমিন",
+          "excerpt": "এসএসসি পাস অশ্রু মুছে সাফল্যের পথে চরের কন্যা শারমিনলেখা: মো. আব্দুল কাদের, সহকারী প্রধান শিক্ষক, প্রথম আলো চর আলোর পাঠশালাবাবাকে হারিয়েও থামেনি মোছা. শারমিন আক্তার, আলোর পাঠশালা থেকে এবছর এসএসসি পাস করলেন। ছবিতে বাঁ থেকে তৃতীয়।বাবা নেই, জীবনের পদক্ষেপে পদক্ষেপে সেই শূন্যতা তাড়িয়ে বেড়ায় মোছা.শারমিন আক্তারকে। বাবা হারানোর কষ্টকে বুকে নিয়ে পড়াশোনার পথ ধরে এগিয়ে যাচ্ছে সে। তার স্বপ্নকে হারিয়ে যেতে…",
+          "source": "Prothom Alo",
+          "link": "https://trust.prothomalo.com/activities/alor-school/wkwzl8o3cv",
+          "author": "লেখা:",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-11%2F8h8hvj7a%2FWhatsApp-Image-2026-08-10-at-6.54.01-PM.jpeg?rect=0%2C169%2C1280%2C672&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2021-04%2Ffdb4c5e9-73c2-4121-9990-4feb270f5106%2Ftrust.png&overlay_position=bottom&overlay_width_pct=1",
+          "time": "বিকাল ৫:৪০"
+        }
+      ],
+      "Tech": [
+        {
+          "headline": "একই গ্যালাক্সিতে তিনটি ব্ল্যাকহোলের  সন্ধান পেয়েছেন বিজ্ঞানীরা",
+          "excerpt": "জাহিদ হোসাইন খান ব্ল্যাকহোলফাইল ছবি: রয়টার্সমহাবিশ্বের অসীম শূন্যতায় লুকিয়ে আছে কোটি কোটি নক্ষত্রপুঞ্জ আর রহস্যময় ব্ল্যাকহোল (কৃষ্ণগহ্বর)। সৃষ্টির আদিম ইতিহাস জানতে বিজ্ঞানীরা প্রতিনিয়ত শক্তিশালী টেলিস্কোপের মাধ্যমে মহাকাশের গভীরে অনুসন্ধান চালাচ্ছেন। এবার মহাবিশ্বের গভীরে থাকা একটি গ্যালাক্সিতে একসঙ্গে তিনটি সক্রিয় সুপারম্যাসিভ ব্ল্যাকহোলের সন্ধান পেয়েছেন জার্মানির ম্যাক্স প্ল্যাঙ্ক ইনস্টিটিউট…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/technology/science/5pe1zioda2",
+          "author": "জাহিদ হোসাইন খান",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-07-13%2Fggcax2en%2FBlack-Hole.Reuters.png?rect=0%2C12%2C609%2C320&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "বিকাল ৫:৫১"
+        },
+        {
+          "headline": "Rocket Report: Rocket Lab shows off its flexibility; Blue Origin's two-pad plan",
+          "excerpt": "All the news that’s fit to lift\n  \n\n    \n\n    \n\n    \n      “We’ve never seen launch capacity so constrained.”\n    \n\n          \n    \n    \n            \n              \n            \n    \n    \n      A render of LC-36B with LC-36A in the distance.\n\n              \n          Credit:\n\n          \n          Blue Origin\n\n                  \n          \n  \n          \n\n    \n    \n    \n      A render of LC-36B…",
+          "source": "Ars Technica",
+          "link": "https://arstechnica.com/space/2026/08/rocket-report-rocket-lab-shows-off-its-flexibility-blue-origins-two-pad-plan/",
+          "author": "Eric Berger",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/News_LaunchComplex-36B-1152x648.webp",
+          "time": "বিকাল ৫:০০"
+        },
+        {
+          "headline": "CMF hit the balance between cheap and good clip earbuds",
+          "excerpt": "Clip earbuds are an exercise in compromise. It’s an inherent aspect of their design — and physics. They can be more comfortable for people that don’t like something jammed in their ear, but sound response suffers. Ambient awareness is great because you can easily hear the sound around you, which means to hear your own music the buds need to be turned up and potentially leak sound out to your…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/tech/979928/cmf-clip-pro-review",
+          "author": "John Higgins",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/268665_Nothing_CMF_Clip_Pro_earbuds_AKrales_0144.jpg?quality=90&strip=all&crop=0%2C6.6231544521024%2C100%2C78.534031413613&w=1200",
+          "time": "সন্ধ্যা ৬:০০"
+        },
+        {
+          "headline": "Best Wireless Chargers (2026): My Picks After Testing 100+",
+          "excerpt": "A Wireless Wireless ChargerPhotograph: Simon HillPhotograph: Simon HillPhotograph: Simon HillTwelve SouthPowerBugCould this be the first truly wireless wireless charger? Twelve South’s designs are often interesting, and the PowerBug is a smart idea, enabling you to attach your phone directly to an outlet magnetically. The US version has folding prongs, making it a super compact option for…",
+          "source": "Wired",
+          "link": "https://www.wired.com/gallery/best-wireless-chargers/",
+          "author": "Simon Hill",
+          "image": "https://media.wired.com/photos/6a0f6f4c9c4f912eb7592888/191:100/w_1280,c_limit/Best%20Wireless%20Chargers%20top%20art%20052026%20SOURCE%20Amazon-Nomad%20Goods.jpg",
+          "time": "সন্ধ্যা ৬:০০"
+        },
+        {
+          "headline": "The ‘FlipPad’ is a compact game controller for Android, now available for $29.99",
+          "excerpt": "Initially announced earlier this year at CES 2026, 8BitDo has finally opened up sales of its clever little FlipPad game controller that works with Android and iOS, and it’s just $30.\n\n\n\nWhat sets the 8BitDo FlipPad apart in an absolutely massive market of mobile game controllers is that it’s designed to be super compact. The simple controller has a D-Pad, ABXY buttons, Select & Start keys, as…",
+          "source": "9to5Google",
+          "link": "https://9to5google.com/2026/08/14/8bitdo-flippad-compact-game-controller-android/",
+          "author": "Ben Schoon",
+          "image": "https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2026/01/8bitdo-flip-pad-1.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+          "time": "সন্ধ্যা ৬:৫৫"
+        },
+        {
+          "headline": "Samsung Galaxy Z Fold 8 Ultra review: The ultra foldable with an ultra price",
+          "excerpt": "Pretty and pricey\n  \n\n    \n\n    \n\n    \n      Samsung didn’t have to change much this year because its hardware is just that good.\n    \n\n          \n    \n    \n            \n              \n            \n    \n    \n      Samsung stuck with a familiar design in 2026. \n\n              \n          Credit:\n\n          \n          Ryan Whitwam\n\n                  \n          \n  \n          \n\n    \n    \n    \n     …",
+          "source": "Ars Technica",
+          "link": "https://arstechnica.com/gadgets/2026/08/samsung-galaxy-z-fold-8-ultra-review-the-ultra-foldable-with-an-ultra-price/",
+          "author": "Ryan Whitwam",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/Galaxy-Z-Fold-8-Ultra-4-1152x648.jpg",
+          "time": "বিকাল ৫:০০"
+        },
+        {
+          "headline": "The MSI Claw EX is the most important handheld since Steam Deck — I still wouldn’t buy one",
+          "excerpt": "As The Verge’s resident handheld reviewer, I have nearly every portable gaming PC on a shelf in my house. The MSI Claw 8 EX AI Plus is now the first one I reach for. Thanks to a next-gen Intel chip and improved MSI design, the Claw EX is the most powerful handheld that truly feels portable. It’s the handheld with the longest battery life, and the first Windows handheld I can trust to sleep and…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/games/977646/msi-claw-8-ex-review-intel-panther-lake-handheld",
+          "author": "Sean Hollister",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/verge-msi-claw-ex-sean-hollister-1-8.jpg?quality=90&strip=all&crop=0%2C11.782791030077%2C100%2C78.534450752859&w=1200",
+          "time": "বিকাল ৫:০০"
+        },
+        {
+          "headline": "Google has another Pixel 11 discount for up to $175 off, here’s where to find it",
+          "excerpt": "Following a collection of discount codes that were sent out ahead of the Pixel 11 launch this week, Google has another discount code worth up to $175 hidden just beneath the surface.\n\n\n\nAs part of its Play Store Points perks, Google is offering discounts on the entire Pixel 11 lineup, including Pixel Watch 5 too. The discounts max out at $175, but do vary by user. We’re seeing $125 off the Pixel…",
+          "source": "9to5Google",
+          "link": "https://9to5google.com/2026/08/14/google-play-pixel-11-discount/",
+          "author": "Ben Schoon",
+          "image": "https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2026/08/pixel-11-pro-gold-side.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+          "time": "সন্ধ্যা ৬:৩০"
+        },
+        {
+          "headline": "Organic-looking brake assemblies debut on new Czinger 21C Spyder",
+          "excerpt": "And the newest of these is Czinger’s new BrakeNode, an integrated brake assembly that combines the caliper, upright, and passages for hydraulic fluid into a single structure made from Czinger’s aluminum alloy. (Previously, Bugatti experimented with a 3D-printed brake caliper, but as far as I know, it never left the prototype stage.)\n\n\nWe saw an early version at the Goodwood Festival of Speed in…",
+          "source": "Ars Technica",
+          "link": "https://arstechnica.com/cars/2026/08/czinger-debuts-topology-optimized-brakes-with-21c-spyder/",
+          "author": "Jonathan M. Gitlin",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/CZV-1-Dynamic-Front-3-4-1152x648.jpg",
+          "time": "দুপুর ১:০১"
+        },
+        {
+          "headline": "Hoto’s new cordless soldering iron heats up in three seconds",
+          "excerpt": "Skip to main content﻿The latest addition to Hoto’s modular Snapbloq toolkit line can also be plugged in when you need more power.﻿The latest addition to Hoto’s modular Snapbloq toolkit line can also be plugged in when you need more power.by  Andrew LiszewskiAug 14, 2026, 11:00 AM UTCImage: HotoAndrew Liszewski is a senior reporter who’s been covering and reviewing the latest gadgets and tech…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/tech/979576/hoto-i-a06-cordless-soldering-iron-snapbloq-rechargeable",
+          "author": "Andrew Liszewski",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/hotosolder1.jpg?quality=90&strip=all&crop=0%2C10.740836125969%2C100%2C78.518327748063&w=1200",
+          "time": "বিকাল ৫:০০"
+        }
+      ]
+    }
+  },
+  {
     "dt": "2026-08-14T11:59:45.718Z",
     "file": "runs/2026-08-14-1159.html",
     "counts": {
