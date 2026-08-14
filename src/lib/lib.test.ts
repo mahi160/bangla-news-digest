@@ -49,7 +49,7 @@ test("groupBySection strips a repeated headline from the excerpt", () => {
 			source: "Test", sectionHint: "Tech", title: "শিরোনাম টেস্ট",
 			link: "https://example.com/a", author: "", image: "",
 			text: "শিরোনাম টেস্ট রাখা হলো এখানে আসল লেখা শুরু হচ্ছে।",
-			published: null, feedIndex: 0,
+			published: null, feedIndex: 0, sourceWeight: 1,
 		},
 	]);
 	const a = grouped.Tech![0];
@@ -61,7 +61,7 @@ test("groupBySection drops javascript: URLs via safeUrl", () => {
 		{
 			source: "Test", sectionHint: "Local", title: "t",
 			link: "javascript:alert(1)", author: "", image: "javascript:alert(2)",
-			text: "body text here", published: null, feedIndex: 0,
+			text: "body text here", published: null, feedIndex: 0, sourceWeight: 1,
 		},
 	]);
 	const a = grouped.Local![0];
@@ -73,15 +73,15 @@ test("groupBySection ranks multi-outlet (echoed) stories before single-source on
 	const grouped = groupBySection([
 		{
 			source: "A", sectionHint: "Tech", title: "একটি এক্সক্লুসিভ খবর যা শুধু এই সংস্থা দিয়েছে",
-			link: "https://a.example/1", author: "", image: "", text: "body", published: null, feedIndex: 0,
+			link: "https://a.example/1", author: "", image: "", text: "body", published: null, feedIndex: 0, sourceWeight: 1,
 		},
 		{
 			source: "B", sectionHint: "Tech", title: "বড় ভূমিকম্প আঘাত হানলো রাজধানীতে আজ সকালে",
-			link: "https://b.example/1", author: "", image: "", text: "body", published: null, feedIndex: 5,
+			link: "https://b.example/1", author: "", image: "", text: "body", published: null, feedIndex: 5, sourceWeight: 1,
 		},
 		{
 			source: "C", sectionHint: "Tech", title: "বড় ভূমিকম্প আঘাত হানলো রাজধানীতে আজ সকাল বেলায়",
-			link: "https://c.example/1", author: "", image: "", text: "body", published: null, feedIndex: 2,
+			link: "https://c.example/1", author: "", image: "", text: "body", published: null, feedIndex: 2, sourceWeight: 1,
 		},
 	]);
 	const headlines = grouped.Tech!.map((a) => a.headline);
@@ -91,15 +91,37 @@ test("groupBySection ranks multi-outlet (echoed) stories before single-source on
 	assert.ok(headlines[1].includes("ভূমিকম্প"), `got order: ${headlines}`);
 });
 
+test("groupBySection weighs a high-authority exclusive over low-weight echoing sources", () => {
+	const grouped = groupBySection([
+		{
+			source: "BigOutlet", sectionHint: "Tech", title: "একমাত্র বড় খবরটি এখানে",
+			link: "https://big.example/1", author: "", image: "", text: "body", published: null, feedIndex: 9, sourceWeight: 5,
+		},
+		{
+			source: "SmallBlogA", sectionHint: "Tech", title: "ছোট খবর একসাথে দুটিস্থানে",
+			link: "https://a.example/1", author: "", image: "", text: "body", published: null, feedIndex: 0, sourceWeight: 1,
+		},
+		{
+			source: "SmallBlogB", sectionHint: "Tech", title: "ছোট খবর একসাথে দুটি স্থানে",
+			link: "https://b.example/1", author: "", image: "", text: "body", published: null, feedIndex: 0, sourceWeight: 1,
+		},
+	]);
+	const headlines = grouped.Tech!.map((a) => a.headline);
+	// BigOutlet's single story (weight 5) outranks the two small blogs'
+	// echoed story (weight 1+1=2), even though the small blogs cluster and
+	// BigOutlet doesn't.
+	assert.equal(headlines[0], "একমাত্র বড় খবরটি এখানে");
+});
+
 test("groupBySection uses feedIndex as a tiebreaker within equal echo counts", () => {
 	const grouped = groupBySection([
 		{
 			source: "A", sectionHint: "Tech", title: "দ্বিতীয় সংবাদ আজকের",
-			link: "https://a.example/2", author: "", image: "", text: "body", published: null, feedIndex: 3,
+			link: "https://a.example/2", author: "", image: "", text: "body", published: null, feedIndex: 3, sourceWeight: 1,
 		},
 		{
 			source: "A", sectionHint: "Tech", title: "প্রথম সংবাদ আজকের",
-			link: "https://a.example/1", author: "", image: "", text: "body", published: null, feedIndex: 0,
+			link: "https://a.example/1", author: "", image: "", text: "body", published: null, feedIndex: 0, sourceWeight: 1,
 		},
 	]);
 	const headlines = grouped.Tech!.map((a) => a.headline);
