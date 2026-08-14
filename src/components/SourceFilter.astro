@@ -9,21 +9,36 @@
 // not the filtered count. Fine for a hide-some-sources toggle.
 import { SOURCES } from "../lib/config";
 
-// Configured sources, de-duplicated, in config.ts order -- always the full
-// list regardless of which sources happen to have articles today, so the
-// toggle set doesn't shuffle around day to day.
-const sourceNames = [...new Set(SOURCES.map((s) => s.name))];
+// Configured sources, de-duplicated by name (first occurrence wins), in
+// config.ts order -- always the full list regardless of which sources
+// happen to have articles today, so the toggle set doesn't shuffle around
+// day to day. Each also links out to the outlet's own site (its feed URL's
+// origin), opened in a new tab.
+const uniqueSources = [...new Map(SOURCES.map((s) => [s.name, s])).values()];
 ---
 
 <details class="srcfilter">
 	<summary>উৎস ফিল্টার</summary>
 	<div class="srclist">
 		{
-			sourceNames.map((name) => (
-				<label>
-					<input type="checkbox" value={name} checked /> {name}
-				</label>
-			))
+			uniqueSources.map((s) => {
+				let origin = "#";
+				try {
+					origin = new URL(s.url).origin;
+				} catch {
+					/* malformed source url -- link falls back to # */
+				}
+				return (
+					// <a> is a *sibling* of the checkbox, not nested inside a shared
+					// <label> -- nesting a link inside a checkbox's label makes some
+					// browsers toggle the checkbox on link click too, which isn't
+					// what "open this source" should do.
+					<span class="src-item">
+						<input type="checkbox" value={s.name} checked aria-label={`উৎস ফিল্টার: ${s.name}`} />
+						<a href={origin} target="_blank" rel="noopener noreferrer">{s.name}</a>
+					</span>
+				);
+			})
 		}
 	</div>
 </details>
