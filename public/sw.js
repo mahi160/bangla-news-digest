@@ -13,6 +13,11 @@ self.addEventListener('activate', function(e){ e.waitUntil(self.clients.claim())
 
 self.addEventListener('fetch', function(e){
   if (e.request.method !== 'GET') return;
+  // Only handle same-origin requests -- third-party scripts (Mixpanel's
+  // CDN) and browser-extension-injected requests (chrome-extension://)
+  // aren't ours to cache, and Cache.put() throws on non-http(s) schemes.
+  // Let the browser handle those natively.
+  if (e.request.url.indexOf(self.location.origin) !== 0) return;
   if (e.request.mode === 'navigate') {
     e.respondWith(
       fetch(e.request).then(function(res){
@@ -30,6 +35,6 @@ self.addEventListener('fetch', function(e){
         caches.open(CACHE).then(function(c){ c.put(e.request, copy); });
         return res;
       });
-    })
+    }).catch(function(){ /* offline and not cached -- nothing we can do */ })
   );
 });
