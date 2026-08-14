@@ -19,8 +19,13 @@ function rowHtml(a: Article): string {
 	const href = esc(a.link || "#");
 	let meta = esc(a.source);
 	if (a.time) meta += ` · ${esc(a.time)}`;
+	// target=_blank so the source article opens in a new tab, keeping the
+	// digest page open -- matters most on the no-JS/run-permalink path
+	// where this href is the only way to read the source (index page's
+	// modal intercepts the click first, but the href stays correct as a
+	// fallback if JS fails to load).
 	return (
-		`<li><a class=row href="${href}" data-headline="${esc(a.headline)}" ` +
+		`<li><a class=row href="${href}" target=_blank rel="noopener noreferrer" data-headline="${esc(a.headline)}" ` +
 		`data-source="${esc(a.source)}" data-time="${esc(a.time)}" ` +
 		`data-author="${esc(a.author)}" data-image="${esc(a.image)}" ` +
 		`data-link="${esc(a.link)}" data-excerpt="${esc(a.excerpt)}">` +
