@@ -9,6 +9,12 @@ export interface Source {
 	url: string;
 	/** null means the feed mixes categories -- classifyByLink() sorts by URL path. */
 	section: Section | null;
+	/** Authority/trust weight (1-3), subjective starting point -- tune freely.
+	 * Feeds into groupBySection's importance ordering: a story's score is the
+	 * sum of weights of every outlet covering it this run, not just a raw
+	 * outlet count, so one major outlet's exclusive can outrank three small
+	 * blogs echoing each other. */
+	weight: number;
 }
 
 // section=null means the feed mixes categories -- classifyByLink() reads the
@@ -23,22 +29,52 @@ export interface Source {
 // lets the more specific tag win over the general feed's copy of the same
 // article.
 export const SOURCES: Source[] = [
-	{ name: "Prothom Alo", url: "https://www.prothomalo.com/feed", section: null },
-	{ name: "Banglanews24", url: "https://www.banglanews24.com/rss.xml", section: null },
-	// BDNews24 Bangla (bangla.bdnews24.com/rss) tried and dropped: Cloudflare
-	// JS-challenge gates the feed URL, not fetchable by a plain HTTP client.
-	{ name: "BBC Bangla World", url: "https://feeds.bbci.co.uk/bengali/world/rss.xml", section: "International" },
-	{ name: "BBC Bangla Entertainment", url: "https://feeds.bbci.co.uk/bengali/topics/entertainment/rss.xml", section: "Entertainment" },
-	{ name: "BBC Bangla Sport", url: "https://feeds.bbci.co.uk/bengali/sport/rss.xml", section: "Sports" },
-	{ name: "BBC Bangla", url: "https://feeds.bbci.co.uk/bengali/rss.xml", section: null },
-	{ name: "ESPN Cricinfo", url: "https://www.espncricinfo.com/rss/content/story/feeds/6.xml", section: "Sports" },
-	{ name: "omg! ubuntu", url: "https://www.omgubuntu.co.uk/feed", section: "Tech" },
-	{ name: "It's FOSS", url: "https://www.itsfoss.com/feed/", section: "Tech" },
-	{ name: "Phoronix", url: "https://www.phoronix.com/rss.php", section: "Tech" },
-	{ name: "TechShohor", url: "https://techshohor.com/feed/", section: "Tech" },
-	{ name: "Ars Technica", url: "https://arstechnica.com/feed/", section: "Tech" },
-	{ name: "TechCrunch", url: "https://techcrunch.com/feed/", section: "Tech" },
-	{ name: "The Verge", url: "https://www.theverge.com/rss/index.xml", section: "Tech" },
+	// -- Bangladesh, general (URL-classified) --
+	{ name: "Prothom Alo", url: "https://www.prothomalo.com/feed", section: null, weight: 3 },
+	{ name: "Banglanews24", url: "https://www.banglanews24.com/rss.xml", section: null, weight: 2 },
+	{ name: "The Daily Star", url: "https://www.thedailystar.net/rss.xml", section: null, weight: 3 },
+	{ name: "Dhaka Tribune", url: "https://www.dhakatribune.com/feed/rss", section: null, weight: 2 },
+	// BDNews24 Bangla, Kalerkantho, Ittefaq, Bangla Tribune tried and dropped:
+	// Cloudflare/bot-gated (403) or no working feed path found (404). Jugantor
+	// tried and dropped: bot-blocked ("Access denied", inconsistent with its
+	// feed's HTTP 200). Samakal tried and dropped: /rss/rss.xml serves its
+	// HTML homepage, not a feed -- no working feed path found.
+
+	// -- BBC Bangla: topic feeds listed ahead of the general one, so the
+	// shared same-run URL dedup (see collect.ts) lets the more specific
+	// section win over the general feed's copy of the same article. --
+	{ name: "BBC Bangla World", url: "https://feeds.bbci.co.uk/bengali/world/rss.xml", section: "International", weight: 3 },
+	{ name: "BBC Bangla Entertainment", url: "https://feeds.bbci.co.uk/bengali/topics/entertainment/rss.xml", section: "Entertainment", weight: 3 },
+	{ name: "BBC Bangla Sport", url: "https://feeds.bbci.co.uk/bengali/sport/rss.xml", section: "Sports", weight: 3 },
+	{ name: "BBC Bangla", url: "https://feeds.bbci.co.uk/bengali/rss.xml", section: null, weight: 3 },
+
+	// -- International --
+	{ name: "Al Jazeera", url: "https://www.aljazeera.com/xml/rss/all.xml", section: "International", weight: 3 },
+	{ name: "The Guardian World", url: "https://www.theguardian.com/world/rss", section: "International", weight: 3 },
+	// VOA Bangla, DW Bangla tried and dropped: no working public feed URL found.
+
+	// -- Sports --
+	{ name: "ESPN Cricinfo", url: "https://www.espncricinfo.com/rss/content/story/feeds/6.xml", section: "Sports", weight: 3 },
+	{ name: "ESPN", url: "https://www.espn.com/espn/rss/news", section: "Sports", weight: 2 },
+	{ name: "BBC Sport", url: "https://feeds.bbci.co.uk/sport/rss.xml", section: "Sports", weight: 2 },
+	{ name: "The Daily Star Sports", url: "https://www.thedailystar.net/taxonomy/term/3/rss.xml", section: "Sports", weight: 2 },
+
+	// -- Entertainment --
+	{ name: "The Daily Star Entertainment", url: "https://www.thedailystar.net/taxonomy/term/283449/rss.xml", section: "Entertainment", weight: 2 },
+
+	// -- Tech --
+	{ name: "omg! ubuntu", url: "https://www.omgubuntu.co.uk/feed", section: "Tech", weight: 1 },
+	{ name: "It's FOSS", url: "https://www.itsfoss.com/feed/", section: "Tech", weight: 1 },
+	{ name: "Phoronix", url: "https://www.phoronix.com/rss.php", section: "Tech", weight: 1 },
+	{ name: "TechShohor", url: "https://techshohor.com/feed/", section: "Tech", weight: 1 },
+	{ name: "Ars Technica", url: "https://arstechnica.com/feed/", section: "Tech", weight: 2 },
+	{ name: "TechCrunch", url: "https://techcrunch.com/feed/", section: "Tech", weight: 2 },
+	{ name: "The Verge", url: "https://www.theverge.com/rss/index.xml", section: "Tech", weight: 2 },
+	{ name: "Wired", url: "https://www.wired.com/feed/rss", section: "Tech", weight: 2 },
+	{ name: "Engadget", url: "https://www.engadget.com/rss.xml", section: "Tech", weight: 2 },
+	{ name: "9to5Google", url: "https://9to5google.com/feed/", section: "Tech", weight: 2 },
+	{ name: "The Hacker News", url: "https://feeds.feedburner.com/TheHackersNews", section: "Tech", weight: 2 },
+	// XDA Developers tried and dropped: feed connection unreliable (empty replies).
 ];
 
 // Where the site is deployed -- used to build absolute links in feed.xml/opds.xml.
