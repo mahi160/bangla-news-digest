@@ -1,17 +1,22 @@
 name: pages
 
-# No pipeline execution here -- pipeline.py runs locally (needs your pi/
-# Sonnet subscription auth), you git push the result, this just deploys the
-# updated site/ folder to GitHub Pages.
+# Manual/code-change redeploy: rebuild the site from whatever's already
+# committed (public/runs.json, state.json) without waiting for the next
+# cron collect -- e.g. after a design/component change to main. digest.yml
+# covers the normal cron path end-to-end on its own; this is the fallback.
 on:
   push:
     branches: [main]
-    paths: ["site/**"]
+    paths: ["src/**", "public/**", "astro.config.mjs", "package.json", "package-lock.json"]
   workflow_dispatch: {}
 
 permissions:
   pages: write
   id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
 
 jobs:
   deploy:
@@ -20,7 +25,12 @@ jobs:
       name: github-pages
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: npm ci
+      - run: npm run build
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: site/
+          path: dist/
       - uses: actions/deploy-pages@v4

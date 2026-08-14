@@ -1,3 +1,0 @@
-# Python for the deterministic pipeline
-
-Considered Go and Node for RSS fetch, article extraction, EPUB build, HTML render, and email send. Picked Python because `trafilatura` (article boilerplate extraction from arbitrary, ad-heavy, multilingual news markup) is meaningfully more mature than Go's `go-readability` or Node's `Readability`/`jsdom` port — and extraction quality is the correctness-critical step here: bad extraction means the Claude Code summarization step burns Opus tokens summarizing nav/ad text instead of the article. RSS parsing, EPUB generation, templating, and email are roughly equivalent across all three languages, so the extraction library was the deciding factor.

@@ -1,0 +1,12 @@
+{
+  "name": "বাংলা সংবাদ সংক্ষেপ",
+  "short_name": "সংক্ষেপ",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ECEAE4",
+  "theme_color": "#16181D",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

@@ -1,0 +1,117 @@
+---
+// Today's editions as tabs (CSS-only, driven by radio :checked -> :has();
+// default-checked tab is the newest run, so opening the link always lands
+// on the current edition), a 1/2-column toggle, and a shared modal for
+// detail. Port of old/pipeline.py's render_index() (see old/docs/adr/0006).
+import Layout from "../layouts/Layout.astro";
+import Modal from "../components/Modal.astro";
+import SourceFilter from "../components/SourceFilter.astro";
+import { loadManifest } from "../lib/state.ts";
+import { todaysEditions } from "../lib/runs.ts";
+import { renderPanel } from "../lib/render.ts";
+import { bnDate, bnTime, bnWeekday, edition, toBd, HORIZON_GRADIENT } from "../lib/dates.ts";
+
+const manifest = loadManifest();
+const editions = todaysEditions(manifest);
+const title = "বাংলা সংবাদ সংক্ষেপ";
+
+const tabs = editions.map((r, i) => {
+	const bd = toBd(new Date(r.dt));
+	const [label, cls] = edition(bd);
+	return { i, bd, label, cls, checked: i === 0, run: r };
+});
+const horizonRules = tabs
+	.map((t) => `body:has(#ed${t.i}:checked) .horizon{background-image:${HORIZON_GRADIENT[t.cls]}}`)
+	.join("");
+---
+
+<Layout title={editions.length ? `${tabs[0].label} · ${bnDate(tabs[0].bd)} — ${title}` : title}>
+	<Fragment slot="head">
+		{
+			editions.length > 0 && (
+				<>
+					<link rel="manifest" href="manifest.json" />
+					<meta name="theme-color" content="#16181D" />
+					<link rel="alternate" type="application/rss+xml" title={`${title} RSS`} href="feed.xml" />
+				</>
+			)
+		}
+	</Fragment>
+
+	{
+		editions.length === 0 ? (
+			<>
+				<header class="masthead">
+					<p class="eyebrow">{title}</p>
+				</header>
+				<p class="colophon">আজকের কোনো সংস্করণ এখনো প্রকাশ হয়নি।</p>
+			</>
+		) : (
+			<>
+				<header class="masthead">
+					<p class="eyebrow">{title}</p>
+					<h1 class="date">
+						{bnDate(tabs[0].bd)}
+						<span class="weekday">{bnWeekday(tabs[0].bd)}</span>
+					</h1>
+					<p class="feeds">
+						<a href="feed.xml">RSS</a><a href="opds.xml">OPDS</a>
+						<button type="button" id="sync">সিঙ্ক<span id="sync-badge" class="sync-badge" hidden /></button>
+					</p>
+					<div class="horizon" />
+				</header>
+				<main>
+					{tabs.map((t) => (
+						<input type="radio" name="ed" id={`ed${t.i}`} class="vh" checked={t.checked} />
+					))}
+					{tabs.length > 1 && (
+						<div class="tabs" role="tablist">
+							{tabs.map((t) => (
+								<label class="tab" for={`ed${t.i}`}>
+									{t.label}
+									<span class="tab-sub">{bnTime(t.bd)}</span>
+								</label>
+							))}
+						</div>
+					)}
+					<div class="colsbar" aria-label="কলাম">
+						<input type="radio" name="cols" id="c1" class="vh" checked />
+						<label for="c1">১ কলাম</label>
+						<input type="radio" name="cols" id="c2" class="vh" />
+						<label for="c2">২ কলাম</label>
+					</div>
+					<SourceFilter />
+					<div class="panels">
+						{tabs.map((t) => (
+							<section class="panel" id={`p${t.i}`} set:html={renderPanel(t.run.grouped, t.i)} />
+						))}
+					</div>
+				</main>
+				<Modal />
+				<footer class="colophon">
+					<p>আজকের সংস্করণ — নতুন সংস্করণ প্রতি ৬ ঘণ্টা পর (ভোর ৬টা, দুপুর ১২টা, সন্ধ্যা ৬টা ও রাত ১২টায়)।</p>
+				</footer>
+				<style set:html={horizonRules} />
+				<script>
+					(function () {
+						const btn = document.getElementById("sync");
+						if (btn) btn.addEventListener("click", () => location.reload());
+						if (!("serviceWorker" in navigator)) return;
+						navigator.serviceWorker.register("sw.js").then((reg) => {
+							reg.addEventListener("updatefound", () => {
+								const installing = reg.installing;
+								if (!installing) return;
+								installing.addEventListener("statechange", () => {
+									if (installing.state === "installed" && reg.active) {
+										const badge = document.getElementById("sync-badge");
+										if (badge) badge.hidden = false;
+									}
+								});
+							});
+						});
+					})();
+				</script>
+			</>
+		)
+	}
+</Layout>

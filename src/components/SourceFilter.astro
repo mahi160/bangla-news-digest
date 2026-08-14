@@ -1,0 +1,60 @@
+---
+// Reader-side display filter only -- doesn't change what's fetched, emailed,
+// or put in the EPUB/RSS/OPDS, and only ships on the index page (today's
+// editions), not archive permalinks. Hides via the native `hidden` attribute
+// (see the `.row[hidden]` override in global.css), so Modal's existing
+// visibleRows()/offsetParent check already skips filtered-out rows for free.
+//
+// Known simplification: category chip counts still show the day's total,
+// not the filtered count. Fine for a hide-some-sources toggle.
+import { SOURCES } from "../lib/config";
+
+// Configured sources, de-duplicated, in config.ts order -- always the full
+// list regardless of which sources happen to have articles today, so the
+// toggle set doesn't shuffle around day to day.
+const sourceNames = [...new Set(SOURCES.map((s) => s.name))];
+---
+
+<details class="srcfilter">
+	<summary>উৎস ফিল্টার</summary>
+	<div class="srclist">
+		{
+			sourceNames.map((name) => (
+				<label>
+					<input type="checkbox" value={name} checked /> {name}
+				</label>
+			))
+		}
+	</div>
+</details>
+
+<script>
+	(function () {
+		const KEY = "nd-hidden-sources";
+		function hiddenSet(): Set<string> {
+			try {
+				return new Set(JSON.parse(localStorage.getItem(KEY) || "[]"));
+			} catch {
+				return new Set();
+			}
+		}
+		function apply(hidden: Set<string>) {
+			const boxes = document.querySelectorAll<HTMLInputElement>(".srclist input[type=checkbox]");
+			boxes.forEach((box) => (box.checked = !hidden.has(box.value)));
+			const rows = document.querySelectorAll<HTMLElement>(".row");
+			rows.forEach((row) => (row.hidden = hidden.has(row.dataset.source ?? "")));
+		}
+		apply(hiddenSet());
+		document.addEventListener("change", (e) => {
+			const box = (e.target as HTMLElement).closest<HTMLInputElement>(
+				".srclist input[type=checkbox]",
+			);
+			if (!box) return;
+			const hidden = hiddenSet();
+			if (box.checked) hidden.delete(box.value);
+			else hidden.add(box.value);
+			localStorage.setItem(KEY, JSON.stringify(Array.from(hidden)));
+			apply(hidden);
+		});
+	})();
+</script>

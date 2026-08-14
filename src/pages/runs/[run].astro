@@ -1,0 +1,35 @@
+---
+// Standalone permalink for one edition -- used by RSS/OPDS and as a direct
+// link. Headlines link straight to the source (no modal needed on a page
+// that's only ever read, not interacted with). Port of render_run_html().
+import Layout from "../../layouts/Layout.astro";
+import { renderPanel } from "../../lib/render.ts";
+import { loadManifest } from "../../lib/state.ts";
+import { bnDate, bnWeekday, edition, toBd } from "../../lib/dates.ts";
+
+export function getStaticPaths() {
+	const manifest = loadManifest();
+	return manifest.map((r) => ({
+		params: { run: r.file.replace(/^runs\//, "").replace(/\.html$/, "") },
+		props: { run: r },
+	}));
+}
+
+const { run } = Astro.props;
+const bd = toBd(new Date(run.dt));
+const [edLabel, edCls] = edition(bd);
+const title = `${edLabel} · ${bnDate(bd)} — বাংলা সংবাদ সংক্ষেপ`;
+---
+
+<Layout title={title}>
+	<a class="back" href="../index.html">← আজকের সব সংস্করণ</a>
+	<header class="masthead">
+		<p class="eyebrow">{edLabel}</p>
+		<h1 class="date">
+			{bnDate(bd)}
+			<span class="weekday">{bnWeekday(bd)}</span>
+		</h1>
+		<div class={`horizon ${edCls}`} />
+	</header>
+	<main set:html={renderPanel(run.grouped, "r")} />
+</Layout>

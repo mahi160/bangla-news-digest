@@ -1,0 +1,149 @@
+{/* Shared detail modal for the index page's headline rows. Vanilla JS, no
+framework -- ported from old/pipeline.py's MODAL_HTML/MODAL_SCRIPT. Reads a
+row's data-* into the one modal and opens it; CSS (@starting-style, see
+global.css) handles the open fade/scale on its own. */}
+<dialog id="modal" class="modal">
+	<button type="button" class="modal-close" aria-label="বন্ধ করুন">×</button>
+	<div class="m-img-wrap" hidden>
+		<img class="m-img" alt="" width="640" height="320" loading="lazy" />
+	</div>
+	<div class="modal-body">
+		<div class="m-nav">
+			<button type="button" class="m-prev" aria-label="আগের খবর">‹</button>
+			<button type="button" class="m-next" aria-label="পরের খবর">›</button>
+		</div>
+		<h3 class="m-hl"></h3>
+		<p class="modal-meta">
+			<span class="m-src"></span><span class="m-author" hidden></span><span class="m-time"
+			></span>
+		</p>
+		<p class="m-excerpt"></p>
+		<a class="m-link" href="#" target="_blank" rel="noopener noreferrer" hidden
+			>মূল প্রতিবেদন পড়ুন →</a
+		>
+	</div>
+</dialog>
+
+<script>
+	// Prev/Next walk every currently *visible* .row (offsetParent check, so
+	// it naturally follows whichever edition tab is showing without knowing
+	// anything about the tab mechanism) -- recomputed fresh on each open so
+	// it always matches what's on screen right now.
+	//
+	// The image loads asynchronously after the rest of the modal is already
+	// showing: a fixed-aspect-ratio wrapper reserves the space so the dialog
+	// never jumps, and 'loaded' is stripped before the new src is set so the
+	// previous article's picture is never on screen for the new one.
+	(function () {
+		const modal = document.getElementById("modal") as HTMLDialogElement | null;
+		if (!modal) return;
+		const imgWrap = modal.querySelector<HTMLElement>(".m-img-wrap")!;
+		const img = modal.querySelector<HTMLImageElement>(".m-img")!;
+		const reduceMotion =
+			window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+		let current: HTMLElement | null = null;
+
+		function closeModal() {
+			if (!modal!.open || modal!.classList.contains("closing")) return;
+			if (reduceMotion) {
+				modal!.close();
+				return;
+			}
+			modal!.classList.add("closing");
+			modal!.addEventListener(
+				"transitionend",
+				function onEnd(e) {
+					if (e.target !== modal) return;
+					modal!.removeEventListener("transitionend", onEnd);
+					modal!.classList.remove("closing");
+					modal!.close();
+				},
+				{ once: true },
+			);
+		}
+
+		function visibleRows(): HTMLElement[] {
+			return Array.prototype.filter.call(
+				document.querySelectorAll(".row"),
+				(r: HTMLElement) => r.offsetParent !== null,
+			);
+		}
+
+		function openRow(row: HTMLElement) {
+			current = row;
+			const d = row.dataset;
+			modal!.querySelector(".m-hl")!.textContent = d.headline ?? "";
+			modal!.querySelector(".m-src")!.textContent = d.source ?? "";
+			modal!.querySelector(".m-time")!.textContent = d.time ?? "";
+			modal!.querySelector(".m-excerpt")!.textContent = d.excerpt ?? "";
+			const author = modal!.querySelector<HTMLElement>(".m-author")!;
+			author.textContent = d.author ?? "";
+			author.hidden = !d.author;
+			const link = modal!.querySelector<HTMLAnchorElement>(".m-link")!;
+			if (d.link) {
+				link.href = d.link;
+				link.hidden = false;
+			} else {
+				link.hidden = true;
+			}
+
+			img.classList.remove("loaded");
+			if (d.image) {
+				imgWrap.hidden = false;
+				img.src = d.image;
+			} else {
+				imgWrap.hidden = true;
+				img.removeAttribute("src");
+			}
+
+			const rows = visibleRows();
+			const i = rows.indexOf(row);
+			(modal!.querySelector(".m-prev") as HTMLButtonElement).disabled = i <= 0;
+			(modal!.querySelector(".m-next") as HTMLButtonElement).disabled = i === -1 || i >= rows.length - 1;
+
+			if (!modal!.open) modal!.showModal();
+		}
+
+		function step(delta: number) {
+			const rows = visibleRows();
+			const i = rows.indexOf(current!) + delta;
+			if (i >= 0 && i < rows.length) openRow(rows[i]);
+		}
+
+		img.addEventListener("load", () => img.classList.add("loaded"));
+		img.addEventListener("error", () => {
+			imgWrap.hidden = true;
+		});
+
+		document.addEventListener("click", (e) => {
+			const target = e.target as HTMLElement;
+			if (target.closest(".modal-close")) {
+				closeModal();
+				return;
+			}
+			if (target.closest(".m-prev")) {
+				step(-1);
+				return;
+			}
+			if (target.closest(".m-next")) {
+				step(1);
+				return;
+			}
+			const row = target.closest<HTMLElement>(".row");
+			if (!row) return;
+			e.preventDefault();
+			openRow(row);
+		});
+		modal.addEventListener("click", (e) => {
+			if (e.target === modal) closeModal();
+		});
+		modal.addEventListener("cancel", (e) => {
+			e.preventDefault();
+			closeModal();
+		});
+		modal.addEventListener("keydown", (e) => {
+			if (e.key === "ArrowRight") step(1);
+			else if (e.key === "ArrowLeft") step(-1);
+		});
+	})();
+</script>
