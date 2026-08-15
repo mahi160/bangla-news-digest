@@ -1,5 +1,721 @@
 [
   {
+    "dt": "2026-08-15T01:10:15.144Z",
+    "file": "runs/2026-08-15-0110.html",
+    "counts": {
+      "Local": 4,
+      "International": 31,
+      "Entertainment": 1,
+      "Tech": 23,
+      "Sports": 18
+    },
+    "grouped": {
+      "Local": [
+        {
+          "headline": "চাঁদের ভবিষ্যৎ",
+          "excerpt": "রাতের আকাশে চাঁদ দেখতে কার না ভালো লাগে। চাঁদ আমাদের খুব পরিচিত বলে আমরা হয়তো একে খুব সাধারণ মনে করি। কিন্তু চাঁদ আসলে একটি বিস্ময়কর উপগ্রহ। চাঁদের দিকে তাকালে এর অনেক পুরোনো ইতিহাস চোখে পড়ে। কোটি কোটি বছর আগে বিশাল সব উল্কাপাতের দাগ আজও এর বুকে স্পষ্ট দেখা যায়। কালো কালো দাগগুলো সেই প্রাচীন আঘাতের সাক্ষী।কিন্তু এই চাঁদের ভবিষ্যৎ কী? বহু কোটি বছর পর চাঁদের কী পরিণতি হবে? এই ভবিষ্যৎ লুকিয়ে আছে…",
+          "source": "Prothom Alo",
+          "link": "https://www.bigganchinta.com/space/ftj50nf768",
+          "author": "শিউলী সুলতানা",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-13%2Fjk3lppmy%2F00.png?rect=0%2C51%2C2944%2C1546&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2021-04%2F18d6c66d-0fdc-4405-936e-afd304acc074%2Fbigganchinta.png&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৭:০০"
+        },
+        {
+          "headline": "জান্নাত পাওয়ার জন্য একটি অমূল্য দোয়া",
+          "excerpt": "দোয়া জান্নাত পাওয়ার জন্য একটি অমূল্য দোয়াধর্ম ডেস্ক ছবি: এএফপিপৃথিবীর জীবন ক্ষণস্থায়ী ও পরীক্ষাকেন্দ্রের মতো। চূড়ান্ত সাফল্য হলো মহান আল্লাহর সন্তুষ্টি ও চিরসুন্দর জান্নাত লাভ করা। বিশ্বাসীরা প্রতিনিয়ত সৎকাজ করে এবং নানা আমলের মাধ্যমে জান্নাতের পথ খোঁজে। প্রতিটি মুমিনের সুপ্ত স্বপ্ন থাকে জান্নাত।মহানবী (সা.) আমাদের এমন এক চমৎকার ও প্রজ্ঞাপূর্ণ দোয়া শিক্ষা দিয়েছেন, যা আন্তরিক বিশ্বাসের সঙ্গে…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/religion/islam/f8amfksnx3",
+          "author": "ধর্ম ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-13%2F3f16tdro%2F122130-01-02.jpg?rect=0%2C511%2C7221%2C3791&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "ভোর ৪:৩০"
+        },
+        {
+          "headline": "মধ্যদ্বিত্ব সমাজ : রাজনৈতিক মধ্যবর্গ পরিচিতি",
+          "excerpt": "সারকথাএই প্রবন্ধে লেখক ‘মধ্যদ্বিত্ব’ ধারণার মাধ্যমে বাংলাদেশসহ বিশ্বপরিসরে মধ্যবিত্তের দ্বৈত, দোদুল্যমান ও স্বার্থরক্ষামুখী চরিত্র বিশ্লেষণ করেছেন। লেখকের মতে, মধ্যবিত্ত কেবল আয়ের ভিত্তিতে নির্ধারিত কোনো অর্থনৈতিক শ্রেণি নয়; বরং এটি একটি মানসিকতা, সাংস্কৃতিক অবস্থান ও সামাজিক বর্গ। এই বর্গ অন্যায়-অবিচারে ক্ষুব্ধ হলেও দীর্ঘস্থায়ী সংগ্রামে স্থির থাকে না; ন্যায়, সাম্য ও গণতন্ত্রের পক্ষে অবস্থান…",
+          "source": "Prothom Alo",
+          "link": "https://www.protichinta.com/article/j5fk6y28kb",
+          "author": "মোহাম্মদ সাজ্জাদুর রহমান",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-14%2Fv8dsx0yg%2Fhelalpc.jpeg?rect=0%2C19%2C1144%2C601&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=&overlay_position=bottom&overlay_width_pct=1",
+          "time": "রাত ৩:২৩"
+        },
+        {
+          "headline": "রাষ্ট্রপতি নির্বাচনে মির্জা ফখরুল ইসলাম আলমগীরকে মনোনয়ন বিএনপির",
+          "excerpt": "১৩ অগাস্ট ২০২৬আজ বৃহস্পতিবার যা যা হলো:\n      বাংলাদেশের ২৩তম রাষ্ট্রপতি পদে নির্বাচনের জন্য মির্জা ফখরুল ইসলাম আলমগীরকে মনোনয়ন দিয়েছে বিএনপি। মনোনয়ন পাওয়ার পর তিনি দলীয় পদ থেকে পদত্যাগ করেছেন বলে রাষ্ট্রীয় বার্তা সংস্থা বাসস জানিয়েছে।\n    \n      রাষ্ট্রপতি নির্বাচনে অলি আহমদের মনোনয়নপত্র নির্বাচন কমিশনে জমা দিয়েছে জামায়াতে ইসলামী নেতৃত্বাধীন ১১ দলীয় জোট।\n    \n      রাষ্ট্রবিরোধী ‘গোপন তৎপরতায়’…",
+          "source": "BBC Bangla",
+          "link": "https://www.bbc.co.uk/bengali/live/ckqx7pp791qqt?at_medium=RSS&at_campaign=rss",
+          "author": "BBC News বাংলা",
+          "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/f5a6/live/8526b230-96ec-11f1-9b96-77d3dc534330.jpg",
+          "time": ""
+        }
+      ],
+      "International": [
+        {
+          "headline": "Lula holds slim lead over Flavio Bolsonaro ahead of Brazil election",
+          "excerpt": "A new poll shows Lula leading Bolsonaro, but the gap has closed ahead of Brazil’s high-stakes presidential election.Brazilian President Luiz Inacio Lula da Silva has retained his lead over right-wing Senator Flavio Bolsonaro ahead of October’s election, according to a new poll.A Quaest survey published on Friday found Lula would take 43 percent of the vote in a simulated run-off, against 40…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/15/lula-holds-slim-lead-over-flavio-bolsonaro-ahead-of-brazil-election?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/epa_6a7fa091bc08-1786749073.jpg?resize=1920%2C1440",
+          "time": "সকাল ৬:৩২"
+        },
+        {
+          "headline": "UN urges support for Afghan women’s aid five years into Taliban rule",
+          "excerpt": "More than half of women’s organisations still operating in Afghanistan could cease operations within the next year, UN Women warns.Five years since the Taliban came to power, the United Nations has warned that funding issues mean more than half of women’s organisations still operating in Afghanistan could cease operations within the next year.Susan Ferguson, UN Women’s special representative in…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/15/un-urges-support-for-afghan-womens-aid-five-years-into-taliban-rule?traffic_source=rss",
+          "author": "Chris Hamill-Stewart",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/afp_6a7f9c08405d-1786747912.jpg?resize=1920%2C1440",
+          "time": "সকাল ৬:২৩"
+        },
+        {
+          "headline": "Families angered by slow search for loved ones after Colombia quake",
+          "excerpt": "NewsFeedFamilies are demanding answers over loved ones buried under rubble in Cali, Colombia after Monday’s 7.4 magnitude earthquake. Al Jazeera’s Lucia Newman reports there’s now a stench of bodies, with over 400 people still missing.Published On 15 Aug 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/8/15/08-15-2026-colombia-quake-reported-mp4?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/image-1786752726.jpg?resize=1200%2C675",
+          "time": "সকাল ৬:১৪"
+        },
+        {
+          "headline": "Iran war live: Trump vows to make Hormuz US territory ‘pretty soon’",
+          "excerpt": "Skip linksSkip to Content Live Navigation menuNewsAfricaAsiaUS & CanadaLatin AmericaEuropeAsia PacificMiddle EastExplainedSportOpinionVideoFeaturesEconomyHuman RightsClimate CrisisInvestigationsInteractivesIn PicturesScience & TechnologyPodcastsTravelSponsored Content Live Navigation menuDonald TrumpTrump, Netanyahu and the Iran questionHow Iran war fallout may shape US electionsA visual guide…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/liveblog/2026/8/15/iran-war-live-trump-vows-to-make-hormuz-us-territory-pretty-soon?traffic_source=rss",
+          "author": "Alex Milan Durie, Zsombor Peter",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/AFP__20260814__C4PN4AF__v1__HighRes__UsPoliticsTrump-1786747603.jpg?resize=1920%2C1440",
+          "time": "সকাল ৬:০০"
+        },
+        {
+          "headline": "Lebanon’s PM urges timetable for Israeli withdrawal as Hezbollah slams deal",
+          "excerpt": "Hezbollah criticises Beirut’s approach, accusing officials of exposing the Lebanese army to risks and Israeli pressure.Lebanese Prime Minister Nawaf Salam is pushing for a clear timetable for Israel’s withdrawal from Lebanese territory, as Hezbollah’s leader accuses Lebanon’s government of exposing the country’s own army to disgrace by pursuing the deal at all.According to a statement released…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/14/lebanons-pm-urges-timetable-for-israeli-withdrawal-as-hezbollah-slams-deal?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/afp_6a7f8f6d3e51-1786744685.jpg?resize=1920%2C1440",
+          "time": "ভোর ৫:০২"
+        },
+        {
+          "headline": "Houthi attack on port kills four eroding truce with Yemen’s government",
+          "excerpt": "NewsFeedSix Houthi ballistic missiles struck Yemen’s government-held al-Makha port, killing at least four and setting fire to the facility. Recent Houthi attacks have reignited fears of all-out war in Yemen, years after a 2022 truce halted fighting with government forces.Published On 14 Aug 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/8/14/houthi-attack-on-port-kills-four-eroding-truce-with-yemens-government?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/Screenshot-2026-08-14-at-23.55.01-1786748191.png?resize=1200%2C630",
+          "time": "ভোর ৪:৫৮"
+        },
+        {
+          "headline": "Ontario free to axe Toronto bike lanes, region’s top court rules",
+          "excerpt": "The Ontario government is now free to rip out Toronto’s bike lanes on its busiest streets after the region’s top court ruled in favour of the province on Friday, overturning a lower court’s decision that decreed removal would violate constitutional rights.The win is significant for Ontario’s premier, Doug Ford, and his government, who have long railed against Toronto’s bike lanes, blaming the…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/world/2026/aug/14/ontario-free-to-axe-toronto-bike-lanes-regions-top-court-rules",
+          "author": "Olivia Bowden",
+          "image": "https://i.guim.co.uk/img/media/ec29699c3bb39571832cedf67de78d67314ebb95/296_0_2957_2366/master/2957.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=da16c9ccc2cb308f4b241e8606d405d6",
+          "time": "রাত ৩:০৩"
+        },
+        {
+          "headline": "Yemen’s government says Houthi attack on al-Makha kills at least four",
+          "excerpt": "Hostilities are rising between Iran-backed Houthis and Yemen’s internationally recognised government.The Houthis have launched an attack on the Red Sea port city of al-Makha (Mocha), killing at least four people, Yemen’s internationally recognised government says.The government said the Houthis ⁠fired six ballistic ⁠missiles at al-Makha on Friday, amid an escalation in hostilities between the…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/14/yemens-government-says-houthi-attack-on-al-makha-kills-at-least-four?traffic_source=rss",
+          "author": "By AFP and Reuters",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/reuters_6a7f909f-1786744991.jpg?resize=1920%2C1440",
+          "time": "ভোর ৪:৪৫"
+        },
+        {
+          "headline": "Trump says he will declare Strait of Hormuz a US ‘territory’ amid Iran war",
+          "excerpt": "United States President Donald Trump has announced plans to declare the Strait of Hormuz a “territory” of his country as tensions boil with Iran.Speaking in New York on Friday, Trump told supporters that the US would soon claim the vital waterway, which is critical for the global supply of oil, natural gas and fertiliser.Recommended Stories list of 3 itemslist 1 of 3Iran says Strait of Hormuz…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/14/trump-says-he-will-declare-strait-of-hormuz-a-us-territory?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/afp_6a7f7db610a9-1786740150.jpg?resize=1920%2C1440",
+          "time": "রাত ৩:৫০"
+        },
+        {
+          "headline": "Wildfires rage across Europe as heatwaves drive record temperatures",
+          "excerpt": "NewsFeedWildfires fuelled by record heat and drought are ravaging Europe, burning around 500,000 hectares and forcing thousands to flee. In Croatia, one person was killed and 40 were hospitalised as flames tore through the tourist town of Omis, prompting 2,000 evacuations.Published On 14 Aug 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/8/14/wildfires-rage-across-europe-as-heatwaves-drive-record-temperatures?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/image-1786744215.jpg?resize=1620%2C1080&quality=80",
+          "time": "রাত ৩:৫০"
+        },
+        {
+          "headline": "Israeli soldiers accused of supporting ‘terrorist’ settlers in Qusra",
+          "excerpt": "NewsFeedIsraeli activist Alon Lee Green told Al Jazeera that Israeli soldiers deployed to protect Palestinians in Qusra in the occupied West Bank are supporting ‘terrorist’ settlers. His comments came as Israeli soldiers were seen drinking tea with settlers besieging Palestinian homes.Published On 14 Aug 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/8/14/israeli-soldiers-accused-of-supporting-terrorist-settlers-in-qusra?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/image-1786743909.jpg?resize=1920%2C1080&quality=80",
+          "time": "রাত ৩:৪৫"
+        },
+        {
+          "headline": "Trump dismisses mental health concerns on USS Lincoln aircraft carrier",
+          "excerpt": "Members of the US Congress have called for a probe into conditions amid reports of sailors attempting to jump ship.United States President Donald Trump has dismissed concerns about conditions on board the USS Abraham Lincoln during its lengthy deployment as part of the US-Israel war with Iran.Speaking to reporters on Friday, Trump rejected the assertion that the families of those on board the…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/14/trump-dismisses-mental-health-concerns-on-uss-lincoln-aircraft-carrier?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/afp_6a7f6fa6eb17-1786736550.jpg?resize=1920%2C1440",
+          "time": "রাত ৩:১৭"
+        },
+        {
+          "headline": "Strong 7.7-magnitude earthquake strikes eastern Indonesia, triggering tsunami warning",
+          "excerpt": "A powerful 7.7-magnitude quake struck eastern Indonesia early on Saturday, the US Geological Survey said, triggering a tsunami warning and prompting hundreds to evacuate.The shallow quake hit Indonesia’s Flores region with a depth of 10km at 5:58am local time and was followed by two aftershocks, including one with a magnitude of 6.1.The epicentre was 68km (42 miles) north-northwest of Ende in…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/world/2026/aug/15/indonesia-earthquake",
+          "author": "Guardian staff reporter",
+          "image": "https://i.guim.co.uk/img/media/80101e7c2032931fe50acd0e603b5a3ec3c75bc1/386_0_2500_2001/master/2500.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=db99e3f462da54ab0c1b16c13384e00c",
+          "time": "ভোর ৫:৪৩"
+        },
+        {
+          "headline": "Mount Etna eruption and volcanic ash shut Sicily’s busiest airport",
+          "excerpt": "Flights will be suspended until at least 2pm local time (1200 GMT), as hundreds of travellers remain stranded.Continuing volcanic activity from Mount Etna has forced the closure of Sicily’s busiest airport.Authorities at Vincenzo Bellini Airport said on Friday that flights will remain suspended until at least 2pm local time (12:00 GMT) on Saturday, with ash from the volcano causing the greatest…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/14/mount-etna-eruption-and-volcanic-ash-shut-sicilys-busiest-airport?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/reuters_6a7f7706-1786738438.jpg?resize=1920%2C1440",
+          "time": "রাত ৩:০৩"
+        },
+        {
+          "headline": "Former Cambridge professor accused of plagiarism found dead",
+          "excerpt": "Police are treating sociology professor Jason Arday’s death as unexpected but not suspicious.A British academic and former University of Cambridge professor has been found dead just over a week after resigning his prestigious post amid a high-profile plagiarism scandal.Jason Arday, 41, was found unresponsive at a south London address on Friday, according to British media reports citing…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/14/former-cambridge-professor-accused-of-plagiarism-found-dead?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/Jason-Arday-1786262041.jpg?resize=1920%2C1440",
+          "time": "রাত ২:৪৬"
+        },
+        {
+          "headline": "Son of Mexico’s former president AMLO alleges US revoked his visa",
+          "excerpt": "The US has not confirmed the revocation, which comes amid crackdown on Mexican politicians with alleged ties to cartels.The son of former Mexican President Andres Manuel Lopez Obrador has accused the United States of revoking his visa in a politically motivated manoeuvre.Andres Manuel Lopez Beltran made the allegation late on Thursday in a public letter addressed to US President Donald Trump and…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/14/son-of-mexicos-former-president-amlo-alleges-us-revoked-his-visa?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/ap_6a7f53bb906f7-1786729403.jpg?resize=1920%2C1440",
+          "time": "রাত ১:৪৪"
+        },
+        {
+          "headline": "New aerial video reveals huge scale of oil spill off Oman",
+          "excerpt": "NewsFeedA potential environmental disaster is unfolding off Oman, where a grounded tanker is leaking sanctioned Russian crude oil in a protected marine area. The tanker carrying about 1 million barrels of oil has created an oil slick estimated at 2,000 square kilometres.Published On 14 Aug 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/8/14/new-aerial-video-reveals-huge-scale-of-oil-spill-off-oman?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/image-1786736138.jpg?resize=1920%2C1080&quality=80",
+          "time": "রাত ১:৩৬"
+        },
+        {
+          "headline": "Trump asks US Supreme Court to allow $400m ballroom project to proceed",
+          "excerpt": "Appeals court previously ruled that Trump administration must seek authorisation from Congress to continue with project.The administration of United States President Donald Trump has asked the Supreme Court to allow construction of his $400m ballroom to move forward.On Friday, the Department of Justice (DOJ) asked the country’s highest court for a stay on a lower court’s injunction that paused…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/14/trump-asks-us-supreme-court-to-allow-400m-ballroom-project-to-proceed?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/04/AP26090708774284-1775002569.jpg?resize=1920%2C1440",
+          "time": "রাত ১:০২"
+        },
+        {
+          "headline": "Woman charged over vandalism of World War II Memorial in Washington, DC",
+          "excerpt": "The arrest comes weeks after Trump criticised Jeanine Pirro for dropping charges over damage to the Reflecting Pool.A woman has been arrested and charged with two felonies over the vandalism of the World War II Memorial in Washington, DC, weeks after President Donald Trump publicly rebuked his own US attorney over a separate vandalism case at the nearby Reflecting Pool.US Attorney for the…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/14/woman-charged-over-vandalism-of-world-war-ii-memorial-in-washington-dc?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/afp_6a7f510a81c9-1786728714.jpg?resize=1920%2C1440",
+          "time": "রাত ১২:৫৫"
+        },
+        {
+          "headline": "Art offers young Gaza survivors solace and escape from war’s devastation",
+          "excerpt": "Deir el-Balah, Gaza Strip – Maryam sits in front of a blank sheet of paper, holding her pencil as she begins drawing the first lines. Her eyes focus on the details of the drawing while her hand moves calmly.Amid a reality in which Israel’s genocidal war has imposed itself on the details of everyday life in Gaza, 16-year-old Maryam tries to create a different environment for herself, even if only…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/features/2026/8/14/art-offers-young-gaza-survivors-solace-and-escape-from-wars-devastation?traffic_source=rss",
+          "author": "Eman Abu Zayed",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/B308DFA0-54E3-403A-A19B-E08B3A4AF6C1-1-1786731061.jpg?resize=1200%2C675",
+          "time": "রাত ১২:৪৩"
+        },
+        {
+          "headline": "Italian police recover stolen paintings worth over $10m",
+          "excerpt": "Nine Moldovans are being investigated in connection with the theft.Italian police have recovered three paintings worth more than $10 million that were stolen several months ago.The chief of police in Parma, Andrea Pagliaro, told the AFP news agency on Friday that nine Moldovans were being investigated in connection with the theft, and that five of them were believed to have carried out the…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/14/italian-police-recover-stolen-paintings-worth-over-10m?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/afp_6a7f54b195ca-1786729649.jpg?resize=1600%2C1080",
+          "time": "রাত ১২:৩৭"
+        },
+        {
+          "headline": "BBC seeks to subpoena Trump children and son-in-law over defamation lawsuit",
+          "excerpt": "The BBC is trying to subpoena Donald Trump’s children as it builds its defense against the president’s defamation lawsuit centered on a documentary on the January 6 insurrection.In a motion filed on Friday, the BBC sought authorization to serve Trump’s two eldest children, Donald Trump Jr and Ivanka Trump, and son-in-law Jared Kushner, with subpoenas for testimony and their records on the events…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/media/2026/aug/14/bbc-trump-children-subpoenas-lawsuit",
+          "author": "Gaya Gupta",
+          "image": "https://i.guim.co.uk/img/media/c519726d2d851d677c5334018aad733b64b7db60/1132_104_3152_2521/master/3152.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=8ebfede37400afec8741d9973823135d",
+          "time": "রাত ৩:০৫"
+        },
+        {
+          "headline": "Trump threatens to declare strait of Hormuz ‘territory of the United States’",
+          "excerpt": "Donald Trump has threatened to declare the strait of Hormuz as “a territory of the United States” as his administration struggles to conclude the war with Iran.During a speech at a police academy on Long Island, New York, on Friday, the US president said he would “pretty soon” designate the waterway – a crucial chokepoint for global trade, through which about a fifth of the world’s seaborne oil…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/us-news/2026/aug/14/trump-threat-strait-hormuz-us-territory",
+          "author": "Maya Yang",
+          "image": "https://i.guim.co.uk/img/media/b5c83da9efbbf04d1758c3b4f20d9ba23182b70d/206_0_4535_3628/master/4535.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=8e377a24efd8de65b851fa05989ea020",
+          "time": "রাত ৩:৩৮"
+        },
+        {
+          "headline": "Jason Arday, professor at centre of Cambridge plagiarism row, found dead",
+          "excerpt": "Jason Arday, the academic who resigned last week as a professor at the University of Cambridge, has been found dead at his home in south London.The Metropolitan police said officers were called to Arday’s address by the London ambulance service after 3pm on Friday.A spokesperson for the Met said: “A 41-year-old man was pronounced dead at the scene. His next of kin have been informed and are…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/uk-news/2026/aug/14/jason-arday-found-dead-after-resigning-from-cambridge-over-plagiarism-claims",
+          "author": "Richard Adams, Vikram Dodd",
+          "image": "https://i.guim.co.uk/img/media/f2b11433fe6a4e276c2594f779870a25470a56f3/885_291_6035_4827/master/6035.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=aa66c10f8253dfc953f2ac3551df4956",
+          "time": "ভোর ৪:১০"
+        },
+        {
+          "headline": "Burnham announces £65m for drought-hit farmers after Labour pressure",
+          "excerpt": "Farmers must not carry the risks of the climate crisis alone, Andy Burnham has said, as he announced £65m of funding to help them manage the devastating drought.The prime minister is stepping up his response to the immediate climate crisis after facing a backlash from his own MPs and Labour’s grassroots for not addressing the climate crisis despite wildfires tearing through Britain and a drought…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/environment/2026/aug/14/andy-burnham-climate-response-drought-hit-farmers-labour-pressure",
+          "author": "Aletha Adu",
+          "image": "https://i.guim.co.uk/img/media/df7be427e6cfbc469ded79f62c0d9115bd1cb541/162_0_6830_5464/master/6830.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=b92d37b994ba828ebe986ccf4eedfcb0",
+          "time": "রাত ৩:৩০"
+        },
+        {
+          "headline": "Emergency alert warning of wildfire risk sent to phones in England and Wales",
+          "excerpt": "Millions of people across England and Wales received an emergency alert to their phones on Friday as the government warned against activities that could start fires.The deputy prime minister, Louise Haigh, said it was the most extensive use to date of the emergency alert system, with phones beaming a siren noise about 7pm, with the warning: “There is a serious risk of wildfires…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/world/2026/aug/14/emergency-alert-warning-wildfire-risk-sent-phones-england-wales",
+          "author": "Aletha Adu",
+          "image": "https://i.guim.co.uk/img/media/1e1e8e07ed8e61f60e2907f7b8f5e01449b2c84f/546_0_5346_4276/master/5346.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=616966317fdf6c20dc83d682477280bb",
+          "time": "রাত ১:১৯"
+        },
+        {
+          "headline": "Burnham criticised for EV and North Sea approach amid climate crisis",
+          "excerpt": "Andy Burnham has been criticised for moving to cut electric vehicle (EV) sales targets and accept North Sea drilling at a time of devastating wildfires caused by the climate emergency.The prime minister for the first time acknowledged on Friday that the climate crisis was behind hundreds of wildfires that have ripped across the parts of the UK.The scale of the disaster has prompted the…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/environment/2026/aug/14/andy-burnham-new-ev-sales-targets",
+          "author": "Jasper Jolly, Rowena Mason, Matthew Taylor",
+          "image": "https://i.guim.co.uk/img/media/02b86401dda47441867ef599b6a0a5f84e392894/1176_0_6160_4930/master/6160.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ff72682495155e094eeae37560e5975d",
+          "time": "রাত ১২:৫১"
+        },
+        {
+          "headline": "Madonna will not be playing Glastonbury in 2027, Emily Eavis says",
+          "excerpt": "Madonna will not be performing at next year’s Glastonbury, the festival’s organiser, Emily Eavis, has said.The singer, who has the most top 10 singles in UK chart history of any female artist, has never featured at Britain’s biggest music festival.Eavis said Glastonbury had booked all its headliners for June 2027. Asked about the lineup and speculation that the Queen of Pop would make her debut…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/music/2026/aug/14/madonna-will-not-be-playing-glastonbury-2027-emily-eavis-says",
+          "author": "Nadeem Badshah",
+          "image": "https://i.guim.co.uk/img/media/e825c3c0f9b006b9d1bde2db18a1b29a10d39c9c/303_0_3146_2517/master/3146.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=f45b85b4f45f42f98ba0a85b6e4ef802",
+          "time": "রাত ১২:৩৮"
+        },
+        {
+          "headline": "Trump downplays concerns about sailors onboard USS Abraham Lincoln amid record deployment",
+          "excerpt": "Donald Trump has downplayed concerns about US sailors enduring a record-setting deployment of nearly nine months onboard the USS Abraham Lincoln on Friday, saying the deployment was “not nearly long enough” as concerns mount over mental health and supply issues onboard the aircraft carrier.The US president made the comments during a brief exchange with reporters before flying to New York for an…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/us-news/2026/aug/14/trump-uss-abraham-lincoln-deployment",
+          "author": "Marina Dunbar, Joseph Gedeon",
+          "image": "https://i.guim.co.uk/img/media/bb189f5df21af2d08918529132fc52e6524508eb/335_0_1873_1500/master/1873.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=df75bab42fd0143af1e9b2c4d747862d",
+          "time": "ভোর ৪:১২"
+        },
+        {
+          "headline": "‘Devastating’: bulldozers plough through Big Bend national park as Trump’s border work pushes ahead",
+          "excerpt": "Bulldozers have begun plowing up ground at the mouth of Big Bend national park’s famed Santa Elena Canyon as part of the Trump administration’s multibillion-dollar “smart wall” expansion on the US-Mexico border, according to new footage taken by activists who have been monitoring the site.Tensions have run high since the Trump administration announced plans to erect new border security…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/us-news/2026/aug/14/bulldozers-big-bend-national-park-trump",
+          "author": "Roque Planas",
+          "image": "https://i.guim.co.uk/img/media/8dc2340929bd6c90c7cfb1d3acb624bde3941b93/682_0_4071_3259/master/4071.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=fc446fef5d29353dc5afad8e9715e1ba",
+          "time": "রাত ১:২৭"
+        },
+        {
+          "headline": "US Forest Service chief reportedly pressed staff for more support for wildfire near his ranch",
+          "excerpt": "Michael Boren, the US undersecretary of agriculture for natural resources and environment who oversees the US Forest Service, reportedly pressed agency staff last month to deploy more aircraft to a 7-acre (2.8-hectare) fire that was burning near his Idaho ranch, according to a Washington Post report on Friday.The Cabin Creek fire in Idaho began on about 12 July as a result of an unattended…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/us-news/2026/aug/14/michael-boren-idaho-wildfire-ranch",
+          "author": "Anna Betts",
+          "image": "https://i.guim.co.uk/img/media/53e9d220265b6a2b92065a106d9958c729a2a488/580_0_2974_2381/master/2974.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=1a4d82ad2711f587d1d8525648717cd7",
+          "time": "রাত ১:০১"
+        }
+      ],
+      "Sports": [
+        {
+          "headline": "মেসির পথ ধরে এমএলএসে এখন তারকার ঢল",
+          "excerpt": "খেলা ডেস্ক মেসির পর এমএলএসে নাম লিখিয়েছেন আরও তারকা খেলোয়াড়এএফপিলিওনেল মেসি যাওয়ার পর যুক্তরাষ্ট্রের মেজর লিগ সকারের (এমএলএস) আকর্ষণ যে অনেকটাই বেড়েছে, তা নতুন করে বলার কিছু নেই। তবে এবারের দলবদলে এক–দুজন নয়, ইউরোপ মাতানো তারকাদের যেন ঢল নেমেছে যুক্তরাষ্ট্রের লিগে। মৌসুমের দ্বিতীয় দলবদলের জানালা বন্ধ হতে এখনো তিন সপ্তাহ বাকি, এরই মধ্যে এমএলএসে পা রেখেছেন আঁতোয়ান গ্রিজমান, রবার্ট লেভানডফস্কি,…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/sports/football/5d6g1me4b2",
+          "author": "খেলা ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-14%2Fh8bx4t4d%2F270747-01-02.jpg?rect=0%2C210%2C7822%2C4107&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৭:০০"
+        },
+        {
+          "headline": "আজ টিভিতে যা দেখবেন (১৫ আগস্ট ২০২৬)",
+          "excerpt": "খেলাআজ টিভিতে যা দেখবেন (১৫ আগস্ট ২০২৬)খেলা ডেস্ক বাংলাদেশ-অস্ট্রেলিয়া প্রথম টেস্টের তৃতীয় দিন আজ। গলে শুরু হচ্ছে শ্রীলঙ্কা-ভারত টেস্ট। লা লিগাও মাঠে গড়াবে আজ।ডারউইন টেস্ট-৩য় দিনবাংলাদেশ-অস্ট্রেলিয়াসকাল ৬-৩০ মি., ট্যাপম্যাড ও স্টার স্পোর্টস ১গল টেস্ট-১ম দিনশ্রীলঙ্কা-ভারতসকাল ১০-৩০ মি., সনি স্পোর্টস ১লা লিগাআলাভেস-হেতাফেরাত ১১-৩০ মি., বিগিন অ্যাপসেভিয়া-ভায়েকানোরাত ১-৩০ মি., বিগিন অ্যাপ প্রথম আলোর…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/sports/pvx56c3b4w",
+          "author": "খেলা ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-14%2Fktx1voj1%2FWhatsApp-Image-2025-09-07-at-18.49.56e919fcaf.jpg?rect=0%2C0%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৬:০০"
+        },
+        {
+          "headline": "Hodgkinson beaten to European gold by rival Werro",
+          "excerpt": "Keely Hodgkinson was forced to settle for European silver as Switzerland's Audrey Werro denied the Briton a third consecutive title in a thrilling women's 800m final in Birmingham.The most eagerly anticipated event of the championships culminated in the expected three-way battle for supremacy between Hodgkinson, Swiss 22-year-old Werro and Dutch star Femke Broeders-Bol in front of a captivated…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/athletics/articles/cyvl05g8g4lo?at_medium=RSS&at_campaign=rss",
+          "author": "Harry Poole",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/e6aa/live/1fab30f0-9829-11f1-a6d0-9907af272cf7.jpg",
+          "time": "ভোর ৪:১৪"
+        },
+        {
+          "headline": "Euro 2020 winner Ciro Immobile retires at 36",
+          "excerpt": "23 MIN(s)\n\t\t\t\t\t\n\t\t\t\t\t\tUPDATED\n\t\t\t\t\t\t23 MIN(s)\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\n\n\n\t\t\t\n  \n                  \n              \n                  \n\n  \n\n\n\t\t\t\n\t\t\t\t\t\t\tLazio's Ciro Immobile celebrates scoring a goal. Photo: Reuters File \n\t\t\t\t\t\t\n\t\t\nCiro Immobile, a member of Italy's Euro 2020-winning team, announced his retirement at the age of 36 in a video published Friday.In the video, Immobile addressed…",
+          "source": "The Daily Star Sports",
+          "link": "https://www.thedailystar.net/sports/football/news/euro-2020-winner-ciro-immobile-retires-36-4247911",
+          "author": "AFP, Paris",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-08/Ciro%20Immobile.jpg",
+          "time": "সকাল ৬:৩৬"
+        },
+        {
+          "headline": "Walter puts dominant Super Giants in Hundred final",
+          "excerpt": "The Hundred Eliminator, men's competition, The Kia OvalManchester Super Giants 186-4 (100 balls): Walter 80 (46). Klaasen 63 (26)Sunrisers Leeds 166-7 (100 balls): Rickelton 54* (34), Brook 49 (31); Tongue 4-26Super Giants won by 20 runsScorecardPaul Walter was the unlikely star as Manchester Super Giants beat Sunrisers Leeds by 20 runs in the Eliminator to cruise into the men's Hundred final.…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/cricket/articles/c0qvy5p5gdlo?at_medium=RSS&at_campaign=rss",
+          "author": "Ffion Wynne",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/c99d/live/5df109a0-981c-11f1-93f7-c5ed6dd2b213.jpg",
+          "time": "রাত ২:৩২"
+        },
+        {
+          "headline": "Scheffler equals course record to lead first play-off event",
+          "excerpt": "St Jude Championship - round two leaderboard-11 S Scheffler (US); -8 Im (Kor), V Hovland (Nor); -7 L Aberg (Swe); -6 Nico Echavarria (Col), T Fleetwood (Eng), J Spieth (US), B Harman (US)Selected others: -3 M Fitzpatrick (Eng), J Thomas (US); -2 A Rai (Eng); E H Hall (Eng); +1 S Lowry (Ire); +3 J Rose (Eng); +4 R McIlroy (NI), J Smith (Eng); +5 A Fitzpatrick (Eng)Full leaderboardScottie…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/golf/articles/clyxer2kyl7o?at_medium=RSS&at_campaign=rss",
+          "author": "Steve Sutcliffe",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/a120/live/d0f60e20-982e-11f1-9d0a-ab3ccd397590.jpg",
+          "time": "ভোর ৪:৪৯"
+        },
+        {
+          "headline": "Arsenal lead Hinshelwood race - Saturday's gossip",
+          "excerpt": "Arsenal lead race for Jack Hinshelwood, Barcelona set to make third Rodri bid, and Manchester United and Tottenham join Arsenal in discussing Victor Osimhen.Arsenal are leading the race to sign English midfielder Jack Hinshelwood, 21, from Brighton. (Sun), externalBarcelona are set to make a third bid of about £60m for Spain midfielder Rodri, 30, but are still set to fall £10m short of…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/c80n2g2x0g7o?at_medium=RSS&at_campaign=rss",
+          "author": "BBC Sport",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/a1ae/live/71e00c00-9820-11f1-b2ab-0dd01740f9f6.png",
+          "time": "রাত ৩:১৪"
+        },
+        {
+          "headline": "Arteta not worried about Arsenal contract talks",
+          "excerpt": "Mikel Arteta has said that supporters \"don't have to worry about\" his future at Arsenal as he wants to extend his contract and the time left on his deal is \"not an issue\".The Gunners boss is into the final 12 months of his agreement that he signed in 2024 but says he is relaxed about formal talks taking place regarding a renewal. Arteta has been in charge of Arsenal since 2019 and led the club…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cp3r6qgve4no?at_medium=RSS&at_campaign=rss",
+          "author": "Alex Howell",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/528a/live/77286200-97eb-11f1-a655-8fe1097dfbd0.jpg",
+          "time": "রাত ৩:৩০"
+        },
+        {
+          "headline": "Castleford shrug off coach problems to beat Hull",
+          "excerpt": "Betfred Super LeagueHull FC (6) 14Tries: Batchelor, Barron, Martin Goals: SezerCastleford (12) 18Tries: Atoni, Ravalawa, Hood Goals: Weaver 3Castleford Tigers put their coaching problems aside as they beat Hull FC at the MKM Stadium to record only their third Super League away win of the season.Boss Ryan Carr remains absent for personal reasons and former Huddersfield Giants number one Luke…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/rugby-league/articles/c8en87pwn66o?at_medium=RSS&at_campaign=rss",
+          "author": "David Anderson",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/d106/live/f5e10c40-9823-11f1-8b3b-fb704e582a84.jpg",
+          "time": "রাত ২:৫৯"
+        },
+        {
+          "headline": "Departing Romero says he wasn't perfect at Spurs",
+          "excerpt": "Cristian Romero has said he \"wasn't perfect\" during his five years with Tottenham Hotspur.The Argentina centre-back is set to complete a move to Atletico Madrid after they agreed to pay Spurs £34.2m for the 28-year-old.Romero's last game for Tottenham was against Sunderland in April, when he left the field in tears with a knee injury that would rule him out of Spurs' last six Premier League…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/c20dyz4vrero?at_medium=RSS&at_campaign=rss",
+          "author": "BBC Sport",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/e445/live/b935ba70-9814-11f1-a7ea-19f04b81e9a0.jpg",
+          "time": "রাত ১:৪৭"
+        },
+        {
+          "headline": "Werro beats Hodgkinson to win 800m gold",
+          "excerpt": "Great Britain's Keely Hodgkinson is unable to defend her 800m European title taking silver behind  Switzerland's Audrey Werro who has too much in the tank down the back straight.READ MORE: Hodgkinson beaten to European gold by rival WerroAvailable to UK users only.",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/athletics/videos/cyvl09z1136o?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/ea0c/live/1a7982f0-982c-11f1-a7ab-8b30adf0800a.jpg",
+          "time": "রাত ৩:০৩"
+        },
+        {
+          "headline": "Walter's huge hitting helps MSG beat Sunrisers to reach Hundred final",
+          "excerpt": "Paul Walter hits 80 off 46 balls to help Manchester Super Giants beat Sunrisers Leeds in the Eliminator at The Oval, to book their place in the final of the men's Hundred - where they will face the Trent Rockets. MATCH REPORT: Walter puts dominant Super Giants in Hundred finalAvailable to UK users only.",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/cricket/videos/cjd4g98142eo?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/d521/live/e5241750-981c-11f1-870d-5d08c49babb2.jpg",
+          "time": "রাত ২:৪৭"
+        },
+        {
+          "headline": "Hughes takes silver as Ansah wins 200m gold",
+          "excerpt": "Germany's Owen Ansah wins 200m gold in a time of 19.95 seconds, ahead of Great Britain's Zharnel Hughes who takes silver.READ MORE: Athletics on BBC SportAvailable to UK users only.",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/athletics/videos/cyvl090pelzo?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/9bef/live/ab3a82f0-9820-11f1-870d-5d08c49babb2.jpg",
+          "time": "রাত ২:৫১"
+        },
+        {
+          "headline": "Hodgkinson motivated for next race with Werro after 800m silver",
+          "excerpt": "Great Britain's Keely Hodgkinson says she has mixed emotions after settling for silver in the 800m final and says she is looks forward to her next race with Audrey Werro.READ MORE: Hodgkinson beaten to European gold by rival WerroAvailable to UK users only.",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/athletics/videos/cg7m4e7lxppo?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/201f/live/60478320-9824-11f1-b2ab-0dd01740f9f6.jpg",
+          "time": "রাত ৩:১৫"
+        },
+        {
+          "headline": "Warholm becomes a four-time European 400m hurdles champion",
+          "excerpt": "Norway's Karsten Warholm comfortably wins the men's 400m hurdles, setting a championship record in the process, to take his fourth successive gold in the European Athletics Championships.READ MORE: Athletics on BBC SportAvailable to UK users only.",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/athletics/videos/cdx7dgq76n7o?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/e6ca/live/e899ef10-981a-11f1-b2ab-0dd01740f9f6.jpg",
+          "time": "রাত ২:০৪"
+        },
+        {
+          "headline": "Johnson-Thompson struggles in 200m, but happy to be back competing",
+          "excerpt": "Great Britain's Katarina Johnson-Thompson admits she hasn't been able to put the work in following injury, but is happy to be back competing after struggling in the 200m part of the heptathlon.READ MORE: Athletics on BBC SportAvailable to UK users only.",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/athletics/videos/cp9eljvy8n8o?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/03eb/live/fe1d6990-981d-11f1-870d-5d08c49babb2.jpg",
+          "time": "রাত ২:৩৩"
+        },
+        {
+          "headline": "Fry and Glamourdale win world individual dressage gold",
+          "excerpt": "Charlotte Fry retains her world Individual Grand Prix Special dressage title with victory aboard Glamourdale in Aachen, Germany.Available to UK users only.",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/equestrian/videos/c151yx795k1o?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/8ec7/live/ad702470-981c-11f1-a7ab-8b30adf0800a.jpg",
+          "time": "রাত ২:১৭"
+        },
+        {
+          "headline": "'Peaked at the right time' - Warholm on getting even better with age",
+          "excerpt": "Norway's Karston Warholm feels he is improving with experience after taking his fourth successive gold in the men's 400m hurdles at the European Athletics Championships.READ MORE: Athletics on BBC SportAvailable to UK users only.",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/athletics/videos/c0l5yj76x67o?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/b1af/live/135977a0-981d-11f1-870d-5d08c49babb2.jpg",
+          "time": "রাত ২:২৩"
+        }
+      ],
+      "Entertainment": [
+        {
+          "headline": "৩ দিনে ২ কোটি ৭৫ লাখ ভিউ! চমকে দিল যে হরর সিনেমা",
+          "excerpt": "বিনোদন ডেস্ক ‘দ্য লাস্ট হাউস’–এর দৃশ্য। আইএমডিবিনেটফ্লিক্সে মুক্তির পরই দারুণ সাড়া ফেলেছে ‘দ্য লাস্ট হাউস’। স্ট্রিমিংয়ের প্রথম তিন দিনে গ্রেটা লি ও ওয়াগনার মৌরা অভিনীত থ্রিলার সিনেমাটি ২ কোটি ৭৫ লাখ ভিউ পেয়েছে। ৩ থেকে ৯ আগস্ট—এই এক সপ্তাহের হিসাবে নেটফ্লিক্সের দর্শকসংখ্যার তালিকায় এটি সরাসরি শীর্ষে উঠে এসেছে। শুধু ইংরেজি ভাষার সিনেমার মধ্যে নয়, ওই সপ্তাহে নেটফ্লিক্সের সবচেয়ে বেশি দেখা কনটেন্ট…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/entertainment/ott/7uy7mqb9yv",
+          "author": "বিনোদন ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-10%2F077m6zha%2FMV5BZWZlMzBmNzgtY2I0NS00ZWVmLTk2NDEtZGU0YzE3ZWFiYWRhXkEyXkFqcGc___V1_.jpg?rect=0%2C0%2C7200%2C3780&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৭:০০"
+        }
+      ],
+      "Tech": [
+        {
+          "headline": "Talks to sell PayPal to Stripe and Advent are heating up",
+          "excerpt": "In Brief\nPosted:\n\n\n3:43 PM PDT · August 14, 2026\n\n\n\nImage Credits:CFOTO/Future Publishing / Getty Images\n\n\n\n\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\n\n\n\n\n\nPayPal CEO Enrique Lores’ turnaround plan for the fintech company could include a sale — of itself. \n\nThe prospect first popped in July when Stripe and private equity giant Advent offered to buy PayPal for $60.50 a share in a deal that would…",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/08/14/talks-to-sell-paypal-to-stripe-and-advent-are-heating-up/",
+          "author": "Lucas Ropek",
+          "image": "https://techcrunch.com/wp-content/uploads/2023/10/GettyImages-1584248812.jpg?w=1200",
+          "time": "ভোর ৪:৪৩"
+        },
+        {
+          "headline": "Samsung has new Galaxy headphones in the works",
+          "excerpt": "Skip to main contentThe first new Samsung headphones in a decade could go up against Apple’s AirPods Max next year.﻿The first new Samsung headphones in a decade could go up against Apple’s AirPods Max next year.﻿by  Stevie BonifieldAug 14, 2026, 7:18 PM UTCPhoto by Amelia Holowaty Krales / The VergeStevie Bonifield is a news writer covering all things consumer tech. Stevie started out at Laptop…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/gadgets/980547/samsung-galaxy-h1-over-ear-headphones",
+          "author": "Stevie Bonifield",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/268384_Samsung_Galaxy_Buds_4_Pro_AKrales_0309.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+          "time": "রাত ১:১৮"
+        },
+        {
+          "headline": "New York City Lawmakers Push to ‘Ban the Scan’ at MSG",
+          "excerpt": "Privacy advocates and musicians rallied outside Madison Square Garden on Friday, pushing for new legislation to prevent facial-recognition technology at the venue and other public spaces in New York City.“MSG and its CEO, James Dolan, have been flagrantly abusing biotechnology,” City Council member Shahana Hanif said at the event on Friday, after leading a chant of “ban the scan.” In January,…",
+          "source": "Wired",
+          "link": "https://www.wired.com/story/new-york-city-lawmakers-push-to-ban-the-scan-at-msg/",
+          "author": "Kate Taylor",
+          "image": "https://media.wired.com/photos/6a7e4a6728f891277df706a0/191:100/w_1280,c_limit/MSG-Surveillance-Protests-2196667317.jpg",
+          "time": "রাত ৩:৪৩"
+        },
+        {
+          "headline": "Waymo receives permission to offer rides in Sacramento and San Diego",
+          "excerpt": "The company will also be able to expand its fleet across more of the San Francisco Bay Area and Los…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2237530/waymo-receives-permission-to-offer-rides-in-sacramento-and-san-diego/",
+          "author": "Ian Carlos Campbell",
+          "image": "https://www.engadget.com/img/gallery/waymo-receives-permission-to-offer-rides-in-sacramento-and-san-diego/l-intro-1786746703.jpg",
+          "time": "ভোর ৪:৫০"
+        },
+        {
+          "headline": "Android 17 QPR2 adds App lock to Pixel",
+          "excerpt": "Besides visual changes, Android 17 QPR2 Beta 3 also introduces a native App lock feature to Pixel devices.\n\n\n\nWhen you long-press an application for the Actions menu, “App lock” appears at the bottom to join App info, Pause app, Widgets, Remove, and Bubble. This will require Fingerprint Unlock or PIN before an application can be opened, with the system authentication sheet appearing upon…",
+          "source": "9to5Google",
+          "link": "https://9to5google.com/2026/08/14/android-17-qpr2-app-lock/",
+          "author": "Abner Li",
+          "image": "https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2026/03/android-figures-mwc-2026-5.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+          "time": "ভোর ৫:২৭"
+        },
+        {
+          "headline": "Self-driving trucks are officially testing on California highways",
+          "excerpt": "Aurora Innovation and Kodiak AI, two companies developing self-driving trucks, have received permits from the California Department of Motor Vehicles to test their autonomous vehicle technology on public roads. And Kodiak has already started. \n\nKodiak said it is starting with a handful of test trucks in California, primarily around its Mountain View office.\n\n\n\n\n\n\n\nBoth companies applied for…",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/08/14/self-driving-trucks-are-officially-testing-on-california-highways/",
+          "author": "Kirsten Korosec",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/08/KODIAK_GEN5_HIGHWAY_3.jpg?resize=1200,801",
+          "time": "রাত ২:৩৭"
+        },
+        {
+          "headline": "The Best Movies to Stream This Month (August 2026)",
+          "excerpt": "It’s the depths of summer. It’s still stultifyingly, dangerously hot. Going outside is a fool’s game unless you have 500 SPF sunblock and a personal AC unit. Be sensible: Stay inside and enjoy some of the best movies currently streaming instead.August’s offerings include the return of Avatar: The Last Airbender on Paramount+, with a brand new adventure returning to the cast of the fan-favorite…",
+          "source": "Wired",
+          "link": "https://www.wired.com/story/the-8-best-movies-to-stream-right-now/",
+          "author": "Matt Kamen",
+          "image": "https://media.wired.com/photos/6a7f4df328f891277df71355/191:100/w_1280,c_limit/Movie-Guide-Avatar-Aang-Culture-MCDAVAA_I8007.jpg",
+          "time": "রাত ৩:১৮"
+        },
+        {
+          "headline": "Kia's EV3 will start under $31,000 in the US",
+          "excerpt": "That makes it the cheapest EV in Kia's lineup.\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                   …",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2237429/kia-ev3-will-start-under-31-000-in-the-us/",
+          "author": "Ian Carlos Campbell",
+          "image": "https://www.engadget.com/img/gallery/kias-ev3-will-start-at-under-31000-in-the-us/l-intro-1786739851.jpg",
+          "time": "রাত ২:৩৯"
+        },
+        {
+          "headline": "Android 17 QPR2 brings system blur to the Pixel lockscreen",
+          "excerpt": "The interface changes in Android 17 QPR2 Beta 3 continue with more blur for the Pixel lockscreen.\n\n\n\nBeta 3 blurs the list of notifications and the two lockscreen shortcuts, though not all of them as of this release. The fingerprint icon also gets the translucency treatment today.\n\n\n\nHow prominent this effect is really depends on your wallpaper. Android 17 QPR2 is expected to launch in…",
+          "source": "9to5Google",
+          "link": "https://9to5google.com/2026/08/14/android-17-qpr2-pixel-lockscreen-blur/",
+          "author": "Abner Li",
+          "image": "https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2026/03/android-figures-mwc-2026-20.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+          "time": "ভোর ৪:৫৫"
+        },
+        {
+          "headline": "Thrive’s Joshua Kushner chides Silicon Valley VCs over AI euphoria",
+          "excerpt": "In Thrive Capital’s first-ever investor letter, founder Joshua Kushner has some unexpected things to say about his venture capital rivals on the West Coast.\n\n“It is difficult to overstate the magnitude of the opportunity,” Kushner wrote about AI in the letter, leaked to Bloomberg. “It would also be a grave error in our minds to let excitement weaken our investment discipline. … Within Silicon…",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/08/14/thrives-joshua-kushner-chides-silicon-valley-vcs-over-ai-euphoria/",
+          "author": "Julie Bort",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-2184416821.jpg?w=1024",
+          "time": "রাত ১:৩৩"
+        },
+        {
+          "headline": "The Next Big Influencer Is This 4-Foot-Tall Robot From China",
+          "excerpt": "When Edward Warchocki speaks with you, he sounds like a regular guy. “Not super intelligent, but very emotional, very easy to make friends with,” says Bartosz Idzik, the person who created him. But when he doesn’t talk, it’s harder to forget what Warchocki really is: a 4-foot-tall humanoid robot that’s wandering the city streets of Poland.Six months ago, Idzik and his friend Radosław Grzelaczyk…",
+          "source": "Wired",
+          "link": "https://www.wired.com/story/unitree-influencer-4-foot-robot-from-china/",
+          "author": "Zeyi Yang",
+          "image": "https://media.wired.com/photos/6a7e3d7b0f200c034ba14a12/191:100/w_1280,c_limit/Made-In-China-Made-in-China-Unitree-Robots-Americans-Love-Business.jpg",
+          "time": "রাত ২:৫৯"
+        },
+        {
+          "headline": "Google will now allow users to remove visible watermarks from AI content",
+          "excerpt": "The invisible SynthID will remain.\n            \n\n    \n                \n                \n                \n                Google VP Josh Woodward just announced that users will be able to remove visible watermarks from AI-generated images and videos. A toggle will soon be available for the Nano Banana, Omni and Lyria models, which all use the familiar sparkle icon to denote AI. It's also coming…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2237340/google-will-now-allow-users-to-remove-visible-watermarks-from-ai-content/",
+          "author": "Lawrence Bonk",
+          "image": "https://www.engadget.com/img/gallery/google-will-now-allow-users-to-remove-visible-watermarks-from-ai-content/l-intro-1786734224.jpg",
+          "time": "রাত ১:০৪"
+        },
+        {
+          "headline": "Here’s everything new in Android 17 QPR2 Beta 3 [Gallery]",
+          "excerpt": "The preview for the December release continues today with a surprising Friday launch of Android 17 QPR2 Beta 3.\n\n\n\nOver the coming hours, we’ll dive into all of Android 17 QPR2 Beta 3’s new features and every single change. (The newest updates will be at the top of this list. Be sure to check back often and tell us what you find in the comments below.) Android 17 QPR2 Beta 2 screenshots appear…",
+          "source": "9to5Google",
+          "link": "https://9to5google.com/2026/08/14/android-17-qpr2-beta-3-everything-new/",
+          "author": "Abner Li",
+          "image": "https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2026/06/Android-17-launch-logo-5.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+          "time": "ভোর ৪:৪২"
+        },
+        {
+          "headline": "What we know about the alleged Iranian hacks on US water utilities",
+          "excerpt": "Since the end of last month, several water utilities in the United States have been hit by cyberattacks, causing alarm in the country. \n\nFor years, water utilities and other critical infrastructure facilities in the power sector, for example, have been targeted by hackers, whether government-backed or individuals. What makes these recent attacks — allegedly carried out by Iran — particularly…",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/08/14/what-we-know-about-the-alleged-iranian-hacks-on-u-s-water-utilities/",
+          "author": "Lorenzo Franceschi-Bicchierai",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/08/water-treatment-facility-monitoring-equipment.jpg?resize=1200,800",
+          "time": "রাত ১:০৪"
+        },
+        {
+          "headline": "Android 17 QPR2 lets you customize Pixel Quick Settings layout",
+          "excerpt": "The surprise Friday drop of Android 17 QPR2 lets you customize the layout of the Quick Settings shade on Pixel. This editor was introduced in the latest Android Canary build for a relatively short turnaround.\n\n\n\nOpen Quick Settings and tap the pencil icon in the corner for a new “Layout” tab at the bottom of your screen. This lets you reorder the Brightness bar, Tiles, and Media player…",
+          "source": "9to5Google",
+          "link": "https://9to5google.com/2026/08/14/customize-pixel-quick-settings/",
+          "author": "Abner Li",
+          "image": "https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2026/03/android-figures-mwc-2026-17.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+          "time": "ভোর ৪:৩৫"
+        },
+        {
+          "headline": "Read-it-later app Pocket shut down — here are the best alternatives",
+          "excerpt": "In May 2025, Mozilla announced that it was shutting down the popular read-it-later app Pocket, which it had acquired back in 2017 for an undisclosed amount. That led to a growing demand for alternative apps that could help people save online content, particularly longer articles, that they want to read later when they have more time. \n\nWhile Mozilla exited the business, saying the way people are…",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/08/14/read-it-later-app-pocket-is-shutting-down-here-are-the-best-alternatives/",
+          "author": "Ivan Mehta, Sarah Perez",
+          "image": "https://techcrunch.com/wp-content/uploads/2025/04/Pocket-app.png?resize=1200,795",
+          "time": "রাত ১২:৫৮"
+        },
+        {
+          "headline": "Android 17 QPR2 greatly expands Dynamic Color theming on Pixel",
+          "excerpt": "With Android 17 QPR2 Beta 3’s surprise Friday drop, Google is introducing expanded Dynamic Color theming options for Pixel devices.\n\n\n\nGo to Wallpaper & style and then “Colors” to find these updated theming options. The paint palette icon above the carousel lets you access a “Select a color” slider to choose the main accent. You were previously limited to preset options.\n\n\n\n\n\n\nThe corner pencil…",
+          "source": "9to5Google",
+          "link": "https://9to5google.com/2026/08/14/android-17-qpr2-dynamic-color/",
+          "author": "Abner Li",
+          "image": "https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2026/03/android-figures-mwc-2026-15.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+          "time": "ভোর ৪:২০"
+        },
+        {
+          "headline": "Android 17 QPR2 Beta 3 for Pixel rolling out",
+          "excerpt": "Following the last release at the start of last week, Google is rolling out Android 17 QPR2 Beta 3 for Pixel devices in a rare Friday drop. So far, it is the biggest update this cycle.\n\n\n\n\n\n\n\nAndroid 17 QPR2 greatly expands Dynamic Color theming on Pixel\n\n\n\nAndroid 17 QPR2 lets you customize Pixel Quick Settings layout\n\n\n\nAndroid 17 QPR2 brings system blur to the Pixel lockscreen\t\n\t\n\n\n\nAndroid…",
+          "source": "9to5Google",
+          "link": "https://9to5google.com/2026/08/14/android-17-qpr2-beta-3-pixel/",
+          "author": "Abner Li",
+          "image": "https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2026/07/Android-17-logo-close-up.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+          "time": "রাত ৩:৫২"
+        },
+        {
+          "headline": "Pixelated 112: Mid by Google",
+          "excerpt": "Welcome to Pixelated episode 112. This week, Damien, Abner, and Will share their early impressions of the Pixel 11 series, offer a full breakdown of the actual Made by Google event, and share some big picture thoughts on the future of Pixel hardware inspired by this HiLight ad.\n\n\n\nEnjoy the episode? You can listen to our brand new weekly members-only Pixelated Pro bonus episode by signing up for…",
+          "source": "9to5Google",
+          "link": "https://9to5google.com/2026/08/14/pixelated-112-mid-by-google/",
+          "author": "Will Sattelberg",
+          "image": "https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2024/03/Pixelated-cover.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+          "time": "রাত ২:৪৫"
+        },
+        {
+          "headline": "Friday’s best Android app deals and freebies: Dragon Prana, Soul Historica, Conquistadorio, more",
+          "excerpt": "Reg. $1+/FREE+\n\nFriday afternoon’s lineup of the best Android game and app deals is now ready to roll, including titles like RPG Dragon Prana, RPG Ruinverse, RPG Infinite Links, Legend of The Moon2, RPG Soul Historica, TLOTS: Gold Edition, Conquistadorio, and more. Be sure to dive into the best pre-order deals on Pixel 11, 11 Pro, 11 Pro XL, and 11 Pro Fold, including enhanced trade values, up…",
+          "source": "9to5Google",
+          "link": "https://9to5toys.com/2026/08/14/friday-best-android-app-deals-2/",
+          "author": "Justin Kahn",
+          "image": "https://i0.wp.com/9to5toys.com/wp-content/uploads/sites/5/2026/08/Google-Play-Aug-14-2-1.webp?resize=1200%2C628&quality=82&strip=all&ssl=1",
+          "time": "রাত ১:০৬"
+        },
+        {
+          "headline": "AMD Posts Massive 109 Patch Series For GFX 12.1 RAS Support On Friday Evening",
+          "excerpt": "AMD has a tendency to send out large feature patch series for their open-source Linux drivers on Friday afternoons/evenings. Today we were greeted by a set of 109 patches working on RAS support for the upcoming AMD GFX12.1 target.\n\nAMD GFX12.1 is yet to be ascertained for what products it's going to serve. GFX 12.0 is for existing RDNA4 parts, GFX 12.5 (GFX 1250) is for the Instinct MI450…",
+          "source": "Phoronix",
+          "link": "https://www.phoronix.com/news/AMD-GFX12.1-RAS-Patch-Series",
+          "author": "Written by Michael Larabel in AMD on 14 August 2026 at 09:01 PM EDT. Add A Comment",
+          "image": "",
+          "time": "সকাল ৭:০১"
+        },
+        {
+          "headline": "D7VK 2.1 Brings Faster Load Times, More Performance Tweaks",
+          "excerpt": "D7VK as the open-source implementation of the Direct3D 7 / 6 / 5/ 3 APIs atop the Vulkan API for Linux/Wine usage is out with another feature update. D7VK continues to mature quite well for further enhancing these older Direct3D API versions that cover the span prior to DXVK's focus of Direct3D 8 to Direct3D 11 or VKD3D-Proton's Direct3D 12.\n\nAfter seeing a lot of performance improvements in…",
+          "source": "Phoronix",
+          "link": "https://www.phoronix.com/news/D7VK-2.1",
+          "author": "Written by Michael Larabel in Vulkan on 14 August 2026 at 04:26 PM EDT. 1 Comment",
+          "image": "",
+          "time": "রাত ২:২৬"
+        },
+        {
+          "headline": "Lemonade 11.6 Integrates Muse-Glimmer 30B, Experimental TheNoise ROCm Image Generation",
+          "excerpt": "For those dabbling with generative AI on the weekends, the AMD-led Lemonade SDK 11.6 is out today with its newest feature release of this open-source software for running local AI apps with optimized LLMs across CPUs, GPUs, and NPUs.\n\nLemonade 11.6 adds Muse Glimmer 30B GGUF model support into Lemonade's Llama.cpp catalog with draft decoding, vision, and tool calling support. Mesa AI researchers…",
+          "source": "Phoronix",
+          "link": "https://www.phoronix.com/news/Lemonade-SDK-11.6",
+          "author": "Written by Michael Larabel in AI on 14 August 2026 at 04:00 PM EDT. 1 Comment",
+          "image": "",
+          "time": "রাত ২:০০"
+        }
+      ]
+    }
+  },
+  {
     "dt": "2026-08-14T18:52:56.416Z",
     "file": "runs/2026-08-14-1852.html",
     "counts": {
