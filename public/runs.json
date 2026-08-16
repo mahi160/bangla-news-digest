@@ -1,5 +1,505 @@
 [
   {
+    "dt": "2026-08-16T01:14:49.181Z",
+    "file": "runs/2026-08-16-0114.html",
+    "counts": {
+      "Local": 1,
+      "International": 19,
+      "Entertainment": 1,
+      "Tech": 9,
+      "Sports": 23
+    },
+    "grouped": {
+      "International": [
+        {
+          "headline": "Hamas leader heads to Cairo for Gaza talks ahead of Kushner visit",
+          "excerpt": "Hamas chief Khalil al-Hayya to meet Egyptian intelligence chief Hassan Rashad in Cairo amid ongoing Gaza tensions.Hamas political leader and chief negotiator Khalil al-Hayya is travelling to Cairo for talks with Egyptian officials, according to Hamas sources, ahead of a planned Middle East visit by US President Donald Trump’s envoy, Jared Kushner.In his first visit to the country since taking…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/16/hamas-leader-heads-to-cairo-for-gaza-talks-ahead-of-kushner-visit?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/07/AP25255402817354-1784547871.jpg?resize=1920%2C1440",
+          "time": "সকাল ৬:৪৪"
+        },
+        {
+          "headline": "Zimbabwe boat accident death toll hits 68 as 22 more bodies recovered",
+          "excerpt": "Twenty-two more bodies have been recovered after a boat accident in Zimbabwe, taking the death toll to 68, police said on Saturday.The ferry capsized on Tuesday on Lake Kariba, on the border with Zambia. An investigation has suggested it was overloaded when it turned over during heavy winds.Eighteen children were among the people killed, Zimbabwe’s police said, in what is believed to be the…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/world/2026/aug/15/more-bodies-recovered-after-zimbabwe-boat-accident",
+          "author": "Nadeem Badshah",
+          "image": "https://i.guim.co.uk/img/media/b14768a4016a3eb7461634532d5a9f3c7c039c61/668_0_4853_3883/master/4853.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=939691c8f4d550b04dd39b99734e4b52",
+          "time": "রাত ১:৩৯"
+        },
+        {
+          "headline": "Iran war live: Talks on Hormuz Strait continue; Israel kills 11 in Lebanon",
+          "excerpt": "Live updates, Israel kills 11 in deadliest attacks on Lebanon since June truce as Iran and Oman continue talks on Hormuz.Video Duration 03 minutes 09 seconds 03:09Israeli strikes in southern Lebanon: Attack among the worst since truce was agreed in JunePublished On 16 Aug 2026\nIran’s Foreign Minister Abbas Araghchi says Tehran is continuing talks with Oman on shipping routes in the Strait of…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/liveblog/2026/8/16/iran-war-live-talks-on-hormuz-strait-continue-israel-kills-11-in-lebanon?traffic_source=rss",
+          "author": "Mariem Bah, Zsombor Peter",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/AFP__20260815__C4QE99U__v1__HighRes__LebanonIsraelIranUsWar-1786837793.jpg?resize=1920%2C1440",
+          "time": "সকাল ৬:০০"
+        },
+        {
+          "headline": "Yemen’s government says Houthi strikes hit residential areas in Marib",
+          "excerpt": "Yemen’s Ministry of Information denounces Houthi attacks on Marib as ‘escalation’ that threatens lives and increases suffering.Yemen’s Houthis have launched several strikes on the government-held city of Marib, also hitting residential neighbourhoods, according to local authorities.The group hit the city with four ballistic missiles and four drones on Saturday, causing several injuries and…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/15/yemens-government-says-houthi-strikes-hit-residential-areas-in-marib?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/afp_6a80eac32249-1786833603.jpg?resize=1920%2C1440",
+          "time": "ভোর ৫:২৭"
+        },
+        {
+          "headline": "At least five reported dead amid flooding in US state of Indiana",
+          "excerpt": "Indiana’s state governor says that US government has promised assistance after a week of heavy rainfall.Authorities in the Midwestern United States have reported at least five deaths in Indiana after the state was struck with fierce storms and flooding.Rescue workers continue to seek out those stranded by the storms, which drenched Indiana over the past week.Recommended Stories list of 3…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/15/at-least-five-reported-dead-amid-flooding-in-us-state-of-indiana?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/afp_6a80e5cfbcc2-1786832335.jpg?resize=1920%2C1440",
+          "time": "ভোর ৫:১৯"
+        },
+        {
+          "headline": "Colombia asks Trump to suspend tariffs as country reels from earthquake",
+          "excerpt": "Post-earthquake reconstruction is expected to cost around $6.4bn, but Colombia has been hit by renewed US tariffs.Colombia’s new president has called on United States President Donald Trump to suspend tariffs targeting the South American country, which is reeling from a deadly earthquake that has killed hundreds.President Abelardo de la Espriella said Saturday that he had requested the US…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/15/colombia-asks-trump-to-suspend-tariffs-as-country-reels-from-earthquake?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/afp_6a80e6411ac4-1786832449.jpg?resize=1920%2C1440",
+          "time": "ভোর ৫:০৪"
+        },
+        {
+          "headline": "US Democrats finalise major shakeup to 2028 presidential primary calendar",
+          "excerpt": "Democrats in the United States have approved a shakeup to their 2028 presidential primary calendar as the party looks to take back the White House.During a meeting on Saturday in Austin, Texas, Democratic National Committee (DNC) members voted to overhaul which states have the first say in picking the party’s presidential nominee.Recommended Stories list of 3 itemslist 1 of 3Abdul El-Sayed wins…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/15/us-democrats-finalise-major-shakeup-to-2028-presidential-primary-calendar?traffic_source=rss",
+          "author": "Evan Semones",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/ap_6a80ca5358c61-1786825299.jpg?resize=1920%2C1440",
+          "time": "ভোর ৪:২২"
+        },
+        {
+          "headline": "Why is the latest Ebola outbreak worsening?",
+          "excerpt": "Virus spreading in DRC faster than containment efforts.The Ebola outbreak in northeastern Democratic Republic of the Congo has already killed 2,000 people.It is spreading faster than any previous outbreak, outpacing efforts to contain it, says the World Health Organization (WHO).So, what’s driving this crisis? And what are the dangers?Presenter: James BaysGuests:Alex Lock – Communications…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/inside-story/2026/8/15/why-is-the-latest-ebola-outbreak-worsening?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/afp_6a7c9c9dc5a8-1786551453.jpg?resize=1920%2C1440",
+          "time": "ভোর ৪:০০"
+        },
+        {
+          "headline": "Qatar denies it is detaining three Iranian bomber pilots",
+          "excerpt": "Qatar’s Foreign Ministry has denied Iran’s claims that three Iranian pilots are being held in secret detention following the downing of their aircraft during hostilities earlier this year.A ministry spokesman expressed surprise on Saturday at “misleading statements” from Iranian officials and reaffirmed that Qatari forces are not holding any surviving aircrew.Recommended Stories list of 3…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/15/qatar-denies-it-is-detaining-three-iranian-bomber-pilots?traffic_source=rss",
+          "author": "By AFP",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/afp_6a80c2518136-1786823249.jpg?resize=1920%2C1440",
+          "time": "রাত ২:৫৫"
+        },
+        {
+          "headline": "California tackles multiple wildfires as firefighter workforce faces strain",
+          "excerpt": "Firefighters in the western United States and Canada are working to contain multiple wildfires, including one that erupted along California’s rugged Big Sur coastline.The state’s wildland firefighting agency Cal Fire said in an update on Saturday that the Big Sur blaze, nicknamed the Timber Fire, is currently burning across 4,655 acres (1,884 hectares). Only 12 percent of the fire is contained…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/gallery/2026/8/15/california-tackles-multiple-wildfires-as-firefighter-workforce-faces-strain?traffic_source=rss",
+          "author": "By Al Jazeera Staff and The Associated Press",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/ap_6a80c68b13644-1786824331.jpg?resize=1920%2C1440",
+          "time": "রাত ২:৪০"
+        },
+        {
+          "headline": "Canadian petition to expel US ambassador gains over 170,000 signatures",
+          "excerpt": "The petition set to be discussed by Canada’s House of Commons in the latest sign of discontent with President Donald Trump’s policies.An official petition before Canada’s House of Commons has gained thousands of signatures in support of the expulsion of the United States ambassador, Pete Hoekstra.The signature tally, as of Saturday, surpassed 171,000, far exceeding the 500 needed for the…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/15/canadian-petition-to-expel-us-ambassador-gains-over-170000-signatures?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/ap_6a80b33b64f2d-1786819387.jpg?resize=1920%2C1440",
+          "time": "রাত ২:০৯"
+        },
+        {
+          "headline": "Moroccan police intercept migrants heading for Ceuta enclave",
+          "excerpt": "NewsFeedMoroccan Police Intercept Migrants Heading for Ceuta Enclave\n Security forces in Fnideq have stepped up operations to prevent migrants from crossing into the neighboring Spanish enclave of Ceuta. Despite heightened tensions, heavy security presence in the Tarajal border region has restored a temporary calm.Published On 15 Aug 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/8/15/moroccan-police-intercept-migrants-heading-for-ceuta-enclave?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/image-1786824400.jpg?resize=1920%2C1080&quality=80",
+          "time": "রাত ২:০৭"
+        },
+        {
+          "headline": "Moroccan police arrest over 100 migrants trying to reach Spanish enclave",
+          "excerpt": "It follows a new disinformation campaign on social media encouraging people to flock to the city.Moroccan police have arrested more than a hundred people trying to reach the Spanish enclave of Ceuta.Footage posted online on Saturday showed large crowds of people, most reportedly from sub-Saharan Africa, heading towards Ceuta.Recommended Stories list of 3 itemslist 1 of 3Ceuta mayor calls for…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/15/moroccan-police-arrest-over-100-migrants-trying-to-reach-spanish-enclave?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/afp_6a80b1ace52b-1786818988.jpg?resize=1920%2C1440",
+          "time": "রাত ১:৪৬"
+        },
+        {
+          "headline": "Death toll from Zimbabwe ferry disaster rises to 72",
+          "excerpt": "Twenty-six more bodies have been recovered from the ferry that capsized on a lake in Zimbabwe on Tuesday, increasing the death toll to 72.Police investigations suggest that the boat was overloaded when it overturned on Lake Kariba. It was carrying an estimated 153 people when it left Kariba town harbour, but its maximum authorised capacity was for just 90 passengers.Recommended Stories list of 3…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/15/death-toll-from-zimbabwe-ferry-disaster-rises-to-69?traffic_source=rss",
+          "author": "Heba Habib",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/afp_6a80aa392f01-1786817081.jpg?resize=1920%2C1440",
+          "time": "রাত ১:১০"
+        },
+        {
+          "headline": "La Liga: Real Madrid key talking points heading into new 2026-27 season",
+          "excerpt": "The last time Real Madrid went two consecutive seasons without a major trophy (2008-2010), they eschewed Galacticos and brought in Jose Mourinho who built the team from the back.So after the last two trophyless seasons, they brought Mourinho back.Recommended Stories list of 4 itemslist 1 of 4La Liga: Five key talking points heading into Barcelona’s 2026-27 seasonlist 2 of 4Keep politicians on…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/sports/2026/8/15/la-liga-real-madrid-key-talking-points-heading-into-new-2026-27-season?traffic_source=rss",
+          "author": "Frank Dell’Apa",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/2026-01-24T220608Z_1040408853_UP1EM1O1PE62A_RTRMADP_3_SOCCER-SPAIN-VIL-RMA-2-1786789691.jpg?resize=1920%2C1440",
+          "time": "রাত ১২:১৯"
+        },
+        {
+          "headline": "News live: PM warns Australia has more guns than at time of Port Arthur massacre; Erin Patterson’s appeal to start this week",
+          "excerpt": "From 53m agoAlbanese says states 'have a willing partner' in commonwealth as NSW gun buyback announcedAnthony Albanese has just been speaking alongside the New South Wales premier, Chris Minns, about the state’s gun buyback scheme agreed in response to the Bondi terror attack.The prime minister said:\n double quotation markAustralians are quite rightly proud of our gun laws but the fact is there…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/australia-news/live/2026/aug/16/politics-reactions-nsw-gun-buyback-anthony-albanese-labor-angus-taylor-coalition-pauline-hanson-one-nation-bird-flu-ntwnfb",
+          "author": "Cait Kelly, Ben Smee, Tom McIlroy",
+          "image": "https://i.guim.co.uk/img/media/a750b470f85c87b792cccea9a43f3a1157bee799/0_1055_4806_3847/master/4806.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=f114e79e1c9f351e4b89a6c4c1b4e876",
+          "time": "সকাল ৬:৫৩"
+        },
+        {
+          "headline": "One Nation senator says parents who support their trans children are engaging in ‘child abuse’",
+          "excerpt": "One Nation senator Tyron Whitten has claimed parents supporting their children who identify as transgender are engaging in “child abuse”, telling a fringe YouTube show: “there’s male, there’s female, and then there’s mental illness”.Guardian Australia has unearthed several incendiary comments from Whitten and fellow One Nation senators Pauline Hanson and her longtime lieutenant Malcolm Roberts,…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/australia-news/2026/aug/16/one-nation-tyron-whitten-comments-parents-trans-children-abuse-ntwnfb",
+          "author": "Josh Butler",
+          "image": "https://i.guim.co.uk/img/media/9d8cd6c5fa3bd11536cf68a10311e886922c25ad/324_0_1591_1272/master/1591.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=f18aa28d01deca62bfc81c5f8ef6a968",
+          "time": "রাত ২:০০"
+        },
+        {
+          "headline": "Thousands of Bonnie Tyler fans gather to pay respects as coffin brought home",
+          "excerpt": "Thousands of Bonnie Tyler fans lined the streets of her home town in south Wales to pay respects to the singer as her coffin was brought back to her former home.The singer, whose real name was Gaynor Sullivan, died unexpectedly on 8 July in Portugal at the age of 75.Many fans stood along Newton Road in Mumbles, Swansea, to watch the procession as her coffin was brought back. The coffin was…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/music/2026/aug/15/bonnie-tyler-fans-gather-pay-respects-swansea",
+          "author": "Aneesa Ahmed",
+          "image": "https://i.guim.co.uk/img/media/2121b0163cb27f7b515baef179471bedb844bead/540_0_5375_4303/master/5375.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=95378ba80d8f71f5c524f44c62fe387e",
+          "time": "রাত ১২:৪৪"
+        },
+        {
+          "headline": "New York City man charged with hate crimes after alleged synagogue assault",
+          "excerpt": "A New York City man is facing hate crime charges after police say he assaulted a woman and a security team member while disrupting Shabbat services at Central Synagogue in Manhattan – all in plain view of a live stream.The New York police department identified the suspect in the case as Larry Montes, 46, who was arrested after the episode at the synagogue. Montes was charged with two counts of…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/us-news/2026/aug/15/hate-crime-charges-new-york-synagogue-assault",
+          "author": "Marina Dunbar",
+          "image": "https://i.guim.co.uk/img/media/96b4a0cdd939fc7870e489e229d448a495916e64/9_0_4168_3335/master/4168.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=21ed7d8eec259db2452d93d1860721b0",
+          "time": "রাত ২:০২"
+        }
+      ],
+      "Sports": [
+        {
+          "headline": "আজ টিভিতে যা দেখবেন (১৬ আগস্ট ২০২৬)",
+          "excerpt": "খেলাআজ টিভিতে যা দেখবেন (১৬ আগস্ট ২০২৬)খেলা ডেস্ক বাংলাদেশ-অস্ট্রেলিয়া প্রথম টেস্টের চতুর্থ দিন আজ। গলে চলছে শ্রীলঙ্কা-ভারত টেস্ট। লা লিগায় আজ দুটি ম্যাচ।ডারউইন টেস্ট-৪র্থ দিনবাংলাদেশ-অস্ট্রেলিয়াসকাল ৬-৩০ মি., ট্যাপম্যাড ও স্টার স্পোর্টস ১গল টেস্ট-২য় দিনশ্রীলঙ্কা-ভারতসকাল ১০-৩০ মি., সনি স্পোর্টস ১৩য় ওয়ানডেবাংলাদেশ অ-২৩-মালয়েশিয়াসকাল ৯–৩০ মি., টি স্পোর্টসলা লিগারেসিং-ভিয়ারিয়ালরাত ৯টা, বিগিন…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/sports/bh6sd3rojg",
+          "author": "খেলা ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-15%2Fq4gx4sd9%2FWhatsApp-Image-2025-09-07-at-18.46.345cffd0da.jpg?rect=0%2C0%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৬:০০"
+        },
+        {
+          "headline": "Hunt wins third gold as Asher-Smith makes history",
+          "excerpt": "Amy Hunt won her third gold medal of a potential historic quadruple and Dina Asher-Smith earned a spot in the record books as Great Britain's 4x100m relay stars put on a show at the European Championships.Britain's new sprint sensation Hunt celebrated her third title in six days, following triumphs in the 100m and 200m, as the GB women's quartet claimed the hosts' second gold medal in a…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/athletics/articles/cqjxxd0j844o?at_medium=RSS&at_campaign=rss",
+          "author": "Harry Poole",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/297d/live/d940b150-98ee-11f1-94a7-b9e415195b83.jpg",
+          "time": "রাত ৩:১৩"
+        },
+        {
+          "headline": "Bangladesh could change cricket forever, again",
+          "excerpt": "Analysis\n\n  \n\n\t\t\t\t\n\t\t\t4 HOUR(s)\n\t\t\t\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tJannatul Naym Pieal\n\t\t\t\t\t\t\n\t\t\t\t\t\n\n\t\t\t\n  \n                  \n              \n                  \n\n  \n\n\n\t\t\t\n\t\t\t\t\t\t\tBangladesh pacer Hasan Mahmud celebrates after taking a wicket during the ongoing Darwin Test against Australia, where his six-wicket haul helped bowl the hosts out for 198 in the first innings. Photo: AFP\n\t\t\t\t\t\t\n\t\t\nEvery decade, it…",
+          "source": "The Daily Star Sports",
+          "link": "https://www.thedailystar.net/sports/cricket/news/bangladesh-could-change-cricket-forever-again-4248621",
+          "author": "Jannatul Naym Pieal",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-08/WhatsApp%20Image%202026-08-15%20at%209.09.53%20PM.jpeg",
+          "time": "রাত ২:২২"
+        },
+        {
+          "headline": "Rashford returns as AC Milan highlight issues facing Carrick",
+          "excerpt": "This was a pre-season finale to forget for Manchester United.Just a week away from their Premier League opener at promoted Hull City on Saturday, Michael Carrick's men took the lead twice against AC Milan before finishing on the wrong end of a 4-2 beating.First, the positives.Marcus Rashford, Kobbie Mainoo and Lisandro Martinez all made their first appearances of pre-season. Skipper Bruno…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cg5ll71pqv1o?at_medium=RSS&at_campaign=rss",
+          "author": "Simon Stone",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/130f/live/5dfdd470-98d8-11f1-8216-1399f248beea.jpg",
+          "time": "রাত ১:২৫"
+        },
+        {
+          "headline": "Man Utd beaten by former boss Amorim's AC Milan",
+          "excerpt": "Manchester United's pre-season campaign ended with a decisive 4-2 defeat by Ruben Amorim's AC Milan in the Polish city of Wroclaw on Saturday.Michael Carrick's side led twice, through Harry Maguire and Patrick Dorgu.But they were undone in defence as AC Milan scored three goals from close range before Ruben Loftus-Cheek raced clear to add a fourth and give former United manager Amorim a win…",
+          "source": "The Daily Star Sports",
+          "link": "https://www.thedailystar.net/sports/football/news/man-utd-beaten-former-boss-amorims-ac-milan-4248546",
+          "author": "AFP, London",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-08/Amorim.jpg",
+          "time": "রাত ১২:৪২"
+        },
+        {
+          "headline": "'Fury' at Tarling death as cycling union calls for better helmets",
+          "excerpt": "The cyclists' union has expressed \"fury\" over the death of British rider Fin Tarling    during Friday's stage of the Volta a Portugal.The 19-year-old NSN Cycling rider reportedly collided with a vehicle not involved in the race.And the union's president Adam Hansen told BBC Sport there needs to be better helmet safety as cyclists hit record-breaking speeds during races.\"We are speechless and…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/cycling/articles/czxqqlpnx98o?at_medium=RSS&at_campaign=rss",
+          "author": "Matt Warwick",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/dd85/live/2dff1f70-98d0-11f1-9687-fb984065014d.jpg",
+          "time": "রাত ১:০৫"
+        },
+        {
+          "headline": "O'Connor secures European gold in heptathlon",
+          "excerpt": "Kate O'Connor said her late grandmother \"would have been jumping for joy\" as the Ireland athlete won gold in the heptathlon at the European Championships in Birmingham.The Newry-born 25-year-old entered the final event, the 800m, with a 51-point lead on nearest challenger Emma Oosterwegel of the Netherlands.O'Connor needed to finish within 3.4 seconds of Oosterwegel to seal overall victory and…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/athletics/articles/cvgjjpe85z1o?at_medium=RSS&at_campaign=rss",
+          "author": "David Mohan",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/87c3/live/448cf350-98fa-11f1-b2ab-0dd01740f9f6.jpg",
+          "time": "রাত ২:১৮"
+        },
+        {
+          "headline": "West Ham break EFL record to sign Engels for £22m",
+          "excerpt": "Engels is West Ham's fourth summer signing after the recruitment of Venezuela midfielder Keiber Lamadrid, Dutch defender Joel Veltman and Israel winger Manor Solomon.West Ham director of player recruitment Nils Koppen told the club website:, external \"Arne is a player we have been tracking for some time as a key target.\"For a player who is still very young with his best years in front of him, he…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/c77ggr5nk7jo?at_medium=RSS&at_campaign=rss",
+          "author": "Ged Scott",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/379a/live/7dd3ae70-98ea-11f1-baa8-93026f9f7e66.jpg",
+          "time": "রাত ২:১৯"
+        },
+        {
+          "headline": "'Absolutely miles ahead!' GB women win brilliant relay gold",
+          "excerpt": "Great Britain's Dina Asher-Smith, Amy Hunt, Success Eduan and Imani-Lara Lansiquot dominate the 4x100m relay to win a brilliant gold.READ MORE: Athletics on BBC SportAvailable to UK users only.",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/athletics/videos/ce8llyzyj27o?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/e80f/live/fe408b70-98ed-11f1-b2ab-0dd01740f9f6.jpg",
+          "time": "রাত ৩:১৪"
+        },
+        {
+          "headline": "Scheffler in charge as he chases first win since January",
+          "excerpt": "St Jude Championship - round three leaderboard-13 S Scheffler (US); -11 S Burns (US),  Im (Kor); -8 J Knapp (US), T Fleetwood (Eng)Selected others: -7 B Harman (US); -6 V Hovland (Nor); -5 W Clark (US); -4  M Fitzpatrick (Eng), J Spieth (US); -3  L Aberg (Swe); -2 H Hall (Eng); -1 A Rai (Eng); +6 J Rose (Eng), R McIlroy (NI)Full leaderboardWorld number one Scottie Scheffler will take a…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/golf/articles/c4g332dd2ezo?at_medium=RSS&at_campaign=rss",
+          "author": "Steve Sutcliffe",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/0957/live/aed11fb0-98fb-11f1-9272-2db57c8d1bee.jpg",
+          "time": "ভোর ৫:০২"
+        },
+        {
+          "headline": "Djokovic suffers in heat as Tirante inflicts shock defeat",
+          "excerpt": "Novak Djokovic struggled with the heat and humidity as he fell to a shock defeat by Argentina's Thiago Tirante in the second round of the Cincinnati Open.The 24-time Grand Slam champion dropped onto his hands and knees and took a medical timeout during the second set before eventually losing 2-6 6-4 6-4 to the South American, who is ranked 50th in the world.Djokovic, 39, the world number five,…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/tennis/articles/cj033qggmv3o?at_medium=RSS&at_campaign=rss",
+          "author": "Steve Sutcliffe",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/b79f/live/f0fdcb50-98f5-11f1-aa0d-e3900609838d.jpg",
+          "time": "ভোর ৪:০৭"
+        },
+        {
+          "headline": "Villa begin Suzuki talks - Sunday's gossip",
+          "excerpt": "Aston Villa are in negotiations over Zion Suzuki, boosting Juventus' hope of signing Emiliano Martinez, while Arsenal are told price for Victor Osimhen.Aston Villa are in negotiations to sign Japan goalkeeper Zion Suzuki from Parma after the 23-year-old's proposed move to Paris St-Germain collapsed. (Talksport), externalVilla's interest in Suzuki has boosted Juventus' hope of signing Argentina…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cnvnndmz4reo?at_medium=RSS&at_campaign=rss",
+          "author": "BBC Sport",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/c991/live/8d457c30-98e5-11f1-870d-5d08c49babb2.png",
+          "time": "রাত ২:২৩"
+        },
+        {
+          "headline": "Rangers need 'wee bit of help' and money is there to get it",
+          "excerpt": "Former Rangers defender Richard FosterIt's been tough. The level of performance is the thing that they're questioning but they're also not winning games, they're out of the Europa League.I do believe Derek is the right man. He's not become a bad manager in four games. I think he will get Rangers to a place this season where they're challenging for the league and the cup and they're playing good…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/ckg44wvnjyeo?at_medium=RSS&at_campaign=rss",
+          "author": "Andy Campbell",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/bcd0/live/17f51530-98e0-11f1-89f0-8dbc5eb120ba.jpg",
+          "time": "রাত ১:২০"
+        },
+        {
+          "headline": "Johnson-Thompson vows she still has hunger to compete",
+          "excerpt": "Johnson-Thompson achieved her sixth global podium with bronze at last year's World Championships - and her third in as many years as she returned to the pinnacle of the sport following a career-threatening Achilles rupture.But, prior to these championships, she had competed just once since - in the shot put at an event in Loughborough in May - and withdrew from last month's Commonwealth Games to…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/athletics/articles/cn9nn38jyryo?at_medium=RSS&at_campaign=rss",
+          "author": "Harry Poole",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/c179/live/d3f52070-98f6-11f1-870d-5d08c49babb2.jpg",
+          "time": "রাত ২:৪৯"
+        },
+        {
+          "headline": "Great Britain storm to 4x100m relay gold",
+          "excerpt": "Great Britain quartet Romell Glave, Zharnel Hughes, Jeremiah Azu and Louie Hinchliffe race to 4x100m relay gold at the European Athletics Championships.READ MORE: Athletics on BBC SportAvailable to UK users only.",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/athletics/videos/c07rr9809gdo?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/0509/live/f3bce1c0-98e9-11f1-a7ab-8b30adf0800a.jpg",
+          "time": "রাত ২:৫১"
+        },
+        {
+          "headline": "Great Britain win gold with mixed freestyle 4x200m championship record",
+          "excerpt": "Great Britain set a championship record as they take gold in the mixed freestyle 4x200m at the European Aquatics Championships.READ MORE: Swimming on BBC SportAvailable to UK users only.",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/swimming/videos/ckgvvdvwr2go?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/33e0/live/45c4f7c0-98f2-11f1-a7ab-8b30adf0800a.jpg",
+          "time": "রাত ৩:৪৯"
+        },
+        {
+          "headline": "Johnson-Thompson grateful to still be competing",
+          "excerpt": "Great Britain's Katarina Johnson-Thompson reflects on her European Championships, where her heptathlon was impacted by a lack of training due to injury.Despite that the 33-year-old expresses her love for the event and explains she is still hungry for more.READ MORE: Johnson-Thompson vows she still has hunger to competeAvailable to UK users only.",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/athletics/videos/clyxx3x23dvo?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/017c/live/71948630-98f3-11f1-b2ab-0dd01740f9f6.jpg",
+          "time": "ভোর ৪:০৬"
+        },
+        {
+          "headline": "Championship excellent place to discover talent - Espanyol's Monchi",
+          "excerpt": "Image source, Getty ImagesImage caption, Monchi had a two-year spell as president of football operations at Aston Villa from 2023ByElizabeth ConwaySpanish football reporterEspanyol sporting director Monchi believes Spanish clubs should be paying closer attention to England's Championship, describing it as one of football's \"least understood\" competitions and an increasingly attractive source of…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/c62v1e64x41o?at_medium=RSS&at_campaign=rss",
+          "author": "Elizabeth Conway",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/c42e/live/26745a90-97f4-11f1-8170-33f7e8571fbe.jpg",
+          "time": "রাত ১:২৪"
+        },
+        {
+          "headline": "Liebmann and Douglass set world records on same day",
+          "excerpt": "Germany's Johannes Liebmann and American Kate Douglass set swimming world records on Saturday, dazzling at events held in Paris and California.Liebmann, 19, knocked nearly four seconds off the men's 1500m freestyle record as he claimed his first international gold medal at the European Aquatics Championships in Paris.He completed the distance in 14 minutes 26.79 seconds - 3.88secs faster than…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/swimming/articles/crk55emx3yjo?at_medium=RSS&at_campaign=rss",
+          "author": "Ben Collins",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/2f05/live/f71a90e0-98d7-11f1-8216-1399f248beea.jpg",
+          "time": "রাত ১২:৫২"
+        },
+        {
+          "headline": "Wigan score six tries to hammer wasteful Bradford",
+          "excerpt": "Betfred Super LeagueBradford (0) 6Tries: Ackers Goals: HooleyWigan (16) 34Tries: Wardle 2, Keighran, French, McDermott, Kerr Goals: Smith 5High-flying Wigan Warriors moved alongside Leeds at the top of the Super League table, putting on an outstanding defensive performance to defeat a one-dimensional Bradford Bulls at Odsal.Following a slow start, Wigan took control of the game with scores from…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/rugby-league/articles/c2k72g1x54do?at_medium=RSS&at_campaign=rss",
+          "author": "Ben Marvell",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/66a9/live/461de070-98e2-11f1-89f0-8dbc5eb120ba.jpg",
+          "time": "রাত ১:৪৮"
+        },
+        {
+          "headline": "Rahmat steers Afghanistan to victory over Ireland",
+          "excerpt": "Fifth one-day international, StormontIreland 298-7 (50.0 overs): Campher 96 (84), Tector 53 (80); Azmatullah 3-74Afghanistan 302-4 (48.5 overs): Rahmat 143* (133), Sediq 98 (112); McCarthy 3-47Afghanistan won by six wickets and take five-game series 4-0ScorecardAfghanistan captain Rahmat Shah hit an unbeaten 143 at Stormont to help his side complete a 4-0 ODI series win over Ireland.While the…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/cricket/articles/cn8nn5397xko?at_medium=RSS&at_campaign=rss",
+          "author": "BBC Sport",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/fc66/live/d84be880-98d7-11f1-8216-1399f248beea.jpg",
+          "time": "রাত ১২:৩৪"
+        },
+        {
+          "headline": "GB women denied in first shot at earning Olympic spot",
+          "excerpt": "The Great Britain women's team have missed out on their first chance to qualify for flag football's Olympic debut but will have another opportunity on Sunday.The non-contact version of American football will make its Olympic bow at Los Angeles 2028 and two spots are available for both men and women at this weekend's World Championships in Germany.After reaching the quarter-finals as group…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/american-football/articles/c74gg534gl3o?at_medium=RSS&at_campaign=rss",
+          "author": "Ben Collins",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/2fdf/live/8145b6a0-98dd-11f1-8e5a-edd8d47234c0.jpg",
+          "time": "রাত ১:৩২"
+        },
+        {
+          "headline": "'It was so up and down' - O'Connor wins heptathlon gold",
+          "excerpt": "Ireland's Kate O'Connor speaks after winning gold in the women's heptathlon at the European Athletics Championships, just weeks after winning the same event at the Commonwealth Games.READ MORE: O'Connor secures European gold in heptathlonAvailable to UK users only.",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/athletics/videos/clyllwdwvexo?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/a6f5/live/cf9e2cf0-98f7-11f1-870d-5d08c49babb2.jpg",
+          "time": "ভোর ৪:৩৩"
+        }
+      ],
+      "Local": [
+        {
+          "headline": "সঠিক সিদ্ধান্তে পৌঁছতে আলীকে শেখানো নবীজির দোয়া",
+          "excerpt": "দোয়া সঠিক সিদ্ধান্তে পৌঁছতে আলীকে শেখানো নবীজির দোয়াধর্ম ডেস্ক জীবনের মোড়ে মোড়ে আমাদের এমন কিছু জটিল ও গুরুত্বপূর্ণ সিদ্ধান্তের মুখোমুখি হতে হয়, যেখানে একটি সঠিক পদক্ষেপ জীবনকে নিয়ে যেতে পারে অনন্য উচ্চতায়, আবার একটি ভুল পদক্ষেপ ডেকে আনতে পারে বিপদ।সিদ্ধান্তের নিতে গিয়ে মানুষের মন প্রায়ই দ্বিধাদ্বন্দ্বে তোলপাড় হয়। কখনো সে মানসিক ক্লান্তিতে ভুগতে শুরু করে। অনেক সময় আমরা ইস্তিখারা করি, অভিজ্ঞ…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/religion/islam/zoflh26sx1",
+          "author": "ধর্ম ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla/2021-01/1d75151c-eff9-4e9f-ac28-aebc4618d00f/palo_bangla_og.png",
+          "time": "ভোর ৪:৩০"
+        }
+      ],
+      "Entertainment": [
+        {
+          "headline": "টম ক্রুজকে ভালোবেসে...",
+          "excerpt": "নিকোল কিডম্যান। ছবি: রয়টার্সহলিউড তারকা টম ক্রুজকে বিয়ের সময় অনেকেই সতর্ক করেছিলেন—বড় তারকার ছায়ায় ঢাকা পড়ে শেষ হয়ে যেতে পারে অভিনয়জীবন। তবে প্রেমে অন্ধ নিকোল কিডম্যান সেসব সতর্কবার্তাকে পাত্তাই দেননি। ভোগ সাময়িকীর ব্রিটিশ সংস্করণের সেপ্টেম্বর সংখ্যার জন্য দেওয়া বিশেষ সাক্ষাৎকারে নিজের ফেলে আসা জীবন ও বিয়ে নিয়ে খোলামেলা কথা বলেছেন ৫৯ বছর বয়সী এই অস্কারজয়ী অস্ট্রেলিয়ান অভিনেত্রী১৯৯০ সালে ডেজ অব…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/entertainment/hollywood/kbu6h827ll",
+          "author": "কাউসার খান",
+          "image": "https://media.prothomalo.com/prothomalo%2Fimport%2Fmedia%2F2016%2F01%2F31%2F154a06453debc35202a00cc96e108acb-8.jpg?rect=0%2C0%2C1000%2C525&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "রাত ১২:১৯"
+        }
+      ],
+      "Tech": [
+        {
+          "headline": "VisionQuest trailer kicks off Disney's D23 fan event",
+          "excerpt": "The force is with D23\n  \n\n      \n\n      \n\n      \n        Also: Ahsoka S2 teaser, Doomsday trailer, news about MCU’s X-Men and Star Wars: Starfighter\n      \n\n              \n          \n\n    \n    \n    \n          Credit:\n\n          \n          Marvel Studios\n\n                  \n          \n  \n  \n\n\n\n  \n\n  \n      \n    \n    \n                      \n                      \n          It was a busy first day…",
+          "source": "Ars Technica",
+          "link": "https://arstechnica.com/culture/2026/08/visionquest-trailer-kicks-off-disneys-d23-fan-event/",
+          "author": "Jennifer Ouellette",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/visionquest2-1152x648.jpg",
+          "time": "রাত ৩:২১"
+        },
+        {
+          "headline": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
+          "excerpt": "A woman identified as Jane Doe 4 has joined a lawsuit filed by three Tennessee teenagers against Elon Musk’s xAI over the role the company’s chatbot Grok allegedly played in creating child sexual abuse material.\n\nAccording to a report in The Washington Post, the woman alleged that her stepfather used Grok to manipulate a photo taken when she was 11 years old to create more than 7,000 explicit…",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/",
+          "author": "Anthony Ha",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/03/grok-getty.jpg?resize=1200,800",
+          "time": "রাত ৩:২৯"
+        },
+        {
+          "headline": "Matt Groening lets slip that Simpsons: Hit &#038; Run might be making a comeback",
+          "excerpt": "Skip to main contentThe cult classic is long overdue for an HD remaster.The cult classic is long overdue for an HD remaster.by  Terrence O'BrienAug 15, 2026, 9:56 PM UTCTerrence O'Brien is the Verge’s weekend editor. He’s covered the tech industry for over 18 years and knows a thing or two about synths.At D23, when asked about the potential for a sequel to the cult classic The Simpsons: Hit &…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/entertainment/980720/matt-groening-simpsons-hit-run-d23",
+          "author": "Terrence O'Brien",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/simpsons-hit-and-run.jpg?quality=90&strip=all&crop=2.25%2C0%2C95.5%2C100&w=1200",
+          "time": "রাত ৩:৫৬"
+        },
+        {
+          "headline": "What is a Bluetooth codec and which one offers the best audio quality?",
+          "excerpt": "If you want the best quality out of your Bluetooth audio, it's worth reviewing some…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2236801/what-is-bluetooth-codec-which-offers-best-audio-quality/",
+          "author": "Deven McClure",
+          "image": "https://www.engadget.com/img/gallery/what-is-a-bluetooth-codec-and-which-one-offers-the-best-audio-quality/l-intro-1786131923.jpg",
+          "time": "রাত ৩:৩০"
+        },
+        {
+          "headline": "Anthropic shares more details about how Claude’s new watermarks will work",
+          "excerpt": "Anthropic published a blog post Friday seeking to answer some basic questions about how it will watermark the text generated by its chatbot Claude. Such as: How will the watermarking actually work? Can it be hidden with editing? And how does this affect code?\n\nClaude users have been debating the move since the company revealed earlier this week that it would be doing this watermarking to comply…",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/",
+          "author": "Anthony Ha",
+          "image": "https://techcrunch.com/wp-content/uploads/2024/01/Magnifying-glasses.jpg?resize=1200,840",
+          "time": "রাত ১২:৫৮"
+        },
+        {
+          "headline": "Have a laugh at AI’s expense by roleplaying as a chatbot",
+          "excerpt": "Skip to main contentScribble some nonsense, offer wooden jokes, or make your own requests of a real human playing a fake AI.Scribble some nonsense, offer wooden jokes, or make your own requests of a real human playing a fake AI.by  Terrence O'BrienAug 15, 2026, 8:45 PM UTCTerrence O'Brien is the Verge’s weekend editor. He’s covered the tech industry for over 18 years and knows a thing or two…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot",
+          "author": "Terrence O'Brien",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/Screenshot-2026-08-15-at-4.40.53-PM.png?quality=90&strip=all&crop=8.7465986394558%2C0%2C82.506802721088%2C100&w=1200",
+          "time": "রাত ২:৪৫"
+        },
+        {
+          "headline": "Apple Watch battery replacement: How much does it cost and is it worth it?",
+          "excerpt": "Should you replace your Apple Watch's battery or upgrade to a new model?\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                   …",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2237226/apple-watch-battery-replacement-how-much-cost-worth-it/",
+          "author": "Christine Persaud",
+          "image": "https://www.engadget.com/img/gallery/apple-watch-battery-replacement-how-much-does-it-cost-and-is-it-worth-it/l-intro-1786723362.jpg",
+          "time": "রাত ২:০০"
+        },
+        {
+          "headline": "Why are RAM prices so high right now?",
+          "excerpt": "And when will they come back down again?\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                    Daniel Cooper for…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2236799/why-ram-prices-so-high/",
+          "author": "Daniel Cooper",
+          "image": "https://www.engadget.com/img/gallery/why-are-ram-prices-so-high-right-now/l-intro-1786661687.jpg",
+          "time": "রাত ১২:৩০"
+        },
+        {
+          "headline": "Marek Olšák's 19 Latest Patches Further Optimizing RADV & ACO",
+          "excerpt": "Legendary Mesa Radeon Gallium3D driver developer Marek Olšák who was a longtime AMD employee and then joined Valve's Linux graphics driver team earlier this year has continued his focus now on perfecting his art around the RADV Vulkan driver and ACO shader compiler.\n\nSince joining Valve several months ago, Marek has managed to pull of some nice improvements in the RADV space after years focused…",
+          "source": "Phoronix",
+          "link": "https://www.phoronix.com/news/RADV-ACO-19-More-Patches-Valve",
+          "author": "Written by Michael Larabel in Radeon on 15 August 2026 at 08:17 PM EDT. Add A Comment",
+          "image": "",
+          "time": "সকাল ৬:১৭"
+        }
+      ]
+    }
+  },
+  {
     "dt": "2026-08-15T01:10:15.144Z",
     "file": "runs/2026-08-15-0110.html",
     "counts": {
