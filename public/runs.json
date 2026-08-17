@@ -1,5 +1,622 @@
 [
   {
+    "dt": "2026-08-17T01:11:49.555Z",
+    "file": "runs/2026-08-17-0111.html",
+    "counts": {
+      "Local": 1,
+      "International": 28,
+      "Entertainment": 2,
+      "Tech": 10,
+      "Sports": 25
+    },
+    "grouped": {
+      "Entertainment": [
+        {
+          "headline": "বাগ্দানের আংটির ছবি দিলেন গায়িকা",
+          "excerpt": "নভেম্বরে বিয়ে সারবেন ‘কে-পপ ডেমন হান্টার্স’ গায়িকা ইজে। এর আগে বাগ্‌দানের ছবি সামাজিক মাধ্যমে পোস্ট করলেন তিনি।১ / ৫কোরিয়ান-আমেরিকান প্রযোজক স্যাম কিমকে বিয়ে করছেন ইজেশিল্পীর ইনস্টাগ্রাম থেকে২ / ৫তাঁর সঙ্গে তোলা কয়েকটি ছবি সামাজিক মাধ্যমে পোস্ট করে লিখেছেন, ‘এমন একজনকে পেয়ে আমি কৃতজ্ঞ, যাকে নিজের ঘর বলে ডাকতে পারি। একসঙ্গে ৯ বছর, সামনে আরও অনেক বছর কাটাতে চাই।’শিল্পীর ইনস্টাগ্রাম থেকে৩ / ৫ইজের…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/entertainment/song/lf2y72cqtv",
+          "author": "বিনোদন ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-16%2Fv40k45mm%2Fejaek17866848763963317702202458021308203137.jpg?rect=0%2C0%2C1080%2C567&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "ভোর ৫:০০"
+        },
+        {
+          "headline": "জ্বালানি সংকট সমাধানে কমপক্ষে দুই বছর সময় লাগতে পারে: অর্থমন্ত্রী",
+          "excerpt": "বাংলাদেশের চলমান জ্বালানি সংকট সমাধানে কমপক্ষে দুই বছর সময় লাগতে পারে বলে মনে করেন অর্থ ও পরিকল্পনামন্ত্রী আমির খসরু মাহমুদ চৌধুরী। অন্যদিকে আগামী ২০শে অগাস্ট অনুষ্ঠিতব্য রাষ্ট্রপতি পদে নির্বাচনে বিএনপির প্রার্থী মির্জা ফখরুল ইসলাম আলমগীর ও জামায়াত জোট সমর্থিত প্রার্থী অলি আহমদের মনোনয়নপত্র বৈধ ঘোষণা করেছে নির্বাচন কমিশন।সরাসরি কভারেজরিপোর্টিং করেছেন মুকিমুল আহসান, সম্পাদনায় সায়েদুল ইসলাম৮…",
+          "source": "BBC Bangla Entertainment",
+          "link": "https://www.bbc.co.uk/bengali/live/cm0rddp0n98xt?at_medium=RSS&at_campaign=rss",
+          "author": "BBC News বাংলা",
+          "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/3838/live/33ae4a80-9980-11f1-a4eb-59b79ff5ff4f.jpg",
+          "time": ""
+        }
+      ],
+      "International": [
+        {
+          "headline": "Trump says US to ‘substantially reduce’ military drills with South Korea",
+          "excerpt": "US president says he’s ‘not happy’ about the drills, citing his ‘very good relationship’ with North Korea’s Kim Jong Un.US President Donald Trump has ordered the Pentagon to scale back joint military exercises with close ally South Korea, citing his “very good relationship” with North Korean leader Kim Jong Un.Trump said in a social media post on Sunday that the exercises, due to start on…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/17/trump-says-us-to-substantially-reduce-military-drills-with-south-korea?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/getty_6a823fd8d7-1786920920.jpg?resize=1920%2C1440",
+          "time": "সকাল ৬:১১"
+        },
+        {
+          "headline": "Ebola outbreak in Democratic Republic of Congo now deadliest in country’s history",
+          "excerpt": "The Ebola outbreak in the Democratic Republic of Congo is now the deadliest in the country’s history with at least 2,325 people killed, according to government data, surpassing the toll from the 2018-20 outbreak.Congo’s public health institute said on Sunday that confirmed cases had risen to 4,945, including 101 new cases detected in the previous 24 hours.West Africa’s 2014-16 Ebola outbreak…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/world/2026/aug/17/ebola-outbreak-drc-democratic-republic-of-congo-deadliest-in-history",
+          "author": "Nadeem Badshah",
+          "image": "https://i.guim.co.uk/img/media/a393063cc2d82e5b3b20c44e22654a645b95ab37/581_0_5000_4000/master/5000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=01a5dd5d8d86bc2efe5aced65507cdaa",
+          "time": "সকাল ৬:০৯"
+        },
+        {
+          "headline": "Israel releases 35 Palestinian prisoners back into Gaza",
+          "excerpt": "NewsFeedEmotional reunions greeted 35 Palestinians prisoners released by Israel into Gaza. More than 9,400 Palestinians remain imprisoned, with rights groups documenting torture, sexual violence and deliberate starvation in Israeli detention.Published On 17 Aug 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/8/17/08-17-26-pal-prisoners-release-sv-mp4?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/image-1786924991.jpg?resize=1200%2C675",
+          "time": "সকাল ৬:০৫"
+        },
+        {
+          "headline": "Iran war live: Tehran-US MoU set to expire; Hamas’s al-Khayya meets Kushner",
+          "excerpt": "Live updates, Hamas calls on Board of Peace to ‘compel’ Israel to accept the Gaza peace plan after the Palestinian group, led by political chief al-Hayya, met with Kushner in Egypt.Published On 17 Aug 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/liveblog/2026/8/17/iran-war-live-tehran-us-mou-set-to-expire-hamass-al-khayya-meets-kushner?traffic_source=rss",
+          "author": "Ali Mustafa, Mariem Bah",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/epa_6a825656138c-1786926678.jpg?resize=1920%2C1440",
+          "time": "সকাল ৬:০০"
+        },
+        {
+          "headline": "UN’s Albanese: Israel outsourcing coercion to settlers in West Bank",
+          "excerpt": "NewsFeedIsraeli settlers have been surrounding three homes in the occupied West Bank village of Qusra for a week, trapping Palestinian residents inside. UN Special Rapporteur Francesca Albanese says Israel bears responsibility and is outsourcing coercion to settlers.Published On 16 Aug 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/8/16/uns-albanese-israel-outsourcing-coercion-to-settlers-in-west-bank?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/image-1786924707.jpg?resize=1920%2C1080&quality=80",
+          "time": "ভোর ৫:৫৮"
+        },
+        {
+          "headline": "Israeli minister calls for killing ’30 to 40′ Palestinians in Gaza nightly",
+          "excerpt": "Far-right National Security Minister Itamar Ben-Gvir sits on Israel’s security cabinet, which helps shape war and policy.Israel’s far-right national security minister, Itamar Ben-Gvir, says Israeli forces should “kill 30 or 40” people in Gaza every night and go beyond “those who pose a danger … at that particular moment”.Ben-Gvir made the comments to Rom Braslavski – a former Israeli captive…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/16/israeli-minister-calls-for-killing-30-to-40-palestinians-in-gaza-nightly?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2025/11/epa_691b335b1de4-1763390299.jpg?resize=1920%2C1440",
+          "time": "ভোর ৫:৫৮"
+        },
+        {
+          "headline": "What could stop Israeli settler attacks on Palestinians?",
+          "excerpt": "Inside StoryViolence in the occupied West Bank has intensified under Israel’s far-right Netanyahu government.Israeli settler attacks in the occupied West Bank are trapping Palestinian families in their homes.The violence is taking place as Israel’s far-right government faces elections in October.Why are attacks by settlers intensifying? And what are the consequences?Presenter: Imran…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/inside-story/2026/8/16/what-could-stop-israeli-settler-attacks-on-palestinians?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/ap_6a81c3e78437b-1786889191.jpg?resize=1920%2C1440",
+          "time": "রাত ৩:৫৪"
+        },
+        {
+          "headline": "Brazil’s Lula launches historic fourth term bid – but son of jailed Bolsonaro stands in his way",
+          "excerpt": "Brazil’s leftwing president, Luiz Inácio Lula da Silva, has launched his campaign for a historic fourth term and vowed that as long as he lived he would not allow the “shameless” right to return to power.Addressing a sea of supporters in São Bernardo do Campo, the industrial city where his political career began nearly half a century ago, the 80-year-old politician reminded voters of the chaos…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/world/2026/aug/16/lula-brazil-president-fourth-term-jair-flavio-bolsonaro",
+          "author": "Tom Phillips",
+          "image": "https://i.guim.co.uk/img/media/3e2ace44178f44321232918e4c929d66067c6ce5/0_0_2585_2068/master/2585.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=5cb9ab1518ecbe7774e9f25d2d2e5f80",
+          "time": "রাত ১২:৪৪"
+        },
+        {
+          "headline": "Hundreds of migrants arrested near Ceuta border in latest crackdown",
+          "excerpt": "Nearly 300 migrants and 61 alleged facilitators detained during mass migration attempt.Moroccan security forces have arrested hundreds of migrants trying to reach the Spanish exclave of Ceuta by land and sea as authorities tightened security along the border following calls for a new mass crossing.Moroccan state broadcaster Medi 1 TV said 294 migrants from sub-Saharan Africa were arrested on…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/16/hundreds-of-migrants-arrested-near-ceuta-border-in-latest-crackdown?traffic_source=rss",
+          "author": "By Reuters and The Associated Press",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/afp_6a8225d45b03-1786914260.jpg?resize=1920%2C1440",
+          "time": "রাত ৩:৫১"
+        },
+        {
+          "headline": "Anwar Ibrahim: Malaysia between the superpowers",
+          "excerpt": "A Changing World? The Contest for Global PowerMalaysian PM Anwar Ibrahim joins Sreenivasan Jain on justice, trade, and a middle power holding superpowers to account.As rules-based order frays, the world’s middle powers are being forced to pick sides – or carve out a path of their own.Malaysian Prime Minister Anwar Ibrahim joins Sreenivasan Jain to debate justice, trade and sovereignty in an age…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/the-india-report/2026/8/16/anwar-ibrahim-malaysia-between-the-superpowers?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/image-1786915353.jpg?resize=1920%2C1080&quality=80",
+          "time": "রাত ৩:২৩"
+        },
+        {
+          "headline": "Death toll rises to 84 from capsized ferry in Zimbabwe",
+          "excerpt": "The boat overturned during heavy winds near the Zambian border.Zimbabwean police have recovered more bodies after a ferry capsized on Lake Kariba, bringing the death toll to at least 84.Zimbabwe’s national police service confirmed in a post on X on Sunday that four bodies had been found and that search efforts were still under way.Recommended Stories list of 3 itemslist 1 of 3How telehealth is…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/16/death-toll-rises-to-84-from-capsized-ferry-in-zimbabwe?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/reuters_6a8210f5-1786908917.jpg?resize=1200%2C675",
+          "time": "রাত ৩:০৩"
+        },
+        {
+          "headline": "Israelis harass Palestinian-owned cafe in Iceland, tear down Palestine map",
+          "excerpt": "NewsFeedCCTV video from a cafe owned by Palestinians in Iceland shows what appear to be Israeli tourists ripping a framed map of Palestine off the wall after they harassed the staff for having a map that read: “From the river to the sea, Palestine will be free,” on the wall.Published On 16 Aug 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/8/16/israelis-harass-palestinian-owned-cafe-in-iceland-tear-down-palestine-map?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/Screenshot-2026-08-16-at-21.56.23-1786913951.png?resize=1200%2C675",
+          "time": "রাত ৩:০২"
+        },
+        {
+          "headline": "Erdogan says Hamas acted sincerely, criticises Israeli attacks",
+          "excerpt": "NewsFeedSpeaking to Al Jazeera in an exclusive interview for ‘Al Muqabala’, Turkish President Recep Tayyip Erdogan said Hamas has shown all the possible sincere solidarity, while Israel continues what he described as aggressive attacks on Gaza and Lebanon. He added that Trump is concerned about the situation and that Turkiye will continue to warn against further escalation.Published On 16 Aug 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/8/16/16-08-clip-erdogan-gaza-tr?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/image-1786913690.jpg?resize=1920%2C1080&quality=80",
+          "time": "রাত ২:৫৫"
+        },
+        {
+          "headline": "Trump orders cuts to South Korea joint drills despite warnings of North’s growing battlefield experience",
+          "excerpt": "Donald Trump has said he is scaling back joint US military drills with South Korea aimed at deterring North Korea, despite military officials from both countries warning that Kim Jong-un’s regime was learning new battlefield tactics from the Ukraine war.The drills under Ulchi Freedom Shield, one of two major annual exercises held by South Korea and the US, start on Monday and run until 27…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/world/2026/aug/17/trump-cuts-south-korea-joint-drills-us-military-good-relationship-kim-jong-un",
+          "author": "Raphael Rashid",
+          "image": "https://i.guim.co.uk/img/media/812d23651e2260e3817cb53514597677be97214b/367_1_2220_1777/master/2220.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=a3b589bdf8e9ccfde72ffe5c256247c9",
+          "time": "সকাল ৬:১৯"
+        },
+        {
+          "headline": "US admiral praises USS Lincoln crew amid reported mental health concerns",
+          "excerpt": "Politicians voiced alarm over mental health struggles on carrier, with reports of sailors attempting to jump overboard.US Admiral Brad Cooper has visited the USS Abraham Lincoln aircraft carrier after reports of mental health and supply issues and described the crew as “awe-inspiring”.“Of the US Navy’s 11 active aircraft carriers, the Lincoln currently has among the lowest number of cases…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/16/us-admiral-praises-uss-lincoln-crew-amid-reported-mental-health-concerns?traffic_source=rss",
+          "author": "Umar Farooq",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/afp_6a8218c6d8fa-1786910918.jpg?resize=1920%2C1440",
+          "time": "রাত ২:৪৬"
+        },
+        {
+          "headline": "Brazil: Lula, Bolsonaro return to strongholds to launch runs for president",
+          "excerpt": "Candidates Lula and Bolsonaro appeal to Brazil’s women voters with promises to combat rising femicide and gender violence.Brazil’s two main presidential candidates have inaugurated their campaigns by mustering supporters in their political strongholds ahead of what is expected to be a fierce October election.President Luiz Inacio Lula da Silva spoke with nostalgia to more than 10,000 supporters…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/16/brazil-lula-bolsonaro-return-to-strongholds-to-launch-runs-for-president?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/ap_6a8211dd06218-1786909149.jpg?resize=1920%2C1440",
+          "time": "রাত ২:৩৬"
+        },
+        {
+          "headline": "US-Iran MoU is set to expire: What to know",
+          "excerpt": "The Memorandum of Understanding aimed at ending fighting between the US and Iran is set to expire on Monday, with little sign that either side is willing to extend the agreement, which both sides have accused the other of violating for weeks.“We have not yet made a decision to restart negotiations with the United States,” Iranian Foreign Minister Abbas Araghchi said in a post on Telegram on…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/16/us-iran-mou-is-set-to-expire-what-to-know?traffic_source=rss",
+          "author": "Umar Farooq",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/epa_6a820a7a9de6-1786907258.jpg?resize=1920%2C1440",
+          "time": "রাত ২:২৮"
+        },
+        {
+          "headline": "Senegal’s Saint-Louis Regatta keeps centuries of tradition alive",
+          "excerpt": "NewsFeedThousands gathered in Saint-Louis, Senegal, for the annual regatta, a centuries-old canoe race that remains a symbol of the city’s fishing heritage.Published On 16 Aug 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/8/16/16-08-sv-senegal-boat-tradition-sn?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/image-1786910637.jpg?resize=1920%2C1080&quality=80",
+          "time": "রাত ২:০৪"
+        },
+        {
+          "headline": "Anti-corruption raids in Baghdad as dozens of officials arrested",
+          "excerpt": "NewsFeedIraq’s Integrity Commission announced the seizure of millions in cash and jewelry said to be linked to charges of corruption and illicit enrichment against officials in Baghdad’s Green Zone. Here’s what we know.Published On 16 Aug 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/8/16/anti-corruption-raids-in-baghdad-as-dozens-of-officials-arrested?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/image-1786910521.jpg?resize=1920%2C1080&quality=80",
+          "time": "রাত ২:০২"
+        },
+        {
+          "headline": "Australia politics live: Hume denies Chalmers’ claims that Coalition would ‘end super as we know it’; NAB profits rise as customers show signs of stress",
+          "excerpt": "From 1h agoChalmers ‘simply making things up’: HumeThe deputy Liberal leader, Jane Hume, has responded to Jim Chalmers’ claim that the Coalition would end the super guarantee, accusing him of making stuff up.Before heading out to Googong with Angus Taylor for a press conference, Hume rejected Chalmers’ comments and told reporters at parliament:\n double quotation markI think the treasurer has a…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/australia-news/live/2026/aug/17/australia-politics-live-labor-work-rights-visa-holders-anthony-albanese-angus-taylor-pauline-hanson-liberal-party-one-nation-ntwnfb",
+          "author": "Krishani Dhanji, Benita Kolovos, Kat Wong, Jonathan Barrett, Penry Buckley, Tom McIlroy",
+          "image": "https://i.guim.co.uk/img/media/8776b74be7e6a731fed393e6ed0ed553ec7fa6f1/0_0_5000_4000/master/5000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=b5647797e441bdd8240cc14fa59dcd22",
+          "time": "সকাল ৬:৫১"
+        },
+        {
+          "headline": "Erdogan says Israeli attacks on Lebanon are a serious concern for Türkiye",
+          "excerpt": "Turkish President Erdogan says Israeli attacks on Lebanon are a serious concern for TürkiyeNewsFeedSpeaking to Al Jazeera in an exclusive interview for ‘Al Muqabala’, Turkish President Recep Tayyip Erdogan said continued Israeli attacks on Lebanon are a source of serious concern for Ankara.Published On 16 Aug 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/8/16/erdogan-says-israeli-attacks-on-lebanon-are-a-serious-concern-for-turkiye?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/Screenshot-2026-08-16-at-20.24.30-1786908484.png?resize=1200%2C675",
+          "time": "রাত ১:২৯"
+        },
+        {
+          "headline": "Kushner meets Hamas leaders in Egypt to push Trump’s Gaza plan",
+          "excerpt": "Hamas leaders have met in Egypt with US President Donald Trump’s son-in-law and Middle East envoy, Jared Kushner, who is seeking to push a peace plan for Gaza that Israel has rejected.A Palestinian source told Al Jazeera on Sunday that Hamas’s leadership briefed Kushner on Israel’s ceasefire violations in Gaza. The source also stated that Kushner said the US rejects any plans to displace Gaza’s…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/16/kushner-meets-hamas-in-egypt-to-push-trumps-gaza-plan?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/afp_6a81fe0c1af9-1786904076.jpg?resize=1920%2C1440",
+          "time": "রাত ১:২৩"
+        },
+        {
+          "headline": "Erdogan calls for Strait of Hormuz reopening amid oil disruption",
+          "excerpt": "NewsFeedTurkish President Recep Tayyip Erdogan has called for the Strait of Hormuz to reopen, stating that global oil flows must resume. He added that both Turkey and Iran support keeping oil moving through the strategic waterway at the centre of US–Iran tensions.Published On 16 Aug 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/8/16/16-08-clip-erdogan-hormuz-tr?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/image-1786907846.jpg?resize=1920%2C1080&quality=80",
+          "time": "রাত ১:১৮"
+        },
+        {
+          "headline": "Five teenagers killed after car driven on wrong side of Irish motorway",
+          "excerpt": "Five teenagers have died and four other people have been seriously injured in a crash involving a car driving in the wrong direction on a motorway in the Republic of Ireland, police said.Gardaí confirmed the bodies of the youths, all male, had been removed from the scene of the two-vehicle collision, which happened at about 3am on Sunday on the M9 in County Kildare.The force said the occupants…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/world/2026/aug/16/five-teenagers-killed-and-four-other-people-injured-in-ireland-car-crash",
+          "author": "Nadeem Badshah",
+          "image": "https://i.guim.co.uk/img/media/59fdf8929beea22a5fa6ba76536587aa0d2ed510/30_0_3289_2632/master/3289.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=3c224f32bc4f547897203afbf05df264",
+          "time": "রাত ৩:৫০"
+        },
+        {
+          "headline": "Jared Kushner meets with Hamas ahead of talks with Netanyahu on Gaza",
+          "excerpt": "Donald Trump’s son-in-law and envoy, Jared Kushner, held a rare meeting with Hamas’s political chief on Sunday in Egypt, in a new diplomatic effort to make progress in the stalled Gaza ceasefire. Kushner will meet on Monday with Benjamin Netanyahu, who is under pressure after rejecting the new 15-point, US-backed road map.The talks aim to salvage the plan for Hamas to disarm and Israel to…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/us-news/2026/aug/16/jared-kushner-hamas-gaza-meeting",
+          "author": "Guardian staff reporter",
+          "image": "https://i.guim.co.uk/img/media/2ab9f13746943762391cd240ceb44d7b9716ead1/0_59_4490_3593/master/4490.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=e1ad6f041498bde074acb73baac380b5",
+          "time": "ভোর ৪:০৭"
+        },
+        {
+          "headline": "Reform accused of targeting the most vulnerable with £50bn benefit cut",
+          "excerpt": "Reform UK has been accused of excluding the most vulnerable from society and punishing non-Britons living in the UK as it prepared to outline £50bn of cuts to benefits for disabled people and foreign nationals.Robert Jenrick, Reform’s finance spokesperson, will detail the plans for £20bn of cuts to disability benefits overall, as well as another £21bn from stopping foreign nationals – including…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/society/2026/aug/16/jenrick-cuts-benefits-disabled-people-foreign-nationals",
+          "author": "Rowena Mason",
+          "image": "https://i.guim.co.uk/img/media/6cbeb78525d56a4a8f7ffebe1cc6ee26048cb59e/436_0_6517_5215/master/6517.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=c154b4b243b2e3c1b678881beb86d4bc",
+          "time": "রাত ৩:০০"
+        },
+        {
+          "headline": "Republican senator denounces Trump’s ‘crazy, stupid’ claims about MMR vaccine safety",
+          "excerpt": "Republican senator Bill Cassidy – a medical doctor who voted to confirm anti-vaccine activist Robert F Kennedy as federal health secretary in early 2025 – on Sunday denounced Donald Trump’s “crazy, stupid” claims about the safety of the combined MMR vaccine for undermining faith in immunization.When Trump recently ordered changes to the recommended childhood vaccination schedule, with Kennedy by…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/us-news/2026/aug/16/republican-senator-bill-cassidy-denounces-trump-vaccine-claims",
+          "author": "Robert Mackey",
+          "image": "https://i.guim.co.uk/img/media/3b45ee815bdd6163fe76148bf37eaeed4af2f1af/631_0_4583_3667/master/4583.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=b2ff4e8574ea2bce23e94fc271315d63",
+          "time": "রাত ১:৫৮"
+        },
+        {
+          "headline": "At least six people dead from days of storms and record flooding in Indiana",
+          "excerpt": "Days of storms and flooding in Indiana left at least six people dead as flood waters peaked in Indianapolis’s White River – and rains were expected to ease in the state capital region and other parts of the state on Sunday.A four-year-old boy, two men and three women were among those who had died since the storms began on 11 August, state homeland security department spokesperson Liz Woods…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/us-news/2026/aug/16/indiana-storms-flooding-deaths",
+          "author": "Guardian staff reporter",
+          "image": "https://i.guim.co.uk/img/media/f79c786c1ea17cde32bfac3fdddffa268968cf0a/125_0_3750_3000/master/3750.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=7f431c7f9b25614e0ccbe7aefdda3ad2",
+          "time": "রাত ১:২৭"
+        }
+      ],
+      "Local": [
+        {
+          "headline": "হৃদয়ে প্রশান্তি পেতে নবীজির শেখানো ৩টি দোয়া",
+          "excerpt": "দোয়া হৃদয়ে প্রশান্তি পেতে নবীজির শেখানো ৩টি দোয়াধর্ম ডেস্ক ছবি: পেক্সেলসপ্রকৃত সুখ ও প্রশান্তির মূল উৎস হলেন মহান আল্লাহ, যিনি সকল কল্যাণের আধার। আধুনিক মনস্তত্ত্ব স্বীকার করে যে ইতিবাচক চিন্তা ও মানসিক দৃষ্টিভঙ্গির পরিবর্তন মানুষকে সুখী হতে সাহায্য করে।ইসলামে এই দুটি বিষয়কে অত্যন্ত চমৎকারভাবে দৈনন্দিন জিকির ও দোয়ার মধ্যে সমন্বিত করা হয়েছে।মহানবীর শেখানো তিনটি কালজয়ী জিকির ও দোয়া নিয়ে আলোচনা করা…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/religion/islam/ldiz38qr5p",
+          "author": "ধর্ম ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-16%2Faottpvb5%2Fpexels-gr-stocks-1716147-8522564.jpg?rect=0%2C94%2C5868%2C3081&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "ভোর ৪:৩০"
+        }
+      ],
+      "Sports": [
+        {
+          "headline": "History for Hunt and Asher-Smith in golden finish for GB",
+          "excerpt": "Figure caption, Hunts wins fourth gold as Great Britain storm to mixed 4x100m relay victoryByHarry PooleBBC Sport journalistAmy Hunt and Dina Asher-Smith made history and Georgia Hunter Bell claimed a commanding 1500m gold in a spectacular finish for Great Britain at the European Championships.Sprint sensation Hunt held up four fingers to the camera after holding off Germany's challenge on the…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/athletics/articles/c30444dmqe0o?at_medium=RSS&at_campaign=rss",
+          "author": "Harry Poole",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/3036/live/c39c6850-99af-11f1-9b60-95a3fcadaf8d.jpg",
+          "time": "রাত ২:১৪"
+        },
+        {
+          "headline": "Misery for Maresca as Man City make dismal start to life after Guardiola",
+          "excerpt": "3 HOUR(s)\n\t\t\t\t\t\n\t\t\t\t\t\tUPDATED\n\t\t\t\t\t\t3 HOUR(s)\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\n\n\n\t\t\t\n  \n                  \n              \n                  \n\n  \n\n\n\t\t\t\n\t\t\t\t\t\t\tPhoto: Reuters \n\t\t\t\t\t\t\n\t\t\nEnzo Maresca urged Manchester City to learn from their chastening Community Shield defeat against Arsenal after the Italian made a dismal start to the daunting task of replacing Pep Guardiola.For the first time in a…",
+          "source": "The Daily Star Sports",
+          "link": "https://www.thedailystar.net/sports/football/news/misery-maresca-man-city-make-dismal-start-life-after-guardiola-4249511",
+          "author": "AFP, Cardiff",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-08/2026-08-16T153704Z_1330329431_UP1EM8G17DQUN_RTRMADP_3_SOCCER-ENGLAND-ARS-MCI.JPG",
+          "time": "রাত ৩:০৩"
+        },
+        {
+          "headline": "Barcelona agree £65m Rodri deal - who could replace him at Man City?",
+          "excerpt": "Barcelona have agreed a deal to sign Spain captain Rodri from Manchester City for about £65mThe 30-year-old, who won the Ballon d'Or in 2024, is set to sign a four-year deal with the Spanish champions. The transfer is expected to be completed in the coming days.Rodri made 298 appearances across seven trophy-laden seasons at City after joining them from Atletico Madrid in 2019 for a then club…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cy0jj65r18yo?at_medium=RSS&at_campaign=rss",
+          "author": "Elizabeth Conway",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/6425/live/0b8f72c0-99a5-11f1-a10a-71ff76b28954.jpg",
+          "time": "রাত ১:৩৭"
+        },
+        {
+          "headline": "Darwin domination: The numbers behind Bangladesh’s historic win",
+          "excerpt": "4 HOUR(s)\n\t\t\t\t\t\n\t\t\t\t\t\tUPDATED\n\t\t\t\t\t\t4 HOUR(s)\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\n\n\t\tStar Sports Report \n\t\t\t\t\t\n\n\t\t\t\t\t\n\n\t\t\t\n  \n                  \n              \n                  \n\n  \n\n\n\t\t\t\n\t\t\t\t\t\t\tBangladesh player Mehidy Hasan Miraz poses with fans after victory against Australia on the fourth day of the first cricket Test match between Australia and Bangladesh at Marrara Stadium in Darwin on August…",
+          "source": "The Daily Star Sports",
+          "link": "https://www.thedailystar.net/sports/cricket/news/darwin-domination-the-numbers-behind-bangladeshs-historic-win-4249506",
+          "author": "Star Sports Report",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-08/AFP__20260816__C4RJ2NQ__v1__HighRes__CricketAustraliaVBangladesh1stTest.jpg",
+          "time": "রাত ২:৫৭"
+        },
+        {
+          "headline": "What awaits new Scotland head coach Pocognoli?",
+          "excerpt": "The Scotland job in 2026 looks a lot different from the one Clarke took on in 2019.Two months prior to Clarke's appointment, the national team had been humiliated in Kazakhstan. They had not featured at a major finals in two decades.Seven years on, Scotland have been at back-to-back European Championships and a World Cup. Clarke qualified for three of four tournaments on his watch.Pocognoli will…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cly995z1j8go?at_medium=RSS&at_campaign=rss",
+          "author": "Nick McPheat",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/5751/live/f7a80590-9960-11f1-9712-2936f8c80214.jpg",
+          "time": "রাত ২:২৫"
+        },
+        {
+          "headline": "Barcelona reach deal with Man City to sign Rodri",
+          "excerpt": "Barcelona have reached a deal with Manchester City to sign Spanish World Cup winner Rodri, a source from the Catalan club told AFP Sunday.The 30-year-old midfielder will move for a fee of around 75 million euros ($87 million) according to reports.\"In the coming days there will be a statement and (the transfer) will become official,\" said the Barcelona source.Rodri had been linked with Real…",
+          "source": "The Daily Star Sports",
+          "link": "https://www.thedailystar.net/sports/football/news/barcelona-reach-deal-man-city-sign-rodri-4249496",
+          "author": "AFP, Barcelona",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-08/Rodri%20_1.jpg",
+          "time": "রাত ২:০১"
+        },
+        {
+          "headline": "Nightmare Man City start for Maresca - are Arsenal really so far ahead?",
+          "excerpt": "Arsenal took the lead after just 23 seconds, doubled their advantage thanks to some static City defending in the 23rd minute, and then added a third three minutes into the second half.Former Arsenal defender Martin Keown told TNT Sports at the end of the game: \"The gap was really quite stunning.\"Arsenal really let the handbrake off, but Manchester City looked lifeless. Arsenal have made a real…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/c5y449kwq14o?at_medium=RSS&at_campaign=rss",
+          "author": "Joe Rindl",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/d73e/live/5f434db0-9991-11f1-b374-0b75862fe542.jpg",
+          "time": "রাত ১:৩৭"
+        },
+        {
+          "headline": "A dream Test 23 years in the making",
+          "excerpt": "6 HOUR(s)\n\t\t\t\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tA\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tAbdullah Al Mehdi\n\t\t\t\t\t\t\n\t\t\t\t\t\n\n\t\t\t\n  \n                  \n              \n                  \n\n  \n\n\n\t\t\t\n\t\t\t\t\t\t\tPhoto: BCB\n\t\t\t\t\t\t\n\t\t\nIf the manner of Bangladesh’s performance in the first Test against Australia in Darwin, which culminated in a commanding nine-wicket victory on Day 4 yesterday, is anything to go by, the Tigers are a very different unit…",
+          "source": "The Daily Star Sports",
+          "link": "https://www.thedailystar.net/sports/cricket/news/dream-test-23-years-the-making-4249216",
+          "author": "Abdullah Al Mehdi",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-08/Tigers%20Front%20X.jpg",
+          "time": "রাত ১:০০"
+        },
+        {
+          "headline": "Odegaard says Arsenal 'want to win everything' after Community Shield success",
+          "excerpt": "6 HOUR(s)\n\t\t\t\t\t\n\t\t\t\t\t\tUPDATED\n\t\t\t\t\t\t6 HOUR(s)\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\n\n\n\t\t\t\n  \n                  \n              \n                  \n\n  \n\n\n\t\t\t\n\t\t\t\t\t\t\tArsenal's Martin Odegaard celebrates scoring their third goal with Kai Havertz. Photo: Reuters \n\t\t\t\t\t\t\n\t\t\nMartin Odegaard warned Arsenal's rivals that the Premier League champions want to \"win everything\" after starting their season by…",
+          "source": "The Daily Star Sports",
+          "link": "https://www.thedailystar.net/sports/football/news/odegaard-says-arsenal-want-win-everything-after-community-shield-success-4249481",
+          "author": "AFP, Cardiff",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-08/2026-08-16T151946Z_2120638828_UP1EM8G16DZT8_RTRMADP_3_SOCCER-ENGLAND-ARS-MCI.JPG",
+          "time": "রাত ১২:৫১"
+        },
+        {
+          "headline": "McIlroy admits concerns as Scheffler regains winning feeling at St Jude",
+          "excerpt": "St Jude Championship - round four leaderboard-17 S Scheffler (US); -9 Kim (Kor); -8 A Noren (Swe), S Burns (US); -7 W Clark (US), Im (Kor)Selected others: -6 L Aberg (Swe), T Fleetwood (Eng); -5 M Fitzpatrick (Eng); -4 V Hovland (Nor), J Spieth (US); -3 H Hall (Eng); E J Rose; +3 S Lowry; +8 R McIlroy (NI)Full leaderboardRory McIlroy says \"he felt lost\" as he toiled to a 66th-place finish - 25…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/golf/articles/cre44r1y17no?at_medium=RSS&at_campaign=rss",
+          "author": "Steve Sutcliffe",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/78e7/live/5f20d3f0-99c5-11f1-b885-e3bffd46cc19.jpg",
+          "time": "ভোর ৫:১৫"
+        },
+        {
+          "headline": "‘You will rarely find a team like this’",
+          "excerpt": "6 HOUR(s)\n\t\t\t\t\t\n\t\t\t\t\t\tUPDATED\n\t\t\t\t\t\t6 HOUR(s)\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\n\n\t\t\t\n  \n                  \n              \n                  \n\n  \n\n\n\t\t\t\n\t\t\t\t\t\t\tPhoto: BCB\n\t\t\t\t\t\t\n\t\t\nMohammad Ashraful toured Australia as a player during Bangladesh’s last Test tour of the country in 2003. This time, however, he is in the Bangladesh dugout in a different role as the batting coach. Following Bangladesh’s…",
+          "source": "The Daily Star Sports",
+          "link": "https://www.thedailystar.net/sports/cricket/news/you-will-rarely-find-team-4249476",
+          "author": "The Daily Star",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-08/OMT_1767.JPG",
+          "time": "রাত ১২:৪৪"
+        },
+        {
+          "headline": "Hunt wins fourth gold as GB storm to mixed 4x100m relay victory",
+          "excerpt": "Jeremiah Azu, Dina-Asher Smith, Zharnel Hughes and Amy Hunt combine to win gold for Great Britain in the first mixed 4x100m relay at the European Athletics Championships.Hunt became the first athlete to win four European golds at one championships while Dina Asher-Smith secured a record eighth European career title.READ MORE: Athletics on BBC SportAvailable to UK users only.",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/athletics/videos/cr599jg5dq2o?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/f8f6/live/a39f4450-99aa-11f1-a7ab-8b30adf0800a.jpg",
+          "time": "রাত ১:৪৫"
+        },
+        {
+          "headline": "Englishman Whaley wins US Amateur title",
+          "excerpt": "Jack Whaley became only the second Englishman to win the US Amateur Championship since 1911 as he beat American Jay Leng Jr 4&3 at Merion.Victory will give the 22-year-old a place in the field for the Masters, US Open and The Open at St Andrews in 2027.Whaley, who attends Florida State University, came into the contest as a major underdog against Leng Jr, who is 23rd in the world amateur golf…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/golf/articles/c1711189q2ro?at_medium=RSS&at_campaign=rss",
+          "author": "Steve Sutcliffe",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/b36c/live/64c3d070-99b9-11f1-b03d-cf7b8a5ca01a.jpg",
+          "time": "ভোর ৪:০৫"
+        },
+        {
+          "headline": "Super Giants survive late wobble to win men's Hundred",
+          "excerpt": "The Hundred men's competition: Final, Lord'sTrent Rockets 158-8 (100 balls): Donald 38 (19); Noor 3-33Manchester Super Giants 162-5 (98 balls): Seifert 72 (38); Amir 3-29Manchester Super Giants won by five wicketsScorecardManchester Super Giants survived a late wobble with the bat to beat Trent Rockets by five wickets and win the franchise's first Hundred title at Lord's.Super Giants needed a…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/cricket/articles/c2dkk2j086lo?at_medium=RSS&at_campaign=rss",
+          "author": "Ffion Wynne",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/11cb/live/fb174d00-99b3-11f1-b2ab-0dd01740f9f6.jpg",
+          "time": "রাত ২:২২"
+        },
+        {
+          "headline": "Martinez Juventus move now off - Monday's gossip",
+          "excerpt": "Juventus pull out of move for Emiliano Martinez, Manchester City face competition for Pedro Neto and Real Madrid want Martin Zubimendi.Aston Villa's Argentina goalkeeper Emiliano Martinez, 33, will not be joining Juventus this summer following talks between the clubs. (Athletic - subscription required), externalManchester City are keen to sign Portugal winger Pedro Neto, 26, from Chelsea but…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/c4gkk7r2r4yo?at_medium=RSS&at_campaign=rss",
+          "author": "BBC Sport",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/1ca1/live/ee7e5e40-99b7-11f1-b2ab-0dd01740f9f6.png",
+          "time": "রাত ৩:২৪"
+        },
+        {
+          "headline": "Foxes beat Notts to reach One-Day Cup final",
+          "excerpt": "One-Day Cup, men's semi-final, Uptonsteel Grace RoadLeicestershire 303-7 (50 overs): Shaikh 104, Kelly 53; Pennington 3-65Nott Outlaws 280 all out (49 overs): McCann 64, Hameed 54; A Green 4-40  Leicestershire beat Notts Outlaws by 23 runsScorecardLeicestershire reached their second One-Day Cup final in four years, overcoming Notts Outlaws by 23 runs in their semi-final at Grace Road.Hamza…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/cricket/articles/cdeww6j85gro?at_medium=RSS&at_campaign=rss",
+          "author": "BBC Sport",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/48f0/live/e52329a0-99a0-11f1-a10a-71ff76b28954.jpg",
+          "time": "রাত ১২:৪৫"
+        },
+        {
+          "headline": "Shop window or new chance - what next for Grealish?",
+          "excerpt": "Jack Grealish made a somewhat unexpected return to the Manchester City team on Sunday - so what could his future hold?Grealish's career with the club seemed finished when he spent last season on loan at Everton, but they did not make the move permanent.The 30-year-old, who did not feature for City in pre-season, came on at half-time in their 3-0 Community Shield defeat by Arsenal in…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/c07rr20g732o?at_medium=RSS&at_campaign=rss",
+          "author": "Emlyn Begley",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/198b/live/fa379a30-9999-11f1-ac5b-b961ed109b19.jpg",
+          "time": "রাত ১২:৩০"
+        },
+        {
+          "headline": "Newcastle at best when 'us against world' - Burn",
+          "excerpt": "Dan Burn had only been away from Newcastle United's training ground for a few months.But the England defender felt like he had joined a new club when he returned following his post-World Cup break.\"I'm still learning names to be honest,\" he said.Understandably so.It has been another turbulent summer on Tyneside following the departures of manager Eddie Howe and influential figures Bruno…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cx27798g37ko?at_medium=RSS&at_campaign=rss",
+          "author": "Ciaran Kelly",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/3b0b/live/a7b42d20-99a6-11f1-a10a-71ff76b28954.jpg",
+          "time": "রাত ২:০৪"
+        },
+        {
+          "headline": "GB's Hunter-Bell comfortably wins 'serene, beautiful' 1500m gold",
+          "excerpt": "Georgia Hunter-Bell wins convincingly in the women's 1500m to take gold for Great Britain, sprinting away from the field down the home straight.READ MORE: Athletics on BBC SportAvailable to UK users only.",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/athletics/videos/cz644439dj0o?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/c6c7/live/bad5e5b0-99b0-11f1-b2ab-0dd01740f9f6.jpg",
+          "time": "রাত ২:৩৪"
+        },
+        {
+          "headline": "Seifert powers Super Giants to first Hundred title",
+          "excerpt": "Tim Seifert smashes 72 off 38 balls as Manchester Super Giants beat Trent Rockets by five wickets in the men's Hundred final at Lord's to claim their first title. READ MORE: Super Giants survive late wobble to win men's HundredAvailable to UK users only.",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/cricket/videos/c4gddd8w9nno?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/1304/live/822a56f0-99b1-11f1-b2ab-0dd01740f9f6.jpg",
+          "time": "রাত ২:৪৫"
+        },
+        {
+          "headline": "'The jump of her life!' - GB's Sawyers takes long jump silver",
+          "excerpt": "Great Britain's Jazz Sawyers puts on \"one of the performances of the championship\" to take silver in the women's long jump, finishing just one centimetre behind gold-winning Larissa Iapichino.READ MORE: Athletics on BBC SportAvailable to UK users only.",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/athletics/videos/cvgvvv8rkr1o?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/9a0c/live/ebb0bc20-99b3-11f1-b2ab-0dd01740f9f6.jpg",
+          "time": "রাত ২:৫০"
+        },
+        {
+          "headline": "Watch the best of Rodri's Manchester City journey",
+          "excerpt": "BBC Sport takes a look back at the moments that defined Rodri's time at Manchester City, from important goals to injuries and a Ballon d'Or, as the great midfielder takes his next step in his career.READ MORE: Barcelona agree £65m deal to sign Rodri from Man CityAvailable for UK users only.",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/videos/cly9xz3rgkeo?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/aadf/live/4233aae0-9756-11f1-a7ab-8b30adf0800a.jpg",
+          "time": "রাত ২:৫১"
+        },
+        {
+          "headline": "Cameroon claim first Wafcon title with victory over Malawi",
+          "excerpt": "Both sides looked nervy in the opening stages, with the Southern Africans repeatedly trying to play in Temwa Chawinga with early balls forward - a tactic that worked well in their semi-final victory over Algeria.The opener came after Sikelo misjudged an Eto cross from the right and Grace Mendoua's header back across goal was tipped on to the bar by the Malawi keeper.Ngah Manga was on hand to…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/crl77w8y8r3o?at_medium=RSS&at_campaign=rss",
+          "author": "Rob Stevens",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/1a1d/live/d1ab13e0-99bb-11f1-870d-5d08c49babb2.jpg",
+          "time": "রাত ৩:২৩"
+        },
+        {
+          "headline": "'Very last stroke!' - GB win dramatic relay gold",
+          "excerpt": "Great Britain win gold in the women's 4x100m relay, stealing the win from Italy in a dramatic finish as the swim comes right down to the wire.READ MORE: Swimming on BBC SportAvailable to UK users only.",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/swimming/videos/cgewwvggx11o?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/b260/live/f958a7b0-99a0-11f1-a7ab-8b30adf0800a.jpg",
+          "time": "রাত ১২:৪৬"
+        },
+        {
+          "headline": "Combined men's and women's trophy in Hundred - how would it look in other sports?",
+          "excerpt": "Who would win combined men's and women's trophy in other sports?Image source, Getty ImagesImage caption, The Hundred Helix trophy was named by fans onlineByHenry CowlingBBC Sport journalistThe Hundred will award a trophy to the top combined team across the men's and women's formats for the first time this weekend.The fan-named Hundred Helix trophy will go to the team who have earned the most…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/cricket/articles/crmr4kwx2rpo?at_medium=RSS&at_campaign=rss",
+          "author": "Henry Cowling",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/abc0/live/0b6d7360-9274-11f1-b7a2-c7c91f255a18.jpg",
+          "time": "রাত ২:৩৭"
+        }
+      ],
+      "Tech": [
+        {
+          "headline": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
+          "excerpt": "Stripe has finalized a deal to acquire OpenRouter, according to a new report in Bloomberg.\n\nOpenRouter helps customers to select different AI models to perform different tasks, depending on their specific needs and budget. The company announced in May that it had raised a $113 million Series B, at a reported $1.3 billion valuation. (Investors include Sequoia, Andreessen Horowitz, Menlo Ventures,…",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
+          "author": "Anthony Ha",
+          "image": "https://techcrunch.com/wp-content/uploads/2024/04/Stripe-resized.webp?resize=1200,674",
+          "time": "রাত ২:৫৭"
+        },
+        {
+          "headline": "OpenAI reportedly disbanded its preparedness team",
+          "excerpt": "Terrence O'Brien is the Verge’s weekend editor. He’s covered the tech industry for over 18 years and knows a thing or two about synths.According to the Financial Times, OpenAI disbanded its preparedness team at the end of last month. The job of the preparedness team was to assess if models posed serious risks and develop ways to mitigate those risks. (You know, like the possibility that it could…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
+          "author": "Terrence O'Brien",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK149_AI_01.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+          "time": "রাত ৩:৩২"
+        },
+        {
+          "headline": "Turn on these settings to protect your Android phone from theft",
+          "excerpt": "Google has added some smart theft-detection features to Android in recent…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2236816/turn-on-settings-protect-android-phone-from-theft/",
+          "author": "Thomas Godwin",
+          "image": "https://www.engadget.com/img/gallery/turn-on-these-settings-to-protect-your-android-phone-from-theft/l-intro-1786454524.jpg",
+          "time": "রাত ৩:৩০"
+        },
+        {
+          "headline": "Why people aren’t buying Mark Zuckerberg’s AI future",
+          "excerpt": "Meta CEO Mark Zuckerberg published a 6,500 word essay this week declaring that “The Future is for Everyone” and painting an optimistic picture of a future powered by AI, where “everyone will have an exceptionally capable personal agent that understands you, your goals, and everything you care about.”\n\nOn the latest episode of TechCrunch’s Equity podcast, Kirsten Korosec, Rebecca Bellan, and I…",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/08/16/why-people-arent-buying-mark-zuckerbergs-ai-future/",
+          "author": "Anthony Ha",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2239280474.jpg?resize=1200,800",
+          "time": "রাত ২:৩২"
+        },
+        {
+          "headline": "Open Mike Eagle and Kenny Segal crafted a hip hop breakup masterpiece",
+          "excerpt": "“Breakups are… tough.”It’s the opening lines of an interlude towards the end of DOOMED! Called “It Happens in Every Universe.” It’s also basically the thesis of the entire record. It’s no grand revelation, but it’s a well-trodden subject that Open Mike Eagle manages to mine for artistic gold.Eagle’s subject matter is usually personal, and his productions tinged with nostalgia. But DOOMED! is his…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/entertainment/980799/open-mike-eagle-and-kenny-segal-doomed-review",
+          "author": "Terrence O'Brien",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/a4080481202_10.jpg?quality=90&strip=all&crop=0,4.2391770287958,100,52.356020942408",
+          "time": "রাত ২:৩১"
+        },
+        {
+          "headline": "Is buying a OnePlus phone in 2026 still a good idea?",
+          "excerpt": "If you really want one, you can make it work.\n            \n\n    \n                \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                    Adnan Ahmed…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2236810/is-buying-oneplus-phone-still-good-idea-in-2026/",
+          "author": "Adnan Ahmed",
+          "image": "https://www.engadget.com/img/gallery/is-buying-a-oneplus-phone-in-2026-still-a-good-idea/l-intro-1786654012.jpg",
+          "time": "রাত ২:৩০"
+        },
+        {
+          "headline": "Do you really need an antivirus app on your Android?",
+          "excerpt": "The short answer is probably not, but it depends on how you use your device.\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                   …",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2236805/android-phones-antivirus-app-guidance/",
+          "author": "Jack Whitcombe",
+          "image": "https://www.engadget.com/img/gallery/do-you-really-need-an-antivirus-app-on-your-android/l-intro-1786462373.jpg",
+          "time": "রাত ২:০০"
+        },
+        {
+          "headline": "Linux 7.2 brings cache-aware scheduling, faster ext4 and Btrfs",
+          "excerpt": "Linux kernel 7.2 has been released, adding cache-aware scheduling, ext4 filesystem performance boosts and a slew of new and improved hardware drivers for laptops and peripherals.\n\n\n\nA merge widow record was also set during the 9-week development cycle, with more than 2,100 individual contributors involved. AI, obviously, has helped. Commit-crunching by LWN found roughly 5% of commits in 7.2 have…",
+          "source": "omg! ubuntu",
+          "link": "https://www.omgubuntu.co.uk/2026/08/linux-7-2-cache-aware-scheduling-ext4-btrfs",
+          "author": "Joey Sneddon",
+          "image": "https://www.omgubuntu.co.uk/wp-content/uploads/2026/08/linux-kernel-7-2-tux.webp",
+          "time": "ভোর ৫:০৪"
+        },
+        {
+          "headline": "Linux 7.2 Released With Faster I/O, New AMD & Intel Driver Improvements",
+          "excerpt": "Linus Torvalds just released Linux 7.2 as stable!  After a very busy kernel cycle due to the increased patch and reporting churn due to AI/LLM ages, Linux 7.2 managed to make it out today on-schedule for this feature-packed kernel. Linux 7.2 is going on to power Ubuntu 26.10 and other upcoming Linux distribution releases.\n\nLinux 7.2 brings many new features including Cache Aware Scheduling, the…",
+          "source": "Phoronix",
+          "link": "https://www.phoronix.com/news/Linux-7.2-Released",
+          "author": "Written by Michael Larabel in Linux Kernel on 16 August 2026 at 07:12 PM EDT. 5 Comments",
+          "image": "",
+          "time": "ভোর ৫:১২"
+        },
+        {
+          "headline": "GIMP Making Progress On New Project File Format After Nearly 30 Years With XCF",
+          "excerpt": "The GIMP project has published their latest development update to highlight the interesting work that's ongoing toward GIMP 3.4 and future releases.\n\nAmong the interesting development efforts going on for this open-source alternative to Adobe Photoshop is the development of a new project file format. GIMP has used its XCF as the primary project format since 1997 and now nearly 30 years later a…",
+          "source": "Phoronix",
+          "link": "https://www.phoronix.com/news/GIMP-New-File-Format-2026",
+          "author": "Written by Michael Larabel in Free Software on 16 August 2026 at 04:15 PM EDT. 10 Comments",
+          "image": "",
+          "time": "রাত ২:১৫"
+        }
+      ]
+    }
+  },
+  {
     "dt": "2026-08-16T18:38:24.385Z",
     "file": "runs/2026-08-16-1838.html",
     "counts": {
