@@ -1,5 +1,784 @@
 [
   {
+    "dt": "2026-08-19T01:10:50.917Z",
+    "file": "runs/2026-08-19-0110.html",
+    "counts": {
+      "Local": 1,
+      "International": 39,
+      "Entertainment": 1,
+      "Tech": 33,
+      "Sports": 10
+    },
+    "grouped": {
+      "Local": [
+        {
+          "headline": "যে ৫ কাজ আল্লাহর অসন্তোষ থেকে বাঁচায়",
+          "excerpt": "পাথেয় যে ৫ কাজ আল্লাহর অসন্তোষ থেকে বাঁচায়নাহিদা সুলতানা ছবি: পেক্সেলসমানুষের জীবনে সবচেয়ে বড় প্রাপ্তি আল্লাহর সন্তুষ্টি, আর সবচেয়ে বড় বিপর্যয় তাঁর অসন্তুষ্টি। তাই মুমিনের জীবনের অন্যতম প্রধান সাধনা হওয়া উচিত আল্লাহকে সন্তুষ্ট করা এবং তাঁর অসন্তুষ্টি থেকে নিজেকে রক্ষা করা।হাদিসে এমন কিছু আমলের কথা এসেছে, যেগুলো আল্লাহর অসন্তুষ্টি থেকে বেঁচে থাকতে সহায়তা করে। এমন ৫টি আমল হলো—১. রাগ…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/religion/islam/7uwv736xql",
+          "author": "নাহিদা সুলতানা",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-18%2F8u6vp20y%2Fpexels-zeynep-sude-emek-193601188-20785886.jpg?rect=0%2C442%2C6240%2C3276&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "ভোর ৪:৩০"
+        }
+      ],
+      "Entertainment": [
+        {
+          "headline": "রোহিঙ্গা ইস্যুতে মিয়ানমারের বিবৃতির সাথে একমত নয়, রাষ্ট্রদূতকে জানাল ঢাকা",
+          "excerpt": "সরাসরি কভারেজরিপোর্টিং করেছেন জান্নাতুল তানভী, সম্পাদনায় সায়েদুল ইসলাম৮ ঘন্টা আগেমঙ্গলবার সারাদিন যা যা হলো\n      যুক্তরাষ্ট্রের প্রেসিডেন্ট ডোনাল্ড ট্রাম্প বলেছেন, বর্তমানে ইরান ও যুক্তরাষ্ট্রের মধ্যে কোনো আলোচনা চলছে না এবং বৈঠকের কোনো সময়সূচিও নির্ধারিত নেই।\n    \n      বাংলাদেশের প্রধানমন্ত্রী তারেক রহমানের ভারত সফরের ক্ষেত্রে ঢাকা থেকে যেসব অনুরোধ জানানো হয়েছে, তার জবাবে ভারতের পররাষ্ট্র…",
+          "source": "BBC Bangla Entertainment",
+          "link": "https://www.bbc.co.uk/bengali/live/c962xjk64jgzt?at_medium=RSS&at_campaign=rss",
+          "author": "BBC News বাংলা",
+          "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/d2b9/live/ba8be1e0-9b04-11f1-b792-a710e56a11dc.jpg",
+          "time": ""
+        }
+      ],
+      "International": [
+        {
+          "headline": "US ambassador to Israel calls settler violence ‘terror’",
+          "excerpt": "NewsFeedUS Ambassador to Israel Mike Huckabee says Israeli settler violence in the occupied West Bank meets the definition of ‘terror’. His comments are a rare rebuke and follow a days-long siege of a Palestinian-American family’s home by Israeli settlers in the village of Qusra.Published On 19 Aug 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/8/19/us-ambassador-to-israel-calls-settler-violence?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/image-1787100496.jpg?resize=1920%2C1080&quality=80",
+          "time": "সকাল ৬:৪৯"
+        },
+        {
+          "headline": "Quebec separatist says no independence referendum while Trump in office",
+          "excerpt": "The leader of Quebec’s secessionist party says the debate over his province’s independence has been stymied by turbulence in US politics.The head of a major secessionist party in the Canadian province of Quebec has promised not to hold a referendum on independence until United States President Donald Trump has left office.Parti Quebecois (PQ) leader Paul St-Pierre Plamondon said on Tuesday that…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/19/quebec-separatist-says-no-independence-referendum-while-trump-in-office?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/AP26203838804160-1787096756.jpg?resize=1920%2C1440",
+          "time": "সকাল ৬:১৭"
+        },
+        {
+          "headline": "Iran war live: Trump denies Iran talks, Tehran claims US ‘begging’",
+          "excerpt": "Skip linksSkip to Content Live Navigation menuNewsAfricaAsiaUS & CanadaLatin AmericaEuropeAsia PacificMiddle EastExplainedSportOpinionVideoFeaturesEconomyHuman RightsClimate CrisisInvestigationsInteractivesIn PicturesScience & TechnologyPodcastsTravelSponsored Content Live Navigation menuDonald TrumpTrump, Netanyahu and the Iran questionHow Iran war fallout may shape US electionsA visual guide…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/liveblog/2026/8/19/iran-war-live-trump-denies-iran-talks-tehran-claims-us-begging?traffic_source=rss",
+          "author": "Tracy J. Jawad, Heba Habib",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/2026-08-18T100603Z_21787800_RC254MADD54X_RTRMADP_3_IRAN-CRISIS-HORMUZ-1787092373.jpg?resize=1920%2C1440",
+          "time": "সকাল ৬:০০"
+        },
+        {
+          "headline": "Al Jazeera reports from Indonesia’s quake zone, desperate for help",
+          "excerpt": "Skip linksSkip to Content Live Navigation menuNewsAfricaAsiaUS & CanadaLatin AmericaEuropeAsia PacificMiddle EastExplainedSportOpinionVideoFeaturesEconomyHuman RightsClimate CrisisInvestigationsInteractivesIn PicturesScience & TechnologyPodcastsTravelSponsored Content Live Al Jazeera reports from Indonesia’s quake zone, desperate for helpNewsFeedThousands are still displaced on Indonesia’s…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/8/18/al-jazeera-reports-from-indonesias-quake-zone-desperate-for-help?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/image-1787097563.jpg?resize=1920%2C1080&quality=80",
+          "time": "ভোর ৫:৫৯"
+        },
+        {
+          "headline": "Democrats call for USS Lincoln probe, question US Navy’s readiness",
+          "excerpt": "Lawmakers in the United States have renewed calls for answers about conditions on board the USS Abraham Lincoln, suggesting that reports emerging from the aircraft carrier may belie a troubling pattern.In at least three separate appeals, Democrats called for more information about how the Navy prepared for the vessel’s record-breaking deployment.Recommended Stories list of 3 itemslist 1 of 3US…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/18/democrats-call-for-uss-lincoln-probe-question-us-navys-readiness?traffic_source=rss",
+          "author": "Joseph Stepansky",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/reuters_6a7e82e0-1786675936.jpg?resize=1920%2C1440",
+          "time": "ভোর ৫:৪৫"
+        },
+        {
+          "headline": "Minnesota official sues Texas governor to force ICE agent’s extradition",
+          "excerpt": "State Attorney General Keith Ellison has called for the transfer of an ICE agent accused of lying about a nonfatal shooting.Minnesota’s attorney general is suing the governor of Texas to force the extradition of a federal agent charged with shooting and wounding a man during President Donald Trump’s immigration crackdown in Minneapolis.In a lawsuit filed on Tuesday, Minnesota Attorney General…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/18/minnesota-official-sues-texas-governor-to-force-ice-agents-extradition?traffic_source=rss",
+          "author": "Evan Semones",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2020/06/d00970aa87364fd8b4c3553ecfe2d22b_18.jpeg?resize=1200%2C675",
+          "time": "ভোর ৪:৫৫"
+        },
+        {
+          "headline": "Bolivia arrests political adviser to Latin American right-wingers",
+          "excerpt": "The arrest comes after an attack on activist Nadia Beller, who says she was targeted for her opposition to conservative reforms and corruption.Bolivia has arrested a prominent adviser to several right-wing political leaders in Latin America on suspicion of plotting a murder.Fernando Cerimedo was arrested on Tuesday following an attack on lawyer and political activist Nadia Beller. The consultant…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/18/bolivia-arrests-political-adviser-to-latin-american-right-wingers?traffic_source=rss",
+          "author": "By AFP",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/2026-08-18T163809Z_19664727_RC2EIBAAH8RI_RTRMADP_3_BOLIVIA-CRIME-1787084939.jpg?resize=1920%2C1440",
+          "time": "রাত ৩:৫০"
+        },
+        {
+          "headline": "Trump administration moves to end rule protecting swaths of forest land",
+          "excerpt": "US Agriculture Department says rescinding the 2001 rule will help reduce wildfire risk and return control to local managers.The United States Department of Agriculture (USDA) has filed a proposal to rescind the entirety of the 2001 Roadless Area Conservation Rule, which prohibits road construction and logging on nearly 45 million acres (18 million hectares) of national forest land.Secretary of…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/18/trump-administration-moves-to-end-rule-protecting-swaths-of-forest-land?traffic_source=rss",
+          "author": "Catherine Nouhan",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/2025-06-27T045248Z_1246023541_RC2HAFAEIL7Y_RTRMADP_3_USA-WILDFIRE-1787084645.jpg?resize=1920%2C1440",
+          "time": "রাত ৩:২৬"
+        },
+        {
+          "headline": "Why is the US ramping up Tomahawk production?",
+          "excerpt": "Inside StoryThe Pentagon has contracted a defence manufacturer to increase the output of cruise missiles.It’s a multibillion-dollar deal that some military analysts say confirms suspicions that the United States is running out of critical munitions.The Pentagon has contracted defence company Raytheon to significantly increase its output of Tomahawk missiles.Recommended Stories list of 3…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/inside-story/2026/8/18/why-is-the-us-ramping-up-tomahawk-production?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/image-1787087267.jpg?resize=1920%2C1080&quality=80",
+          "time": "রাত ৩:২৬"
+        },
+        {
+          "headline": "Syria opens Assad-era nuclear programme to UN probe",
+          "excerpt": "UN watchdog reports that it found large amounts of material at undisclosed sites in Syria.Syria has opened the way for the United Nations to probe the remains of a nuclear programme operated by ousted leader Bashar al-Assad.Syria’s government said on Tuesday that it was working with the International Atomic Energy Agency (IAEA) as the UN watchdog reported it had found several tonnes of nuclear…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/18/syria-opens-assad-era-nuclear-programme-to-un-probe?traffic_source=rss",
+          "author": "By AFP and Reuters",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/afp_6a84c724d696-1787086628.jpg?resize=1920%2C1440",
+          "time": "রাত ৩:২৫"
+        },
+        {
+          "headline": "DR Congo’s Ebola outbreak ‘global emergency’ as infections pass 5,000: WHO",
+          "excerpt": "Officials warn that they are continuing to identify new chains of transmission that need to be broken to stop the spread.The Ebola outbreak in the Democratic Republic of the Congo (DRC) remains a global health emergency, the World Health Organization (WHO) has warned, saying that the number of cases in the country has passed 5,000.Following an emergency meeting on Tuesday, WHO Director-General…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/18/congo-ebola-outbreak-global-emergency-as-infections-pass-5000-who?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/afp_6a7c9c926931-1786551442.jpg?resize=1920%2C1440",
+          "time": "রাত ৩:২৪"
+        },
+        {
+          "headline": "Trump says no talks planned with Iran amid anger over Iran-Oman Hormuz deal",
+          "excerpt": "US president hits out as states bordering the Strait of Hormuz continue talks on managing the strategic waterway.President Donald Trump has asserted that the United States is not engaged in talks with Iran ⁠and has not scheduled any, but has meanwhile insisted that the Strait of Hormuz remains open.The US leader insisted in a social media post on Tuesday that while the naval blockade of Iranian…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/18/no-talks-with-iran-says-trump-as-us-president-stews-over-hormuz-deal?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/afp_6a84b3fb92b9-1787081723.jpg?resize=1920%2C1440",
+          "time": "রাত ৩:০৩"
+        },
+        {
+          "headline": "Israeli strike reported to kill at least six in Gaza City",
+          "excerpt": "The strike comes as efforts to push an agreement aimed at ending hostilities remain stalled.An Israeli strike has killed at least six people in Gaza City as an agreement aimed at ending hostilities remains stalled.Officials at al-Shifa Hospital said they had received several bodies following the attack on Tuesday. Fourteen others were injured when the strike hit a crowded cafe in the city’s…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/18/israeli-strike-reported-to-kill-at-least-six-in-gaza-city?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/getty_6a84b6414a-1787082305.jpg?resize=1920%2C1440",
+          "time": "রাত ৩:০৩"
+        },
+        {
+          "headline": "WHO: Ebola can be contained in months if enough funding is provided",
+          "excerpt": "NewsFeedThe World Health Organization says the Ebola outbreak in DR Congo can be brought under control in three months if the necessary resources are available. The outbreak, which has killed over 2,300 people, is the deadliest in the country’s history.Published On 18 Aug 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/8/18/who-ebola-can-be-contained-in-months-if-enough-funding-is-provided?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/image-1787086408.jpg?resize=1920%2C1080&quality=80",
+          "time": "রাত ২:৫৩"
+        },
+        {
+          "headline": "Russia reports Ukrainian drone strike near Zaporizhzhia nuclear plant",
+          "excerpt": "Concern over the security of Europe’s largest nuclear plant has been rife since Russia launched its full-scale war on Ukraine nearly five years ago.A drone strike close to the Zaporizhzhia Nuclear Power Plant in occupied southeastern Ukraine has killed one nuclear specialist and wounded 17, according to Russian reports.Moscow asserted on Tuesday that the drone was launched by Ukraine. The…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/18/russia-reports-ukrainian-drone-strike-near-zaporizhzhia-nuclear-plant?traffic_source=rss",
+          "author": "By AFP and Reuters",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/AP23186416669551-1787086401.jpg?resize=1920%2C1440",
+          "time": "রাত ২:৪৫"
+        },
+        {
+          "headline": "Jose Mourinho returns to Real Madrid in closed-door ceremony",
+          "excerpt": "NewsFeedIn an unusually private ceremony, Jose Mourinho has officially begun his second spell as Real Madrid manager, 13 years after leaving the club. He will be with Real through June 2029.Published On 18 Aug 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/8/18/jose-mourinho-returns-to-real-madrid-in-closed-door-ceremony?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/Screenshot-2026-08-18-at-21.36.56-1787085641.png?resize=1200%2C630",
+          "time": "রাত ২:৪১"
+        },
+        {
+          "headline": "‘Prepare early’: bushfire authorities sound alarm for NT, NSW and Queensland",
+          "excerpt": "Fire authorities have warned large parts of the Northern Territory are facing heightened fire danger throughout spring, with above average fuel loads leaving much of the territory vulnerable.Low soil moisture has also led to elevated fire risk for parts of New South Wales, including some areas that were badly burned during the black summer fires, and south-east Queensland as an El Niño system…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/australia-news/2026/aug/19/bushfire-danger-risk-heightened-fire-australia-nt-nsw-queensland",
+          "author": "Lisa Cox",
+          "image": "https://i.guim.co.uk/img/media/9a12da231f5ea85edcff7a9c6dd9a2032b30e4e6/53_0_1533_1226/master/1533.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=f54e6a2b9ed0262276d59545bee19c25",
+          "time": "সকাল ৭:০০"
+        },
+        {
+          "headline": "Liberia to take 1,200 deportees from the US",
+          "excerpt": "The first group of 20 deportees is expected to arrive in the coming days.Liberia will accept up to 1,200 third-country deportees from the United States, the country’s Information Minister Jerolinmek Piah told reporters in the capital, Monrovia.The first group of 20 deportees is expected to arrive on Thursday, Piah told reporters on Tuesday. The country would be taking nationals from Africa,…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/18/liberia-to-take-1200-deportees-from-the-us?traffic_source=rss",
+          "author": "Umar Farooq",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/06/getty_6a3ab33984-1782231865.jpg?resize=1920%2C1440",
+          "time": "রাত ২:৩৯"
+        },
+        {
+          "headline": "Erin Patterson appeal live: mushroom murderer challenges convictions over fatal beef wellington lunch",
+          "excerpt": "Key events32m ago‘Fundamental irregularity’ over sequestering of jury raised47m agoPatterson appears via video link1h agoDirector of public prosecutions appealing against Patterson's sentence1h agoPatterson appealing on seven grounds1h agoGood morningNino BucciHow two days of hearings are expected to unfoldJust to go back a step to a timetabling matter which may help you understand how the next…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/australia-news/live/2026/aug/19/erin-patterson-appeal-live-mushroom-murders-court-australia-victoria-ntwnfb",
+          "author": "Adeshola Ore, Nino Bucci",
+          "image": "https://i.guim.co.uk/img/media/834844df6e8c6268c3d928f8aa12c5c1c6dfb8c2/0_0_2500_2000/master/2500.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=2c4fbbdbebbaee0b9fbafd1765b41a4d",
+          "time": "সকাল ৬:৫৯"
+        },
+        {
+          "headline": "Russian missile strike kills 10 civilians in Kharkiv",
+          "excerpt": "NewsFeedA Russian missile strike on Pechenihy, in Ukraine’s Kharkiv region, killed at least 10 civilians and wounded 17 others. \n\nTwo missiles struck less than a minute apart, hitting a café and a service-station parking area while damaging nearby homes, shops, and vehicles.Published On 18 Aug 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/8/18/russian-missile-strike-kills-10-civilians-in-kharkiv?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/image-1787084724.jpg?resize=1920%2C1080&quality=80",
+          "time": "রাত ২:২৬"
+        },
+        {
+          "headline": "Australia politics live: One Nation files three years of overdue financial returns hours before deadline",
+          "excerpt": "From 1h agoOne Nation files three years of overdue financial returnsSarah MartinPauline Hanson’s One Nation party has complied with a request from the Queensland regulator to file three years of overdue financial returns.The party was sent a demand from the Office of Fair Trading (OFT) last month to submit the missing returns by 18 August or face compliance action.An OFT spokesperson told the…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/australia-news/live/2026/aug/19/australia-politcs-live-ndis-reform-coalition-labor-anthony-albanese-angus-taylor-mark-butler-david-pocock-question-time-tax-superannuation-ntwnfb",
+          "author": "Krishani Dhanji, Cait Kelly, Sarah Martin",
+          "image": "https://i.guim.co.uk/img/media/c6d3f0577382f8913ebaa8fcd5ce62052b77ea19/620_122_3138_2510/master/3138.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=f5ced0bcbec4d55f73932c65d78c94be",
+          "time": "সকাল ৬:৫৮"
+        },
+        {
+          "headline": "Trump and Carney speak ahead of US tariff deadline",
+          "excerpt": "The new US tariffs would cover about $20bn worth of imports and could lead to job losses and business closures.Canadian Prime Minister Mark Carney has spoken with United States President Donald Trump twice this week, Carney’s office said, as Canada tries to hash out a last-minute deal to avert new 50 percent tariffs from taking effect at midnight on Wednesday.“Prime Minister Carney and President…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/economy/2026/8/18/trump-and-carney-speak-ahead-of-us-tariff-deadline?traffic_source=rss",
+          "author": "By AP and Reuters",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/05/reuters_6a0b93ea-1779143658.jpg?resize=1920%2C1440",
+          "time": "রাত ২:১৯"
+        },
+        {
+          "headline": "US sanctions International Criminal Court president and trial lawyer",
+          "excerpt": "The Trump administration has led a campaign to ‘dismantle’ the court, calling it a threat to US national sovereignty.The administration of United States President Donald Trump has added the head of the International Criminal Court (ICC) as well as one of its senior lawyers to a list of sanctioned individuals.On Tuesday, US Secretary of State Marco Rubio framed the widening sanctions as part of…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/18/us-sanctions-international-criminal-court-president-and-trial-lawyer?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/afp_6a84b67c9420-1787082364.jpg?resize=1920%2C1440",
+          "time": "রাত ২:০৯"
+        },
+        {
+          "headline": "US Justice Department denies whistleblower claims on anti-Semitism probes",
+          "excerpt": "Ivy League schools were pressured into settlements despite a lack of evidence, according to former DOJ lawyer.A whistleblower alleges that United States President Donald Trump’s administration’s findings that three of the country’s most prestigious academic institutions violated civil rights law by tolerating anti-Semitism were “predetermined” as part of a “politically mandated effort” that…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/18/us-justice-department-denies-whistleblower-claims-on-anti-semitism-probes?traffic_source=rss",
+          "author": "Hoda Sherif",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/reuters_6a7e2b04-1786653444.jpg?resize=1920%2C1440",
+          "time": "রাত ১:৫৬"
+        },
+        {
+          "headline": "Ukraine’s dismissed defence minister calls for wartime presidential election",
+          "excerpt": "Ukraine’s recently dismissed former defence minister Mykhailo Fedorov has called for a wartime presidential election in the most direct political challenge to Volodymyr Zelenskyy since the start of Russia’s full-scale invasion in 2022.The politician, whose abrupt sacking last month triggered a wave of protests, said that Ukraine had to “restore a full democratic process even amid a prolonged…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/world/2026/aug/18/ukraines-dismissed-defence-minister-calls-for-wartime-presidential-election",
+          "author": "Dan Sabbagh",
+          "image": "https://i.guim.co.uk/img/media/fc39a51604167a9a72d7d2a0db42086333854387/1024_0_2384_1906/master/2384.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=884539a417c68e7dd15e352a0e667241",
+          "time": "ভোর ৪:২১"
+        },
+        {
+          "headline": "Turkish politician Melih Meric stabbed",
+          "excerpt": "NewsFeedFootage shows the moment Turkish New Party MP Melih Meric got into an argument with a man who stabbed him. Meric was taken to the hospital for emergency surgery. The attacker was reportedly former Republican People’s Party leader Seydi Ahmet Keles.Published On 18 Aug 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/8/18/turkish-politician-melih-meric-stabbed?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/image-1787082624.jpg?resize=1920%2C1080&quality=80",
+          "time": "রাত ১:৫১"
+        },
+        {
+          "headline": "Swedish MP intervenes in ‘damaging’ Brexit row over elderly Britons ordered to leave",
+          "excerpt": "The deportation and removal of British citizens from Sweden over Brexit residency rights is damaging relations with the UK amid efforts to improve links with London, a Swedish MP has said.Häkan Svenneling, representative for Vârmland, where a 78-year-old British widow, Joyce Thomas, has been given four weeks to leave Sweden after 21 years of residency, has written to the migration minister,…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/politics/2026/aug/18/swedish-mp-intervenes-brexit-row-elderly-britons-ordered-leave",
+          "author": "Lisa O’Carroll",
+          "image": "https://i.guim.co.uk/img/media/c3af4373bad2383888ee39dd1705321ce262d9e5/96_0_4354_3484/master/4354.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=6b44c9d4e2a8af35b602b77a84262a1b",
+          "time": "রাত ১২:৪৪"
+        },
+        {
+          "headline": "US seeks to revive criminal case against Kilmar Abrego Garcia",
+          "excerpt": "Judge previously found US government brought charges against Abrego Garcia as retaliation for case that embarrassed it.The administration of United States President Donald Trump is seeking to revive criminal charges against Kilmar Abrego Garcia, a Salvadoran man whose wrongful deportation became a source of embarrassment for US immigration authorities.The US Department of Justice asked a federal…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/18/us-seeks-to-revive-criminal-case-against-kilmar-abrego-garcia?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2025/12/AP25346456609593_cropped-1765566674.jpg?resize=1920%2C1440",
+          "time": "রাত ১:৪৬"
+        },
+        {
+          "headline": "The ‘witch-hunt’ of Jason Arday",
+          "excerpt": "NewsFeedIn just 22 days, Jason Arday went from Cambridge’s youngest Black professor to the centre of an extraordinary media storm. He was accused of plagiarism, a claim he denied all the way to his death last week.\n\nAl Jazeera’s @marahrayan attends a vigil in London held in his memory.Published On 18 Aug 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/8/18/the-witch-hunt-of-jason-arday?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/image-1787080938.jpg?resize=1920%2C1080&quality=80",
+          "time": "রাত ১:২২"
+        },
+        {
+          "headline": "US judge says government can revoke deportation protections for Ethiopians",
+          "excerpt": "Ruling permits Trump administration to nix Temporary Protected Status for Ethiopians despite concerns over conditions in their home country.A United States federal judge has ruled that the administration of President Donald Trump can revoke legal protections that shielded more than 5,000 Ethiopians from deportation.On Tuesday, US District Judge Brian Murphy gave the go-ahead for the termination…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/18/us-judge-says-government-can-revoke-deportation-protections-for-ethiopians?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/ap_6a84928e22cbf-1787073166.jpg?resize=1920%2C1440",
+          "time": "রাত ১:০৯"
+        },
+        {
+          "headline": "Do not cut benefits for disabled young people, dozens of UK charities urge ministers",
+          "excerpt": "More than 40 of the UK’s leading charities have warned ministers against imposing tougher benefit sanctions or cuts on disabled young people, as the government considers how to encourage more young people into work.The charities raised concerns that an imminent review of young people and work by Alan Milburn could bring in stricter eligibility rules for keeping disability benefits – or remove…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/society/2026/aug/19/benefits-disabled-young-people-uk-charities-letter",
+          "author": "Patrick Butler, Rowena Mason",
+          "image": "https://i.guim.co.uk/img/media/11c99ecd26ed20002446b5cec30bab256a989fd2/722_0_7217_5773/master/7217.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=408844876932a53ee3a898ed7da6bbf9",
+          "time": "ভোর ৫:০১"
+        },
+        {
+          "headline": "Poor sleep can cost over-50s nine months of career, study finds",
+          "excerpt": "Sleep that is extremely disrupted or that goes on too long could mean a loss of nine months from working life after the age of 50, a study has found.It also found that women with no sleep disturbances had a longer working life from 50 to 68 than their male equivalents.Compared with participants who had no sleep disturbances, those with moderate sleep disturbances could expect to work nearly five…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/money/2026/aug/18/poor-sleep-cost-over-50s-nine-months-career",
+          "author": "Tobi Thomas",
+          "image": "https://i.guim.co.uk/img/media/1af6e87f46b87921ef75be03d4245a0cfed097b5/446_0_4468_3574/master/4468.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=da54c6ca0efd21497f69e131adc0be46",
+          "time": "ভোর ৪:৩০"
+        },
+        {
+          "headline": "Ulez led to better lung size and function among London children, study finds",
+          "excerpt": "Children’s lungs grew bigger and stronger after the most polluting vehicles were restricted from entering London, a study has found.Examinations of London schoolchildren before and after the introduction of the city’s ultra-low emission zone (Ulez) found a restoration of lung capacity that had been stunted by exposure to pollution.The researchers said the findings were a vindication of the…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/environment/2026/aug/18/ulez-better-lung-size-function-london-children",
+          "author": "Damien Gayle",
+          "image": "https://i.guim.co.uk/img/media/07fd4aef33b985254b5eee808b3ed40883817126/344_0_3291_2633/master/3291.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=c37a51354c30e1a214adeecd2cc48933",
+          "time": "ভোর ৪:৩০"
+        },
+        {
+          "headline": "Three dead after family get into difficulty in water off Shoreham-by-Sea",
+          "excerpt": "A couple and their teenage daughter have died after getting into difficulty in the sea off the West Sussex coast, police said on Tuesday.A man, a woman and a teenage girl died after the incident in Shoreham-by-Sea, the chief superintendent of Sussex police, James Collis, said.A younger girl from the same family was taken to hospital in a critical condition, Collis added. The next of kin have…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/uk-news/2026/aug/18/three-dead-after-family-get-into-difficulty-in-water-off-shoreham-by-sea",
+          "author": "Nadeem Badshah",
+          "image": "https://i.guim.co.uk/img/media/84cf7c21253f4478b6fcf3e6e8ea6de3f32eb831/319_0_4848_3879/master/4848.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=b6d8a727a667f691e66aac2dc992a08e",
+          "time": "ভোর ৪:২৩"
+        },
+        {
+          "headline": "GPs’ advice service is causing cancer diagnoses to be missed, inquiry finds",
+          "excerpt": "Cancer diagnoses have been missed or delayed because of a system designed for GPs to seek specialist advice before referring patients to hospital, according to an investigation.The Health Services Safety Investigations Body (HSSIB) identified patient risks linked to how advice and guidance (A+G) services have been implemented across England.A+G was brought in to slash unnecessary hospital visits…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/society/2026/aug/18/gps-advice-service-is-causing-cancer-diagnoses-to-be-missed-inquiry-finds",
+          "author": "Guardian staff reporter",
+          "image": "https://i.guim.co.uk/img/media/1cba6dca96336694725679402cbf1349f38140f9/487_26_3450_2760/master/3450.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=a27e5c09e3970b77f4b888668141eed0",
+          "time": "ভোর ৪:১০"
+        },
+        {
+          "headline": "Tupac Shakur murder trial: ‘You better treat me as a hostile witness,’ Suge Knight associate testifies – as it happened",
+          "excerpt": "From 11m agoClosing summaryThe second day of the Tupac Shakur murder trial featured testimony from a wide range of witnesses, with a wide range of attitudes toward the legal process:\n \n  Dr. Lisa Gavin, a medical examiner, reviewed the autopsy report and photos of Shakur’s body, and said that the evidence showed his death was a homicide.\n \n  Some relatives of Shakur left the courtroom in…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/us-news/live/2026/aug/18/tupac-shakur-gang-killing-murder-trial-live",
+          "author": "Lois Beckett",
+          "image": "https://i.guim.co.uk/img/media/0366975d00a452bdc889ca6f663da2315599bc9d/140_0_3713_2971/master/3713.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=d2cc85272d9f491ed463179ae268dcb9",
+          "time": "সকাল ৬:৩৫"
+        },
+        {
+          "headline": "Democratic socialist Angie Nixon clinches surprise primary win in Florida US Senate race",
+          "excerpt": "In an upset for the Democratic establishment, progressive Angie Nixon won the party’s US Senate primary in Florida, beating former army intelligence officer Alexander Vindman.Nixon, a state representative and member of the Democratic Socialists of America, had significantly less funding going into the primary – with $975,000 to Vindman’s $16.3m at the end of July, according to Florida…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/us-news/2026/aug/18/angie-nixon-alex-vindman-florida-results",
+          "author": "Richard Luscombe",
+          "image": "https://i.guim.co.uk/img/media/10698ec1c01975d93a532605c8596f9c33705ed9/902_0_4558_3648/master/4558.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=2c83d16b1334916a788f70026e48ddae",
+          "time": "সকাল ৬:২৬"
+        },
+        {
+          "headline": "Trump-backed Byron Donalds to face Democrat David Jolly in race to succeed Florida governor DeSantis",
+          "excerpt": "Byron Donalds, a congressman backed by Donald Trump, won the Republican nomination for governor on Tuesday in the race to succeed Ron DeSantis.Donalds, who has represented south-west Florida since 2021, trounced three reasonably prominent Republican rivals, including Jay Collins, DeSantis’s handpicked lieutenant governor.If he wins the November election, as he is expected to do in the…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/us-news/2026/aug/18/florida-primary-results-governor-senate",
+          "author": "Richard Luscombe",
+          "image": "https://i.guim.co.uk/img/media/d9bd9442691bfbfe214b6946202965f532cd5336/333_0_3333_2668/master/3333.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=6f26b900700b5ebd2632ee54ecd49e5b",
+          "time": "সকাল ৬:০৮"
+        },
+        {
+          "headline": "US senator Jon Ossoff condemns Trump as ‘draft-dodging, crook president’",
+          "excerpt": "The Democratic senator Jon Ossoff called Donald Trump a “draft-dodging, crook president” while defending the senator Mark Kelly as a hero during a Tuesday campaign appearance in Georgia, escalating his public feud with the US president.“I don’t think anything illustrates the times more aptly than that the draft-dodging, crook president, who has plunged our nation recklessly into a war he knows…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/us-news/2026/aug/18/jon-ossoff-trump",
+          "author": "Cecilia Nowell",
+          "image": "https://i.guim.co.uk/img/media/f6a6bda3d2c5b0c809ea78d0484a5b5d737e3f8a/688_0_6880_5504/master/6880.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=c44fdfc7556dc69e43b96baa91f58d7b",
+          "time": "ভোর ৫:৩২"
+        }
+      ],
+      "Sports": [
+        {
+          "headline": "Rodri ready for 'excitement again' after Barca complete £65m deal",
+          "excerpt": "Spain World Cup winner Rodri said he is ready to \"feel that excitement again\" after completing his move to Barcelona from Manchester City.The 2024 Ballon d'Or winner has signed a four-year contract at the Nou Camp after Barcelona agreed to pay a fee in the region of £65m, returning to Spanish football for the first time since he left Atletico Madrid in 2019.\"I'm very happy and excited about this…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/c2k7w3vwv5yo?at_medium=RSS&at_campaign=rss",
+          "author": "Alex Brotherton",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/5d2a/live/cae6f730-9b4c-11f1-a4d5-27953a73ef84.jpg",
+          "time": "রাত ১২:১৪"
+        },
+        {
+          "headline": "Renshaw call-up signals Australia’s desperation",
+          "excerpt": "6 HOUR(s)\n\t\t\t\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tSamsul Arefin Khan\n\t\t\t\t\t\t\n\t\t\t\t\t\n\n\t\t\t\n  \n                  \n              \n                  \n\n  \n\n\n\t\t\t\n\t\t\t\t\t\t\tPhoto: X\n\t\t\t\t\t\t\n\t\t\nAustralia rarely make changes to their squad in the middle of a series unless injuries force their hand, regardless of the result of the opening match.However, the hosts made an unusual move on Tuesday, bringing batter Matthew Renshaw into…",
+          "source": "The Daily Star Sports",
+          "link": "https://www.thedailystar.net/sports/cricket/news/renshaw-call-signals-australias-desperation-4250926",
+          "author": "Samsul Arefin Khan",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-08/Renshaw.jpeg",
+          "time": "রাত ১:০০"
+        },
+        {
+          "headline": "Bayern's Musiala suffers second on-field collapse in three days",
+          "excerpt": "Bayern Munich midfielder Jamal Musiala was taken off the pitch after collapsing in a pre-season friendly on Tuesday, three days after a similar incident in Munich.The 23-year-old fell to the turf just minutes after coming on late into the match at second-division Heidenheim.Musiala appeared dazed as he received medical treatment and was helped off the pitch.After the match, Bayern sporting…",
+          "source": "The Daily Star Sports",
+          "link": "https://www.thedailystar.net/sports/football/news/bayerns-musiala-suffers-second-field-collapse-three-days-4251251",
+          "author": "AFP, Berlin",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-08/2026-08-15T153506Z_1975385816_UP1EM8F17AG1U_RTRMADP_3_SOCCER-GERMANY-FCB-RBL.JPG",
+          "time": "রাত ১২:৫৪"
+        },
+        {
+          "headline": "Musiala collapses during match for second time in four-day period",
+          "excerpt": "Bayern Munich midfielder Jamal Musiala says he is being treated for a \"neurological dysfunction\" after collapsing during a match for the second time in a four-day period.On Tuesday, Musiala collapsed six minutes after coming off the bench in Bayern's 4-2 friendly victory at Heidenheim.The 23-year-old appeared dazed as he received medical treatment and was helped off the pitch.The incident…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/c330kg5xm8no?at_medium=RSS&at_campaign=rss",
+          "author": "Alex Brotherton",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/da05/live/27df2cc0-9b37-11f1-a794-9d45cb2a51de.jpg",
+          "time": "রাত ১:৫৭"
+        },
+        {
+          "headline": "Former world champion Dott goes on trial over child abuse allegations",
+          "excerpt": "A former world snooker champion has gone on trial at the High Court in Glasgow over child sex abuse charges.Graeme Dott, 49, is accused of lewd and libidinous behaviour towards two youngsters, a girl and a boy, between 1993 and 2010.The alleged incidents are said to have occurred on \"various occasions\" and involved addresses in Glasgow's east end and South Lanarkshire as well as in a car.Dott,…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/news/articles/cn0njnw6rdgo?at_medium=RSS&at_campaign=rss",
+          "author": "BBC News",
+          "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/183c/live/fd3c6b10-9b20-11f1-aed2-8d6da8d75094.jpg",
+          "time": "রাত ২:৪১"
+        },
+        {
+          "headline": "Al Hilal target England's Kane - Wednesday's gossip",
+          "excerpt": "Al-Hilal in talks with Harry Kane and Ollie Watkins, Newcastle explore move for Manchester City's Nico Gonzalez, Sunderland move for Dayann Methalie in danger of collapsing. Representatives for England captain Harry Kane, 33, have held talks with Saudi Pro League side Al-Hilal, with the Bayern Munich striker open to a move in the future. (Talksport, external)Meanwhile Aston Villa and England…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/c70gdd61kk4o?at_medium=RSS&at_campaign=rss",
+          "author": "BBC Sport",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/9aa4/live/6775d0f0-9b41-11f1-a291-b542ee92de7c.png",
+          "time": "রাত ৩:০২"
+        },
+        {
+          "headline": "Williams scores in Warrington's victory at Hull KR",
+          "excerpt": "Betfred Super LeagueHull KR (14) 28Tries: Lewis, Lawton, Hadley, Pangai Jr Goals: Martin, Mourgue 5Warrington Wolves (10) 34Tries: Hopoate 2, Bentley, Sipley, Byrne, Williams Goals: Irwin 5George Williams scored his first try since returning from neck surgery to help Warrington Wolves beat defending Super League champions Hull KR and close the gap on the competition's top two.England half-back…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/rugby-league/articles/clyxkrmvj06o?at_medium=RSS&at_campaign=rss",
+          "author": "Andrew Aloia",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/c210/live/df107610-9b46-11f1-bd52-f9704e8e5c82.jpg",
+          "time": "রাত ৩:৫৫"
+        },
+        {
+          "headline": "Man found dead at Charlton Athletic's ground",
+          "excerpt": "Police have launched an investigation after a 33-year-old man was found dead at Charlton Athletic's football ground.Officers and paramedics from the London Ambulance Service were called to The Valley stadium in south-east London on Tuesday morning following concerns for the welfare of a person.The Metropolitan Police said the man was pronounced dead at the scene. His next of kin have been…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/news/articles/c934e3pgp9lo?at_medium=RSS&at_campaign=rss",
+          "author": "BBC News",
+          "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/1049/live/77903360-9b3f-11f1-bd52-f9704e8e5c82.jpg",
+          "time": "রাত ২:১৪"
+        },
+        {
+          "headline": "Rider dies after Manx Grand Prix qualifying crash",
+          "excerpt": "A competitor has died following a crash involving two riders during qualifying for the Manx Grand Prix on the Isle of Man.The session was red-flagged at about 18:50 BST following the incident at Cruickshanks, in Ramsey, on the opening lap of Tuesday evening's session.Organisers said the other competitor involved had suffered minor injuries and was being treated at the island's main hospital,…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/news/articles/cvgjyggj051o?at_medium=RSS&at_campaign=rss",
+          "author": "Catherine Nicoll",
+          "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/997d/live/8d77db00-9b4f-11f1-83d8-cfa02e83b41a.jpg",
+          "time": "ভোর ৪:১০"
+        },
+        {
+          "headline": "Serie A's Trepy out of coma after pool rescue",
+          "excerpt": "Cagliari forward Yael Trepy is out of a medically induced coma and off mechanical ventilation two days after being pulled unconscious from a swimming pool.Trepy, 20, was airlifted to hospital after the incident at a villa in Sardinia on Sunday afternoon.His club shared a statement, external on Tuesday evening from the Santissima Annunziata Civil Hospital in Sassari, where Trepy is being…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cp8xdx7ypr6o?at_medium=RSS&at_campaign=rss",
+          "author": "BBC Sport",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/b601/live/242d7790-9b04-11f1-bb80-c1b1e1adeea5.jpg",
+          "time": "রাত ২:৩৭"
+        }
+      ],
+      "Tech": [
+        {
+          "headline": "\"Sabotage\": Experts, lawmakers blast RFK Jr. for destroying healthcare research",
+          "excerpt": "The federal agency tasked with studying ways to improve America’s outstandingly poor healthcare system is “on the brink,” experts warn. The Trump administration has cut its staff by 75 percent, canceled its grants en masse, and is refusing to spend tens of millions of dollars appropriated by Congress.\nWhether the agency “will survive the second Trump administration is an open question,” health…",
+          "source": "Ars Technica",
+          "link": "https://arstechnica.com/health/2026/08/sabotage-experts-lawmakers-blast-rfk-jr-for-destroying-healthcare-research/",
+          "author": "Beth Mole",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-2237968141-1152x648.jpg",
+          "time": "ভোর ৪:৩২"
+        },
+        {
+          "headline": "Cursor capitalizes on GitHub frustration, launches rival hosting platform",
+          "excerpt": "For as long as anyone can remember, GitHub has been the de facto code host preferred by a majority of developers. However, in recent times, the platform has struggled with widely reported outages and performance degradation and, as it drops the ball, Cursor is waiting to pick it up.\n\nThe AI startup, which is now officially a part of SpaceX, launched Origin this week — a new code-hosting platform…",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/",
+          "author": "Lucas Ropek",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/07/cursor.jpg?resize=1200,800",
+          "time": "ভোর ৪:১৪"
+        },
+        {
+          "headline": "SteelSeries’ comfy wireless gaming headset is nearly half off",
+          "excerpt": "Brad Bourque Brad Bourque is a tech journalist and commerce writer based out of Portland, Oregon. He’s contributed to sites like Digital Trends, Business Insider, and WIRED.While many gaming headsets come with extra features, the tradeoff is that they’re often uncomfortable and heavy. A lightweight, affordable alternative that can connect to a bunch of platforms is available at Woot. The…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/gadgets/981611/steelseries-arctis-nova-3p-deal-sale",
+          "author": "Brad Bourque",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/Steelseries-Arctis-Nova-3P-breakout.png?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+          "time": "রাত ২:০১"
+        },
+        {
+          "headline": "Squeeze More Juice Out of Your Dead Batteries—Using Physics",
+          "excerpt": "You’re walking the dog at night, and your little flashlight, which has been getting dimmer, conks out. Instead of stumbling home in the dark, wouldn't it be great if you could somehow eke a little more energy out of the batteries inside?That's not as crazy as it sounds. When a battery-powered device stops working, we say the battery is “dead”—but it's not really. It still contains chemical…",
+          "source": "Wired",
+          "link": "https://www.wired.com/story/squeeze-more-juice-out-of-a-dead-battery/",
+          "author": "Rhett Allain",
+          "image": "https://media.wired.com/photos/6a8372555b7045e98c48385f/191:100/w_1280,c_limit/Science_Squeeze%20More%20Juice%20out%20of%20a%20Dead%20Battery!_v1.jpg",
+          "time": "রাত ২:১১"
+        },
+        {
+          "headline": "ICE agents can't wear Meta glasses while they work, official memo warns",
+          "excerpt": "Smart glasses have become a recurring accessory amid the immigration…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2239642/ice-agents-can-t-wear-meta-glasses-while-they-work-official-memo-warns/",
+          "author": "Karissa Bell",
+          "image": "https://www.engadget.com/img/gallery/ice-agents-can-t-wear-meta-glasses-while-they-work-official-memo-warns/l-intro-1787094483.jpg",
+          "time": "ভোর ৪:৫৭"
+        },
+        {
+          "headline": "Google ‘gradually’ rolling out Android’s ‘advanced’ sideloading ahead of developer verification",
+          "excerpt": "Ahead of the start of developer verification next month, Google is now rolling out Android’s “advanced” flow for sideloading.\n\n\n\nAs detailed earlier this year, Android is getting a sideloading flow for apps without a verified developer. This “advanced” flow is designed to increase friction for the sake of user protection, with the biggest change being a one-time, one-day waiting period between…",
+          "source": "9to5Google",
+          "link": "https://9to5google.com/2026/08/18/google-gradually-rolling-out-androids-advanced-sideloading-ahead-of-developer-verification/",
+          "author": "Ben Schoon",
+          "image": "https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2026/08/android-maze-figure.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+          "time": "রাত ৩:৫০"
+        },
+        {
+          "headline": "Ukrainian drones overwhelm Russian tanks’ new active protection system—for now",
+          "excerpt": "For now, the Russian military may be considering increasing the number of Arena-M counter munitions to intercept incoming drones and other projectiles. But as Euromaidan Press explained, space constraints for the turret-mounted projectile launchers could ultimately limit that approach.\nConcerns beyond the war in Ukraine\nThe limitations of active protection systems against drones have also…",
+          "source": "Ars Technica",
+          "link": "https://arstechnica.com/gadgets/2026/08/ukrainian-drones-overwhelm-russian-tanks-new-active-protection-system-for-now/",
+          "author": "Jeremy Hsu",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/Screenshot-2026-08-18-at-2.13.55-PM-1152x648.png",
+          "time": "ভোর ৪:১৮"
+        },
+        {
+          "headline": "DOJ’s probe into Andreessen Horowitz over board seats baffles VCs",
+          "excerpt": "The Justice Department has launched a probe into Andreessen Horowitz regarding the firm’s partners serving on the boards of competing companies, Bloomberg reported.\n\nThe nearly year-long investigation focuses specifically on the firm’s board seats at Databricks, which is valued at $190 billion, and Fivetran, which combined with dbt Labs in June. The firm’s co-founder, Ben Horowitz, serves on the…",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/08/18/dojs-probe-into-andreessen-horowitz-over-board-seats-baffles-vcs/",
+          "author": "Marina Temkin",
+          "image": "https://techcrunch.com/wp-content/uploads/2024/07/GettyImages-1027979078-604311108-composite.jpg?resize=1200,675",
+          "time": "রাত ২:৩৬"
+        },
+        {
+          "headline": "Robin Williams’ Instagram account brought back to fight ‘AI abuse’",
+          "excerpt": "Emma Roth is a news writer who covers the streaming wars, consumer tech, crypto, social media, and much more. Previously, she was a writer and editor at MUO.Robin Williams’ children are taking over their father’s Instagram account after his daughter spoke out against the use of his AI likeness, as reported earlier by The Wrap. In a post on Tuesday, Zak, Zelda, and Cody Williams write that they…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/entertainment/981644/robin-williams-instagram-account-ai",
+          "author": "Emma Roth",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-175034585.jpg?quality=90&strip=all&crop=0%2C17.382841712709%2C100%2C43.498314038293&w=1200",
+          "time": "রাত ১:৪৮"
+        },
+        {
+          "headline": "Garmin Watches Are Up to $250 Off Right Now On Amazon (2026)",
+          "excerpt": "Garmin watches are some of the best fitness trackers you can get, but they aren't exactly cheap—many of my favorite ones cost $500 or more. Thankfully, you can usually find a good Garmin watch deal with enough patience and a keen eye. Right now, some of my favorite models, including the Garmin Fenix 8, Garmin Vivoactive 5, and Garmin Forerunner 165, are over 20 percent off. If you've been…",
+          "source": "Wired",
+          "link": "https://www.wired.com/story/garmin-deals-august-2026/",
+          "author": "Harry Rabinowitz",
+          "image": "https://media.wired.com/photos/6a84a2c1a6695ec2cd8e3a52/191:100/w_1280,c_limit/The-Best-Garmin-Watch-I%E2%80%99ve-Tested-Is-25-Percent-Off-Right-Now.jpg",
+          "time": "রাত ১২:৪২"
+        },
+        {
+          "headline": "Framework's cheapest laptop just got a major spec bump",
+          "excerpt": "The Framework Laptop 12 now ships with Intel's Core Series 3 chips and other hardware upgrades.\n            \n\n    \n                \n                \n                \n                After introducing a new high-end model of its 13-inch laptop, Framework is turning its attention to its colorful and compact sibling. The newly updated Framework Laptop 12 features Intel's latest Core Series 3 chips…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2239631/framework-laptop-12-just-got-a-major-spec-bump/",
+          "author": "Ian Carlos Campbell",
+          "image": "https://www.engadget.com/img/gallery/frameworks-cheapest-laptop-just-got-a-major-spec-bump/l-intro-1787092352.jpg",
+          "time": "ভোর ৪:৩৩"
+        },
+        {
+          "headline": "Claude can now send emails in Gmail, even without your approval",
+          "excerpt": "Anthropic’s Claude AI can now take a huge step in your email inbox, with the ability to not only interact with Gmail, but send emails on your behalf without asking you first.\n\n\n\nA Claude connector has been available for Google Workspace for quite some time now, offering users the ability to help manage their Gmail inbox, Google Calendar events, and Google Drive management as well. A notable…",
+          "source": "9to5Google",
+          "link": "https://9to5google.com/2026/08/18/claude-can-now-send-emails-in-gmail-even-without-your-approval/",
+          "author": "Ben Schoon",
+          "image": "https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2026/08/claude-send-gmail-1.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+          "time": "রাত ৩:২০"
+        },
+        {
+          "headline": "Against all odds, SpaceX finally tugs Starship into port after 24 days at sea",
+          "excerpt": "The company intends to recover future Starships directly at the launch site, using mechanical arms on the launch tower to catch the vehicle during final descent. That will help SpaceX expedite reuse of the vehicle. This one won’t be reused. Splashing down in the ocean exposes the spacecraft’s engines, stainless steel structure, and sensitive electronics to the corrosive effects of salt water.…",
+          "source": "Ars Technica",
+          "link": "https://arstechnica.com/space/2026/08/its-christmastime-at-spacex-as-company-salvages-starship-from-indian-ocean/",
+          "author": "Stephen Clark",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/ship40_2-1152x648-1787078981.jpg",
+          "time": "রাত ১:০১"
+        },
+        {
+          "headline": "TikTok explores peer-to-peer payments via DMs, report says",
+          "excerpt": "In Brief\nPosted:\n\n\n1:03 PM PDT · August 18, 2026\n\n\n\nImage Credits:Matteo Della Torre/NurPhoto / Getty Images\n\n\n\n\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\n\n\n\n\n\nTikTok is developing a feature that would allow users to send each other money via direct messages, according to a new report from Bloomberg. If rolled out, the feature would use the social media service’s TikTok Pay offering, which is…",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/08/18/tiktok-explores-peer-to-peer-payments-via-dms-report-says/",
+          "author": "Aisha Malik",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/05/GettyImages-2259084458.jpg?resize=1200,801",
+          "time": "রাত ২:০৩"
+        },
+        {
+          "headline": "OpenAI lays out new security changes after its AI hacked Hugging Face",
+          "excerpt": "Jay Peters is a senior reporter covering technology, gaming, and more. He joined The Verge in 2019 after nearly two years at Techmeme.OpenAI is announcing security updates following the July news that its AI broke out of a sandboxed environment and accidentally hacked Hugging Face, including improvements to its research environments, monitoring, and alignment techniques. The company had already…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack",
+          "author": "Jay Peters",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/STK155_OPEN_AI_CVirginia__C.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+          "time": "রাত ১:২৮"
+        },
+        {
+          "headline": "OpenAI Overhauls Safety Protocols After Its AI Agents Went Rogue",
+          "excerpt": "OpenAI announced Tuesday that it has halted “a significant number” of training workloads and evaluations for its forthcoming frontier artificial intelligence model—codenamed Astra—while it implements new procedures meant to address cybersecurity risks. The ChatGPT maker says it is introducing a number of new monitoring, security, and alignment requirements to better address the increasingly…",
+          "source": "Wired",
+          "link": "https://www.wired.com/story/openai-overhauls-safety-protocols-after-its-ai-agents-went-rogue/",
+          "author": "Maxwell Zeff",
+          "image": "https://media.wired.com/photos/6a8499c64113fb1b06ff9ad3/191:100/w_1280,c_limit/OpenAI-Announces-New-AI-Safety-Strategy-After-Hugging-Face-Hack-Business.jpg",
+          "time": "রাত ১২:৩৩"
+        },
+        {
+          "headline": "How to check your iPhone's battery health and cycle count",
+          "excerpt": "You'll be glad to know if you're buying used.\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                    Filipe Espósito for…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2238802/how-to-check-your-iphones-battery-health-and-cycle-count/",
+          "author": "Filipe Espósito",
+          "image": "https://www.engadget.com/img/gallery/how-to-check-your-iphones-battery-health-and-cycle-count/l-intro-1786561587.jpg",
+          "time": "রাত ২:৩০"
+        },
+        {
+          "headline": "Spotify rolling out ‘User Notes’ and ‘Running Mode’ features on Android – here’s what they do",
+          "excerpt": "Spotify is introducing two new features this week including a “Running Mode” that can automatically match songs and playlists to the pace of your workout, as well as “User Notes” which let you leave notes throughout your library to refer to later.\n\n\n\nSpotify’s “Running Mode” will generate playlists of songs that match the vibe of your workout. Specifically, the intensity level, beats per minute,…",
+          "source": "9to5Google",
+          "link": "https://9to5google.com/2026/08/18/spotify-rolling-out-user-notes-and-running-mode-features-heres-what-they-do/",
+          "author": "Ben Schoon",
+          "image": "https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2026/07/spotify-notes-running-mode-header.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+          "time": "রাত ২:৩৫"
+        },
+        {
+          "headline": "Disney sues FCC and its chair, escalating fight against Trump's chief censor",
+          "excerpt": "Disney fights back\n  \n\n      \n\n      \n\n      \n        FCC demands “total capitulation” in Trump censorship campaign, Disney suit says.\n      \n\n              \n          \n\n    \n    \n    \n      FCC Chairman Brendan Carr speaks on stage during the Concordia Annual Summit on September 22, 2025, in New York City. \n\n              \n          Credit:\n\n          \n          Getty Images | John…",
+          "source": "Ars Technica",
+          "link": "https://arstechnica.com/tech-policy/2026/08/disney-sues-fcc-and-its-chair-escalating-fight-against-trumps-chief-censor/",
+          "author": "Jon Brodkin",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/09/brendan-carr-concordia-1152x648-1758655744.jpg",
+          "time": "রাত ১২:১১"
+        },
+        {
+          "headline": "GTA 6 gameplay leaked ahead of its new trailer, and Rockstar is taking down the videos",
+          "excerpt": "Two legit-seeming clips and a world map are out there, if you know where to…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2239548/gta-6-gameplay-leak-august-2026/",
+          "author": "Kris Holt",
+          "image": "https://www.engadget.com/img/gallery/gta-6-gameplay-leaked-ahead-of-its-new-trailer-and-rockstar-is-taking-down-the-videos/l-intro-1787084868.jpg",
+          "time": "রাত ২:২৯"
+        },
+        {
+          "headline": "The Sideload 041: A vision of Pixels to come",
+          "excerpt": "Welcome to episode 41 of The Sideload, a 9to5Google podcast. This week, Ben Schoon joins Will to discuss the future of Pixel, as Google’s Pixel 11 attempts to bridge the gap between always-accessible AI assistant and a more minimalist, digital wellbeing-friendly experience. They also dig into the world of AI ads, posters, and more, and wonder whether they’re doing far more harm than good to the…",
+          "source": "9to5Google",
+          "link": "https://9to5google.com/2026/08/18/the-sideload-041-a-vision-of-pixels-to-come/",
+          "author": "Will Sattelberg",
+          "image": "https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2025/08/sideload-podcast-wider-copy-1.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+          "time": "রাত ২:৩০"
+        },
+        {
+          "headline": "Things I learned about the rumored HomePod display from macOS beta code",
+          "excerpt": "Apple's latest software references customizable faces for the rumored…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2239524/things-i-learned-about-the-rumored-homepod-display-from-macos-beta-code/",
+          "author": "Filipe Espósito",
+          "image": "https://www.engadget.com/img/gallery/things-i-learned-about-the-rumored-homepod-display-from-macos-beta-code/l-intro-1787083209.jpg",
+          "time": "রাত ২:১১"
+        },
+        {
+          "headline": "Samsung makes warranty repairs easier with Android 17, advertises it with AI guinea pigs [Gallery]",
+          "excerpt": "Live on the Galaxy Z Fold 8 series and presumably coming to more devices when Android 17 / One UI 9 rolls out more broadly, Samsung is showing off a new “Warranty and Care” menu that makes it a whole lot easier to deal with repairs and warranty claims on your Galaxy device.\n\n\n\nA new hub in the Settings menu of One UI 9 houses the warranty periods, expiration dates, and Samsung Care+ eligibility…",
+          "source": "9to5Google",
+          "link": "https://9to5google.com/2026/08/18/samsung-warranty-software-update-android-17-one-ui-9/",
+          "author": "Ben Schoon",
+          "image": "https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2026/08/samsung-warranty-update.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+          "time": "রাত ১:০৫"
+        },
+        {
+          "headline": "Spotify's Running Mode is now available on Android",
+          "excerpt": "The playlist feature was released on iOS in late July.\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                   …",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2239484/spotifys-running-mode-is-now-available-on-android/",
+          "author": "Ian Carlos Campbell",
+          "image": "https://www.engadget.com/img/gallery/spotifys-running-mode-is-now-available-on-android/l-intro-1787081775.jpg",
+          "time": "রাত ১:৩৬"
+        },
+        {
+          "headline": "Gemini in Chrome and auto browse roll out on Android in the US",
+          "excerpt": "After previewing in May, Google has now finished rolling out Gemini in Chrome for Android users in the US.\n\n\n\nGemini in Chrome is available as a toolbar shortcut to the right of the address bar (you can only have one), or in the three-dot overflow menu near the bottom. Tapping the spark icon slides up a sheet that’s nearly identical to the desktop interface.\n\n\n\nYour current page can be added to…",
+          "source": "9to5Google",
+          "link": "https://9to5google.com/2026/08/18/gemini-chrome-android-us/",
+          "author": "Abner Li",
+          "image": "https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2026/05/Gemini-in-Chrome-Android-cover.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+          "time": "রাত ১:০০"
+        },
+        {
+          "headline": "Apple has new in-app transaction commission rates for EU devs",
+          "excerpt": "It’s the latest change based on legal challenges under the Digital Markets…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2239483/apple-has-new-in-app-transaction-commission-rates-for-eu-devs/",
+          "author": "Anna Washenko",
+          "image": "https://www.engadget.com/img/gallery/apple-has-new-in-app-transaction-commission-rates-for-eu-devs/l-intro-1787081531.jpg",
+          "time": "রাত ১:৩৩"
+        },
+        {
+          "headline": "Study finds X algorithm prioritizes ragebait that disproportionately impacts Democrats",
+          "excerpt": "This is not a shock to anyone who has looked at the app since Elon Musk took it over.\n            \n\n    \n                \n                \n                \n                A study published in the Proceedings of the National Academy of Scientists (PNAS) has found what we all suspected, that X's algorithm prioritizes ragebait in order to juice engagement. The study also found that this content…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2239421/study-finds-x-algorithm-prioritizes-ragebait-that-disproportionately-impacts-democrats/",
+          "author": "Lawrence Bonk",
+          "image": "https://www.engadget.com/img/gallery/study-finds-x-algorithm-prioritizes-ragebait-that-disproportionately-impacts-democrats/l-intro-1787079268.jpg",
+          "time": "রাত ১২:৫৬"
+        },
+        {
+          "headline": "NVIDIA GeForce Now adds Firefox support on Windows",
+          "excerpt": "Firefox joins Chrome, Edge, Safari and Opera as browsers with official GeForce Now…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2239392/nvidia-geforce-now-adds-firefox-support-on-windows/",
+          "author": "Kris Holt",
+          "image": "https://www.engadget.com/img/gallery/nvidia-geforce-now-adds-firefox-support-on-windows/l-intro-1787078071.jpg",
+          "time": "রাত ১২:৩৫"
+        },
+        {
+          "headline": "Gmail verification program lets political campaigns escape its spam filter",
+          "excerpt": "The new Gmail Verified Sender Program launches September 8.\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                    Kenneth…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2239388/gmail-verification-program-lets-political-campaigns-escape-its-spam-filter/",
+          "author": "Ian Carlos Campbell",
+          "image": "https://www.engadget.com/img/gallery/gmail-verification-program-lets-political-campaigns-escape-its-spam-filter/l-intro-1787087813.jpg",
+          "time": "রাত ১২:৩৩"
+        },
+        {
+          "headline": "No charger, no problem: The best ways to charge your phone away from an outlet",
+          "excerpt": "Even if you forget your charger, you can keep your phone powered with just a USB…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2237259/best-ways-charge-phone-away-from-outlet-no-charger/",
+          "author": "Mariella Moon",
+          "image": "https://www.engadget.com/img/gallery/no-charger-no-problem-the-best-ways-to-charge-your-phone-away-from-an-outlet/l-intro-1786725923.jpg",
+          "time": "রাত ১২:৩০"
+        },
+        {
+          "headline": "Modular's Mojo Language Now Open-Source Following Qualcomm Acquisition",
+          "excerpt": "Modular, the AI startup founded by Chris Lattner of LLVM and Swift fame, has open-sourced their Mojo systems programming language! This comes following the recent acquisition of Modular by Qualcomm.\n\nModular had previously open-sourced the Mojo standard library. With the recent Qualcomm acquisition I didn't expect to see much on the open-sourcing side given Qualcomm's mixed history, but…",
+          "source": "Phoronix",
+          "link": "https://www.phoronix.com/news/Modular-Mojo-Open-Source",
+          "author": "Written by Michael Larabel in Programming on 18 August 2026 at 08:33 PM EDT. Add A Comment",
+          "image": "",
+          "time": "সকাল ৬:৩৩"
+        },
+        {
+          "headline": "COSMIC Epoch 1.6 Released With Per-App Volume Control, Remote Desktop Preparations",
+          "excerpt": "COSMIC Epoch 1.6 was released this evening as the latest milestone for this open-source, Rust-based desktop environment led by System76 as part of the work on their Pop!_OS Linux distribution.\n\nThe COSMIC Epoch 1.6 compositor added support for the Wayland wl-dmabuf-v6 protocol, now takes presentation feedback from fullscreen surfaces, and also added EI protocol support. The emulated input (EI)…",
+          "source": "Phoronix",
+          "link": "https://www.phoronix.com/news/COSMIC-Epoch-1.6",
+          "author": "Written by Michael Larabel in Desktop on 18 August 2026 at 08:20 PM EDT. Add A Comment",
+          "image": "",
+          "time": "সকাল ৬:২০"
+        },
+        {
+          "headline": "Linux 7.3 Adds New \"bpf_sock_read_xattr\" Feature For systemd, BPF Programs",
+          "excerpt": "Merged earlier this year for Linux 7.1 was extended attributes on sockets support as a feature sought after by the likes of GNOME and systemd for helping with Varlink IPC usage and other purposes. A limitation though of the functionality has been no efficient means for a BPF program to read those user extended attribute labels back. But with Linux 7.3 that's being addressed with the new…",
+          "source": "Phoronix",
+          "link": "https://www.phoronix.com/news/Linux-7.3-bpf_sock_read_xattr",
+          "author": "Written by Michael Larabel in Linux Kernel on 18 August 2026 at 03:38 PM EDT. 6 Comments",
+          "image": "",
+          "time": "রাত ১:৩৮"
+        }
+      ]
+    }
+  },
+  {
     "dt": "2026-08-18T12:42:44.650Z",
     "file": "runs/2026-08-18-1242.html",
     "counts": {
