@@ -1,5 +1,910 @@
 [
   {
+    "dt": "2026-08-22T06:37:55.220Z",
+    "file": "runs/2026-08-22-0637.html",
+    "counts": {
+      "Local": 46,
+      "International": 29,
+      "Entertainment": 5,
+      "Tech": 6,
+      "Sports": 12
+    },
+    "grouped": {
+      "Local": [
+        {
+          "headline": "মোবাইল ডিভাইস কেনায় ই-লোন দেবে মিডল্যান্ড ব্যাংক",
+          "excerpt": "বাণিজ্য ডেস্ক চুক্তি স্বাক্ষর অনুষ্ঠানে মিডল্যান্ড ব্যাংকের ব্যবস্থাপনা পরিচালক (এমডি) ইমতিয়াজ উদ্দিন আহমেদ, জনসংযোগ বিভাগের প্রধান ও রিটেইল ডিস্ট্রিবিউশন ডিভিশনের সমন্বয়ক মোহাম্মদ রাশাদুল আনোয়ার এবং সহজমোবাইল বিডির পরিচালক আবু আল মোতালিব ও সিনিয়র ম্যানেজার রাজীব কুন্ডুসহ উভয় প্রতিষ্ঠানের অন্য কর্মকর্তারাছবি: মিডল্যান্ড ব্যাংকমিডল্যান্ড ব্যাংক পিএলসি (এমডিবি) ও সহজমোবাইল বিডি লিমিটেডের মধ্যে…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/business/corporate/0mwe43xrg6",
+          "author": "বাণিজ্য ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-22%2Fz6qvyqnx%2F21-08-26-MIDLAND-BANK-SAHAJ-MOBILE082926.jpg?rect=0%2C0%2C1800%2C945&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "দুপুর ১২:২৮"
+        },
+        {
+          "headline": "পুরোনো সমাজের ভেতর নতুন মানুষের উত্থান",
+          "excerpt": "কাজী ইমদাদুল হক ও ‘আবদুল্লাহ’ উপন্যাস পাঠ পুরোনো সমাজের ভেতর নতুন মানুষের উত্থানলেখা: আহমেদ মাওলামাসুক হেলালের আঁকা কাজী ইমদাদুল হকের (৪ নভেম্বর ১৮৮২—২০ মার্চ ১৯২৬) প্রতিকৃতি ও ও তাঁর উপন্যাস ‘আবদুল্লাহ’র প্রচ্ছদ অবলম্বনে গ্রাফিকস: প্রথম আলোভাষানির্ভর সাংস্কৃতিক উৎপাদন হিসেবে উনিশ শতকে কলকাতাকেন্দ্রিক বাংলা উপন্যাসের যে বিকাশ ঘটেছিল, নানা কারণে সেই ধারার মধ্যে পূর্ব বাংলার মুসলমান সমাজ-সংস্কৃতি…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/onnoalo/treatise/gsobfd6uyi",
+          "author": "লেখা:",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-22%2F9zqjrogh%2FWhatsApp-Image-2026-08-20-at-7.12.15-PM.jpeg?rect=0%2C114%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "দুপুর ১২:২৩"
+        },
+        {
+          "headline": "গ্যাস–সংকটে তেলের ওপর বাড়তি চাপ",
+          "excerpt": "সুজয় চৌধুরী চট্টগ্রামসম্প্রতি গ্যাস সংকটে লোডশেডিং বাড়ায় অনেক কারখানায় উৎপাদন বন্ধ হয়ে যায়ফাইল ছবিগ্যাস না পেয়ে ডিজেল ও ফার্নেস তেল ব্যবহার করে উৎপাদন চালু রেখেছে ইস্পাত উৎপাদনকারী বিএসআরএম। তারপরও উৎপাদন হচ্ছে সক্ষমতার অর্ধেকের কম। গ্যাস-বিদ্যুতের সংকটে একই পথে হাঁটছে ওষুধ, বস্ত্রসহ বিভিন্ন খাতের আরও অনেক প্রতিষ্ঠান। পাবনা ও গাজীপুরের কালিয়াকৈরে গ্যাসনির্ভর একাধিক ওষুধ কারখানা ডিজেল ব্যবহার করে…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/pw50vgd528",
+          "author": "সুজয় চৌধুরী",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-16%2Fudc3lfld%2F2.avif?rect=0%2C44%2C622%2C327&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "দুপুর ১২:২০"
+        },
+        {
+          "headline": "চট্টগ্রামে গ্যাস সরবরাহ এখনো কম, কবে বাড়তে পারে",
+          "excerpt": "নিজস্ব প্রতিবেদক চট্টগ্রামগ্যাসের জন্য অটোরিকশার সারি।  চট্টগ্রাম নগরের ষোলোশহর এলাকায়। সম্প্রতি তোলাছবি: প্রথম আলোচট্টগ্রামে গ্যাস সরবরাহ এখনো স্বাভাবিক হয়নি। আজ শনিবার সকাল ৮টা পর্যন্ত আগের ২৪ ঘণ্টায় কর্ণফুলী গ্যাস বিতরণ কোম্পানি লিমিটেড (কেজিডিসিএল) পেয়েছে সাড়ে ১৭ কোটি ঘনফুট গ্যাস। গতকাল শুক্রবারও প্রায় একই পরিমাণ গ্যাস পাওয়া গিয়েছিল। অথচ চট্টগ্রামে দৈনিক চাহিদা প্রায় ৩২ কোটি ঘনফুট।সে হিসাবে…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/district/9bgn1hxgal",
+          "author": "নিজস্ব প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-22%2Fmol5cnme%2FWhatsApp-Image-2026-08-22-at-11.56.32.jpeg?rect=0%2C0%2C622%2C327&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "দুপুর ১২:০০"
+        },
+        {
+          "headline": "রাষ্ট্রপতি হিসেবে শপথ নিলেন মির্জা ফখরুল, শপথ পড়ালেন চার মন্ত্রী ও দুই প্রতিমন্ত্রীকে",
+          "excerpt": "সরাসরি কভারেজরিপোর্টিং করছেন সজল দাস, সম্পাদনায় ফৌজিয়া সুলতানা২১ অগাস্ট ২০২৬শুক্রবার সারাদিন যা যা হলো\n      বাংলাদেশের ২৩-তম\nরাষ্ট্রপতি হিসেবে শপথ নিয়েছেন মির্জা ফখরুল ইসলাম আলমগীর।\n    \n      বাংলাদেশ সরকারের\nমন্ত্রী ও প্রতিমন্ত্রী হিসেবে ছয়জনকে শপথ পড়ানো হয়েছে। শুক্রবার রাষ্ট্রপতির\nশপথের পরই শপথ নেন তারা। \n    \n      কলকাতায় একটি\nহোটেলে আগুনে প্রাণ হারানো সাত বাংলাদেশি নাগরিকের মৃতদেহ…",
+          "source": "BBC Bangla",
+          "link": "https://www.bbc.co.uk/bengali/live/cv0l536y33wgt?at_medium=RSS&at_campaign=rss",
+          "author": "BBC News বাংলা",
+          "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/bac4/live/1c3fdee0-9d6d-11f1-bdcc-8926c4a74c43.jpg",
+          "time": ""
+        },
+        {
+          "headline": "মৎস্যকন্যার খোঁজে ৩",
+          "excerpt": "আমরা ফ্রান্সের দক্ষিণের শহর তুলুজ থেকে ইতালির দক্ষিণের নগরী নেপলসে এসেছিলাম হাতে মাত্র চার দিন নিয়ে। ইতিহাস আর বর্তমানের সন্ধিক্ষণে এসে বুঝতে পারলাম যে এই বহু শতাব্দীপ্রাচীন সভ্যতা অনুধাবন করা একজীবনে সম্ভব নয়। আর চার দিনে এর নগরীর একটি ক্ষুদ্র অংশই শুধু দেখাই হয়—কিছু জানা হয় না, কিছু বোঝা হয় না। তারপরও আমাদের মুগ্ধতার শেষ নেই।বিজ্ঞাপনসাধারণ পরিবহনব্যবস্থা ও ফানিকুলারফানিকুলার ডি চিয়াইয়া,…",
+          "source": "Prothom Alo",
+          "link": "https://www.haal.fashion/travel/71g93ndru2",
+          "author": "হাল ফ্যাশন ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-21%2Fcm41i5bi%2Fna1.jpg?overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2023-10%2Fdf4c7d13-96dc-4875-b8bf-5aac7b6aa475%2FHaalfashion_gpi_sample3.png&overlay_position=bottom&overlay_opacity=1&w=1200&h=627&auto=format%2Ccompress&ogImage=true&overlay_width_pct=1",
+          "time": "দুপুর ১২:০০"
+        },
+        {
+          "headline": "দখল-দূষণে অস্তিত্ব সংকটে ময়মনসিংহের নদ-নদী",
+          "excerpt": "0",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/video/bangladesh/hfl3edmybr",
+          "author": "ভিডিও ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-21%2Fvtccqe33%2FWEB.jpg?rect=0%2C0%2C1920%2C1008&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2022-01%2F5a36c819-05a2-4bfb-ac50-57dd67355acb%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "দুপুর ১২:০০"
+        },
+        {
+          "headline": "‘বারবার আসি, তবু ভালো লাগা একটুও কমে না’, কোন জায়গার কথা বললেন কনা?",
+          "excerpt": "কোনো কোনো জায়গার সঙ্গে জড়িয়ে থাকে ব্যক্তিগত গল্প, যেখানে প্রথম যাওয়ার দিনটা মনে থাকে আজীবন। বারবার সেখানে ফিরে যেতে চায় মন। প্রথম আলোর শনিবারের ক্রোড়পত্র ‘ছুটির দিনে’র নিয়মিত বিভাগ ‘ফিরে ফিরে যাই’-তে প্রিয় ভ্রমণস্থানের গল্প বলেন নানা ক্ষেত্রের বিখ্যাত ব্যক্তিরা। আজ বলেছেন সংগীতশিল্পী দিলশাদ নাহার কনাসংগীতশিল্পী দিলশাদ নাহার কনাছবি: দিলশাদ নাহার কনার সৌজন্যেপ্রিয় বেড়ানোর জায়গাযুক্তরাষ্ট্রের…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/lifestyle/75m9xn9nea",
+          "author": "ছুটির দিনে ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-20%2Fwfajv823%2FKona-2.jpeg?rect=0%2C202%2C1200%2C630&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "দুপুর ১২:০০"
+        },
+        {
+          "headline": "একঝলক (২২ আগস্ট ২০২৬)",
+          "excerpt": "১ / ১১বাগানবিলাসের সৌন্দর্য। বড়াদম মোরঘোনা, রাঙামাটি, ২২ আগস্টছবি: সুপ্রিয় চাকমা২ / ১১বড় বড় পোড়ামাটির দইয়ের হাঁড়ি এনে গোডাউনে রাখা হচ্ছে। প্রতিটি হাঁড়িতে প্রায় ১০ কেজি দই ধরে। বড় কোনো অনুষ্ঠান উপলক্ষে এসব হাঁড়িতে করে দই নেওয়া হয়। বিআইডিসি রোড, খুলনা, ২২ আগস্টছবি: সাদ্দাম হোসেন৩ / ১১উদ্যানের ভেতরে সাতসকালে তায়কোয়ান্দো অনুশীলন করছে কয়েকজন কিশোর। সুরভি উদ্যান, রংপুর, ২২ আগস্টছবি: মঈনুল ইসলাম৪ /…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/photo/glimpse/6umbb5hz5s",
+          "author": "ছবি:",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-22%2Fielu7j0u%2F10_____Manikgon_lotus.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2022-01%2F18c58c05-9e66-46f3-8946-4437460f8f90%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "দুপুর ১২:০০"
+        },
+        {
+          "headline": "জাতীয় স্মৃতিসৌধে শ্রদ্ধা জানালেন রাষ্ট্রপতি মির্জা ফখরুল ইসলাম আলমগীর",
+          "excerpt": "নিজস্ব প্রতিবেদক সাভারসাভারের জাতীয় স্মৃতিসৌধে মুক্তিযুদ্ধের বীর শহীদদের প্রতি রাষ্ট্রপতি মির্জা ফখরুল ইসলাম আলমগীরের শ্রদ্ধা নিবেদন। শনিবার সকাল ১০টা ২৭ মিনেটেছবি: বিটিভির ফুটেজ থেকে নেওয়াসাভারের জাতীয় স্মৃতিসৌধে মুক্তিযুদ্ধের বীর শহীদদের প্রতি শ্রদ্ধা নিবেদন করেছেন নতুন রাষ্ট্রপতি মির্জা ফখরুল ইসলাম আলমগীর। গতকাল দেশের রাষ্ট্রপতি হিসেবে দায়িত্ব গ্রহণের পর আজ শনিবার সকাল ১০টা ২২ মিনিটে তিনি…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/district/nq7ys5x0nc",
+          "author": "নিজস্ব প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-22%2F7y104f3h%2F7.png?rect=0%2C62%2C865%2C454&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ১১:৫৮"
+        },
+        {
+          "headline": "দশ দিন তিন দেশ: তৃতীয় পর্ব",
+          "excerpt": "লেখা: মফিজুর রহমান, দুবাই, সংযুক্ত আরব আমিরাতড্রেসডেন ভ্রমণ শেষে ফিরে আসার পর মা-মেয়ে আর আমি মিলে বসলাম পরবর্তী ভ্রমণ প্ল্যান ঠিক করতে। ঠিক হলো, যেহেতু বার্লিন আমাদের বেজ, সে তো আর পালিয়ে যাচ্ছে না! সুতরাং আশপাশের আরও দু–একটা শহর ঘুরে তারপর আরামে বার্লিন ঘোরা যাবে। প্ল্যানমাস্টার লামিয়া ঠিক করল, পরবর্তী দুদিনের মিশন: লুবেনাউ ও পটসডাম অভিযান। ট্রেনের সময় দেখা আর নতুন কাহিনির খোঁজে বেরিয়ে পড়ার…",
+          "source": "Prothom Alo",
+          "link": "https://nagorik.prothomalo.com/durporobash/6y904s6qlr",
+          "author": "লেখা:",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-20%2Fb7zgqmlm%2FUntitled-3.jpg?rect=0%2C45%2C1101%2C578&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ১১:৪১"
+        },
+        {
+          "headline": "রাষ্ট্রপতি মির্জা ফখরুলকে মালদ্বীপের প্রেসিডেন্টের অভিনন্দন",
+          "excerpt": "বাসস ঢাকাবাংলাদেশের রাষ্ট্রপতি মির্জা ফখরুল ইসলাম আলমগীর ও মালদ্বীপের প্রেসিডেন্ট মোহামেদ মুইজ্জুছবি: বাসস থেকে নেওয়াবাংলাদেশের নতুন রাষ্ট্রপতি মির্জা ফখরুল ইসলাম আলমগীরকে আজ শনিবার অভিনন্দন জানিয়েছেন মালদ্বীপের প্রেসিডেন্ট মোহামেদ মুইজ্জু। তিনি রাষ্ট্রপতি নির্বাচনকে বাংলাদেশের গণতান্ত্রিক অভিযাত্রায় একটি গুরুত্বপূর্ণ মাইলফলক হিসেবে অভিহিত করেছেন।এক অভিনন্দন বার্তায় প্রেসিডেন্ট মুইজ্জু মালদ্বীপ…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/c68sxm0mg4",
+          "author": "বাসস",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-22%2F5mlzjuvj%2Flayout-1600x1067-7.png?rect=0%2C0%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ১১:৪০"
+        },
+        {
+          "headline": "‘আমাদের স্যার’ থেকে ‘আমাদের রাষ্ট্রপতি’",
+          "excerpt": "অভিমত–বিশ্লেষণ ‘আমাদের স্যার’ থেকে ‘আমাদের রাষ্ট্রপতি’ষাটের দশক এ দেশের ছাত্ররাজনীতির ইতিহাসে উজ্জ্বলতম গৌরবকাল। মির্জা ফখরুল ইসলাম আলমগীর সেই অগ্নিগর্ভেই রাজনীতির পাঠ নিয়েছেন। লড়েছেন। বাংলাদেশের নতুন রাষ্ট্রপতিকে নিয়ে লিখেছেন সৌমিত জয়দ্বীপব্র্যাক বিশ্ববিদ্যালয়ের শিক্ষক ও গবেষকরাষ্ট্রপতি হিসেবে শপথ নিচ্ছেন মির্জা ফখরুল ইসলাম আলমগীর। শুক্রবার সন্ধ্যায় বঙ্গভবনের দরবার হলেছবি: রয়টার্সরাজনীতি থেকে…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/opinion/column/4jpqd84a6q",
+          "author": "সৌমিত জয়দ্বীপ",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-21%2F5yzatos2%2F42026-08-21T151509Z341558212RC213NAU059DRTRMADP3BANGLADESH-PRESIDENT.JPG?rect=0%2C628%2C5500%2C2888&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-09-22%2F5lwyn5je%2Fdefaultog.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ১১:৩৬"
+        },
+        {
+          "headline": "কানাডায় পড়তে এসে পিআর না হলে দেশে ফিরতে হবে",
+          "excerpt": "তথ্যসূত্র: ইকোনমিক টাইমসপ্রথম আলো ফাইল ছবিএখন থেকে কানাডায় পড়াশোনা শেষে স্থায়ীভাবে বসবাসের সুযোগ না পেলে ভিসার মেয়াদ শেষ হওয়ার পর নিজ দেশে ফিরে যেতে হবে। আন্তর্জাতিক শিক্ষার্থীদের উদ্দেশে এমনই কড়া বার্তা দিয়েছেন দেশটির আলবার্টা প্রদেশের প্রধানমন্ত্রী ড্যানিয়েল স্মিথ।সামাজিক যোগাযোগমাধ্যম এক্সে দেওয়া এক পোস্টে ড্যানিয়েল স্মিথ বলেন, শিক্ষার্থী ভিসা কানাডায় পড়াশোনার জন্য একটি অস্থায়ী অনুমতি। তাঁর…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/education/higher-education/cogm2htoxh",
+          "author": "তথ্যসূত্র:",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-22%2Ft0895zjl%2F43.JPG?rect=0%2C0%2C543%2C285&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ১১:৩৫"
+        },
+        {
+          "headline": "পুনর্নিরীক্ষণের আবেদন বেশি ইংরেজি-গণিতে",
+          "excerpt": "চট্টগ্রাম শিক্ষা বোর্ড পুনর্নিরীক্ষণের আবেদন বেশি ইংরেজি-গণিতেফাহিম আল সামাদ চট্টগ্রামচট্টগ্রাম শিক্ষা বোর্ডফাইল ছবিচট্টগ্রাম শিক্ষা বোর্ডে এ বছরের মাধ্যমিক স্কুল সার্টিফিকেট (এসএসসি) পরীক্ষার ফলাফল পুনর্নিরীক্ষণের জন্য ৩৯ হাজার ৭৯৮ পরীক্ষার্থী ১ লাখের বেশি আবেদন করেছে। এর মধ্যে ইংরেজিতে ২০ হাজার ৪০০টি এবং গণিতে ১৩ হাজার ৮২৮টি আবেদন জমা পড়েছে। বিষয়ভিত্তিক হিসাবে এ দুই বিষয়েই বেশি আবেদন হয়েছে। এ…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/district/m17ebem0yb",
+          "author": "ফাহিম আল সামাদ",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-22%2F85tncno3%2FWhatsApp-Image-2026-08-22-at-11.30.21.jpeg?rect=0%2C360%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ১১:৩৪"
+        },
+        {
+          "headline": "এক লাখ স্বাস্থ্যকর্মী নিয়োগের অংশ হিসেবে ১৩-১৬ গ্রেডে নিয়োগে উদ্যোগ মন্ত্রণালয়ের",
+          "excerpt": "নিজস্ব প্রতিবেদক ঢাকাস্বাস্থ্য ও পরিবার কল্যাণ মন্ত্রণালয়ের স্বাস্থ্য সেবা বিভাগের আওতাধীন দেশের স্বাস্থ্য প্রতিষ্ঠানে ১৩ থেকে ১৬ গ্রেডের শূন্য পদে জরুরি ভিত্তিতে জনবল নিয়োগের উদ্যোগ নেওয়া হয়েছে। এ বিষয়ে প্রয়োজনীয় ব্যবস্থা নিতে স্বাস্থ্য অধিদপ্তরের প্রশাসন শাখা থেকে দেশের সব স্বাস্থ্য প্রতিষ্ঠানের সংশ্লিষ্ট কর্মকর্তাদের নির্দেশ দেওয়া হয়েছে।স্বাস্থ্য অধিদপ্তরের পরিচালক (প্রশাসন) অধ্যাপক জালাল…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/chakri/chakri-news/xv2hhyd2vp",
+          "author": "নিজস্ব প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2024-09-24%2Fl6u1oodj%2FHealth%20Ministry.webp?rect=0%2C0%2C1199%2C629&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ১১:৩০"
+        },
+        {
+          "headline": "জলবায়ু পরিবর্তন ভবিষ্যৎ নয়, আমরা এর মধ্যেই বসবাস করছি",
+          "excerpt": "লেখা: আল রাইসাজলবায়ু পরিবর্তনের কারণে অ্যান্টার্কটিকায় বরফ গলে মাটির দেখা মিলছেরয়টার্সবদলে যাচ্ছে ঋতু, জীবিকা ও মানুষের জীবন—জলবায়ু সংকট এখন আর দূরের কোনো আশঙ্কা নয়।কয়রার এক কৃষক এবার ধান বুনতে পারেননি। জমির মাটিতে লবণাক্ততা এত বেড়ে গেছে যে বীজ গজায়নি। পাশের গ্রামে এক জেলে বলছেন, নদীর পানি আগের চেয়ে অনেক নোনতা—মাছও কমে গেছে। শহরে আবার তীব্র গরমে রিকশাচালকেরা দুপুরে কাজ করতে পারছেন না,…",
+          "source": "Prothom Alo",
+          "link": "https://www.bondhushava.com/feature/d5hh9cdj7v",
+          "author": "লেখা:",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2023-09%2F2d5d9707-e71a-4b69-9437-980ac3e308e1%2FAntarctica.jpg?rect=0%2C30%2C1579%2C829&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-06-18%2Fjupf28nh%2FFinalBondhushavaOGwatermark01.png&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ১১:৩০"
+        },
+        {
+          "headline": "মাদক ও ডিভাইস আসক্তিতে আক্রান্ত সন্তানের প্রতি আমাদের সমান সহানুভূতি ও সচেতনতা দেখাতে হবে",
+          "excerpt": "পরামর্শ সহায়তা মাদক ও ডিভাইস আসক্তিতে আক্রান্ত সন্তানের প্রতি আমাদের সমান সহানুভূতি ও সচেতনতা দেখাতে হবেনিজস্ব প্রতিবেদক সভায় পরামর্শ প্রদান করেন বিশিষ্ট শিশু-কিশোর ও মনোরোগ বিশেষজ্ঞ অধ্যাপক ডা. হেলাল আহমেদ।প্রথম আলো ট্রাস্টের একটি আয়োজন বিনা মূল্যে মাদকবিরোধী পরামর্শ সহায়তা সভা। এ আয়োজনে আন্তর্জাতিক মাদক বিরোধী দিবস উপলক্ষে ২০২৬ সালের ২৫ জুন প্রথম আলোর কার্যালয়ে ১৭৮তম অনলাইন পরামর্শ সহায়তা সভা…",
+          "source": "Prothom Alo",
+          "link": "https://trust.prothomalo.com/activities/drug-abuse/kiem1eoiqj",
+          "author": "নিজস্ব প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-22%2Fi9qarvjh%2FHelal-Sova-pic.avif?rect=0%2C44%2C622%2C327&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2021-04%2Ffdb4c5e9-73c2-4121-9990-4feb270f5106%2Ftrust.png&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ১১:৩০"
+        },
+        {
+          "headline": "একধাপে সোনার দাম বাড়ল ভরিতে ৫,৪৮২ টাকা",
+          "excerpt": "বাণিজ্য ডেস্ক সোনাপ্রতীকী ছবিবিশ্ববাজারে দাম বেড়ে যাওয়ায় দেশের বাজারেও সোনার দাম বেড়েছে। আজ ভালো মানের, অর্থাৎ ২২ ক্যারেট সোনার দাম ভরিতে ৫ হাজার ৪৮২ টাকা বেড়েছে। আজ শনিবার সকাল ১০টা থেকে এ দাম কার্যকর হয়েছে। স্বর্ণ ব্যবসায়ীদের সংগঠন বাংলাদেশ জুয়েলার্স সমিতি আজ সকাল ১০টায় বিজ্ঞপ্তির মাধ্যমে সোনার দাম বাড়ানোর সিদ্ধান্তের কথা জানিয়েছে। বাজুস জানিয়েছে, স্থানীয় বাজারে তেজাবি সোনার দাম বেড়ে…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/business/industry/2vccz59g5n",
+          "author": "বাণিজ্য ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-03-23%2Fk9s5y637%2F720e0420_01e3_4fea_865b_55ca7aa70335.jfif?rect=0%2C21%2C1200%2C630&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ১১:২৯"
+        },
+        {
+          "headline": "যেখানে নিরাপদে থাকার কথা কিশোরীদের, সেখানেই যৌন হয়রানির অভিযোগ",
+          "excerpt": "মানসুরা হোসাইন ঢাকাযৌন হয়রানিপ্রতীকী ছবিগাজীপুরের কোনাবাড়ীতে অবস্থিত সরকারি শিশু উন্নয়ন কেন্দ্রের (বালিকা) তত্ত্বাবধায়ক মো. সেতারুজ্জামানের বিরুদ্ধে যৌন হয়রানি, হুমকি ও নানা অনিয়মের অভিযোগ উঠে আসার পর তদন্ত হয়েছিল, সাময়িক বরখাস্তও হয়েছিলেন তত্ত্বাবধায়ক। কিন্তু পরে বিভাগীয় শুনানিতে অভিযোগ ‘সন্দেহাতীতভাবে প্রমাণিত হয়নি’—এই কারণ দেখিয়ে তাঁকে অভিযোগ থেকে অব্যাহতি দেওয়া হয়। একপর্যায়ে তাঁকে আবার সেই…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/tvq7m8lq0r",
+          "author": "মানসুরা হোসাইন",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2025-04-21%2F5nk772u8%2FSexual_Harrasment.png?rect=0%2C146%2C2047%2C1075&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ১১:১৪"
+        },
+        {
+          "headline": "কুমিল্লায় মাদ্রাসার ছাত্রকে ধর্ষণের অভিযোগে শিক্ষক কারাগারে",
+          "excerpt": "প্রতিনিধি দাউদকান্দি, কুমিল্লাধর্ষণপ্রতিকি ছবিকুমিল্লার দাউদকান্দি উপজেলার একটি মাদ্রাসায় ১৫ বছর বয়সী ছেলে শিক্ষার্থীকে ধর্ষণের অভিযোগ উঠেছে এক শিক্ষকের বিরুদ্ধে। এ ঘটনায় দায়ের করা মামলায় তাঁকে গ্রেপ্তার আদালতের মাধ্যমে কারাগারে পাঠিয়েছে পুলিশ।গ্রেপ্তার শিক্ষকের নাম মাঞ্জুল হাসান। তিনি চাঁদপুর সদর উপজেলার বাসিন্দা। গতকাল শুক্রবার সকালে তাঁকে গ্রেপ্তার করেছে মডেল থানা–পুলিশ।ভুক্তভোগী ছাত্রের বরাত…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/district/i3rbr0hnnj",
+          "author": "প্রতিনিধি",
+          "image": "https://media.prothomalo.com/prothomalo%2Fimport%2Fmedia%2F2019%2F05%2F11%2Fecc717cec1282c07490526c5b86762a9-5cd6659b67ba2.jpg?rect=0%2C0%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ১১:০৪"
+        },
+        {
+          "headline": "পর্যটকের ভিড়ে কেমন কাটছে ভেনিসের তরুণদের জীবন",
+          "excerpt": "0",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/video/international/3pd0t660fh",
+          "author": "ভিডিও ডেস্ক, ডয়চে ভেলে",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-21%2Fdp6qos0t%2F1.jpg?rect=0%2C0%2C1920%2C1008&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2022-01%2F5a36c819-05a2-4bfb-ac50-57dd67355acb%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ১১:০০"
+        },
+        {
+          "headline": "রসচিঠি",
+          "excerpt": "রস‍+আলো রসচিঠি১ / ১",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/fun/r8hju6ljsz",
+          "author": "আহমেদ ইশতিয়াক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-19%2Fge89xo96%2Froshchithi.jpg?rect=0%2C87%2C1244%2C653&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2021-05%2Fba39cddb-a11d-47f9-971c-1458e27d6b8e%2Faktuthamun_OG_watermark.png&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ১১:০০"
+        },
+        {
+          "headline": "খাগড়াছড়িতে হঠাৎ অতি ভারী বৃষ্টি, সাজেকের সঙ্গে সড়ক যোগাযোগ বন্ধ",
+          "excerpt": "প্রতিনিধি খাগড়াছড়িতিন ঘণ্টায় ১০৩ মিলিমিটার বৃষ্টিতে ডুবে গেছে সড়ক। আজ সকালে খাগড়াছড়ির দীঘিনালার কবাখালি সড়কেছবি: প্রথম আলোখাগড়াছড়ির দীঘিনালায় হঠাৎ অতি ভারী বৃষ্টি হয়েছে। এতে খাগড়াছড়ি-দীঘিনালা সড়কের দুই অংশে পাহাড়ধসের ঘটনা ঘটেছে। এ সড়ক দিয়েই রাঙামাটির জনপ্রিয় পর্যটনকেন্দ্র সাজেক ভ্যালিতে যেতে হয়। সড়কে পাহাড়ধসের মাটি থাকায় আজ শনিবার সকাল থেকে সাজেকের সঙ্গে সড়ক যোগাযোগ বন্ধ রয়েছে। সকাল সাড়ে ১০টায়…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/district/z79zvfe3ea",
+          "author": "প্রতিনিধি",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-22%2F66jozwl4%2FWhatsApp-Image-2026-08-22-at-10.45.33.jpeg?rect=0%2C0%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ১০:৫৭"
+        },
+        {
+          "headline": "হারিয়ে যাওয়া কাপ-কেকের রহস্য",
+          "excerpt": "সাঈম সাদাত ও সিরাতিম মুস্তাকিম  হারিয়ে যাওয়া কাপ-কেকের রহস্যবিকেলের মিষ্টি রোদে গোল হয়ে বসে আছে একদল খুদে গোয়েন্দা। মাঝখানে বসে আছেন সবার প্রিয় গণিত ভাইয়া। রহস্য আর গণিতের মজার সব ধাঁধা দিয়ে বাচ্চাদের চমকে দিতে তাঁর জুড়ি মেলা ভার!একদিন গণিত ভাইয়া ছোট বাচ্চাদের এমনই এক রোমাঞ্চকর গল্প বলছিলেন। তবে তিনি আগেই শর্ত জুড়ে দিলেন — এটি শুধু গল্প নয়, বুদ্ধির পরীক্ষা! গণিত ভাইয়া মুচকি হেসে…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/education/study/rofe9xnwm3",
+          "author": "সাঈম সাদাত, সিরাতিম মুস্তাকিম",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-22%2Fz8x33tvd%2FWhatsApp-Image-2026-08-20-at-20.04.14.jpeg?rect=0%2C269%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ১০:৫১"
+        },
+        {
+          "headline": "বুড়িগঙ্গায় নৌকাবাইচ",
+          "excerpt": "বাজনার তালে তালে নদীর বুকে ছুটে চলেছে সারি সারি নৌকা। মাঝিদের সমস্বরে হাঁকডাক আর জল–বইঠার ছলাৎ ছলাৎ শব্দে মুখর হয়েছে চারপাশ। কে কাকে পেছনে ফেলে সবার আগে গন্তব্যে পৌঁছাবেন, সে প্রতিযোগিতায় মেতে উঠেছেন মাঝিরা। কখনো দুটি নৌকা পাশাপাশি ছুটে চলেছে। কখনো একটি নৌকাকে পেছনে ফেলে এগিয়ে যাচ্ছে অন্যটি। নদীর পাড়ে দাঁড়িয়ে, এমনকি ছোট নৌকায় চেপে মাঝিদের সেই লড়াই উপভোগ করছেন হাজারো মানুষ। গতকাল শুক্রবার বিকেলে…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/photo/bangladesh/j9kfybzxjy",
+          "author": "মীর হোসেন",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-22%2F2tzspmcq%2F1___Dhaka__Buriganga_River__Boat_Race__Competition__Game__22_08_2026.JPG?rect=0%2C32%2C5897%2C3096&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2022-01%2F18c58c05-9e66-46f3-8946-4437460f8f90%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ১০:৪৩"
+        },
+        {
+          "headline": "পড়ে আছে কোটি কোটি টাকার চিকিৎসা সরঞ্জাম, কোনোটি বাক্সবন্দী",
+          "excerpt": "কুড়িগ্রাম জেনারেল হাসপাতাল পড়ে আছে কোটি কোটি টাকার চিকিৎসা সরঞ্জাম, কোনোটি বাক্সবন্দীপুরো বিল না পাওয়ায় সফটওয়্যার–নির্ভর চিকিৎসা সরঞ্জাম (যন্ত্র) পাসওয়ার্ডের মাধ্যমে ‘লক’ করে রেখেছেন ঠিকাদারের লোকজন।মো. জাহানুর রহমান কুড়িগ্রামরোগনির্ণয়ের গুরুত্বপূর্ণ সব যন্ত্রপাতি ছয় বছর ধরে এভাবেই পড়ে আছে। এতে সেবাবঞ্চিত হচ্ছেন রোগীরা। সম্প্রতি কুড়িগ্রাম জেনারেল হাসপাতালেছবি: প্রথম আলোছয় বছরের বেশি সময় ধরে…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/district/781h0csqcn",
+          "author": "মো. জাহানুর রহমান",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-22%2Fpql7eoqm%2F082439KurigramDH160420260802IMG20260802105928202HDR.jpg?rect=0%2C461%2C4096%2C2150&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ১০:৪১"
+        },
+        {
+          "headline": "মুঠোফোন ফেরত দেওয়া নিয়ে তর্কাতর্কি, তরুণকে কুপিয়ে হত্যা",
+          "excerpt": "প্রতিনিধি বান্দরবানবান্দরবান জেলার মানচিত্রবান্দরবান সদর উপজেলার টঙ্কাবতী ইউনিয়নে এক তরুণকে কুপিয়ে হত্যার ঘটনা ঘটেছে। গতকাল শুক্রবার রাতে পুলিশ ঘটনাস্থলে গিয়ে ওই তরুণের লাশ উদ্ধার করে। এর আগে গতকাল বেলা তিনটার দিকে ঘটনাটি ঘটে।নিহত তরুণের নাম মো. নাসির। তিনি কক্সবাজারের মহেশখালী উপজেলার বাসিন্দা। হত্যায় অভিযুক্ত ব্যক্তির নাম মো. মানিক। তিনি ঘটনার পর থেকে পলাতক। তাঁর বাড়ি চট্টগ্রামের পটিয়ায়।পুলিশ…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/district/f2y1yadiat",
+          "author": "প্রতিনিধি",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-07-09%2Fvba0barl%2Fbandarbans.png?rect=0%2C129%2C1200%2C630&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ১০:২৯"
+        },
+        {
+          "headline": "সংসদীয় স্থায়ী কমিটি: বিরোধী দলকে সভাপতি পদ দেওয়া নিয়ে অনিশ্চয়তা",
+          "excerpt": "জাতীয় সংসদে বিষয়ভিত্তিক ১১টি এবং মন্ত্রণালয়–সম্পর্কিত স্থায়ী কমিটি আছে ৩৯টি।এখন পর্যন্ত বিষয়ভিত্তিক ৬টি ও মন্ত্রণালয়–সম্পর্কিত ৯টি স্থায়ী কমিটি গঠন করা হয়েছে।শুধু সরকারি হিসাব কমিটির সভাপতি পেয়েছে বিরোধী দল। রিয়াদুল করিম ঢাকাজাতীয় সংসদ অধিবেশনবিরোধী দলকে সংসদীয় স্থায়ী কমিটির সভাপতি পদ দেওয়া নিয়ে অনিশ্চয়তা তৈরি হয়েছে। সংবিধান সংশোধন সংক্রান্ত বিশেষ কমিটিতে বিরোধী দল প্রতিনিধি না দেওয়ায় জুলাই…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/politics/mv7zr57an0",
+          "author": "রিয়াদুল করিম",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-07-09%2Focn6002j%2FUntitled_2.jpg?rect=0%2C28%2C750%2C394&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2022-01%2F5a36c819-05a2-4bfb-ac50-57dd67355acb%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ১০:১৩"
+        },
+        {
+          "headline": "সিমেল, দূরত্ব-দর্শন অথবা ‘কেবলই এক সাঁকো’",
+          "excerpt": "হেমন্তে, এক নির্জন পথে, বর্ষণাচ্ছন্ন ধূসর দিনে, প্রথম দেখেছিলাম তোমায়, হাঁটছ তুমি আপন সৌন্দর্য মেখে—নীরবে; যেন তোমার পদতল খুঁজছিল কোনো কুসুমিত হরিৎক্ষেত্র, তোমার বসন চাইছিল, খেলে যাক, মৃদুমন্দ হাওয়া–বাতাসের মুহূর্ত, আর তোমার শ্রবণ চাইছিল শুধু রৌদ্রস্নাত গ্রীষ্মের নীরবতা। জগতের সৌন্দর্য সম্বন্ধে এক সুমহান প্রশ্নের মতো তুমি হেঁটে যাচ্ছিলে এমন এক পৃথিবীর মধ্য দিয়ে, যে পৃথিবী কখনো কোনো প্রত্যুত্তর…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/onnoalo/treatise/p4qjcel4mh",
+          "author": "লেখা:",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-20%2Fjojdp7zl%2FWhatsApp-Image-2026-08-20-at-10.45.28-PM.jpeg?rect=0%2C114%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ১০:০৭"
+        },
+        {
+          "headline": "যে অদ্ভুত উপায়ে পৃথিবীর কক্ষপথ পরিষ্কার করার কথা ভাবছেন বিজ্ঞানীরা",
+          "excerpt": "আসহাবিল ইয়ামিন পৃথিবীর কক্ষপথে ঘুরে বেড়াচ্ছে মানুষের তৈরি হাজার হাজার টন ময়লা। বাতিল স্যাটেলাইট, রকেটের ভাঙা অংশ কিংবা মহাকাশে নভোচারীদের কাজ করার সময় হাত থেকে পড়ে যাওয়া নাট-বল্টু। এসব জমা হচ্ছে সেখানে। এগুলো কিন্তু এক জায়গায় বসে নেই। প্রতি সেকেন্ডে প্রায় আট কিলোমিটার গতিতে চক্কর দিচ্ছে পৃথিবীর চারপাশে।বর্তমানে ১ সেন্টিমিটারের চেয়ে বড় অন্তত ১২ লাখ আবর্জনার টুকরা মহাকাশে ভাসছে। এগুলো গুলির চেয়েও…",
+          "source": "Prothom Alo",
+          "link": "https://www.kishoralo.com/feature/rq39j3thp7",
+          "author": "আসহাবিল ইয়ামিন",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-19%2F64b6hp04%2Fbcb74935-c0de-4fd0-bcab-ec5020b98cd3.webp?rect=0%2C85%2C1200%2C630&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2021-06%2Fbe2d99ee-c039-4acf-a6fb-2356c69a08a6%2FKIA_OG_watermark_final.png&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ১০:০০"
+        },
+        {
+          "headline": "বড়শিতে উঠল ৭৬ কেজি ওজনের মাছ",
+          "excerpt": "মাছ শিকার করতে থাইল্যান্ডে গিয়েছিলেন দুই বন্ধু সুপ্রিয় রায় ও ওমর হায়দার। দুই শখের শিকারি এ যাত্রায় ৭৬ কেজি ওজনের মাছও তুলেছেন। সেই অভিজ্ঞতা শোনালেন সুপ্রিয় রায়, শুনেছেন সজীব মিয়ামাছটি এত বড় ছিল যে ঠিকমতো সামলাতেই হিমশিম খেতে হয়েছেছবি:  সুপ্রিয় রায়ের সৌজন্যেব্যক্তিগত ব্যস্ততায় মাছ ধরায় লম্বা বিরতি পড়ে গিয়েছিল। বন্ধু ওমর হায়দার অনেক দিন ধরেই বলছিল, ‘চল, কোথাও মাছ ধরতে যাই।’ দেশে আমরা নানা জায়গায়…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/lifestyle/travel/voke3exyio",
+          "author": "সজীব মিয়া",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-20%2Fgj5lpmfb%2FFishingSuprio-Roy-8.jpeg?rect=103%2C0%2C1410%2C740&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ১০:০০"
+        },
+        {
+          "headline": "ভারতে টাকার বদলে এটিএম থেকে বের হচ্ছে চাল, কীভাবে কাজ করে এই মেশিন",
+          "excerpt": "0পরবর্তী ভিডিওভিডিও থেকে আরও দেখুনচালএটিএমভারত",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/video/bangladesh/rds1javc9w",
+          "author": "ভিডিও ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-21%2Fgdjrca2q%2FWEB.jpg?rect=0%2C0%2C1920%2C1008&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2022-01%2F5a36c819-05a2-4bfb-ac50-57dd67355acb%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ১০:০০"
+        },
+        {
+          "headline": "তারেকের ভারত সফর: রহস্যময় ঘোষণা, প্রত্যাহার!",
+          "excerpt": "নয়া দিল্লিতে ভারতের রাষ্ট্রপতি ভবনশুক্রবার রাষ্ট্রপতি ভবনের এক ঘোষণায় তারেক রহমানের ভারত সফর ঘিরে তুমুল জল্পনা ছড়ায়। বাংলাদেশের প্রধানমন্ত্রীকে সংবর্ধনার মহড়ার জন্য ২২ আগস্ট ‘চেঞ্জ অব গার্ড’ অনুষ্ঠান বাতিলের কথা জানানো হলেও এক ঘণ্টার মধ্যে তা প্রত্যাহার করা হয়। ঢাকা ও দিল্লির কূটনৈতিক সূত্র জানায়, শেখ হাসিনাকে প্রত্যর্পণ ও তার আচরণ নিয়ে ঢাকার শর্তাধীন ভারত সফর অনিশ্চিত। যদিও সরকারিভাবে আলোচনা…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/taareker-bhaart-sphr-rhsymyy-ghossnnaa-prtyaahaar",
+          "author": "শর্টস",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-22%2Fkjjg4jki%2FUntitled_3.jpg?rect=0%2C48%2C1141%2C599&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৯:৫৫"
+        },
+        {
+          "headline": "টানাটানির সময় পানিতে পড়ে টাকার ব্যাগ, গুলি ছুড়ে পালাল ছিনতাইকারীরা",
+          "excerpt": "প্রতিনিধি কেশবপুর, যশোরছিনতাইপ্রতীকী ছবিতখন রাত ১০টা। টাকার ব্যাগ নিয়ে ফিরছিলেন মৎস্য খামারের ব্যবস্থাপক সত্যজিৎ দেবনাথ। হঠাৎ তাঁর পথরোধ করে ছয় ছিনতাইকারী। টাকার ব্যাগ নিয়ে শুরু হয় টানাটানি। একপর্যায়ে ব্যাগটি পাশের মাছের ঘেরের পানিতে ছুড়ে দেন সত্যজিৎ। টের পেয়ে স্থানীয় বাসিন্দারা ঘটনাস্থলে চলে এলে ফাঁকা গুলি ছুড়ে আতঙ্ক ছড়িয়ে পালিয়ে যায় ছিনতাইকারী দলটি।ঘটনাটি ঘটেছে গতকাল শুক্রবার রাতে যশোরের…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/district/kmy210ytk3",
+          "author": "প্রতিনিধি",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2023-12%2F2e67a7f0-e6a6-4280-b93d-e529c22aa299%2F3a3d7f910e4e3ca94a8e7f178e19ef46_5c456551cf8e6.jpg?rect=0%2C8%2C1000%2C525&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৯:৫৫"
+        },
+        {
+          "headline": "'শি অ্যান্ড দ্য সান': নরম রোদে সফট লুকে স্পর্শিয়া",
+          "excerpt": "সব লুকে চোখ ধাঁধায় না; মনও জুড়ায়। তেমনই এক সফট লুকে নরম রোদের আলোয় দেখা দিলেন অভিনেত্রী অর্চিতা স্পর্শিয়া। এমনিতেই একঢাল ন্যাচারাল চুল আর সহজাত সৌন্দর্যে তিনি স্ট্যান্ড আউট করেন সবার মাঝে। প্রথাগত বিউটি স্ট্যান্ডার্ডস অতিক্রম করে আনকনভেনশনাল এক আবেদন কাজ করে স্পর্শিয়ার বেশিভাগ লুকে। ফ্যাশনে তিনি সাবলীল ও নিজস্ব স্টাইলে বিশ্বাসী। নরম রোদের আলোয় প্রকৃতির মাঝে এই অভিনেত্রীর নতুন লুকটি আসলেই চোখের…",
+          "source": "Prothom Alo",
+          "link": "https://www.haal.fashion/celeb/look/8ezfpi036w",
+          "author": "হাল ফ্যাশন ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-22%2Fy0wpn7x3%2Fsporshiya55.jpg?overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2023-10%2Fdf4c7d13-96dc-4875-b8bf-5aac7b6aa475%2FHaalfashion_gpi_sample3.png&overlay_position=bottom&overlay_opacity=1&w=1200&h=627&auto=format%2Ccompress&ogImage=true&overlay_width_pct=1",
+          "time": "সকাল ৯:৩০"
+        },
+        {
+          "headline": "যেখানেই যান, গাছের চারা রোপণ করেন জোবায়ের",
+          "excerpt": "কামনাশীষ শেখর টাঙ্গাইলকয়েক বছর আগে লাগানো কনকচাঁপাগাছের পরিচর্যা করছেন জোবায়ের আহমেদ খান। সম্প্রতি টাঙ্গাইল সদরের আগবেথৈর গ্রামেছবি: প্রথম আলোছুটির দিন হাতে গাছের চারা নিয়ে বেরিয়ে পড়েন জোবায়ের আহমেদ খান। কখনো শিক্ষাপ্রতিষ্ঠানের আঙিনা, কখনো রাস্তার ধারে, আবার কখনো পার্ক কিংবা কোনো আত্মীয়ের বাড়ির আশপাশে—সুযোগ পেলেই চারা রোপণ করেন তিনি। কর্মস্থল ঢাকায় হলেও ছুটির দিনগুলোতে টাঙ্গাইল, দিনাজপুর, সিলেট…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/district/osu0dfkpj3",
+          "author": "কামনাশীষ শেখর",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-21%2Fsjgwbm7c%2FTangail-1.jfif?rect=0%2C180%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৯:৩০"
+        },
+        {
+          "headline": "সকালেই পড়ুন আলোচিত ৫ খবর",
+          "excerpt": "শুভ সকাল। আজ ২২ আগস্ট, শনিবার। গতকাল শুক্রবার প্রথম আলোর অনেক আলোচিত সংবাদ হয়তো আপনার চোখ এড়িয়ে গেছে। তাই আজ দিনের শুরুতেই পড়তে পারেন দেশ-বিদেশের আলোচিত পাঁচ খবর ও বিশ্লেষণ।১মন্ত্রিসভার আকার আরও বাড়ল, কে কোন দায়িত্বেমন্ত্রী হিসেবে শপথ নিচ্ছেন (বাঁ থেকে) আবদুল মঈন খান, রশিদুজ্জামান মিল্লাত, আন্দালিভ রহমান পার্থ ও সাচিং প্রু জেরী। গতকাল বঙ্গভবনেছবি: পিএমওসরকার গঠনের ছয় মাস পর মন্ত্রিসভার আকার আরও…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/vgxfnt5bit",
+          "author": "প্রথম আলো ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2023-11%2F96ef562e-2cfa-4151-b57a-ce77cdb446ff%2FWhatsApp_Image_2023_02_27_at_08_34_41.jpeg?rect=0%2C106%2C1423%2C747&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৯:২১"
+        },
+        {
+          "headline": "সার সিন্ডিকেট থেকে কি কৃষকের মুক্তি নেই",
+          "excerpt": "আমন চাষে অনিশ্চয়তা সার সিন্ডিকেট থেকে কি কৃষকের মুক্তি নেইসম্পাদকীয়আমন মৌসুমে কৃষকেরা চাহিদামতো সার পাচ্ছেন না, অথচ বেশি দামে তাঁদের সার কিনতে হচ্ছে—এমন সংবাদ নতুন শঙ্কা ও উদ্বেগ তৈরি করার জন্য যথেষ্ট। কেননা আমন উৎপাদনের সঙ্গে খাদ্যনিরাপত্তার প্রশ্নটি নিবিড়ভাবে জড়িত। বৈরী আবহাওয়া ও ডিজেল–সংকটের কারণে এ বছর বোরোর উৎপাদন কাঙ্ক্ষিত লক্ষ্যমাত্রায় পৌঁছাতে পারেনি। জুলাইয়ে টানা অতি ভারী বৃষ্টি ও বন্যায়…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/opinion/editorial/3swj5w0imf",
+          "author": "সম্পাদকীয়",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2020-10%2F1029114c-37fd-4c36-a816-595983984828%2Feditorial_5.png?rect=0%2C10%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-09-22%2F5lwyn5je%2Fdefaultog.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৯:১৫"
+        },
+        {
+          "headline": "সুন্দরবনের কাছে নৌকাডুবি, প্রাণে বাঁচলেন ৯ পর্যটক",
+          "excerpt": "প্রতিনিধি সাতক্ষীরানৌকাডুবির পর পর্যটকদের উদ্ধার করেন টহলে থাকা নৌ পুলিশের সদস্যরা। শুক্রবার বিকেলে খুলনার কয়রা উপজেলার আওতাধীন সুন্দরবন এলাকায়ছবি : সংগৃহীতখুলনার কয়রা উপজেলার সিংহেরটেক এলাকাসংলগ্ন শাকবাড়িয়া ও আড়পাঙ্গাশিয়া নদীর মোহনায় পর্যটকবাহী একটি কাঠের ইঞ্জিনচালিত নৌকা ডুবে গেছে। এ সময় নৌকায় থাকা ৯ জনই নদীতে পড়ে গেলেও দ্রুত তাঁদের উদ্ধার করেছে নৌ পুলিশ। গতকাল শুক্রবার বিকেল সাড়ে পাঁচটার দিকে…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/district/5vzidm6vs3",
+          "author": "প্রতিনিধি",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-22%2Fbn5zy23s%2FKhulnaDH159620260822Satkhira-koyra-Khulna-sundarban-boat-rescue-pic-1.jpg?rect=0%2C78%2C2507%2C1316&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৯:০৭"
+        },
+        {
+          "headline": "চট্টগ্রামের পাহাড়তলীতে কি আরেকটি ‘জঙ্গল সলিমপুর’ গড়ে উঠছে",
+          "excerpt": "0",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/video/bangladesh/isgv26wmi3",
+          "author": "ভিডিও ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-21%2Fcih9dhri%2Fweb.jpg?rect=0%2C0%2C1920%2C1008&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2022-01%2F5a36c819-05a2-4bfb-ac50-57dd67355acb%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৯:০১"
+        },
+        {
+          "headline": "দীপুর চিৎকার, ‘এখানে অনেক লোক মারা গেছে, সবাই দ্রুত আসেন’",
+          "excerpt": "সীতাকুণ্ডে ১০ জনের মৃত্যু দীপুর চিৎকার, ‘এখানে অনেক লোক মারা গেছে, সবাই দ্রুত আসেন’দীপু দাশের বয়স ৩২ বছর। তিনি ফেরদৌস স্টিল শিপ রিসাইক্লিং ইয়ার্ডে কাটারম্যান সহকারী হিসেবে কাজ করতেন। ১৪ আগস্ট ইয়ার্ডে জাহাজটি কাটার সময় ‘বিষাক্ত গ্যাসে’ আক্রান্ত হয়ে ৯ শ্রমিকের মৃত্যু হয়। পরে চিকিৎসাধীন অবস্থায় গত বুধবার মারা যান আরও একজন। ঘটনার দিন দীপুও ওই জাহাজভাঙা কারখানায় ছিলেন।নিজস্ব প্রতিবেদক চট্টগ্রামদীপু…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/district/zzkw6vc0qi",
+          "author": "নিজস্ব প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-21%2Fzciksqdr%2FDipu-das.jpg?rect=0%2C7%2C600%2C315&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৯:০১"
+        },
+        {
+          "headline": "স্ত্রীদের সঙ্গে নবীজির হাসিখুশি ভালোবাসা",
+          "excerpt": "সিরাত স্ত্রীদের সঙ্গে নবীজির হাসিখুশি ভালোবাসাইলিয়াস মশহুদ ছবি: পেক্সেলসইসলামি জীবনদর্শনে পরিবার হলো পরম প্রশান্তির ঠিকানা। পবিত্র কোরআনে আল্লাহ–তাআলা দাম্পত্যের এই মূল সুর তুলে ধরে বলেছেন, ‘আর তাঁর নিদর্শনাবলির মধ্যে রয়েছে যে তিনি তোমাদের জন্য তোমাদের মধ্য থেকেই সঙ্গিনী সৃষ্টি করেছেন, যাতে তোমরা তাদের কাছে প্রশান্তি পাও এবং তিনি তোমাদের মধ্যে পারস্পরিক ভালোবাসা ও দয়া সৃষ্টি করেছেন।’ (সুরা রুম,…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/religion/islam/nm63u59vou",
+          "author": "ইলিয়াস মশহুদ",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-21%2Fzghsfft8%2Fpexels-bilal-shakoor-2155337748-33731524.jpg?rect=0%2C1247%2C2262%2C1188&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৯:০০"
+        },
+        {
+          "headline": "একদিন হঠাৎ",
+          "excerpt": "জানি একদিন হঠাৎ—অন্তর্জালে কোনো অচেনা মানুষ...অতটাও অচেনা ঠিক বলব না,হয়তো ঘুরে বেড়িয়েছে বহুকালআমার প্রিয় রাস্তাটা ধরে,পছন্দের টংটায় কেটেছেঅসংখ্য বিকেল, সন্ধ্যা এমনকিঘুমে জড়ানো মধ্যদুপুর...হয়তো যে ক্লাসরুমে আমি জড়িয়েছিআধো ঘুম আধো জাগ্রত তন্দ্রায়বহু লাঞ্চ-ফেরত ক্লান্ত বিকেলে,হয়তো যে চায়ের কাপে আমার চুমুকপ্রতি দিনক্ষণ নিত্য প্রহর,একই কাপ, একই বেঞ্চহয়তো কিছু বছর এদিক-সেদিক,ঠিক ততটাই অচেনা,তারপর হঠাৎ…",
+          "source": "Prothom Alo",
+          "link": "https://www.bondhushava.com/writings/2e7zrfsq2l",
+          "author": "লেখা:",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2024-03%2F7e190b6c-2218-45ae-bcc1-64672b015214%2F26032024_su_27.jpg?rect=0%2C0%2C2337%2C1227&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2022-05%2Feb8b952a-4710-4bb3-a408-066b4bbbd9a8%2FFinal_Bondhushava_OG_watermark_01.png&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৯:০০"
+        },
+        {
+          "headline": "অগ্রিম ৭৬ কোটি টাকা নিয়েও সিরাজগঞ্জ বিসিকে গ্যাসলাইন টানছে না পিজিসিএল",
+          "excerpt": "আরিফুল গনি সিরাজগঞ্জসিরাজগঞ্জ বিসিক শিল্পপার্কছবি: প্রথম আলোউত্তরবঙ্গের অন্যতম বৃহৎ অর্থনৈতিক অঞ্চল হিসেবে গড়ে তোলা হয়েছিল সিরাজগঞ্জ বিসিক শিল্পপার্ক। শিল্পপার্কটিতে গ্যাস-সংযোগের অবকাঠামো ও অভ্যন্তরীণ লাইন নির্মাণে পশ্চিমাঞ্চল গ্যাস কোম্পানি লিমিটেড (পিজিসিএল) একটি প্রকল্প হাতে নেয়। এদিকে বাংলাদেশ ক্ষুদ্র ও কুটির শিল্প করপোরেশন (বিসিক) শিল্পপ্লটগুলোয় গ্যাস-সংযোগ দিতে ২০২২ সালের ২০ জুন…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/business/industry/0304a2jtj8",
+          "author": "আরিফুল গনি",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-21%2F3hjleox4%2FWhatsApp-Image-2026-08-21-at-10.04.32-PM.jpeg?rect=0%2C180%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৯:০০"
+        },
+        {
+          "headline": "শিশুদের বিনোদনকেন্দ্র তৈরির উদ্যোগ নিন",
+          "excerpt": "নেত্রকোনায় নেই শিশুপার্ক শিশুদের বিনোদনকেন্দ্র তৈরির উদ্যোগ নিনসম্পাদকীয়শিশুর সুস্থ ও স্বাভাবিক মানসিক বিকাশের জন্য প্রয়োজন মুক্ত বাতাস, উন্মুক্ত খেলার মাঠ এবং প্রকৃতির সান্নিধ্য। কিন্তু নেত্রকোনা পৌর শহরের চিত্র সম্পূর্ণ বিপরীত। স্বাধীনতার সাড়ে পাঁচ দশক পেরিয়ে গেলেও জেলা শহরটিতে আজ পর্যন্ত নির্মিত হয়নি একটি শিশুপার্ক। শহরের ঘিঞ্জি পরিবেশে চার দেয়াল আর পাখির খাঁচার মতো কিন্ডারগার্টেনের গণ্ডিতে…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/opinion/editorial/8ze3xembr2",
+          "author": "সম্পাদকীয়",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2020-10%2F1d63e6da-a8a2-4b30-a01c-0443c6229cd7%2Feditorial_3.png?rect=0%2C114%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-09-22%2F5lwyn5je%2Fdefaultog.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৮:৫৫"
+        }
+      ],
+      "International": [
+        {
+          "headline": "দিল্লিকে ঢাকার কঠিন শর্ত: নেপথ্যে 'অবিশ্বাস', নাকি সম্পর্কের 'রিসেট' চায় ঢাকা?",
+          "excerpt": "কম ডেটা ব্যবহার করতে শুধু টেক্সট পড়ুনছবির ক্যাপশান, শেখ হাসিনার প্রত্যর্পণ ইস্যু প্রভাব ফেলছে বাংলাদেশ-ভারত সম্পর্কে Author, তাফসীর বাবুRole,  বিবিসি নিউজ বাংলা, ঢাকাPublished ২৬ মিনিট আগেপড়ার সময়: ৭ মিনিটবাংলাদেশের প্রধানমন্ত্রী তারেক রহমানের ভারত সফর আপাতত স্থগিত। দ্বিপাক্ষিক সফরে ভারতের প্রস্তাব এবং আগ্রহ সত্ত্বেও সেটা যে হলো না তার একটা বড় কারণ বাংলাদেশের পক্ষ থেকে দেওয়া কয়েকটি শর্ত।ভারত…",
+          "source": "BBC Bangla World",
+          "link": "https://www.bbc.com/bengali/articles/cly5w34w0p8o?at_medium=RSS&at_campaign=rss",
+          "author": "তাফসীর বাবু",
+          "image": "https://ichef.bbci.co.uk/news/1200/branded_bengali/da1e/live/6566d6b0-9cb8-11f1-aed2-8d6da8d75094.jpg",
+          "time": "দুপুর ১২:০৯"
+        },
+        {
+          "headline": "China’s new moon mission could unlock secret of lunar ice: Why that matters",
+          "excerpt": "China is set to launch its Chang’e-7 unmanned, robotic space mission, possibly as early as Monday morning, to look for ice water in the permanently shadowed craters of the moon’s south pole.This marks China’s seventh and most ambitious moon mission so far. Here is what we know about it.What do we know about Chang’e-7?The Chang’e‑7 launch window runs from Monday, August 24 to Monday, August 31,…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/22/chinas-new-moon-mission-could-unlock-secret-of-lunar-ice-why-that-matters?traffic_source=rss",
+          "author": "Sarah Shamim",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/ap_6a88324ac8870-1787310666.jpg?resize=1200%2C630",
+          "time": "সকাল ১১:৩৬"
+        },
+        {
+          "headline": "সরকার কেন এখন কলেরার টিকা দিচ্ছে?",
+          "excerpt": "কম ডেটা ব্যবহার করতে শুধু টেক্সট পড়ুনছবির উৎস, MUNIR UZ ZAMAN/AFP via Getty ImagesPublished ৪ ঘন্টা আগেপড়ার সময়: ৬ মিনিটকলেরা প্রতিরোধে টিকা দেয়ার উদ্যোগ নিয়েছে বাংলাদেশ সরকার। আইসিডিডিআর,বি, বিশ্ব স্বাস্থ্য সংস্থা, ইউনিসেফ ও রেড ক্রিসেন্ট সোসাইটির যৌথ সহযোগিতায় শনিবার থেকে শুরু হবে প্রথম ধাপের টিকাদান কর্মসূচি।২২শে অগাস্ট থেকে ২১শে সেপ্টেম্বর পর্যন্ত প্রথম ডোজের এবং ২৬শে সেপ্টেম্বর থেকে ২৫শে…",
+          "source": "BBC Bangla World",
+          "link": "https://www.bbc.com/bengali/articles/cx2kr011llzo?at_medium=RSS&at_campaign=rss",
+          "author": "BBC News বাংলা",
+          "image": "https://ichef.bbci.co.uk/news/1200/branded_bengali/3f34/live/19cf9770-9d47-11f1-a3dc-c3f8cfe34ff8.jpg",
+          "time": "সকাল ৭:৪২"
+        },
+        {
+          "headline": "‘It was a tsunami’: Floods leave death trail in India’s Assam",
+          "excerpt": "Assam, India – Debiram Panika, a 37-year-old daily wage labourer from northeastern India’s Assam state, would speak to his wife and two daughters on video calls every day from Dimapur, a town in neighbouring Nagaland state where he worked.But when his phone rang at about 11am on July 19, there was panic in the voice of his 30-year-old wife, Dipika.Recommended Stories list of 3 itemslist 1 of…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/22/it-was-a-tsunami-floods-leave-death-trail-in-indias-assam?traffic_source=rss",
+          "author": "Arshad Ahmed",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/DebiramPanikaWife-1787307317.jpg?resize=1920%2C1440",
+          "time": "সকাল ১১:৩৫"
+        },
+        {
+          "headline": "শিশুদের গোপনীয়তা লঙ্ঘনের মামলায় যুক্তরাষ্ট্রকে ৪০ কোটি ডলার দেবে টিকটক",
+          "excerpt": "কম ডেটা ব্যবহার করতে শুধু টেক্সট পড়ুনছবির উৎস, Reutersছবির ক্যাপশান, যুক্তরাষ্ট্রে টিকটক ২০২৪ সাল থেকে চাপের মুখে আছেAuthor, ক্যালি হেইসRole,  টেকনোলজি রিপোর্টার, স্যানফ্রান্সিসকোPublished ২ ঘন্টা আগেপড়ার সময়: ৩ মিনিটশিশুদের ব্যক্তিগত তথ্যের গোপনীয়তা লঙ্ঘনের অভিযোগে দায়ের করা একটি মামলা নিষ্পত্তি করতে যুক্তরাষ্ট্রের সরকারকে ৪০ কোটি ডলার দিতে রাজি হয়েছে সামাজিক মাধ্যম টিকটক। শিশুদের গোপনীয়তা…",
+          "source": "BBC Bangla World",
+          "link": "https://www.bbc.com/bengali/articles/cx2kr3q3kl3o?at_medium=RSS&at_campaign=rss",
+          "author": "ক্যালি হেইস",
+          "image": "https://ichef.bbci.co.uk/news/1200/branded_bengali/7362/live/347ad270-9dd7-11f1-a291-b542ee92de7c.jpg",
+          "time": "সকাল ৯:৩৮"
+        },
+        {
+          "headline": "Inundated Philippine communities seek answers over flood control funds",
+          "excerpt": "NewsFeedAl Jazeera’s Jamela Alindogan reports from Northern Philippines where inundated communities are demanding answers. Residents say they’re ready for the potential for monsoon flooding, but are angry that flood control measures they say were paid for, seemingly do not work.Published On 22 Aug 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/8/22/inundated-philippine-communities-seek-answers-over-flood-control-funds?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/wide-thumb-2-philippines-1787373324.png?resize=1920%2C1080&quality=80",
+          "time": "সকাল ১০:৩৬"
+        },
+        {
+          "headline": "টেস্ট চ্যাম্পিয়নশিপ ফাইনাল খেলতে বাংলাদেশকে কী করতে হবে?",
+          "excerpt": "কম ডেটা ব্যবহার করতে শুধু টেক্সট পড়ুনছবির উৎস, AFP via Getty Imagesছবির ক্যাপশান, ডারউইনে অস্ট্রেলিয়াকে ৯ উইকেটে হারিয়ে বাংলাদেশ চমক দেখিয়েছেPublished এক ঘন্টা আগেপড়ার সময়: ৫ মিনিটঅস্ট্রেলিয়ার মাটিতে বাংলাদেশ এখন এমন এক জায়গায় দাঁড়িয়ে, যেখানে একটি জয় বদলে দিতে পারে শুধু একটি সিরিজের গল্প নয়, বিশ্ব টেস্ট চ্যাম্পিয়নশিপের পুরো হিসাব।ডারউইনে অস্ট্রেলিয়াকে ৯ উইকেটে হারিয়ে বাংলাদেশ যে চমক দেখিয়েছে,…",
+          "source": "BBC Bangla World",
+          "link": "https://www.bbc.com/bengali/articles/c629pe5485xo?at_medium=RSS&at_campaign=rss",
+          "author": "BBC News বাংলা",
+          "image": "https://ichef.bbci.co.uk/news/1200/branded_bengali/41e9/live/e5707ed0-9d9c-11f1-b109-879e35c24276.png",
+          "time": "সকাল ১০:৩৮"
+        },
+        {
+          "headline": "Palestinian teen shot and killed in West Bank attack, UN responds",
+          "excerpt": "NewsFeedA 17-year-old Palestinian was killed and another person critically injured in a settler attack in the occupied West Bank near Hebron. The UN has called for Palestinians to be protected and perpetrators held accountable, as 22 Palestinians have been killed in settler attacks this year.Published On 22 Aug 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/8/22/palestinian-teen-shot-and-killed-in-west-bank-attack-un-responds?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/image-1787372978.jpg?resize=1920%2C1080&quality=80",
+          "time": "সকাল ১০:৩০"
+        },
+        {
+          "headline": "পত্রিকা: 'মন্ত্রিসভায় নতুন পাঁচ মুখ'",
+          "excerpt": "কম ডেটা ব্যবহার করতে শুধু টেক্সট পড়ুনPublished ৩ ঘন্টা আগেপড়ার সময়: ৮ মিনিটশনিবার ঢাকা থেকে প্রকাশিত পত্রিকার পাতাজুড়ে নয়া রাষ্ট্রপতি মির্জা ফখরুল ইসলাম আলমগীরের শপথগ্রহণ; মন্ত্রিসভায় নতুন সদস্য যুক্ত হওয়া ও রদবদলের খবর গুরুত্ব পেয়েছে। এছাড়া, ভারতে তারেক রহমানের 'সম্ভাব্য' সফর ইস্যু এবং দেশে গ্যাস সংকট থাকলেও পোষাক খাতের ক্রেতারা মুখ ফিরিয়ে নেয়নি; এমন খবরও রয়েছে।দ্য ডেইলি স্টারের প্রধান…",
+          "source": "BBC Bangla World",
+          "link": "https://www.bbc.com/bengali/articles/cgljr7wr411o?at_medium=RSS&at_campaign=rss",
+          "author": "BBC News বাংলা",
+          "image": "https://ichef.bbci.co.uk/news/1200/branded_bengali/f85b/live/c8a64210-9dd5-11f1-b166-7d7e2cda77e6.jpg",
+          "time": "সকাল ৯:০২"
+        },
+        {
+          "headline": "Nigeria and the Sahel: A growing security divide",
+          "excerpt": "Abuja, Nigeria – In December 2025, Burkina Faso detained 11 Nigerian Air Force personnel after their C-130 transport aircraft made an emergency landing in Bobo-Dioulasso while travelling to Portugal for scheduled maintenance.Burkina Faso said the aircraft had entered its airspace without the required authorisation, while Nigerian officials said the landing followed a technical problem. The…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/22/nigeria-and-the-sahel-a-growing-security-divide?traffic_source=rss",
+          "author": "By Mubarak Aliyu",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2023/02/000_Par8191835.jpg?resize=1920%2C1440",
+          "time": "সকাল ১০:৩০"
+        },
+        {
+          "headline": "At least 13 Tunisians missing as migrant boat headed for Italy capsizes",
+          "excerpt": "Thousands of people have died since 2014 trying to cross the Mediterranean Sea and reach Europe.At least 13 Tunisians are missing after a boat carrying migrants sank off the Tunisian coast while sailing towards Italy, according to a migrant rights group.Two people were rescued from the boat, which set off early on Thursday, Mostafa Abdelkebir, the head of the Tunisian Observatory for Human…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/22/at-least-13-tunisians-missing-as-migrant-boat-headed-for-italy-capsizes?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/2024-11-13T143849Z_137104042_GF10000212262_RTRMADP_3_EUROPE-MIGRANTS-GREECE-1787367903.jpg?resize=1920%2C1440",
+          "time": "সকাল ১০:২৪"
+        },
+        {
+          "headline": "Canada vows to match Trump’s 50% tariffs after trade deal talks fail",
+          "excerpt": "Canadian prime minister Mark Carney has promised to match US tariffs “dollar for dollar”, after the two sides failed to agree a trade deal by the deadline of midnight on Friday.Canadian officials had worked hard in good faith but “last-minute changes in the US proposed terms were unfair, uneconomic and called into question the reliability of any deal”, Carney said in a statement.He said of the…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/world/2026/aug/22/canada-tariffs-trump-trade-deal-talks-fail",
+          "author": "Guardian staff reporter",
+          "image": "https://i.guim.co.uk/img/media/4827dba8e972c050d94247357390369f6a5477f1/389_0_3191_2554/master/3191.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=3e9b60e22eda854681e73b630d21cf0e",
+          "time": "দুপুর ১২:০৫"
+        },
+        {
+          "headline": "US imposes 50 percent tariffs on $20bn in Canadian goods after talks fail",
+          "excerpt": "Canadian Prime Minister Mark Carney says Ottawa will impose retaliatory tariffs ‘dollar for dollar’ after trade talks with the US fail.The United States has imposed 50 percent tariffs on about $20bn worth of Canadian goods after trade negotiators from the two countries failed to finalise a trade deal despite three days of talks in Washington, DC.With a deadline imposed by US President Donald…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/22/us-imposes-50-tariffs-on-20bn-worth-of-canadian-goods-after-talks-fail?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/reuters_6a891eb2-1787371186.jpg?resize=1920%2C1440",
+          "time": "সকাল ১০:০২"
+        },
+        {
+          "headline": "US judge strikes down Trump immigrant visa ban affecting 75 countries",
+          "excerpt": "A federal judge in Manhattan ruled against the State Department’s suspension of immigrant visas.A United States judge has struck down a policy introduced by the administration of President Donald Trump suspending the issuance of immigrant visas to applicants from 75 countries, saying the policy exceeded Secretary of State Marco Rubio’s statutory authority.Judge Jeannette Vargas of Manhattan said…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/22/us-judge-strikes-down-trump-immigrant-visa-ban-affecting-75-countries?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/ap_6a8904db6d20f-1787364571.jpg?resize=1920%2C1440",
+          "time": "সকাল ৯:১৯"
+        },
+        {
+          "headline": "Peru rescues people trapped by landslides on highway for nearly a week",
+          "excerpt": "NewsFeedAuthorities have begun helicopter evacuations in Peru’s Arequipa region after heavy rains and landslides destroyed sections of the Southern Coastal Highway, leaving dozens of people and vehicles stranded for six days.Published On 22 Aug 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/8/22/peru-rescues-people-trapped-by-landslides-on-highway-for-nearly-a-week?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/wide-thumb-peru-1787364542.png?resize=1920%2C1080&quality=80",
+          "time": "সকাল ৮:০৯"
+        },
+        {
+          "headline": "Palestinian-British girl, 6, dies days after family drowned off UK coast",
+          "excerpt": "Saja El-Khawas’s death follows that of her mother, father, and sister on Tuesday, all of whom drowned.A six-year-old Palestinian-British girl whose parents and sister drowned earlier this week has also died in hospital, according to local police.Saja el-Khawas was taken to hospital in critical condition on Tuesday but has since died, Sussex police said Friday.Recommended Stories list of 3…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/22/palestinian-british-girl-6-dies-days-after-family-drowned-off-uk-coast?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/getty_6a88e88850-1787357320.jpg?resize=1920%2C1440",
+          "time": "সকাল ৭:৪২"
+        },
+        {
+          "headline": "Iranian president says time to end war with US from ‘position of strength’",
+          "excerpt": "Omani and Iranian foreign ministers hold a call as Washington prepares economic sanctions amid ongoing shipping disruptions in the Strait of Hormuz.Iranian President Masoud Pezeshkian has called for an end to the months-long war with the United States, stating that Tehran holds a position of strength as diplomatic talks remain stalled.“It is better that we bring the war to an end now as we are…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/8/22/iranian-president-says-time-to-end-war-with-us-from-position-of?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/2026-08-10T081340Z_106953894_RC2A6MA6WJP3_RTRMADP_3_IRAN-CRISIS-REZAEI-1787353198.jpg?resize=1920%2C1440",
+          "time": "সকাল ৬:৫৯"
+        },
+        {
+          "headline": "Sorrow as community pays tribute to ‘shining light’ Lily Hooper after NSW hiking tragedy",
+          "excerpt": "Tributes have flowed for 18-year-old Lily Hooper, remembered as an adventurous, multitalented athlete with an infectious smile, after her body was found on Thursday afternoon, eight days after she disappeared while hiking in the New South Wales southern highlands.The teenager was a fixture across local sporting and community groups in the Wollondilly region, training in martial arts, alongside…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/australia-news/2026/aug/22/sorrow-as-community-pays-tribute-to-shining-light-lily-hooper-after-nsw-hiking-tragedy",
+          "author": "Ima Caldwell",
+          "image": "https://i.guim.co.uk/img/media/88767de4bf103f7cd1db7a710fb56defa740aef5/0_53_1638_1309/master/1638.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=5a5cbdd341e3505f1e30135ae4fdf1ac",
+          "time": "সকাল ১১:৫৯"
+        },
+        {
+          "headline": "Coles website down after viral Reddit post sees customers buy cases of alcoholic drinks at nearly 80% discount",
+          "excerpt": "The Coles website and app have gone offline hours after a viral Reddit post highlighted a nearly 80% discount on 24-packs of premixed alcoholic drinks.For several hours on Saturday, both the Coles website and app displayed a message advising “we’re currently offline – but not for long”. The website and app came back online before the website went down again on Saturday afternoon. It was back up…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/australia-news/2026/aug/22/coles-website-down-after-viral-reddit-post-sees-customers-buy-cases-of-alcoholic-drinks-at-nearly-80-discount",
+          "author": "Penry Buckley",
+          "image": "https://i.guim.co.uk/img/media/6b53c8f30a62a8dc6779604117b0fc6774cb1bc2/0_0_5000_4000/master/5000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=5a92d5508de4e1f644d46621fda71634",
+          "time": "সকাল ১১:৫৫"
+        },
+        {
+          "headline": "Attack on Ukraine shopping centre that killed 16 is ‘terror by design’, says EU foreign policy chief",
+          "excerpt": "Russian drones have slammed into a busy shopping centre in central Ukraine, killing 16 people in an attack that Volodymyr Zelenskyy condemned as “cynical and despicable”.The EU’s foreign policy chief, Kaja Kallas, condemned Friday’s attack on Kryvyi Rih – the president’s home town – as “terror by design” and said she was “putting forward the most far-reaching Russia sanctions listings since the…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/world/2026/aug/22/ukraine-shopping-centre-attack-deaths-russia-terror-by-design-kaja-kallas-kryvyi-rih",
+          "author": "Guardian staff reporter",
+          "image": "https://i.guim.co.uk/img/media/2cc528426ef20eae7438615f8906db2f009b85dc/37_0_970_776/master/970.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=852122a8fca3edd8b84d413495e9bd01",
+          "time": "সকাল ৭:১২"
+        },
+        {
+          "headline": "সবচেয়ে প্রাচীন জাতের গরু",
+          "excerpt": "হোয়াইট পার্ককে বিশ্বের সবচেয়ে প্রাচীন \nগরুর জাতগুলোর একটি মনে করা হয়।ছবি: এআই দিয়ে তৈরিযুক্তরাজ্যের নর্থ ইয়র্কশায়ারের মালটনের কাছে অবস্থিত ক্যাসল হাওয়ার্ড। ৩০০ বছরের বেশি সময় ধরে হাওয়ার্ড পরিবারের সঙ্গে যুক্ত এই ঐতিহাসিক প্রাসাদ এবং এর বিশাল প্রাঙ্গণ। বর্তমানে এটি পরিচালনা করছেন পরিবারের সদস্য নিক হাওয়ার্ড ও তাঁর স্ত্রী ভিক্টোরিয়া হাওয়ার্ড।ক্যাসল হাওয়ার্ড এস্টেটে প্রাকৃতিক পরিবেশ ও জীববৈচিত্র্য…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/world/europe/u6lbndmz8o",
+          "author": "বিবিসি",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-22%2Fnzh84ow2%2Fwhiteparkcow.jpg?rect=0%2C266%2C1200%2C630&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-09-22%2F5lwyn5je%2Fdefaultog.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ১০:৪২"
+        },
+        {
+          "headline": "বাংলাদেশসহ ৭৫ দেশের নাগরিকদের অভিবাসী ভিসা স্থগিতের নীতি বাতিল করলেন মার্কিন আদালত",
+          "excerpt": "রয়টার্স কোলাজপ্রথম আলোযুক্তরাষ্ট্রে বাংলাদেশসহ ৭৫ দেশের নাগরিকদের অভিবাসী ভিসা দেওয়া স্থগিত রাখার ট্রাম্প প্রশাসনের নীতি বাতিল করেছেন দেশটির একটি ফেডারেল আদালত। আদালত বলেছেন, পররাষ্ট্রমন্ত্রী মার্কো রুবিওর আইনগত এখতিয়ারের সীমা ছাড়িয়ে ওই নীতি নেওয়া হয়েছিল।ম্যানহাটানের মার্কিন ডিস্ট্রিক্ট আদালতের বিচারক জ্যানেট ভার্গাস গতকাল শুক্রবার এ নীতি বাতিল করে রায় দেন।বিচারক বলেন, জানুয়ারিতে মার্কিন…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/world/usa/7lhonilfg6",
+          "author": "রয়টার্স",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-22%2F8sccf138%2Fuimage-15.jpg?rect=0%2C0%2C1200%2C630&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-09-22%2F5lwyn5je%2Fdefaultog.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ১০:৩২"
+        },
+        {
+          "headline": "Battery fires at recycling centres are costing UK £1bn a year, figures show",
+          "excerpt": "Fires at recycling centres caused by wrongly discarded lithium batteries such as those found in vapes are occurring at the rate of more than 10 a week, according to new figures.Experts say the sheer volume of battery fires now occurring at waste facilities has reached a crisis that is putting lives at risk, costing £1bn a year and frustrating fire chiefs.In figures shared with the Guardian, the…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/environment/2026/aug/22/lithium-battery-fires-waste-recycling-centres-vapes-uk",
+          "author": "Matthew Weaver",
+          "image": "https://i.guim.co.uk/img/media/2058df30df69be6092ae9b64b2aa939286c42c4d/604_0_5600_4480/master/5600.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=0eb64f1d34cf750c1c1a5a4a091b4dff",
+          "time": "দুপুর ১২:০০"
+        },
+        {
+          "headline": "‘We fear lessons will not be learned’: Chloe Moffat’s parents on their fight to hold Treasury to account",
+          "excerpt": "When a coroner ruled this month that the Treasury “materially contributed” to Chloe Moffat’s death, her parents breathed out in bittersweet relief. For a year, David and Anne Moffat had been forced to become detectives in the worst case any parent could have to solve: why their daughter took her own life.Chloe, 26, went to her job as a personal assistant at the Treasury on a Monday last May…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/politics/2026/aug/22/chloe-moffat-parents-treasury-death",
+          "author": "Helena Horton",
+          "image": "https://i.guim.co.uk/img/media/c6f6ba73b00c4224800cad141f8361254605b93f/2096_443_4041_3232/master/4041.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=46bc49f76ba0d2659fada3d295e7a1f4",
+          "time": "দুপুর ১২:০০"
+        },
+        {
+          "headline": "Is this the end of Harry and Meghan’s American dream?",
+          "excerpt": "Having settled in California in the aftermath of their dramatic decoupling from the royal family in 2020, the Duke and Duchess of Sussex announced a partnership that appeared to set a clear destination for their new lives outside the House of Windsor.With every global media stable clamouring for their signature, the couple revealed a deal with Netflix reportedly worth $100m. The ambitions were…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/news/ng-interactive/2026/aug/22/prince-harry-meghan-american-dream",
+          "author": "Michael Savage",
+          "image": "https://i.guim.co.uk/img/media/31ead7211ce19532d42e165c485eb0cb3d6691c2/0_0_5000_4000/master/5000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=4d1b528424c12928d84d1b0f3a7239c0",
+          "time": "সকাল ১১:০০"
+        },
+        {
+          "headline": "Premium bonds: more chance of win as NS&I ups prize fund rate again",
+          "excerpt": "Premium bond holders will have more chances of winning prizes after changes announced this week.From September there will be more prizes up for grabs for the 22 million people who hold the government-backed savings bonds.This is the second time in two months National Savings and Investments (NS&I) has upped the premium bond prize fund rate, with one expert saying that the UK government’s savings…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/money/2026/aug/22/premium-bonds-chance-odds-win-nsi-ups-prize-fund",
+          "author": "Rupert Jones",
+          "image": "https://i.guim.co.uk/img/media/b932b013a6f38d3f7c9a5aee2e90beb62f29d27a/487_0_4868_3894/master/4868.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=e1206aab7acb3cca2ae6ce9698684889",
+          "time": "সকাল ১১:০০"
+        },
+        {
+          "headline": "US Postal Service rule tightens mail-in voting despite court orders blocking changes",
+          "excerpt": "The US Postal Service prepared to publish a final ⁠rule late ⁠on ​Friday to impose new requirements on states to provide the federal government with information on voters before the November ⁠midterm congressional elections, despite a ​pair of court ‌orders ‌that currently block the ‌changes from taking effect.The USPS acknowledged in the text of the final rule posted online Friday, which is…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/us-news/2026/aug/21/us-postal-service-mail-in-voter-rule",
+          "author": "Robert Mackey",
+          "image": "https://i.guim.co.uk/img/media/0041148d1c69b5c88e2a04ca609119d46ee30da5/619_0_4170_3336/master/4170.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=1b99105e9b94c429e5611f443ba25508",
+          "time": "সকাল ৮:০৬"
+        },
+        {
+          "headline": "Trump says he views strait of Hormuz as ‘American territory’",
+          "excerpt": "Donald Trump called the strait of Hormuz “an American territory” on Friday, as the US continues its military blockade of Iran’s shipping and ports while Trump’s administration struggles to end its war with the country.“We don’t even know if we won, because I view the strait of Hormuz as an American territory right now,” Trump said, addressing a crowd in South Carolina. He was campaigning for…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/us-news/2026/aug/21/trump-strait-of-hormuz-american-territory",
+          "author": "Uwa Ede-Osifo",
+          "image": "https://i.guim.co.uk/img/media/46152a99661f01725bacb9b6571a9d9744184f38/1247_0_7200_5760/master/7200.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=b2285d48a1925cfc6767fa0c3326f63a",
+          "time": "সকাল ৭:২৪"
+        },
+        {
+          "headline": "গোপনীয়তা লঙ্ঘনের মামলায় হার, হ্যারি ও ৬ তারকাকে গুনতে হতে পারে ৫৭৫ কোটি টাকা",
+          "excerpt": "বিবিসি (বাঁ থেকে) প্রিন্স হ্যারি, লিজ হার্লি ও এলটন জনফাইল ছবি: রয়টার্সডেইলি মেইলের বিরুদ্ধে গোপনীয়তা লঙ্ঘন করা-সংক্রান্ত একটি মামলায় মোটা অঙ্কের জরিমানার মুখে পড়েছেন প্রিন্স হ্যারি ও ছয় তারকা। মামলায় হেরে যাওয়ার পর এবার প্রতিপক্ষের আইনি খরচ বাবদ তাঁদের সর্বোচ্চ ৩ কোটি ৪৫ লাখ পাউন্ড বিল পরিশোধ করতে হতে পারে। বাংলাদেশি মুদ্রায় যা ৫৭৫ কোটি ৫৩ লাখ টাকার বেশি (১ পাউন্ড সমান ১৬৬ টাকা হিসাবে)।গতকাল…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/world/europe/lxd6vra059",
+          "author": "বিবিসি",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-22%2F3pqwg5oz%2FPrince-Harry.webp?rect=0%2C15%2C800%2C420&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-09-22%2F5lwyn5je%2Fdefaultog.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৯:৩৯"
+        }
+      ],
+      "Sports": [
+        {
+          "headline": "Dravid: Need players like Sooryavanshi to play all formats for Test cricket to grow",
+          "excerpt": "Edition USNewsDravid believes Sooryavanshi's development needs to be balanced between the white-ball and red-ball formatsRahul Dravid coached Vaibhav Sooryavanshi at Rajasthan Royals in IPL 2025  •  AFP/Getty ImagesRahul Dravid, the former India captain, believes Vaibhav Sooryavanshi's development needs to be carefully balanced, with the 15-year-old given enough exposure to white-ball cricket…",
+          "source": "ESPN Cricinfo",
+          "link": "https://www.cricinfo.com/ci/content/story/1550983.html?ex_cid=OTC-RSS",
+          "author": "Shashank Kishore",
+          "image": "https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/400100/400122.6.jpg",
+          "time": "সকাল ১১:৩৮"
+        },
+        {
+          "headline": "বাংলাদেশের টেস্ট জয়ে সবচেয়ে বেশিবার ম্যাচসেরা কে ও আরও ৯ প্রশ্ন?",
+          "excerpt": "খেলাস্পোর্টস কুইজ বাংলাদেশের টেস্ট জয়ে সবচেয়ে বেশিবার ম্যাচসেরা কে ও আরও ৯ প্রশ্ন?ইংলিশ প্রিমিয়ার লিগে সবচেয়ে বেশি গোল, ইউরোপিয়ান গোল্ডেন শু, টেস্টে ৫ উইকেট ছাড়া সবচেয়ে বেশি উইকেট, টেস্ট অভিষেকে ১০ উইকেট—দেখুন তো, কতটা জানেন আপনি?",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/sports/oicwgaext0",
+          "author": "মোহাম্মদ সোলায়মান",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-21%2F7nzkjk7v%2Fprothomalobangla20240252c7b506a164499d8347097cbae47ac7prothomalobangla202305a1c978b5b8.webp?rect=0%2C0%2C640%2C336&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ১১:৫৭"
+        },
+        {
+          "headline": "মাঠে ফিরেই গোল রোনালদোর, ভাঙলেন ইব্রার রেকর্ড",
+          "excerpt": "খেলা ডেস্ক মাঠে ফিরেই গোল করেছেন রোনালদোরয়টার্সবিশ্বকাপ থেকে পর্তুগালের বিদায়ের ৪৪ দিন পর মাঠে ফিরেছেন ক্রিস্টিয়ানো রোনালদো। আর ফেরার দিনই গড়েছেন রেকর্ড। প্রথম ফুটবলার হিসেবে পেশাদার ক্যারিয়ারে টানা ২৫ মৌসুমে গোলের কীর্তি গড়েছেন ৪১ বছর বয়সী পর্তুগিজ তারকা।গতকাল রাতে সৌদি প্রো লিগে আল রিয়াদের বিপক্ষে আল নাসরের ৪-০ গোলের জয়ে গোল করেন রোনালদো। তাঁর আগে টানা সবচেয়ে বেশি ২৪টি লিগ মৌসুমে গোল করার…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/sports/football/zzhafxldxn",
+          "author": "খেলা ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-22%2Fxjxplhqh%2F2026-08-21T180817Z115135746UP1EM8L1EDSYCRTRMADP3SOCCER-SAUDI-RIY-NSR.JPG?rect=0%2C0%2C1584%2C832&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ১০:৫১"
+        },
+        {
+          "headline": "আর্সেনালের প্রথম, আরতেতার ১৫০",
+          "excerpt": "খেলা ডেস্ক আর্সেনাল কোচ মিকেল আরতেতারয়টার্সনতুন মৌসুমের প্রথম দিনই প্রথম জয় তুলে নিয়েছে আর্সেনাল। কাই হাভার্টজ, বুকায়ো সাকা ও মার্টিন ওডেগার্ডের গোলে বর্তমান চ্যাম্পিয়নরা কভেন্ট্রি সিটিকে হারিয়েছে ৩-০ ব্যবধানে। গতকাল রাতে এমিরেটস স্টেডিয়ামের এই জয়ে একটি মাইলফলক ছুঁয়েছেন মিকেল আরতেতা।ইংলিশ প্রিমিয়ার লিগে ১৫০ জয় পূর্ণ করেছেন আর্সেনাল কোচ। এই মাইলফলকে পৌঁছাতে তাঁর লেগেছে ২৪৯ ম্যাচ, তাঁর চেয়ে কম…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/sports/football/b1n466w4zy",
+          "author": "খেলা ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-22%2Ftedvjzoc%2F2026-08-21T205553Z2044523754UP1EM8L1M536ERTRMADP3SOCCER-ENGLAND-ARS-COV.JPG?rect=0%2C0%2C2300%2C1208&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ১০:০০"
+        },
+        {
+          "headline": "ম্যাকাইয়ে অভিষেকের আনন্দে বাংলাদেশের স্টার্ক-বিষাদ",
+          "excerpt": "ম্যাকাই থেকেক্রীড়া সম্পাদক, প্রথম আলোপ্রথম সেশনেই ৫ উইকেট নিয়েছেন মিচেল স্টার্কশামসুল হকএই মুহূর্তে ম্যাকাইয়ের সবচেয়ে সুখী মানুষটি কে? অবশ্যই মিচেল স্টার্ক। ইনিংসের সপ্তম ওভারের মধ্যেই বাংলাদেশ দলকে প্রায় গুঁড়িয়ে দিয়েছেন। বিধ্বংসী বোলিংয়ে টেস্ট ক্যারিয়ারের নিজের ১৯তম ৫ উইকেটটি স্টার্ক নিলেন মাত্র ২২টি বল করে।নিজেকে ছাড়িয়ে যেতে পারেননি যদিও। টেস্টের এক ইনিংসে কোনো বোলারের দ্রুততম ৫ উইকেট নেওয়ার…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/sports/cricket/03w5ow0kfk",
+          "author": "তারেক মাহমুদ",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-22%2F6xrbif4h%2FWhatsApp-Image-2026-08-22-at-6.57.01-AM.jpeg?rect=0%2C0%2C1280%2C672&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৮:২৬"
+        },
+        {
+          "headline": "Messi fined, Sullivan gets reprieve",
+          "excerpt": "The MLS Disciplinary Committee fined Inter Miami superstar Lionel Messi an undisclosed amount for violating the league’s policy on hands to the face, head or neck of an opponent, while Philadelphia Union defender Cavan Sullivan -- who has Bangladeshi heritage -- had his one-game suspension and accompanying fine rescinded on Friday.The incident involving Messi occurred in the 101st minute of…",
+          "source": "The Daily Star Sports",
+          "link": "https://www.thedailystar.net/sports/football/news/messi-fined-sullivan-gets-reprieve-4253786",
+          "author": "Reuters",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-08/2026-08-20T025757Z_632243309_MT1USATODAY29623426_RTRMADP_3_MLS-INTER-MIAMI-CF-AT-PHILADELPHIA-UNION.JPG",
+          "time": "সকাল ৯:০৯"
+        },
+        {
+          "headline": "Second set of twins a good distraction from injury - Maddison",
+          "excerpt": "The Football Interview will be available on BBC One at 12:45 every Saturday during the Premier League season, as well as on BBC iPlayer, BBC Football YouTube and the BBC Sport website and app.The first episode of the new season, available on Saturday, 22 August, sees Kelly Somers sit down with Tottenham Hotspur's James Maddison.Tottenham midfielder James Maddison said he and his partner have…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/c20j3vx6ne4o?at_medium=RSS&at_campaign=rss",
+          "author": "BBC Sport",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/a155/live/9df36a60-9c78-11f1-aed2-8d6da8d75094.jpg",
+          "time": "সকাল ১১:২৮"
+        },
+        {
+          "headline": "Arteta hails Arsenal's desire after perfect start to title defence",
+          "excerpt": "3 HOUR(s)\n\t\t\t\t\t\n\t\t\t\t\t\tUPDATED\n\t\t\t\t\t\t3 HOUR(s)\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\n\n\n\t\t\t\n  \n                  \n              \n                  \n\n  \n\n\n\t\t\t\n\t\t\t\t\t\t\tArsenal manager Mikel Arteta applauds fans after the match. Photo: Reuters\n\t\t\t\t\t\t\n\t\t\nMikel Arteta said Arsenal's dominant 3-0 win against Coventry in the opening game of the Premier League season on Friday proved the champions have not lost…",
+          "source": "The Daily Star Sports",
+          "link": "https://www.thedailystar.net/sports/football/news/arteta-hails-arsenals-desire-after-perfect-start-title-defence-4253776",
+          "author": "AFP, London",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-08/2026-08-21T205553Z_2044523754_UP1EM8L1M536E_RTRMADP_3_SOCCER-ENGLAND-ARS-COV.JPG",
+          "time": "সকাল ৮:৫১"
+        },
+        {
+          "headline": "Fab Four and Fleming on the phone - England's first-Test takeaways",
+          "excerpt": "Figure caption, Highlights: England ease to huge win against Pakistan on day three at HeadingleyByCricket Correspondent at HeadingleyEngland's crushing victory over Pakistan was the ideal start to Joe Root's second reign as Test captain.The home side could not have wished for a more straightforward beginning to a new era as they look to move on from the chaos of the past year.England's innings…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/cricket/articles/c5yr18gp9j9o?at_medium=RSS&at_campaign=rss",
+          "author": "Stephan Shemilt",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/f606/live/f333c750-9d99-11f1-aed2-8d6da8d75094.jpg",
+          "time": "সকাল ১১:৪৭"
+        },
+        {
+          "headline": "Flex your football brain with our daily quizzes",
+          "excerpt": "How much do you really know about football?Keep scrolling to beat all three of BBC Sport's daily quizzes.Today's questions, clues and answers have been set by Joe Rindl.Today's Who Am I?Guess the footballer in as few attempts as possible.After each wrong guess, you unlock a new clue. The fewer clues you need to get the right answer, the more points you score.Today's Five in FiveGive us five…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cx2llxl79y1o?at_medium=RSS&at_campaign=rss",
+          "author": "BBC Sport",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/ada7/live/27df4c70-9658-11f1-b2ab-0dd01740f9f6.jpg",
+          "time": "দুপুর ১২:০০"
+        },
+        {
+          "headline": "'I'm not ashamed' - Ellison on mental health and playing at 47",
+          "excerpt": "\"I had four touches and I fouled Paul Scholes,\" says Kevin Ellison about his one and only Premier League appearance for Leicester City at Manchester United in 2001.The forward had been rejected by his hometown team Liverpool and was working on a building site as well as delivering furniture, while playing for non-league Altrincham, before landing a dream £50,000 move to Leicester 25 years ago.A…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/c2k78nk1n34o?at_medium=RSS&at_campaign=rss",
+          "author": "Neil Johnston",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/e92f/live/da127440-9be3-11f1-ba30-ddd78081057f.jpg",
+          "time": "দুপুর ১২:১৯"
+        },
+        {
+          "headline": "My family got me through injury - Maddison",
+          "excerpt": "Tottenham midfielder James Maddison discusses life under boss Roberto de Zerbi and how the distraction of having five children under five at home kept him busy while he was out with a long-term injury.Watch the full interview on BBC iPlayer",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/videos/c4g30ewkx75o?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/6172/live/46491350-966a-11f1-a7ab-8b30adf0800a.jpg",
+          "time": "সকাল ১১:২০"
+        }
+      ],
+      "Entertainment": [
+        {
+          "headline": "বিয়ে করলেন অর্জুন, পাত্রী কে",
+          "excerpt": "বিনোদন ডেস্ক অর্জুন রামপাল ও গ্যাব্রিয়েলা দেমেত্রিয়াদেস। ইনস্টাগ্রাম থেকেবলিউড অভিনেতা অর্জুন রামপাল ও তাঁর দীর্ঘদিনের সঙ্গী গ্যাব্রিয়েলা দেমেত্রিয়াদেস অবশেষে বিয়ের বন্ধনে আবদ্ধ হয়েছেন। তবে তাঁদের বিয়েটা হয়নি জাঁকজমকপূর্ণ কোনো অনুষ্ঠানের মধ্য দিয়ে। গোয়ায় আইনি প্রক্রিয়ায় বিয়ে নিবন্ধন করেছেন তাঁরা। সংবাদ সংস্থা পিটিআইয়ের প্রতিবেদন অনুযায়ী, উত্তর গোয়ার মাপুসার সাব-রেজিস্ট্রার কার্যালয়ে বিয়ের…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/entertainment/bollywood/u3l3pb4xlm",
+          "author": "বিনোদন ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-22%2Fgxgfz4xu%2FArjun-Rampal-marries-longtime-partner-Gabriella-Demetriades-in-Goa.jpeg?rect=0%2C24%2C620%2C326&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "দুপুর ১২:০০"
+        },
+        {
+          "headline": "তরুণ অভিনেত্রী লাবণ্যকে কতটা চেনেন",
+          "excerpt": "‘বনলতা এক্সপ্রেস’ সিনেমায় রুবি চরিত্রে অভিনয় করে নজর কেড়েছেন তরুণ অভিনেত্রী লাবণ্য চৌধুরী। এবার ওয়েব সিনেমা ‘মিশন ডিডিএলজে’-তে কেন্দ্রীয় চরিত্রে দেখা যাবে তাঁকে।বিনোদন প্রতিবেদক ঢাকালাবণ্য চৌধুরীশিল্পীর সৌজন্যেনব্বইয়ের দশকের প্রেমের গল্পে মিশন ডিডিএলজে নির্মাণ করেছেন আসিফ জাহাঙ্গীর। সিনেমাটি নিয়ে লাবণ্য বলেন, ‘নব্বইয়ের দশকের লাভ স্টোরি আমি অনেক পছন্দ করি। সেই জায়গা থেকেই সিনেমাটি করছি।’…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/entertainment/ott/x73ku8mz0v",
+          "author": "বিনোদন প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-21%2Ftknoatzy%2F44723123-3001-412d-adad-bbd5668e4e6e.jpg?rect=0%2C0%2C960%2C504&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ১১:৩০"
+        },
+        {
+          "headline": "ভয়ংকর সেই সম্পর্কে প্রতিদিনই কাঁদতেন নায়িকা, করাতে হয়েছে চোখের অস্ত্রোপচারও",
+          "excerpt": "বিনোদন ডেস্ক অনুপমা পরমেশ্বরন। অভিনেত্রীর ইনস্টাগ্রাম থেকেদক্ষিণ ভারতীয় অভিনেত্রী অনুপমা পরমেশ্বরন তাঁর জীবনের সবচেয়ে কঠিন সময়ের কথা প্রকাশ্যে এনেছেন। সম্প্রতি এক সাক্ষাৎকারে তিনি জানিয়েছেন, প্রায় দুই বছর ধরে একটি ‘বিষাক্ত’ (টক্সিক) সম্পর্কে ছিলেন তিনি। সেই সম্পর্কের মানসিক নির্যাতন তাঁর জীবনে এমন প্রভাব ফেলেছিল যে আতঙ্কের আক্রমণ (প্যানিক অ্যাটাক), দ্রুত ওজন কমে যাওয়া, বারবার অজ্ঞান হয়ে যাওয়া,…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/entertainment/bollywood/sfw86m76le",
+          "author": "বিনোদন ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-14%2Ffldihud2%2FCapture.JPG?rect=0%2C0%2C635%2C333&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ১০:১৬"
+        },
+        {
+          "headline": "‘Ekshathe Choli, Ekshathe Bachi’ challenges barriers and calls for inclusion in theatre",
+          "excerpt": "22 MIN(s)\n\t\t\t\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tTiasha Idrak\n\t\t\t\t\t\t\n\t\t\t\t\t\n\n\t\t\t\n  \n                  \n              \n                  \n\n  \n\n\n\t\t\t\n\t\t\t\t\t\t\tPhotos: Abrar Faiyaz Niloy\n\t\t\t\t\t\t\n\t\t\nOn a dimly lit stage, actors appear, their bodies entangled together as they move towards something. They run, chained by circumstances; some in wheelchairs, some able-bodied, some visually impaired – yet all are moving towards…",
+          "source": "The Daily Star Entertainment",
+          "link": "https://www.thedailystar.net/culture/entertainment/news/ekshathe-choli-ekshathe-bachi-challenges-barriers-and-calls-inclusion-theatre-4253846",
+          "author": "Tiasha Idrak",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-08/%E2%80%98Ekshathe%20Choli%2C%20Ekshathe%20Bachi%E2%80%99.jpg",
+          "time": "দুপুর ১২:১৪"
+        },
+        {
+          "headline": "BotTala marks 18 years with three-day celebration",
+          "excerpt": "52 MIN(s)\n\t\t\t\t\t\n\t\t\t\t\t\tUPDATED\n\t\t\t\t\t\t52 MIN(s)\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\n\n\t\tArts & Entertainment Desk \n\t\t\t\t\t\n\n\t\t\t\t\t\n\n\t\t\t\n  \n                  \n              \n                  \n\n  \n\n\n\t\t\t\n\t\t\t\t\t\t\tPhoto: Collected \n\t\t\t\t\t\t\n\t\t\nTheatre group BotTala is set to celebrate its 18th anniversary with a three-day programme featuring theatre performances, discussions, seminars, reading sessions, music,…",
+          "source": "The Daily Star Entertainment",
+          "link": "https://www.thedailystar.net/culture/theatre-arts/news/bottala-marks-18-years-three-day-celebration-4253841",
+          "author": "Arts & Entertainment Desk",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-08/BotTala.png",
+          "time": "সকাল ১১:৪২"
+        }
+      ],
+      "Tech": [
+        {
+          "headline": "একই অমীমাংসিত সমস্যার সমাধান দুই এআইয়ের, জমা পড়ল তিন ঘণ্টার ব্যবধানে",
+          "excerpt": "লিটন রায় কৃত্রিম বুদ্ধিমত্তার পথিকৃৎ জন ম্যাকার্থি ব্ল্যাকবোর্ডে কাজ করছেনছবি: গেটি ইমেজসম্প্রতি যুক্তরাষ্ট্রের ম্যাসাচুসেটস ইনস্টিটিউট অব টেকনোলজির স্নাতক শিক্ষার্থী সেয়ুন রাঘবন তার বন্ধু ইয়াও-টিং লিনকে একটি ইমেইল পাঠান। লিন ক্যালিফোর্নিয়া বিশ্ববিদ্যালয়, সান্তা বারবারার ডক্টরাল শিক্ষার্থী। ইমেইলে যুক্ত ছিল কোয়ান্টাম ক্রিপ্টোগ্রাফির একদম নতুন একটি গাণিতিক প্রমাণ। কিন্তু লিন সঙ্গে সঙ্গে…",
+          "source": "Prothom Alo",
+          "link": "https://www.bigganchinta.com/technology/y9l1bzz5od",
+          "author": "লিটন রায়",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-20%2Fv9ua22qs%2FMan-at-mathematics-blackboard.webp?rect=0%2C65%2C862%2C453&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2021-04%2F18d6c66d-0fdc-4405-936e-afd304acc074%2Fbigganchinta.png&overlay_position=bottom&overlay_width_pct=1",
+          "time": "দুপুর ১২:০০"
+        },
+        {
+          "headline": "সূর্যের আলো থেকে সরাসরি কোয়ান্টাম এন্ট্যাঙ্গলমেন্ট তৈরি করেছেন বিজ্ঞানীরা",
+          "excerpt": "প্রযুক্তি ডেস্ক ছবি: পেক্সেলস প্রতীকী ছবি।কোয়ান্টাম বলবিদ্যার জগতে অসম্ভব বলে বিবেচিত বিভিন্ন বিষয় নিয়ে দীর্ঘদিন ধরেই গবেষণা করছেন বিজ্ঞানীরা। এবার দীর্ঘদিনের ধারণা ও সংশয় ভেঙে সরাসরি সূর্যের আলোর মাধ্যমে জোড়া ফোটন বা এন্ট্যাঙ্গলড ফোটন তৈরি করেছেন কানাডার ইউনিভার্সিটি অব অটোয়া ও জার্মানির ম্যাক্স প্ল্যাঙ্ক ইনস্টিটিউট ফর দ্য সায়েন্স অব লাইটের বিজ্ঞানীরা। কোয়ান্টাম পদার্থবিদ্যার সবচেয়ে…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/technology/science/mfsxgwwa0r",
+          "author": "প্রযুক্তি ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-21%2Fr5hfmo1u%2FQuantum-Entanglement.-pexels.jpg?rect=0%2C355%2C5000%2C2625&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ১১:০০"
+        },
+        {
+          "headline": "Michael Polansky is training an AI model on skin that’s still alive",
+          "excerpt": "Michael Polansky is remarkably unassuming for someone operating in a corner of the world known for outsize egos.\n\nSeated at a leafy patio outside a popular bakery in Mill Valley, an affluent town about 15 miles north of San Francisco, Polansky — bespectacled, his fresh face framed by dark hair shot through with gray — has the look and the friendly demeanor of a young professor.\n\n\n\n\n\n\n\nHe is, in…",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/08/21/michael-polansky-is-training-an-ai-model-on-skin-thats-still-alive/",
+          "author": "Connie Loizos",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/08/Michael_Polansky.jpg?resize=1200,759",
+          "time": "সকাল ৭:৩১"
+        },
+        {
+          "headline": "Apple reportedly cut more than 200 jobs across Vision Pro and Siri software teams",
+          "excerpt": "The Vision Pro layoffs are focused on teams working on gaming and immersive…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2242070/apple-reportedly-cut-more-than-200-jobs-across-vision-pro-and-siri-software-teams/",
+          "author": "Steve Dent",
+          "image": "https://www.engadget.com/img/gallery/apple-reportedly-cut-more-than-200-jobs-across-vision-pro-and-siri-software-teams/l-intro-1787368261.jpg",
+          "time": "সকাল ৯:১৪"
+        },
+        {
+          "headline": "Postcard is a new email client for GNOME, built with AI",
+          "excerpt": "Postcard is a new email client for GNOME sporting a modern design reminiscent of Geary.\n\n\n\nThe app is the work of a solo developer, gxanshu on GitHub, who is upfront about using AI coding tools to bring this “modern mail client” to life.\n\n\n\nPostcard is written in Python with GTK4/libadwaita. It uses imaplib and smtplib for networking, a local SQLite index for searching, WebKitGTK for rendering…",
+          "source": "omg! ubuntu",
+          "link": "https://www.omgubuntu.co.uk/2026/08/postcard-gnome-email-client",
+          "author": "Joey Sneddon",
+          "image": "https://www.omgubuntu.co.uk/wp-content/uploads/2026/08/postcard-gnome-email-client.webp",
+          "time": "সকাল ৮:০৫"
+        },
+        {
+          "headline": "Proton Mail Wants to Organize Your Emails Automatically",
+          "excerpt": "Proton Mail (partner link), the service people turn to for escaping Big Tech, has rolled out \"Categories\" as a new inbox view that automatically sorts incoming email into six groups: Primary, Social, Promotions, Newsletters, Transactions, and Updates.When you receive a new mail, it gets sorted automatically into one of six categories based on metadata, without Proton reading the contents of the…",
+          "source": "It's FOSS",
+          "link": "https://feed.itsfoss.com/link/24361/17426034/proton-mail-categories",
+          "author": "Sourav Rudra",
+          "image": "https://itsfoss.com/content/images/2026/08/proton-mail-categories-banner.png",
+          "time": "সকাল ১০:৪০"
+        }
+      ]
+    }
+  },
+  {
     "dt": "2026-08-22T01:09:42.458Z",
     "file": "runs/2026-08-22-0109.html",
     "counts": {
