@@ -1,5 +1,892 @@
 [
   {
+    "dt": "2026-09-09T03:17:01.251Z",
+    "file": "runs/2026-09-09-0317.html",
+    "counts": {
+      "Local": 20,
+      "International": 38,
+      "Entertainment": 2,
+      "Tech": 23,
+      "Sports": 13
+    },
+    "grouped": {
+      "Local": [
+        {
+          "headline": "বই মানুষের চিন্তা ও অনুভূতির জগৎকে সমৃদ্ধ করে",
+          "excerpt": "ড্যাফোডিল বন্ধুসভা বই মানুষের চিন্তা ও অনুভূতির জগৎকে সমৃদ্ধ করেলেখা: জেবা আনিকাড্যাফোডিল বন্ধুসভার পাঠচক্রের আসর।কথাসাহিত্যিক বিভূতিভূষণ বন্দ্যোপাধ্যায়ের কালজয়ী উপন্যাস ‘পথের পাঁচালী’ নিয়ে পাঠচক্রের আসর করে ড্যাফোডিল বন্ধুসভা। ৪ সেপ্টেম্বর রাতে ভার্চ্যুয়াল প্ল্যাটফর্ম গুগল মিটে এই পাঠচক্র অনুষ্ঠিত হয়।পাঠাগার ও পাঠচক্র সম্পাদক জেবা আনিকার সঞ্চালনায় শুরুতে উপস্থিত বন্ধুদের পরিচয়পর্ব অনুষ্ঠিত…",
+          "source": "Prothom Alo",
+          "link": "https://www.bondhushava.com/activities/8e4c4xitcx",
+          "author": "লেখা:",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-09-08%2Fsipl2uhy%2FDaffodil-path-boi.png?rect=0%2C147%2C1448%2C760&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2022-06%2Ffc02a57d-164a-4776-9604-2a467333b0e1%2FFinal_Bondhushava_OG_watermark_01.png&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৯:০০"
+        },
+        {
+          "headline": "জমির নামজারিতে নতুন যেসব পরিবর্তন এনেছে ভূমি মন্ত্রণালয়",
+          "excerpt": "0",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/video/bangladesh/uwo6qullks",
+          "author": "ভিডিও ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-09-08%2F62wkziho%2FWEB.jpg?rect=0%2C0%2C800%2C420&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2022-01%2F5a36c819-05a2-4bfb-ac50-57dd67355acb%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৯:০০"
+        },
+        {
+          "headline": "প্রকৃতি থেকে মানব জীবনের ৩ শিক্ষা",
+          "excerpt": "কোরআনের উপমায় প্রাণ–প্রকৃতি ২ প্রকৃতি থেকে মানব জীবনের ৩ শিক্ষামওলবি আশরাফ ছবি: এআই / প্রথম আলোকোরআন প্রাণপ্রকৃতির উপমা দিয়ে মানুষকে শুধু আল্লাহর কুদরত চিনতে শেখায়নি; বরং নিজের জীবন নিয়েও ভাবতে শিখিয়েছে, আমাদের চারপাশের জগৎকে নতুন করে দেখতে শিখিয়েছে।ইতিপূর্বে আমরা দেখেছি পাথরের ওপরে আলগা মাটি, উঁচু ভূমির বাগান, একই শ্রেণির গাছে ফলনের ভিন্নতা কিংবা বাতাসে উড়ে যাওয়া ছাইয়ের উপমা দিয়ে কোরআন কী গভীর…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/religion/islam/5zhp6aujsh",
+          "author": "মওলবি আশরাফ",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-09-08%2F8ihy5bc5%2FGeminiGeneratedImagejf1h1njf1h1njf1h.jpg?rect=0%2C46%2C2752%2C1445&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৯:০০"
+        },
+        {
+          "headline": "পশ্চিম তীরে ইসরায়েলি বসতির ওপর যুক্তরাজ্যের নিষেধাজ্ঞা, ইসরায়েলের পাল্টা পদক্ষেপের ঘোষণা",
+          "excerpt": "ছবির উৎস, Getty Imagesছবির ক্যাপশান, বাংলাদেশের সুপ্রিম কোর্টতথ্য গোপন ও প্রতারণার অভিযোগে একজন আইনজীবীকে পাঁচ লাখ টাকা জরিমানা করে আপিল বিভাগ। এই ঘটনাকে কেন্দ্র করে শুনানিতে\nপ্রধান বিচারপতি জুবায়ের রহমান চৌধুরী ও সুপ্রিম কোর্ট বার সভাপতি ব্যারিস্টার এ এম\nমাহবুব উদ্দিন খোকনের মধ্যে মঙ্গলবার বাগবিতণ্ডার ঘটনা ঘটে।এক পর্যায়ে এজলাস ত্যাগ করেন প্রধান\nবিচারপতির নেতৃত্বাধীন আপিল বিভাগ। দুপুরে সুপ্রিম…",
+          "source": "BBC Bangla",
+          "link": "https://www.bbc.co.uk/bengali/live/cmkg76k9qxn7t?at_medium=RSS&at_campaign=rss",
+          "author": "BBC News বাংলা",
+          "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/ecd8/live/9e8bc110-ab92-11f1-a291-b542ee92de7c.jpg",
+          "time": ""
+        },
+        {
+          "headline": "চলচ্চিত্রের রং কোথা থেকে আসে",
+          "excerpt": "রঙের কাজ শুরু হয় কালার গ্রেডিংয়ের আগেইচলচ্চিত্রের রংকে শুধু সৌন্দর্যবর্ধক উপাদান হিসেবে দেখলে তার কাজের বড় একটি অংশ চোখের আড়ালে থেকে যায়। রং চলচ্চিত্রের ভাষারই অংশ।রং পোস্ট-প্রোডাকশনের শেষ ধাপে তৈরি হয় না। আলো, সেট, পোশাক, ক্যামেরা, লেন্স, এক্সপোজার ও লোকেশনের সিদ্ধান্তের মধ্য দিয়েই তার শুরু। পরে কালার গ্রেডিংয়ের মাধ্যমে সেই সিদ্ধান্তগুলো আরও নির্দিষ্ট হয়ে ওঠে।তাই রঙের দায়িত্ব শুধু কালারিস্টের…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/onnoalo/treatise/qpjxcz8ych",
+          "author": "লেখা:",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-09-08%2F6a8zja0g%2FWhatsApp-Image-2026-09-08-at-7.18.13-PM.jpeg?rect=0%2C114%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৯:০০"
+        },
+        {
+          "headline": "‘আমার একটামাত্র ছেলে, ১০ লাখ টাকা খরচ করেও বাঁচাতে পারলাম না’",
+          "excerpt": "এসএম ইউসুফ উদ্দিন রাউজান, চট্টগ্রামআরশাদ উল্লাহ চৌধুরী মাহিনছবি: সংগৃহীতচট্টগ্রাম বন্দরের অবসরপ্রাপ্ত স্টোরম্যান মাহবুবুল বশর চৌধুরী ও নুর বেগম সংসারে দুই মেয়ের পর ছেলে আরশাদ উল্লাহ মাহিনের (১৮) জন্ম হয়। বড় দুই বোনের সঙ্গে বয়সের ব্যবধান বেশি থাকায় আরশাদ ছিলেন সবার আদরের। বাবা-মায়ের স্বপ্ন, ভবিষ্যৎ পরিকল্পনা—সবকিছুর সঙ্গে জড়িয়ে ছিলেন আরশাদ। সেই ছেলেকে এভাবে হারাবেন, তা কোনোভাবেই মানতে পারছেন না…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/district/5p322mdpyf",
+          "author": "এসএম ইউসুফ উদ্দিন",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-09-08%2Fjmrmd4fs%2FMahin.jpg?rect=0%2C9%2C1048%2C550&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৯:০০"
+        },
+        {
+          "headline": "সকালেই পড়ুন আলোচিত ৫ খবর",
+          "excerpt": "শুভ সকাল। আজ ৯ সেপ্টেম্বর, বুধবার। গতকাল মঙ্গলবার প্রথম আলোর অনেক আলোচিত সংবাদ হয়তো আপনার চোখ এড়িয়ে গেছে। তাই আজ দিনের শুরুতেই পড়তে পারেন দেশ-বিদেশের আলোচিত পাঁচ খবর ও বিশ্লেষণ।১মাহবুব উদ্দিনের বক্তব্যের একপর্যায়ে এজলাস ছাড়লেন প্রধান বিচারপতিসহ আপিল বিভাগের বিচারপতিরা\n\nসুপ্রিম কোর্ট আইনজীবী সমিতির সভাপতি জ্যেষ্ঠ আইনজীবী এ এম মাহবুব উদ্দিন খোকন। আজ মঙ্গলবার হাইকোর্ট বিভাগের বর্ধিত ভবনের…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/zkr5iqswn1",
+          "author": "প্রথম আলো ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2023-11%2F96ef562e-2cfa-4151-b57a-ce77cdb446ff%2FWhatsApp_Image_2023_02_27_at_08_34_41.jpeg?rect=0%2C106%2C1423%2C747&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৮:৩৬"
+        },
+        {
+          "headline": "রাজবাড়ি নাকি প্রাচীন জনপদ—সেই রহস্যে ঘেরা শেরপুরের ‘জামুর ঢিবি’",
+          "excerpt": "সবুজ চৌধুরী শেরপুর, বগুড়া‘জামুর ঢিবি’ স্থানীয়ভাবে ‘ধনপোতা ঢিবি’ নামেও পরিচিত। গত ৩১ আগস্ট দুপুরে বগুড়ার শেরপুর উপজেলার কুসুম্বি ইউনিয়নের আদম জামুর গ্রামেছবি: প্রথম আলোসবুজ ফসলের মাঠে জেগে আছে বিশাল এক ঢিবি। সেখানে খেজুর, বরই, পিতরাজসহ নানা গাছ। কোথাও ফুটে আছে লজ্জাবতী ফুল। চারপাশে নিরিবিলি গ্রামীণ পরিবেশ। কিন্তু এই শান্ত ঢিবি ঘিরেই স্থানীয় মানুষের কৌতূহলের শেষ নেই। বগুড়ার শেরপুর উপজেলার কুসুম্বি…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/district/s9npwgqycg",
+          "author": "সবুজ চৌধুরী",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-09-08%2Fvx4tb1fp%2FSherpur-Jamur-Mound-1.JPG?rect=0%2C310%2C2128%2C1117&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৮:৩০"
+        },
+        {
+          "headline": "কাগুজে নোটের অর্ধেকই ১০০০ ও ৫০০ টাকার, সবচেয়ে কম ২০০ টাকা",
+          "excerpt": "বাংলাদেশ ব্যাংকের তথ্য কাগুজে নোটের অর্ধেকই ১০০০ ও ৫০০ টাকার, সবচেয়ে কম ২০০ টাকাশফিকুল ইসলাম ঢাকাদেশে ব্যাংক ও মানুষের হাতে যত ধরনের টাকার নোট রয়েছে, তার অর্ধেকই ১০০০ ও ৫০০ টাকার নোট। ব্যাংক ও ব্যাংকের বাইরে যত নোট রয়েছে, তার ৪৯ শতাংশই এই দুই ধরনের মুদ্রার নোট। আর নোটের বাজারে সবচেয়ে কম নোট ২০০ টাকার মূল্যমানের। বাংলাদেশ ব্যাংকের সর্বশেষ ২০২৫–২৬ অর্থবছরের নিরীক্ষিত আর্থিক প্রতিবেদন থেকে এ তথ্য…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/business/bank/rg558deexk",
+          "author": "শফিকুল ইসলাম",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-09-08%2Fe2nua5sf%2FWhatsApp-Image-2026-09-08-at-10.56.33-PM.jpeg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৮:৩০"
+        },
+        {
+          "headline": "একটি ল্যাম্পপোস্টের আত্মকাহিনি",
+          "excerpt": "মো ইয়াকুব আলী সিডনি, অস্ট্রেলিয়াগোধূলির আলোয় ল্যাম্পপোস্ট ও চাঁদের মিতালিছবি: লেখকের তোলাআমি আমার পূর্বজন্মের কথা মনে করতে পারি না। পূর্বের জন্মে কী ছিলাম, সেটাও আমার অজানা। তবে এই জন্মের শুরু থেকে সবকিছুই মনে পড়ে আমার। আমি ছিলাম একটা ধাতব দণ্ড। তার একটা অংশ কেটে নিয়ে আমার হাতল বানানো হয়েছিল। এরপর আমাকে রাস্তার পাশে মাটিতে পুঁতে দেওয়া হলো। এরপর সেই হাতলের সঙ্গে একটা বৈদ্যুতিক বাতি ঝুলিয়ে দেওয়া…",
+          "source": "Prothom Alo",
+          "link": "https://nagorik.prothomalo.com/durporobash/sz2y0ji656",
+          "author": "মো ইয়াকুব আলী",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-09-08%2F7jbw4dwo%2F%E0%A7%A9.%E0%A6%97%E0%A7%8B%E0%A6%A7%E0%A7%82%E0%A6%B2%E0%A6%BF%E0%A6%B0-%E0%A6%86%E0%A6%B2%E0%A7%8B%E0%A7%9F-%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%AA%E0%A7%8B%E0%A6%B8%E0%A7%8D%E0%A6%9F-%E0%A6%8F%E0%A6%AC%E0%A6%82-%E0%A6%9A%E0%A6%BE%E0%A6%81%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A6%BF%E0%A6%A4%E0%A6%BE%E0%A6%B2%E0%A6%BF.jpg?rect=0%2C63%2C1260%2C662&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৮:২৭"
+        },
+        {
+          "headline": "কাতারে দোহা ইনস্টিটিউটে স্কলারশিপ, আবেদন ১৫ জানুয়ারি ২০২৭ পর্যন্ত",
+          "excerpt": "প্রথম আলো ডেস্ক ফাইল ছবিকাতারে উচ্চশিক্ষায় আগ্রহী আন্তর্জাতিক শিক্ষার্থীদের জন্য দোহা ইনস্টিটিউট ফর গ্র্যাজুয়েট স্টাডিজ ২০২৭-২৮ শিক্ষাবর্ষে পূর্ণাঙ্গ বৃত্তির সুযোগ দিচ্ছে। মাস্টার্স ও ডক্টরাল পর্যায়ের শিক্ষার্থীরা এ বৃত্তির জন্য আবেদন করতে পারবেন। আবেদনের শেষ সময় ১৫ জানুয়ারি ২০২৭।যেসব বিষয়ে পড়ার সুযোগ—দোহা ইনস্টিটিউটের বিভিন্ন মাস্টার্স ও ডক্টরাল প্রোগ্রামে এই বৃত্তির সুযোগ রয়েছে। উল্লেখযোগ্য…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/education/scholarship/a7tsy2ljf1",
+          "author": "প্রথম আলো ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-09-08%2F7pmspxyk%2F112-new.jpg?rect=0%2C17%2C1100%2C578&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৮:২১"
+        },
+        {
+          "headline": "৩ ধাপে ১ লাখ স্বাস্থ্যকর্মী নিয়োগের পরিকল্পনা, চলতি বর্ষে যত জন",
+          "excerpt": "গোলাম রব্বানী ঢাকাপ্রথম আলো ফাইল ছবিদেশের সরকারি স্বাস্থ্যসেবা ও মাঠপর্যায়ে বিরাজমান তীব্র জনবলসংকট কাটাতে কাজ শুরু করেছে সরকার। নির্বাচনী প্রতিশ্রুতি অনুযায়ী এক লাখ স্বাস্থ্যকর্মী নিয়োগের সিদ্ধান্ত বাস্তবায়ন করেছে স্বাস্থ্য ও পরিবারকল্যাণ মন্ত্রণালয়। এই বিশাল নিয়োগ কার্যক্রম মোট তিনটি ধাপে সম্পন্ন করা হবে। এর মধ্যে চলতি ২০২৬-২৭ অর্থবর্ষেই প্রথম ধাপে ৪৫ হাজার ৭০০ জন কর্মী নিয়োগের পরিকল্পনা করা…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/chakri/employment/b75slo7sxg",
+          "author": "গোলাম রব্বানী",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-04-28%2Flmlhozmj%2Fpexels-gustavo-fring-8770725.jpg?rect=0%2C0%2C6000%2C3150&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৮:১৮"
+        },
+        {
+          "headline": "রবীন্দ্রনাথ ও বিজ্ঞান",
+          "excerpt": "বিজ্ঞানীদের সঙ্গে রবীন্দ্রনাথের আলোকচিত্র অবলম্বনেপ্রথম আলো গ্রাফিকসরবীন্দ্রনাথ ঠাকুরকে আমরা প্রধানত কবি হিসেবেই চিনি। তাঁর পরিচয় গীতিকার, কথাসাহিত্যিক, নাট্যকার, প্রাবন্ধিক, শিক্ষাবিদ ও দার্শনিক হিসেবেও সুবিস্তৃত। কিন্তু এই বহুমাত্রিক রবীন্দ্রনাথের আরও একটি পরিচয় অনেক সময় আড়ালে থেকে যায়—তিনি ছিলেন বিজ্ঞানের একজন গভীরভাবে আগ্রহী পাঠক এবং বিজ্ঞানমনস্ক চিন্তক। তিনি পেশাদার বিজ্ঞানী ছিলেন না,…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/onnoalo/treatise/5sw61b2el6",
+          "author": "লেখা:",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-09-08%2Fcvl7s24s%2FWhatsApp-Image-2026-09-08-at-9.31.54-PM.jpeg?rect=0%2C114%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৮:০৫"
+        },
+        {
+          "headline": "ঘুমের ওষুধ কেন ক্ষতিকর",
+          "excerpt": "দীর্ঘদিন ঘুমের ওষুধ খেয়ে অনেকে অভ্যস্ত হয়ে পড়েন, যা ঠিক নয়ছবি: পেক্সেলসঅনেকেই রাতে ঘুম না এলে ডাক্তারের পরামর্শ ছাড়াই দোকান থেকে ঘুমের ওষুধ কিনে সেবন করেন। বর্তমানে হাজার হাজার মানুষ এই ঘুমের ওষুধে আসক্ত। সাময়িকভাবে আরাম দিলেও দীর্ঘ মেয়াদে ঘুমের ওষুধ স্বাস্থ্যের জন্য অত্যন্ত বিপজ্জনক। কেন, জানতে চান?আসক্তি ও নির্ভরতা: ঘুমের ওষুধের সবচেয়ে বড় ক্ষতি হলো এর প্রতি শারীরিক ও মানসিক আসক্তি। কিছুদিন…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/lifestyle/health/tlyxfxuadc",
+          "author": "ডা. হিমেল বিশ্বাস",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2023-07%2F9f4b4291-43fd-4c0a-a125-0797f8580bff%2Fpexels_jeshootscom_576831.jpg?rect=0%2C0%2C3871%2C2032&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৮:০০"
+        },
+        {
+          "headline": "নেতানিয়াহু ক্ষমতা টিকিয়ে রাখতে কি আরেকটা যুদ্ধ বাধাবেন",
+          "excerpt": "মতামত নেতানিয়াহু ক্ষমতা টিকিয়ে রাখতে কি আরেকটা যুদ্ধ বাধাবেনলেখা: ডেভিড ই. রোজেনবার্গইসরায়েলি প্রধানমন্ত্রী বেনিয়ামিন নেতানিয়াহুরয়টার্স ফাইল ছবিইসরায়েলের আগামী নির্বাচনের আর দুই মাসও বাকি নেই, কিন্তু প্রধানমন্ত্রী বেনিয়ামিন নেতানিয়াহুর ভবিষ্যৎ মোটেও উজ্জ্বল দেখাচ্ছে না। জনমত জরিপগুলো বলছে, তাঁর দল লিকুদ পার্টির জনপ্রিয়তা হয় থমকে আছে, না হয় ক্রমেই কমছে। বিপরীতে মূল বিরোধী দলের জনপ্রিয়তা…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/opinion/column/2piugcrckt",
+          "author": "লেখা:",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-07-29%2F0ew2bi10%2FNetanyahu-1.jpg?rect=0%2C115%2C1500%2C788&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-09-22%2F5lwyn5je%2Fdefaultog.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৮:০০"
+        },
+        {
+          "headline": "ভোর হলেই জমে ওঠে এক বেলার সবজি হাটটি",
+          "excerpt": "নিজস্ব প্রতিবেদক মৌলভীবাজারহাটে বস্তায় রাখা বিভিন্ন ধরনের সবজি। মঙ্গলবার সকালে মৌলভীবাজার শহরের পশ্চিম বাজারের মৌলভী সৈয়দ কুদরত উল্লাহ স্কয়ার চত্বরেছবি: প্রথম আলোসকালের আলো তখনো পুরোপুরি ফোটেনি। শহরের বেশির ভাগ মানুষ ঘুমিয়ে। মৌলভীবাজার শহরের পশ্চিম বাজারের মৌলভী সৈয়দ কুদরত উল্লাহ স্কয়ার চত্বরে তখন ব্যস্ততা। দেশের বিভিন্ন এলাকা থেকে আসা ট্রাক থেকে নামছে সবজির বস্তা। স্থানীয় কৃষকেরাও নিয়ে আসছেন…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/district/01h3p2tjew",
+          "author": "নিজস্ব প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-09-08%2Ft7uf27uo%2FMOULVIBAZARVegetable-1.JPG?rect=0%2C0%2C2000%2C1050&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৮:০০"
+        },
+        {
+          "headline": "প্রতিশ্রুতি পূরণে পিছিয়ে ডাকসু, নেতারা জড়িয়েছেন বিতর্কে",
+          "excerpt": "ছাত্র সংসদ কী করছে—১ প্রতিশ্রুতি পূরণে পিছিয়ে ডাকসু, নেতারা জড়িয়েছেন বিতর্কেইফরান হোসেন ঢাকা বিশ্ববিদ্যালয়ঢাকা বিশ্ববিদ্যালয় কেন্দ্রীয় ছাত্র সংসদ (ডাকসু) ভবনফাইল ছবিঢাকা বিশ্ববিদ্যালয়ের কেন্দ্রীয় ছাত্র সংসদ (ডাকসু) নির্বাচনের আগে ইসলামী ছাত্রশিবির-সমর্থিত প্যানেল ‘ঐক্যবদ্ধ শিক্ষার্থী জোট’ প্রতিশ্রুতি দিয়েছিল, প্রথম বর্ষ থেকে হলে প্রত্যেক শিক্ষার্থীর জন্য বৈধ আসন নিশ্চিত করা হবে; কিন্তু…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/d57iyqiots",
+          "author": "ইফরান হোসেন",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2025-08-24%2Ft4h2mkcd%2F6.avif?rect=0%2C32%2C539%2C283&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৭:২২"
+        },
+        {
+          "headline": "মস্তিষ্কের ভূগোলে মনের ঠিকানা",
+          "excerpt": "আবুল বাসার নির্বাহী সম্পাদক, বিজ্ঞানচিন্তাবিজ্ঞান বলে, মস্তিষ্কই আমাদের চেতনার কেন্দ্রবিন্দুছবি: মিডিয়ামআপনি এখন ঠিক কোথায় আছেন? চারপাশে তাকালে হয়তো ঘরের দেয়াল, জানালার ফাঁক দিয়ে ঢুকে পড়া বিকেলের আলো, কিংবা দূরের গাড়ির শব্দ বা কোনো ল্যান্ডমার্ক নিশ্চিত করে দেবে—আপনি কোন শহরের কোন ঠিকানায় আছেন। জিপিএস লোকেশন দিয়ে আপনার অবস্থান সুনির্দিষ্ট করা তো এখন জলভাত। আসলে আপনার দৈহিক অবস্থান নিয়ে…",
+          "source": "Prothom Alo",
+          "link": "https://www.bigganchinta.com/biology/re9tp8beax",
+          "author": "আবুল বাসার",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-09-08%2F05p0eliv%2F0sA4j9M1eWDKI7cdF.jpg?rect=0%2C12%2C800%2C420&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2021-04%2F18d6c66d-0fdc-4405-936e-afd304acc074%2Fbigganchinta.png&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৭:০০"
+        },
+        {
+          "headline": "অপ্রেমভিত্তিক চলচ্চিত্র",
+          "excerpt": "আরও পড়ুনআরও পড়ুনআরও পড়ুনআরও পড়ুনআরও পড়ুনআরও পড়ুনআরও পড়ুনআরও পড়ুনআরও পড়ুনআরও পড়ুন",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/fun/zzh2ybzl4i",
+          "author": "আহমেদ ইশতিয়াক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-09-06%2Fw8adtzdt%2Fprem.jpg?rect=0%2C87%2C1244%2C653&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2021-05%2Fba39cddb-a11d-47f9-971c-1458e27d6b8e%2Faktuthamun_OG_watermark.png&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৭:০০"
+        },
+        {
+          "headline": "কুকুরের মাধ্যমে ছড়ানো জলাতঙ্ক নির্মূলে সফল ভুটান",
+          "excerpt": "কিআ প্রতিবেদক ভুটানের সাফল্যের পেছনে আছে ‘ওয়ান হেলথ’ বা ‘এক স্বাস্থ্য’ ধারণাভুটানে কুকুরের কামড় থেকে ছড়িয়ে পড়া জলাতঙ্কে এখন থেকে আর কোনো মানুষ মারা যাবে না। এমন অসাধারণ সাফল্য অর্জন করেছে ভুটান। বিশ্ব স্বাস্থ্য সংস্থা (ডব্লিউএইচও) সম্প্রতি দেশটিকে কুকুরের মাধ্যমে মানুষের মধ্যে ছড়িয়ে পড়া জলাতঙ্ককে জনস্বাস্থ্য সমস্যা হিসেবে নির্মূল করার স্বীকৃতি দিয়েছে। দক্ষিণ-পূর্ব এশিয়ায় এই সাফল্য অর্জন করা…",
+          "source": "Prothom Alo",
+          "link": "https://www.kishoralo.com/feature/k6oporlgfm",
+          "author": "কিআ প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-09-08%2Fv404mmxp%2Fdeccanherald2F2026-09-072Fma4s91pb2FiStock-1703556268.png?rect=0%2C63%2C3342%2C1755&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2021-06%2Fbe2d99ee-c039-4acf-a6fb-2356c69a08a6%2FKIA_OG_watermark_final.png&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৭:০০"
+        }
+      ],
+      "International": [
+        {
+          "headline": "স্কুলে যাওয়া সন্তান ফিরবে কি না- ভয় বাড়ছে ফিলিস্তিনি মা-বাবাদের",
+          "excerpt": "কম ডেটা ব্যবহার করতে শুধু টেক্সট পড়ুনছবির ক্যাপশান, স্কুলের বাইরে সড়কে অ্যাম্বুলেন্সকর্মীরা অবস্থান নিয়েছেন, আর কয়েকজন অভিভাবক স্বেচ্ছায় স্কুলগেটের বাইরে দাঁড়িয়ে থাকার দায়িত্ব নিয়েছেনAuthor, লুসি উইলিয়ামসনRole,  মধ্যপ্রাচ্য সংবাদদাতাReporting from,  আল-মুঘাইয়ির, অধিকৃত পশ্চিম তীরPublished এক ঘন্টা আগেপড়ার সময়: ৮ মিনিট\"আমরা ভয় পাচ্ছি, শিক্ষার্থীরা ভয় পেয়েছে, তাদের অভিভাবকেরাও ভয়ে আছেন\"।বলছিলেন…",
+          "source": "BBC Bangla World",
+          "link": "https://www.bbc.com/bengali/articles/cvgywx4gygwo?at_medium=RSS&at_campaign=rss",
+          "author": "লুসি উইলিয়ামসন",
+          "image": "https://ichef.bbci.co.uk/news/1200/branded_bengali/1ded/live/26dbafb0-aaff-11f1-a2a8-b5ca0233056a.jpg",
+          "time": "সকাল ৭:৫৩"
+        },
+        {
+          "headline": "Cameraman catches the moment Yemeni government forces are ambushed",
+          "excerpt": "NewsFeedA suspected-Houthi roadside ambush of Yemeni government forces has been captured on camera. The convoy was driving through the Hodeidah governorate when gunmen opened fire, killing one person and wounding several others.Published On 9 Sep 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/9/9/cameraman-catches-the-moment-yemeni-government-forces-are-ambushed?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/image-1788922437.jpg?resize=1919%2C1080&quality=80",
+          "time": "সকাল ৮:৫৪"
+        },
+        {
+          "headline": "পত্রিকা: 'মৌখিকে নম্বর বাড়ছে, লিখিত পরীক্ষায় পাস নম্বর কমছে'",
+          "excerpt": "কম ডেটা ব্যবহার করতে শুধু টেক্সট পড়ুনPublished ৩১ মিনিট আগেপড়ার সময়: ৭ মিনিটসরকারি চাকরির মৌখিক পরীক্ষার নম্বর বাড়াতে যাচ্ছে সরকার। গড়ে বছরে প্রায় ১০ কার্গো এলএনজির সমপরিমাণ গ্যাস সিস্টেম লস হচ্ছে তিতাসের। সুপ্রিম কোর্টের আপিল বিভাগে প্রধান বিচারপতির সঙ্গে আইনজীবী মাহবুবউদ্দিন খোকনের বচসা। ঢাকা থেকে প্রকাশিত আজকের সংবাদপত্রে এসব খবর গুরুত্ব পেয়েছে।খবরে বলা হচ্ছে, সরকারি চাকরির নিয়োগবিধিতে…",
+          "source": "BBC Bangla World",
+          "link": "https://www.bbc.com/bengali/articles/cvgynw997x6o?at_medium=RSS&at_campaign=rss",
+          "author": "BBC News বাংলা",
+          "image": "https://ichef.bbci.co.uk/news/1200/branded_bengali/1739/live/4ae2e300-abf0-11f1-8f73-1fbb21f54bff.jpg",
+          "time": "সকাল ৮:৩২"
+        },
+        {
+          "headline": "Gambian leader pledges halt to rolling blackouts as protests turn violent",
+          "excerpt": "Barrow pledges new power infrastructure, including a 24-megawatt plant, to tackle The Gambia’s worsening electricity crisis.Gambian President Adama Barrow has said the country will boost energy supplies by next month, hoping to quell violent protests over prolonged power outages as the premier stands for re-election.Protesters burned tyres and built barricades blocking traffic, demanding that…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/9/9/gambian-leader-pledges-halt-to-rolling-blackouts-as-protests-turn-violent?traffic_source=rss",
+          "author": "By AFP",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/ap_6aa0b22b00927-1788916267.jpg?resize=1920%2C1440",
+          "time": "সকাল ৮:৪৭"
+        },
+        {
+          "headline": "US reading scores hit near-25-year low in latest global assessment",
+          "excerpt": "Reading scores among 15-year-olds in the United States have fallen to the lowest level in about 25 years, according to an international education assessment.On Tuesday, the Organisation for Economic Co-operation and Development (OECD) released findings from the 2025 Programme for International Student Assessment (PISA), a global metric for educational achievement.Recommended Stories list of 3…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/9/9/us-reading-scores-hit-near-25-year-low-in-latest-global-assessment?traffic_source=rss",
+          "author": "Catherine Nouhan",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/AP25038700478015-1788905833.jpg?resize=1920%2C1440",
+          "time": "সকাল ৮:৩৬"
+        },
+        {
+          "headline": "Record-breaking rain disrupts daily life in Nagoya, Japan",
+          "excerpt": "NewsFeedRecord-breaking rainfall swamped the Japanese city of Nagoya dumping an all-time high of 105 millimetres of rain in a single hour, prompting flood warnings and severely disrupting daily life.Published On 9 Sep 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/9/9/aje-onl-nf_record-breaking-rain-disrupts-daily-life-in-nagoya-080926?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/image-1788920563.jpg?resize=1596%2C1080&quality=80",
+          "time": "সকাল ৮:২৩"
+        },
+        {
+          "headline": "US Supreme Court rejects Missouri bid to reactivate GOP-backed voting map",
+          "excerpt": "A separate federal court ruling, however, contradicts the Supreme Court judgement, leaving the map up in the air.The United States Supreme Court has declined to reinstate a Republican-backed congressional map in Missouri, leaving in place an older map for November’s midterm elections.On Tuesday, Justice Brett Kavanaugh, who handles emergency matters from Missouri, rejected the state’s request to…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/9/9/us-supreme-court-rejects-missouri-bid-to-reactivate-gop-backed-voting-map?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/AP26251747749795-1788913125.jpg?resize=1920%2C1440",
+          "time": "সকাল ৮:১৫"
+        },
+        {
+          "headline": "Yemen’s Saudi-backed forces strike Houthis on western coast",
+          "excerpt": "NewsFeedSaudi-backed Yemeni government forces are intensifying their counteroffensive against the Houthis as fighting spreads across Yemen. The escalation follows Houthi attacks on four Saudi Arabian cities that injured 73 people and drew a pledge of retaliation from Riyadh.Published On 9 Sep 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/9/9/yemens-saudi-backed-forces-strike-houthis-on-western-coast?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/image-1788919487.jpg?resize=1920%2C1001&quality=80",
+          "time": "সকাল ৮:০৬"
+        },
+        {
+          "headline": "‘Energiser’ or ‘circus’: US voters weigh in on Trump’s midterm convention",
+          "excerpt": "Dallas, Texas – At a farmers market, 58-year-old Cody Johnson said he still believed in United States President Donald Trump’s ability to energise voters.That belief serves as a cornerstone of the Republican National Committee’s midterm convention, a first-of-its-kind event intended to mobilise voters ahead of the legislative elections in November, albeit in a particularly Trump-dominated…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/9/9/energiser-or-circus-us-voters-weigh-in-on-trumps-midterm-convention?traffic_source=rss",
+          "author": "Joseph Stepansky",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/afp_6aa0970464ac-1788909316.jpg?resize=1920%2C1440",
+          "time": "সকাল ৭:৫০"
+        },
+        {
+          "headline": "Jordanian air defences intercept Iranian missile barrage",
+          "excerpt": "NewsFeedWitnesses have captured the moment Jordanian air defence systems intercepted a barrage of ballistic missiles fired from Iran. Jordan says it intercepted 18 of 20 missiles, with no injuries reported. The interceptions could be seen from across the border in Syria’s Daraa.Published On 9 Sep 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/9/9/jordanian-air-defences-intercept-iranian-missile-barrage?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/image-1788916075.jpg?resize=1918%2C1080&quality=80",
+          "time": "সকাল ৭:০৮"
+        },
+        {
+          "headline": "Sharpeville massacre, 66 years on: Families still wait for justice",
+          "excerpt": "Sharpeville, South Africa – Paulina Mathinye was five years old when her father left home for a meeting near the police station in Sharpeville, a township south of Johannesburg.She remembers waiting for him to return.“I’ll go run to him,” Mathinye recalled thinking. “He will pick me up like daddies always do with their beloved daughters.”He never did.On March 21, 1960, Mathinye’s father joined…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/9/9/sharpeville-massacre-66-years-on-families-still-wait-for-justice?traffic_source=rss",
+          "author": "Qaanitah Hunter",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2024/11/AP77596427749-1-1732457553.jpg?resize=1920%2C1440",
+          "time": "সকাল ৬:২৪"
+        },
+        {
+          "headline": "Anti-AfD protesters rally in Cologne after far-right election win",
+          "excerpt": "Skip linksSkip to Content Live Navigation menuNewsAfricaAsiaUS & CanadaLatin AmericaEuropeAsia PacificMiddle EastExplainedSportOpinionVideoFeaturesEconomyHuman RightsClimate CrisisInvestigationsInteractivesIn PicturesScience & TechnologyPodcastsTravelSponsored Content Live Anti-AfD protesters rally in Cologne after far-right election winNewsFeedThousands of protesters rallied in Cologne against…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/9/9/aje-onl-nf_anti-afd-protesters-rally-in-after-election-win-080926?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/image-1788912959.jpg?resize=1920%2C1080&quality=80",
+          "time": "সকাল ৬:১৬"
+        },
+        {
+          "headline": "Marco Rubio says US seeks more economic and security ties in Latin America",
+          "excerpt": "The US secretary of state visits Colombia, Ecuador and Peru in a bid to enhance cooperation with right-wing allies.US Secretary of State Marco Rubio says President Donald Trump’s administration hopes to ink trade deals with Colombia, Peru and Ecuador soon, as Washington seeks greater ties with right-wing allies across Latin America.Rubio met with Colombian President Abelardo de la Espriella…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/9/9/marco-rubio-says-us-seeks-more-economic-and-security-ties-in-latin-america?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/afp_6aa0927feaf5-1788908159.jpg?resize=1920%2C1440",
+          "time": "সকাল ৬:১৪"
+        },
+        {
+          "headline": "Singapore boosts PM’s salary by $1m amid major pay rise for ministers",
+          "excerpt": "Singapore’s prime minister has been given a $1m pay rise as the affluent city-state announced a dramatic one-off salary boost for government ministers.The pay increases add more than 60% to what are already the world’s highest ministerial salaries.Singapore has justified high-end salaries for its political leaders, arguing they attract talent and ensure good governance. The issue is nevertheless…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/world/2026/sep/09/singapore-pm-ministers-salary-pay-rise",
+          "author": "Guardian staff reporter",
+          "image": "https://i.guim.co.uk/img/media/1a235c5d63c2b2ab6d27301813635d6426c43631/882_0_4509_3608/master/4509.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=fe716766176d4b862517a63f397415b9",
+          "time": "সকাল ৬:০০"
+        },
+        {
+          "headline": "US attacks 5 Iranian oil tankers, Tehran retaliates with strikes on Jordan",
+          "excerpt": "The United States has attacked five Iranian oil tankers in the Gulf of Oman and near Kharg Island after accusing Tehran of launching ballistic missiles at a US warship twice in two days.Iran responded to Tuesday’s attacks by firing missiles at US forces stationed at the Al Azraq base in Jordan. It also claimed additional strikes on two US vessels and eight tankers in the region, saying the…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/9/9/us-destroys-five-iranian-tankers-iran-retaliates-with-attacks-on-jordan-base?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/2026-09-08T230056Z_1478579696_RC2AFNAQJA7C_RTRMADP_3_IRAN-CRISIS-USA-NAVY-CARRIERS-1788908805.jpg?resize=1920%2C1440",
+          "time": "সকাল ৬:০৮"
+        },
+        {
+          "headline": "Suspected smugglers on trial over deadliest migrant tragedy in France",
+          "excerpt": "Paris trial begins over deadly Channel tragedy, with 14 facing charges for manslaughter.The trial for the accident involving at least 31 migrants and asylum seekers killed while trying to reach the United Kingdom has begun, with 14 men facing smuggling-related charges.Some 114 civil parties, including victims’ families, are involved in the trial that opened on Tuesday. The incident was the…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/9/9/suspected-smugglers-on-trial-over-deadliest-migrant-tragedy-in-france?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/afp_6aa086d6befa-1788905174.jpg?resize=1920%2C1440",
+          "time": "সকাল ৬:০৪"
+        },
+        {
+          "headline": "Iran war live: US, Iran attack oil tankers; crude heads to $100",
+          "excerpt": "Skip linksSkip to Content Live Navigation menuNewsAfricaAsiaUS & CanadaLatin AmericaEuropeAsia PacificMiddle EastExplainedSportOpinionVideoFeaturesEconomyHuman RightsClimate CrisisInvestigationsInteractivesIn PicturesScience & TechnologyPodcastsTravelSponsored Content Live Navigation menuDonald TrumpTrump, Netanyahu and the Iran questionHow Iran war fallout may shape US electionsA visual guide…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/liveblog/2026/9/9/iran-war-live-us-hits-iranian-tankers-irgc-attacks-us-base-in-jordan?traffic_source=rss",
+          "author": "Tracy J. Jawad, Mohammed R Mhawish",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/2026-03-07T155029Z_541456158_RC2NZJABMBSJ_RTRMADP_3_IRAN-CRISIS-GULF-OMAN-1788923363.jpg?resize=1920%2C1440",
+          "time": "সকাল ৬:০০"
+        },
+        {
+          "headline": "US increases pressure on Iran with sanctions targeting aviation sector",
+          "excerpt": "Trump administration has sought to isolate Tehran through a raft of measures meant to squeeze the country’s economy.The United States has put forward a new package of sanctions targeting Iran’s aviation sector, as the administration of President Donald Trump seeks to ratchet up economic pressure on Tehran.On Tuesday, the US Treasury Department announced 36 Iran-related sanctions on commercial…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/9/8/us-increases-pressure-on-iran-with-sanctions-targeting-aviation-sector?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/reuters_6aa07336-1788900150.jpg?resize=1920%2C1440",
+          "time": "ভোর ৫:৫১"
+        },
+        {
+          "headline": "US bombs five Iranian oil tankers after its navy is attacked",
+          "excerpt": "NewsFeedThe US military has released video of its forces destroying what it says are five Iranian crude oil tankers. It’s the second series of direct US attacks on Iranian ships in days. CENTCOM claims the latest strikes are in retaliation for Iranian attempts to hit US warships.Published On 8 Sep 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/9/8/us-bombs-five-iranian-oil-tankers-after-its-navy-is-attacked?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/image-1788911334.jpg?resize=1920%2C1080&quality=80",
+          "time": "ভোর ৫:৪৯"
+        },
+        {
+          "headline": "Politics live: Trump administration warns Australia after social media algorithm reform; Albanese mourns ‘true one-off’ in d’Alpuget",
+          "excerpt": "From 3h agoWhite House fires warnings shots over digital duty of care billThe White House has issued a warning to Australia as the government forces social media and US based tech giants to clean up their platforms and remove harmful content.Yesterday the government released its draft bill that will require platforms to protect kids from harmful content around eating disorders, misogyny,…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/australia-news/live/2026/sep/09/coalition-victoria-energy-bills-labor-one-nation-super-digital-duty-of-care-ntwnfb",
+          "author": "Krishani Dhanji, Sarah Basford Canales, Luca Ittimani, Benita Kolovos, Eva Corlett, Douglas Smith, Adeshola Ore, Patrick Commins",
+          "image": "https://i.guim.co.uk/img/media/11387341cfdab50eccfd07af8a8a4fe95a5a28db/807_0_5000_4000/master/5000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=ea8366993c20b054ec21a2fadd1d1c2b",
+          "time": "সকাল ৯:০৮"
+        },
+        {
+          "headline": "Mamdani releases records on toxic air in New York after 9/11 attacks",
+          "excerpt": "Just days before the 25th anniversary of the September 11, 2001 attacks, New York City has released a trove of previously undisclosed documents suggesting government efforts to downplay – or even mislead – residents about dangerous air quality following the attacks.At a news conference on Tuesday, Mayor Zohran Mamdani announced the publication of 170,000 pages concerning health issues following…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/9/8/mamdani-releases-records-on-toxic-air-in-new-york-after-9-11?traffic_source=rss",
+          "author": "Evan Semones",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/afp_6aa064d7c184-1788896471.jpg?resize=1920%2C1440",
+          "time": "ভোর ৫:১৪"
+        },
+        {
+          "headline": "Liberal operative denies he invented pink paper record of agreement with fugitive developer, Icac hears",
+          "excerpt": "A Liberal operative has denied making up a “pink” or “fuchsia”-coloured piece of paper which he says was the record of an agreement with a property developer worth up to $5m, a corruption inquiry has heard.Jeremy Greenwood told the Independent Commission Against Corruption (Icac) on Wednesday that the note, which he did not mention in a preliminary interview with the watchdog, was not a “recent…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/australia-news/2026/sep/09/liberal-operative-denies-he-invented-pink-paper-record-of-agreement-with-fugitive-developer-icac-hears-ntwnfb",
+          "author": "Penry Buckley",
+          "image": "https://i.guim.co.uk/img/media/73858def9927874c3d93a6ec636ea9d990d5824b/0_0_1173_938/master/1173.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=1b0b0cdf615f1e6755831a8c0f6666e3",
+          "time": "সকাল ৮:৩৫"
+        },
+        {
+          "headline": "The Map Was Lying To You: Why the UN Just Changed How We See Africa",
+          "excerpt": "NewsFeedFor 450 years, the world’s most-used map has made Africa look smaller than it really is. The United Nations just voted to change that. \nAl Jazeera’s Basel Ghazoghli breaks it down and goes back 450 years to show how the map was made — and why it stuck.Published On 8 Sep 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/9/8/the-map-was-lying-to-you-why-the-un-just-changed-how-we-see-africa?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/image-1788908806.jpg?resize=1920%2C1080&quality=80",
+          "time": "ভোর ৫:০৭"
+        },
+        {
+          "headline": "NDIS data may have ended up in Palantir’s analytics platform as part of efforts to curb fraud",
+          "excerpt": "Personal information of national disability insurance scheme participants may have ended up in controversial software company Palantir’s analytics platform as part of a massive multi-agency sharing program investigating fraud, Guardian Australia can reveal.There have been calls to ban the use of Palantir’s software by the Australian government since May, after it implied some cultures are…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/australia-news/2026/sep/09/ndis-data-may-have-ended-up-in-palantirs-analytics-platform-as-part-of-efforts-to-curb",
+          "author": "Josh Taylor",
+          "image": "https://i.guim.co.uk/img/media/ba117415b0ce5a84437694933b4777aa0c31cd19/493_0_2500_2000/master/2500.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=c2e61772be9e934562ca82b471371626",
+          "time": "সকাল ৭:০৯"
+        },
+        {
+          "headline": "Napoli vs Arsenal: Champions League – prediction, teams, lineups",
+          "excerpt": "Napoli has issues in midfield for its Champions League opener against Arsenal, but hope to recover Serie A winning form.Who: Napoli vs Arsenal\nWhat: UEFA Champions League\nWhere: Stadio Diego Armando Maradona in Naples, Italy\nWhen: Wednesday at 9pm local time (1900GMT).\nHow to follow: Al Jazeera Sport will bring you all the build-up from 16:00 GMT ahead of our live text commentary stream.Napoli…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/sports/2026/9/8/napoli-vs-arsenal-champions-league-prediction-teams-lineups?traffic_source=rss",
+          "author": "Kevin Hand",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/2026-09-05T181548Z_1714139874_UP1EM951EQB7E_RTRMADP_3_SOCCER-ITALY-INT-NAP-1788907092.jpg?resize=1920%2C1440",
+          "time": "ভোর ৪:৩৯"
+        },
+        {
+          "headline": "মাওয়ের চীন: যে বিপ্লব চীনকে বদলে দিল, পরে পথ হারাল",
+          "excerpt": "দুর্ভিক্ষের মুখে চীনের মূল ভূখণ্ড ছেড়ে হংকংয়ে চলে যান দেশটির অনেক বাসিন্দা। খাবারের জন্য অপেক্ষা করছেন তাঁরা। ১৯৬২ সালের মে মাসেছবি: এএফপিমাওয়ের শাসনের আরেকটি বৈশিষ্ট্য ছিল তাঁকে ঘিরে গড়ে ওঠা ব্যক্তিপূজা। তাঁর ছবি, বাণী, এমনকি তাঁর লেখা ‘লিটল রেড বুক’ও রাজনৈতিক আনুগত্যের প্রতীকে পরিণত হয়।একজন নেতার কথা যখন রাজনৈতিক সত্যের চূড়ান্ত মানদণ্ড হয়ে ওঠে, তখন তাঁর সিদ্ধান্তের সমালোচনা করাও কঠিন হয়ে…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/world/china/5y9hmd5vaw",
+          "author": "কাজী আলিম-উজ-জামান",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-09-08%2F6kfpjnpw%2Fmao-002.jpg?rect=0%2C48%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-09-22%2F5lwyn5je%2Fdefaultog.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৮:০০"
+        },
+        {
+          "headline": "Liverpool vs Atletico Madrid: Champions League – preview, teams, prediction",
+          "excerpt": "Who: Liverpool vs Atletico Madrid\nWhat: Champions League, league phase\nWhere: Anfield, Liverpool, United Kingdom\nWhen: Wednesday, September 9, at 8pm (19:00 GMT)\nHow to follow: Al Jazeera Sport will bring you all the build-up from 16:00 GMT ahead of our live text commentary streamLiverpool and Atletico Madrid kick off their 2026-27 Champions League campaigns with a mouthwatering league-phase…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/sports/2026/9/8/liverpool-vs-atletico-madrid-champions-league-preview-teams?traffic_source=rss",
+          "author": "By AFP and Reuters",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/reuters_6aa00096-1788870806.jpg?resize=1920%2C1440",
+          "time": "ভোর ৪:৩৪"
+        },
+        {
+          "headline": "What we know about masked anti-migrant protesters in the UK",
+          "excerpt": "Skip linksSkip to Content Live Navigation menuNewsAfricaAsiaUS & CanadaLatin AmericaEuropeAsia PacificMiddle EastExplainedSportOpinionVideoFeaturesEconomyHuman RightsClimate CrisisInvestigationsInteractivesIn PicturesScience & TechnologyPodcastsTravelSponsored Content Live What we know about masked anti-migrant protesters in the UKNewsFeedHundreds of masked men shut down UK ports over the…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/9/8/what-we-know-about-masked-anti-migrant-protesters-in-the-uk?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/image-1788906491.jpg?resize=1920%2C1080&quality=80",
+          "time": "ভোর ৪:২৮"
+        },
+        {
+          "headline": "Protesters, police clash in Albania over Trump-linked project",
+          "excerpt": "Albanians have protested for more than 100 days against a planned luxury hotel linked to Jared Kushner and Ivanka Trump.Police in the Albanian capital, Tirana, clashed with protesters and blocked them from reaching parliament as the latest rally against a luxury development linked to US President Donald Trump’s family turned violent.Tuesday’s march came as parliament resumed following summer…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/9/8/protesters-police-clash-in-albania-over-trump-linked-project?traffic_source=rss",
+          "author": "By AFP and AP",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/AP26251643796570-1788903166.jpg?resize=1920%2C1440",
+          "time": "ভোর ৪:০৫"
+        },
+        {
+          "headline": "Haaland to the double as Manchester City beat Porto in Champions League",
+          "excerpt": "Ayyoub Bouaddi debuts for Manchester City, but Erling Haaland stars in a 2-0 win in Porto.Erling Haaland scored twice as Manchester City began their Champions League campaign with a 2-0 victory at Porto.Haaland was denied by a hat-trick of fine saves by Diogo Costa before half-time, but he was not to be denied early in the second half, as his downward header found the bottom corner.Recommended…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/sports/2026/9/8/haaland-to-the-double-as-manchester-city-beat-porto-in-champions-league?traffic_source=rss",
+          "author": "By AFP",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/AFP__20260908__C7Q734E__v1__MidRes__FblEurC1PortoManCity-1788902800.jpg?resize=1200%2C630",
+          "time": "রাত ৩:৪৬"
+        },
+        {
+          "headline": "What the UK ban on goods from illegal Israeli settlements really means",
+          "excerpt": "NewsFeedIsrael has announced that it’s shutting down the UK Consulate in occupied East Jerusalem after the UK, France, and Canada announced a ban on goods from illegal settlements in the occupied West Bank.Published On 8 Sep 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/9/8/what-the-uk-ban-on-goods-from-illegal-israeli-settlements-really-means?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/image-1788903325.jpg?resize=1920%2C1080&quality=80",
+          "time": "রাত ৩:৩৫"
+        },
+        {
+          "headline": "US warns Ford over ties with Chinese firms amid tensions",
+          "excerpt": "US officials criticise Ford’s partnerships with Chinese firms CATL, Geely and BYD over security risks.The United States Department of Transportation has sent a letter to Ford Motor Company raising concerns about the carmaker’s partnerships with Chinese firms during ongoing trade tensions between Washington and Beijing.In the letter to Ford CEO Jim Farley, US Transportation Secretary Sean Duffy…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/economy/2026/9/8/us-warns-ford-over-ties-with-chinese-firms-amid-tensions?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/2025-03-12T202402Z_1777107245_RC2TBDA57O46_RTRMADP_3_FORD-MOTOR-USA-1788895090.jpg?resize=1920%2C1440",
+          "time": "রাত ৩:২৪"
+        },
+        {
+          "headline": "Australia considers new Israel sanctions but won’t join UK in banning trade with ‘settler terrorists’",
+          "excerpt": "Australia is preparing another round of sanctions against Israel but has stopped short of joining the UK in banning trade with Israeli settlements in the West Bank.Overnight, the UK government offered its strongest condemnation yet of Israel’s occupation, with the foreign secretary, Ed Miliband, calling efforts to control the West Bank unlawful. He said his government agreed there was “ethnic…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/australia-news/2026/sep/09/australia-considers-new-israel-sanctions-but-wont-join-uk-in-banning-trade-with-settler-terrorists-ntwnfb",
+          "author": "Tom McIlroy, Ben Doherty",
+          "image": "https://i.guim.co.uk/img/media/4212e2a588b98b5ba2126caae45f86d12d20da44/545_0_6002_4802/master/6002.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=c2f88c57b35af2df6856c12440017b25",
+          "time": "সকাল ৭:৩৮"
+        },
+        {
+          "headline": "Two more people arrested over ‘mountain of illegal waste’ dumped in Oxfordshire",
+          "excerpt": "Two men have been arrested after fly-tippers dumped a “mountain of illegal waste”, stacked 10 metres high, in Oxfordshire.Hundreds of tonnes of rubbish appeared in a field between the River Cherwell and the A34 near Kidlington in November last year. The waste tip was so large that removing it could cost more than the local council’s annual budget, the area’s MP said.The clean-up operation, which…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/environment/2026/sep/08/two-more-people-arrested-over-mountain-of-waste-dumped-in-oxfordshire",
+          "author": "Charlie Moloney",
+          "image": "https://i.guim.co.uk/img/media/334deb9536152a60f1a8c8a5b1f0ccdc9f890cd4/336_0_3360_2688/master/3360.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=4506a738eb2c42fafc341b55ed3e87e3",
+          "time": "রাত ৩:৫৪"
+        },
+        {
+          "headline": "Pilots tried to abort landing seconds before deadly Amazon cargo plane crash that killed five",
+          "excerpt": "Officials in Florida on Tuesday said evidence collected from Saturday’s Amazon cargo plane crash at Miami international airport suggests the pilots considered aborting the flight’s landing before it crashed and killed five people on the ground.At a press conference Tuesday evening, officials from the National Transportation Safety Board (NTSB) released data from the plane’s “black box” flight…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/us-news/2026/sep/08/amazon-cargo-plane-crash-victims",
+          "author": "Richard Luscombe",
+          "image": "https://i.guim.co.uk/img/media/166f3ef8cfeb7e218246406ba0becfbdcb30a850/961_1095_1868_1494/master/1868.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=d688c1e829e6d48d951dc3f006349bb8",
+          "time": "সকাল ৭:৫৩"
+        },
+        {
+          "headline": "Lindsay Clancy juror had reasonable doubt but would not agree to acquit, foreperson says",
+          "excerpt": "A lone juror in the trial of Lindsay Clancy, the Massachusetts mother accused of the murder of her three children, would not agree to acquit Clancy despite expressing reasonable doubt about whether she was guilty, the jury’s foreperson said in an interview airing Monday.Speaking to NBC 10 Boston just days after Clancy’s trial ended in a mistrial, Roni Carlson, the foreperson, confirmed there was…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/us-news/2026/sep/08/lindsay-clancy-juror-trial",
+          "author": "Uwa Ede-Osifo",
+          "image": "https://i.guim.co.uk/img/media/c9a8afdbc051a948f98551d7bc07c1987b8c84ee/270_0_2659_2128/master/2659.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=a34aecf2246afa6e9d3120d3cc8b887a",
+          "time": "সকাল ৭:৪৫"
+        },
+        {
+          "headline": "Mamdani releases 170,000 pages of records regarding impact on air quality of 9/11 attacks",
+          "excerpt": "New York City mayor Zohran Mamdani’s administration has released more than 170,000 pages of municipal records involving the impact of the September 11 attacks on air quality health, as well as the city’s response.Mamdani announced the documents and an online portal for accessing them on Tuesday. The release comes alongside the settlement of two lawsuits pursued by 9/11 Health Watch, which fought…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/us-news/2026/sep/08/air-quality-september-11-attacks-documents-release",
+          "author": "Victoria Bekiempis",
+          "image": "https://i.guim.co.uk/img/media/c8894847abbb2da42bed8bca9468e79df5638e06/94_0_1735_1389/master/1735.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=02d37327d89d08bf0b7b6042b0c352fa",
+          "time": "সকাল ৬:৪০"
+        },
+        {
+          "headline": "Trump-backed John Sununu wins New Hampshire Republican Senate primary",
+          "excerpt": "Former senator John E Sununu triumphed on Tuesday in the New Hampshire Republican Senate primary Scott Brown, earning the GOP nod in what will likely be a must-win race if Democrats hope to seize the upper chamber.Sununu, 61, was the clear frontrunner in the GOP primary. He served one term in the Senate from 2003 to 2009.Brown represented Massachusetts, later moved to New Hampshire, and served…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/us-news/2026/sep/08/new-hampshire-republican-senate-primary",
+          "author": "Shrai Popat",
+          "image": "https://i.guim.co.uk/img/media/e537a05f8bebbb78c1b1d2205678060cf8437312/712_0_3560_2848/master/3560.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=db6b2796a2669b1e377e9a57401878e6",
+          "time": "সকাল ৬:০৮"
+        }
+      ],
+      "Entertainment": [
+        {
+          "headline": "সাফল্যের পরেও কেন সিনেমা ছেড়েছিলেন? ২৪ বছর পর জানালেন সেই নায়িকা",
+          "excerpt": "বিনোদন ডেস্ক ‘রাজ’ সিনেমায় মালিনী শর্মা। আইএমডিবি ২০০২ সালে মুক্তি পাওয়া ‘রাজ’ ছবিটি শুধু বলিউডের অন্যতম সফল হরর চলচ্চিত্রই নয়, এটি এক নতুন মুখেরও জন্ম দিয়েছিল। সেই মুখ মালিনী শর্মা। প্রথম ছবিতেই বিপাশা বসু ও ডিনো মোরিয়ার সঙ্গে অভিনয় করে আলোচনায় উঠে আসেন তিনি। দর্শকদের অনেকেরই ধারণা ছিল, সামনে অপেক্ষা করছে দীর্ঘ ও সফল ক্যারিয়ার। কিন্তু ঠিক তখনই যেন উল্টো পথে হাঁটলেন মালিনী। এক ছবির পরই তিনি…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/entertainment/bollywood/ppp2kjfajr",
+          "author": "বিনোদন ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-08-25%2Ftjbt5uw9%2FMV5BZDg1MmY2NmEtNzY0OC00MmIzLWIzNjctOThhMmU2M2UyOTYyXkEyXkFqcGc.V1.jpg?rect=0%2C0%2C800%2C420&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৮:০০"
+        },
+        {
+          "headline": "হবু স্বামী সাধারণ চাকরিজীবী, জানালেন কোরীয় অভিনেত্রী",
+          "excerpt": "বিনোদন ডেস্ক বেক জিন-হিএএমনাইনদক্ষিণ কোরিয়ার অভিনেত্রী বেক জিন-হি বিয়ের ঘোষণা দেওয়ার পর থেকেই তাঁর হবু স্বামীকে নিয়ে ভক্তদের আগ্রহ তৈরি হয়েছে। এবার নিজেই তাঁর হবু স্বামীর পেশা সম্পর্কে জানিয়েছেন অভিনেত্রী। বেক জিন-হির দাবি, তিনি কোনো ব্যবসায়ী বা অর্থশালী ব্যক্তি নন, কানাডায় কর্মরত একজন সাধারণ চাকরিজীবী।৮ সেপ্টেম্বর নিজের ইউটিউব চ্যানেলে প্রকাশিত এক ভিডিওতে বেক জিন-হি বলেন, বিয়ের খবরটি প্রথমে…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/entertainment/world-cinema/klxb5ob7cv",
+          "author": "বিনোদন ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-09-07%2Fnq1zgy8b%2Fnews-p.v1.20260907.fc8cf33dcd6e427790db4c93562ddf94P1.jpg?rect=0%2C0%2C1080%2C567&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৭:০০"
+        }
+      ],
+      "Sports": [
+        {
+          "headline": "কাউন্টিতে নতুন গল্প লিখছেন হাসান–খালেদ",
+          "excerpt": "ক্রীড়া প্রতিবেদক ঢাকাকেন্টে হাসান মাহমুদ ও খালেদ আহমেদপ্রথম আলোডার্বি ক্রিকেট গ্রাউন্ডে কাউন্টি ক্রিকেটের ম্যাচ চলছে। কেন্টের বিপক্ষে মধ্যাহ্নভোজের বিরতি অবধি ৮৯ রান তুলতে ৪ উইকেট হারিয়ে ফেলেছে ডার্বিশায়ার। স্কোরবোর্ডে যে দুজন বোলার দুটি করে উইকেট পেয়েছেন বলে দেখাচ্ছিল, দুজনই বাংলাদেশের—হাসান মাহমুদ ও খালেদ আহমেদ।কাউন্টি ক্রিকেটে বাংলাদেশের পেস বোলিংয়ের প্রতিনিধিত্ব তিন মাস আগেও ছিল না। গত জুনে…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/sports/cricket/3zkv7inyy6",
+          "author": "ক্রীড়া প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-09-08%2Fl4xr2jcr%2F78695529110681197356201947510939442892868185n.jpg?rect=0%2C28%2C1760%2C924&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2026-09-03%2F99dqhmx6%2Fog-banner-for-sports.png&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৮:০০"
+        },
+        {
+          "headline": "আজ টিভিতে যা দেখবেন (৯ সেপ্টেম্বর ২০২৬)",
+          "excerpt": "খেলা ডেস্ক আজ শুরু ইংল্যান্ড-পাকিস্তান তৃতীয় টেস্ট। উয়েফা চ্যাম্পিয়নস লিগে আজ মাঠে নামবে বার্সেলোনা, পিএসজি, লিভারপুল ও আর্সেনালের মতো দল।গেম ডেভেলপমেন্ট ট্রফিফাইনালসকাল ৯-৩০ মি., টি স্পোর্টসএজবাস্টন টেস্ট-১ম দিনইংল্যান্ড-পাকিস্তানবিকেল ৪টা, সনি স্পোর্টস ২ইউএস ওপেনকোয়ার্টার ফাইনালরাত ৯-৩০ মি., স্টার স্পোর্টস ১ ও ২উয়েফা চ্যাম্পিয়নস লিগবার্সেলোনা-ফেইনুর্ডরাত ১০-৪৫ মি., সনি স্পোর্টস…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/sports/0xhyl55bub",
+          "author": "খেলা ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-09-08%2Fzt1i7qm3%2FWhatsApp-Image-2025-09-07-at-18.46.345cffd0da.jpg?rect=0%2C0%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2026-09-03%2Foj267urd%2Fog-banner-for-sports.png&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৭:০০"
+        },
+        {
+          "headline": "5 Tests inside 50 days: Packed schedule throws unique challenge at Tigers",
+          "excerpt": "11 MIN(s)\n\t\t\t\t\t\n\t\t\t\t\t\tUPDATED\n\t\t\t\t\t\t20 SEC(s)\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\n\n\t\tSports Reporter \n\t\t\t\t\t\n\n\t\t\t\t\t\n\n\t\t\t\n  \n                  \n              \n                  \n\n  \n\n\n\t\t\t\n\t\t\t\t\t\t\tPhoto: AFP\n\t\t\t\t\t\t\n\t\t\t\t\t\nBCB chief selector Habibul Bashar recently told The Daily Star that “Tests will be prioritised.” That commitment will face a stern test as Bangladesh prepare to play five Tests, four of…",
+          "source": "The Daily Star Sports",
+          "link": "https://www.thedailystar.net/sports/cricket/news/5-tests-inside-50-days-packed-schedule-throws-unique-challenge-tigers-4268451",
+          "author": "Sports Reporter",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-09/Shanto%20Tigers%20Bangladesh%20Australia%20tour%202026%20Mackay.png",
+          "time": "সকাল ৯:০২"
+        },
+        {
+          "headline": "Bouaddi impresses on first start - have Man City found 'a gem'?",
+          "excerpt": "Ayyoub Bouaddi belied his age with a mature Champions League performance on his first Manchester City start to showcase why the club were so intent on signing the 18-year-old.The midfielder took centre stage for Morocco at this summer's World Cup and City spent £86m to sign him from Lille, making him the most expensive teenager in Premier League history.And after two substitute appearances for…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cy0zq59gr21o?at_medium=RSS&at_campaign=rss",
+          "author": "Shamoon Hafez",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/74ba/live/5401f370-abcf-11f1-897e-d7c2bae07186.jpg",
+          "time": "ভোর ৪:০৯"
+        },
+        {
+          "headline": "What to watch on TV today (9 Sep, 2026)",
+          "excerpt": "34 MIN(s)\n\t\t\t\t\t\n\t\t\t\t\t\tUPDATED\n\t\t\t\t\t\t22 MIN(s)\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\n\n\t\tStar Sports Desk\n\t\t\t\t\t\n\n\t\t\t\t\t\n\n\t\t\t\n  \n                  \n              \n                  \n\n  \n\n\n\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\nT SportsBCB Game Development Trophy Live from 9:30 amBangladesh Futsal LeagueLive from 6:00 pmStar Sports 1 & 2US OpenQuarterfinalsLive from 9:00 pmSony Sports 5England vs Pakistan 4rd Test, Day 1Live…",
+          "source": "The Daily Star Sports",
+          "link": "https://www.thedailystar.net/sports/what-to-watch/news/what-watch-tv-today-9-sep-2026-4268446",
+          "author": "Star Sports Desk",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-09/What%20to%20watch_1.png",
+          "time": "সকাল ৮:৪০"
+        },
+        {
+          "headline": "In the middle again - but Mourinho says Alexander-Arnold 'not a midfielder'",
+          "excerpt": "Image source, Getty ImagesImage caption, Trent Alexander-Arnold started for only the second time this season in the win over Inter MilanByElizabeth ConwaySpanish football reporter at the BernabeuIt's the question that just doesn't seem to go away - can Trent Alexander-Arnold really work in midfield?Gareth Southgate played him there for England during Euro 2024 before ending the experiment after…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/c980lgdrlzno?at_medium=RSS&at_campaign=rss",
+          "author": "Elizabeth Conway",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/6ace/live/5b112f80-abd6-11f1-a291-b542ee92de7c.jpg",
+          "time": "ভোর ৫:১৪"
+        },
+        {
+          "headline": "Haaland double powers Man City to victory over Porto",
+          "excerpt": "5 HOUR(s)\n\t\t\t\t\t\n\t\t\t\t\t\tUPDATED\n\t\t\t\t\t\t5 HOUR(s)\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\n\n\n\t\t\t\n  \n                  \n              \n                  \n\n  \n\n\n\t\t\t\n\t\t\t\t\t\t\tPhoto: AFP\n\t\t\t\t\t\t\n\t\t\t\t\t\nErling Haaland scored twice as Manchester City began their Champions League campaign with a 2-0 victory at Porto.Haaland was denied by a hat-trick of fine saves by Diogo Costa before half-time, but was not to be denied…",
+          "source": "The Daily Star Sports",
+          "link": "https://www.thedailystar.net/sports/football/news/haaland-double-powers-man-city-victory-over-porto-4268371",
+          "author": "AFP, Porto",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-09/AFP__20260908__C7Q83EG__v1__MidRes__FblEurC1PortoManCity.jpg",
+          "time": "রাত ৩:১৮"
+        },
+        {
+          "headline": "Tiafoe consoles tearful Michelsen after remarkable US Open comeback",
+          "excerpt": "Tiafoe consoles tearful Michelsen after remarkable comebackImage source, ReutersImage caption, Frances Tiafoe (right) hugged compatriot Alex Michelsen at the net, with the two good friends off the courtByPaul BattisonBBC Sport JournalistUpdated 26 minutes agoFrances Tiafoe came from two sets and a break down to beat fellow American Alex Michelsen in a thrilling comeback to reach the US Open…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/tennis/articles/c33k6zl5m87o?at_medium=RSS&at_campaign=rss",
+          "author": "Paul Battison",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/91af/live/25f87ff0-abe1-11f1-a291-b542ee92de7c.jpg",
+          "time": "সকাল ৮:৪১"
+        },
+        {
+          "headline": "Mourinho's Real Madrid make winning start against Inter Milan",
+          "excerpt": "6 HOUR(s)\n\t\t\t\t\t\n\t\t\t\t\t\tUPDATED\n\t\t\t\t\t\t6 HOUR(s)\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\n\n\n\t\t\t\n  \n                  \n              \n                  \n\n  \n\n\n\t\t\t\n\t\t\t\t\t\t\tPhoto: AFP\n\t\t\t\t\t\t\n\t\t\t\t\t\nJose Mourinho's Real Madrid secured a narrow 2-1 victory over his former side Inter Milan in a high-octane Champions League opener on Tuesday.The record 15-time European champions took a two-goal lead through Kylian…",
+          "source": "The Daily Star Sports",
+          "link": "https://www.thedailystar.net/sports/football/news/mourinhos-real-madrid-make-winning-start-against-inter-milan-4268361",
+          "author": "AFP, Madrid",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-09/AFP__20260908__C7Q23QU__v1__MidRes__FblEurC1RealMadridInterMilan.jpg",
+          "time": "রাত ৩:১৪"
+        },
+        {
+          "headline": "West Ham go top of Championship - are they ready to leave past behind?",
+          "excerpt": "It was a night to remember for West Ham and their 4,500-travelling support.Skipper and club talisman Jarrod Bowen opened the scoring early, then secured victory late in a five-goal thriller at Bolton.The result took West Ham to the top of the Championship. It was their third successive league win - the first time they have done that since December 2023.That was the run which prompted a contract…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cp80znxj2dmo?at_medium=RSS&at_campaign=rss",
+          "author": "Simon Stone",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/5ca1/live/0f01ee70-abd3-11f1-b109-879e35c24276.jpg",
+          "time": "ভোর ৪:৩৮"
+        },
+        {
+          "headline": "Liverpool monitoring Thiaw - Wednesday's gossip",
+          "excerpt": "Germany defender Malick Thiaw is being looked at by Liverpool, Manchester United, Fulham want to lock down Calvin Bassey and James Rodriguez is in Serie B talks.Liverpool and Manchester United are monitoring Germany defender Malick Thiaw, but Newcastle have no intention of selling the 25-year-old. (Caught Offside), externalSunderland winger Chemsdine Talbi. 21, is close to agreeing a deal to…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/ckg0jrdvxnvo?at_medium=RSS&at_campaign=rss",
+          "author": "BBC Sport",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/0759/live/cf77aa80-abc1-11f1-a291-b542ee92de7c.png",
+          "time": "রাত ২:৪৫"
+        },
+        {
+          "headline": "Hewett and Reid bid for sixth US Open title",
+          "excerpt": "Alfie Hewett and Gordon Reid started their bid for a sixth wheelchair doubles title at the US Open with a dominant opening victory in New York.Playing Frenchman Stephane Houdet and China's Zhenxu Ji, the British top seeds sealed a 6-3 6-1 win to progress to the semi-finals.They will next face Japan's Tokito Oda and Argentina's Gustavo Fernandez, the 2025 champions at Flushing Meadows.Hewett, 28,…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/tennis/articles/czjzmex1dv9o?at_medium=RSS&at_campaign=rss",
+          "author": "BBC Sport",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/2040/live/4b2c4b10-abcf-11f1-897e-d7c2bae07186.jpg",
+          "time": "রাত ৩:৫৭"
+        },
+        {
+          "headline": "Selby, Trump and Williams through in English Open first round",
+          "excerpt": "Mark Selby, Judd Trump, Mark Williams, Wu Yize and Barry Hawkins were among the players to progress from the first round of the English Open in Brentwood on Tuesday.Selby, ranked second in the world rankings, was a 4-3 winner over fellow Englishman Ricky Walden. Despite leading 2-1 following breaks of 111 and 135 in frames two and three, Selby had trailed 3-2 before winning the last frame thanks…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/snooker/articles/c0lr61y400ko?at_medium=RSS&at_campaign=rss",
+          "author": "Jonty Colman",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/900e/live/51e00530-abcc-11f1-bb59-535ef2db64cc.jpg",
+          "time": "রাত ৩:৩৪"
+        }
+      ],
+      "Tech": [
+        {
+          "headline": "LG TV shown scanning LAN for third-party phones and other devices",
+          "excerpt": "LG TVs are facing scrutiny due to a video seemingly showing the devices’ capability to track users when the TVs are off.\nYouTube channel Gamers Nexus worked with Level1Techs, a technology-focused YouTube channel, and security researchers to analyze LG TVs’ tracking capabilities. They shared packet captures that pointed to the TVs, including LG’s pricey G5 OLED TV, scanning the LAN for other…",
+          "source": "Ars Technica",
+          "link": "https://arstechnica.com/gadgets/2026/09/lg-tv-shown-capable-of-tracking-user-activity-even-when-offline/",
+          "author": "Scharon Harding",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/01/TV_OLED83B5PUA_brilliant-lg-oled-picture_features_900x600.jpg",
+          "time": "রাত ৩:৫২"
+        },
+        {
+          "headline": "White House takes down ‘Build the Wall’ game after the Tetris Company complains",
+          "excerpt": "In Brief\nPosted:\n\n\n4:23 PM PDT · September 8, 2026\n\n\n\nImage Credits:Kevin Carter/Getty Images\n\n\n\n\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\n\n\n\n\n\nA video game posted to the Trump administration’s website — one that closely resembled Tetris — has been taken down after the Tetris Company complained.\n\nThe White House recently took the unusual step of posting a number of arcade-style video games to…",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/09/08/white-house-takes-down-build-the-wall-game-after-the-tetris-company-complains/",
+          "author": "Lucas Ropek",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/07/GettyImages-2286058347.jpg?w=1024",
+          "time": "ভোর ৫:২৩"
+        },
+        {
+          "headline": "Sony isn’t phasing out discs quite as quickly as we thought",
+          "excerpt": "Sean Hollister is a senior editor and founding member of The Verge who covers gadgets, games, and toys. He spent 15 years editing the likes of CNET, Gizmodo, and Engadget.Sony isn’t backing away from its decision to kill the video game disc in January 2028. But Sony isn’t shutting down production as quickly as we thought, either. Two months after reports that Sony’s last discmaking plant was…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/games/991806/sony-disc-plant-90-percent-10-percent",
+          "author": "Sean Hollister",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25717617/247361_PS5_Pro_VPavic_224.jpg?quality=90&strip=all&crop=0%2C10.761835884455%2C100%2C78.47632823109&w=1200",
+          "time": "রাত ৩:৫২"
+        },
+        {
+          "headline": "Cockroach Milk, How to Blow Your Nose, and Mosquito Printers: The Ig Nobels of 2026",
+          "excerpt": "Achievements that first make people laugh and then make them think. That’s the motto of the Ig Nobel Prizes, an annual competition that—parodying the Nobel Prizes—recognizes some of the world’s most unusual scientific studies. The organization Improbable Research has been hosting the event since 1991 with the aim of showing that science also has a humorous side in its quest to meaningfully…",
+          "source": "Wired",
+          "link": "https://www.wired.com/story/cockroach-milk-mosquito-printers-ig-nobels-of-2026/",
+          "author": "Jorge Garay",
+          "image": "https://media.wired.com/photos/6aa056924ee73bc2e37a3111/191:100/w_1280,c_limit/2292854766",
+          "time": "রাত ৩:১৫"
+        },
+        {
+          "headline": "How to change and customize your Apple CarPlay display",
+          "excerpt": "CarPlay is great as it comes, but a few personalization tweaks make it even more…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2251193/how-to-change-customize-apple-carplay-display/",
+          "author": "Adnan Ahmed",
+          "image": "https://www.engadget.com/img/gallery/how-to-change-and-customize-your-apple-carplay-display/l-intro-1788537732.jpg",
+          "time": "ভোর ৫:৩০"
+        },
+        {
+          "headline": "Hands-on: Honor’s Robot Phone is probably the coolest phone you still can’t buy",
+          "excerpt": "Decked out with a gimbal and shockingly good camera, the Robot Phone is one of the weirdest devices to come out of Honor. Even if you ignore the fact that it’s limited to China, Honor can’t keep up with demand.\n\n\n\nWhen Honor began teasing a device that hid a fully functional gimbal and a 200MP camera tucked away in its camera bar, it truly seemed like an AI-driven fever dream of what future…",
+          "source": "9to5Google",
+          "link": "https://9to5google.com/2026/09/08/hands-on-with-honor-robot-phone/",
+          "author": "Andrew Romero",
+          "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/09/Honor-Robot-Phone-7.jpg?quality=82&strip=all&resize=1200,628",
+          "time": "রাত ৩:১৫"
+        },
+        {
+          "headline": "GOG brings back \"big box\" PC games, one printable template at a time",
+          "excerpt": "Those who remember PC gaming in the days before Steam may have fond memories of the “big box” packaging that made those games stand out as shelf eye candy and sought-after in-home collectibles. Today, PC gaming platform GOG is hoping to reignite some of the nostalgia for those days by adding downloadable 3D models and printable, foldable high-res packaging scans for a handful of PC games on the…",
+          "source": "Ars Technica",
+          "link": "https://arstechnica.com/gaming/2026/09/gog-brings-back-big-box-pc-games-one-printable-template-at-a-time/",
+          "author": "Kyle Orland",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/hitmanbox1-1152x648-1788901163.png",
+          "time": "রাত ৩:২৩"
+        },
+        {
+          "headline": "Hackers are stealing Claude tokens from subscribers",
+          "excerpt": "On August 4, Grant De Swardt, an independent AI consultant in East Sussex, U.K., noticed something strange going on with his Claude Max 20x account. He hadn’t been working that day, yet his token usage was climbing.\n\nThe next day, he disabled everything he had attached to Claude and did not work with it. Token consumption again increased. “In the clearest controlled interval, it increased from…",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/09/08/hackers-are-stealing-claude-tokens-from-subscribers/",
+          "author": "Julie Bort",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/06/GettyImages-2278736523.jpeg?resize=1200,798",
+          "time": "রাত ৩:১০"
+        },
+        {
+          "headline": "Drama swirls around OpenAI’s legendary mathematical milestone",
+          "excerpt": "OpenAI says it found a solution to a major math problem that has remained unsolved for around 90 years, as reported earlier by The New York Times and Wired. In a blog post on Tuesday, OpenAI announced that it discovered a solution to the Navier-Stokes problem — which relates to the flow of liquid and gas — using an internal AI model more powerful than the newly released GPT-6 Astra alongside…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/ai-artificial-intelligence/991710/openai-navier-stokes-solution",
+          "author": "Emma Roth",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25844039/STK155_OPEN_AI_CVirginia__A.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+          "time": "রাত ২:৫৩"
+        },
+        {
+          "headline": "Is there any benefit to restarting your PC regularly?",
+          "excerpt": "You have to reboot your PC eventually, but how often should you do this?\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                   …",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2251124/benefits-restarting-pc-more-often/",
+          "author": "Max Miller",
+          "image": "https://www.engadget.com/img/gallery/is-there-any-benefit-to-restarting-your-pc-regularly/l-intro-1788535351.jpg",
+          "time": "ভোর ৫:০০"
+        },
+        {
+          "headline": "Gemini app makes Daily Brief free in the US",
+          "excerpt": "After introducing at I/O 2026 in May, Google is making Daily Brief in the Gemini app available for free in the US.\n\n\n\nDaily Brief generates a list of your to-dos and priorities every morning. Gemini uses Personal Intelligence to look at your Gmail, Google Calendar, and other Connected Apps, as well as past Gemini chats.\n\n\n\nThe Daily Brief starts with a “Top of mind” section that shows “timely,…",
+          "source": "9to5Google",
+          "link": "https://9to5google.com/2026/09/08/gemini-daily-brief-free/",
+          "author": "Abner Li",
+          "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/09/Gemini-Daily-Brief-cover.jpg?quality=82&strip=all&resize=1200,628",
+          "time": "রাত ২:৫৬"
+        },
+        {
+          "headline": "Why this month's Microsoft patch release is a doozy",
+          "excerpt": "Microsoft’s patch for September is a doozy, with a record number of roughly 972 vulnerabilities fixed and 112 of them meeting the high critical-severity threshold.\nIt was only two months ago that Microsoft patched a then-record 570 vulnerabilities. Then, last month, Microsoft patched some 620 of them. Google and other companies have also published record numbers of vulnerabilities in recent…",
+          "source": "Ars Technica",
+          "link": "https://arstechnica.com/security/2026/09/microsoft-patches-a-record-972-vulnerabilities-112-of-them-critical/",
+          "author": "Dan Goodin",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security.jpg",
+          "time": "রাত ৩:১১"
+        },
+        {
+          "headline": "Cognition hits $48B valuation, signaling investors believe AI coding is far from a winner-take-all market",
+          "excerpt": "Cognition, the startup developing coding assistant Devin, announced it raised $2 billion at a $48 billion valuation. The round, which comes just four months after Cognition’s previous fundraise at a $26 billion valuation, was led by Andreessen Horowitz, Accel, Founders Fund, General Catalyst, and Avenir.\n\nThe startup’s soaring valuation signals that VCs still see room for multiple major players…",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/",
+          "author": "Marina Temkin",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/08/Scott-Wu-of-Cognition.jpg?w=1024",
+          "time": "রাত ৩:০৪"
+        },
+        {
+          "headline": "Rivian spinout Also apologizes for delays in shipping futuristic e-bikes",
+          "excerpt": "Rivian’s futuristic e-bike is delayed, and customers are not happy.Last year, Rivian’s micromobility spinoff Also unveiled a new, software-controlled electric bike called the TM-B that immediately set the e-bike world ablaze. With USB-C chargeable battery, removable seat post, and software-controlled pedal-by-wire system, the TM-B set itself apart with a totally unique approach to electric…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/transportation/991707/rivian-also-tmb-ebike-delay-apology",
+          "author": "Andrew J. Hawkins",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2242247597.jpg?quality=90&strip=all&crop=0%2C10.752607989199%2C100%2C78.494784021602&w=1200",
+          "time": "রাত ২:৪৬"
+        },
+        {
+          "headline": "SpaceX's recovered Starship 40 will take months to get back to Texas",
+          "excerpt": "The rocket spent 24 days at sea before recovery efforts began.\n            \n\n    \n                \n                \n                \n                SpaceX's Starship 40 is one fast rocket, having traveled thousands of miles from Texas to the Indian Ocean in around 65 minutes. Its journey home is, well, slightly slower: The company says it will take several months.\nStarship 40 launched from…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2251144/spacex-starship-40-recovered-months-travel-back-to-texas/",
+          "author": "Will Shanklin",
+          "image": "https://www.engadget.com/img/gallery/spacexs-recovered-starship-40-will-take-months-to-get-back-to-texas/l-intro-1788536157.jpg",
+          "time": "ভোর ৪:৩০"
+        },
+        {
+          "headline": "The Exploration Company nabs $450 million to challenge SpaceX",
+          "excerpt": "The queue to send objects into orbit is growing, but space infrastructure isn’t keeping up with demand. As the realization sinks in that Elon Musk’s SpaceX can’t be the sole answer, other companies are raising their hand — and money.\n\nThese include The Exploration Company (TEC), which operates out of Germany, France, Luxembourg, Spain, and Italy, and which has raised $450 million in what it…",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/09/08/the-exploration-company-nabs-450-million-to-challenge-spacex/",
+          "author": "Anna Heim",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-1794387622.jpg?resize=1200,800",
+          "time": "রাত ২:৪৭"
+        },
+        {
+          "headline": "Razer’s ANC-equipped gaming headset for PS5 and Xbox is almost $100 off",
+          "excerpt": "Brad Bourque is a tech journalist and commerce writer based out of Portland, Oregon. He’s contributed to sites like Digital Trends, Business Insider, and WIRED.It’s rare to find high-end features like active noise cancellation in a gaming headset under $200, so we’re thrilled that the Razer BlackShark V3 Pro on sale at Woot for $164.99. There are specific models marketed to Xbox and PlayStation,…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/gadgets/991653/razer-blackshark-v3-pro-gaming-headset-anc-deal-sale",
+          "author": "Brad Bourque",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/Razer-Blackshark-V3-Pro-white-breakout.png?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+          "time": "রাত ২:৩৯"
+        },
+        {
+          "headline": "What's going on with OpenAI and the Navier-Stokes controversy?",
+          "excerpt": "Artificial intelligence has solved a major mathematics problem, but credit for the accomplishment is…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2253393/whats-going-on-with-openai-and-the-navier-stokes-controversy/",
+          "author": "Anna Washenko",
+          "image": "https://www.engadget.com/img/gallery/whats-going-on-with-openai-and-the-navier-stokes-controversy/l-intro-1788905065.jpg",
+          "time": "ভোর ৪:১১"
+        },
+        {
+          "headline": "How to use the AI Clean Up tool in iOS 27 to remove unwanted objects in iPhone Photos",
+          "excerpt": "Remove those photobombers with even more accuracy than before. \n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                    Filipe…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2252838/how-to-use-ios-27-ai-clean-up-tool-iphone-photos/",
+          "author": "Filipe Espósito",
+          "image": "https://www.engadget.com/img/gallery/how-to-use-the-ai-clean-up-tool-in-ios-27-to-remove-unwanted-objects-in-iphone-photos/l-intro-1788794561.jpg",
+          "time": "ভোর ৪:০০"
+        },
+        {
+          "headline": "The White House removed its border-wall Tetris clone",
+          "excerpt": "The game, 'Build the Wall,' filtered classic block-stacking mechanics through the Trump administration's immigration…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2253350/the-white-house-removed-its-border-wall-tetris-clone/",
+          "author": "Ian Carlos Campbell",
+          "image": "https://www.engadget.com/img/gallery/the-white-house-removed-its-border-wall-tetris-clone/l-intro-1788903110.jpg",
+          "time": "রাত ৩:৩৩"
+        },
+        {
+          "headline": "The $200 Firefox mechanical keyboard sold out",
+          "excerpt": "Love Firefox enough to drop $200 on a branded keyboard? Tough, it’s sold it1.\n\n\n\nIt’s a full-sized, 108-key mechanical keyboard with Cherry MX switches, and has a unique keycap colour scheme and branding: a Firefox logo on the super/meta key and new Firefox mascot Kit on Esc. It works wired, via Bluetooth or 2.4g wireless.\n\n\n\n“Clean, clicky and finished in Firefox colors”, reads the Mozilla…",
+          "source": "omg! ubuntu",
+          "link": "https://www.omgubuntu.co.uk/2026/09/firefox-keyboard-cherry-switches",
+          "author": "Joey Sneddon",
+          "image": "https://www.omgubuntu.co.uk/wp-content/uploads/2026/09/firefox-keyboard.webp",
+          "time": "রাত ৩:৩৭"
+        },
+        {
+          "headline": "AI Made A Lot Of \"Hideous\" Code But Found Major Bottlenecks For Faster Linux Compilation",
+          "excerpt": "An ARM Linux engineer leveraged AI/LLMs to help uncover some improvements to \"significant speed up\" the Linux kernel build times. In the process the LLM used generated \"a lot of code, much of it hideous\" but in the end was used to find some very significant time savings for faster kernel builds via more task parallelization in different areas of the kernel build process.\n\nARM engineer and…",
+          "source": "Phoronix",
+          "link": "https://www.phoronix.com/news/AI-To-Faster-Linux-Kernel-Comp",
+          "author": "Written by Michael Larabel in Linux Kernel on 8 September 2026 at 08:49 PM EDT. 1 Comment",
+          "image": "",
+          "time": "সকাল ৬:৪৯"
+        },
+        {
+          "headline": "systemd 262-rc2 Adds An AI Canary For Detecting Unreviewed AI/LLM Code Contributions",
+          "excerpt": "One week after releasing systemd 262-rc1, systemd 262-rc2 is now available with further fixes and refinements for this init system and service manager. Systemd is also the latest open-source project introducing an AI canary for aiming to detect AI/LLM-based code contributors that weren't reviewed by an actual person in advance of the pull request.\n\nOver the past week there has been a wide mix of…",
+          "source": "Phoronix",
+          "link": "https://www.phoronix.com/news/systemd-262-rc2",
+          "author": "Written by Michael Larabel in systemd on 8 September 2026 at 06:30 PM EDT. 8 Comments",
+          "image": "",
+          "time": "ভোর ৪:৩০"
+        }
+      ]
+    }
+  },
+  {
     "dt": "2026-09-08T20:45:47.419Z",
     "file": "runs/2026-09-08-2045.html",
     "counts": {
