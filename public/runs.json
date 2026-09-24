@@ -1,5 +1,973 @@
 [
   {
+    "dt": "2026-09-24T03:20:14.926Z",
+    "file": "runs/2026-09-24-0320.html",
+    "counts": {
+      "Local": 25,
+      "International": 28,
+      "Entertainment": 2,
+      "Tech": 41,
+      "Sports": 9
+    },
+    "grouped": {
+      "Tech": [
+        {
+          "headline": "Everything new coming to Meta’s AI agent Muse",
+          "excerpt": "Meta’s personal AI agent Muse is only a few weeks old, and the social networking giant isn’t wasting any time building out what may be its biggest bet on consumer AI to date. \n\nCEO Mark Zuckerberg kicked off the company’s annual Connect event in Menlo Park on Wednesday with a keynote that made one thing clear: Meta is going all-in on Muse. \n\nThe Muse agent (the physical avatar is named Jolly,…",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/",
+          "author": "Kirsten Korosec, Lucas Ropek",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/09/mark-zuckerberg-meta-connect.jpg?resize=1200,799",
+          "time": "সকাল ৭:১৩"
+        },
+        {
+          "headline": "Muse is coming to Meta smart glasses",
+          "excerpt": "Stevie Bonifield is a news writer covering all things consumer tech. Stevie started out at Laptop Mag writing news and reviews on hardware, gaming, and AI.Just a couple of weeks after launching Muse, Meta announced that it’s “working on” bringing the agent to its smart glasses, including the new glasses it unveiled at Meta Connect. Users will be able to activate Muse from their glasses by saying…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/tech/999673/meta-connect-2026-muse-glasses-features",
+          "author": "Stevie Bonifield",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/Copy-of-Hearing-enhancement-16x9-1.jpg?quality=90&strip=all&crop=1.55113534858%2C3.9815132855676%2C64.807523486787%2C60.321135107621&w=1200",
+          "time": "ভোর ৫:৪০"
+        },
+        {
+          "headline": "Meta's Muse AI agent is coming to its AI glasses",
+          "excerpt": "Have your virtual assistant book a flight while you’re jogging.\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                   …",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2267210/meta-muse-ai-agent-smart-glasses/",
+          "author": "Will Shanklin",
+          "image": "https://www.engadget.com/img/gallery/metas-muse-ai-agent-is-coming-to-its-ai-glasses/l-intro-1790196844.jpg",
+          "time": "ভোর ৫:২৮"
+        },
+        {
+          "headline": "Meta Connect 2026: The 7 biggest announcements",
+          "excerpt": "Meta announced a slate of new wearables during its annual Meta Connect showcase on Wednesday. The star of the event was the new Meta VR Glasses, which pack virtual reality tech into a lightweight smart glasses-style frame with a tethered puck. Meta also announced new pairs of screen-free smart glasses, along with some new AI features and style and frame options.You can catch up on all the…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/tech/999593/meta-connect-2026-everything-announced",
+          "author": "Stevie Bonifield",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/Copy-of-Meta-Glasses_1.jpg?quality=90&strip=all&crop=0%2C3.4882312507002%2C100%2C93.0235374986&w=1200",
+          "time": "সকাল ৬:০০"
+        },
+        {
+          "headline": "Meta Connect 2026: The biggest news and announcements",
+          "excerpt": "It’s about time for Meta Connect, the company’s annual product launch event. This year, given the company’s major focus on AI and wearables like smart glasses, it seems likely that we’ll see updates from CEO Mark Zuckerberg and his team on those categories. The company has been facing significant scrutiny because of how some users have been covertly recording other people using the glasses,…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/tech/998480/meta-connect-2026-biggest-news-announcements",
+          "author": "Verge Staff",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/268639_Meta_Adventurer_glasses_AKrales_0241.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+          "time": "ভোর ৪:৪৫"
+        },
+        {
+          "headline": "জনপ্রিয় ব্র্যান্ডের র‍্যামের দাম আরও বেড়েছে",
+          "excerpt": "বাজারদর জনপ্রিয় ব্র্যান্ডের র‍্যামের দাম আরও বেড়েছেপ্রযুক্তি ডেস্ক ঢাকার কম্পিউটার বাজারে র‍্যামের দাম বেড়েছেফাইল ছবি: প্রথম আলোঢাকার কম্পিউটার বাজারে এ সপ্তাহে জনপ্রিয় বিভিন্ন ব্র্যান্ডের র‍্যামের দাম আরও বেড়েছে। বাজার ঘুরে দেখা গেছে, ব্র্যান্ড ও মডেলভেদে জনপ্রিয় র‍্যামগুলো গত সপ্তাহের তুলনায় সর্বোচ্চ ১ হাজার টাকা বেশি দামে বিক্রি হচ্ছে। একাধিক প্রতিষ্ঠানের বিক্রেতারা জানিয়েছেন, র‍্যামের দাম…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/technology/w5ff65i73v",
+          "author": "প্রযুক্তি ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-09-23%2Fm4j2fyub%2Fbazardor.file-pic.png?rect=0%2C38%2C619%2C325&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৮:০০"
+        },
+        {
+          "headline": "RFK Jr.'s CDC isn’t letting states order COVID-19 shots for kids, blocking access",
+          "excerpt": "As respiratory virus season nears and fall vaccination drives get underway, more than half of US children are facing uncertainty over access to this year’s COVID-19 shot. The Centers for Disease Control and Prevention has unexpectedly delayed the distribution of the shots to a key federal program and some states.\nUsually, the CDC would allow states to order the newly available seasonal COVID-19…",
+          "source": "Ars Technica",
+          "link": "https://arstechnica.com/health/2026/09/rfk-jr-s-cdc-isnt-letting-states-order-covid-19-shots-for-kids-blocking-access/",
+          "author": "Beth Mole",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2022/12/GettyImages-1241447966-1152x648.jpeg",
+          "time": "ভোর ৪:১৭"
+        },
+        {
+          "headline": "Meta is making a standalone Muse AI gadget",
+          "excerpt": "Jacob Kastrenakes is The Verge’s executive editor. He has covered tech, policy, and online creators for over a decade.Meta is building a dedicated hardware device for its new Muse AI agent. The product, called Muse Charm, was briefly shown off by Meta CEO Mark Zuckerberg at the end of tonight’s Meta Connect presentation. It looks almost like a chunky smartwatch without the strap — just a big…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/tech/999750/muse-charm-meta-ai-hardware",
+          "author": "Jacob Kastrenakes",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/lcimg-d4d3d179-80e9-4873-9d38-24ac84737e8d.webp?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+          "time": "সকাল ৬:১৫"
+        },
+        {
+          "headline": "Meta Pinky Promises Its Smart Glasses Will Be Private Soon",
+          "excerpt": "Meta knows you probably have some privacy concerns about its smart glasses.At its annual Meta Connect event today in Menlo Park, California, the company announced plans to incorporate its siloed AI processing scheme known as Private Processing into its Ray-Ban Meta smart glasses. The feature, designed for WhatsApp last year, allows the glasses’ AI assistant to get to know you and fulfill your…",
+          "source": "Wired",
+          "link": "https://www.wired.com/story/meta-pinky-promises-its-smart-glasses-are-going-to-be-private-soon/",
+          "author": "Boone Ashworth, Lily Hay Newman",
+          "image": "https://media.wired.com/photos/6ab45d4b283ba1e900c041a7/191:100/w_1280,c_limit/Meta-Pinky-Promise-Gear-2296204329.jpg",
+          "time": "সকাল ৬:০০"
+        },
+        {
+          "headline": "Everything announced at Meta Connect 2026",
+          "excerpt": "VR glasses, Aviator-style Ray-Ban Meta specs, Ace Attorney in virtual reality and much…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2267230/everything-announced-at-meta-connect-2026/",
+          "author": "Kris Holt",
+          "image": "https://www.engadget.com/img/gallery/everything-announced-at-meta-connect-2026/l-intro-1790209433.jpg",
+          "time": "সকাল ৬:০৭"
+        },
+        {
+          "headline": "Meta is launching ‘VR Glasses’ next year for $1,300",
+          "excerpt": "Alongside its new audio-only and Ray-Ban smart glasses, Meta today also unveiled new “VR Glasses” which take the experience of a Quest into a far slimmer form factor with an external processing puck.\n\n\n\nArriving in “Spring 2027,” Meta VR Glasses are a second attempt at a high-end VR experience from Meta following the failure of its Quest Pro headset. And this is definitely a more refined and…",
+          "source": "9to5Google",
+          "link": "https://9to5google.com/2026/09/23/meta-is-launching-vr-glasses-next-year-for-1300/",
+          "author": "Ben Schoon",
+          "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/09/meta-vr-glasses-1.webp?resize=1200,628",
+          "time": "সকাল ৮:২০"
+        },
+        {
+          "headline": "FBI rushes to investigate if ShinyHunters hack of thousands of employees is real",
+          "excerpt": "To get the advisory changed, ShinyHunters told FBI director Kash Patel and the assistant director of the FBI Cyber Division, Brett Leatherman, that they had one week to comply with demands or presumably risk a breach of sensitive employee data.\nFBI warns employees to be safe\nNot many details have been released on how ShinyHunters got access to the data. ShinyHunters would only tell NYT that “it…",
+          "source": "Ars Technica",
+          "link": "https://arstechnica.com/tech-policy/2026/09/fbi-rushes-to-investigate-if-shinyhunters-hack-of-thousands-of-employees-is-real/",
+          "author": "Ashley Belanger",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2294919440-1024x648.jpg",
+          "time": "রাত ৩:৪৬"
+        },
+        {
+          "headline": "Meta made a Tamagotchi-like wearable for its Muse AI agent",
+          "excerpt": "The AI amulet has become a bit of a cliché in the tech industry — devices like Friend have turned the idea of physical AI into little more than an exercise in eye-rolling for many consumers. \n\nBut that hasn’t stopped Meta from jumping into the arena with its own AI wearable, called Muse Charm, which is designed to give consumers another way to stay connected to its recently launched, and already…",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/09/23/meta-made-a-tamagotchi-like-wearable-for-its-muse-ai-agent/",
+          "author": "Lucas Ropek",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/09/mark-zuckerberg-muse-charm-getty.jpg?resize=1200,800",
+          "time": "সকাল ৬:৪৬"
+        },
+        {
+          "headline": "Meta VR Glasses, Ray-Ban Meta Audio, Ray-Ban Meta Gen 3: Specs, Features, Prices",
+          "excerpt": "After months of controversy about the privacy of its smart glasses, Meta has unveiled the next iteration of its product lineup. At its Meta Connect event in Menlo Park, CEO Mark Zuckerberg announced all the new glasses the company is putting out into the world.Its popular Meta Ray-Ban glasses are now in their third generation, but two new models steal the show: a powerful, slimmed-down version…",
+          "source": "Wired",
+          "link": "https://www.wired.com/story/metas-answer-to-the-meta-creep-camera-free-smart-glasses/",
+          "author": "Boone Ashworth",
+          "image": "https://media.wired.com/photos/6ab46185974b275c73391603/191:100/w_1280,c_limit/Meta-Connect-Gear-2296202855.jpg",
+          "time": "ভোর ৫:৪২"
+        },
+        {
+          "headline": "Meta put Muse in a Tamagotchi like 'Charm' device",
+          "excerpt": "Mark Zuckerberg has revealed the device on stage at Connect.\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                   …",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2267229/meta-put-muse-in-a-tamagotchi-like-charm-device/",
+          "author": "Mariella Moon",
+          "image": "https://www.engadget.com/img/gallery/meta-put-muse-in-a-tamagotchi-like-charm-device/l-intro-1790209349.jpg",
+          "time": "সকাল ৬:০৫"
+        },
+        {
+          "headline": "Meta launches audio-only glasses and Gen 3 Ray-Ban with slimmer designs",
+          "excerpt": "Meta today introduced its new Ray-Ban Meta (Gen 3) smart glasses with a slimmer design and longer battery life alongside a new audio-only lineup, and a new $250 entry-level release.\n\n\n\nDespite public backlash in recent months, smart glasses continue to explode in popularity and, as it stands, Meta is by far the biggest player in the game. Today’s event further saw the company digging in on its…",
+          "source": "9to5Google",
+          "link": "https://9to5google.com/2026/09/23/meta-ray-ban-gen-3-audio-only-smart-glasses/",
+          "author": "Ben Schoon",
+          "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/09/ray-ban-meta-audio-3.webp?resize=1200,628",
+          "time": "সকাল ৮:০৫"
+        },
+        {
+          "headline": "Disney+ and Hulu raise prices by up to 13 percent after doubling profits",
+          "excerpt": "Disney+ got its fourth price hike in four years today. Hulu prices also went up.\nDisney+ and Hulu’s respective standalone, ad-free plans (which also support 4K and HDR) are each increasing 13 percent from $19 per month to $21.50/month.\nDisney+ and Hulu’s respective standalone plans with ads increased from $12 to $12.50.\nThe Walt Disney Company also increased prices for bundles of the streaming…",
+          "source": "Ars Technica",
+          "link": "https://arstechnica.com/gadgets/2026/09/disney-and-hulu-raise-prices-by-up-to-13-percent-after-doubling-profits/",
+          "author": "Scharon Harding",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2022/12/The-Mandalorian-Season-3-1152x648.jpeg",
+          "time": "রাত ৩:১৮"
+        },
+        {
+          "headline": "Meta is trying VR glasses (again), this time with more IMAX",
+          "excerpt": "Meta is renewing its quest to make virtual reality a thing. At its Connect event on Wednesday, the company announced Meta VR Glasses, its newest entry into the VR market, which will be available next spring starting at $1,299.99.\n\nThese glasses actually seem quite promising, thanks to a substantially lighter form factor and a host of new entertainment integrations — including (allegedly) IMAX…",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/09/23/meta-is-trying-vr-glasses-again-this-time-with-more-imax/",
+          "author": "Lucas Ropek",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/09/Meta_VR_Glasses_ProductShot_DarkBackground_16x9.png?resize=1200,677",
+          "time": "ভোর ৫:৪৭"
+        },
+        {
+          "headline": "Meta’s next VR device isn’t a headset — it’s glasses",
+          "excerpt": "Meta is launching new VR hardware: a pair of glasses. The new Meta VR Glasses sit on your ears like a typical pair of glasses instead of being strapped over your head, but they still have immersive displays for watching movies, playing games, and getting work done. Imagine a pair of hefty black sunglasses with blacked-out lenses on the outside, but the components of a typical VR headset…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/tech/999517/meta-vr-glasses-connect-2026-hands-on",
+          "author": "Jay Peters",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/20260922_C0744.00_29_03_12.Still016.jpg?quality=90&strip=all&crop=0%2C10.741088940398%2C100%2C78.517822119203&w=1200",
+          "time": "ভোর ৫:৪২"
+        },
+        {
+          "headline": "Meta will stop training its AI on 'visual data' from its smart glasses — if you opt out",
+          "excerpt": "Somewhere, a contractor just breathed a sigh of relief.\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                    Karissa Bell for…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2267227/meta-will-stop-training-its-ai-on-visual-data-from-its-smart-glasses-if-you-opt-out/",
+          "author": "Karissa Bell",
+          "image": "https://www.engadget.com/img/gallery/meta-will-stop-training-its-ai-on-visual-data-from-its-smart-glasses-if-you-opt-out/l-intro-1790199534.jpg",
+          "time": "সকাল ৬:০০"
+        },
+        {
+          "headline": "Meta introduces camera-free AI glasses",
+          "excerpt": "Confirming earlier reports, Meta announced its first pair of camera-free AI glasses, the clunkily named Ray-Ban Meta Audio, at its Connect 2026 conference on Wednesday. Designed to combat criticism around the more malicious use cases for AI glasses, which saw them nicknamed “pervert glasses” by some, the new devices will be audio-only, offering the ability to listen to music and podcasts, take…",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/09/23/meta-introduces-camera-free-ai-glasses/",
+          "author": "Sarah Perez",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/09/ray-ban-audio.png?resize=1200,635",
+          "time": "ভোর ৫:৩৯"
+        },
+        {
+          "headline": "Meta VR Glasses hands-on: Hand and eye tracking is so much better than a controller",
+          "excerpt": "Instead of a new Quest headset, the company showed off a more portable but less immersive device…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2267222/meta-vr-glasses-hands-on-hand-tracking/",
+          "author": "Karissa Bell",
+          "image": "https://www.engadget.com/img/gallery/meta-vr-glasses-hands-on-hand-tracking/l-intro-1790209264.jpg",
+          "time": "সকাল ৬:০০"
+        },
+        {
+          "headline": "Vogue sent robots down the runway at Vogue World, and people were not impressed",
+          "excerpt": "Vogue World closed its Milan edition this week with a troupe of robots — perhaps a preview of what’s coming when the event descends on San Francisco next year.\n\nVogue World is the magazine’s annual traveling spectacle, now in its fifth year: part runway show, part celebrity showcase, part variety hour, part ad-sales opportunity, staged in a different city each time. It has run through New York,…",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/09/23/vogue-sent-robots-down-the-runway-at-vogue-world-and-people-were-not-impressed/",
+          "author": "Dominic-Madori Davis",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2296638825.jpg?w=1024",
+          "time": "ভোর ৫:৩৩"
+        },
+        {
+          "headline": "Meta ditches the camera on its newest smart glasses",
+          "excerpt": "Walking around Meta Connect 2026, everyone’s sporting smart glasses in all sorts of shapes, colors, and sizes. It’s a marked difference here, a tech bubble where “pervert glasses” are not a concern.Outside Connect, the public backlash against wearable surveillance tech — a catchall term that encompasses not just smart glasses, but also smartwatches and AI pendants — is gaining steam. So it’s…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/tech/999281/ray-ban-meta-audio-glasses-meta-connect-2026",
+          "author": "Victoria Song",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/20260922_C0744.00_54_59_23.Still025-1.png?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200",
+          "time": "ভোর ৫:৩৭"
+        },
+        {
+          "headline": "Meta's new holographic avatars are here and they're surprisingly real",
+          "excerpt": "They're a notable improvement over the company's earlier attempts at digital…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2267223/meta-holograph-avatar-for-ai-and-vr-glasses-update-hands-on/",
+          "author": "Karissa Bell",
+          "image": "https://www.engadget.com/img/gallery/metas-holographic-avatars-are-here-and-theyre-surprisingly-real/l-intro-1790207568.jpg",
+          "time": "ভোর ৫:৫৩"
+        },
+        {
+          "headline": "Anthropic says its biology lab has already found something big",
+          "excerpt": "Last week, Anthropic confirmed that it was operating a wet biology lab in the Bay Area where it uses its AI models to run physical experiments. This week, the AI giant announced that this lab has already made what it believes is a big discovery: a new enzyme “system” that has certain “properties reminiscent of CRISPR,” as Anthropic describes it.\n\nCRISPR is a natural immune system used by…",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/09/23/anthropic-says-its-biology-lab-has-already-found-something-big/",
+          "author": "Julie Bort",
+          "image": "https://techcrunch.com/wp-content/uploads/2025/02/Claude_3-7_illustration.jpg?resize=1200,675",
+          "time": "ভোর ৪:১৭"
+        },
+        {
+          "headline": "Meta is making Muse more powerful and will let you video chat with it, too",
+          "excerpt": "Skip to main contentMuse started as a chatbot but will soon be an AI avatar you can talk with over video.Muse started as a chatbot but will soon be an AI avatar you can talk with over video.by  Jay PetersSep 23, 2026, 11:19 PM UTCImage: The Verge, Getty Images, MetaJay Peters is a senior reporter covering technology, gaming, and more. He joined The Verge in 2019 after nearly two years at…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/tech/999454/meta-muse-ai-agent-video-chat-connect-2026",
+          "author": "Jay Peters",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKB394_MUSE_AI_CVIRGINIA_C.png?quality=90&strip=all&crop=0%2C9.9676601489831%2C100%2C80.064679702034&w=1200",
+          "time": "ভোর ৫:১৯"
+        },
+        {
+          "headline": "Meta Ray-Ban Display getting feature updates including holographic avatar support",
+          "excerpt": "The smart glasses are also arriving in five new markets this fall.\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                    Karissa…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2267220/meta-ray-ban-display-getting-feature-updates-including-holographic-avatar-support/",
+          "author": "Anna Washenko",
+          "image": "https://www.engadget.com/img/gallery/meta-ray-ban-display-getting-feature-updates-including-holographic-avatar-support/l-intro-1790195119.jpg",
+          "time": "ভোর ৫:৪৪"
+        },
+        {
+          "headline": "If Amazon doesn’t know how to eliminate carbon emissions, then who does?",
+          "excerpt": "Amazon’s chief sustainability officer said Tuesday the company doesn’t know how it will achieve its goal of net-zero carbon emissions by 2040.\n\n“We are still striving towards that target,” Kara Hurst said at an Axios event, adding later that she is “not going to sit here and say, ‘We know all the ways that we’re going to do this.’”\n\nThe admission was both frank and realistic. It’s also a bit…",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/09/23/if-amazon-doesnt-know-how-to-eliminate-carbon-emissions-then-who-does/",
+          "author": "Tim De Chant",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-1209591548.jpeg?resize=1200,800",
+          "time": "রাত ৩:২১"
+        },
+        {
+          "headline": "Meta's $1,300 VR Glasses look like the Vision Pro sequel Apple should be making",
+          "excerpt": "Finally, someone made lightweight VR specs.\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                   …",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2267218/meta-vr-glasses-price-specs-apple-vision-pro-comparison/",
+          "author": "Devindra Hardawar",
+          "image": "https://www.engadget.com/img/gallery/metas-1300-vr-glasses-look-like-the-vision-pro-sequel-apple-should-be-making/l-intro-1790195523.jpg",
+          "time": "ভোর ৫:৪২"
+        },
+        {
+          "headline": "Meta Connect 2026 live blog: On the ground at Mark Zuckerberg’s next big product launch",
+          "excerpt": "It’s time once again for Meta’s annual September product launch event, and The Verge is on the ground in Menlo Park to cover the show live. Meta says that today’s keynote by Mark Zuckerberg will be about how “Meta is building a future for everyone” — something he wrote at length about in a recent essay about AI, smart glasses, and more. That means we can expect more news from Zuckerberg and his…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/tech/998457/meta-connect-2026-live-blog-mark-zuckerberg-keynote",
+          "author": "Jay Peters, Victoria Song, Sean Hollister",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/lcimg-0c8c71e4-02c2-4138-9524-cf0a79ed0b16.webp?quality=90&strip=all&crop=0%2C10.928342580292%2C100%2C78.143314839415&w=1200",
+          "time": "ভোর ৪:৩০"
+        },
+        {
+          "headline": "Meta's next smart glasses collab is with Blackpink's Lisa",
+          "excerpt": "Blackpink in your upper-facial area.\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                   …",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2267215/meta-glasses-lisa-edition/",
+          "author": "Ian Carlos Campbell",
+          "image": "https://www.engadget.com/img/gallery/metas-next-smart-glasses-collab-is-with-lisa/l-intro-1790199917.jpg",
+          "time": "ভোর ৫:৩৭"
+        },
+        {
+          "headline": "Ray-Ban Meta Gen 3 hands-on: Better battery life and a price hike",
+          "excerpt": "The latest lineup comes in two new frame styles: Aviator and Zena.\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                    Karissa…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2267213/ray-ban-meta-gen-3-hands-on-better-battery-life/",
+          "author": "Karissa Bell",
+          "image": "https://www.engadget.com/img/gallery/ray-ban-meta-gen-3-better-battery-life-and-a-price-hike/l-intro-1790190716.jpg",
+          "time": "ভোর ৫:৩৫"
+        },
+        {
+          "headline": "Microsoft’s new Surface Mouse has haptic feedback and a customizable action button",
+          "excerpt": "Tom Warren is a senior correspondent and author of Notepad, who has been covering all things Microsoft, PC, and tech for over 20 years.Microsoft is launching a second generation of its Surface Mouse next month that includes haptic feedback support. The Surface Mouse also has a customizable action button for the first time, which is primarily designed for quick access to Copilot (of course), but…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/news/999211/microsoft-surface-mouse-haptic-feedback",
+          "author": "Tom Warren",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/Surface-Mouse-Image.jpg?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200",
+          "time": "রাত ২:৩০"
+        },
+        {
+          "headline": "Meta announces Ray-Ban Meta Audio, its first smart glasses without a camera",
+          "excerpt": "A $349 alternative to \"pervert glasses.\"\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                   …",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2267212/meta-announces-ray-ban-meta-audio-its-first-smart-glasses-without-a-camera/",
+          "author": "Ian Carlos Campbell",
+          "image": "https://www.engadget.com/img/gallery/meta-announces-ray-ban-meta-audio-its-first-smart-glasses-without-a-camera/l-intro-1790191670.jpg",
+          "time": "ভোর ৫:৩৩"
+        },
+        {
+          "headline": "Meta brings FDA-cleared hearing enhancement to its smart glasses",
+          "excerpt": "But it'll cost you extra.\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                   …",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2267211/meta-brings-fda-cleared-hearing-enhancement-to-its-smart-glasses/",
+          "author": "Cheyenne MacDonald",
+          "image": "https://www.engadget.com/img/gallery/meta-brings-fda-cleared-hearing-enhancement-to-its-smart-glasses/l-intro-1790192475.jpg",
+          "time": "ভোর ৫:২৯"
+        },
+        {
+          "headline": "The purpose of the triangle symbol on your Samsung Galaxy phone",
+          "excerpt": "Turns out, it could mean a variety of things.\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                    Xavierarnau/Getty…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2265257/triangle-symbol-samsung-galaxy-phone-meaning-data-saver-setting/",
+          "author": "Jonny Evans",
+          "image": "https://www.engadget.com/img/gallery/the-purpose-of-the-triangle-symbol-on-your-samsung-galaxy-phone/l-intro-1790087422.jpg",
+          "time": "ভোর ৫:০০"
+        },
+        {
+          "headline": "ShinyHunters hackers claim to have 2-3TB of sensitive information about FBI employees",
+          "excerpt": "Financial extortion doesn’t seem to be the group’s goal this time.\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                    Andrea…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2267075/shinyhunters-hackers-claim-to-have-2-3tb-of-sensitive-information-about-fbi-employees/",
+          "author": "Anna Washenko",
+          "image": "https://www.engadget.com/img/gallery/shinyhunters-hackers-claim-to-have-2-3tb-of-sensitive-information-about-fbi-employees/l-intro-1790198064.jpg",
+          "time": "রাত ৩:১৫"
+        },
+        {
+          "headline": "Ubuntu speeds up kernel security updates because of AI",
+          "excerpt": "Ubuntu kernel updates are about to become more frequent, as Canonical attempts to keep up with an ‘explosion’ in security vulnerabilities being discovered with the help of AI.\n\n\n\nThe company has announced it’s adopting a ‘unified’ two-week stable release update (SRU) cycle for kernel updates, which will speed up patching, testing and releasing fixes to users.\n\n\n\nUbuntu kernel engineers…",
+          "source": "omg! ubuntu",
+          "link": "https://www.omgubuntu.co.uk/2026/09/ubuntu-kernel-security-updates-faster",
+          "author": "Joey Sneddon",
+          "image": "https://www.omgubuntu.co.uk/wp-content/uploads/2026/09/Ubuntu-Security-Bug.webp",
+          "time": "সকাল ৭:০১"
+        },
+        {
+          "headline": "Debian Inference Portal Launches To Provide Free AI/LLM Inferencing To Debian Developers",
+          "excerpt": "With Debian voting to allow the responsible use of generative AI, there is now a new initiative funded by Scaleway to make it easier for Debian contributors to leverage AI: the Debian Inference Portal.\n\nThe Debian Inference Portal has launched as a new service for Debian contributors to have self-service access to AI/LLM inferencing. DeepSeek V4 Flash and GLM-5.2 are the models initially…",
+          "source": "Phoronix",
+          "link": "https://www.phoronix.com/news/Debian-Inference-Portal",
+          "author": "Written by Michael Larabel in Debian on 23 September 2026 at 05:08 PM EDT. 12 Comments",
+          "image": "",
+          "time": "রাত ৩:০৮"
+        },
+        {
+          "headline": "Ex-Microsoft dev builds a new task manager for Linux",
+          "excerpt": "The developer behind the first Windows Task Manager app has vibe-coded a new system monitor app – and it works on macOS and Linux too.\n\n\n\nTMOG (Task Manager OG) is the work of David Plummer, who, in the 1990s, developed the original Task Manager tool for Windows.\n\n\n\nWhile it does look like something you’d see running on a screen in background of a cheap sci-fi movie – an aesthetic that years of…",
+          "source": "omg! ubuntu",
+          "link": "https://www.omgubuntu.co.uk/2026/09/tmog-task-manager-linux-beta",
+          "author": "Joey Sneddon",
+          "image": "https://www.omgubuntu.co.uk/wp-content/uploads/2026/09/tmog.webp",
+          "time": "রাত ৩:৫৬"
+        }
+      ],
+      "Local": [
+        {
+          "headline": "১১টি বোয়িং কিনছে বিমান বাংলাদেশ",
+          "excerpt": "বাংলাদেশ১১টি বোয়িং কিনছে বিমান বাংলাদেশপ্রধানমন্ত্রীর উপদেষ্টা মাহদী আমিন নিউইয়র্কের গ্র্যান্ড হায়াত হোটেলের লবিতে আয়োজিত এক সংবাদ সম্মেলনে কথা বলেনসরকার দেশের বিমান পরিবহন খাত সম্প্রসারণের লক্ষ্যে যুক্তরাষ্ট্রের উড়োজাহাজ নির্মাতা প্রতিষ্ঠান বোয়িংয়ের সঙ্গে ১১টি নতুন বিমান কেনার চুক্তি করেছে বলে জানিয়েছেন প্রধানমন্ত্রীর উপদেষ্টা মাহদী আমিন। স্থানীয় সময় মঙ্গলবার সন্ধ্যায় নিউইয়র্কের গ্র্যান্ড হায়াত…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/11tti-boyyin-kinche-bimaan-baanlaadesh",
+          "author": "শর্টস",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-09-24%2Fp6q9w27n%2Faircraft.webp?rect=0%2C73%2C1200%2C630&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৯:০৪"
+        },
+        {
+          "headline": "সাইকেলে কক্সবাজার থেকে এভারেস্টের বেজ ক্যাম্পে পৌঁছালেন বীর কুমার",
+          "excerpt": "0",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/video/bangladesh/c3ka38xmpp",
+          "author": "ভিডিও ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-09-23%2F4b1mfxx4%2FCoxsbazar-To-Everest-Basecamp-Cycling.00020223.Still002.jpg?rect=0%2C0%2C1920%2C1008&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2022-01%2F5a36c819-05a2-4bfb-ac50-57dd67355acb%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৯:০০"
+        },
+        {
+          "headline": "কক্সবাজারের পোপা শুঁটকি রপ্তানি হচ্ছে যুক্তরাষ্ট্র, হংকং ও চীনে, কেন এত চাহিদা",
+          "excerpt": "আব্দুল কুদ্দুস কক্সবাজারপোপা শুঁটকির কারখানায় কাজে ব্যস্ত নারী শ্রমিকেরা। সম্প্রতি কক্সবাজারের উত্তর নুনিয়াছটায়  ‘সাগর ফিশ এক্সপোর্ট’ কারখানায়ছবি: প্রথম আলোকক্সবাজার উপকূলে উৎপাদিত পোপা শুঁটকি রপ্তানি হচ্ছে যুক্তরাষ্ট্র, হংকং ও চীনে। পোপা শুঁটকি দিয়ে তৈরি সুস্বাদু স্যুপ ও খাদ্যের চাহিদা রয়েছে সেসব দেশে। এ ছাড়া পোপা মাছের শুকনা পটকা (বায়ুথলি) ও আঁইশ কোলাজেন তৈরিতে ব্যবহৃত হয়—প্রসাধন ও ওষুধশিল্পে…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/district/hewgo910kq",
+          "author": "আব্দুল কুদ্দুস",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-09-23%2F5b48fxpa%2FWhatsApp-Image-2026-09-23-at-7.52.15-PM.jpeg?rect=0%2C100%2C1024%2C538&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৯:০০"
+        },
+        {
+          "headline": "পরিবহনে ভাড়ানৈরাজ্য থামাতেই হবে",
+          "excerpt": "তেলের মূল্যবৃদ্ধির প্রতিক্রিয়া\n পরিবহনে ভাড়ানৈরাজ্য থামাতেই হবেসম্পাদকীয় ২০ সেপ্টেম্বর মধ্যরাতে জ্বালানি তেলের মূল্যবৃদ্ধির পর বাস, ট্রাক, লঞ্চসহ গণপরিবহন ও পণ্য পরিবহনে ভাড়া নিয়ে যে নৈরাজ্য তৈরি হয়েছে, সেটাকে নাগরিকদের ‘কাটা ঘায়ে নুনের ছিটা’ই বলা চলে। সরকার বাসভাড়া কিলোমিটারে ১৭ পয়সা বাড়ালেও অনেক রুটে বাসমালিকেরা সেটা মানছেন না। লঞ্চের ভাড়া প্রতি কিলোমিটারে ২৩ পয়সা বাড়ানো হয়েছে। যদিও সরকারি…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/opinion/editorial/c6fshczomc",
+          "author": "সম্পাদকীয়",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-09-24%2Fasq4dsz4%2Fuimage1-1.jpg?rect=0%2C0%2C1024%2C538&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-09-22%2F5lwyn5je%2Fdefaultog.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৯:০০"
+        },
+        {
+          "headline": "রবীন্দ্রনাথের ‘নষ্টনীড়’ নিয়ে জাবি বন্ধুসভার পাঠচক্র",
+          "excerpt": "লেখা: অরিত্র গুহজাবি বন্ধুসভার পাঠচক্রের আসরছবি: বন্ধুসভামানুষের মনের জটিল অলিগলি, সম্পর্কের সূক্ষ্ম টানাপোড়েন এবং চার দেয়ালের মধ্যে নারীর নীরব আর্তনাদের এক অনন্য সাহিত্যিক রূপকার রবীন্দ্রনাথ ঠাকুর। তাঁর কালজয়ী সৃষ্টি ‘নষ্টনীড়’ কেবল একটি পারিবারিক ভাঙনের গল্প নয়; বরং দাম্পত্যের অবহেলা, একাকিত্ব এবং ভালোবাসার অতৃপ্ত আকুলতার এক নিবিড় মনস্তাত্ত্বিক আখ্যান।রবীন্দ্রসাহিত্যের এই গভীর দিকগুলো নতুন…",
+          "source": "Prothom Alo",
+          "link": "https://www.bondhushava.com/activities/x6du61ezfm",
+          "author": "লেখা:",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-09-23%2Ff7ny72to%2F%E0%A6%9C%E0%A6%BE%E0%A6%AC%E0%A6%BF-%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A7%E0%A7%81%E0%A6%B8%E0%A6%AD%E0%A6%BE.jpg?rect=0%2C411%2C3650%2C1916&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2022-06%2Ffc02a57d-164a-4776-9604-2a467333b0e1%2FFinal_Bondhushava_OG_watermark_01.png&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৯:০০"
+        },
+        {
+          "headline": "আধুনিক প্রযুক্তিতে বদলে যাচ্ছে মৃৎশিল্প, তৈরি হচ্ছে নান্দনিক পণ্য",
+          "excerpt": "0পরবর্তী ভিডিওভিডিও থেকে আরও দেখুনসাতক্ষীরাপ্রযুক্তি",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/video/bangladesh/hv5sk8vjsn",
+          "author": "ভিডিও ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-09-23%2Fhpcofz6m%2FWEB.jpg?rect=0%2C0%2C800%2C420&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2022-01%2F5a36c819-05a2-4bfb-ac50-57dd67355acb%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৯:০০"
+        },
+        {
+          "headline": "পৌরবাসীর নিরাপদ পানি নিশ্চিত করুন",
+          "excerpt": "মাগুরায় পানি শোধনাগার পৌরবাসীর নিরাপদ পানি নিশ্চিত করুনসম্পাদকীয় মাগুরা পৌরবাসীর জন্য নিরাপদ পানি সরবরাহের উদ্দেশ্যে প্রায় ৯ কোটি টাকা ব্যয়ে নির্মিত পানি শোধনাগারটি চালুর মাত্র সাড়ে পাঁচ বছরের মধ্যে অকেজো হয়ে গেছে।শোধনাগারটি প্রায় ২০ মাস ধরে বন্ধ। ফলে শোধন না করেই ভূগর্ভস্থ পানি সরাসরি সরবরাহ করা হচ্ছে। যে প্রকল্পের উদ্দেশ্য ছিল আয়রন, আর্সেনিকসহ ক্ষতিকর উপাদানমুক্ত নিরাপদ পানি দেওয়া, সেটিই এখন…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/opinion/editorial/ihjjzuxdpv",
+          "author": "সম্পাদকীয়",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-09-24%2Fo6hlv57m%2Fuimage-17.jpg?rect=0%2C0%2C1024%2C538&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-09-22%2F5lwyn5je%2Fdefaultog.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৮:৫৪"
+        },
+        {
+          "headline": "সকালেই পড়ুন আলোচিত ৫ খবর",
+          "excerpt": "শুভ সকাল। আজ ২৪ সেপ্টেম্বর, বৃহস্পতিবার। গতকাল বুধবার প্রথম আলোর অনেক আলোচিত সংবাদ হয়তো আপনার চোখ এড়িয়ে গেছে। তাই আজ দিনের শুরুতেই পড়তে পারেন দেশ-বিদেশের আলোচিত পাঁচ খবর ও বিশ্লেষণ।১কুমিল্লায় টিকটক ভিডিও ঘিরে বড় হচ্ছে ‘কিশোর গ্যাং’, অস্ত্র নিয়ে মহড়া\n\nকুমিল্লার রানীর দিঘির পাড়ে দেশীয় অস্ত্র হাতে কিশোর গ্যাংয়ের সদস্যদের মহড়া। গত বছরের ২৫ এপ্রিলের দৃশ্যছবি: সংগৃহীত‘একদল কিশোর রামদা নিয়া চিৎকার করতে…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/1yrf1uo5hm",
+          "author": "প্রথম আলো ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2023-11%2F96ef562e-2cfa-4151-b57a-ce77cdb446ff%2FWhatsApp_Image_2023_02_27_at_08_34_41.jpeg?rect=0%2C106%2C1423%2C747&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৮:৪৩"
+        },
+        {
+          "headline": "বাংলাদেশে মেটাকে কার্যালয় খোলার আমন্ত্রণ পররাষ্ট্র প্রতিমন্ত্রীর",
+          "excerpt": "বাসস ঢাকামেটার চিফ গ্লোবাল অ্যাফেয়ার্স কর্মকর্তা জোয়েল কাপলানের সঙ্গে বৈঠকে পররাষ্ট্র প্রতিমন্ত্রী শামা ওবায়েদ ইসলাম। যুক্তরাষ্ট্রের নিউইয়র্কেছবি: পররাষ্ট্র মন্ত্রণালয়ের ফেসবুক পেজবাংলাদেশে একটি কার্যালয় খোলার জন্য প্রযুক্তি জায়ান্ট মেটাকে আমন্ত্রণ জানিয়েছেন যুক্তরাষ্ট্র সফররত পররাষ্ট্র প্রতিমন্ত্রী শামা ওবায়েদ ইসলাম। পররাষ্ট্র মন্ত্রণালয়ের এক সংবাদ বিজ্ঞপ্তিতে গতকাল বুধবার এ তথ্য জানানো…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/nibz8jnbvd",
+          "author": "বাসস",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-09-24%2Fs371hoq2%2FShama-Obaed.jfif?rect=0%2C0%2C1080%2C567&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৮:৩৫"
+        },
+        {
+          "headline": "বাংলা কিউআরের মার্চেন্ট বেড়ে ৩৭ লাখ, শীর্ষে বিকাশ ও দ্বিতীয় পূবালী ব্যাংক",
+          "excerpt": "নিজস্ব প্রতিবেদক ঢাকামানুষের কেনাকাটার বিল সহজে পরিশোধের জন্য চালু হওয়া ‘বাংলা কিউআর’ কোডের ব্যবহার প্রতিনিয়ত বাড়ছে। বাংলা কিউআর বাধ্যতামূলক করার পর গত বৃহস্পতিবার পর্যন্ত দেশজুড়ে ৩৭ লাখের বেশি মার্চেন্ট কিউআর কোড স্থাপন করেছে বিভিন্ন ব্যাংক ও এমএফএস প্রতিষ্ঠান। এখন প্রতিদিন গড়ে ১৩২ কোটি টাকা লেনদেন হচ্ছে কিউআর কোডে। বাংলাদেশ ব্যাংক সূত্রে এই তথ্য পাওয়া গেছে।বাংলাদেশ ব্যাংক সূত্রে জানা যায়, গত…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/business/bank/7bygr1std9",
+          "author": "নিজস্ব প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-09-23%2Fin09ny6c%2Fuimage-13.jpg?rect=0%2C44%2C622%2C327&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৮:৩০"
+        },
+        {
+          "headline": "চাকরি খোঁজার সময় মানসিক স্বাস্থ্যে প্রভাব, যা করবেন, যা করবেন না",
+          "excerpt": "ফাইজার মো. শাওলীন ঢাকাএআই/প্রথম আলোচাকরি খোঁজার দীর্ঘ প্রক্রিয়া শুধু সময়, অর্থ ও শ্রমই ক্ষয় করে না; মানসিক স্বাস্থ্যের ওপরও এর গুরুতর প্রভাব ফেলতে পারে। বারবার আবেদন, প্রত্যাখ্যান কিংবা নিয়োগদাতার কাছ থেকে কোনো উত্তর না পাওয়ার অভিজ্ঞতা একসময় আত্মবিশ্বাস ও আত্মনিয়ন্ত্রণের অনুভূতিকে দুর্বল করে দিতে পারে।লিংকডইন রিসার্চের সাম্প্রতিক এক গবেষণা অনুযায়ী, ২০২৬ সালে একটি শূন্য পদের বিপরীতে ২০২২ সালের…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/chakri/chakri-suggestion/3ktmf9p02i",
+          "author": "ফাইজার মো. শাওলীন",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2025-05-03%2Fj8cgwjfd%2F197.jpg?rect=0%2C194%2C2432%2C1277&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৮:২৫"
+        },
+        {
+          "headline": "পড়াশোনার সঙ্গে কাজ, ইউরোপের যে ১০ দেশে আয় বেশি",
+          "excerpt": "প্রথম আলো ডেস্ক আন্তর্জাতিক শিক্ষার্থীরা নির্দিষ্ট শর্তে ইউরোপে খণ্ডকালীন কাজ করতে পারেন।ইউরোপ উচ্চশিক্ষার জন্য বিশ্বের অন্যতম জনপ্রিয় গন্তব্য। আন্তর্জাতিক শিক্ষার্থীরা নির্দিষ্ট শর্তে ইউরোপে খণ্ডকালীন কাজ করতে পারেন। তবে কাজের অনুমতি, সাপ্তাহিক কর্মঘণ্টা ও মজুরির ক্ষেত্রে দেশ ভেদে পার্থক্য রয়েছে।১. আইসল্যান্ডআন্তর্জাতিক শিক্ষার্থীরা সপ্তাহে সর্বোচ্চ ২২ দশমিক ৫ ঘণ্টা কাজ করতে পারেন। ঘণ্টাপ্রতি…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/education/higher-education/8trtoqq7rp",
+          "author": "প্রথম আলো ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-09-23%2Fomzw3qm9%2F97.jpeg?rect=0%2C28%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৮:২৪"
+        },
+        {
+          "headline": "সৌন্দর্যের অপরূপ চৈতন্যে",
+          "excerpt": "প্রদর্শনীর একটি চিত্রকর্ম অবলম্বনেগ্রাফিকস প্রথম আলোছয় ঋতুর এই দেশে আমাদের শিল্পীরা প্রতিটি ঋতু নিয়েই ছবি আঁকেন। আমাদের কবিরা লেখেন কবিতা। শিল্পীর তুলিতে ফুটে ওঠে বৃষ্টিমুখর বর্ষা, কুয়াশাচ্ছন্ন শীতের সকাল, নীলাভ আকাশজুড়ে সাদা মেঘের শোভা কিংবা দিগন্তজুড়ে কাশফুলের মেলা। কবির কবিতায় ঋতুবন্দনা ঘুরেফিরে চলে আসে বারবার। শাম্মী ইয়াসমিন এ ঋতুবৈচিত্র্যের দেশেই বেড়ে ওঠা এক চিত্রশিল্পী। এ দেশের…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/onnoalo/arts/f036gvelcj",
+          "author": "লেখা:",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-09-23%2Fh6053we9%2FWhatsApp-Image-2026-09-23-at-10.37.22-PM.jpeg?rect=0%2C114%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৮:০৭"
+        },
+        {
+          "headline": "হরিজন নারীর অধিকার ও কর্মপরিবেশ",
+          "excerpt": "কৃষ্ণ লাল, সাবেক সভাপতি, সাবেক বাংলাদেশ হরিজন ঐক্য পরিষদ। লেবু বাসফোর, সভাপতি, বাংলাদেশ হরিজন ঐক্য পরিষদ। সনু রানী দাস, নির্বাহী পরিচালক, দলিত নারী উন্নয়ন সংস্থা। বিমল ডোম, সাধারণ সম্পাদক, বাংলাদেশ হরিজন ঐক্য পরিষদ। ইলিরা দেওয়ান, সাবেক সদস্য, জাতীয় মানবাধিকার কমিশন বাংলাদেশ। লিপি রহমান, নির্বাহী পরিচালক, বাদাবন সংঘ। সুলেখা ম্রং, নির্বাহী পরিচালক, আচিক মিচিক মহিলা উন্নয়ন সংস্থা। রাশেদা রওনক খান,…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/roundtable/bcifvbneis",
+          "author": "প্রথম আলো ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-09-23%2Fdhoh7x26%2FGroup.JPG?rect=0%2C476%2C6720%2C3528&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2022-01%2F18c58c05-9e66-46f3-8946-4437460f8f90%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৮:০০"
+        },
+        {
+          "headline": "কিসের টানে বাংলাদেশে ?",
+          "excerpt": "রস‍+আলো কিসের টানে বাংলাদেশে ?নিয়মিত খবরে দেখা যায়, প্রেমের টানে বাংলাদেশে ছুটে এসেছেন বিদেশি নাগরিকেরা। আরও কিসের কিসের টানে ছুটে আসতে পারেন তাঁরা, তাই নিয়ে ভেবে এঁকেছেন দীপ্ত দিপন দেবনাথ।১ / ১ভাবনা ও আঁকা: দীপ্ত দিপন দেবনাথআরও পড়ুনআরও পড়ুনআরও পড়ুনআরও পড়ুনআরও পড়ুনআরও পড়ুনআরও পড়ুন",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/fun/4io20fbjen",
+          "author": "আহমেদ ইশতিয়াক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-09-19%2Fka3g9alt%2Fkiser.jpg?rect=0%2C87%2C1244%2C653&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2021-05%2Fba39cddb-a11d-47f9-971c-1458e27d6b8e%2Faktuthamun_OG_watermark.png&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৮:০০"
+        },
+        {
+          "headline": "সুন্দরবনের কচিখালীতে প্রকৃতির মায়া",
+          "excerpt": "বঙ্গোপসাগরের লোনাজল আর সুন্দরবনের ঘন ম্যানগ্রোভ অরণ্য যেখানে মিলেছে, সেখানেই কচিখালী। সুন্দরবনের শরণখোলা রেঞ্জের এই পর্যটনকেন্দ্র যেন প্রকৃতির এক অনন্য আয়োজন। একদিকে নদীর ঢেউ, অন্যদিকে সমুদ্রসৈকত আর মাঝখানে ঘন অরণ্যে হরিণ, পাখি, প্রজাপতি ও নানা উদ্ভিদের বিচরণ। সুন্দরবনের কচিখালীরতে নীল-সবুজ প্রকৃতি আর বন্য প্রাণীর সৌন্দর্য নিয়ে ছবির গল্পসাদ্দাম হোসেন খুলনা১ / ৯নদীর চরে দুটি চ্যাগা পাখির খুনসুটি২…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/photo/bangladesh/xfbjp1tqbh",
+          "author": "সাদ্দাম হোসেন",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-09-23%2Fxvmkiimn%2F8.-KhulnaSundarbansKochikhaliforestnaturewildlife24092026.jpeg?rect=0%2C579%2C4144%2C2176&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2022-01%2F18c58c05-9e66-46f3-8946-4437460f8f90%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৮:০০"
+        },
+        {
+          "headline": "এআই কীভাবে সত্যিই ‘সব মানুষকে মেরে ফেলতে’ পারে? সবচেয়ে সম্ভাব্য পাঁচটি পরিস্থিতি",
+          "excerpt": "২২ সেপ্টেম্বর লেখাটি প্রকাশিত হয়েছে গবেষক ও শিক্ষাবিদদের লেখা প্রকাশকারী আন্তর্জাতিক অলাভজনক সংবাদমাধ্যম ‘দ্য কনভারসেশন’–এ। লিখেছেন অস্ট্রেলিয়ার ইউনিভার্সিটি অব নিউ সাউথ ওয়েলসের কৃত্রিম বুদ্ধিমত্তার অধ্যাপক টবি ওয়ালশ। অস্ট্রেলিয়ার জাতীয় গবেষণা সংস্থা সিএসআইআরওর ডেটা৬১-এর গবেষক টবি কৃত্রিম বুদ্ধিমত্তা নিয়ে গবেষণা করেন। পাশাপাশি এ বিষয়ে লেখালেখি করে পেয়েছেন সেলেস্টিনো ইউরেকা পুরস্কারসহ একাধিক…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/lifestyle/98252z96vp",
+          "author": "জীবনযাপন ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-09-23%2Fcb172em8%2Fview-horse-with-mechanical-robotic-parts-futuristic-style.jpg?rect=0%2C135%2C5824%2C3058&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৮:০০"
+        },
+        {
+          "headline": "হুতি–সৌদি যুদ্ধে কেন মিসর জড়িয়ে পড়ছে",
+          "excerpt": "মতামত হুতি–সৌদি যুদ্ধে কেন মিসর জড়িয়ে পড়ছেলেখা: মাহমুদ হাসানকায়রোর আন্তর্জাতিক বিমানবন্দরে স্বাগত অনুষ্ঠানে মিসরের প্রেসিডেন্ট আবদেল ফাত্তাহ আল-সিসির সঙ্গে সৌদি যুবরাজ মোহাম্মদ বিন সালমানের করমর্দন, ১৫ সেপ্টেম্বর ২০২৬। ইয়েমেনের হুতিদের হামলার মধ্যে মিসর সফরে যান সৌদি যুবরাজ। হুতি মোকাবিলায় সৌদি যুবরাজ মিসরের সহযোগিতা চেয়েছেন।ছবি: এএফপিবাব আল-মানদেব প্রণালি ও লোহিত সাগরে ক্রমবর্ধমান সামরিক…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/opinion/column/1pdb49nm4a",
+          "author": "লেখা:",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-09-21%2Frnoz6dnc%2F472111_01_02.jpg?rect=0%2C546%2C2047%2C1075&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-09-22%2F5lwyn5je%2Fdefaultog.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৮:০০"
+        },
+        {
+          "headline": "৯০০ মানুষের শহর, বইয়ের দোকান এক ডজনের বেশি",
+          "excerpt": "0পরবর্তী ভিডিওভিডিও থেকে আরও দেখুনস্কটল্যান্ড",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/video/international/yze6qz1fsf",
+          "author": "ভিডিও ডেস্ক, ডয়চে ভেলে",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-09-23%2Fssoy30gl%2FWEB.jpg?rect=0%2C0%2C1920%2C1008&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2022-01%2F5a36c819-05a2-4bfb-ac50-57dd67355acb%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৮:০০"
+        },
+        {
+          "headline": "ওয়াইল্ড লুকে নুসরাত ফারিয়ার নতুন চমক",
+          "excerpt": "নুসরাত ফারিয়ার আবেদন বরাবরই আলাদা। তাঁর ছিপছিপে গড়নে মানিয়ে যায় নানা ধরনের পোশাক, আর ফ্যাশনেবল সব লুকে তাঁর উপস্থিতিও থাকে নজরকাড়া। এক লুক থেকে আরেক লুকে যেন নিজেকেই ছাড়িয়ে যাচ্ছেন তিনি। এবার বোল্ড লুকে ধরা দিলেন নুসরাত। বুনো আবহের সঙ্গে তাঁর সাজে মিশেছে গ্ল্যামার ও আধুনিকতার ছোঁয়া। নতুন এই ফটোশুটে তাই অ্যানিমেল  মোটিফের পোশাকে নুসরাতের লুকে ফুটে উঠেছে খানিকটা ওয়াইল্ড আমেজ।অভিনেত্রীর পরনে বোহো…",
+          "source": "Prothom Alo",
+          "link": "https://www.haal.fashion/celeb/look/q7mgkvc5x5",
+          "author": "হাল ফ্যাশন ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-09-23%2F99pow7cm%2FFaria-W.jpg?rect=0%2C0%2C1300%2C683&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2023-10%2Fdf4c7d13-96dc-4875-b8bf-5aac7b6aa475%2FHaalfashion_gpi_sample3.png&overlay_position=bottom&overlay_opacity=1&w=1200&h=627&auto=format%2Ccompress&ogImage=true&overlay_width_pct=1",
+          "time": "সকাল ৮:০০"
+        },
+        {
+          "headline": "হাতে স্মার্টফোন থাকলেও দাঁড়িয়ে ছাপা পত্রিকা পড়েন তাঁরা",
+          "excerpt": "শাহাবুল শাহীন গাইবান্ধাপত্রিকাফলকে পত্রিকা পড়ছেন লোকজন। সম্প্রতি গাইবান্ধা শহরের মহুরীপাড়া এলাকায়ছবি: প্রথম আলোহাতে স্মার্টফোন নিয়ে দাঁড়িয়ে আছেন কয়েকজন। তবে কারও চোখ ফোনের পর্দায় নেই। সবাই মনোযোগ দিয়ে পড়ছেন ছাপা পত্রিকা। নিজ নিজ পছন্দ অনুযায়ী খবর বেছে নিচ্ছেন তাঁরা।গাইবান্ধা শহরের মহুরীপাড়া কাঠপট্টি এলাকায় বীর মুক্তিযোদ্ধা শহীদ আসাদুজ্জামান পত্রিকাফলকের সামনে গত রোববার দুপুরে এমন দৃশ্যই দেখা…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/district/65h5waaf0p",
+          "author": "শাহাবুল শাহীন",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-09-23%2Ffdg6eno7%2FGAIBANDHAPaper-1.JPG?rect=0%2C70%2C2200%2C1155&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৮:০০"
+        },
+        {
+          "headline": "বোয়িংয়ের সঙ্গে ১১টি নতুন  বিমান কেনার চুক্তি হয়েছে: মাহদী আমিন",
+          "excerpt": "বাসস ঢাকাপ্রধানমন্ত্রীর উপদেষ্টা মাহদী আমিন নিউইয়র্কের গ্র্যান্ড হায়াত হোটেলের লবিতে আয়োজিত এক সংবাদ সম্মেলনে কথা বলেনছবি : বাসসসরকার দেশের বিমান পরিবহন খাত সম্প্রসারণের লক্ষ্যে যুক্তরাষ্ট্রের উড়োজাহাজ নির্মাতা প্রতিষ্ঠান বোয়িংয়ের সঙ্গে ১১টি নতুন বিমান কেনার চুক্তি করেছে বলে জানিয়েছেন প্রধানমন্ত্রীর উপদেষ্টা মাহদী আমিন।স্থানীয় সময় মঙ্গলবার সন্ধ্যায় নিউইয়র্কের গ্র্যান্ড হায়াত হোটেলের লবিতে আয়োজিত…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/a17pkwecay",
+          "author": "বাসস",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-09-24%2Fd2d402t7%2Faircraft.webp?rect=0%2C43%2C1403%2C737&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৭:৪৮"
+        },
+        {
+          "headline": "দুটি ৫০ ওয়াটের বাল্ব কি একটি ১০০ ওয়াটের বাল্বের সমান আলো দেয়",
+          "excerpt": "লেখা: জান্নাতুল ফাতেমাবিদ্যুৎ খরচের হিসাবে দুটি ৫০ ওয়াটের বাল্ব আর একটি ১০০ ওয়াটের বাল্ব সমানছবি: সায়েন্স এবিসিআপনার ঘরের ছাদে একটি ১০০ ওয়াটের বাল্ব ঝুলছে। হঠাৎ সেটি নষ্ট হয়ে গেল। এখন ঘরে পড়ে আছে দুটি ৫০ ওয়াটের বাল্ব। আপনি হয়তো ভাববেন, ৫০ আর ৫০ মিলে তো ১০০ হয়। তাহলে দুটি বাল্ব লাগালেই নিশ্চয়ই আগের মতোই আলো হবে। আসলেই কি তাই?ব্যাপারটা এত সহজ নয়। বিদ্যুৎ খরচের হিসাবে দুটি ৫০ ওয়াটের বাল্ব আর একটি…",
+          "source": "Prothom Alo",
+          "link": "https://www.bigganchinta.com/physics/0mxjvodhdj",
+          "author": "লেখা:",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-09-23%2Fgktkvz30%2Ftwo-bulbs-featured-two-small-vs-one-big.webp?rect=0%2C38%2C2048%2C1075&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2021-04%2F18d6c66d-0fdc-4405-936e-afd304acc074%2Fbigganchinta.png&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৭:০০"
+        },
+        {
+          "headline": "সুবিধা নেওয়া নিয়ে সমালোচনার মুখে বাংলাদেশের  অন্তর্বর্তী সরকারের প্রধান উপদেষ্টা ইউনূস",
+          "excerpt": "নোবেলজয়ী অধ্যাপক মুহাম্মদ ইউনূস ৮ আগস্ট ২০২৪ অন্তর্বর্তী সরকারের প্রধান উপদেষ্টা হিসেবে দায়িত্ব নেওয়ার পর তাঁর প্রতিষ্ঠিত গ্রামীণ পরিবারের কয়েকটি প্রতিষ্ঠান সরকারি অনুমোদন ও অন্যান্য সুবিধা পেয়েছে। এ নিয়ে বিভিন্ন মহলে প্রশ্ন উঠেছে। সুবিধাগুলো হলো: গ্রামীণ বিশ্ববিদ্যালয়ের অনুমোদনজনশক্তি রপ্তানির লাইসেন্সডিজিটাল ওয়ালেট সেবার অনুমোদনগ্রামীণ ব্যাংকে সরকারের অংশীদারি কমানোপাঁচ বছরের কর…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/fun/6trwya5xhs",
+          "author": "লেখা:",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-09-23%2F2sxlbhvo%2F0111.jpg.jpeg?rect=0%2C87%2C1244%2C653&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2021-05%2Fba39cddb-a11d-47f9-971c-1458e27d6b8e%2Faktuthamun_OG_watermark.png&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৭:০০"
+        },
+        {
+          "headline": "ছয় বছর বয়সী কন্যাশিশুর রুবিকস কিউব মিলিয়ে বিশ্ব রেকর্ড",
+          "excerpt": "আসহাবিল ইয়ামিন মেয়েটির বয়স মাত্র ছয় বছর। নাম তার লিয়ান ইউনঝি। এই বয়সেই সে সবচেয়ে কম সময়ে রুবিকস কিউব মিলিয়ে নতুন এক বিশ্ব রেকর্ড গড়েছে। ২২ সেপ্টেম্বর, সোমবার চীনের রাষ্ট্রীয় সংবাদমাধ্যমের প্রতিবেদন এমন তথ্য প্রকাশ করে।চীনের উহান ও গুয়াংজু প্রদেশে রুবিকস কিউব মেলানোর প্রতিযোগিতার আয়োজন করা হয়। সেখানে মাত্র তিন দিনের ব্যবধানে দু-দুবার নারী বিশ্ব রেকর্ড ভেঙে দেয় লিয়ান। সে মিলিয়েছে…",
+          "source": "Prothom Alo",
+          "link": "https://www.kishoralo.com/feature/mehucf5uxg",
+          "author": "আসহাবিল ইয়ামিন",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-09-23%2Fq0r0xu55%2F%E0%A6%B9%E0%A6%B9%E0%A6%B9.jfif?rect=0%2C60%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2021-06%2Fbe2d99ee-c039-4acf-a6fb-2356c69a08a6%2FKIA_OG_watermark_final.png&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৭:০০"
+        }
+      ],
+      "International": [
+        {
+          "headline": "সর্বজনীন পেনশনে শরিয়াহভিত্তিক পদ্ধতি কীভাবে কার্যকর হবে?",
+          "excerpt": "কম ডেটা ব্যবহার করতে শুধু টেক্সট পড়ুনছবির উৎস, Getty Imagesছবির ক্যাপশান, সর্বজনীন পেনশন স্কিমে সবাইকে আনতে চাইছে সরকার (প্রতীকী ছবি)Author, সজল দাসRole,  বিবিসি নিউজ বাংলা Published ৩৮ মিনিট আগেপড়ার সময়: ৫ মিনিটবাংলাদেশে সর্বজনীন পেনশন কর্মসূচিতে শরিয়াহভিত্তিক পদ্ধতি চালু করতে চায় সরকার। বিদ্যমান চারটি স্কিম থাকার পরও কেন শরিয়াহভিত্তিক পদ্ধতির প্রয়োজন হলো, এটি কীভাবে চলবে, কতটা কার্যকর হবে-…",
+          "source": "BBC Bangla World",
+          "link": "https://www.bbc.com/bengali/articles/c617jyjp828po?at_medium=RSS&at_campaign=rss",
+          "author": "সজল দাস",
+          "image": "https://ichef.bbci.co.uk/news/1200/branded_bengali/79d3/live/537dc830-b768-11f1-bc1f-3f186ca4140c.jpg",
+          "time": "সকাল ৮:০০"
+        },
+        {
+          "headline": "Australia says OpenAI agent hacked Medicare portal",
+          "excerpt": "Australia’s Prime Minister Anthony Albanese has revealed a security breach of a government website containing Australians’ health data by an “AI agent”, less than a day after signing a joint appeal for “urgent global guardrails” around artificial intelligence.Albanese co-signed the “A Call for Control of Frontier AI Models” statement on Tuesday together with 21 signatories including Canada,…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/9/24/australia-says-openai-agent-hacked-medicare-portal?traffic_source=rss",
+          "author": "By AFP, AP and Reuters",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/AFP__20260922__C9363FE__v1__HighRes__SpeechesByHeadsOfStateAndGovernmentAtUnGeneralA-1790203629.jpg?resize=1920%2C1440",
+          "time": "সকাল ৮:৩৪"
+        },
+        {
+          "headline": "Venezuela’s Rodriguez pledges elections, path forward in UNGA speech",
+          "excerpt": "Skip linksSkip to Content Live Navigation menuNewsAfricaAsiaUS & CanadaLatin AmericaEuropeAsia PacificMiddle EastExplainedSportOpinionVideoOriginalsFeaturesEconomyHuman RightsClimate CrisisInvestigationsInteractivesIn PicturesScience & TechnologyPodcastsTravelSponsored Content Live Venezuela’s Rodriguez pledges elections, path forward in UNGA speechNewsFeedVenezuela’s Interim President Delcy…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/9/24/venezuelas-rodriguez-pledges-elections-path-forward-in-unga-speech?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/image-1790216477.jpg?resize=1620%2C1080&quality=80",
+          "time": "সকাল ৮:২৩"
+        },
+        {
+          "headline": "Iran’s president brings receipts of US strikes on civilians to the UNGA",
+          "excerpt": "NewsFeedIran’s president delivered his UN General Assembly address one day after US President Trump threatened to ‘annihilate’ the country. Iran says it is open to talks, but won’t negotiate under threat. Can the two sides find a way to end the war?\n\nAl Jazeera’s @EmmaWithrow explains.Published On 24 Sep 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/9/24/aje-onl-nf_iran-president-pushes-back-against-trump-at-unga-230926?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/3_2-Website-1-1790216149.png?resize=1920%2C1080&quality=80",
+          "time": "সকাল ৮:১৭"
+        },
+        {
+          "headline": "Israel moves to bar both main Arab lists from October election",
+          "excerpt": "Excluding Ra’am and the Joint List leaves Palestinian citizens in Israel without major Knesset representation options.Israel’s Central Elections Committee has voted to bar both main Arab electoral lists from next month’s election, putting the political representation of Palestinian citizens of Israel before the Supreme Court weeks before voters go to the polls.The committee voted on Wednesday to…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/9/24/israel-moves-to-bar-both-main-arab-lists-from-october-election?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/AP26266344728543-1790206966.jpg?resize=1920%2C1440",
+          "time": "সকাল ৮:০৬"
+        },
+        {
+          "headline": "Venezuela’s Delcy Rodriguez promises elections at UN, gives no date",
+          "excerpt": "Rodriguez says Venezuela is transitioning to full democracy and has opened dialogue with opposition sectors.Venezuela’s acting president told the United Nations General Assembly (UNGA) on Wednesday that the country would hold elections as part of a transition to “full democracy”, but did not give a specific date for the vote.“I wish to state this very clearly before this General Assembly:…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/9/24/venezuelas-delcy-rodriguez-promises-elections-at-un-gives-no-date?traffic_source=rss",
+          "author": "By AP and Reuters",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/reuters_6ab47004-1790210052.jpg?resize=1920%2C1440",
+          "time": "সকাল ৭:২৬"
+        },
+        {
+          "headline": "Turkiye agrees to gradual handover of Bashiqa base to Iraq",
+          "excerpt": "Iraqi Prime Minister al-Zaidi and Turkish President Erdogan pledged deeper security cooperation at UNGA.Turkiye and Iraq have agreed to a gradual transfer of Ankara’s military base in Bashiqa to Baghdad, according to a statement released by the Iraqi prime minister’s office.The announcement followed a meeting on Wednesday between Iraqi Prime Minister Ali al-Zaidi and Turkiye’s President Recep…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/9/24/turkiye-agrees-to-gradual-handover-of-bashiqa-base-to-iraq?traffic_source=rss",
+          "author": "By AFP and Reuters",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/afp_6ab446cd11a2-1790199501.jpg?resize=1920%2C1440",
+          "time": "সকাল ৭:০৪"
+        },
+        {
+          "headline": "China’s Xi visits US as Trump bets on stabilising global relations",
+          "excerpt": "NewsFeedUS President Donald Trump welcomes his Chinese counterpart Xi Jinping for talks and a state dinner, with trade, Taiwan, artificial intelligence and the war on Iran at the top of the agenda. Al Jazeera’s Kimberly Halkett reports from Joint Base Andrews.Published On 24 Sep 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/9/24/aje-onl-nf_trump-hosts-xi-amid-rising-tensions-1-230926?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/image-1790210811.jpg?resize=1920%2C1080&quality=80",
+          "time": "সকাল ৬:৪৩"
+        },
+        {
+          "headline": "OpenAI, Anthropic CEOs call for global AI regulation at UN",
+          "excerpt": "The heads of several major AI firms told the United Nations Security Council (UNSC) their industry urgently needed global oversight to avoid dangers that could threaten the whole world.“If managed poorly, I even believe AI could be a risk to humanity as a whole,” Dario Amodei, the chief executive officer of Anthropic, told members of the body on Wednesday.Recommended Stories list of 3 itemslist…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/9/24/ai-corporate-leaders-tell-un-the-industry-needs-global-regulation?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/afp_6ab442d61f2d-1790198486.jpg?resize=1920%2C1440",
+          "time": "সকাল ৬:১৩"
+        },
+        {
+          "headline": "Why is Kenya turning against Tata Chemicals in Magadi?",
+          "excerpt": "Magadi, Kenya – For more than a century, soda ash has shaped life in Magadi, a remote town on the shores of Lake Magadi in Kenya’s Kajiado County.The mineral has brought exports, jobs and business. But for many people living around the lake, that activity has not brought enough opportunities or basic services. The result is a complicated relationship with Tata Chemicals Magadi, the company that…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/9/24/why-is-kenya-turning-against-tata-chemicals-in-magadi?traffic_source=rss",
+          "author": "By Hafsa Abdiwahab Sheikh",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/IMG-20260907-WA0012-1789288826.jpg?resize=1600%2C1080",
+          "time": "সকাল ৬:০৩"
+        },
+        {
+          "headline": "Iran war live: Tehran says it won’t be bullied, remains open for talks",
+          "excerpt": "Skip linksSkip to Content Live Navigation menuNewsAfricaAsiaUS & CanadaLatin AmericaEuropeAsia PacificMiddle EastExplainedSportOpinionVideoOriginalsFeaturesEconomyHuman RightsClimate CrisisInvestigationsInteractivesIn PicturesScience & TechnologyPodcastsTravelSponsored Content Live Navigation menuDonald TrumpTrump, Netanyahu and the Iran questionHow Iran war fallout may shape US electionsA…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/liveblog/2026/9/24/iran-war-live-tehran-says-it-wont-be-bullied-remains-open-for-talks?traffic_source=rss",
+          "author": "Mohammed R Mhawish, Noor Kareem",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/2026-09-23T144336Z_1304854323_RC22PNARDN3B_RTRMADP_3_UN-ASSEMBLY-1790202564.jpg?resize=1920%2C1440",
+          "time": "সকাল ৬:০০"
+        },
+        {
+          "headline": "China’s Xi arrives to Trump welcome on state visit",
+          "excerpt": "China's Xi arrives to Trump welcome on state visitNewsFeedChina’s President Xi Jinping has touched down at Joint Base Andrews as he begins a much anticipated official state visit. US counterpart Donald Trump took the rare step and greeted Xi in person on the tarmac.Published On 23 Sep 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/9/23/chinas-xi-arrives-to-trump-welcome-on-state-visit?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/image-1790205522.jpg?resize=1624%2C1080&quality=80",
+          "time": "ভোর ৫:১৯"
+        },
+        {
+          "headline": "Trump greets Xi Jinping at plane as Chinese leader arrives for state visit",
+          "excerpt": "Donald Trump welcomed Xi Jinping on Wednesday evening, taking the unusual step of greeting the Chinese leader on the tarmac at Joint Base Andrews to kick off his state visit to Washington.Xi’s plane was met with a lavish arrival ceremony that included a 100ft long red carpet flanked by US service members, a military flyover by two B-1 bombers and a presentation of the flags and national anthems…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/us-news/2026/sep/23/trump-xi-jinping-china-us-state-visit",
+          "author": "Ariana Baio",
+          "image": "https://i.guim.co.uk/img/media/78cb7eee8e74de84b09b979e0be92c6e48255169/196_0_2935_2348/master/2935.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=0bb429d90672140f893662622fa6a749",
+          "time": "ভোর ৫:৩০"
+        },
+        {
+          "headline": "Trump welcomes Xi to Washington as US, China agree to extend trade truce",
+          "excerpt": "Trump takes rare step of meeting foreign leader at the airport, underscoring the significance of US-China relationship.United States President Donald Trump has welcomed his Chinese counterpart, Xi Jinping, to Washington, DC, for a three-day visit and high stakes talks on trade, Taiwan and artificial intelligence.Xi’s landed at the Joint Base Andrews, outside the US capital, on Wednesday as the…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/9/23/trump-meets-chinas-xi-jinping-at-us-airport-on-arrival-for-three-day-trip?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/ap_6ab4512f701bf-1790202159.jpg?resize=1920%2C1440",
+          "time": "ভোর ৪:৫৬"
+        },
+        {
+          "headline": "FBI investigates alleged theft of ‘very sensitive’ employee data",
+          "excerpt": "ShinyHunters hackers claim to have stolen data on thousands of FBI employees as the agency probes a portal breach.The United States Federal Bureau of Investigation says it is investigating a breach of its jobs website by a hacking group that claims to have obtained sensitive data on thousands of employees.“The FBI is aware of a cybercriminal enterprise group claiming a compromise of the…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/9/23/fbi-says-investigating-breach-of-very-sensitive-data-by-hackers?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/reuters_6ab422ed-1790190317.jpg?resize=1920%2C1440",
+          "time": "রাত ৩:১৮"
+        },
+        {
+          "headline": "US aviation sanctions disrupt Iran flights, push travellers overland",
+          "excerpt": "Tehran, Iran – Travel is becoming increasingly difficult for Iranian civilians as United States sanctions shut domestic airlines out of much of the world’s airspace and international carriers continue to avoid the country.The US Department of the Treasury designated 27 airlines on September 8, covering the remaining Iranian carriers that had not previously been sanctioned by Washington. Major…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/9/23/us-aviation-sanctions-disrupt-iran-flights-push-travellers-overland?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/ap_6ab424d00d977-1790190800.jpg?resize=1920%2C1440",
+          "time": "রাত ৩:০৫"
+        },
+        {
+          "headline": "Gaza flotilla activist on hunger strike in Tunisia jail ‘on verge of death’",
+          "excerpt": "Wael Naouar is in critical condition as his hunger strike enters its 39th day, a prominent local rights group says.Gaza solidarity activist Wael Naouar has been admitted to hospital more than a month after launching a hunger strike to protest his detention in Tunisia, according to the Gaza Sumud Flotilla organisation to which he belongs.Bassem Trifi, the head of the Tunisian League for the…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/9/23/gaza-flotilla-activist-on-hunger-strike-in-tunisia-jail-on-verge-of-death?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/reuters_6ab4211b-1790189851.jpg?resize=1920%2C1440",
+          "time": "রাত ২:৫৬"
+        },
+        {
+          "headline": "Albanese says OpenAI hacked Medicare and told Australia months later via email to generic inbox",
+          "excerpt": "Anthony Albanese says an artificial intelligence agent developed by OpenAI hacked Medicare in June and the tech giant notified the government earlier this month using an email sent to a “public mailbox”.Australia’s prime minister made the comments at the UN summit in New York, saying it appeared no personal information had been accessed in the AI breach.Investigations assisted by the Australian…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/australia-news/2026/sep/24/anthony-albanese-says-openai-agent-hacked-medicare-extreme-concern-sam-altman",
+          "author": "Emma Elsworthy, Stephanie Convery",
+          "image": "https://i.guim.co.uk/img/media/382f5ce9a99ca59f0295e666583b6b694b2ebb34/0_0_5000_4000/master/5000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=435f58910e5a84c536fbcac0c3f4571f",
+          "time": "সকাল ৮:০৬"
+        },
+        {
+          "headline": "Beau Lamarre-Condon sized up surfboard bag against friend before allegedly murdering Sydney couple, court told",
+          "excerpt": "Beau Lamarre-Condon was seen sizing up a surfboard bag used to dispose of a victim days before the police officer murdered two men, prosectors have alleged in a Sydney court, with chilling CCTV footage shown to the jury.Lamarre-Condon has been accused of fatally shooting Sydney couple Jesse Baird, 26, and Luke Davies, 29, with his police service weapon at Baird’s Paddington home on 19 February…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/australia-news/2026/sep/24/beau-lamarre-condon-trial-surfboard-bag-double-murder-jesse-baird-luke-davies-ntwnfb",
+          "author": "Kat Wong",
+          "image": "https://i.guim.co.uk/img/media/76423c46979c6d2e406dc6f1d6582af2acd86e2b/0_44_763_610/master/763.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=fc2043c3a0c1e8240463d2db74d1ed93",
+          "time": "সকাল ৭:৩৩"
+        },
+        {
+          "headline": "Why is Woodside sponsoring Fremantle’s AFL team – and will the climate crisis shift the relationship?",
+          "excerpt": "When an oil and gas company buys logo space on an AFL jersey, it isn’t trying to convince fans to buy its products.Fremantle Dockers supporters cannot, for example, go to their local service station to buy a barrel of Woodside Energy oil or a canister of its liquefied natural gas.This differs from the way most companies’ sponsorship deals are designed to convince consumers to buy their…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/australia-news/2026/sep/24/woodside-energy-sponsorship-deal-fremantle-afl-team-fans-logo",
+          "author": "Jonathan Barrett",
+          "image": "https://i.guim.co.uk/img/media/706def155b74d8a17927e127d143b4f5df14df7a/0_87_1179_943/master/1179.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=578685871b1c15ea3cd427de16dd10e6",
+          "time": "সকাল ৬:০০"
+        },
+        {
+          "headline": "Tony Blair says Britain should work towards rejoining EU in next 10 years",
+          "excerpt": "Britain should work towards rejoining the EU in the next decade, Tony Blair has said, adding to growing pressure on Andy Burnham to abandon Labour’s reluctance to revisit the 2016 referendum.The former prime minister has urged Burnham to use his 10-year plan in November to put the country’s membership of the union back on the table, a decade after it voted to leave.In a paper entitled A Path to…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/politics/2026/sep/24/tony-blair-britain-rejoin-eu-next-10-years-brexit",
+          "author": "Kiran Stacey",
+          "image": "https://i.guim.co.uk/img/media/4dbc8fb2d4422331ec4389b62becb2d99cb02c84/899_239_4361_3488/master/4361.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=4f5e824edce90a5beb432d6ffda86943",
+          "time": "ভোর ৫:০১"
+        },
+        {
+          "headline": "Three charged with assault after anti-migration protests in Hampshire",
+          "excerpt": "Three people have been charged in connection with anti-migrant protests that drew hundreds of demonstrators to a marina in Hampshire on Tuesday night.Six people were arrested by police, as anti-migrant activists who mistakenly believed a small boat was due to arrive at Gosport gathered in an attempt to disrupt the arrival of any asylum seekers.Those charged are Shannon Dodds, 32, of Leonard Road…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/uk-news/2026/sep/23/gosport-people-charged-anti-migration-protests",
+          "author": "Harry Cockburn",
+          "image": "https://i.guim.co.uk/img/media/2d2b6abcb15f7f28690e28b24b9b73fa944a67e9/999_0_4976_3983/master/4976.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=a07f8818a5cba2a64f0ee1e85f3647ce",
+          "time": "ভোর ৪:৪১"
+        },
+        {
+          "headline": "Millions in England unaware they have ‘silent killer’ condition, research reveals",
+          "excerpt": "Only half of people being treated by a GP for high blood pressure in England have it under control, and millions more are completely unaware they have the “silent killer” condition, research reveals.Most people with hypertension (59%) are in the dark and undiagnosed, raising their risk of stroke, heart attack and early death, according to the largest ever study of its kind.Even among those who…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/society/2026/sep/23/approach-to-high-blood-pressure-in-england-not-fit-for-purpose",
+          "author": "Andrew Gregory, Will Parman",
+          "image": "https://i.guim.co.uk/img/media/dd16f1da40b5257810a4803658b554187cae221e/424_0_2688_2150/master/2688.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ef4c53a3f2d3e2e5ad8f7b82335da612",
+          "time": "ভোর ৪:০০"
+        },
+        {
+          "headline": "Tories target universal credit claimants in plan condemned as ‘fast track to poverty’",
+          "excerpt": "People claiming universal credit (UC) would have their payments cut by a third if they have not paid enough national insurance, under a Conservative plan condemned by one charity as “a fast track to increased poverty”.Under the proposals, those who receive this “subsistence allowance” would have it paid into a dedicated debit card that would prevent from them buying alcohol or tobacco, based on…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/politics/2026/sep/23/tories-target-universal-credit-claimants-plan-condemned-fast-track-to-poverty",
+          "author": "Peter Walker",
+          "image": "https://i.guim.co.uk/img/media/43101317caa7ad058bdf8ce395a42dc0d602dcfb/0_0_1247_998/master/1247.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=26bd6bde37ccd3726fceb39cb1d6ae3f",
+          "time": "রাত ৩:৩০"
+        },
+        {
+          "headline": "Pupils to be offered vocational GCSEs in radical shake-up of system in England",
+          "excerpt": "Teenagers are to be offered a range of new vocational GCSEs under a radical shake-up of the school system in England designed to tackle a crisis that has left nearly a million young people out of work or training.From 2029, pupils will be able to supplement compulsory GCSE subjects such as English, maths and sciences with courses such as construction, creative media production and child…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/education/2026/sep/23/vocational-gcse-radical-shake-up-education-system-england",
+          "author": "Richard Adams, Sally Weale",
+          "image": "https://i.guim.co.uk/img/media/3e86adb79c560b532ed4f1eb8d5295f2ef3d0586/820_0_4331_3465/master/4331.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=7d3ad37926034b51ff061ce3b5a48f1b",
+          "time": "রাত ৩:৩০"
+        },
+        {
+          "headline": "In historic first, tropical turtles spotted nesting on California beaches",
+          "excerpt": "A sea turtle crawled out of the surf in southern California last weekend around sunset and started laying eggs in the sand.People on Huntington Beach who saw the female olive ridley sea turtle were shocked and excited. And they weren’t the only ones freaking out, said Justin Viezbicke, the California stranding coordinator for the National Oceanic and Atmospheric Association (Noaa).“This is the…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/us-news/2026/sep/23/sea-turtle-nesting-california-beaches",
+          "author": "Lois Beckett",
+          "image": "https://i.guim.co.uk/img/media/f4e7091e3bbe6c4a95539aa4c162984be141abbc/0_0_1500_1200/master/1500.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=fafecbebdf90954d8dad2b5de9c2bd44",
+          "time": "সকাল ৬:৩২"
+        },
+        {
+          "headline": "Justin Bieber performs surprise acoustic gig in beleaguered Los Angeles park",
+          "excerpt": "With no announcement and little fanfare, Justin Bieber performed a free acoustic set on Monday at a Los Angeles park often in local headlines for less cheery reasons.In videos that surfaced online, four musicians flanked the global phenom, who wore a plain T-shirt and shorts as he sang hits including Daisies and Yukon. The low-key affair with a small crowd stood in stark contrast to Bieber’s…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/music/2026/sep/23/justin-bieber-macarthur-park-los-angeles",
+          "author": "Uwa Ede-Osifo",
+          "image": "https://i.guim.co.uk/img/media/66480e08115c62710a5c25c4afda2a7ae72bde78/398_0_3976_3181/master/3976.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=6a612e3da40ce9baf4eba8183d2ff1e0",
+          "time": "ভোর ৫:৩৩"
+        },
+        {
+          "headline": "RFK Jr received $4m in book advances from Maha allies over past year",
+          "excerpt": "Robert F Kennedy Jr, the US health secretary, received $4m over the last year in book advances from allies within the Make America Healthy Again movement, according to a new report.The advances were for upcoming books by Skyhorse Publishing, a publishing house belonging to Tony Lyons, a friend of Kennedy Jr who is also president of Maha Center, a non-profit that describes itself as “tackling…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/us-news/2026/sep/23/rfk-jr-maha-book-advances",
+          "author": "Maya Yang",
+          "image": "https://i.guim.co.uk/img/media/4812fd28c2e25f8d4b8070823b4778b265f1aa39/695_0_6948_5559/master/6948.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=148c8474950f9c3f9f5849c462634591",
+          "time": "ভোর ৪:৫৬"
+        }
+      ],
+      "Sports": [
+        {
+          "headline": "ইরান শান্তিপূর্ণ পারমাণবিক প্রযুক্তি ছাড়বে না: জাতিসংঘে পেজেশকিয়ান",
+          "excerpt": "ছবির উৎস, Getty Imagesছবির ক্যাপশান, ইরানের প্রেসিডেন্ট মাসুদ পেজেশকিয়ান জাতিসংঘ সাধারণ পরিষদের অধিবেশনে ভাষণের সময় মিনাব স্কুলে নিহতদের ছবি দেখানইরানের প্রেসিডেন্ট মাসুদ\nপেজেশকিয়ান জাতিসংঘ সাধারণ পরিষদের অধিবেশনে বলেছেন, ইরান পারমাণবিক অস্ত্র অর্জনের\nচেষ্টা করছে না, তবে\nতারা \"পারমাণবিক বিজ্ঞান\" এবং \"শান্তিপূর্ণ প্রযুক্তি\" ত্যাগ\nকরবে না।তিনি বলেন, \"পারমাণবিক জ্ঞানে কেবল\nকয়েকটি দেশের একচেটিয়া…",
+          "source": "BBC Bangla Sport",
+          "link": "https://www.bbc.co.uk/bengali/live/cqzez92pdwpwt?at_medium=RSS&at_campaign=rss",
+          "author": "BBC News বাংলা",
+          "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/32f4/live/49d6aa90-b75e-11f1-8e7f-6f99c81f3136.jpg",
+          "time": ""
+        },
+        {
+          "headline": "মেসির সবচেয়ে পছন্দের খাবার কী, কেমন তাঁর ডায়েট চার্ট",
+          "excerpt": "খেলা ডেস্ক মেসির প্রিয় পানীয় ‘ইয়েরবা মাতে’।মেসির ইনস্টাগ্রামদুই দশকের বেশি সময় ধরে ফুটবলে রাজত্ব। সেই রোনালদিনিও-থিয়েরি অঁরি-কাকাদের সময়ে উত্থান, তারপর এই ৩৭ বছর বয়সে এসে এমবাপ্পে-হলান্ড-ইয়ামালদের সঙ্গে পাল্লা দিয়ে শ্রেষ্ঠত্ব প্রমাণ করে যাওয়া। বার্সেলোনার মেরুন-নীলে শুরুর দিনগুলো থেকে মায়ামির গোলাপি রঙে কিংবা আর্জেন্টিনার জার্সিতে বিশ্বজয়ের চূড়ান্ত প্রাপ্তি, সাফল্য আর ট্রফির ভিড় কখনো থামেনি…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/sports/football/ngx4y4ql1m",
+          "author": "খেলা ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-09-23%2F8vxj1ss5%2F03-leomessi-34964420099234162933-20241108071309.jpg?rect=0%2C1%2C1200%2C630&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2026-09-03%2F99dqhmx6%2Fog-banner-for-sports.png&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৮:৩০"
+        },
+        {
+          "headline": "মরিনিওর নতুন রিয়াল মাদ্রিদ : যা কিছু ভালো, যা কিছু মন্দ",
+          "excerpt": "খেলা ডেস্ক বিশ্বকাপের পর প্রথম আন্তর্জাতিক বিরতি শুরু হয়ে গেছে। এদিকে ইউরোপের ক্লাব ফুটবলেও নতুন মৌসুমের খেলা হয়ে গেছে মাসখানেকের মতো। লা লিগায় তো ম্যাচের হিসাবে মৌসুমের প্রায় পাঁচ ভাগের এক ভাগ পথ পাড়ি দেওয়া শেষ।তো কেমন হলো এই সময়ে জোসে মরিনিওর অধীন রিয়াল মাদ্রিদের নতুন করে পথচলা?সাত ম্যাচের পাঁচটিতে জয় এসেছে। কিলিয়ান এমবাপ্পের গোলক্ষুধা চোখ জুড়িয়েছে। কিন্তু রিয়াল মাদ্রিদকে তো আর…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/sports/football/ik4vlgekmn",
+          "author": "খেলা ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-09-23%2Fr9d0cv6c%2Fimageye-imgi37Mourinho-up-to-his-old-tricks.jpeg?rect=0%2C0%2C1280%2C672&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2026-09-03%2F99dqhmx6%2Fog-banner-for-sports.png&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৭:৩০"
+        },
+        {
+          "headline": "আজ টিভিতে যা দেখবেন (২৪ সেপ্টেম্বর ২০২৬)",
+          "excerpt": "খেলা ডেস্ক এশিয়ান গেমসে ছেলেদের ক্রিকেট শুরু আজ। আজ আছে দুটি ম্যাচ। ফিফা আসিয়ান কাপও শুরু আজ। রাতে উয়েফা নেশনস লিগে মাঠে নামবে পর্তুগাল, জার্মানি ও নেদারল্যান্ডস।এশিয়ান গেমস: ক্রিকেটজাপান-আফগানিস্তানসকাল ৬টা, সনি স্পোর্টস ১হংকং-মালয়েশিয়াবেলা ১১টা, সনি স্পোর্টস ১এশিয়ান গেমসবিভিন্ন খেলাসকাল ৬টা, সনি স্পোর্টস ২ ও ৫ফিফা আসিয়ান কাপলাওস-ব্রুনেইবেলা ৩টা, টি স্পোর্টসমিয়ানমার-তিমুর লেস্তেসন্ধ্যা ৬টা, টি…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/sports/gw99zyc2h1",
+          "author": "খেলা ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-09-23%2Frgfw5z9a%2FWhatsApp-Image-2025-09-07-at-18.49.56e919fcaf.jpg?rect=0%2C0%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2026-09-03%2Foj267urd%2Fog-banner-for-sports.png&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৭:০০"
+        },
+        {
+          "headline": "Zverev, Agassi defend 'spectacular' Laver Cup",
+          "excerpt": "2 MIN(s)\n\t\t\t\t\t\n\t\t\t\t\t\tUPDATED\n\t\t\t\t\t\t2 MIN(s)\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\n\n\n\t\t\t\n  \n                  \n              \n                  \n\n  \n\n\n\t\t\t\n\t\t\t\t\t\t\tAndre Agassi of the US and Switzerland's Roger Federer after their doubles exhibition match at US Open on August 25, 2026. [R] Alexander Zverev of Germany poses with the trophy on September 13, 2026. Photo: REUTERS / AFP\n\t\t\t\t\t\t\n\t\t\t\t\t\nGrand Slam…",
+          "source": "The Daily Star Sports",
+          "link": "https://www.thedailystar.net/sports/more-sports/tennis/news/zverev-agassi-defend-spectacular-laver-cup-4281681",
+          "author": "AFP, London",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-09/photo-collage.png%20%2860%29.png",
+          "time": "সকাল ৯:১৫"
+        },
+        {
+          "headline": "'Not much sense in torturing ourselves looking back': Tuchel on England's World Cup exit",
+          "excerpt": "14 MIN(s)\n\t\t\t\t\t\n\t\t\t\t\t\tUPDATED\n\t\t\t\t\t\t14 MIN(s)\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\n\n\n\t\t\t\n  \n                  \n              \n                  \n\n  \n\n\n\t\t\t\n\t\t\t\t\t\t\tEngland coach Thomas Tuchel reacts during their World Cup 2026 semifinal match against Argentina at the Atlanata Stadium in Atlanta on July 16, 2026. Photo: AFP\n\t\t\t\t\t\t\n\t\t\t\t\t\nWorld champions Spain's visit to Wembley on Saturday is a painful…",
+          "source": "The Daily Star Sports",
+          "link": "https://www.thedailystar.net/sports/football/news/not-much-sense-torturing-ourselves-looking-back-tuchel-englands-world-cup-exit-4281671",
+          "author": "AFP, London",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-09/2026-07-15T193104Z_1590355484_UP1EM7F1I7QY4_RTRMADP_3_SOCCER-WORLDCUP-ENG-ARG.JPG",
+          "time": "সকাল ৯:০২"
+        },
+        {
+          "headline": "Burnham says ban on alcohol for football fans in stands is 'discrimination'",
+          "excerpt": "Andy Burnham has branded a ban on fans being allowed to drink alcohol in the stands during men's football matches as \"discrimination\".The prime minister told reporters that \"I don't think it's fair for football fans to be singled out\", as he suggested a change could be trialled.Laws are in place which prevent drinking in view of the pitch at stadiums for clubs in the top five tiers of men's…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/news/articles/c933ky0nknxko?at_medium=RSS&at_campaign=rss",
+          "author": "Chris Mason, Richard Wheeler",
+          "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/ce25/live/08123a00-b78d-11f1-9871-9f85ee3099c6.jpg",
+          "time": "রাত ৩:০১"
+        },
+        {
+          "headline": "Barcelona rule out Alvarez deal - Thursday's gossip",
+          "excerpt": "Barcelona rule out Alvarez signing from Atletico Madrid, Liverpool will not allow Wirtz departure, and Chelsea target English midfield duo.Barcelona have ruled out signing Argentina forward Julian Alvarez from Atletico Madrid in January, with the 24-year-old waiting to see whether Paris St-Germain or Arsenal make a bid for him, or whether he should stay put. (Fichajes - in Spanish),…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/crq5x1n12xexo?at_medium=RSS&at_campaign=rss",
+          "author": "BBC Sport",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/b75f/live/d18ca640-b792-11f1-bc1f-3f186ca4140c.png",
+          "time": "রাত ৩:৩৩"
+        },
+        {
+          "headline": "When Bellamy watched on as Ronaldo caused lockdown",
+          "excerpt": "Image source, Getty ImagesImage caption, Cristiano Ronaldo won the first of his 233 Portugal caps in 2003ByIan MitchelmoreBBC Sport WalesWith five Ballon d'Or wins, eight league titles, five Champions Leagues, a European Championship and a pair of Nations League triumphs among his glut of honours, Cristiano Ronaldo's status as one of football's all-time greats is not in doubt.But a chance…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cmgqdjvvqp2no?at_medium=RSS&at_campaign=rss",
+          "author": "Ian Mitchelmore",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/be58/live/7a629a90-b699-11f1-ba3d-1d5c8a47f823.jpg",
+          "time": "রাত ৩:৩০"
+        }
+      ],
+      "Entertainment": [
+        {
+          "headline": "কেবিন নম্বর ১০৩, এখন কেমন আছেন ৫০০ নাটকের অভিনেতা রিফাত চৌধুরী",
+          "excerpt": "নাজমুল হক ঢাকারিফাত চৌধুরী। ছবি : ফেসবুক থেকে শারীরিক অসুস্থতা নিয়ে ১৪ সেপ্টেম্বর ঢাকা মেডিকেল কলেজ হাসপাতালে ভর্তি হন কবি ও অভিনেতা রিফাত চৌধুরী। প্রথম কদিন থাকতে হয়েছে হাসপাতালের মেঝেতেই। তাঁর অসুস্থতার খবর গণমাধ্যমে উঠে এলে দুদিন আগে কেবিন পেয়েছেন। নতুন ভবনের দশম তলায় গতকাল বুধবার তাঁর সঙ্গে কথা হয় এই প্রতিবেদকের। দুই ঘণ্টার আড্ডায় উঠে আসে রিফাত চৌধুরীর নানান অজানা কথা। এখন কেমন আছেন রিফাত…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/entertainment/tv/8rzgrmv0hs",
+          "author": "নাজমুল হক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-09-23%2F0ilbidlq%2Fda4c3d29-563c-450b-9186-fa1beee4ed19.jpg?rect=0%2C0%2C995%2C522&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৮:০০"
+        },
+        {
+          "headline": "শাটল ট্রেন থেকে জাতীয় মঞ্চে, আলোচিত ব্যান্ড তীরন্দাজের গল্পটা জানেন কী",
+          "excerpt": "ফাহিম আল সামাদ চট্টগ্রামতীরন্দাজের সদস্যরা। ছবি : ব্যান্ডের ফেসবুক থেকে চট্টগ্রাম বিশ্ববিদ্যালয়ের শাটল ট্রেনের শব্দের সঙ্গে একসময় মিশে যেত কয়েকজন তরুণের গানের সুর। সেই তরুণদেরই একজন শান শাহেদ। ২০০৭ সালের দিকে বিশ্ববিদ্যালয়ে পড়ার সময় তাঁর মাথায় আসে একটা ব্যান্ড গড়ার ভাবনা। বন্ধুদের নিয়ে শুরু হয় পরিকল্পনা। পরের বছর জন্ম নিল ‘তীরন্দাজ’। তখন শান শাহেদ ছিলেন ব্যান্ডটি ড্রামার। ভোকাল ছিলেন রাহাত।…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/entertainment/song/jnxx982lqv",
+          "author": "ফাহিম আল সামাদ",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-09-23%2Fy3br63nc%2F48116185411893424358844878529140281033804876n.jpg?rect=0%2C0%2C1290%2C677&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৭:০০"
+        }
+      ]
+    }
+  },
+  {
     "dt": "2026-09-23T21:07:54.699Z",
     "file": "runs/2026-09-23-2107.html",
     "counts": {
