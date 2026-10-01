@@ -1,5 +1,1342 @@
 [
   {
+    "dt": "2026-10-01T22:22:39.360Z",
+    "file": "runs/2026-10-01-2222.html",
+    "counts": {
+      "Local": 16,
+      "International": 45,
+      "Entertainment": 2,
+      "Tech": 63,
+      "Sports": 20
+    },
+    "grouped": {
+      "Tech": [
+        {
+          "headline": "Judge dismisses antitrust lawsuits over Google’s AI Overviews",
+          "excerpt": "Skip to main contentRolling Stone’s parent company and Chegg claimed Google’s AI search features drove away traffic from their sites.Rolling Stone’s parent company and Chegg claimed Google’s AI search features drove away traffic from their sites.by  Emma RothOct 1, 2026, 5:12 PM UTCImage: Cath Virginia / The VergeEmma Roth is a news writer who covers the streaming wars, consumer tech, crypto,…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/tech/1003589/google-ai-overviews-chegg-penske-lawsuits-dismissed",
+          "author": "Emma Roth",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK093_GOOGLE_A.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+          "time": "রাত ১১:১২"
+        },
+        {
+          "headline": "Sony brings AI graphics upscaling to the regular PS5",
+          "excerpt": "Jay Peters is a senior reporter covering technology, gaming, and more. He joined The Verge in 2019 after nearly two years at Techmeme.Sony is launching a new AI upscaling technology specifically for the regular PS5. The new tech, called Quick Spectral Super Resolution (QSSR), is a “new performance tier of AI upscaling” that’s a result of Sony’s Project Amethyst work with AMD, according to a blog…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/games/1003549/sony-ps5-quick-spectral-super-resolution-qssr",
+          "author": "Jay Peters",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25072873/110923_new_Playstation_5_Slim_ADiBenedetto_0010.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+          "time": "রাত ১০:৫৩"
+        },
+        {
+          "headline": "Judge dismisses lawsuits claiming Google's AI Overviews siphon web traffic",
+          "excerpt": "Google may have a monopoly in search, but neither lawsuit made a compelling case the company was leveraging…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2275023/judge-dismisses-lawsuits-claiming-googles-ai-overviews-siphon-web-traffic/",
+          "author": "Ian Carlos Campbell",
+          "image": "https://www.engadget.com/img/gallery/judge-dismisses-lawsuits-claiming-googles-ai-overviews-siphon-web-traffic/l-intro-1790882295.jpg",
+          "time": "রাত ১:২০"
+        },
+        {
+          "headline": "Sony brings AI upscaling to the base PS5",
+          "excerpt": "Marvel’s Wolverine and Ghost of Yōtei are the first games to support Quick Spectral Super…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2274744/sony-brings-ai-upscaling-to-the-base-ps5/",
+          "author": "Kris Holt",
+          "image": "https://www.engadget.com/img/gallery/sony-brings-ai-upscaling-to-the-base-ps5/l-intro-1790873905.jpg",
+          "time": "রাত ১১:০০"
+        },
+        {
+          "headline": "SpaceX describes surgical intervention before launch of latest crew mission",
+          "excerpt": "Lucky 13\n  \n\n      \n\n      \n\n      \n        With Crew-13, Jessica Watkins became the first Black woman to lead a mission into space.\n      \n\n              \n          \n\n    \n    \n    \n      SpaceX's Crew Dragon \"Grace\" spacecraft stacked atop its trunk section during preparations for the Crew-13 mission at Cape Canaveral Space Force Station, Florida.\n\n              \n         …",
+          "source": "Ars Technica",
+          "link": "https://arstechnica.com/space/2026/10/spacex-describes-surgical-intervention-before-launch-of-latest-crew-mission/",
+          "author": "Stephen Clark",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/crewdragon1crew13-1152x648.jpg",
+          "time": "ভোর ৪:০৭"
+        },
+        {
+          "headline": "Lyft is paying $272.5M to settle lawsuit over how it classified drivers",
+          "excerpt": "Lyft has agreed to pay $272.5 million to settle a lawsuit accusing the ride-hailing company of violating California law by misclassifying drivers as independent contractors, instead of employees. \n\nThe company said in a regulatory filing that it believes the settlement will allow it to avoid the “costs and distraction of protracted litigation and enable management to maintain its focus on…",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/10/01/lyft-is-paying-272-5m-to-settle-lawsuit-over-how-it-classified-drivers/",
+          "author": "Kirsten Korosec",
+          "image": "https://techcrunch.com/wp-content/uploads/2022/10/GettyImages-836662650.jpg?resize=1200,675",
+          "time": "রাত ৩:৫৭"
+        },
+        {
+          "headline": "Google’s new Guided Vision feature can help you read the fine print",
+          "excerpt": "Stevie Bonifield is a news writer covering all things consumer tech. Stevie started out at Laptop Mag writing news and reviews on hardware, gaming, and AI.Guided Vision is launching in Gemini Live on compatible Android devices today to use AI to give real-time audio descriptions of anything you point your phone’s camera at. By sharing your camera in Gemini Live, you can have Google’s AI help…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision",
+          "author": "Stevie Bonifield",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK255_Google_Gemini_B_474198.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+          "time": "রাত ১:৪৭"
+        },
+        {
+          "headline": "Whatever AI Safety Is, It’s Not This",
+          "excerpt": "Here’s a fun history lesson for you. Don’t worry, we’ll make it quick! In 1966, nearly 51,000 people died on US highways. The overwhelming evidence suggested that many lives could have been saved with modern seat belts, which by then had been around for several years. The automotive industry responded by rallying together, and, in a triumph of self-regulation, voluntarily put the safety feature…",
+          "source": "Wired",
+          "link": "https://www.wired.com/story/whatever-ai-safety-looks-like-its-not-this/",
+          "author": "Brian Barrett",
+          "image": "https://media.wired.com/photos/6abd667878587a545496ec2f/191:100/w_1280,c_limit/Model-Behavior-Trump-AI-Business.jpg",
+          "time": "ভোর ৪:১০"
+        },
+        {
+          "headline": "OpenAI fires three employees who allegedly shared info with an external AI safety group",
+          "excerpt": "You can’t make this stuff up.\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                    Midnight Studio/Getty…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2275278/openai-fires-three-employees-who-allegedly-shared-info-with-an-external-ai-safety-group/",
+          "author": "Anna Washenko",
+          "image": "https://www.engadget.com/img/gallery/openai-fires-three-employees-who-allegedly-shared-info-with-an-external-ai-safety-group/l-intro-1790891007.jpg",
+          "time": "ভোর ৪:০৫"
+        },
+        {
+          "headline": "Google Pixel 2 XL set the stage for a decade of ups and downs",
+          "excerpt": "Google Pixel’s 10-year anniversary has me taking a look back at a bunch of the milestones throughout this lineup’s history and, when picking up the Pixel 2 XL, hindsight really kicked in as to how this phone was very much a sign of the tumultuous roller coaster that would become Google Pixel.\n\n\n\nThe original Google Pixel hit the ground running and really did a great job pitching itself. A…",
+          "source": "9to5Google",
+          "link": "https://9to5google.com/2026/10/01/google-pixel-2-xl-set-the-stage-for-a-decade-of-ups-and-downs/",
+          "author": "Ben Schoon",
+          "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/09/pixel-at-10-google-pixel-2-xl-1.jpg?quality=82&strip=all&resize=1200,628",
+          "time": "রাত ১:৩০"
+        },
+        {
+          "headline": "Police Arrest 16-Year-Old Suspected of Running KillSec, Seize Ransomware Leak Site and Servers",
+          "excerpt": "Police in Spain have arrested a 16-year-old whom investigators suspect of running the KillSec ransomware group. KillSec is accused of stealing data from organizations and threatening to publish it on its leak site unless they paid.\n\nThe 16-year-old was one of 3 people arrested on September 30, when police also took control of that site.\n\nInvestigators identified him as KillSec's suspected…",
+          "source": "The Hacker News",
+          "link": "https://thehackernews.com/2026/10/police-arrest-16-year-old-suspected-of.html",
+          "author": "The Hacker News",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgy6XYYOXNZNjc51viw5FvCk49pWIXCCRS6yr_hl0ZKdwhBWRfYrCQ7bM6AJZJdmI_W3AEz1V3X0DAP6k39KfgjlKFfB5JcFaKN9zzIl1-7c49Vnuaz55yhRXjdmY5K2kIPuY_-7624KyVHqkHzikJIi11iClljnXv_3i2X21JiRCMU8ElmiHiZdHVQ7ws/s1600/killsec-ransomware.jpg",
+          "time": "রাত ১০:৫৫"
+        },
+        {
+          "headline": "Hacks of 2 federal agencies in a month have spilled a bonanza of sensitive data",
+          "excerpt": "The Pentagon is informing more than 2 million current and former military members that their personnel records storing sensitive personal information were stolen over a monthslong compromise of one of its networks. The breach is the second one in recent months to expose sensitive government information.\nThe records, according to one notification letter posted to Reddit, included Social Security…",
+          "source": "Ars Technica",
+          "link": "https://arstechnica.com/security/2026/10/hacks-of-2-federal-agencies-in-a-month-have-spilled-a-bonanza-of-sensitive-data/",
+          "author": "Dan Goodin",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2021/04/data-leak-1000x648.jpeg",
+          "time": "রাত ২:২৮"
+        },
+        {
+          "headline": "Kevin Mandia’s new ‘agent swarm’ security startup Armadin raises $255.5M at $2.5B valuation",
+          "excerpt": "In Brief\nPosted:\n\n\n2:55 PM PDT · October 1, 2026\n\n\n\nImage Credits:TechCrunch / AI generated\n\n\n\n\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\n\n\n\n\n\nKevin Mandia, best known as the founder of cybersecurity startup Mandiant, which sold to Google for $5.4 billion in 2022, has raised $255.5 million for his latest startup, Armadin, at a valuation of more than $2.5 billion, the company announced on…",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/10/01/kevin-mandias-new-agent-swarm-security-startup-armadin-raises-255-5m-at-2-5b-valuation/",
+          "author": "Julie Bort",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/Networked-AI-swarm-with-glowing-nodes.png?resize=1200,600",
+          "time": "রাত ৩:৫৫"
+        },
+        {
+          "headline": "Android Central &#8216;will continue&#8217; despite laying off its staff",
+          "excerpt": "Jay Peters is a senior reporter covering technology, gaming, and more. He joined The Verge in 2019 after nearly two years at Techmeme.Android Central, a blog focused on the Android ecosystem, laid off its staff yesterday, but owner Future confirms to The Verge that the site will continue publishing.Yesterday, four of the six staffers on Android Central’s staff page posted publicly about the…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/tech/1003735/android-central-layoffs",
+          "author": "Jay Peters",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Screenshot-2026-10-01-at-12.18.47-PM.jpg?quality=90&strip=all&crop=0%2C8.5258187044451%2C100%2C82.94836259111&w=1200",
+          "time": "রাত ১:২০"
+        },
+        {
+          "headline": "The Best Early Prime Day Deals Ahead of Amazon’s Second Sale (2026)",
+          "excerpt": "Amazon Prime Day deals are back, baby. The second sale of the year is officially dubbed Prime Big Deal Days and will arrive on October 6 and 7. However, early deals have already started, and I've been using my 13 years of deal-hunting experience to find true discounts on the gadgets and gear the WIRED Reviews team has hand-tested and would recommend to our friends. Below, you'll find the best…",
+          "source": "Wired",
+          "link": "https://www.wired.com/story/amazon-prime-day-early-deals-10-01-2026/",
+          "author": "Louryn Strampe",
+          "image": "https://media.wired.com/photos/6abeb44859f7d99889340660/191:100/w_1280,c_limit/Amazon%20Prime%20Day%20Top%20Art%20102026%20Early%20APD%20Deals%20Update%20ILLUSTRATION%20Isadora-Ayesa%20Lima%20SOURCE%20Amazon.jpg",
+          "time": "রাত ২:৫৩"
+        },
+        {
+          "headline": "Samsung launches its first clip-on earbuds in South Korea",
+          "excerpt": "A global rollout will follow, although we don’t yet know the details.\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                   …",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2275187/samsung-launches-its-first-clip-on-earbuds-in-south-korea/",
+          "author": "Will Shanklin",
+          "image": "https://www.engadget.com/img/gallery/samsung-launches-its-first-clip-on-earbuds-in-south-korea/l-intro-1790888120.jpg",
+          "time": "রাত ২:৫৭"
+        },
+        {
+          "headline": "Samsung’s open-ear Galaxy Buds On go official with late October release",
+          "excerpt": "Samsung has officially announced its first truly open-ear Galaxy Buds with the Galaxy Buds On set for a debut in late October.\n\n\n\nAnnounced on its newsroom in Korea, Samsung’s Galaxy Buds On are a pair of clip-style earbuds. Made popular by a host of other brands, this design clips onto the side of your ear, positioning the driver into your ear but leaving room for ambient sounds to come…",
+          "source": "9to5Google",
+          "link": "https://9to5google.com/2026/10/01/samsung-galaxy-buds-on-open-ear-launch/",
+          "author": "Ben Schoon",
+          "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/10/galaxy-buds-on-3.jpg?quality=82&strip=all&resize=1200,628",
+          "time": "রাত ১:১৫"
+        },
+        {
+          "headline": "ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories",
+          "excerpt": "This week, the useful words are boring ones: inspect, cache, compile, store, trust. Each sounds harmless. Each can become an attack path when a system does a little more than people expect. A model check can run code. A cache can mix up requests. A public secret can stay useful for years.That is the lesson running through the list. Attackers do not always need a brilliant new trick. They can…",
+          "source": "The Hacker News",
+          "link": "https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html",
+          "author": "The Hacker News",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOZPv0LS8-qPBgL_d1m8BLNikw8psPt9qtB_HiFNoYnVwBacYvwz4DdEixukdlHcy7IXmUB9dI9E_Hcx48HJIL7sQzmDeextP-Y_tHO9SX51i_SditMkVsRgWxyMekufW3yZFn2jI9nf29y3JEM2a_yFv8iTLDb6d3r1roNsea_Yk5TWCiMcvkmE5ZbP6B/s1600/oct-threatsday.jpg",
+          "time": "রাত ১০:৪৫"
+        },
+        {
+          "headline": "Judge dismisses Chegg and Penske antitrust lawsuits targeting Google AI search",
+          "excerpt": "In a setback for publishers worried about the effects of AI search, a US federal judge has dismissed lawsuits filed by Chegg and Penske Media against Google. The companies accused Google of antitrust violations in products like AI overviews, which have led to decreasing traffic at numerous sites. However, US District Judge Amit Mehta has ruled that Google’s conduct is not illegal under antitrust…",
+          "source": "Ars Technica",
+          "link": "https://arstechnica.com/google/2026/10/antitrust-lawsuits-targeting-google-ai-search-dismissed-by-federal-judge/",
+          "author": "Ryan Whitwam",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/05/Google-sign-IO-1152x648.jpg",
+          "time": "রাত ২:১১"
+        },
+        {
+          "headline": "Musk’s AI chatbot Grok reportedly encouraged Trump to capture  Venezuela’s president",
+          "excerpt": "In Brief\nPosted:\n\n\n2:08 PM PDT · October 1, 2026\n\n\n\nImage Credits:Kevin Dietsch / Getty Images\n\n\n\n\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\n\n\n\n\n\nIn December 2025, about a month before the U.S. invaded Venezuela and captured its president, Nicolás Maduro, President Trump had a secret meeting with Elon Musk, Time magazine reports. This was roughly seven months after Musk left his role in the…",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/",
+          "author": "Dominic-Madori Davis",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2297722687.jpg?w=1024",
+          "time": "রাত ৩:০৮"
+        },
+        {
+          "headline": "Steam Deck 2: Is AMD Gainsborough the chip Valve’s been waiting for?",
+          "excerpt": "The Steam Deck is four and a half years old, and handheld gamers are eagerly awaiting a Steam Deck 2 — but Valve has consistently said it needs a new chip with a “generational leap” in performance and efficiency before building the sequel.There’s some reason to believe that chip has now broken cover: AMD Gainsborough. But I’m a tad skeptical.As leaker Moore’s Law is Dead and IT Home report, the…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/games/1003593/steam-deck-2-is-amd-gainsborough-the-chip-valves-been-waiting-for",
+          "author": "Sean Hollister",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/53420776536_b9dede69df_k.jpg?quality=90&strip=all&crop=0%2C10.723395278369%2C100%2C78.553209443262&w=1200",
+          "time": "রাত ১২:৫২"
+        },
+        {
+          "headline": "Trump’s ‘Morally Binding’ AI ‘Accord,’ the Rise of AI Agents, and Extremists on the Ballot",
+          "excerpt": "Oct 1, 2026 3:58 PMThis week on Uncanny Valley, we discuss the voluntary AI safety agreement tech executives signed, AI agents for normies, and extremist candidates running for office in the US midterms.Photo-Illustration: WIRED Staff; Getty ImagesThis week on Uncanny Valley, Brian Barrett, Zoë Schiffer, and Leah Feiger discuss the “morally binding” AI accord tech executives signed following a…",
+          "source": "Wired",
+          "link": "https://www.wired.com/story/uncanny-valley-podcast-trumps-pinky-swear-ai-safety-accord-an-ai-agent-worth-the-risk/",
+          "author": "Brian Barrett, Zoë Schiffer, Leah Feiger",
+          "image": "https://media.wired.com/photos/6abd98d540aa0c6f065eedf5/191:100/w_1280,c_limit/Uncanny-Valley-Morally-Bound-WH-Accord-Business-2297777029.jpg",
+          "time": "রাত ১:৫৮"
+        },
+        {
+          "headline": "Metro 2033 and Metro: Last Light remasters are getting free next-gen updates this month",
+          "excerpt": "Take a trip down memory lane with the first two games in the series.\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                    Deep…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2275181/metro-2033-and-metro-last-light-remasters-are-getting-free-next-gen-updates/",
+          "author": "Ian Carlos Campbell",
+          "image": "https://www.engadget.com/img/gallery/metro-2033-and-metro-last-light-remasters-are-getting-free-next-gen-updates/l-intro-1790887879.jpg",
+          "time": "রাত ২:৫২"
+        },
+        {
+          "headline": "Vivo X Fold 6 skips the wide form factor, but will launch globally with strong cameras",
+          "excerpt": "Vivo’s new X Fold 6 doesn’t join in on the wide foldable trend, but it has some pretty wild camera promises.\n\n\n\nThe Vivo X Fold 6 packs a punch with an 8.02-inch inner display, a 6.51-inch outer display, and is running on a MediaTek Dimensity 9500 Super Edition chip. That’s with 12GB or 16GB of RAM and 256GB, 512GB, or 1TB of storage.\n\n\n\nThe cameras are perhaps the biggest standout here, though,…",
+          "source": "9to5Google",
+          "link": "https://9to5google.com/2026/10/01/vivo-x-fold-6-skips-the-wide-form-factor-but-will-launch-globally-with-strong-cameras/",
+          "author": "Ben Schoon",
+          "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/10/vivo-X-Fold6-KV.jpg?quality=82&strip=all&resize=1200,628",
+          "time": "রাত ১২:৩০"
+        },
+        {
+          "headline": "Can good design stop content creators from having sex in robotaxis?",
+          "excerpt": "“You may be driving by yourself, but that’s not your classic private environment,” Rouchitsas said.\nRouchitsas said there are two prevalent use cases. The first is the content creator. “So you have OnlyFans, you have Pornhub, you have a very mature adult industry in the US. So opportunistic content creators that might perceive this Waymo or public shuttles as studios: very cheap, providing good…",
+          "source": "Ars Technica",
+          "link": "https://arstechnica.com/cars/2026/10/can-good-design-stop-content-creators-from-having-sex-in-robotaxis/",
+          "author": "Jonathan M. Gitlin",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/no-boink-taxi-1152x648.jpg",
+          "time": "রাত ১:১৯"
+        },
+        {
+          "headline": "ChatGPT can now virtually try on clothes for you",
+          "excerpt": "OpenAI is again experimenting with how its conversational AI assistant, ChatGPT, can help users as they shop online. On Thursday, the company announced the global launch of two new shopping features, including a way to virtually try on clothing and accessories and a new favoriting function that can help users save products they like for later reference.\n\nThe updates arrive at a time when AI…",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/",
+          "author": "Sarah Perez",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/Virtual-Try-On.jpg?resize=1200,675",
+          "time": "রাত ১:২১"
+        },
+        {
+          "headline": "Experience What It’s Like to Travel in the Occupied West Bank",
+          "excerpt": "WIRED West Bank Interactive",
+          "source": "Wired",
+          "link": "https://www.wired.com/story/experience-what-its-like-to-travel-in-the-occupied-west-bank/",
+          "author": "WIRED",
+          "image": "https://media.wired.com/photos/6abd2a92aa33d10785588652/191:100/w_1280,c_limit/WIRED-West-Bank-Interactive-Site-Image-Lina-Jaradat-01.jpg",
+          "time": "রাত ১২:০০"
+        },
+        {
+          "headline": "Police may have new ways to access data on locked iPhones",
+          "excerpt": "A training video reportedly demonstrates how police can evade an Apple security…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2275167/police-may-have-new-ways-to-access-data-on-locked-iphones/",
+          "author": "Anna Washenko",
+          "image": "https://www.engadget.com/img/gallery/police-may-have-new-ways-to-access-data-on-locked-iphones/l-intro-1790887323.jpg",
+          "time": "রাত ২:৪৩"
+        },
+        {
+          "headline": "Google Phone app brings back Contacts bottom bar tab",
+          "excerpt": "Last year’s Material 3 Expressive redesign of the Phone by Google app removed the Contacts tab, but it’s now coming back.\n\n\n\n\n\tThe August 2025 update simplified app navigation to Home, Keypad, and Voicemail. The Contacts tab was moved to the navigation drawer, with another access point as part of the Favorites carousel at the top of the main feed.\n\n\n\nGoogle is now reverting the main change, with…",
+          "source": "9to5Google",
+          "link": "https://9to5google.com/2026/10/01/google-phone-contacts-tab/",
+          "author": "Abner Li",
+          "image": "https://9to5google.com/wp-content/uploads/sites/4/2023/03/google-phone-logo-circle-2.jpg?quality=82&strip=all&resize=1200,628",
+          "time": "রাত ১২:১০"
+        },
+        {
+          "headline": "Marvel releases one last VisionQuest trailer",
+          "excerpt": "With its premiere just two weeks away, Marvel Studios has dropped one last trailer for the limited series, VisionQuest, which will complete the trilogy begun with WandaVision and Agatha All Along.\n(Spoilers for WandaVision and Agatha All Along below.)\nAs previously reported, Marvel’s streaming TV portfolio has kind of been all over the place: a handful of hits, a few misses, and a bunch of…",
+          "source": "Ars Technica",
+          "link": "https://arstechnica.com/culture/2026/10/marvel-releases-one-last-visionquest-trailer/",
+          "author": "Jennifer Ouellette",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/vision3-1152x638.jpg",
+          "time": "রাত ১২:০৪"
+        },
+        {
+          "headline": "Google thinks SpaceX’s Starship has to launch 1,800 times before space data centers get off the ground",
+          "excerpt": "Google’s prototype of its orbital compute satellite took off today onboard a SpaceX rocket launched from California — the first time the tech giant has sent one of its advanced chips into space.\n\nBuilt by Planet Labs, the satellite will prove that a Google Tensor Processing Unit, its competitor to Nvidia’s GPUs, can function in space. That means supplying a kilowatt of continuous power, cooling…",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/10/01/google-thinks-spacexs-starship-has-to-launch-1600-times-before-space-data-centers-get-off-the-ground/",
+          "author": "Tim Fernholz",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/DSC_0298.jpg?resize=1200,800",
+          "time": "রাত ১:১৮"
+        },
+        {
+          "headline": "Tim Heidecker Is Bringing His Joe Rogan Parody Show to The Onion",
+          "excerpt": "As satirical news outlet The Onion continued to wage a legal battle to acquire the assets of Infowars out of bankruptcy this summer, it launched a streaming program that spoofed the brand and its bellowing conspiracist ringleader, Alex Jones.Comedian Tim Heidecker took the reins of the operation, adopting Jones’ guttural and paranoid bluster as he investigated, among other unconfirmed reports,…",
+          "source": "Wired",
+          "link": "https://www.wired.com/story/tim-heidecker-is-bringing-his-joe-rogan-parody-show-to-the-onion/",
+          "author": "Miles Klee",
+          "image": "https://media.wired.com/photos/6abd5bce78587a545496eb2a/191:100/w_1280,c_limit/Tim-Heidecker-Podcast-Culture.jpg",
+          "time": "রাত ১০:০০"
+        },
+        {
+          "headline": "Pixel 11 Pro vs. iPhone 18 Pro: Copy-copy-paste or just copy-paste [Video]",
+          "excerpt": "There’s a new phone in town, and like the Pixel 11 Pro, the iPhone 18 Pro looks eerily similar to what we saw last year. What can we glean from this duo? Here’s what you need to know.\n\n\n\nSame, same, and same again\n\n\n\nIf you wanted to critique the smartphone industry in Western markets, there are no two devices more obvious to use as the basis for your argument. There is something very familiar…",
+          "source": "9to5Google",
+          "link": "https://9to5google.com/2026/10/01/pixel-11-pro-vs-iphone-18-pro/",
+          "author": "Damien Wilde",
+          "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/09/Pixel-11-Pro-and-iPhone-18-Pro-design.jpg?quality=82&strip=all&resize=1200,628",
+          "time": "রাত ১০:০০"
+        },
+        {
+          "headline": "Memory executives expect RAM shortage to continue through 2028",
+          "excerpt": "Micron and Samsung executives this week said the memory shortage will continue for at least the next couple of years.\nMicron CEO Sanjay Mehrotra expects demand for the firm’s memory to exceed its available supply over that period, he told investors last night.\nMicron no longer sells consumer RAM, and Mehrotra’s statements refer to Micron’s business-to-business sales of high-bandwidth memory…",
+          "source": "Ars Technica",
+          "link": "https://arstechnica.com/information-technology/2026/10/memory-supplies-are-only-getting-tighter-micron-ceo-says/",
+          "author": "Scharon Harding",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1723107474-1024x648.jpg",
+          "time": "রাত ১১:৪৯"
+        },
+        {
+          "headline": "World’s first enhanced geothermal power plant completed in just 23 months",
+          "excerpt": "Geothermal company Fervo Energy announced Thursday morning that it had started selling electricity from its Cape Station power plant to the grid on September 30, one day ahead of schedule.\n\nWith it, Fervo becomes the first enhanced geothermal company to reach a key commercial milestone. The power plant synchronized with the grid about a week ago, bringing online the first third of what will soon…",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/10/01/worlds-first-enhanced-geothermal-power-plant-completed-in-just-23-months/",
+          "author": "Tim De Chant",
+          "image": "https://techcrunch.com/wp-content/uploads/2025/12/fervo-geothermal-site-at-night.jpg?resize=1200,675",
+          "time": "রাত ১২:৩৫"
+        },
+        {
+          "headline": "Can VR glasses save VR?",
+          "excerpt": "I’m pretty sure I won’t be buying the $1,299 Meta VR Glasses. That’s too rich for my blood in today’s economy, and my feelings about Meta are… conflicted. But I want you to understand that Meta just changed the game. We’ve had glasses, but we’ve never had glasses like this.The Meta VR Glasses are not an opaque VR headset. They are not a pair of transparent AR glasses. They might be the best of…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/tech/1003034/meta-vr-glasses-vs-augmented-reality",
+          "author": "Sean Hollister",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/20260924_130227-EDIT.jpg?quality=90&strip=all&crop=0%2C10.704986421032%2C100%2C78.590027157936&w=1200",
+          "time": "রাত ১০:১০"
+        },
+        {
+          "headline": "The Steam Autumn Sale has deals on Resident Evil Requiem and 007 First Light",
+          "excerpt": "Bye-bye, money.\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                   …",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2274933/the-steam-autumn-sale-has-deals-on-resident-evil-requiem-and-007-first-light/",
+          "author": "Anna Washenko",
+          "image": "https://www.engadget.com/img/gallery/the-steam-autumn-sale-has-deals-on-resident-evil-requiem-and-007-first-light/l-intro-1790879663.jpg",
+          "time": "রাত ১২:৩৭"
+        },
+        {
+          "headline": "Deals: Galaxy Z Fold 8 up to $546 off, Belkin magnetic charging stations from $43, up to $1,100 off TVs, more",
+          "excerpt": "As the early fall Prime day sale at Amazon rolls alongside the deals on the Moto Tag 2 item trackers, today’s 9to5Toys Lunch Break is headlined by Galaxy Z Fold 8 up to $546 off the list prices today (Best Buy open-box), alongside a host of Belkin early fall Prime Day deals now live from $13 including 25W magnetic chargers at new all-time lows. We also have a chance to upgrade your TV ahead of…",
+          "source": "9to5Google",
+          "link": "https://9to5google.com/2026/10/01/deals-galaxy-z-fold-8-belkin-magnetic-charging-stations/",
+          "author": "Justin Kahn",
+          "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/10/9to5Google-Oct-1.webp?resize=1200,628",
+          "time": "রাত ৯:৪৭"
+        },
+        {
+          "headline": "Florida cops say they don't know who owns 11 unpermitted Flock cameras",
+          "excerpt": "For St. Lucie County residents who frequently pass the unpermitted cameras, privacy concerns remain, as the county is giving owners 30 days to remove the cameras, seemingly with no questions asked. One camera already came down, a Post reporter confirmed, after St. Lucie County’s interim administrator Mayte Santamaria explained that the county put up “bright red” notices.\nCops remain uncertain if…",
+          "source": "Ars Technica",
+          "link": "https://arstechnica.com/tech-policy/2026/10/florida-cops-say-they-dont-know-who-owns-11-unpermitted-flock-cameras/",
+          "author": "Ashley Belanger",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2264289119-1152x648-1790870168.jpg",
+          "time": "রাত ১০:৪৯"
+        },
+        {
+          "headline": "OpenAI cuts ties with 3 safety researchers, WSJ reports",
+          "excerpt": "OpenAI has parted ways with three researchers on its safety team who allegedly shared confidential company information with a third-party AI safety organization, The Wall Street Journal reported on Thursday.\n\n“We have parted ways with three individuals for violating our policies on accessing and handling sensitive company information,” an OpenAI spokesperson said in a statement to the WSJ. “Our…",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/",
+          "author": "Aditya Mehta",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/05/openai-logo-code-background.jpg?resize=1200,798",
+          "time": "রাত ১২:১৪"
+        },
+        {
+          "headline": "Microsoft’s Office and Teams chief is leaving",
+          "excerpt": "After nearly 18 years at LinkedIn and Microsoft, Ryan Roslansky is leaving the company. Roslansky, who until recently was the CEO of LinkedIn, was promoted to the head of Office last year and then took control of Microsoft Teams earlier this year. Roslansky’s departure has triggered another leadership shuffle inside Microsoft.“Ryan leaves the organization in a strong position,” says Microsoft…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/news/1003515/microsoft-ryan-roslansky-office-teams-linkedin-leaving",
+          "author": "Tom Warren",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2179776852.jpg?quality=90&strip=all&crop=0%2C10.740836125969%2C100%2C78.518327748063&w=1200",
+          "time": "রাত ১০:০২"
+        },
+        {
+          "headline": "NYC's click-to-cancel rule is now in effect to save consumers from subscription hell",
+          "excerpt": "Can the rest of the country have this please?\n            \n\n    \n                \n                \n                \n                New York City's click-to-cancel rule is now in effect, after Mayor Zohran Mamdani announced the legislation back in July. As the name suggests, this forces companies to make it much easier to cancel stuff. We've all experienced subscription traps before, in which…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2274831/nycs-click-to-cancel-rule-is-now-in-effect-to-save-consumers-from-subscription-hell/",
+          "author": "Lawrence Bonk",
+          "image": "https://www.engadget.com/img/gallery/nycs-click-to-cancel-rule-is-now-in-effect-to-save-consumers-from-subscription-hell/l-intro-1790876262.jpg",
+          "time": "রাত ১১:৪১"
+        },
+        {
+          "headline": "HP’s MacBook Neo competitor is $699 with an OLED display and plenty of catches",
+          "excerpt": "The PC market was caught flat-footed by Apple’s MacBook Neo launch earlier this year, and while that laptop’s aggressive pricing strategy has already been forced to adapt to market conditions, it’s only months later we’re seeing Windows-based rivals announce their own respective competitors. Today, it’s HP’s turn, with a brand-new OLED-equipped laptop set to start at that same $699 price point,…",
+          "source": "9to5Google",
+          "link": "https://9to5google.com/2026/10/01/hp-omnibook-5-macbook-neo-competitor-699-oled-display-plenty-of-catches/",
+          "author": "Will Sattelberg",
+          "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/10/HP_20OmniBook_205_2014_Soft_20Honey_20Dew_Front-copy.png?resize=1200,628",
+          "time": "রাত ৯:৩৬"
+        },
+        {
+          "headline": "With most information hidden, the game Stratego had stumped AI—until now",
+          "excerpt": "Deep Blue took down Garry Kasparov at chess in 1997, AlphaGo beat Lee Sedol at Go in 2016, and poker bots have been beating professionals for years. But one classic game called Stratego held out. Even DeepMind, with its exceptional budget, couldn’t build a machine that reliably beat the best human players.\nNow, a team of researchers from Carnegie Mellon, MIT, New York University, and Stanford…",
+          "source": "Ars Technica",
+          "link": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
+          "author": "Jacek Krywko",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1864707238-1152x648.jpg",
+          "time": "রাত ১০:২৮"
+        },
+        {
+          "headline": "Opus 5.5 loves to tell you ‘this matters’ (and other AI writing tells)",
+          "excerpt": "Now that LLM-generated prose is everywhere, human beings are eager for ways to sniff it out. While early tells like em-dashes and “delve” are long gone, researchers say there are still plenty of telltale habits that AI models fall back on when writing prose.\n\nA new study from the marketing firm Graphite looked at the writing habits of frontier models, sussing out each model’s favorite words and…",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/10/01/opus-5-5-loves-to-tell-you-this-matters-and-other-ai-writing-tells/",
+          "author": "Russell Brandom",
+          "image": "https://techcrunch.com/wp-content/uploads/2024/10/notebook-getty.jpg?w=1200",
+          "time": "রাত ১১:৫০"
+        },
+        {
+          "headline": "Inside Microsoft’s big Copilot rethink",
+          "excerpt": "Last week, Microsoft CEO Satya Nadella hosted an intimate, invite-only event for leaders from some of its key enterprise customers. Instead of a flashy media event, Nadella outlined the future of Copilot directly to the customers Microsoft really cares about, pitching its latest rethink of the AI assistant as the “OS for work.”Microsoft is adding coding and agent capabilities directly into…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/tech/1003365/microsoft-copilot-os-for-work-notepad",
+          "author": "Tom Warren",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Satya-Nadella-September-Copilot-Event.png?quality=90&strip=all&crop=0%2C10.889260556288%2C100%2C78.221478887424&w=1200",
+          "time": "রাত ১০:০০"
+        },
+        {
+          "headline": "Pandora claims 'we haven't made this decision lightly' after raising prices",
+          "excerpt": "The SiriusXM service joins a long list of streamers that have increased rates this…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2274733/pandora-stream-music-service-raise-prices/",
+          "author": "Alec Hively",
+          "image": "https://www.engadget.com/img/gallery/pandora-claims-we-havent-made-this-decision-lightly-after-raising-prices/l-intro-1790873607.jpg",
+          "time": "রাত ১১:১৫"
+        },
+        {
+          "headline": "Samsung officially raises Galaxy S26 prices by $100, but it hasn’t changed everywhere",
+          "excerpt": "Samsung is officially rolling out a price hike for the Galaxy S26 series, raising prices by $100 across the lineup.\n\n\n\nEffective immediately, the entire Galaxy S26 series is now $100 more expensive. Samsung had already raised prices on the base Galaxy S26 and the Galaxy S26+ compared to last year’s models, while the Ultra remained unchanged until now. \n\n\n\nThe Galaxy S26 Ultra’s 1TB version sees…",
+          "source": "9to5Google",
+          "link": "https://9to5google.com/2026/10/01/samsung-galaxy-s26-price-hike/",
+          "author": "Ben Schoon",
+          "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/02/Galaxy-S26-family-1-1.jpg?quality=82&strip=all&resize=1200,628",
+          "time": "রাত ৯:৩৫"
+        },
+        {
+          "headline": "As US relations fray, Canada gets serious about its own launch industry",
+          "excerpt": "“From a technical perspective and an infrastructure perspective, essentially 90 percent of everything you do on that light lift piece gets thrown out the window, and it’s almost like a net new program,” Kolias said. “And everyone said, if you’re not going to try to commercialize light lift, then why even do it in the first place? And that kind of hit us relatively hard.”\nSo the company set its…",
+          "source": "Ars Technica",
+          "link": "https://arstechnica.com/space/2026/10/as-us-relations-fray-canada-gets-serious-about-its-own-launch-industry/",
+          "author": "Eric Berger",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/R-2-rocket-1152x648.jpg",
+          "time": "রাত ৯:৩০"
+        },
+        {
+          "headline": "This startup wants to turn idle car inventory into rental revenue",
+          "excerpt": "When Igor Dobrianskyi looks at a car dealership lot, he sees a wasted opportunity. \n\n“Millions and millions of used cars are sitting on parking lots, depreciating and losing value,” Dobrianskyi said in a recent interview, adding that there are 76,000 dealerships in the United States. “At the same time, there are people who need a car for a few months, but the options are actually very limited…",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/10/01/this-startup-wants-to-turn-idle-car-inventory-into-rental-revenue/",
+          "author": "Kirsten Korosec",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/09/mymonthlycar-image.jpg?resize=1200,900",
+          "time": "রাত ১১:০৯"
+        },
+        {
+          "headline": "Amazon releases its own Jev clone as decision models flood the web",
+          "excerpt": "Amazon Web Services released an open source decision model inspired by TypeSafe’s Jev, with AI developers increasingly seeking intelligence that is more suited to computer automation than frontier LLMs.\n\nAmazon’s Strands Decider 2B, released the same week OpenAI announced a similar offering, is a high-speed, low-cost way to sort between pre-decided options and deliver a measure of how confident…",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/10/01/amazon-releases-its-own-jev-clone-as-decision-models-flood-the-web/",
+          "author": "Tim Fernholz",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/William_Stanley_Jevons_portrait_extract.jpg?w=726",
+          "time": "রাত ১০:৪৯"
+        },
+        {
+          "headline": "Samsung Galaxy Tab S12 Ultra vs Galaxy Tab S11 Ultra: The difference one year can make",
+          "excerpt": "An iterative upgrade once again for Samsung's laptop-sized tablet line.\n            \n\n    \n                \n                \n                \n                Holding up the newly announced Samsung Galaxy Tab S12 Ultra alongside its predecessor from last year, the Galaxy Tab S11 Ultra, you'd be hard pressed to spot a physical difference. The biggest and baddest of Samsung's Android tablets is…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2274708/samsung-galaxy-tablet-s12-ultra-vs-tab-s11-ultra-differences/",
+          "author": "Max Miller",
+          "image": "https://www.engadget.com/img/gallery/samsung-galaxy-tab-s12-ultra-vs-galaxy-tab-s11-ultra-the-difference-one-year-can-make/l-intro-1790809506.jpg",
+          "time": "রাত ১১:০০"
+        },
+        {
+          "headline": "Shopify debuts Canvas, a way to build online stores by chatting with AI",
+          "excerpt": "Shopify introduced a new site-building tool Thursday called Canvas that lets merchants set up their Shopify store by chatting with AI. While Shopify already offered a fairly capable no-code builder before Canvas, it involved editing a selected theme by rearranging modular sections and blocks. Deeper customizations, however, would require editing code or bringing in a developer.\n\nNow, with…",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/10/01/shopify-debuts-canvas-a-way-to-build-online-stores-by-chatting-with-ai/",
+          "author": "Sarah Perez",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/canvas-shopify.webp?resize=1200,517",
+          "time": "রাত ১০:৪৪"
+        },
+        {
+          "headline": "Audible thinks you want to have an AI-generated conversation with Dracula's beleaguered servant",
+          "excerpt": "The platform is rolling out \"Interactive Stories\" starting with Bram Stoker's classic.\n            \n\n    \n                \n                \n                \n                Audible just announced something called Interactive Stories, which lets listeners \"become part of the story's world.\" This is done via generative AI, so people can sort of talk to a character. The first of these experiences…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2274668/audible-thinks-you-want-to-have-an-ai-generated-conversation-with-draculas-beleaguered-servant/",
+          "author": "Lawrence Bonk",
+          "image": "https://www.engadget.com/img/gallery/audible-thinks-you-want-to-have-an-ai-generated-conversation-with-draculas-beleaguered-servant/l-intro-1790871583.jpg",
+          "time": "রাত ১০:২১"
+        },
+        {
+          "headline": "California governor vetoes bill banning use of ‘pervert glasses’ to secretly record people",
+          "excerpt": "Image Credits:David Paul Morris/Bloomberg\t\n\t\n\t\t\t\t\t\t9:35 AM PDT · October 1, 2026\t\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\nCalifornia Governor Gavin Newsom has used his veto authority to send a bill passed by the state’s legislature back to lawmakers, which would have made it unlawful to secretly record people with wearable recording devices.\n\nNewsom said in a letter to lawmakers on Wednesday that he declined to sign the…",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/10/01/california-governor-vetoes-bill-banning-use-of-pervert-glasses-to-secretly-record-people/",
+          "author": "Zack Whittaker",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/09/zuck-glasses-2173579471-e1788354102893.jpg?resize=1200,761",
+          "time": "রাত ১০:৩৫"
+        },
+        {
+          "headline": "Engadget's best of 2026",
+          "excerpt": "The highest-rated devices that we reviewed this year in a variety of…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2274600/engadgets-best-of-2026/",
+          "author": "Billy Steele",
+          "image": "https://www.engadget.com/img/gallery/engadgets-best-of-2026/l-intro-1790863131.jpg",
+          "time": "রাত ১০:০০"
+        },
+        {
+          "headline": "One year later, Tesla and Musk still don’t have a good definition of ‘abundance’",
+          "excerpt": "On September 1, 2025, Elon Musk laid out his fourth “Master Plan” for Tesla, which was immediately criticized by some of his most ardent fans for being generic. Musk agreed and promised to add more specifics.\n\nThey never came. But that hasn’t stopped Musk and other Tesla executives from spending much of the past year promising that the company’s many futuristic efforts — robotaxis, robots, AI —…",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/10/01/one-year-later-tesla-and-musk-are-still-dont-have-a-good-definition-of-abundance/",
+          "author": "Sean O'Kane",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/01/elon-tesla-getty.jpg?resize=1200,799",
+          "time": "রাত ৯:৫০"
+        },
+        {
+          "headline": "Samsung suddenly jacks up the prices of Galaxy S26 phones",
+          "excerpt": "Most got a $100 increase while the 1TB Galaxy S26 Ultra jumped up by $200 to…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2274612/samsung-suddenly-jacks-up-the-prices-of-galaxy-s26-phones/",
+          "author": "Kris Holt",
+          "image": "https://www.engadget.com/img/gallery/samsung-suddenly-jacks-up-the-prices-of-galaxy-s26-phones/l-intro-1790869985.jpg",
+          "time": "রাত ৯:৫৩"
+        },
+        {
+          "headline": "Ubuntu 26.10 Beta released with Linux 7.3 & GNOME 51",
+          "excerpt": "The beta release of Ubuntu 26.10 (Stonking Stringray) is now available for download – a week later than planned.\n\n\n\nUbuntu 26.10 Beta runs on the Linux 7.3 kernel (release candidate) and ships the GNOME 51 desktop. Lower-level changes include a complete set of Rust core utilities and better handling of low-memory situations.\n\n\n\nBeta builds are not final or stable, but generally more reliable…",
+          "source": "omg! ubuntu",
+          "link": "https://www.omgubuntu.co.uk/2026/10/ubuntu-2610-beta-released",
+          "author": "Joey Sneddon",
+          "image": "https://www.omgubuntu.co.uk/wp-content/uploads/2026/09/stonking-stingray.webp",
+          "time": "রাত ১:১০"
+        },
+        {
+          "headline": "YT-DLP is Being Treated as a Piracy Tool By The IFPI",
+          "excerpt": "yt-dlp has over 195,000 stars on GitHub, supports thousands of platforms, and is actively maintained by a global developer community. Unfortunately, the IFPI would like to see it on the EU's piracy watchlist.Just so you know, the International Federation of the Phonographic Industry (IFPI) represents around 8,000 music labels across 70 countries.In its submission to the EU's Counterfeit and…",
+          "source": "It's FOSS",
+          "link": "https://feed.itsfoss.com/link/24361/17483251/yt-dlp-ifpi-piracy-watchlist",
+          "author": "Sourav Rudra",
+          "image": "https://itsfoss.com/content/images/2026/10/yt-dlp-ifpi-banner.png",
+          "time": "রাত ৯:২৫"
+        },
+        {
+          "headline": "Ubuntu 26.10 ships with Rust-based OpenPGP tooling",
+          "excerpt": "Ubuntu 26.10 ships with a Rust-based OpenPGP implementation ahead of plans to phase out GnuPG in a future release.\n\n\n\nSequoia PGP is included in the default seed (i.e., preinstalled) for the ‘Stonking Stingray’, and Canonical has moved the rust-sequoia-sq package to the main repo in order to provide official support for it.\n\n\n\nBut it won’t be the distribution’s default OpenPGP toolchain – not…",
+          "source": "omg! ubuntu",
+          "link": "https://www.omgubuntu.co.uk/2026/10/ubuntu-rust-pgp-sq",
+          "author": "Joey Sneddon",
+          "image": "https://www.omgubuntu.co.uk/wp-content/uploads/2025/05/ubuntu-rust.jpg",
+          "time": "রাত ৯:২৪"
+        },
+        {
+          "headline": "Mesa Drops Its Poorly Maintained & Rarely Used Direct3D 10 User-Mode Driver",
+          "excerpt": "Back in 2021 the Direct3D 10 User-Mode Driver \"d3d10umd\" was introduced as a new Gallium3D state tracker to work as a Windows WDDM UMD driver similar to Windows WARP while leveraging LLVMpipe for better performance. Now five years later the poorly maintained code is removed from the Mesa codebase.\n\nThis d3d10umd code is similar to Windows' WARP rasterizer but leveraging Mesa/s LLVMpipe in its…",
+          "source": "Phoronix",
+          "link": "https://www.phoronix.com/news/Mesa-Drops-Direct3D-10-UMD",
+          "author": "Written by Michael Larabel in Mesa on 1 October 2026 at 04:00 PM EDT. Add A Comment",
+          "image": "",
+          "time": "রাত ২:০০"
+        },
+        {
+          "headline": "Nearing A 10 Second Kernel Build, Xeon 600 & Other September Excitement On Phoronix",
+          "excerpt": "During the past month on Phoronix were 284 original news articles and another 19 featured Linux hardware reviews/multi-page benchmark articles. A lot of exciting happenings both on the hardware and software fronts while October is sure to be another interesting month with the releases of Ubuntu 26.10, Fedora 45, and some more hardware fun.\n\nThanks to those in September that participated in the…",
+          "source": "Phoronix",
+          "link": "https://www.phoronix.com/news/September-2026-Highlights",
+          "author": "Written by Michael Larabel in Phoronix on 1 October 2026 at 01:07 PM EDT. Add A Comment",
+          "image": "",
+          "time": "রাত ১১:০৭"
+        }
+      ],
+      "Local": [
+        {
+          "headline": "দক্ষ মানবসম্পদ গড়ে তুলতে অগ্রাধিকারমূলক পরিকল্পনা বাস্তবায়নে কাজ করছে সরকার: মাহদী আমিন",
+          "excerpt": "বাসস ঢাকাপ্রধানমন্ত্রীর উপদেষ্টা মাহদী আমিন বৃহস্পতিবার রাজধানীর বারিধারায় ব্রিটিশ হাইকমিশনে অনুষ্ঠিত এক বৈঠকে প্রধান অতিথির বক্তব্য দেনছবি: বাসসশিক্ষা খাতের গুণগত মানোন্নয়ন এবং আধুনিক ও দক্ষ মানবসম্পদ গড়ে তুলতে সরকারের অগ্রাধিকারমূলক পরিকল্পনাগুলো কার্যকরভাবে বাস্তবায়নের ওপর গুরুত্ব দিয়েছেন প্রধানমন্ত্রীর উপদেষ্টা ও তাঁর কার্যালয়ের মুখপাত্র মাহদী আমিন।বৃহস্পতিবার রাজধানীর বারিধারায় ব্রিটিশ…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/ap9vnko263",
+          "author": "বাসস",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-01%2Fvldjicyv%2Fmahdi-amin.webp?rect=0%2C0%2C750%2C394&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "রাত ৩:০৪"
+        },
+        {
+          "headline": "হাজারীবাগে ছাদ থেকে পড়ে কেব্‌ল ব্যবসায়ী নিহত, স্বজনদের হত্যার অভিযোগ: পুলিশ",
+          "excerpt": "বিশেষ প্রতিবেদক ঢাকাহাজারীবাগছবি: গুগল ম্যাপরাজধানীর হাজারীবাগের জাফরাবাদ এলাকায় একটি ভবনের ছাদ থেকে পড়ে এক কেব্‌ল ব্যবসায়ী নিহত হয়েছেন। তাঁর নাম সালেক খান (৩৫)। বৃহস্পতিবার বিকেলে এ ঘটনা ঘটে। সালেক খান পশ্চিম ধানমন্ডিতে থাকতেন। তাঁর বাবার নাম ইদ্রিস খান। সালেক খানের মরদেহ ময়নাতদন্তের জন্য ঢাকা মেডিকেল কলেজের মর্গে পাঠানো হয়েছে বলে জানিয়েছে পুলিশ।বৃহস্পতিবার রাতে হাজারীবাগ থানার ভারপ্রাপ্ত…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/crime/4d0epfngft",
+          "author": "বিশেষ প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-01%2Fbm9y2cij%2FScreenshot-2026-10-02-025618.png?rect=0%2C0%2C1635%2C858&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "রাত ২:৫৯"
+        },
+        {
+          "headline": "ভারতীয় নাগরিক রবিউল এবার অফিশিয়াল সিক্রেটস অ্যাক্টের মামলায় ৭ দিনের রিমান্ডে",
+          "excerpt": "নিজস্ব প্রতিবেদক ঢাকাভারতীয় নাগরিক হিসেবে পরিচয় দেওয়া রবিউল ইসলাম। ২৩ সেপ্টেম্বর ২০২৬ছবি: প্রথম আলোবাংলাদেশে এসে বিদেশি গোয়েন্দা সংস্থার কাছে গুরুত্বপূর্ণ তথ্য পাচারের অভিযোগে অফিশিয়াল সিক্রেটস অ্যাক্টের মামলায় ভারতীয় নাগরিক রবিউল ইসলামের সাত দিনের রিমান্ড মঞ্জুর করেছেন আদালত। বৃহস্পতিবার ঢাকার অতিরিক্ত চিফ মেট্রোপলিটন ম্যাজিস্ট্রেট মো. সেফাতুল্লাহ শুনানি শেষে এ আদেশ দেন। রাষ্ট্রপক্ষের আইনজীবী…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/vhr5erfoll",
+          "author": "নিজস্ব প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-09-23%2F8z6lnwtr%2FArrestee-Rabiul.jpeg?rect=0%2C30%2C1599%2C839&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "রাত ২:৫০"
+        },
+        {
+          "headline": "পার্বত্য চট্টগ্রামে সেনা ক্যাম্প পরিদর্শনে\nসেনাপ্রধান",
+          "excerpt": "আজিজ হাসান ও নিজস্ব প্রতিবেদক ঢাকাসেনাপ্রধান জেনারেল ওয়াকার-উজ-জামান বৃহস্পতিবার দুর্গম পার্বত্য অঞ্চলে সেনা ক্যাম্প পরিদর্শনে রাঙামাটি সফর করেনছবি: বাংলাদেশ সেনাবাহিনীর ফেসবুক পেজ থেকে নেওয়াদুর্গম পার্বত্য অঞ্চলে সেনা ক্যাম্প পরিদর্শনে রাঙামাটি সফর করেছেন সেনাপ্রধান জেনারেল ওয়াকার-উজ-জামান। বৃহস্পতিবার রাঙামাটি অঞ্চলের বিলাইছড়ি ও কাপ্তাই জোনের সেনা ক্যাম্প পরিদর্শন করেন তিনি।সেনাপ্রধান…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/oaxiv9jz8w",
+          "author": "আজিজ হাসান, নিজস্ব প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-01%2F1mqbnl03%2FArmy-Chief-01.jpg?rect=0%2C144%2C2048%2C1075&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "রাত ২:৪৬"
+        },
+        {
+          "headline": "শৃঙ্খলা ফেরাতে কঠোর সরকার",
+          "excerpt": "স্বাস্থ্যকেন্দ্রে হামলার জের শৃঙ্খলা ফেরাতে কঠোর সরকার রাড্ডা স্বাস্থ্যকেন্দ্রে হামলার ঘটনায় প্রধানমন্ত্রীর নির্দেশের পরিপ্রেক্ষিতে পদত্যাগ করেছেন সংরক্ষিত নারী আসনের সংসদ সদস্য ফেরদৌসী আহমেদ মিষ্টি।সেলিম জাহিদ ঢাকাপ্রধানমন্ত্রীর নির্দেশের পরিপ্রেক্ষিতে পদত্যাগ করেছেন সংরক্ষিত নারী আসনের সংসদ সদস্য ফেরদৌসী আহমেদ মিষ্টিছবি: সংগৃহীতমিরপুরের বেসরকারি স্বাস্থ্যসেবা কেন্দ্র রাড্ডা গুঁড়িয়ে দেওয়ার ঘটনা…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/politics/hd3x55glj6",
+          "author": "সেলিম জাহিদ",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-01%2Fjufvzw1h%2FC01.jpg?rect=0%2C108%2C1522%2C799&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2022-01%2F5a36c819-05a2-4bfb-ac50-57dd67355acb%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "রাত ২:৩২"
+        },
+        {
+          "headline": "ভাটারা থানার মামলায় সাবেক প্রতিমন্ত্রী দীপংকর তালুকদারের জামিন বহাল, মুক্তিতে বাধা নেই",
+          "excerpt": "নিজস্ব প্রতিবেদক ঢাকাপার্বত্য চট্টগ্রামবিষয়ক সাবেক প্রতিমন্ত্রী দীপংকর তালুকদারফাইল ছবিবৈষম্যবিরোধী ছাত্র আন্দোলনের ঘটনায় রাজধানীর ভাটারা থানায় করা মামলায় পার্বত্য চট্টগ্রামবিষয়ক সাবেক প্রতিমন্ত্রী দীপংকর তালুকদারের জামিন বহাল রেখেছেন আপিল বিভাগের চেম্বার আদালত। ফলে তাঁর কারামুক্তিতে আর কোনো আইনগত বাধা নেই বলে জানিয়েছেন তাঁর আইনজীবী। ভাটারা থানার মামলায় দীপংকর তালুকদারকে হাইকোর্টের দেওয়া…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/cv9m2fjyil",
+          "author": "নিজস্ব প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-05-18%2F7roqmwm2%2FDipangkar-Talukder-01.jpeg?rect=0%2C63%2C888%2C466&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "রাত ২:১৭"
+        },
+        {
+          "headline": "নারীর প্রতি সহানুভূতি: ইসলাম কীভাবে মূল্যায়ন করে",
+          "excerpt": "ধর্ম–দর্শন নারীর প্রতি সহানুভূতি: ইসলাম কীভাবে মূল্যায়ন করেধর্ম ডেস্ক ছবি: পেক্সেলসসুদূর অতীত থেকে সমকালীন সমাজ পর্যন্ত নারীজাতি যে বঞ্চনা, অবমাননা ও শারীরিক-মানসিক নিপীড়নের মুখোমুখি হয়েছে, তা যেকোনো সচেতন হৃদয়কে গভীরভাবে আলোড়িত করে।এই বাস্তবতার মুখে দাঁড়িয়ে অনেক বিবেকবান মানুষের অন্তরে, বিশেষ করে নারীদের মধ্যে, স্বজাতির প্রতি এক গভীর সহমর্মিতা ও বিশেষ পক্ষাবলম্বন তৈরি হওয়া স্বাভাবিক।তবে একজন…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/religion/islam/szlvrch8eg",
+          "author": "ধর্ম ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-09-30%2Fj503cbp8%2Fpexels-darya-greyowl-132130036-13380608.jpg?rect=0%2C326%2C4608%2C2419&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "রাত ২:০০"
+        },
+        {
+          "headline": "বাংলাদেশের বেসরকারি বিশ্ববিদ্যালয়গুলোর মধ্যে শীর্ষ অবস্থানে এআইইউবি",
+          "excerpt": "টাইমস হায়ার এডুকেশন র‌্যাঙ্কিং বাংলাদেশের বেসরকারি বিশ্ববিদ্যালয়গুলোর মধ্যে শীর্ষ অবস্থানে এআইইউবিবিজ্ঞপ্তি আমেরিকান ইন্টারন্যাশনাল ইউনিভার্সিটি-বাংলাদেশের (এআইইউবি) ক্যাম্পাস। খিলক্ষেত, ঢাকাছবি: এআইইউবির ওয়েবসাইট থেকে নেওয়া।যুক্তরাজ্যভিত্তিক শিক্ষা সাময়িকী টাইমস হায়ার এডুকেশন (টিএইচই) প্রকাশিত ‘ওয়ার্ল্ড ইউনিভার্সিটি র‌্যাঙ্কিং ২০২৭’–এ বাংলাদেশের ২৫টি বিশ্ববিদ্যালয় স্থান পেয়েছে। এর মধ্যে দেশের…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/0zap27wtfs",
+          "author": "বিজ্ঞপ্তি",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-01%2Frxmo6xpm%2Faiub-campus.jpg?rect=230%2C0%2C2270%2C1192&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "রাত ১:৫৮"
+        },
+        {
+          "headline": "চাহিদার তুলনায় যথেষ্ট এলপিজি আমদানি হয়েছে: লোয়াব",
+          "excerpt": "নিজস্ব প্রতিবেদক ঢাকাগৃহস্থালিতে সবচেয়ে বেশি ব্যবহৃত হয় এলপিজির ১২ কেজির সিলিন্ডার। তা এখন বাড়তি দামে কিনতে হচ্ছেছবি: প্রথম আলোবাংলাদেশ এনার্জি রেগুলেটরি কমিশন (বিইআরসি) নির্ধারিত দামে তরলীকৃত পেট্রোলিয়াম গ্যাস (এলপিজি) বিক্রি নিশ্চিত করতে নির্দেশনা দিয়েছে এলপিজি অপারেটরস অ্যাসোসিয়েশন অব বাংলাদেশ (লোয়াব)। সংগঠনটি বলছে, চাহিদার তুলনায় দেশে যথেষ্ট পরিমাণ এলপিজি আমদানি হয়েছে। ফলে বাজারে কৃত্রিম…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/gm48bsl4gk",
+          "author": "নিজস্ব প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-01-21%2Fa7rwhepk%2FLPG.jpg?rect=0%2C5%2C620%2C326&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "রাত ১:৫২"
+        },
+        {
+          "headline": "ক্যানসারে আক্রান্ত কারাবন্দী সাংবাদিক মোজাম্মেল বাবুর স্বাস্থ্য পরীক্ষা চেয়ে ট্রাইব্যুনালে আবেদন",
+          "excerpt": "নিজস্ব প্রতিবেদক ঢাকামোজাম্মেল বাবুছবি : সংগৃহীতমানবতাবিরোধী অপরাধের মামলায় কারাবন্দী একাত্তর মিডিয়া লিমিটেডের সাবেক ব্যবস্থাপনা পরিচালক মোজাম্মেল হক বাবুর স্বাস্থ্য পরীক্ষার জন্য আবেদন করা হয়েছে। বৃহস্পতিবার আন্তর্জাতিক অপরাধ ট্রাইব্যুনাল-২–এ আসামিপক্ষ থেকে এ আবেদন করা হয়। শুনানিতে আসামিপক্ষের আইনজীবী এ বি এম হামিদুল মেজবাহ বলেন, মোজাম্মেল বাবু প্রোস্টেট ক্যানসারে আক্রান্ত। ২০২৩ সালে তাঁর…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/tbvcxoyj4u",
+          "author": "নিজস্ব প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2024-10-15%2F17hzid08%2F%E0%A6%AE%E0%A7%8B%E0%A6%9C%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AE%E0%A7%87%E0%A6%B2-%E0%A6%AC%E0%A6%BE%E0%A6%AC%E0%A7%81%E2%80%94-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%82%E0%A6%95-%E0%A6%B9%E0%A6%BF%E0%A6%B8%E0%A6%BE%E0%A6%AC-%E0%A6%9C%E0%A6%AC%E0%A7%8D%E0%A6%A6.jpg?rect=0%2C9%2C436%2C229&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "রাত ১:৪৮"
+        },
+        {
+          "headline": "মা তো নেই, এখন আপনাদেরই উচিত আমাকে দেখে রাখা, ফুলগাজীতে প্রধানমন্ত্রী তারেক রহমান",
+          "excerpt": "প্রতিনিধি ফেনীপ্রধানমন্ত্রীর তারেক রহমান সুবিধাভোগীদের মধ্যে ফ্যামিলি কার্ড, কৃষক কার্ড ও সম্মানী ভাতা প্রদান শেষে নানারবাড়ি এলাকার মানুষের সঙ্গে মতবিনিময়ের সময় বক্তব্য দেন।  বৃহস্পতিবার বিকেলে ফুলগাজী পাইলট উচ্চ বিদ্যালয় মাঠে তোলাছবি : বিএনপির মিডিয়া সেলের সৌজন্যেপ্রধানমন্ত্রী তারেক রহমান বলেন, ‘বহু বছর পর আমি এখানে (ফুলগাজী) এসেছি, আজ বেশি বক্তব্য রাখব না। নানার বাড়ির পরিবারে মানুষের সাথে,…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/district/jyv3o87nub",
+          "author": "প্রতিনিধি",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-01%2Fbzeyxns1%2FWhatsApp-Image-2026-10-02-at-12.29.41-AM.jpeg?rect=0%2C0%2C1040%2C546&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "রাত ১:৪০"
+        },
+        {
+          "headline": "এশিয়ান ডুপ্লেক্স টাউন: জীবনের নতুন সংজ্ঞায় এক অভিজাত ঠিকানা",
+          "excerpt": "বিজ্ঞাপন বার্তা এশিয়ান ডুপ্লেক্স টাউন এমন ভাবনাকে ধারণ করে, যেখানে প্রতিটি সকাল হতে পারে নতুন করে বাঁচার অনুপ্রেরণাছবি: এশিয়ান ডুপ্লেক্স টাউনের সৌজন্যেজীবনযাপনের মান কেবল একটি ঠিকানায় নির্ধারিত হয় না; বরং সেই ঠিকানার সঙ্গে জড়িয়ে থাকে মানুষের রুচি, স্বপ্ন ও আগামী প্রজন্মের জন্য রেখে যাওয়া গল্প। শহরের ব্যস্ততা থেকে একটু দূরে, প্রকৃতির প্রশান্তির মধ্যে আধুনিক জীবনযাপনের এক পরিশীলিত অভিজ্ঞতা—এমনই এক…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/business/6x0bcrtl8k",
+          "author": "বিজ্ঞাপন বার্তা",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-01%2Fzribivnu%2FAsian-DulexONlineAbashonMela.jpg?rect=0%2C114%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "রাত ১:২৭"
+        },
+        {
+          "headline": "তথ্য অধিকার আইন বিষয়ে জানে মাত্র ১০.৫% মানুষ",
+          "excerpt": "জরিপের তথ্য তথ্য অধিকার আইন বিষয়ে জানে মাত্র ১০.৫% মানুষনিজস্ব প্রতিবেদক ঢাকাদেশে তথ্য অধিকার আইন সম্পর্কে জানেন, এমন নাগরিকের হার সাড়ে ১০ শতাংশ। ২০১৯ সালে এ হার ছিল ৭ দশমিক ৭ শতাংশ। আইন সম্পর্কে সচেতনতা কিছুটা বাড়লেও তথ্য চেয়ে আবেদন করেছেন, এমন মানুষের হার খুবই কম।তথ্য অধিকার নিয়ে একটি জাতীয় জরিপে এ চিত্র উঠে এসেছে। সাংবাদিকতার মানোন্নয়নে কাজ করা বেসরকারি প্রতিষ্ঠান মিডিয়া রিসোর্সেস ডেভেলপমেন্ট…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/avovm11a5u",
+          "author": "নিজস্ব প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-01%2Fqkyogxnu%2FScreenshot-2026-10-02-011249.jpg?rect=0%2C32%2C604%2C317&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "রাত ১:১৫"
+        },
+        {
+          "headline": "দুটি রাজনৈতিক দল একই বিষয়কে ভিন্নভাবে চিহ্নিত করেছে: অ্যাটর্নি জেনারেল",
+          "excerpt": "মিষ্টির পদত্যাগ, গাজী নজরুল এমপি  দুটি রাজনৈতিক দল একই বিষয়কে ভিন্নভাবে চিহ্নিত করেছে: অ্যাটর্নি জেনারেলনিজস্ব প্রতিবেদক ঢাকাঅ্যাটর্নি জেনারেল মো. রুহুল কুদ্দুস কাজলফাইল ছবি: বাসসের সৌজন্যেজামায়াত থেকে নির্বাচিত সংসদ সদস্য গাজী নজরুল ইসলামকে দলটি বহিষ্কার করলেও তিনি পদত্যাগ করেননি। বিপরীতে প্রধানমন্ত্রীর অবস্থানের কারণে বিএনপির একজন সংসদ সদস্য পদ হারিয়েছেন। একই যাত্রায় দুটি রাজনৈতিক দল একই…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/politics/z8wus72yff",
+          "author": "নিজস্ব প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-09-18%2Fyyjd54o4%2FUntitled-4.jpg?rect=0%2C0%2C750%2C394&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2022-01%2F5a36c819-05a2-4bfb-ac50-57dd67355acb%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "রাত ১২:২৬"
+        },
+        {
+          "headline": "ফতুল্লায় মাদ্রাসার ছাদে বিদ্যুৎস্পৃষ্টের ঘটনায় তিন দিনে তিন কিশোরীর মৃত্যু",
+          "excerpt": "প্রতিনিধি নারায়ণগঞ্জবিদ্যুৎস্পৃষ্টপ্রতীকী ছবিনারায়ণগঞ্জ সদর উপজেলার ফতুল্লায় মাদ্রাসার ছাদে খেলতে গিয়ে বিদ্যুৎস্পৃষ্টে দগ্ধ পাঁচ কিশোরীর মধ্যে আরও একজন মারা গেছে। বৃহস্পতিবার রাত পৌনে ১০টার দিকে রাজধানীর জাতীয় বার্ন ও প্লাস্টিক সার্জারি ইনস্টিটিউটে চিকিৎসাধীন অবস্থায় লামিয়া (১৩) মারা যায়। তার শরীরের ৫৫ শতাংশ দগ্ধ হয়েছিল।জাতীয় বার্ন ও প্লাস্টিক সার্জারি ইনস্টিটিউটের আবাসিক চিকিৎসক সুলতান মাহমুদ…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/miknrzkwws",
+          "author": "প্রতিনিধি",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-05-10%2F569jqddf%2Fdanger.png?rect=0%2C0%2C1672%2C878&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "রাত ১২:২০"
+        },
+        {
+          "headline": "বাংলামোটরে বহিষ্কৃত যুবদল নেতার আগ্নেয়াস্ত্রের আঘাতে ওষুধ ব্যবসায়ী আহত",
+          "excerpt": "বিশেষ প্রতিবেদক ঢাকারাজধানীর বাংলামোটরে আজ বৃহস্পতিবার রাতে বহিষ্কৃত এক যুবদল নেতা আগ্নেয়াস্ত্র দিয়ে আঘাত করে এক ওষুধ ব্যবসায়ীর মাথা ফাটিয়ে দেওয়ার পর প্রতিবাদ করেন স্থানীয় লোকজনছবি: ভিডিও থেকে নেওয়ারাজধানীর বাংলামোটরের একটি গলিতে আজ বৃহস্পতিবার সন্ধ্যায় যুবদলের বহিষ্কৃত এক নেতার আগ্নেয়াস্ত্রের আঘাতে মো. সোহান (৩৫) নামের একজন ওষুধ ব্যবসায়ী আহত হয়েছেন। তাঁকে ঢাকা মেডিকেল কলেজ হাসপাতালে চিকিৎসা…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/crime/jk9dyzejbp",
+          "author": "বিশেষ প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-01%2F12txzwi0%2F00-1.jpg?rect=0%2C12%2C1920%2C1008&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "রাত ১২:১৩"
+        }
+      ],
+      "International": [
+        {
+          "headline": "Tyson Fury vs Anthony Joshua fight confirmed, but is the bout too late?",
+          "excerpt": "When Tyson Fury was asked whether his fight against Anthony Joshua had come too late for both boxers, the Gypsy King responded: “Is it too late?… It’s the icing on the cake of two great careers.”Former heavyweight world champions Fury and ⁠⁠Joshua came face to face ⁠⁠in London on Wednesday to allay months-long fears and rumours surrounding their long-awaited fight, which has been confirmed for…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/sports/2026/10/1/tyson-fury-vs-anthony-joshua-fight-confirmed-but-is-the-bout-too-late?traffic_source=rss",
+          "author": "Antoine Allen",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/AFP__20260930__C9UU4FT__v1__HighRes__BoxHeavyGbrFuryJoshua-1790858543.jpg?resize=1920%2C1440",
+          "time": "রাত ৩:৫৪"
+        },
+        {
+          "headline": "আমি চেয়েছিলাম বলেই ইরান যুদ্ধ দীর্ঘায়িত হয়েছে: ট্রাম্প",
+          "excerpt": "সরাসরি কভারেজরিপোর্টিং করেছেন মরিয়ম সুলতানা, সম্পাদনায় ফৌজিয়া সুলতানা৬ ঘন্টা আগেবৃহস্পতিবার সারাদিন যা যা হলো:\n      প্রধানমন্ত্রী তারেক রহমানের নির্দেশের পর বাংলাদেশের জাতীয় সংসদের স্পিকারের দপ্তরে পদত্যাগপত্র জমা দিয়েছেন সংরক্ষিত নারী আসনের সংসদ সদস্য ফেরদৌসী আহমেদ মিষ্টি। তার আসনটি শূন্য ঘোষণা করা হয়েছে।\n    \n      যুক্তরাষ্ট্রের প্রেসিডেন্ট ডোনাল্ড ট্রাম্প বলেছেন, তার সিদ্ধান্তের কারণেই…",
+          "source": "BBC Bangla World",
+          "link": "https://www.bbc.co.uk/bengali/live/crgjqj8qz01vt?at_medium=RSS&at_campaign=rss",
+          "author": "BBC News বাংলা",
+          "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/fc5d/live/6a50b480-bdaa-11f1-babe-4199b0e7ccea.jpg",
+          "time": ""
+        },
+        {
+          "headline": "Flydubai co-pilot ‘assaulted’ captain before landing: Initial Saudi probe",
+          "excerpt": "Saudi Arabia’s Interior Ministry says the pilots were returned to the UAE with an Emirati security team.Saudi Arabia’s Interior Ministry says that a preliminary investigation into the emergency landing of a Flydubai flight this week found that “the pilot was assaulted by his co-pilot, resulting in various injuries to both”.the ministry said on Thursday that an initial investigation into the…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/10/1/flydubai-co-pilot-assaulted-captain-before-landing-initial-saudi-probe?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6abebf3c75ec-1790885692.jpg?resize=1920%2C1440",
+          "time": "রাত ৩:৫৩"
+        },
+        {
+          "headline": "Russia’s Putin rules out ceasefire with Ukraine during speech in Moscow",
+          "excerpt": "Putin warned the West he would deploy nuclear weapons if necessary to defend the Russian Baltic exclave of Kaliningrad.Russian President Vladimir Putin has ruled out a ceasefire on long-range strikes with Ukraine as Moscow steps up its campaign of aerial attacks on Kyiv.“We are told: ‘Let them stop striking your refineries, and you will stop striking their ships.’ It is simply ridiculous,” Putin…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/10/1/russias-putin-rules-out-ceasefire-with-ukraine-during-speech-in-moscow?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6abec0ab0d44-1790886059.jpg?resize=1920%2C1440",
+          "time": "রাত ৩:৩৩"
+        },
+        {
+          "headline": "Joy for Germany and Klopp as Ronaldo-less Portugal win in Denmark",
+          "excerpt": "Jurgen Klopp secures first win as Germany manager, while Cristiano Ronaldo’s absence is not felt by Portugal in Austria.Germany claimed a ‌first win under new coach Juergen Klopp on Thursday with a 2-0 Nations League victory ⁠over Serbia, while Portugal ⁠shrugged off the absence of Cristiano Ronaldo in Denmark and the Netherlands came from two goals down to draw 2-2 with Greece.Klopp selected a…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/sports/2026/10/1/joy-for-germany-as-ronaldo-less-portugal-win-in-denmark?traffic_source=rss",
+          "author": "By Reuters",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/GettyImages-2297563240-1790888552.jpg?resize=1200%2C675",
+          "time": "রাত ৩:২২"
+        },
+        {
+          "headline": "Protesters halt game as calls grow on Ireland to boycott second Israel game",
+          "excerpt": "Republic of Ireland’s game halted by tennis balls thrown and invader with Palestine flags amid Israel boycott demand.Protesters against Ireland playing its Nations League games against Israel interrupted the team’s match against Austria on Thursday by throwing tennis balls onto the field.Referee Allard Lindhout sent the players for a hydration break as soon as the balls bearing Palestinian flags…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/sports/2026/10/1/protesters-halt-game-as-calls-grow-on-ireland-to-boycott-second-israel-game?traffic_source=rss",
+          "author": "By The Associated Press",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/AFP__20261001__C9Z43GL__v1__MidRes__776545990-1790888081.jpg?resize=1200%2C630",
+          "time": "রাত ৩:১৪"
+        },
+        {
+          "headline": "Most Americans say US-Israel war on Iran not worth fighting: Poll",
+          "excerpt": "Nearly 70 percent of Americans say the US-Israeli war is not worth fighting, marking a significant spike since July.Approximately 70 percent of US adults in a new nationwide poll say the US-Israeli war has not been worth fighting, a five-point spike since July.“Seventy-one percent of adults disapprove of how Trump is handling Iran and 69 percent say the war in Iran has not been worth fighting,”…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/10/1/most-americans-say-us-israel-war-on-iran-not-worth-fighting-poll?traffic_source=rss",
+          "author": "By The Associated Press",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/ap_6abeadd6b69e5-1790881238.jpg?resize=1920%2C1440",
+          "time": "রাত ২:৪৯"
+        },
+        {
+          "headline": "Brazil attorney general says meddling ‘cannot be tolerated’ after Trump funding plans revealed",
+          "excerpt": "Brazil’s attorney general has said foreign meddling in his country’s institutions and democracy “cannot be tolerated” after a Guardian report revealed how the Trump administration was pushing to direct funds to a campaign against the Brazilian supreme court.Writing on X, Jorge Messias called the report “an important alert for Brazilian sovereignty”. “The information is especially serious in…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/world/2026/oct/01/brazil-attorney-general-election-meddling-trump-funding-plans",
+          "author": "Tom Phillips, Andrew Roth, Joseph Gedeon",
+          "image": "https://i.guim.co.uk/img/media/1ee7c4708c6ff1dbbdcbad5d5bbc74b0a1ed128a/0_0_3000_2400/master/3000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=f267db0e883021953c5781b44fd45ea7",
+          "time": "রাত ১২:৩৪"
+        },
+        {
+          "headline": "Funeral held for Palestinian man killed in the occupied West Bank",
+          "excerpt": "NewsFeedMourners in Salfit attend the funeral of 51-year-old Mashhour Yassin, who Palestinian officials say was shot dead by Israeli settlers in Yasuf, southwest of Nablus.Published On 1 Oct 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/10/1/funeral-held-for-palestinian-man-killed-in-the-occupied-west-bank?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/image-1790887479.jpg?resize=1920%2C1080&quality=80",
+          "time": "রাত ২:৪৫"
+        },
+        {
+          "headline": "The filmmaker taking on Kenya’s colonised tea plantations",
+          "excerpt": "NewsFeedA new investigative documentary exposes how international corporations continue to exploit and make billions from Kenya’s colonial-era tea plantations. Filmmaker Bea Wangondu hopes the film will start a conversation about de-colonisation.Published On 1 Oct 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/10/1/the-filmmaker-taking-on-kenyas-colonised-tea-plantations?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/KL_Stephen-with-mother-1790886237.jpg?resize=1920%2C1440",
+          "time": "রাত ২:২৯"
+        },
+        {
+          "headline": "ICC ends contract with French insurer amid US sanctions threat",
+          "excerpt": "ICC and Axa terminate agreement amid mounting US criticism and looming financial restrictions on the court, FT reports.The International Criminal Court (ICC) has ended its contract with the French health and life insurer Axa effective immediately and will be moving to use another insurance provider.The change, which was first reported by the Financial Times on Thursday, comes as United States…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/economy/2026/10/1/icc-ends-contract-with-french-insurer-amid-us-sanctions-threat?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/ap_6abeaf0ee8d20-1790881550.jpg?resize=1920%2C1440",
+          "time": "রাত ২:২০"
+        },
+        {
+          "headline": "Eritrea severs diplomatic ties with Ethiopia in tit-for-tat move",
+          "excerpt": "Ethiopia says it will shut its embassy in Asmara, declares 10 Eritrean diplomats persona non grata.Eritrea says it is breaking diplomatic ties with its neighbour Ethiopia in response to the expulsion of diplomats from Addis Ababa, as fighting between Ethiopia’s federal forces and a coalition of armed opposition groups intensifies.“Eritrea has no option but to reciprocate in kind and sever all…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/10/1/eritrea-severs-diplomatic-ties-with-ethiopia-in-tit-for-tat-move?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2018/07/7d54d39770de453b9271159597f66533_18.jpeg?resize=1200%2C675",
+          "time": "রাত ২:১০"
+        },
+        {
+          "headline": "Manchester City breaches need tax implication answers, UK Parliament told",
+          "excerpt": "His Majesty’s Revenues and Customs (HMRC) has been contacted in United Kingdom over Man City financial breaches.The fallout from the Manchester City case reached the United Kingdom Parliament on Thursday, with ⁠⁠the Treasury Committee chair asking Britain’s tax authority to report on measures taken in response to the Premier League’s findings.The request comes after the Premier League said…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/sports/2026/10/1/uk-parliament-told-tax-implication-answers-needed-in-manchester-city-ruling?traffic_source=rss",
+          "author": "By Reuters",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/2026-09-30T193557Z_2070418827_RC2STNADQE21_RTRMADP_3_SOCCER-ENGLAND-MCI-1790878255.jpg?resize=1920%2C1440",
+          "time": "রাত ২:০৮"
+        },
+        {
+          "headline": "Syria denies officials held ‘secret’ talks with Hezbollah in Turkiye",
+          "excerpt": "Six sources from Syria, the US and Lebanon told Reuters news agency the reported meeting aimed to calm tensions.Syria’s Ministry of Information has denied reports that government representatives have held direct talks with Hezbollah in Turkiye.Reuters news agency said that Syrian officials and the Iran-aligned group met secretly in September. Reuters said they spoke to six sources, including two…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/10/1/syria-denies-officials-held-secret-talks-with-hezbollah-in-turkiye?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/ap_6abe74a056d4b-1790866592.jpg?resize=1920%2C1440",
+          "time": "রাত ২:০২"
+        },
+        {
+          "headline": "Who is Capt. Smit, Machchhar, the pilot of the Flydubai flight?",
+          "excerpt": "NewsFeedCaptain Smit Machchhar from India is recovering from stab wounds officials say he suffered when his co-pilot attacked him on an Israel-bound FlyDubai flight from the UAE. Here is what we know about Machchhar.Published On 1 Oct 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/10/1/who-is-capt-smit-machchhar-the-pilot-of-the-flydubai-flight?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/image-1790884423.jpg?resize=1920%2C1080&quality=80",
+          "time": "রাত ১:৫৪"
+        },
+        {
+          "headline": "Cornell rape allegations renew push to change New York sexual assault law",
+          "excerpt": "New York lawmakers are renewing a push to change the state’s sexual assault laws after prosecutors in the United States said the current rules made it difficult to bring charges for an alleged gang rape at a Cornell University fraternity house.At issue is whether someone who willingly becomes intoxicated can be considered mentally incapacitated and therefore unable to consent to sex.Recommended…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/editorial/2026/10/1/cornell-rape-allegations-renew-push-to-change-new-york-sexual-assault-law?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6abea6db2baf-1790879451.jpg?resize=1920%2C1440",
+          "time": "রাত ১:৪৭"
+        },
+        {
+          "headline": "যুক্তরাষ্ট্রে নিত্যপণ্যের বাড়তি দামের জন্য ট্রাম্পকে দায়ী করছেন বেশির ভাগ নাগরিক",
+          "excerpt": "এপি-এনওআরসির জরিপ যুক্তরাষ্ট্রে নিত্যপণ্যের বাড়তি দামের জন্য ট্রাম্পকে দায়ী করছেন বেশির ভাগ নাগরিকএপি মার্কিন প্রেসিডেন্ট ডোনাল্ড ট্রাম্পফাইল ছবি: এএফপিযুক্তরাষ্ট্রে নিত্যপণ্যের উচ্চমূল্যের জন্য প্রেসিডেন্ট ডোনাল্ড ট্রাম্পকে দায়ী করেছেন দেশটির অধিকাংশ নাগরিক। অন্যদিকে জীবনযাত্রার ব্যয় নিয়ন্ত্রণে ট্রাম্পের ভূমিকার প্রতি সমর্থন জানিয়েছেন প্রতি ১০ জনের মাত্র ২ জন। এপি-এনওআরসি সেন্টার ফর পাবলিক…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/world/usa/5wjphqoruc",
+          "author": "এপি",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-09-28%2Fl3gcrkxw%2FDonald-Trump.jpg?rect=0%2C0%2C770%2C404&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-09-22%2F5lwyn5je%2Fdefaultog.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "রাত ১:৩৩"
+        },
+        {
+          "headline": "What’s driving Israeli settler violence in the occupied West Bank?",
+          "excerpt": "Inside StoryAttacks on Palestinians in the area are growing at unprecedented levels.Israeli settlements in the occupied Palestinian territory are illegal under international law, but Prime Minister Benjamin Netanyahu’s government has approved plans to expand settlements in the occupied West Bank.The expansion is taking place alongside unprecedented levels of anti-Palestinian pogroms carried out…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/inside-story/2026/10/1/whats-driving-israeli-settler-violence-in-the-occupied-west-bank?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/getty_6abeb14438-1790882116.jpg?resize=1920%2C1440",
+          "time": "রাত ১:৪৫"
+        },
+        {
+          "headline": "After Red Sea losses, Yemen’s government forces hold the line",
+          "excerpt": "Air strikes and difficult terrain have so far prevented the Houthis from turning coastal gains into a wider breakthroughYemen’s Houthi rebels conducted intense attacks across frontlines in Taiz governorate on Thursday, as the Iran-allied group attempts to build on its lighting offensive that captured the country’s Red Sea coast last month.Thus far, Yemeni government forces have been able to hold…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/10/1/after-red-sea-losses-yemens-government-forces-hold-the-line?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6abea14411aa-1790878020.jpg?resize=1200%2C675",
+          "time": "রাত ১:০৫"
+        },
+        {
+          "headline": "Australia news live: eSafety warns online gaming can cause ‘serious harms’ to children; Atlassian to power solar farm",
+          "excerpt": "Key events4m agoeSafety commissioner says ‘it’s probably time for new leadership’ after 10 years in role2h agoOnline gaming 'shortcomings' put children at risk, eSafety report findseSafety commissioner says ‘it’s probably time for new leadership’ after 10 years in roleJulie Inman-Grant, the eSafety commissioner, confirmed this morning “it’s probably time for new leadership” at the body after…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/australia-news/live/2026/oct/02/labor-anthony-albanese-online-gaming-esafety-coalition-angus-taylor-greens-david-shoebridge-ntwnfb",
+          "author": "Nick Visser, Sarah Basford Canales, Martin Farrer",
+          "image": "https://i.guim.co.uk/img/media/a10d2e80a23093a5ef272742ca7f57bbaf468d26/241_0_4834_3865/master/4834.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=d9b6fefd25d626d02e3a8f6d9e47ff24",
+          "time": "রাত ৩:৫৮"
+        },
+        {
+          "headline": "Saudi-led coalition says power station attacked in Medina, blames Houthis",
+          "excerpt": "At the same time in Yemen, the Saudi-backed government army says it is inflicting heavy losses on the Houthis in Taiz.The Saudi-led alliance fighting Yemen’s Houthis has accused the Iran-aligned group of attacking an electricity facility in the Muslim holy city of Medina in Saudi Arabia this week, a claim the Houthis deny.Meanwhile in Yemen on Thursday, Saudi-backed government forces said they…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/10/1/saudi-led-coalition-says-power-station-attacked-in-medina-blames-houthis?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/reuters_6abe7e19-1790869017.jpg?resize=1920%2C1440",
+          "time": "রাত ১:০৩"
+        },
+        {
+          "headline": "Canada to fast track oil pipeline meant to diversify economy away from US",
+          "excerpt": "Carney declared the pipeline a project of national interest, smoothening its way to a single federal regulatory review process.Canada will fast track the approval process for a new proposed crude oil export pipeline to its west coast that could generate billions in revenue and boost economic growth, Prime Minister Mark Carney has said.Carney made the announcement on Thursday to fast-track the…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/economy/2026/10/1/canada-to-fast-track-oil-pipeline-meant-to-diversify-economy-away-from-us?traffic_source=rss",
+          "author": "By AP and Reuters",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/reuters_6aa72f15-1789341461.jpg?resize=1920%2C1440",
+          "time": "রাত ১২:৫৬"
+        },
+        {
+          "headline": "School protests spread as fires, blockades deepen unrest in France",
+          "excerpt": "Police have detained hundreds as students protest overcrowded classrooms, teacher shortages and crumbling facilities.French students have set fire to bins and erected blockades outside schools in several cities, protesting overcrowded classrooms, teacher shortages and crumbling facilities.Several school principals were injured, harassed or assaulted during blockades at high schools on Thursday,…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/10/1/school-protests-spread-as-fires-blockades-deepen-unrest-in-france?traffic_source=rss",
+          "author": "By AFP, AP and Reuters",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/getty_6abe6b3fc6-1790864191.jpg?resize=1920%2C1440",
+          "time": "রাত ১২:১৮"
+        },
+        {
+          "headline": "Palestinian children in Israeli military detention",
+          "excerpt": "NewsFeedIsrael imprisons hundreds of Palestinian children at a time, holding them indefinitely in military detention systems that traumatise the children. Their suffering was discussed during an event on the sidelines of the UN General Assembly High-Level Week.Published On 1 Oct 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/10/1/palestinian-children-in-israeli-military-detention?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/image-1790876664.jpg?resize=1920%2C1080&quality=80",
+          "time": "রাত ১১:৪৪"
+        },
+        {
+          "headline": "US Supreme Court agrees to take up Trump’s ICE detention policy",
+          "excerpt": "The case is the latest dispute over US President Donald Trump’s sweeping immigration crackdown.The United States Supreme Court has agreed to hear a case focused on the Trump administration’s policy requiring millions of undocumented immigrants to remain in detention while they fight deportation.The case, accepted on Thursday by the justices, is the latest dispute over US President Donald Trump’s…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/10/1/us-supreme-court-agrees-to-take-up-trumps-ice-detention-policy?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/06/reuters_6a43ed6e-1782836590.jpg?resize=1920%2C1440",
+          "time": "রাত ১১:৩৫"
+        },
+        {
+          "headline": "France school protests escalate into ‘urban violence’ as PM calls crisis cabinet meeting",
+          "excerpt": "A fast-growing protest by high-school students over long hours, teacher shortages and decaying facilities has escalated into “urban violence”, the French government has warned, as it said many schools would switch to online classes to protect teachers and pupils.The prime minister, Sébastien Lecornu, called a crisis cabinet meeting on Thursday and told ministers to cancel travel plans to deal…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/world/2026/oct/01/france-school-protests-escalate-pm-crisis-cabinet-meeting",
+          "author": "Jon Henley",
+          "image": "https://i.guim.co.uk/img/media/9925d611589edad804a67dea6d8f1b8be621b9d4/742_0_3516_2813/master/3516.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=4d70702f947bf8803d20de0e9539ee64",
+          "time": "রাত ১১:৫২"
+        },
+        {
+          "headline": "Renee Good’s family sues Trump administration over fatal ICE shooting",
+          "excerpt": "Lawsuits accuse Trump officials of recklessness and civil rights violations in Renee Good’s fatal Minneapolis shooting.The family of Renee Good, one of two US citizens fatally shot by federal immigration agents in the state of Minnesota, has sued the government over her killing during a sweeping immigrant deportation blitz in January.The two lawsuits – filed on Thursday by Good’s partner, Becca…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/10/1/renee-goods-family-sues-trump-administration-over-fatal-ice-shooting?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/ap_6abe8b737b396-1790872435.jpg?resize=1920%2C1440",
+          "time": "রাত ১১:২৮"
+        },
+        {
+          "headline": "Britain in talks with European allies over release of emergency diesel stockpiles",
+          "excerpt": "Britain is in talks with European allies over releasing emergency diesel stockpiles after Donald Trump threatened to cut off US supplies of the fuel.Ministers held calls with counterparts from the European Commission, Germany, France, Italy and Ireland on Thursday to discuss whether to draw down reserves after the Trump administration told Germany and France to release their stockpiles to help…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/business/2026/oct/01/britain-talks-european-allies-eu-emergency-diesel-stockpiles-reserves",
+          "author": "Alex Daniel",
+          "image": "https://i.guim.co.uk/img/media/71e979c49e304e903fd88c02281bcac25656bec2/438_0_3961_3167/master/3961.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ffa32c24bd05ac4275ef89e6b1acd725",
+          "time": "রাত ১০:৪৯"
+        },
+        {
+          "headline": "Despite praise and White House visits, Trump avoids endorsing Netanyahu",
+          "excerpt": "In a Time interview, Trump avoids directly endorsing Netanyahu but defends him over reports of warnings before October 7 attacks.United States President Donald Trump has avoided directly endorsing Benjamin Netanyahu in an interview ahead of Israel’s upcoming elections, despite repeatedly heaping praise – and White House visits – on the Israeli prime minister.Trump thrice avoided making an…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/10/1/despite-praise-and-white-house-visits-trump-avoids-endorsing-netanyahu?traffic_source=rss",
+          "author": "Joseph Stepansky",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/getty_6abe826f81-1790870127.jpg?resize=1920%2C1440",
+          "time": "রাত ১১:২৩"
+        },
+        {
+          "headline": "Putin says ‘all weapons at disposal’ if there’s an attack on Russia – as it happened",
+          "excerpt": "From 5h agoRussia's Putin confirms 'all weapons at disposal' in case of attack on Russia, but says it would not attack firstIn the Q&A after his speech, Russia’s Putin also got asked about Moscow’s widely reported nuclear threat over Kaliningrad (Europe Live, yesterday).Russian president Vladimir Putin attends a plenary session of the 23d annual meeting of the Valdai Discussion Club in Moscow,…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/world/live/2026/oct/01/europe-latest-news-updates-russia-strikes-ukraine-nato",
+          "author": "Jakub Krupa, Martin Belam, Kate Connolly, Dan Sabbagh",
+          "image": "https://i.guim.co.uk/img/media/31abd5f6af5b2e4b512b116412cb87f39d023c5f/380_0_2210_1768/master/2210.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=4cfaf25b11ddf8bbb4f8166aeb986b54",
+          "time": "রাত ১০:৩৮"
+        },
+        {
+          "headline": "Death penalty bill for forest arsonists clears Algeria lower house",
+          "excerpt": "Human rights organisations accused Algiers of using the law to target political opposition groups.The Algerian lower house has adopted a law that would allow the death penalty for those convicted of arson, after deadly wildfires have swept through the country’s forests.Members of the National People’s Assembly (APN) in parliament voted Thursday to amend the country’s penal code to allow the…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/10/1/death-penalty-bill-for-forest-arsonists-clears-algeria-lower-house?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/2025-08-19T182134Z_2013025311_RC28AGANGFFH_RTRMADP_3_ALGERIA-WEATHER-WILDFIRE-1790867405.jpg?resize=1920%2C1440",
+          "time": "রাত ১১:১৮"
+        },
+        {
+          "headline": "How AI is reshaping everyday life in China",
+          "excerpt": "NewsFeedFrom robot baristas to AI-powered transport, healthcare and education, artificial intelligence is increasingly embedded in daily life across China.Published On 1 Oct 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/10/1/how-ai-is-reshaping-everyday-life-in-china?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/image-1790874736.jpg?resize=1920%2C1080&quality=80",
+          "time": "রাত ১১:১২"
+        },
+        {
+          "headline": "NAZA film-makers say they spoke to more than 100 sources about Israeli actions in Gaza",
+          "excerpt": "The team behind the award-winning film NAZA, which details the Israeli military’s targeting policies in Gaza and its alleged acceptance of high numbers of civilian deaths, have revealed they spoke to more than 100 sources with knowledge of the military systems used in the war.The disclosure came in response to an Israel Defense Forces statement seeking to discredit the documentary.In its…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/film/2026/oct/01/makers-naza-film-spoke-more-than-100-sources-israeli-actions-gaza",
+          "author": "Peter Beaumont",
+          "image": "https://i.guim.co.uk/img/media/3fa7c1678f5a6282da9f66019bda1865327570a9/253_73_2515_2012/master/2515.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=1f3d00e140f734806ed90009d8449678",
+          "time": "রাত ১১:৪৫"
+        },
+        {
+          "headline": "Co-pilot in flight stabbing had ‘Islamic radical indoctrination’, says Netanyahu",
+          "excerpt": "The Omani co-pilot who stabbed his captain in an apparent attempt to crash an Israel-bound flight from Dubai had previously undergone radical Islamist indoctrination and was suicidal, Israel’s prime minister, Benjamin Netanyahu, has claimed.Israeli passengers intervened to stop the attack on Wednesday, restraining the co-pilot, while a reserve crew in the plane was able to stabilise the…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/world/2026/oct/01/netanyahu-flydubai-halts-all-flights-to-israel",
+          "author": "William Christou, Jonathan Yerushalmy",
+          "image": "https://i.guim.co.uk/img/media/1a8408490abd4535d23dfe41b35fde19bd8e6767/603_706_3930_3144/master/3930.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=a32f8c7ab35d65c672ae2f56350ebe59",
+          "time": "রাত ১০:০৪"
+        },
+        {
+          "headline": "Crude oil exports from strait of Hormuz largely return to pre-war levels",
+          "excerpt": "Exports of crude from the strait of Hormuz have largely returned to levels seen before the outbreak of the Iran war, as oil producers and the shipping industry have found alternative ways of transporting crucial fuel out of the Middle East.Pipeline exports and ship-to-ship transfers are among the methods being used, according to analysts tracking the situation, while the US military continues to…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/business/2026/oct/01/crude-oil-exports-strait-of-hormuz-transport-gulf-region-diesel",
+          "author": "Joanna Partridge",
+          "image": "https://i.guim.co.uk/img/media/e4042e8b36ddea01b752ce79d617e7a4b1705daa/534_0_3634_2909/master/3634.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=9a255bbcd05c42ccd8daafef9b2dbb5e",
+          "time": "রাত ৯:৫২"
+        },
+        {
+          "headline": "UK airlines to be banned from charging parents to sit with children",
+          "excerpt": "Airlines will be blocked from charging parents extra to sit with their children on planes, according to government plans.The new rule would require airlines to seat passengers aged under 14 next to their parents or an accompanying adult free of charge. Passengers will also no longer need to pay to tweak the name on their flight booking if they need to correct a mistake.It is understood that…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/business/2026/oct/01/uk-airlines-to-be-banned-from-charging-parents-to-sit-with-children",
+          "author": "Nadeem Badshah",
+          "image": "https://i.guim.co.uk/img/media/074293f11ffb36ff8b78cdb2c52fa28c0722bd33/709_0_5600_4480/master/5600.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=7b4723bad3edfc254595b3bd0a601f30",
+          "time": "রাত ৩:৪১"
+        },
+        {
+          "headline": "How success of Manchester City helped put Andy Burnham in power",
+          "excerpt": "In July 2016, the Manchester City player Yaya Touré ambled into a small bar near Beijing’s Workers’ Stadium and offered a bemused smile as dozens of Chinese fans rushed towards him.Manchester City had just won their sixth trophy under the big-spending ownership of Sheikh Mansour’s Abu Dhabi United Group and the blues were international megastars. They were also magnets for investment.On a trade…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/politics/2026/oct/01/success-manchester-city-helped-put-andy-burnham-in-power",
+          "author": "Josh Halliday",
+          "image": "https://i.guim.co.uk/img/media/5b68776fcac2fe47004f94d146159b4869daf3d3/420_0_4200_3360/master/4200.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=e0f08f4bb28c5e22e3c0a97b406c4777",
+          "time": "রাত ১২:৫৩"
+        },
+        {
+          "headline": "Key disability benefit for young people may be axed under major welfare changes",
+          "excerpt": "Ministers are working up sweeping plans for welfare changes including scrapping a key disability benefit for under-25s and replacing it with a multibillion-pound package of support to get into work, the Guardian has learned.Whitehall sources said the package of changes under debate was much bigger than previously thought, as Andy Burnham’s government hopes to persuade more people on benefits…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/politics/2026/oct/01/welfare-changes-under-debate-disability-benefit-young-people-uk",
+          "author": "Rowena Mason, Pippa Crerar, Patrick Butler",
+          "image": "https://i.guim.co.uk/img/media/c043db33bd007fcda446ae0409f10b6d5d177cc4/0_0_6439_5152/master/6439.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=9891107b71ac48d31f292df9edb3f520",
+          "time": "রাত ১২:৪৩"
+        },
+        {
+          "headline": "Labour figures uneasy about Healey’s ‘underpowered’ approach to budget",
+          "excerpt": "Senior Labour figures are privately voicing unease about John Healey’s approach to his crucial first budget this month, against the backdrop of volatile global markets and soaring energy costs.The chancellor’s work has been made significantly harder by the global bond sell-off, which continues to raise the cost of government borrowing, and ever increasing energy prices as Donald Trump continues…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/politics/2026/oct/01/labour-unease-healey-budget",
+          "author": "Heather Stewart, Richard Partington, Pippa Crerar, Jessica Elgot",
+          "image": "https://i.guim.co.uk/img/media/497140ece85bc35f4082907611e6cc167bdc048d/674_0_4522_3618/master/4522.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=f28cf203832d77bdadb40658129f0fa0",
+          "time": "রাত ১২:৩৩"
+        },
+        {
+          "headline": "‘Total class act’: Marie-France van Heel is poised to be a very different PM’s wife",
+          "excerpt": "Sarah Brown called Gordon her hero, Samantha Cameron insisted David was “incredibly funny”, while Akshata Murty said Rishi was her best friend. When Marie-France van Heel spoke about her husband, Andy Burnham, in a rare public interview a decade ago, she joked that she had noticed his “good looks … and monobrow”.The spousal humanising of a party leader is a well-worn political tool, but van Heel…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/politics/2026/oct/01/marie-france-van-heel-very-different-type-prime-minister-wife",
+          "author": "Alexandra Topping",
+          "image": "https://i.guim.co.uk/img/media/e09e7f43e6ed16986fac88b8df1f6a92a760e4e8/415_485_2419_1935/master/2419.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=a7401f79e5c82e5d631a8aec88d6d0fd",
+          "time": "রাত ১১:৫৬"
+        },
+        {
+          "headline": "Trump doesn’t rule out sending ICE to polling sites; US supreme court to review policy to detain immigrants challenging deportation – live",
+          "excerpt": "From 7h agoSupreme court says it will review whether Trump administration can detain immigrants while they challenge deportationThe supreme court today said it will review whether the Trump administration can enforce its policy of denying bond hearings for immigrants to determine whether they should remain detained while their cases are adjudicated.The novel move to impose mandatory detention is…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/us-news/live/2026/oct/01/tennessee-governor-halts-executions-christa-pike-lethal-injection-donald-trump-hegseth-musk-us-politics-latest-news-updates",
+          "author": "Tom Ambrose, Shrai Popat, Lucy Campbell, Robert Mackey, Sam Levine, Joseph Gedeon, Alba Asenjo Domínguez, David Smith, Lauren Gambino, George Chidi",
+          "image": "https://i.guim.co.uk/img/media/0fb39ace15608064274a64ee4a25a4fb6d3bacac/338_0_4863_3892/master/4863.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=719796c82452e5d99b430ac1b2cd4a1f",
+          "time": "রাত ৩:৫৯"
+        },
+        {
+          "headline": "Tennessee suspends executions as Christa Pike’s lawyer says failed lethal injection leaves her in critical condition",
+          "excerpt": "Tennessee’s governor on Thursday said it was “deeply disturbing” that his state botched the execution of a death row prisoner who remained alive and snoring 40 minutes after receiving a double dose of the lethal drug that should have quickly killed her.Bill Lee, a Republican, has suspended all executions in the state until at least the end of the year and ordered an independent inquiry after…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/us-news/2026/oct/01/christa-pike-tennessee-governor-executions-year-pause",
+          "author": "Richard Luscombe",
+          "image": "https://i.guim.co.uk/img/media/63836541b90c520fb35e8e8a8266d3ba99981160/485_0_4861_3888/master/4861.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=193463e71e6baa1aef17e155d8938ebc",
+          "time": "রাত ৩:৪৪"
+        },
+        {
+          "headline": "Hitting the sweet spot: bear treats itself to baked goods at Colorado farmers’ market",
+          "excerpt": "Farmers’ market shoppers might not usually pay much attention to the local resident devouring fresh bread and pastries at one of the stalls with extra gusto – but some certainly did last weekend when they realized it was a hungry bear.Onlookers on Saturday reached for their phones to take photos and videos of the bear in downtown Aspen, Colorado, after it wandered through the stalls and got up…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/us-news/2026/oct/01/colorado-bear-farmers-market",
+          "author": "Guardian staff reporter",
+          "image": "https://i.guim.co.uk/img/media/0e1009a5677f8ec45d9d40a3f1f220fd821876cf/0_21_658_526/master/658.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=8a89e7650688e25eacb197af1ba95bb2",
+          "time": "রাত ৩:২৩"
+        },
+        {
+          "headline": "Judge denies defense motion to declare Lindsay Clancy not guilty of murder",
+          "excerpt": "The judge in the Lindsay Clancy murder case on Thursday refused to declare her not guilty, turning down a defense motion that had argued there was not enough evidence to prove she was responsible for killing her three children.On Tuesday, Clancy’s attorney Kevin Reddington tried to persuade Judge William Sullivan that prosecutors had not offered any proof that Clancy had killed her three…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/us-news/2026/oct/01/lindsay-clancy-not-guilty-motion-denied",
+          "author": "Guardian staff reporter",
+          "image": "https://i.guim.co.uk/img/media/7637bd3d2a7bb831574b6914b4cb39642ac3c552/250_0_2500_2000/master/2500.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=0f4df6f0bad3f65cd1f7d71a8391373e",
+          "time": "রাত ২:২৭"
+        },
+        {
+          "headline": "Supreme court to hear case challenging Trump’s immigration detention policy",
+          "excerpt": "The US supreme court agreed on Thursday to take up a case challenging the Trump administration’s practice of indefinite detention for undocumented immigrants living in the US and awaiting deportation proceedings.At the center of the immigration case is a dispute over Donald Trump’s reinterpretation of a longstanding policy that has led to a huge surge in the number of migrants held in detention…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/us-news/2026/oct/01/supreme-court-case-trump-immigration-detention",
+          "author": "Ariana Baio",
+          "image": "https://i.guim.co.uk/img/media/b225ffe93aaca30bfb4579ee38bccddee09e6672/500_0_5000_4000/master/5000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=e8f97767f944e05851789b653bb03249",
+          "time": "রাত ২:২০"
+        }
+      ],
+      "Sports": [
+        {
+          "headline": "Wanderers to host 2027 men's ODI World Cup final as well as India vs Pakistan",
+          "excerpt": "Edition USNewsNewlands in Cape Town will host the opening game of the main round on October 7 with the tournament running through to November 21Australia are the ODI World Cup defending champions  •  ICC/Getty ImagesThe Wanderers Stadium in Johannesburg will host the 2027 ODI World Cup final, as it did in 2003, as well as the marquee match between India and Pakistan on October 10 at next year's…",
+          "source": "ESPN Cricinfo",
+          "link": "https://www.cricinfo.com/ci/content/story/1556110.html?ex_cid=OTC-RSS",
+          "author": "Firdose Moonda",
+          "image": "https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/371700/371729.6.jpg",
+          "time": "রাত ১২:২৩"
+        },
+        {
+          "headline": "রোনালদোকে ছাড়াই আরও একটা দারুণ জয় পর্তুগালের",
+          "excerpt": "উয়েফা নেশনস লিগ রোনালদোকে ছাড়াই আরও একটা দারুণ জয় পর্তুগালেরখেলা ডেস্ক গোলের পর পর্তুগালের জোয়াও ফেলিক্সের উদযাপনউয়েফাক্রিস্টিয়ানো রোনালদোকে ঘিরে মাঠের বাইরের বিতর্ক তুঙ্গে। ম্যাচের আগের দিনই জাতীয় দলের ক্যাম্প ছেড়ে হঠাৎ চলে গেছেন পাঁচবারের ব্যালন ডি’অরজয়ী। কেন চলে গেলেন, কী ঘটেছিল, সেই প্রশ্নে উত্তাল পর্তুগিজ ফুটবল। কিন্তু মাঠে নামার পর সেসব কিছুই যেন পর্তুগালকে ছুঁতে পারল না।উয়েফা নেশনস লিগে…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/sports/football/2xkrgkak7r",
+          "author": "খেলা ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-01%2Ftjjs1zuv%2Fdenmarkvportugalgroupstage-uefanationsleague.avif?rect=0%2C7%2C988%2C519&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2026-09-03%2F99dqhmx6%2Fog-banner-for-sports.png&overlay_position=bottom&overlay_width_pct=1",
+          "time": "রাত ২:৫৫"
+        },
+        {
+          "headline": "ক্লপের জার্মানির প্রথম জয়, দুই গোলে পিছিয়ে পড়েও ড্র নেদারল্যান্ডসের",
+          "excerpt": "উয়েফা নেশনস লিগ ক্লপের জার্মানির প্রথম জয়, দুই গোলে পিছিয়ে পড়েও ড্র নেদারল্যান্ডসেরখেলা ডেস্ক জার্মানদের গোল উদযাপনউয়েফানেদারল্যান্ডসের সঙ্গে ড্র, গ্রিসের কাছে হার। উয়েফা নেশনস লিগ ২০২৬-২৭ এর শুরুটা মোটেও ভালো হয়নি জার্মানির। একেবারেই ভালো হয়নি জার্মানির নতুন কোচ হিসেবে ইয়ুর্গেন ক্লপের শুরুটাও । সাবেক লিভারপুল ও বরুসিয়া ডর্টমুন্ডের এই কোচের ওপর  চাপ বাড়ছিল বইকি। সার্বিয়ার বিপক্ষে আজ জয় না পেলে…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/sports/football/ca8hjbo4zt",
+          "author": "খেলা ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-01%2F9jvi4l0r%2Fgermanyvserbia-uefanationsleague202627groupa2md3.webp?rect=0%2C9%2C988%2C519&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2026-09-03%2F99dqhmx6%2Fog-banner-for-sports.png&overlay_position=bottom&overlay_width_pct=1",
+          "time": "রাত ২:৪৫"
+        },
+        {
+          "headline": "HMRC urged to scrutinise tax implications of Man City case",
+          "excerpt": "Findings from the Premier League's case against Manchester City require scrutiny from His Majesty's Revenue and Customs, the chair of a cross-party group of MPs has told the tax authority.It was confirmed on Tuesday that an independent commission found City guilty of all charges relating to breaches of the Premier League's financial regulations between the 2009-10 and 2017-18 seasons.City have…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cjkg7g93y5yno?at_medium=RSS&at_campaign=rss",
+          "author": "Dan Roan",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/eda1/live/922cde20-bdaa-11f1-8373-27235719cf2a.jpg",
+          "time": "রাত ১২:২১"
+        },
+        {
+          "headline": "Zidane 'no regrets' about Materazzi headbutt as France face Italy again",
+          "excerpt": "New France coach Zinedine Zidane insisted Thursday he has no regrets about his infamous headbutt on Marco Materazzi in the 2006 World Cup final as he prepares to come up against Italy again in his first home game in charge.\"The images will always be there to remind me of what happened in 2006, because they are always being shown,\" Zidane smiled when asked about the incident which led to him…",
+          "source": "The Daily Star Sports",
+          "link": "https://www.thedailystar.net/sports/football/news/zidane-no-regrets-about-materazzi-headbutt-france-face-italy-again-4288431",
+          "author": "AFP, Saint-Denis",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-10/Zidane.jpg",
+          "time": "রাত ১:৫৫"
+        },
+        {
+          "headline": "England avoid Australia & India in World Cup draw",
+          "excerpt": "England have avoided defending champions Australia and world number one-ranked side India in the group-stage draw for the 2027 ICC Men's Cricket World Cup.India and Pakistan are, once again, placed in the same group, alongside Australia, Afghanistan, Zimbabwe and a qualifier.England, who won the trophy in 2019, are in the same group as co-hosts South Africa, Bangladesh, Sri Lanka, New Zealand…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/cricket/articles/cqlylygyl3pro?at_medium=RSS&at_campaign=rss",
+          "author": "Marc Higginson",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/a040/live/8a45db80-bdaa-11f1-8373-27235719cf2a.jpg",
+          "time": "রাত ১০:৩১"
+        },
+        {
+          "headline": "Messi finalises acquisition of second Spanish lower league club",
+          "excerpt": "Argentina icon Lionel Messi has officially acquired Eldense, a Spanish second-division club announced Thursday.Eldense, based just in-land from Alicante, have become the former Barcelona attacker's second venture into Spanish football ownership after his purchase of Cornella, near Barcelona, in April.\"Club Deportivo Eldense officially announce (their) acquisition by Leo Messi,\" the club wrote in…",
+          "source": "The Daily Star Sports",
+          "link": "https://www.thedailystar.net/sports/football/news/messi-finalises-acquisition-second-spanish-lower-league-club-4288421",
+          "author": "AFP, Paris",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-07/Messi_5.jpg",
+          "time": "রাত ১:২৭"
+        },
+        {
+          "headline": "Man City not 'above the rules', says No 10 after backlash to Burnham remarks",
+          "excerpt": "Downing Street has said Manchester City are not \"above the rules\" after Andy Burnham was criticised for his comments about the club's breaches of Premier League financial rules.The prime minister said on Wednesday he would be \"really concerned\" if the club's owners decide to sell up after City were found guilty by an independent commission of most of the 115 charges they faced.His remarks were…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/news/articles/cj3v4vn3ydw1o?at_medium=RSS&at_campaign=rss",
+          "author": "Ewan Somerville",
+          "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/61e8/live/059e20b0-bdb7-11f1-bc2e-018d645d8d21.jpg",
+          "time": "রাত ১১:২৬"
+        },
+        {
+          "headline": "ICC World Cup 2027: Full Fixtures",
+          "excerpt": "Updated : 2 October 2026, 01:00\n            \n        \n\t\t\n\t\t\t\t\t\t\t\n\t\t\t\n\n\t\tStar Sports Desk\n\t\t\t\t\t\n\n\t\t\t\t\t\n\n\t\t\t\n  \n                  \n              \n                  \n\n  \n\n\n\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\nThe International Cricket Council (ICC) has announced the schedule for the Men’s Cricket World Cup 2027 on Thursday.The tournament begins on October 2 with the commencement of the three-team Super Series in…",
+          "source": "The Daily Star Sports",
+          "link": "https://www.thedailystar.net/sports/cricket/news/icc-world-cup-2027-full-fixtures-4288111",
+          "author": "Star Sports Desk",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-10/Tickets.JPG",
+          "time": "রাত ১০:৫৪"
+        },
+        {
+          "headline": "Tigers in tough group with England, SA, SL, NZ",
+          "excerpt": "ICC World Cup 2027 \n\n  \n\n                \n                Updated : 2 October 2026, 01:12\n            \n        \n\t\t\n\t\t\t\t\t\t\t\n\t\t\t\n\n\t\tStar Sports Desk\n\t\t\t\t\t\n\n\t\t\t\t\t\n\n\t\t\t\n  \n                  \n              \n                  \n\n  \n\n\n\t\t\t\n\t\t\t\t\t\t\tPhoto: ICC\n\t\t\t\t\t\t\n\t\t\t\t\t\nBangladesh have been drawn alongside England, co-hosts South Africa, New Zealand, Sri Lanka and a qualifying team in Group B of the 2027…",
+          "source": "The Daily Star Sports",
+          "link": "https://www.thedailystar.net/sports/cricket/news/tigers-tough-group-england-sa-sl-nz-4288076",
+          "author": "Star Sports Desk",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-10/World%20Cup%20groups.jpg",
+          "time": "রাত ৯:৫৯"
+        },
+        {
+          "headline": "Real Madrid keen on Quansah - Friday's gossip",
+          "excerpt": "Real Madrid are keen on Bayer Leverkusen's Jarell Quansah, Liverpool are monitoring Club Tijuana's teenage midfielder Gilberto Mora and Roma remain keen on signing Real Madrid striker Endrick.  Real Madrid are showing an interest in Bayer Leverkusen's 23-year-old England defender Jarell Quansah, who Arsenal made a bid for in the summer and was subject of an enquiry from Chelsea. (Bild - in…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cw8r6r0pdkyzo?at_medium=RSS&at_campaign=rss",
+          "author": "BBC Sport",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/75ef/live/6b7db870-bdce-11f1-bc2e-018d645d8d21.png",
+          "time": "রাত ১:৪৫"
+        },
+        {
+          "headline": "Will 2026 finally be Warrington Wolves' year?",
+          "excerpt": "Former England captain Burgess began his career as Warrington head coach in earnest ahead of the 2024 season - off the back of Daryl Powell's uncompetitive stint in charge of the Wire.A legend of the game as a player, it was his first top job as a coach, five years after he retired following his enviable stint both on the pitch and as assistant coach down under with South Sydney Rabbitohs.A…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/rugby-league/articles/c6n4kenn7mjvo?at_medium=RSS&at_campaign=rss",
+          "author": "Jay Freeman",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/02e3/live/0e86d480-bdba-11f1-b7d8-31573a2bd831.jpg",
+          "time": "রাত ১১:০৪"
+        },
+        {
+          "headline": "Humphries races into World Grand Prix last eight",
+          "excerpt": "Luke Humphries has made it through to the World Grand Prix quarter-finals, along with James Wade, Gian van Veen and Niels Zonneveld.World number two Humphries, who won the tournament in 2023 and was beaten by the eliminated Luke Littler in last year's final, was a comfortable 3-0 winner against Jermaine Wattimena in Leicester.The Englishman will play the Netherlands' Zonneveld, who beat Gary…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/darts/articles/cm4glg56v9e7o?at_medium=RSS&at_campaign=rss",
+          "author": "BBC Sport",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/b368/live/28f445d0-bddf-11f1-88d5-b903d805bdb1.jpg",
+          "time": "ভোর ৪:১৫"
+        },
+        {
+          "headline": "Never played in Prem - and now face World Cup hosts",
+          "excerpt": "It is 1 October 2027. There are 61,000 fans inside Perth Stadium.There is a global TV audience in the millions as two teams go through their final warm-ups preparing to open the 2027 Rugby World Cup.For hosts Australia, twice world champions with a proud rugby history across the codes, it is familiar territory.For their opponents Hong Kong China, it is anything but.It will be their World Cup…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cmwyzyky65v9o?at_medium=RSS&at_campaign=rss",
+          "author": "Kieran Fox",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/a2d2/live/aacf2800-bdb1-11f1-bc2e-018d645d8d21.png",
+          "time": "রাত ১২:০৯"
+        },
+        {
+          "headline": "Highlights: Wales 2-1 Norway",
+          "excerpt": "Watch the best of the action as Wales come from behind to beat Norway in the Nations League, ending their winless run under Craig Bellamy.READ MORE: Wales beat 10-man Norway to end winless runAvailable to UK users only.",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/videos/ckwyzyx5qd49o?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/2da7/live/7319b510-bdde-11f1-bc2e-018d645d8d21.png",
+          "time": "রাত ৩:২৬"
+        },
+        {
+          "headline": "Man City hold on to claim draw against Real Madrid",
+          "excerpt": "Khadija Shaw scores a superb equaliser before Real Madrid have a late goal chalked off as the sides play out an entertaining 1-1 draw at the Joie Stadium.MATCH REPORT: Champions League - Man City 1-1 Real MadridAvailable to UK users only.",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/videos/cmj4j4zyrg90o?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/deda/live/648b1500-bddb-11f1-babe-4199b0e7ccea.jpg",
+          "time": "রাত ৩:১১"
+        },
+        {
+          "headline": "Real submit 'substantial' dossier in Barca payments case",
+          "excerpt": "Real Madrid say they have sent Uefa \"evidence of extraordinary gravity\" relating to payments made by Barcelona to a former vice-president of Spain's referees' committee.European football's governing body says it will assess the documents - linked to allegations of 8.4m euros (£7.2m) being paid by Barcelona to Jose Maria Enriquez Negreira between 2001 and 2018 - as part of their ongoing review of…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cwddvdq3pzego?at_medium=RSS&at_campaign=rss",
+          "author": "Steve Sutcliffe",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/8dfe/live/d7b03ef0-bddd-11f1-88d5-b903d805bdb1.jpg",
+          "time": "ভোর ৪:০০"
+        },
+        {
+          "headline": "Unheralded Stewart stars at Alfred Dunhill Links",
+          "excerpt": "Alfred Dunhill Links Championship - round one-7 M Stewart (Sco), J Buchanan (Aus); -6 MJ Daffue (SA), C Jarvis (SA)Selected others: -4 M Fitzpatrick (Eng), S Straka (Aut), C Hill (Sco), S Bairstow (Eng);  -3 B Koepka (US); -2 T Fleetwood (Eng); -1 A Fitzpatrick (Eng), R MacIntyre (Sco), L Westwood (Eng), I Poulter (Eng); +2 T Hatton (Eng)Full leaderboardOn a day when Matt Fitzpatrick began his…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/golf/articles/c65y7y21n051o?at_medium=RSS&at_campaign=rss",
+          "author": "Steve Sutcliffe",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/6eeb/live/31414a20-bdc7-11f1-9e71-df11b537d069.jpg",
+          "time": "রাত ১:১০"
+        },
+        {
+          "headline": "More elite-level events to award equal prize money",
+          "excerpt": "Men and women will receive equal prize money at all combined 1,000 events - the highest level of competition outside of the Grand Slams - from next year, the Women's Tennis Association (WTA) has announced.Events at Indian Wells, California, Miami, Madrid and Beijing already met that commitment, as well as all four Grand Slams.However, the Italian Open, Canadian Open and Cincinnati Open will now…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/tennis/articles/ckq6360827rpo?at_medium=RSS&at_campaign=rss",
+          "author": "Steve Sutcliffe",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/7777/live/b4e1bd30-bdb1-11f1-b7d8-31573a2bd831.jpg",
+          "time": "রাত ১০:৪০"
+        },
+        {
+          "headline": "Quiz: Name every Super League Grand Finalist",
+          "excerpt": "The showpiece event in the Super League calendar returns on Saturday as the Grand Final takes place under the lights of Old Trafford.It has been almost 30 years since the first Grand Final took place at Manchester United's Theatre of Dreams and a fair few faces have taken to the field in that time.Only five clubs have won the end-of-season finale and just 11 have reached it since its…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/rugby-league/articles/cmp8d6dknk07o?at_medium=RSS&at_campaign=rss",
+          "author": "BBC Sport",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/368b/live/050e9a80-bcbd-11f1-810a-9579202680fa.jpg",
+          "time": "রাত ১১:০৪"
+        }
+      ],
+      "Entertainment": [
+        {
+          "headline": "কুরোসাওয়া পুরস্কার পাচ্ছেন মিপো ও রাসুলফ",
+          "excerpt": "মঈনুল শাওন টোকিও থেকেমোহাম্মদ রাসুলফ ও মিপো। কোলাজটোকিও আন্তর্জাতিক চলচ্চিত্র উৎসবে আকিরা কুরোসাওয়া পুরস্কারে সম্মানিত হচ্ছেন জাপানি নির্মাতা ও মিপো এবং ইরানি চলচ্চিত্রকার মোহাম্মদ রাসুলফ। অক্টোবরের শেষ সপ্তাহে বসবে উৎসবের ৩৯তম আসর। চলতি বছর পুরস্কার নির্বাচনে যুক্ত ছিলেন নির্মাতা ইয়ামাদা ইয়োজি ও লি সাং-ইল, চিত্রগ্রাহক আশিজাওয়া আকিকো এবং উৎসবের প্রোগ্রামিং ডিরেক্টর ইচিয়ামা শোজো। ওসাকা…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/entertainment/world-cinema/ncj6nzu8t6",
+          "author": "মঈনুল শাওন",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-09-30%2Fsawzjk91%2Ffc26e624-621b-4abf-aea0-8f7520d9e84b.jpg?rect=0%2C0%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "রাত ৩:০১"
+        },
+        {
+          "headline": "I have one mantra in life, take it easy: James on his birthday",
+          "excerpt": "Updated : 2 October 2026, 00:01\n            \n        \n\t\t\n\t\t\t\t\t\t\t\n\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tSadi Muhammad Alok\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tSharif M Shafique\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\n\t\t\t\n  \n                  \n              \n                  \n\n  \n\n\n\t\t\t\n\t\t\t\t\t\t\tPhotos: Sheikh Mehedi Morshed \n\t\t\t\t\t\t\n\t\t\t\t\t\nHe never personally celebrates his birthday on a grandiose scale.…",
+          "source": "The Daily Star Entertainment",
+          "link": "https://www.thedailystar.net/culture/entertainment/news/i-have-one-mantra-life-take-it-easy-james-his-birthday-4288061",
+          "author": "Sadi Muhammad Alok and Sharif M Shafique",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-10/SMM_8740_0.jpg",
+          "time": "রাত ১২:০১"
+        }
+      ]
+    }
+  },
+  {
     "dt": "2026-09-30T17:56:57.203Z",
     "file": "runs/2026-09-30-1756.html",
     "counts": {
