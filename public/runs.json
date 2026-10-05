@@ -1,5 +1,703 @@
 [
   {
+    "dt": "2026-10-05T00:01:00.631Z",
+    "file": "runs/2026-10-05-0001.html",
+    "counts": {
+      "Local": 2,
+      "International": 34,
+      "Entertainment": 2,
+      "Tech": 20,
+      "Sports": 17
+    },
+    "grouped": {
+      "Sports": [
+        {
+          "headline": "জার্মানিকে জিততে না দিয়ে দুইয়ে গ্রিস, শীর্ষে ডাচরা",
+          "excerpt": "উয়েফা নেশনস লিগ জার্মানিকে জিততে না দিয়ে দুইয়ে গ্রিস, শীর্ষে ডাচরাখেলা ডেস্ক জার্মানি ও গ্রিসের খেলোয়াড়দের মধ্যে বল দখলের লড়াইউয়েফাগ্রিস ০-০ জার্মানি অগসবুর্গে জার্মানি গোল পায়নি। উল্টো ঘরের মাঠে ১-০ গোলের হারে শিকার হতে হয় গ্রিক-ট্র্যাজেডির। ‍থেসালোনিকিতে ফিরতি ম্যাচটা ছিল সেই ক্ষতমোচনের সুযোগ। জার্মানি যে চেষ্টা করেনি, তা নয়। ৭০ শতাংশ বল দখলে রেখে ২১টি শট নিয়েও গোল পায়নি। চারবারের বিশ্ব…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/sports/football/0llvau0u23",
+          "author": "খেলা ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-04%2Fs7feb4cq%2Ffbl-eur-nations-gre-ger.avif?rect=0%2C0%2C556%2C292&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2026-09-03%2F99dqhmx6%2Fog-banner-for-sports.png&overlay_position=bottom&overlay_width_pct=1",
+          "time": "ভোর ৫:৪০"
+        },
+        {
+          "headline": "রোনালদোকে ছাড়াই ‘পারফেক্ট’ পর্তুগাল কোয়ার্টার ফাইনালে",
+          "excerpt": "উয়েফা নেশনস লিগ রোনালদোকে ছাড়াই ‘পারফেক্ট’ পর্তুগাল কোয়ার্টার ফাইনালেখেলা ডেস্ক গোল করছেন পর্তুগাল ফরোয়ার্ড গনসালো রামোসউয়েফাপর্তুগাল ২-১ নরওয়ে কে অপরাধী, সেটা ব্যানারের দুই প্রান্তে ক্রিস্টিয়ানো রোনালদো ও জর্জ জেসুসের ছবিতেই স্পষ্ট। রোনালদোর ছবিটি একটু বড়। ছবি দুটোর মাঝে বড় করে লেখা ‘ধন্যবাদ, ক্রিস্টিয়ানো রোনালদো।’ পর্তুগাল কোচ জেসুসকে নিয়েও বার্তা আছে। সেটা যে ভালো কিছু না, তা না বললেও…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/sports/football/n7q2cpugoe",
+          "author": "খেলা ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-04%2Fsk8zna60%2Fportugalvnorway-uefanationsleague202627groupa4md4-6.jpeg?rect=0%2C0%2C656%2C344&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2026-09-03%2F99dqhmx6%2Fog-banner-for-sports.png&overlay_position=bottom&overlay_width_pct=1",
+          "time": "রাত ২:৪৮"
+        },
+        {
+          "headline": "Bigger contingent, smaller return",
+          "excerpt": "Asian Games \n\n  \n\n                \n                Updated : 5 October 2026, 02:20\n            \n        \n\t\t\n\t\t\t\t\t\t\t\n\t\t\t\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tA\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tAnisur Rahman\n\t\t\t\t\t\t\n\t\t\t\t\t\n\n\t\t\t\n  \n                  \n              \n                  \n\n  \n\n\n\t\t\t\n\t\t\t\t\t\t\tBangladesh contingent during the athletes parade at the closing ceremony. Photo: Reuters \n\t\t\t\t\t\t\n\t\t\t\t\t\nBangladesh’s contingent keeps getting…",
+          "source": "The Daily Star Sports",
+          "link": "https://www.thedailystar.net/sports/more-sports/news/bigger-contingent-smaller-return-4290671",
+          "author": "Anisur Rahman",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-10/2026-10-04T095253Z_983065598_UP1EMA40RG316_RTRMADP_3_GAMES-ASIA.JPG",
+          "time": "রাত ১:৪৭"
+        },
+        {
+          "headline": "Israel 'tried to intimidate' Irish amid spitting row - Hallgrimsson",
+          "excerpt": "Republic of Ireland head coach Heimir Hallgrimsson said he felt Israel were \"trying to intimidate\" his team amid allegations of spitting during Sunday's tense Uefa Nations League draw. The teams clashed at half-time in the 1-1 draw, played behind closed doors in Serbia, with the Irish Times, external reporting that Republic of Ireland head of athletic performance Damien Doyle alleged he had been…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cw4g14eg5p22o?at_medium=RSS&at_campaign=rss",
+          "author": "BBC Sport",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/95e2/live/2ac00d80-c042-11f1-b3e5-8557f7e62bde.jpg",
+          "time": "ভোর ৪:৫১"
+        },
+        {
+          "headline": "From 'Mecci' to Messi: Argentina’s love story with Leo",
+          "excerpt": "Updated : 5 October 2026, 00:01\n            \n        \n\t\t\n\t\t\t\t\t\t\t\n\t\t\t\n\n\t\tReuters \n\t\t\t\t\t\n\n\t\t\t\t\t\n\n\t\t\t\n  \n                  \n              \n                  \n\n  \n\n\n\t\t\t\n\t\t\t\t\t\t\tPhoto: Facebook \n\t\t\t\t\t\t\n\t\t\t\t\t\n When Lionel Messi makes his final appearance for Argentina on Tuesday, it will bring to an end a journey that began with the country's football authorities not even knowing his name and evolved…",
+          "source": "The Daily Star Sports",
+          "link": "https://www.thedailystar.net/sports/football/news/mecci-messi-argentinas-love-story-leo-4290566",
+          "author": "Reuters",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-10/475726893_1250284169796504_9208006966719277288_n.jpg",
+          "time": "রাত ১২:০১"
+        },
+        {
+          "headline": "Humphries wins Grand Prix to end barren spell",
+          "excerpt": "World number two Luke Humphries ended a 16-month wait for a PDC major trophy with a stunning 6-4 victory over Gerwyn Price in the World Grand Prix final.Humphries, 31, was at the top of the sport two years ago but has found his dominance superseded by Luke Littler and had failed to taste major success since winning the Premier League in May 2025.A ranking title had eluded him since claiming the…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/darts/articles/cw1m49g84mmro?at_medium=RSS&at_campaign=rss",
+          "author": "Callum Matthews",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/72ad/live/f3cbf6f0-c03b-11f1-8a9a-cff8e8e5b3a9.jpg",
+          "time": "রাত ৩:৩৯"
+        },
+        {
+          "headline": "Israel to wear black armbands in Ireland tie over Hamas attack",
+          "excerpt": "Updated : 4 October 2026, 23:47\n            \n        \n\t\t\n\t\t\t\t\t\t\t\n\t\t\t\n\n\n\t\t\t\n  \n                  \n              \n                  \n\n  \n\n\n\t\t\t\n\t\t\t\t\t\t\tRepublic of Ireland captain Dara O'Shea (L) turns away from Israel captain Manor Solomon (R) during the pre-match protocol before the UEFA Nations League Group B3 football match between Israel and the Republic of Ireland at Nagyerdei Stadium in…",
+          "source": "The Daily Star Sports",
+          "link": "https://www.thedailystar.net/sports/football/news/israel-wear-black-armbands-ireland-tie-over-hamas-attack-4290531",
+          "author": "AFP, Jerusalem",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-10/AFP__20260927__C9HB4TD__v1__MidRes__FblEurNationsIsrIrl.jpg",
+          "time": "রাত ১১:৪৭"
+        },
+        {
+          "headline": "Bellamy bemoans new schedule after Denmark loss",
+          "excerpt": "Traditionally, international sides have played six games across three windows - all of which have featured two fixtures - in September, October and November.But for the first time this year, the September and October breaks were merged.Wales' hopes of coping with the new schedule were not helped by a string of injuries, with stars such as Karl Darlow, Joe Rodon, Dylan Lawlor and Harry Wilson…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cm93zyld4513o?at_medium=RSS&at_campaign=rss",
+          "author": "Gareth Vincent",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/a124/live/22651ef0-c038-11f1-86a1-ad5985eac783.jpg",
+          "time": "ভোর ৪:৩৬"
+        },
+        {
+          "headline": "Arsenal 10 points off WSL leaders - is Slegers' job at risk?",
+          "excerpt": "It is only five matches into the Women's Super League season and Arsenal are already 10 points behind leaders Manchester City - so is manager Renee Slegers' position at risk?The Gunners have won just two of their opening seven matches in all competitions and sit 10th in the WSL table. It is dismal reading for Arsenal fans, whose optimism has quickly diminished and their 4-2 defeat at City on…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/c9p8gmvlvp57o?at_medium=RSS&at_campaign=rss",
+          "author": "Emma Sanders",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/d6ec/live/77998e20-c01e-11f1-bfc0-dbc6925567bb.jpg",
+          "time": "রাত ২:৩৪"
+        },
+        {
+          "headline": "'Money-grab' or celebration? NFL kicks off London series",
+          "excerpt": "Image source, Getty ImagesImage caption, Neither the Washington Commanders nor Indianapolis Colts qualified for last season's play-offsByBen CollinsBBC Sport journalist at Tottenham Hotspur StadiumOnce upon a time, tickets for NFL games in London were like gold dust.All 43 games have been near capacity at Wembley, Twickenham and Tottenham Hotspur Stadium.According to the NFL, its UK fanbase has…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/american-football/articles/cqwyrlk27e7ro?at_medium=RSS&at_campaign=rss",
+          "author": "Ben Collins",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/f5d7/live/bfc9e650-c02c-11f1-a1bd-1f62333d11a7.jpg",
+          "time": "রাত ২:৩৬"
+        },
+        {
+          "headline": "Portugal boss says door open for Ronaldo return",
+          "excerpt": "Cristiano Ronaldo can still return for Portugal if he chooses to, says boss Jorge Jesus.The 41-year-old captain left their Nations League camp after being an unused substitute against Norway and then finding out he would not start against Denmark.Al-Nassr forward Ronaldo has scored 146 goals in 234 Portugal appearances - both world records.After leaving the camp he wrote on social media: \"In due…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/c3dxwry8vydvo?at_medium=RSS&at_campaign=rss",
+          "author": "BBC Sport",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/43de/live/68de2c00-c00b-11f1-b8fc-7927883c19e9.jpg",
+          "time": "ভোর ৪:১০"
+        },
+        {
+          "headline": "World No. 979 Stewart's dilemma after finishing fourth at Alfred Dunhill Links",
+          "excerpt": "Alfred Dunhill Links Championship-20 A Meronk (Pol); -18  C Jarvis (SA), N Norgaard (Den); -17 M Stewart (Sco), T Fleetwood (Eng); -16 R MacIntyre (Sco), B Koepka (US)Selected others: -13 C Syme (Sco); -12 S Bairstow (Eng), C Hill (Sco); -12 M Fitzpatrick (Eng), M Jordan (Eng); -11 D Law (Sco), R Mansell (Eng); -9 P Harrington (Ire), A Fitzpatrick (Eng), S Jamieson (Sco), C Adam (Sco), E Walker…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/golf/articles/c6pwg5z9982zo?at_medium=RSS&at_campaign=rss",
+          "author": "Brian McLauchlin",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/1f70/live/bb6d8220-c00d-11f1-b8fc-7927883c19e9.jpg",
+          "time": "রাত ১১:৫৫"
+        },
+        {
+          "headline": "Real Madrid join race for Scott - Monday's gossip",
+          "excerpt": "Bournemouth's Alex Scott at the centre of a transfer tussle, Arsenal show interest in Juventus winger Kenan Yildiz, while Real Betis rebuff speculation linking Troy Parrott with a move away.Real Madrid are considering joining the race to sign Alex Scott after watching the Bournemouth and England midfielder, 23, closely in recent weeks. (Teamtalk), externalChelsea are in pole position to sign…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cke8r1v3jndlo?at_medium=RSS&at_campaign=rss",
+          "author": "BBC Sport",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/3536/live/68d05a40-c014-11f1-b8fc-7927883c19e9.png",
+          "time": "রাত ২:২৪"
+        },
+        {
+          "headline": "Man City fight back to beat struggling Arsenal",
+          "excerpt": "Manchester City twice came from behind to beat Arsenal 4-2 at the Etihad Stadium and increase the pressure on Gunners manager Renee Slegers.MATCH REPORT: WSL - Manchester City 4-2 ArsenalAvailable to UK users only.",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/videos/c64g71j3dkw7o?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/e308/live/d9095200-c01c-11f1-babe-4199b0e7ccea.jpg",
+          "time": "রাত ৩:২০"
+        },
+        {
+          "headline": "London City hit Tottenham for six to end unbeaten run",
+          "excerpt": "Alexia Putellas and Kadidiatou Diani both scored twice as London City Lionesses put six goals past Tottenham to end Spurs' unbeaten start to the Women's Super League.MATCH REPORT: WSL - Tottenham Hotspur 1-6 London City LionessesAvailable to UK users only.",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/videos/cwm2r4xn4ed1o?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/4832/live/7d4265c0-c00c-11f1-a64c-550be9e3c66b.jpg",
+          "time": "রাত ১২:৫৩"
+        },
+        {
+          "headline": "Sale hold on to beat Saracens despite Vermeulen red",
+          "excerpt": "The PremSaracens (5) 17Tries: Mawi, Va'enuku, C Bracken Cons: BurkeSale (7) 21Tries: Jibulu, O'Flaherty, Bamber Cons: Ford 2, LozowskiSale overcame Jacques Vermeulen's red card to defeat Saracens and pick up their first win of The Prem campaign.Sarries struggled to break down a stubborn Sharks defence despite having numerical superiority for 27 minutes of the first half after Alex Lozowski's…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cxyvzdejgvqro?at_medium=RSS&at_campaign=rss",
+          "author": "Chris Harby",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/2c19/live/c7691810-c00c-11f1-b8fc-7927883c19e9.jpg",
+          "time": "রাত ১১:০১"
+        },
+        {
+          "headline": "'We fought for every ball' - Hemp on Man City's thrilling win",
+          "excerpt": "Lauren Hemp says Manchester City showed passion and character in their 4-2 win over Arsenal.MATCH REPORT: WSL - Manchester City 4-2 ArsenalAvailable to UK users only.",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/videos/cqly0lgy37z8o?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/28f2/live/9b50ed40-c01e-11f1-babe-4199b0e7ccea.jpg",
+          "time": "রাত ১২:২০"
+        }
+      ],
+      "International": [
+        {
+          "headline": "Manchester City must be relegated, says Canada’s ex-Leeds manager",
+          "excerpt": "Jesse Marsch alleges Man City’s financial wrongdoing was widely known in the Premier League, and relegation must follow.Canada coach Jesse Marsch has ‌called for Manchester City to be punished severely over breaches of Premier League ⁠financial rules, saying his ⁠experience managing against the club left him convinced there were inconsistencies in the way it operated.City were found guilty of…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/sports/2026/10/4/manchester-city-must-be-relegated-says-canadas-ex-leeds-manager?traffic_source=rss",
+          "author": "By Reuters",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/2022-04-30T165614Z_1319032630_UP1EI4U1B1O7X_RTRMADP_3_SOCCER-ENGLAND-LEE-MCI-REPORT-1791154813.jpg?resize=1726%2C1080",
+          "time": "ভোর ৫:২২"
+        },
+        {
+          "headline": "ব্রাজিলের প্রেসিডেন্ট নির্বাচনে এগিয়ে বলসোনারোর ছেলে ফ্লাভিও",
+          "excerpt": "রয়টার্স ব্রাসিলিয়া/সাও পাওলোভোটকেন্দ্র খোলার অপেক্ষায় লাইনে দাঁড়িয়েছেন কয়েকজন। সাও বের্নার্দো দো কাম্পো, ব্রাজিল, ৪ অক্টোবর ২০২৬ছবি: রয়টার্সব্রাজিলের প্রেসিডেন্ট নির্বাচনের প্রথম দফার ভোটের প্রাথমিক ফলাফলে দেশটির সাবেক প্রেসিডেন্ট জইর বলসোনারোর ছেলে ফ্লাভিও বলসোনারো এগিয়ে রয়েছেন। স্থানীয় রোববার ভোট গ্রহণের পর বিকেলে ফল আসতে শুরু করে।এবারের নির্বাচনে ১৩ জন প্রার্থী প্রতিদ্বন্দ্বিতা করছেন। তবে…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/world/usa/zj8km5jrhm",
+          "author": "রয়টার্স",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-04%2F7k5jwclg%2FPeople-gather.jpg?rect=0%2C0%2C1920%2C1008&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-09-22%2F5lwyn5je%2Fdefaultog.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "ভোর ৪:৫৮"
+        },
+        {
+          "headline": "আবারও দাম বাড়ল এলপি গ্যাসের, কেজিপ্রতি বেড়েছে ২১ টাকা",
+          "excerpt": "সরাসরি কভারেজরিপোর্টিং করেছেন তারেকুজ্জামান শিমুল, সম্পাদনায় সায়েদুল ইসলাম৬ ঘন্টা আগেসাদিক কায়েম ও সেলিম উদ্দিন- ঢাকায় জামায়াতের দুই মেয়রপ্রার্থী ঘোষণাডাকসুর ভিপি সাদিক কায়েম এবং দলের ঢাকা মহানগর উত্তরের আমির সেলিম উদ্দিনকে ঢাকার দুই সিটি করপোরেশনের পরবর্তী নির্বাচনে প্রার্থী হিসেবে পরিচয় করিয়ে দিয়েছেন বাংলাদেশ জামায়াতে ইসলামীর আমির শফিকুর রহমান।রোববার ঢাকার মধুবাগে ডেঙ্গু প্রতিরোধে জনসচেতনতা…",
+          "source": "BBC Bangla World",
+          "link": "https://www.bbc.co.uk/bengali/live/ckqxnrwx10ydt?at_medium=RSS&at_campaign=rss",
+          "author": "BBC News বাংলা",
+          "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/9ca9/live/38562b20-bff5-11f1-bc2e-018d645d8d21.jpg",
+          "time": ""
+        },
+        {
+          "headline": "Cristiano Ronaldo can return to Portugal team if he wants, says Jesus",
+          "excerpt": "Ex-Manchester United and Real Madrid star Cristiano Ronaldo left the Portugal squad on Wednesday, but the door is open for his return.Portugal superstar Cristiano Ronaldo can return to the squad if he wishes, despite walking out on his teammates, national team coach Jorge Jesus said on Sunday.The Portuguese showed they did not need the former Manchester United and Real Madrid forward as they…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/sports/2026/10/4/cristiano-ronaldo-can-return-to-portugal-team-if-he-wants-says-jesus?traffic_source=rss",
+          "author": "Kevin Hand",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/2026-09-27T192602Z_716918661_RC2URNATCOB4_RTRMADP_3_SOCCER-UEFANATIONS-NOR-POR-1791151118.jpg?resize=1920%2C1440",
+          "time": "ভোর ৫:১৬"
+        },
+        {
+          "headline": "Mysterious luminous object burns in the skies above Libya",
+          "excerpt": "NewsFeedA mysterious object has been filmed flying over Tripoli and parts of western Libya, with witnesses reporting a loud explosion shortly afterward. No official statement has been released regarding the nature of the object.Published On 4 Oct 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/10/4/mysterious-luminous-object-burns-in-the-skies-above-libya?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/image-1791154579.jpg?resize=1920%2C1080&quality=80",
+          "time": "ভোর ৪:৫৬"
+        },
+        {
+          "headline": "Man’s miraculous catch saves child after balcony fall in Egypt",
+          "excerpt": "NewsFeedDramatic video shows a man in Egypt rushing and catching a child who fell from the second floor. The boy first hit a washing line, giving his saviour a split-second more to miraculously save the kid from hitting the ground.Published On 4 Oct 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/10/4/mans-miraculous-catch-saves-child-after-balcony-fall-in-egypt?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/WIDE-THUMB-EGYPT-HEROIC-CHILD-SAVE-1791153986.png?resize=1920%2C1080&quality=80",
+          "time": "ভোর ৪:৪৭"
+        },
+        {
+          "headline": "Nicaragua says it will withdraw from Central American Parliament",
+          "excerpt": "The country’s crackdown on human rights has left it increasingly isolated in Latin America.Nicaragua’s government has announced it will withdraw from the Central American Parliament, a key regional body, as President Daniel Ortega and his co-president and wife, Rosario Murillo, consolidate power.The Foreign Ministry announced on Saturday that it would exit the six-country parliament, established…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/10/4/nicaragua-says-it-will-withdraw-from-central-american-parliament?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/ap_6ac2942c2a2fc-1791136812.jpg?resize=1920%2C1440",
+          "time": "ভোর ৪:৩৬"
+        },
+        {
+          "headline": "US withdraws B-1 bomber aircraft from UK’s Fairford base amid Iran fears",
+          "excerpt": "The abrupt redeployment to the US comes after several ‘terrorism-related’ arrests were made outside RAF Fairford.The United States has made the abrupt decision to withdraw its bombers from the Royal Air Force (RAF) base Fairford in the western part of the United Kingdom, citing concerns about a potential attack.Media reports emerged on Sunday that an urgent redeployment was under way, with B-1…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/10/4/us-withdraws-b-1-bomber-aircraft-from-uks-fairford-base-amid-iran-fears?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/ap_6ac2d18a455a3-1791152522.jpg?resize=1920%2C1440",
+          "time": "ভোর ৪:২৩"
+        },
+        {
+          "headline": "Brazil presidential election 2026: first-round live results",
+          "excerpt": "The incumbent, Luiz Inácio Lula da Silva, is up against Flávio Bolsonaro, the son of the former president Jair Bolsonaro, who is in prison for plotting a military coup. The president in Brazil is directly elected, and candidates need more than 50% of the vote to avoid a second round. Live first round results ... Guardian graphic. Source: TSE Results by state  How the election worksBrazil’s…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/world/ng-interactive/2026/oct/04/brazil-presidential-election-2026-first-round-live-results",
+          "author": "Seán Clarke, Tom Phillips",
+          "image": "https://i.guim.co.uk/img/media/57b638a4d4d903a611efbeecbdfac0df5ef21692/0_0_5000_4000/master/5000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=4d970472064b7fb20ba9817a1d292900",
+          "time": "ভোর ৪:০১"
+        },
+        {
+          "headline": "ব্রাজিলের নির্বাচন: জইর বলসোনারোর ছেলে ফ্লাভিও কি লুলাকে হারাতে পারবেন",
+          "excerpt": "বিবিসি লুইজ ইনাসিও লুলা দা সিলভা (বাঁয়ে) ও ফ্লাভিও বলসোনারোছবি: এএফপিব্রাজিলের রাজনীতিতে চার বছর আগেকার নাটকীয় সেই নির্বাচনের স্মৃতি আজও তাজা। ওই নির্বাচনে ফ্লাভিও বলসোনারোর বাবা জইর বলসোনারোকে মাত্র ১ দশমিক ৮ শতাংশ পয়েন্টের ব্যবধানে হারিয়েছিলেন বামপন্থী নেতা লুইজ ইনাসিও লুলা দা সিলভা। নির্বাচনের পর বলসোনারোর সমর্থকেরা কংগ্রেস ভবনে তাণ্ডব চালিয়েছিলেন, যা দেশটির জাতীয় জীবনে গভীর প্রভাব…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/world/cz5y21izot",
+          "author": "বিবিসি",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-04%2F1exi3vwt%2FBrasilElection.jpg?rect=0%2C15%2C800%2C420&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-09-22%2F5lwyn5je%2Fdefaultog.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "রাত ১:৫৭"
+        },
+        {
+          "headline": "Cornell case puts New York’s progressive image at odds with its rape laws",
+          "excerpt": "Last month, a woman identified as Jane Doe filed a lawsuit against Cornell University, the fraternity Chi Phi and the seven fraternity members she accused of gang-raping her on the night of October 19, 2024.Her allegations have triggered a nationwide reckoning in the United States over the prevalence of sexual assault on college campuses.Recommended Stories list of 3 itemslist 1 of 3Cornell rape…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/10/4/cornell-case-puts-new-yorks-progressive-image-at-odds-with-its-rape-laws?traffic_source=rss",
+          "author": "Catherine Nouhan",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/2026-10-02T000819Z_957798880_RC2LUNACUZQF_RTRMADP_3_USA-CRIME-CORNELL-1791117885.jpg?resize=1920%2C1440",
+          "time": "রাত ৩:৩৯"
+        },
+        {
+          "headline": "Ireland refuse handshake with Israel and don armbands in Nations League tie",
+          "excerpt": "Republic of Ireland football players again wear black armbands and refuse handshakes with Israel in UEFA Nations League.Ireland players again wore black armbands in recognition of Palestinians killed in Gaza and bowed their heads during the Israeli national anthem before the teams’ second UEFA Nations League football match on Sunday.The League 3 Group B match ended in a 1-1 draw and, despite…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/sports/2026/10/4/ireland-refuse-handshake-with-israel-and-don-armbands-in-nations-league-tie?traffic_source=rss",
+          "author": "Kevin Hand",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/AP26277680526272-1791146807.jpg?resize=1920%2C1440",
+          "time": "রাত ৩:৩০"
+        },
+        {
+          "headline": "Ronaldo-less Portugal beat Norway 2-1 to reach Nations League quarterfinals",
+          "excerpt": "Holders Portugal first team to qualify for 2026-27 UEFA Nations League despite Cristiano Ronaldo’s absence.Portugal defeated Norway 2-1 on Sunday, without superstar striker Cristiano Ronaldo, to qualify for the UEFA Nations League quarterfinals.Goncalo Ramos secured victory for Jorge Jesus’s Portugal in the Group A4 clash after Joao Cancelo’s rocket levelled Kristoffer Ajer’s stunning opener for…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/sports/2026/10/4/ronaldo-less-portugal-beat-norway-2-1-to-reach-nations-league-quarterfinals?traffic_source=rss",
+          "author": "By AFP",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/2026-10-04T205453Z_2005152978_UP1EMA41L60LI_RTRMADP_3_SOCCER-UEFANATIONS-POR-NOR-1791147592.jpg?resize=1920%2C1440",
+          "time": "রাত ৩:১০"
+        },
+        {
+          "headline": "Israel lashes out as UK’s Green Party formally defines Zionism as ‘racism’",
+          "excerpt": "Israel’s president declared that the ‘antisemitic lie’ deliberately endangers Jews and Israelis.Israel has reacted with anger after the United Kingdom’s Green Party voted to define Zionism as a form of racism.Israel, as well as British Jewish groups, lashed out on Sunday following the vote by the small political party. The Israeli government declared that it now views the left-leaning Greens as…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/10/4/israel-lashes-out-as-uks-green-party-formally-defines-zionism-as-racism?traffic_source=rss",
+          "author": "By AFP and Reuters",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/reuters_6ac29a62-1791138402.jpg?resize=1920%2C1440",
+          "time": "রাত ২:৩৮"
+        },
+        {
+          "headline": "Debris found near Nantucket believed to be from missing medical plane",
+          "excerpt": "NewsFeedThe US Coast Guard says a field of debris found near Nantucket, Massachusetts, is believed to be from an emergency medical plane that went missing over the Atlantic Ocean late Saturday night with six people on board.Published On 4 Oct 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/10/4/debris-found-near-nantucket-believed-to-be-from-missing-medical-plane?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/image-1791144473.jpg?resize=1920%2C1080&quality=80",
+          "time": "রাত ২:২১"
+        },
+        {
+          "headline": "Brazil election results live: Lula and Bolsonaro locked in a tight race",
+          "excerpt": "Skip linksSkip to Content Live Navigation menuNewsAfricaAsiaUS & CanadaLatin AmericaEuropeAsia PacificMiddle EastExplainedSportOpinionVideoOriginalsFeaturesEconomyHuman RightsClimate CrisisInvestigationsInteractivesIn PicturesScience & TechnologyPodcastsTravelSponsored Content Live Live updates, Leftist incumbent Lula is seeking a fourth term in office, facing off against right-wing Senator…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/liveblog/2026/10/4/brazil-election-results-live-lula-and-bolsonaro-locked-in-a-tight-race?traffic_source=rss",
+          "author": "Tamara Khandaker, Brian Osgood",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6ac1552b9e3b-1791055147.jpg?resize=1920%2C1440",
+          "time": "রাত ২:০০"
+        },
+        {
+          "headline": "Imran Khan’s party launches march to Islamabad demanding his release",
+          "excerpt": "Skip linksSkip to Content Live Navigation menuNewsAfricaAsiaUS & CanadaLatin AmericaEuropeAsia PacificMiddle EastExplainedSportOpinionVideoOriginalsFeaturesEconomyHuman RightsClimate CrisisInvestigationsInteractivesIn PicturesScience & TechnologyPodcastsTravelSponsored Content Live Imran Khan’s party launches march to Islamabad demanding his releaseNewsFeedPublished On 4 Oct 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/10/4/imran-khans-party-launches-march-to-islamabad-demanding-his-release?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/Screenshot-2026-10-04-at-20.48.25-1791143510.png?resize=1200%2C675",
+          "time": "রাত ১:৫৩"
+        },
+        {
+          "headline": "Will elections bring change to multi-ethnic Bosnia and Herzegovina?",
+          "excerpt": "Inside StoryBalkan nation seeks EU membership, but divisions threaten that goal.Voters in Bosnia and Herzegovina go to the polls for the 10th time since the end of the war more than three decades ago.They’re electing more than 500 members of a complex government structure.\nThe Dayton Peace Accord ended the war in 1995.But deep political and ethnic divides remain.\nSome analysts say this vote…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/inside-story/2026/10/4/will-elections-bring-change-to-multi-ethnic-bosnia-and-herzegovina?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6ac2a9333481-1791142195.jpg?resize=1920%2C1440",
+          "time": "রাত ১:৪৬"
+        },
+        {
+          "headline": "France to shutter up to 500 schools as more student protests called",
+          "excerpt": "French education minister cites safety concerns for closures as resumption of protests are called for by organisers.France plans to fully or partially close up to 500 schools on Monday amid a series of student protests that have become increasingly violent.Education Minister Edouard Geffray announced the precautionary measures on Sunday as part of a bid for a “partial, progressive return to…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/10/4/france-to-shutter-up-to-500-schools-as-more-student-protests-called?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6ac2853100e5-1791132977.jpg?resize=1920%2C1440",
+          "time": "রাত ১:৪১"
+        },
+        {
+          "headline": "Pro-Imran Khan mass rally launched after Pakistan government talks fail",
+          "excerpt": "Government warns of crackdown as supporters of jailed former prime set off from northwest Pakistan towards Islamabad.Supporters of jailed former Pakistani Prime Minister Imran Khan have set off on a protest march from the country’s northwest after talks with the government to call off the demonstration failed.More than 5,000 were reported to have begun the rally on Sunday. The march, planned by…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/10/4/pro-imran-khan-mass-rally-launched-after-pakistan-government-talks-fail?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/AFP__20261004__D27V7WE__v1__HighRes__PakistanPoliticsProtest-1791131061.jpg?resize=1920%2C1440",
+          "time": "রাত ১:২০"
+        },
+        {
+          "headline": "No bail for P-plater over Newcastle crash that left five-year-old in induced coma and injured nine other NRL fans",
+          "excerpt": "A driver whose car careered into a crowd of Newcastle Knights supporters – leaving children as young as five injured – will be kept in custody as the community rallies to support those hospitalised after the crash.Ten people were left injured after a car allegedly driven by 18-year-old P-plater Indika Bambrick Samarasinghe careered into the crowd near a major roundabout on Saturday morning.Six…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/australia-news/2026/oct/04/no-bail-for-p-plater-over-newcastle-crash-that-left-five-year-old-in-induced-coma-and-injured-nine-other-nrl-fans-ntwnfb",
+          "author": "Andrew Messenger",
+          "image": "https://i.guim.co.uk/img/media/47c5269bb3d568b93dab18bcadffd97b3fe7f42c/685_0_2102_1682/master/2102.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=3d38929683312859ed04f82aaad490b5",
+          "time": "রাত ১:৫৬"
+        },
+        {
+          "headline": "War on Iran: Is escalation more likely than a deal?",
+          "excerpt": "The Bottom LineFormer Iranian and US diplomats agree that the war on Iran is likely to get worse in the coming weeks.When US leaders insist that the war on Iran is about nuclear weapons and not about oil, Iran’s leaders don’t believe them, argues former Iranian diplomat Hossein Mousavian.Mousavian and former US diplomat Alan Eyre – both of whom were involved in previous negotiations on Iran’s…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/the-bottom-line/2026/10/4/war-on-iran-is-escalation-more-likely-than-a-deal-2?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/war-on-iran-1-1791139662.jpg?resize=1920%2C1080&quality=80",
+          "time": "রাত ১২:৪৭"
+        },
+        {
+          "headline": "Ku Klux Klan leader claims rising support ahead of US midterm elections",
+          "excerpt": "NewsFeedThe Ku Klux Klan says support for its message is growing as it seeks to rebrand around family and faith. Al Jazeera’s Phil Lavelle reports on how much influence the group really has ahead of the US midterm elections.Published On 4 Oct 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/10/4/ku-klux-klan-leader-claims-rising-support-ahead-of-us-midterm-elections?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/Screenshot-2026-10-04-at-19.26.26-1791138580.png?resize=1200%2C675",
+          "time": "রাত ১২:৩৪"
+        },
+        {
+          "headline": "Police investigating Flydubai co-pilot’s Australia ties",
+          "excerpt": "Australian police and intelligence join the list of those probing the incident.Authorities have said they are investigating the links of the co-pilot of the Israel-bound Flydubai flight with Australia.A multi-agency Australian police and intelligence team – the Victorian Joint Counter Terrorism Team – is carrying out the probe, a spokesperson said on Sunday.Recommended Stories list of 3…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/10/4/police-investigating-flydubai-co-pilots-australia-ties?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/epa_6ac282ed1f55-1791132397.jpg?resize=1920%2C1440",
+          "time": "রাত ১১:৫৩"
+        },
+        {
+          "headline": "Ukraine ready for US-backed talks with Russia: Zelenskyy",
+          "excerpt": "Trilateral talks could happen this month in UAE or another US-proposed venue, says the president.Ukraine is ready to hold trilateral talks with the United States and Russia this month, President Volodymyr Zelenskyy has said.The Ukrainian president made the comments on Sunday during a news conference alongside German Chancellor Friedrich Merz in Kyiv. He said Ukraine supports a swift timeline for…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/10/4/ukraine-ready-for-us-backed-talks-with-russia-zelenskyy?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/reuters_6ac270a7-1791127719.jpg?resize=1920%2C1440",
+          "time": "রাত ১১:১৭"
+        },
+        {
+          "headline": "Bosnian Serb nationalist Dodik declares party victory in Bosnia election",
+          "excerpt": "Bosnian Serb nationalist politician Milorad Dodik has declared victory for his party in an election in Bosnia shaped by economic pressures, the prospect of the Balkan nation joining the European Union and ethnic tensions that have divided the country since its brutal 1992-95 war.Dodik is a staunchly pro-Russia politician who, despite not appearing on the ballot, has dominated the campaign and…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/world/2026/oct/04/bosnian-serb-nationalist-dodik-declares-party-victory-in-bosnia-election",
+          "author": "Guardian staff reporter",
+          "image": "https://i.guim.co.uk/img/media/8887125ce6f772e5ec61e7ca43fd4945ba9ac1e6/1723_16_4171_3336/master/4171.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=fbb4d37e1e01a3603106c0b64d18980c",
+          "time": "রাত ২:৪২"
+        },
+        {
+          "headline": "Children’s books with Black main characters down 8% in a year, study shows",
+          "excerpt": "The number of children’s books featuring Black main characters fell by almost 8% last year, according to research into diversity in UK publishing.Just 47 – or 2.1% – of the 2,189 books published for under-10s in 2025 featured a Black main character, a 7.8% fall from the previous year, according to Inclusive Books for Children. Black children make up about 8.5% of that age bracket in England and…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/books/2026/oct/05/childrens-books-with-black-main-characters-down-study-uk",
+          "author": "Emma Loffhagen",
+          "image": "https://i.guim.co.uk/img/media/7bfbe5a48394545da8cff571b6f29884c8c5a441/537_0_4160_3328/master/4160.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=aecc45e412eced6f4918f1ef0f1bfffc",
+          "time": "ভোর ৫:০১"
+        },
+        {
+          "headline": "Money stolen by scammers hijacking UK social media accounts rises 400%",
+          "excerpt": "The total amount stolen by criminals who hack into people’s emails and social media accounts and then pretend to be them has risen by more than 400% in a year, official UK data shows.In many cases, the scammers are hijacking people’s accounts in order to use their identity to sell fake event tickets – such as to sold-out gigs – to unsuspecting friends and family.The total reported amount stolen…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/money/2026/oct/05/scammers-hijacking-uk-social-media-accounts",
+          "author": "Rupert Jones",
+          "image": "https://i.guim.co.uk/img/media/f8dd63c3b54403f6d407ecab9c96fc54d48cc38c/567_0_4132_3306/master/4132.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=1e2858f7028e6a742b6fe2aa70fc1300",
+          "time": "ভোর ৫:০১"
+        },
+        {
+          "headline": "Strikes by North Sea oil workers could ‘severely disrupt’ UK fuel supplies",
+          "excerpt": "A looming strike by oil workers in the North Sea could “severely disrupt” UK fuel supplies, the Unite union has said, adding that staff were left with no choice after a breakdown in pay talks with the Texas oil company Apache.The union said Apache workers had “emphatically” backed strike action after being given what it said was an unacceptable pay offer that amounted to a real-terms pay cut for…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/business/2026/oct/05/strikes-by-north-sea-oil-workers-could-severely-disrupt-uk-fuel-supplies",
+          "author": "Kalyeena Makortoff",
+          "image": "https://i.guim.co.uk/img/media/4823c09ce35e910ea801f8e91f0c59d1322c4ef9/428_0_4275_3420/master/4275.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=548c895e7864e8c639453c43e7121562",
+          "time": "ভোর ৫:০১"
+        },
+        {
+          "headline": "US bombers pulled from RAF Fairford base after suspected terror plot",
+          "excerpt": "The US Air Force has pulled its bombers from RAF Fairford following an investigation into an alleged planned terror attack at the base.The bombers were redeployed back to their home bases in the US, according to a Pentagon official who was not authorised to discuss sensitive military movements and spoke on Sunday on condition of anonymity.A Pentagon spokesperson said: “While ⁠operational…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/us-news/2026/oct/04/us-bombers-sent-home-from-raf-fairford-base-after-suspected-bomb-plot",
+          "author": "Dan Sabbagh, Marina Dunbar, Charlie Moloney",
+          "image": "https://i.guim.co.uk/img/media/c7d57adfbabc7b1e63df64308cfe3f2bbe92bc4c/513_0_2856_2285/master/2856.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=96190cd071ae8cb7f73d53100495743a",
+          "time": "রাত ৩:২৫"
+        },
+        {
+          "headline": "Tories to pledge to scrap Environment Agency and Natural England",
+          "excerpt": "The Conservatives will announce a bonfire of regulations including abolishing affordable homes and community funding rules as well as scrapping Natural England and the Environment Agency.The shadow chancellor, Andrew Griffith, will say the party intends to “streamline regulations” that protect nature and oblige developers to include affordable homes and community services such as GP surgeries,…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/politics/2026/oct/04/tories-scrap-environment-agency-natural-england-conservative-conference",
+          "author": "Jessica Elgot",
+          "image": "https://i.guim.co.uk/img/media/a6cbcfc2c250b2ce2265975a6a842710c9b31ba3/338_0_3347_2677/master/3347.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=124046a981df35cbfb2d57d64bb73569",
+          "time": "রাত ৩:০০"
+        },
+        {
+          "headline": "White House defends new press aide who posed with rifle in ‘Fuck Joe Biden’ shirt",
+          "excerpt": "The White House has defended a newly hired press aide who posed for a holiday photograph in 2021 wearing a “Fuck Joe Biden” T-shirt and holding a rifle.Beni Rae Harmony, the new assistant White House press secretary, revealed on Friday that she was going to work for Donald Trump just days after covering him as a correspondent for Real America’s Voice, a partisan rightwing outlet originally…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/us-news/2026/oct/04/white-house-press-aide-beni-rae-harmony",
+          "author": "Robert Mackey",
+          "image": "https://i.guim.co.uk/img/media/de6016ba76152a3508ed1fae7d7721aa52f2b212/416_259_4239_3392/master/4239.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=d61b7b218de21be69ad3e9109efef084",
+          "time": "ভোর ৫:৩৮"
+        },
+        {
+          "headline": "Trump names intelligence chief Jay Clayton as new White House AI czar",
+          "excerpt": "Donald Trump on Sunday named Jay Clayton, the director of national intelligence, to also serve as the new White House AI czar.Clayton, who leads the US’s 18 intelligence agencies, previously served as the top federal prosecutor in Manhattan and led the Securities and Exchange Commission during Trump’s first term.During his Senate confirmation hearing, Clayton said AI was a “gamechanger” but it…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/us-news/2026/oct/04/trump-jay-clayton-white-house-ai-czar",
+          "author": "Ariana Baio",
+          "image": "https://i.guim.co.uk/img/media/144d386f8c00039748c3a55ec9b55f147d589d98/2296_881_2186_1748/master/2186.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=709fef8621d4d6107eeb579de1be7563",
+          "time": "রাত ১১:৪৫"
+        },
+        {
+          "headline": "After a deadly paper mill explosion, a community in Washington state looks to a key House race",
+          "excerpt": "On a misty morning in May in south-west Washington state, Laura Oltmann, a 41-year-old dietitian, had barely clocked in when an unfamiliar overhead announcement echoed through the hospital.“We get overhead pages for different types of emergencies. But this one, we don’t get very often,” recalled Oltmann.Doctors, nurses and staff began guessing what could have happened. Perhaps it was a train…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/us-news/2026/oct/04/washington-state-marie-gluesenkamp-perez-democrat-congress",
+          "author": "Lok Darjee",
+          "image": "https://i.guim.co.uk/img/media/62b14a81d967f1dbd569d162ca46d4577cf62466/132_0_6882_5504/master/6882.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=a292addb777e51076ad506e157214ebd",
+          "time": "রাত ১১:২৭"
+        }
+      ],
+      "Local": [
+        {
+          "headline": "ইউরিন ব্যাগ লাগানো অবস্থায় কি অজু করা যায়",
+          "excerpt": "জিজ্ঞাসা ইউরিন ব্যাগ লাগানো অবস্থায় কি অজু করা যায়ফয়জুল্লাহ রিয়াদ ছবি: পেক্সেলসঅসুস্থতার কারণে অনেককে দীর্ঘদিন ক্যাথেটার ব্যবহার করতে হয়। মূত্রথলিতে সংযুক্ত ক্যাথেটারের মাধ্যমে প্রস্রাব একটি নলের সাহায্যে ইউরিন ব্যাগে জমা হতে থাকে।এ সময় অজু কীভাবে করবেন, ব্যাগে প্রস্রাব জমে থাকলে অজু হবে কি না, অজুর পর আবার প্রস্রাব ব্যাগে চলে গেলে অজু থাকবে কি না—এসব বিষয় নিয়ে অনেকে চিন্তিত থাকেন।ইসলাম…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/religion/islam/h0ydm92oks",
+          "author": "ফয়জুল্লাহ রিয়াদ",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-04%2F5so4amog%2Fpexels-alinson-torres-2157639132-34891808.jpg?rect=0%2C428%2C6048%2C3175&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "ভোর ৪:৩০"
+        },
+        {
+          "headline": "আইনের শাসন ও মানসম্মত জনসেবা\nনিশ্চিত না হলে মানুষের আস্থা কমে",
+          "excerpt": "ডেমোক্রেসি কনভারসেশনে বক্তারা আইনের শাসন ও মানসম্মত জনসেবা\nনিশ্চিত না হলে মানুষের আস্থা কমেনিজস্ব প্রতিবেদক ঢাকা‘দ্য ডেমোক্রেসি কনভারসেশন: রিবিল্ডিং ট্রাস্ট ইন অ্যান এজ অব পোলারাইজেশন’ শীর্ষক অধিবেশনে বক্তৃতা দেন দেবপ্রিয় ভট্টাচার্য। গতকাল রোববার রাজধানীর প্যান প্যাসিফিক সোনারগাঁও হোটেলেছবি: প্রথম আলোগণতন্ত্রের মূল ভিত্তি হলো মানুষের বিশ্বাস। সুষ্ঠু নির্বাচন, আইনের শাসন ও মানসম্মত জনসেবা নিশ্চিত…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/capital/71o3bp9jp4",
+          "author": "নিজস্ব প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-04%2Fqp5jmqsn%2FCapture.PNG?rect=0%2C47%2C945%2C496&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "রাত ২:২৪"
+        }
+      ],
+      "Entertainment": [
+        {
+          "headline": "বাইরে শিলাবৃষ্টি, ভেতরে সনু নিগমের সুরের ঝড়",
+          "excerpt": "কাউসার খান সিডনিঅনুষ্ঠানে সনু নিগমকোলাজশনিবার বিকেল চারটার পর থেকেই সিডনিতে তুমুল শিলাবৃষ্টি ও বজ্রপাত। ঝড় এতটাই প্রবল ছিল যে গাড়ির সামনে কয়েক হাত দূরের কিছু দেখাও কঠিন হয়ে পড়েছিল। সেই দুর্যোগ মাথায় নিয়েই আমরা গাড়ি চালিয়ে রওনা হলাম ডার্লিং হারবারের টিকটক এন্টারটেইনমেন্ট সেন্টারের দিকে। গন্তব্য—সনু নিগমের গান।কেন্দ্রে পৌঁছে দেখা গেল সম্পূর্ণ বিপরীত এক দৃশ্য। বাইরে প্রকৃতির তাণ্ডব, ভেতরে মানুষের…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/entertainment/song/pplkrdtiin",
+          "author": "কাউসার খান",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-04%2Faooh6pno%2FWhatsApp-Image-2026-10-04-at-6.29.01-PM.jpeg?rect=0%2C0%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "রাত ২:০০"
+        },
+        {
+          "headline": "Pritom-Shahtaj announce the end of their marriage",
+          "excerpt": "Updated : 5 October 2026, 00:12\n            \n        \n\t\t\n\t\t\t\t\t\t\t\n\t\t\t\n\n\t\tArts & Entertainment Desk\n\t\t\t\t\t\n\n\t\t\t\t\t\n\n\t\t\t\n  \n                  \n              \n                  \n\n  \n\n\n\t\t\t\n\t\t\t\t\t\t\tPhoto: Collected\n\t\t\t\t\t\t\n\t\t\t\t\t\nMusician and actor Pritom Hasan and model, actor and singer Shahtaj Monira Hashem are ending their marriage. The couple have decided to go their separate ways due to significant…",
+          "source": "The Daily Star Entertainment",
+          "link": "https://www.thedailystar.net/culture/entertainment/news/pritom-shahtaj-announce-the-end-their-marriage-4290586",
+          "author": "Arts & Entertainment Desk",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-10/Pritom%20Shahtaj_0.png",
+          "time": "রাত ১২:০৬"
+        }
+      ],
+      "Tech": [
+        {
+          "headline": "Google froze its open source bug bounty program due to a ‘significant rise’ in AI submissions",
+          "excerpt": "Blaming a “significant rise” in AI submissions, Google has paused its open source bug bounty program until next year.\n\nLast year, TechCrunch reported that cybersecurity experts were warning of that AI slop posed a serious risk to bug bounty programs. Looks like that’s the issue confronting Google’s Open Source Software Vulnerability Rewards Program, where researchers were rewarded for finding…",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/",
+          "author": "Anthony Ha",
+          "image": "https://techcrunch.com/wp-content/uploads/2025/07/ai-slop-bug-bounty-reports-1646637201.jpg?resize=1200,863",
+          "time": "রাত ২:৩১"
+        },
+        {
+          "headline": "The new Fitbit Edge leaks",
+          "excerpt": "Terrence O'Brien is the Verge’s weekend editor. He’s covered the tech industry for over 18 years and knows a thing or two about synths.We don’t know a ton about the Fitbit Edge, but it appears to be a successor to the midrange Charge line. It had leaked previously, but we can clearly see in these images posted by Android Headlines, you can see that Google’s rumored fitness tracker sort of splits…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/gadgets/1004616/the-new-fitbit-edge-leaks",
+          "author": "Terrence O'Brien",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24438538/Fitbit_STK151_01.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+          "time": "রাত ৩:০২"
+        },
+        {
+          "headline": "The reason the Mac mini is cheaper than a MacBook",
+          "excerpt": "If you're looking at base configurations, anyway.\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                   …",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2274707/mac-mini-cheaper-than-macbook-reason/",
+          "author": "Roger Fingas",
+          "image": "https://www.engadget.com/img/gallery/the-reason-the-mac-mini-is-cheaper-than-a-macbook/l-intro-1790868171.jpg",
+          "time": "ভোর ৫:৪৫"
+        },
+        {
+          "headline": "‘Fitbit Edge’ leaks as Google’s next fitness tracker with ‘Apps’ & ‘Notifications’",
+          "excerpt": "Following an accidental marketing leak in August and FCC listing last month, retail listings for the “Fitbit Edge” have now emerged.\n\n\n\nAccording to retail assets shared by Android Headlines, Google is making a new wearable called the “Fitbit Edge.”\n\n\n\nThere is a bulbous screen that appears to go much closer to the perimeter than that of any past Fitbit tracker. We see what is essentially a…",
+          "source": "9to5Google",
+          "link": "https://9to5google.com/2026/10/04/google-fitbit-edge-leak/",
+          "author": "Abner Li",
+          "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/08/pixel-11-ads-unknown-tracker.jpg?quality=82&strip=all&resize=1200,628",
+          "time": "রাত ১১:০৬"
+        },
+        {
+          "headline": "Can ‘super intelligence’ and a non-binding safety pact solve AI’s image problem?",
+          "excerpt": "President Donald Trump hosted many of the biggest names in artificial intelligence this week — in part to announce that the U.S. government isn’t calling it artificial intelligence anymore. Now it’s super intelligence.\n\nOn the latest episode of TechCrunch’s Equity podcast, Kirsten Korosec, Sean O’Kane, and I discussed the motivation behind the meeting and what effect it might have on the AI…",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-problem/",
+          "author": "Anthony Ha",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2297262633.jpg?resize=1200,800",
+          "time": "রাত ২:০৮"
+        },
+        {
+          "headline": "Prick’s theatrical industrial punk is perfect for spooky season",
+          "excerpt": "While deep in the recording process for The Downward Spiral, Trent Reznor lent some of his production talents to old friend Kevin McMahon, from the new wave band Lucky Pierre (which Reznor was briefly a member of). While Reznor is only credited as the producer on four tracks off Prick’s self-titled debut record, his fingerprints are all over it. But McMahon also can’t suppress his inner theater…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/entertainment/1004595/prick-industrial-glam-punk-album-review",
+          "author": "Terrence O'Brien",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Prick.jpg?quality=90&strip=all&crop=0,23.821989528796,100,52.356020942408",
+          "time": "রাত ২:০০"
+        },
+        {
+          "headline": "You should avoid using a screen protector on your MacBook — here's why",
+          "excerpt": "Putting on a screen protector may have unintended consequences. \n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                    Farknot…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2274706/why-avoid-using-macbook-screen-protector/",
+          "author": "Deven McClure",
+          "image": "https://www.engadget.com/img/gallery/you-should-avoid-using-a-screen-protector-on-your-macbook-heres-why/l-intro-1790862722.jpg",
+          "time": "ভোর ৫:৩০"
+        },
+        {
+          "headline": "The best early October Prime Day deals happening now",
+          "excerpt": "Cameron Faulkner is an editor covering deals and gaming hardware. He joined in 2018, and after a two-year stint at Polygon, he rejoined The Verge in May 2025.It’s not even October yet and Amazon is already offering some Prime Big Deal Day discounts on its own hardware, along with plenty of other popular products. It’s all to hype up October Prime Day, which starts October 6th at 3AM ET and lasts…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/gadgets/999447/best-early-amazon-prime-day-big-deals-sale-october",
+          "author": "Cameron Faulkner",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/268775_October_Prime_Day_art_CVirginia.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+          "time": "রাত ১১:১৮"
+        },
+        {
+          "headline": "Every Starlink Dish Available: How To Know Which Setup May Be Right For You",
+          "excerpt": "From stationary to on-the-go connectivity needs.\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                    Adrianhancu/Getty…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2276417/every-starlink-dish-available-which-setup-right/",
+          "author": "Courtney Holt",
+          "image": "https://www.engadget.com/img/gallery/every-starlink-dish-available-how-to-know-which-setup-may-be-right-for-you/l-intro-1789072161.jpg",
+          "time": "ভোর ৫:১৫"
+        },
+        {
+          "headline": "When is it worth getting a sound card for your PC?",
+          "excerpt": "Most people don't need to buy a sound card, but certain use cases can benefit from adding…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2274701/when-worth-getting-sound-card-for-pc/",
+          "author": "Roger Fingas",
+          "image": "https://www.engadget.com/img/gallery/when-is-it-worth-getting-a-sound-card-for-your-pc/l-intro-1790865430.jpg",
+          "time": "ভোর ৫:০০"
+        },
+        {
+          "headline": "The popular Apple features you won't be getting with the iPhone Duo",
+          "excerpt": "Switching to a foldable requires some sacrifices. \n            \n\n    \n                \n                \n                \n                Smartphone users eyeing the new iPhone Duo may be enraptured by its matte-finish inner folding display and slick software redesigned around that experience. It's certainly the most exciting Apple device in a decade or more, but Apple's first foldable phone is…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2274700/iphone-duo-apple-popular-features-wont-come-with/",
+          "author": "Max Miller",
+          "image": "https://www.engadget.com/img/gallery/the-popular-apple-features-you-wont-be-getting-with-the-iphone-duo/l-intro-1790443535.jpg",
+          "time": "ভোর ৪:৪৫"
+        },
+        {
+          "headline": "How the iPhone Duo will improve your group selfies",
+          "excerpt": "No more propping your phone up and trying to beat the timer to get in the…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2274699/iphone-duo-smart-take-ai-photo-capturing-feature-improve-group-selfies/",
+          "author": "Roger Fingas",
+          "image": "https://www.engadget.com/img/gallery/how-the-iphone-duo-will-improve-your-group-selfies/l-intro-1790799711.jpg",
+          "time": "ভোর ৪:৩০"
+        },
+        {
+          "headline": "How to improve your iPhone's call quality",
+          "excerpt": "When calls drops or sound terrible, here's what to do.\n            \n\n    \n                \n                \n                \n                When you're not using your iPhone as a music player, camera or gaming platform, you might actually use it as a phone. And when you do, call quality matters. If calls sound muffled or metallic, cut out intermittently or are drowned by background noise, you…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2274693/how-to-improve-iphone-call-quality-voice-isolation/",
+          "author": "Jonny Evans",
+          "image": "https://www.engadget.com/img/gallery/how-to-improve-your-iphones-call-quality/l-intro-1790872478.jpg",
+          "time": "ভোর ৪:০০"
+        },
+        {
+          "headline": "The upcoming touchscreen OLED MacBook Pro is reportedly 'significantly lighter'",
+          "excerpt": "The high-end laptop is still expected to make its debut by next month.\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                    Kevin…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2276786/the-upcoming-touchscreen-oled-macbook-pro-is-reportedly-significantly-lighter/",
+          "author": "Jackson Chen",
+          "image": "https://www.engadget.com/img/gallery/the-upcoming-touchscreen-oled-macbook-pro-is-reportedly-significantly-lighter/l-intro-1791141971.jpg",
+          "time": "রাত ১:২৭"
+        },
+        {
+          "headline": "Five iPhone 18 Pro features you'll want to try the second you unbox it",
+          "excerpt": "From variable aperture to faster charging, here’s what to test first.\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                    Filipe…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2274578/iphone-18-pro-feature-try-when-unboxed/",
+          "author": "Filipe Espósito",
+          "image": "https://www.engadget.com/img/gallery/five-iphone-18-pro-features-youll-want-to-try-the-second-you-unbox-it/l-intro-1790868763.jpg",
+          "time": "রাত ১২:৪৫"
+        },
+        {
+          "headline": "What does V-Sync actually do to your PC's frames per second?",
+          "excerpt": "The quest to align frame rates and refresh rates.\n            \n\n    \n                \n                                \n                                \n                        \n\t\t\t\t            If you've ever fiddled with graphics settings, you've probably come across VSync. Short for vertical synchronization, it can help eliminate screen tearing, which is when the display shows pieces of two…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2273753/what-v-sync-does-pc-frames-per-second/",
+          "author": "Will Shanklin",
+          "image": "https://www.engadget.com/img/gallery/what-does-vsync-actually-do-to-your-pcs-frames-per-second/l-intro-1790095716.jpg",
+          "time": "রাত ১২:৩০"
+        },
+        {
+          "headline": "A fourth RuneScape game is under development using Unreal Engine",
+          "excerpt": "Jagex says it will reveal more details about the game, tentatively named RS4, next year.\n            \n\n    \n                \n                \n                \n                The fourth major installment in the RuneScape world is coming and it's being developed using Unreal Engine. Jagex announced the next game during RuneFest, its annual convention for all things RuneScape, with a working title…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2276772/a-fourth-runescape-game-is-under-development-using-unreal-engine/",
+          "author": "Jackson Chen",
+          "image": "https://www.engadget.com/img/gallery/a-fourth-runescape-game-is-under-development-using-unreal-engine/l-intro-1791137033.jpg",
+          "time": "রাত ১২:০৫"
+        },
+        {
+          "headline": "What causes screen tearing and how can you fix it?",
+          "excerpt": "Screen tearing is a nasty problem, but it's thankfully one that's been…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2274514/screen-tear-causes-how-to-fix/",
+          "author": "Max Miller",
+          "image": "https://www.engadget.com/img/gallery/what-causes-screen-tearing-and-how-can-you-fix-it/l-intro-1790866397.jpg",
+          "time": "রাত ১২:০০"
+        },
+        {
+          "headline": "Linux 7.3-rc6 Released: Normal For The New \"AI Normal\"",
+          "excerpt": "Linus Torvalds just released Linux 7.3-rc7 as we work toward the stable Linux 7.3 kernel release in two weeks.\n\nIt was another busy week of bug and regression fixing for Linux 7.3, which continues to see extra heavy development cycles due to all the AI/LLM fueled bug reports and patches. This week was no different with continuing to see a lot of AI/LLM-generated churn hitting the Linux kernel…",
+          "source": "Phoronix",
+          "link": "https://www.phoronix.com/news/Linux-7.3-rc6-Released",
+          "author": "Written by Michael Larabel in Linux Kernel on 4 October 2026 at 05:04 PM EDT. Add A Comment",
+          "image": "",
+          "time": "রাত ৩:০৪"
+        },
+        {
+          "headline": "OpenCourant: Rocky Linux Developers Create Community Fork Of OpenRadioss",
+          "excerpt": "This week was the surprising and unfortunate decision of Siemens shutting down the OpenRadioss project as the four year old open-source project started by Altair Engineering with their prominent Radioss finite element solver. Siemens didn't just end the project but they shutdown the GitHub repository that hosted the open-source code and removed other resources that had built around it.…",
+          "source": "Phoronix",
+          "link": "https://www.phoronix.com/news/OpenRadioss-OpenCourant",
+          "author": "Written by Michael Larabel in Free Software on 4 October 2026 at 01:51 PM EDT. 3 Comments",
+          "image": "",
+          "time": "রাত ১১:৫১"
+        }
+      ]
+    }
+  },
+  {
     "dt": "2026-10-02T04:15:05.236Z",
     "file": "runs/2026-10-02-0415.html",
     "counts": {
