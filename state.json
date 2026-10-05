@@ -1,15 +1,6 @@
 {
   "Prothom Alo": {
     "seen_urls": [
-      "https://www.prothomalo.com/politics/6xbo9w8bao",
-      "https://www.prothomalo.com/entertainment/dhallywood/ro3jlifwub",
-      "https://www.prothomalo.com/photo/bangladesh/ocrjlcp0f9",
-      "https://www.prothomalo.com/bangladesh/854iofk1a4",
-      "https://www.prothomalo.com/bangladesh/y2izh5veso",
-      "https://www.prothomalo.com/politics/eqkgqzpn4w",
-      "https://www.prothomalo.com/bangladesh/district/4qhw37ppln",
-      "https://www.prothomalo.com/bangladesh/district/ktj5gcdvig",
-      "https://www.prothomalo.com/bangladesh/district/v1gpodun6l",
       "https://www.prothomalo.com/video/international/kya78ng26f",
       "https://www.prothomalo.com/business/industry/64io7k23zd",
       "https://www.prothomalo.com/bangladesh/district/lysmcykkjn",
@@ -500,7 +491,16 @@
       "https://www.prothomalo.com/bangladesh/1l7p1v462j",
       "https://www.prothomalo.com/bangladesh/district/bud5akprt0",
       "https://www.bigganchinta.com/feature/v8cspn1s31",
-      "https://www.prothomalo.com/opinion/column/u674ega6ig"
+      "https://www.prothomalo.com/opinion/column/u674ega6ig",
+      "https://www.prothomalo.com/bangladesh/district/b7czzb2n86",
+      "https://www.prothomalo.com/photo/bangladesh/rl958ho5iu",
+      "https://www.prothomalo.com/sports/football/jktfrfg7ea",
+      "https://www.prothomalo.com/sports/football/25bt5tellv",
+      "https://www.prothomalo.com/bangladesh/ip9e774ojc",
+      "https://www.prothomalo.com/politics/0vpbwcge6k",
+      "https://www.prothomalo.com/bangladesh/crime/wctpl0hhid",
+      "https://www.prothomalo.com/bangladesh/ft4w1deogf",
+      "https://www.prothomalo.com/bangladesh/capital/t7690oz5hb"
     ]
   },
   "Banglanews24": {
@@ -760,7 +760,8 @@
       "https://www.bbc.com/bengali/articles/ck5ywnxjg53wo?at_medium=RSS&at_campaign=rss",
       "https://www.bbc.co.uk/bengali/live/ck05r3l9v040t?at_medium=RSS&at_campaign=rss",
       "https://www.bbc.co.uk/bengali/live/ckp840rgd4r2t?at_medium=RSS&at_campaign=rss",
-      "https://www.bbc.co.uk/bengali/live/crgjqj8qz01vt?at_medium=RSS&at_campaign=rss"
+      "https://www.bbc.co.uk/bengali/live/crgjqj8qz01vt?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.co.uk/bengali/live/c50me0j704w4t?at_medium=RSS&at_campaign=rss"
     ]
   },
   "BBC Bangla Sport": {
@@ -803,29 +804,6 @@
   },
   "Al Jazeera": {
     "seen_urls": [
-      "https://www.aljazeera.com/video/newsfeed/2026/9/16/at-least-10-dead-dozens-missing-in-gaza-building-collapse?traffic_source=rss",
-      "https://www.aljazeera.com/news/2026/9/16/gaza-residential-building-collapses-six-families-reportedly-trapped?traffic_source=rss",
-      "https://www.aljazeera.com/news/2026/9/16/sweden-expels-iran-embassy-employee-citing-security-concerns?traffic_source=rss",
-      "https://www.aljazeera.com/video/newsfeed/2026/9/16/ex-trump-ally-marjorie-taylor-greene-says-war-on-iran-must?traffic_source=rss",
-      "https://www.aljazeera.com/news/2026/9/16/djibouti-calls-for-assistance-as-thousands-of-yemenis-flee-to-country?traffic_source=rss",
-      "https://www.aljazeera.com/news/2026/9/16/israeli-double-tap-air-strike-responsible-for-killing-schoolboy-in-gaza?traffic_source=rss",
-      "https://www.aljazeera.com/news/2026/9/16/iran-war-has-cost-the-us-38bn-how-is-it-impacting-us-economy-politics?traffic_source=rss",
-      "https://www.aljazeera.com/sports/2026/9/16/mbappe-vinicius-and-konate-court-controversy-with-ceuta-solidarity-shirts?traffic_source=rss",
-      "https://www.aljazeera.com/news/2026/9/16/egypts-el-sisi-rejects-displacement-of-palestinians-from-gaza?traffic_source=rss",
-      "https://www.aljazeera.com/news/2026/9/16/four-years-on-iranians-reflect-on-impact-of-woman-life?traffic_source=rss",
-      "https://www.aljazeera.com/news/2026/9/16/why-are-election-officials-in-the-us-preparing-for-chaos-before-midterms?traffic_source=rss",
-      "https://www.aljazeera.com/sports/2026/9/16/maresca-defends-var-while-lamenting-row-dominating-win-at-manchester-united?traffic_source=rss",
-      "https://www.aljazeera.com/sports/2026/9/16/al-taawoun-face-stadium-closure-fine-over-jota-chants-by-fans?traffic_source=rss",
-      "https://www.aljazeera.com/opinions/2026/9/16/why-some-countries-fail-while-others-prosper-in-the-middle-east-and-africa?traffic_source=rss",
-      "https://www.aljazeera.com/news/2026/9/16/norway-oil-fund-ethical-concerns?traffic_source=rss",
-      "https://www.aljazeera.com/news/2026/9/16/the-artists-who-pulled-out-of-ed-sheerans-tour-over-palestine?traffic_source=rss",
-      "https://www.aljazeera.com/video/newsfeed/2026/9/16/djibouti-on-alert-as-people-flee-yemen-after-houthi-takeover-of-mayyun?traffic_source=rss",
-      "https://www.aljazeera.com/news/2026/9/16/eu-chief-von-der-leyen-proposes-associate-member-status-for-canada?traffic_source=rss",
-      "https://www.aljazeera.com/news/2026/9/16/gold-mine-collapse-kills-at-least-70-people-in-sudans-west-kordofan?traffic_source=rss",
-      "https://www.aljazeera.com/news/2026/9/16/china-willing-to-safeguard-irans-legitimate-rights-official-says?traffic_source=rss",
-      "https://www.aljazeera.com/sports/2026/9/16/fifa-to-present-review-of-infantinos-shelved-investment-plan-to-council?traffic_source=rss",
-      "https://www.aljazeera.com/news/2026/9/16/duterte-in-person-at-icc-for-first-time-over-war-on-drugs-killings?traffic_source=rss",
-      "https://www.aljazeera.com/gallery/2026/9/16/photos-gaza-building-collapse-kills-20-including-women-and-children?traffic_source=rss",
       "https://www.aljazeera.com/news/2026/9/16/what-is-brics-pay-and-can-it-rival-the-wests-swift-payments-system?traffic_source=rss",
       "https://www.aljazeera.com/video/newsfeed/2026/9/16/us-political-rivals-sanders-and-bannon-unite-on-ai-warning?traffic_source=rss",
       "https://www.aljazeera.com/video/newsfeed/2026/9/16/at-least-20-killed-as-multi-storey-building-collapses-in-gaza-city?traffic_source=rss",
@@ -1302,27 +1280,34 @@
       "https://www.aljazeera.com/news/2026/10/5/pakistan-installs-fishing-nets-at-security-outposts-to-block-drone-attacks?traffic_source=rss",
       "https://www.aljazeera.com/sports/2026/10/5/france-belgium-uefa-nations-league-olise-de-bruyne-tielemans-teams-format?traffic_source=rss",
       "https://www.aljazeera.com/news/2026/10/5/spanish-prime-minister-pedro-sanchez-announces-snap-election?traffic_source=rss",
-      "https://www.aljazeera.com/news/2026/10/5/world-space-week-which-countries-have-sent-people-to-space?traffic_source=rss"
+      "https://www.aljazeera.com/news/2026/10/5/world-space-week-which-countries-have-sent-people-to-space?traffic_source=rss",
+      "https://www.aljazeera.com/news/2026/10/5/trumps-approval-hits-new-low-among-hispanic-voters-ahead-of-midterms?traffic_source=rss",
+      "https://www.aljazeera.com/news/2026/10/5/smash-the-patriarchy-activists-graffiti-cornell-hall-over-gang-rape-case?traffic_source=rss",
+      "https://www.aljazeera.com/sports/2026/10/5/super-subs-help-france-demolish-belgium-with-late-flurry?traffic_source=rss",
+      "https://www.aljazeera.com/news/2026/10/5/ethiopias-pm-insists-on-access-to-red-sea-despite-regional-conflict-threat?traffic_source=rss",
+      "https://www.aljazeera.com/news/2026/10/5/trump-says-us-ready-to-aid-russia-with-plague-outbreak-in-siberia?traffic_source=rss",
+      "https://www.aljazeera.com/video/newsfeed/2026/10/5/brazils-presidential-race-head-for-a-tough-runoff?traffic_source=rss",
+      "https://www.aljazeera.com/video/newsfeed/2026/10/5/whats-next-for-bosnia-after-elections?traffic_source=rss",
+      "https://www.aljazeera.com/video/inside-story/2026/10/5/can-yemen-retake-territory-seized-by-houthis?traffic_source=rss",
+      "https://www.aljazeera.com/news/2026/10/5/israeli-forces-kill-one-injure-several-in-occupied-west-bank?traffic_source=rss",
+      "https://www.aljazeera.com/video/newsfeed/2026/10/5/turkiye-pakistan-agree-to-military-deployment-to-saudi-arabia?traffic_source=rss",
+      "https://www.aljazeera.com/sports/2026/10/5/premier-league-viewership-in-us-up-20-percent-among-young-americans?traffic_source=rss",
+      "https://www.aljazeera.com/video/newsfeed/2026/10/5/medvedev-disqualified-after-hitting-spectator-with-ball?traffic_source=rss",
+      "https://www.aljazeera.com/news/2026/10/5/ukraine-says-russian-drone-attack-sinks-ship-in-romanian-waters?traffic_source=rss",
+      "https://www.aljazeera.com/video/newsfeed/2026/10/5/freed-syrians-recount-torture-in-israeli-detention-centre?traffic_source=rss",
+      "https://www.aljazeera.com/news/2026/10/5/mexico-seeks-evidence-of-border-shooting-that-prompted-us-troop-deployment?traffic_source=rss",
+      "https://www.aljazeera.com/economy/2026/10/5/trump-blames-democrats-and-ukraine-for-soaring-us-fuel-prices-not-iran-war?traffic_source=rss",
+      "https://www.aljazeera.com/news/2026/10/5/uk-threatens-to-expel-27-israeli-diplomats-over-jerusalem-consulate?traffic_source=rss",
+      "https://www.aljazeera.com/news/2026/10/5/mecca-alliance-agrees-to-activate-collective-deterrence-measures?traffic_source=rss",
+      "https://www.aljazeera.com/news/2026/10/5/what-is-herods-pool-and-why-is-israel-developing-it-in-the-west-bank?traffic_source=rss",
+      "https://www.aljazeera.com/news/2026/10/5/rubio-no-direct-link-between-us-bombers-removal-and-uk-base-incident?traffic_source=rss",
+      "https://www.aljazeera.com/video/newsfeed/2026/10/5/spain-calls-snap-election-amid-housing-crisis?traffic_source=rss",
+      "https://www.aljazeera.com/video/newsfeed/2026/10/5/jerusalem-daily-netanyahu-gives-voters-dramatic-ultimatum?traffic_source=rss",
+      "https://www.aljazeera.com/news/2026/10/5/dr-congo-boat-collision-kills-at-least-30-dozens-missing?traffic_source=rss"
     ]
   },
   "The Guardian World": {
     "seen_urls": [
-      "https://www.theguardian.com/world/2026/sep/12/number-of-uk-anti-migrant-vigilante-groups-surges-in-last-18-months",
-      "https://www.theguardian.com/politics/2026/sep/12/christopher-harborne-matches-36m-reform-donation-of-ben-zelo",
-      "https://www.theguardian.com/politics/2026/sep/12/reform-uk-billionaire-donations-analysis",
-      "https://www.theguardian.com/film/2026/sep/12/jeremy-thomas-producer-the-last-emperor-sexy-beast-dies",
-      "https://www.theguardian.com/news/2026/sep/12/jamaican-petition-delegation-king-charles-slavery-reparations",
-      "https://www.theguardian.com/technology/2026/sep/12/we-must-slow-the-pace-ceo-of-anthropic-calls-for-an-ai-slowdown",
-      "https://www.theguardian.com/us-news/2026/sep/12/trump-midterm-dividend-funding",
-      "https://www.theguardian.com/us-news/2026/sep/12/nashville-airport-dolly-parton",
-      "https://www.theguardian.com/us-news/2026/sep/12/democrats-republican-midterm-convention",
-      "https://www.theguardian.com/fashion/2026/sep/12/boldness-of-modernism-new-york-fashion-week-goes-highbrow",
-      "https://www.theguardian.com/world/2026/sep/13/one-dead-and-more-than-30-missing-after-ferry-sinks-off-vanuatu-coast-in-rough-seas",
-      "https://www.theguardian.com/australia-news/live/2026/sep/13/australia-news-live-chris-bowen-middle-east-fuel-petrol-prices-anika-wells-social-media-algorithm-andrew-hastie-pauline-hanson-one-nation-albanese-labor-coalition-liberal-ntwnfb",
-      "https://www.theguardian.com/australia-news/2026/sep/13/nsw-to-put-strict-caps-on-screen-time-in-classrooms-while-pushing-for-pen-and-paper-learning",
-      "https://www.theguardian.com/australia-news/2026/sep/13/andrew-hastie-vows-to-go-all-the-way-in-fight-against-pauline-hanson-as-joyce-denies-buyers-remorse-claim-ntwnfb",
-      "https://www.theguardian.com/world/2026/sep/13/houthis-claim-attack-on-saudi-base-as-fighting-flares-with-yemeni-forces",
-      "https://www.theguardian.com/us-news/2026/sep/12/openai-delays-ipo-sam-altman-ai-safety-concerns",
       "https://www.theguardian.com/us-news/2026/sep/12/fossilized-mastodon-tooth-10000-years-found-california",
       "https://www.theguardian.com/world/2026/sep/14/queensland-woman-cliff-death-kelingking-beach-ntwnfb",
       "https://www.theguardian.com/australia-news/live/2026/sep/14/australia-politics-live-question-time-electric-vehicles-auction-rates-housing-crisis-albanese-labor-coalition-one-nation-ntwnfb",
@@ -1806,7 +1791,23 @@
       "https://www.theguardian.com/us-news/live/2026/oct/05/donald-trump-nebraska-midterms-republicans-white-house-media-latest-news-updates",
       "https://www.theguardian.com/us-news/2026/oct/05/nobu-chef-malibu-killed",
       "https://www.theguardian.com/us-news/2026/oct/05/medical-flight-crash-massachusetts-death-toll",
-      "https://www.theguardian.com/us-news/2026/oct/05/us-senate-pilots-air-traffic-controllers-mental-health"
+      "https://www.theguardian.com/us-news/2026/oct/05/us-senate-pilots-air-traffic-controllers-mental-health",
+      "https://www.theguardian.com/world/2026/oct/05/flavio-bolsonaro-brazilian-presidency-election-shock-first-round-victory",
+      "https://www.theguardian.com/world/2026/oct/05/brazil-election-bolsonaro-lula",
+      "https://www.theguardian.com/australia-news/2026/oct/06/coalition-immigration-policy-angus-taylor-one-nation-labor-ntwnfb",
+      "https://www.theguardian.com/politics/2026/oct/05/green-party-england-wales-zionism-racism-vote-europe-germany",
+      "https://www.theguardian.com/world/2026/oct/05/saudi-forces-recapture-key-areas-strait-houthis-yemen",
+      "https://www.theguardian.com/world/2026/oct/05/flydubai-co-pilot-originally-planned-attack-for-july-investigators-believe",
+      "https://www.theguardian.com/world/2026/oct/05/uk-threatens-to-expel-israeli-diplomats-after-closing-of-east-jerusalem-consulate",
+      "https://www.theguardian.com/uk-news/2026/oct/06/rare-footage-first-battle-of-hastings-re-enactment",
+      "https://www.theguardian.com/uk-news/2026/oct/05/jeffrey-archer-former-conservative-politician-and-novelist-dies-aged-86",
+      "https://www.theguardian.com/politics/2026/oct/05/conservatives-britannia-shield-israel-iron-dome",
+      "https://www.theguardian.com/business/2026/oct/05/london-to-chicago-ba-flight-declares-emergency-after-dropping-28000-feet",
+      "https://www.theguardian.com/politics/2026/oct/05/tories-are-united-behind-badenoch-but-mps-want-focus-on-economy-over-culture-wars-to-win-back-voters",
+      "https://www.theguardian.com/community/live/2026/oct/05/reader-q-a-iran-war-trump-midterms-reporter-answers",
+      "https://www.theguardian.com/us-news/2026/oct/05/donald-trump-approval-ratings",
+      "https://www.theguardian.com/us-news/2026/oct/05/shavdon-gayden-murder-charge-chicago",
+      "https://www.theguardian.com/us-news/2026/oct/05/pennsylvania-measles-outbreak-hospitalizations-deaths"
     ]
   },
   "ESPN Cricinfo": {
@@ -1880,7 +1881,8 @@
       "https://www.cricinfo.com/ci/content/story/1556615.html?ex_cid=OTC-RSS",
       "https://www.cricinfo.com/ci/content/story/1556110.html?ex_cid=OTC-RSS",
       "https://www.cricinfo.com/ci/content/story/1557193.html?ex_cid=OTC-RSS",
-      "https://www.cricinfo.com/ci/content/story/1557159.html?ex_cid=OTC-RSS"
+      "https://www.cricinfo.com/ci/content/story/1557159.html?ex_cid=OTC-RSS",
+      "https://www.cricinfo.com/ci/content/story/1557225.html?ex_cid=OTC-RSS"
     ]
   },
   "ESPN": {
@@ -1918,19 +1920,6 @@
   },
   "BBC Sport": {
     "seen_urls": [
-      "https://www.bbc.co.uk/sport/football/articles/cm2mkvry7xro?at_medium=RSS&at_campaign=rss",
-      "https://www.bbc.co.uk/sport/articles/cz6z0y5v04qo?at_medium=RSS&at_campaign=rss",
-      "https://www.bbc.co.uk/sport/football/articles/ce8737p0977o?at_medium=RSS&at_campaign=rss",
-      "https://www.bbc.co.uk/sport/football/articles/crl6zyr1gw5o?at_medium=RSS&at_campaign=rss",
-      "https://www.bbc.co.uk/sport/tennis/articles/c98670d418yo?at_medium=RSS&at_campaign=rss",
-      "https://www.bbc.co.uk/sport/football/articles/cx2zx9n29glo?at_medium=RSS&at_campaign=rss",
-      "https://www.bbc.co.uk/sport/football/videos/ce874m9ld2mo?at_medium=RSS&at_campaign=rss",
-      "https://www.bbc.co.uk/sport/boxing/articles/cx2z9lvp0wgo?at_medium=RSS&at_campaign=rss",
-      "https://www.bbc.co.uk/sport/football/videos/czxze02qw0jo?at_medium=RSS&at_campaign=rss",
-      "https://www.bbc.co.uk/sport/snooker/articles/cly4741l3r0o?at_medium=RSS&at_campaign=rss",
-      "https://www.bbc.co.uk/sport/football/videos/clyk8gknzp0o?at_medium=RSS&at_campaign=rss",
-      "https://www.bbc.co.uk/sport/football/videos/c9qry93558po?at_medium=RSS&at_campaign=rss",
-      "https://www.bbc.co.uk/sport/football/videos/c7v4lgmyl30o?at_medium=RSS&at_campaign=rss",
       "https://www.bbc.co.uk/sport/football/videos/cwyznkd209xo?at_medium=RSS&at_campaign=rss",
       "https://www.bbc.co.uk/sport/football/articles/cp84m835vm2o?at_medium=RSS&at_campaign=rss",
       "https://www.bbc.co.uk/sport/football/articles/cvgy303wwpno?at_medium=RSS&at_campaign=rss",
@@ -2417,13 +2406,24 @@
       "https://www.bbc.co.uk/sport/motorsport/articles/c6d09zvvl9x3o?at_medium=RSS&at_campaign=rss",
       "https://www.bbc.co.uk/sport/football/articles/cmq5x58jgzq4o?at_medium=RSS&at_campaign=rss",
       "https://www.bbc.co.uk/sport/golf/articles/cwe8lv4rjzgpo?at_medium=RSS&at_campaign=rss",
-      "https://www.bbc.co.uk/sport/football/articles/c6pwg5enxwz8o?at_medium=RSS&at_campaign=rss"
+      "https://www.bbc.co.uk/sport/football/articles/c6pwg5enxwz8o?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.co.uk/sport/football/articles/cm5ynj882zw0o?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.co.uk/sport/football/articles/cmde8n8j0dn4o?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.co.uk/sport/cricket/articles/c9x2808dezkmo?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.co.uk/sport/football/articles/cw203mjx7r46o?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.co.uk/sport/darts/articles/c3gr8yrywyd1o?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.co.uk/sport/tennis/articles/cqd09z0x9xd8o?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.co.uk/news/articles/cm5yn9np73xeo?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.co.uk/sport/football/videos/ck5ynp3ej7m8o?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.co.uk/sport/football/articles/cmly05el6gz2o?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.co.uk/sport/ice-hockey/articles/cqwyrlr93jyeo?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.co.uk/sport/formula1/articles/cv2d6p9en7wdo?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.co.uk/sport/rugby-union/articles/c9zrdmdz8l17o?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.co.uk/sport/football/articles/cmvg9lp24p1po?at_medium=RSS&at_campaign=rss"
     ]
   },
   "The Daily Star Sports": {
     "seen_urls": [
-      "https://www.thedailystar.net/sports/cricket/news/rain-halts-india-push-after-dinusha-century-lifts-sri-lanka-4249956",
-      "https://www.thedailystar.net/sports/football/news/bangladesh-one-the-best-caniggia-bangladeshs-argentina-obsession-4250341",
       "https://www.thedailystar.net/business/news/gulshan-youth-club-host-9-day-inter-club-sportsfest-4250691",
       "https://www.thedailystar.net/sports/cricket/news/rishabh-pant-fastest-100-test-sixes-4250681",
       "https://www.thedailystar.net/sports/football/news/bangladesh-forward-suspended-15-matches-over-maldives-fight-4250651",
@@ -2921,7 +2921,9 @@
       "https://www.thedailystar.net/sports/cricket/news/bangladesh-can-now-dominate-test-cricket-hasan-mahmud-4290991",
       "https://www.thedailystar.net/sports/football/news/how-man-citys-financial-ruling-puts-uniteds-ownership-costs-the-spotlight-4290946",
       "https://www.thedailystar.net/sports/football/news/messi-vs-ronaldo-two-goats-two-very-different-endings-4290906",
-      "https://www.thedailystar.net/sports/football/news/argentina-feels-home-kiki-ramos-still-wonders-where-he-came-4290881"
+      "https://www.thedailystar.net/sports/football/news/argentina-feels-home-kiki-ramos-still-wonders-where-he-came-4290881",
+      "https://www.thedailystar.net/sports/football/news/one-win-four-games-klopps-germany-progress-without-the-points-4291591",
+      "https://www.thedailystar.net/sports/football/news/modric-hopes-fans-back-croatia-against-spain-after-england-shame-4291311"
     ]
   },
   "The Daily Star Entertainment": {
@@ -3165,7 +3167,8 @@
       "https://www.omgubuntu.co.uk/2026/09/blanc-web-browser-new",
       "https://www.omgubuntu.co.uk/2026/10/ubuntu-2610-beta-released",
       "https://www.omgubuntu.co.uk/2026/10/ubuntu-rust-pgp-sq",
-      "https://www.omgubuntu.co.uk/2026/10/linux-app-release-roundup-september-2026"
+      "https://www.omgubuntu.co.uk/2026/10/linux-app-release-roundup-september-2026",
+      "https://www.omgubuntu.co.uk/2026/10/hylki-email-client-for-gnome"
     ]
   },
   "It's FOSS": {
@@ -3483,7 +3486,9 @@
       "https://www.phoronix.com/news/Mold-3.0-Released",
       "https://www.phoronix.com/news/Linux-7.4-Rugged-Panther-Lake",
       "https://www.phoronix.com/news/Qualcomm-HW-BIn-Trip-Point",
-      "https://www.phoronix.com/news/Linux-7.4-AMD-PState-Zen-6"
+      "https://www.phoronix.com/news/Linux-7.4-AMD-PState-Zen-6",
+      "https://www.phoronix.com/news/AMD-ROCm-10.1",
+      "https://www.phoronix.com/news/AMD-Zen-6-BTB-CTX-Linux-7.4"
     ]
   },
   "TechShohor": {
@@ -3728,7 +3733,13 @@
       "https://arstechnica.com/space/2026/10/as-us-relations-fray-canada-gets-serious-about-its-own-launch-industry/",
       "https://arstechnica.com/science/2026/10/venus-mysterious-haze-is-actually-cosmic-dust/",
       "https://arstechnica.com/ai/2026/10/ai-glasses-face-their-first-major-government-crackdown/",
-      "https://arstechnica.com/gadgets/2026/10/the-hows-and-whys-of-non-mechanical-mechanical-keyboard-switches/"
+      "https://arstechnica.com/gadgets/2026/10/the-hows-and-whys-of-non-mechanical-mechanical-keyboard-switches/",
+      "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/",
+      "https://arstechnica.com/tech-policy/2026/10/cable-lobby-to-sue-trump-fcc-over-repeal-of-national-tv-ownership-cap/",
+      "https://arstechnica.com/tech-policy/2026/10/texas-city-demands-2m-for-public-records-on-flock-usage/",
+      "https://arstechnica.com/apple/2026/10/command-line-tool-quickly-removes-apple-intelligence-from-macos-27/",
+      "https://arstechnica.com/science/2026/10/controlling-the-brain-with-light-earns-a-physiology-nobel/",
+      "https://arstechnica.com/gadgets/2026/10/russian-drones-strike-ukraines-data-centers-by-exploiting-air-defense-gaps/"
     ]
   },
   "TechCrunch": {
@@ -4206,7 +4217,17 @@
       "https://techcrunch.com/2026/10/01/the-founders-guide-to-techcrunch-disrupt-2026-everything-you-need-to-know/",
       "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/",
       "https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-problem/",
-      "https://techcrunch.com/2026/10/05/can-safeworld-convince-people-that-gen-ai-robots-wont-hurt-them/"
+      "https://techcrunch.com/2026/10/05/can-safeworld-convince-people-that-gen-ai-robots-wont-hurt-them/",
+      "https://techcrunch.com/2026/10/05/lucid-motors-ev-output-falls-to-lowest-level-in-almost-two-years/",
+      "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
+      "https://techcrunch.com/2026/10/05/etched-fields-funding-offers-at-40b-valuation-sources-say/",
+      "https://techcrunch.com/2026/10/05/after-factorys-public-spat-with-khosla-menlo-proudly-invests/",
+      "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
+      "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/",
+      "https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout/",
+      "https://techcrunch.com/2026/10/05/at-19-ghost-founder-raises-11-million-to-build-a-3499-computer-for-your-personal-ai/",
+      "https://techcrunch.com/2026/10/05/hot-girl-hotline-is-like-dear-abby-for-the-ai-era/",
+      "https://techcrunch.com/2026/10/05/5-startups-that-caught-vcs-attention-at-the-latest-pearx-demo-day/"
     ]
   },
   "The Verge": {
@@ -4624,7 +4645,16 @@
       "https://www.theverge.com/ai-artificial-intelligence/1004655/openai-chatgpt-visual-ads",
       "https://www.theverge.com/tech/1004079/tcl-p80-ultra-nxtpaper-matte-display-iphone-duo",
       "https://www.theverge.com/tech/1004643/google-android-apps-intel-googlebooks-performance",
-      "https://www.theverge.com/ai-artificial-intelligence/1003794/ai-education-computational-model-thought"
+      "https://www.theverge.com/ai-artificial-intelligence/1003794/ai-education-computational-model-thought",
+      "https://www.theverge.com/ai-artificial-intelligence/1005177/google-gemini-call-for-me-expansion-rumors",
+      "https://www.theverge.com/games/1004869/reverse-engineered-games-all-the-news-on-video-game-decomps-recomps-vr-and-web-and-3d-ports",
+      "https://www.theverge.com/policy/1004926/matic-fcc-ban-waiver-conditional-approval",
+      "https://www.theverge.com/ai-artificial-intelligence/1005075/nolla-health-acne-ai-prescriptions",
+      "https://www.theverge.com/ai-artificial-intelligence/1004933/ai-math-openai-breakthrough-solution",
+      "https://www.theverge.com/news/1004929/wikipedia-openai-rogue-bots-wikimedia-foundation-outage",
+      "https://www.theverge.com/transportation/1004785/hyundai-ceo-china-ev-us-market-share",
+      "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act",
+      "https://www.theverge.com/ai-artificial-intelligence/1004827/openai-sam-altman-vanity-fair-interview-pr"
     ]
   },
   "Wired": {
@@ -5040,22 +5070,14 @@
       "https://www.wired.com/review/withings-bodyscan-2/",
       "https://www.wired.com/story/omega-has-new-bond-watches-even-if-we-dont-have-a-new-bond/",
       "https://www.wired.com/story/a-prediction-market-about-the-past-sure-why-not/",
-      "https://www.wired.com/story/staples-print-and-marketing-services/"
+      "https://www.wired.com/story/staples-print-and-marketing-services/",
+      "https://www.wired.com/story/elon-musks-exes-are-the-most-damning-part-of-a-massive-new-documentary/",
+      "https://www.wired.com/story/astronomers-confirm-discovery-of-youngest-known-exoplanet-ever/",
+      "https://www.wired.com/story/amazon-prime-day-early-deals-10-05-2026/"
     ]
   },
   "Engadget": {
     "seen_urls": [
-      "https://www.engadget.com/2245477/how-long-new-fire-tv-stick-last-lifespan/",
-      "https://www.engadget.com/2244161/dolby-atmos-and-lossless-audio-differences/",
-      "https://www.engadget.com/2246550/theres-a-new-twitter-in-town-even-though-a-judge-has-yet-to-rule-on-a-trademark-injunction/",
-      "https://www.engadget.com/2246463/panasonic-lumix-l10-review/",
-      "https://www.engadget.com/2246451/microsoft-backed-ai-data-center-has-been-accused-of-violating-federal-law/",
-      "https://www.engadget.com/2242569/how-to-make-android-alarm-ring-full-volume-while-calls-muted/",
-      "https://www.engadget.com/2246659/how-to-watch-2026-us-open-streaming-tv-options/",
-      "https://www.engadget.com/2246997/sony-warner-sue-anthropic-for-blatant-violation-of-copyright-law/",
-      "https://www.engadget.com/2242774/most-expensive-whoop-membership-life-why-pay/",
-      "https://www.engadget.com/2242760/why-1080p-movies-look-better-on-4k-screen/",
-      "https://www.engadget.com/2246988/us-appeals-court-sides-with-nevada-in-legal-fight-with-kalshi/",
       "https://www.engadget.com/2246986/i-hate-how-badly-i-want-the-tamagotchi-ring/",
       "https://www.engadget.com/2242759/tpu-vs-gpu-difference-between-processsors/",
       "https://www.engadget.com/2246977/anbernic-reimagining-of-switch-lite-goes-on-sale-august-31/",
@@ -5544,7 +5566,18 @@
       "https://www.engadget.com/2277034/google-admits-some-complex-android-apps-run-poorly-on-intel-googlebooks/",
       "https://www.engadget.com/2274820/how-long-xbox-series-x-last-lifespan-support/",
       "https://www.engadget.com/2275929/qalo-sl-1-review/",
-      "https://www.engadget.com/2276917/google-fitbit-edge-leaks-out-with-a-screen-and-pixel-11-colors/"
+      "https://www.engadget.com/2276917/google-fitbit-edge-leaks-out-with-a-screen-and-pixel-11-colors/",
+      "https://www.engadget.com/2276473/apple-macbook-handle-graphically-demanding-heavy-games/",
+      "https://www.engadget.com/2276431/mini-pc-vs-laptop-better-for-home-office/",
+      "https://www.engadget.com/2276395/how-to-add-customize-carplay-widgets/",
+      "https://www.engadget.com/2275958/extended-warranty-for-laptop-tv-worth-it/",
+      "https://www.engadget.com/2278067/instagram-is-toying-with-a-read-only-mode-for-plus-subscribers/",
+      "https://www.engadget.com/2278051/wikimedia-links-openai-agents-to-an-outage-and-unauthorized-activity/",
+      "https://www.engadget.com/2277896/arc-raiders-and-the-finals-are-both-getting-tv-and-film-adaptations/",
+      "https://www.engadget.com/2277866/openai-will-add-a-digital-watermark-to-text-and-code-generated-in-the-eu/",
+      "https://www.engadget.com/2273751/battery-symbol-next-to-usb-port-purpose/",
+      "https://www.engadget.com/2275787/oura-ring-5-vs-apple-watch-series-12-which-smart-health-wearable-right/",
+      "https://www.engadget.com/2277678/hyundai-ioniq-3-all-electric-hot-hatch-goes-on-sale-in-the-uk/"
     ]
   },
   "9to5Google": {
@@ -5905,7 +5938,15 @@
       "https://9to5google.com/2026/10/01/hp-omnibook-5-macbook-neo-competitor-699-oled-display-plenty-of-catches/",
       "https://9to5google.com/2026/10/01/samsung-galaxy-s26-price-hike/",
       "https://9to5google.com/2026/10/01/google-messages-long-press-menu-wide/",
-      "https://9to5google.com/2026/10/04/google-fitbit-edge-leak/"
+      "https://9to5google.com/2026/10/04/google-fitbit-edge-leak/",
+      "https://9to5google.com/2026/10/05/google-find-hub-tags-nfc/",
+      "https://9to5google.com/2026/10/05/googlebook-luminar-photo-editing-app/",
+      "https://9to5google.com/2026/10/05/october-2026-google-system-updates/",
+      "https://9to5google.com/2026/10/05/googlebook-bootloader-magisk-root/",
+      "https://9to5google.com/2026/10/05/meta-ray-ban-audio-turn-by-turn-navigation-updates/",
+      "https://9to5google.com/2026/10/05/samsung-android-17-galaxy-s25-fold-7-us-rollout/",
+      "https://9to5toys.com/2026/10/05/todays-highlight-google-play-deals-21/",
+      "https://9to5google.com/2026/10/05/chatgpt-is-adding-new-ads/"
     ]
   },
   "The Hacker News": {
