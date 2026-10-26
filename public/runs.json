@@ -1,5 +1,946 @@
 [
   {
+    "dt": "2026-10-26T03:24:30.570Z",
+    "file": "runs/2026-10-26-0324.html",
+    "counts": {
+      "Local": 26,
+      "International": 39,
+      "Entertainment": 1,
+      "Tech": 14,
+      "Sports": 22
+    },
+    "grouped": {
+      "Local": [
+        {
+          "headline": "জনবল নিয়োগ দিয়ে শোধনাগার চালু করুন",
+          "excerpt": "মেহেরপুরে পানিসংকট জনবল নিয়োগ দিয়ে শোধনাগার চালু করুনসম্পাদকীয়মেহেরপুর পৌরসভায় যেখানে পানির উৎপাদন ও সরবরাহব্যবস্থা ভেঙে পড়েছে, সেখানে ১০ কোটি টাকা ব্যয়ে নির্মিত পানি শোধনাগার চার বছরেও চালু না হওয়াটা কোনোভাবেই গ্রহণযোগ্য নয়। এতে একদিকে যেমন নাগরিকেরা সুপেয় পানির অধিকার থেকে বঞ্চিত হচ্ছেন, অন্যদিকে তাঁদেরই করের টাকায় করা প্রকল্প কার্যক্ষমতা হারাচ্ছে।প্রথম আলোর খবর জানাচ্ছে, মেহেরপুর পৌরসভার…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/opinion/editorial/5mk7a3gr0b",
+          "author": "সম্পাদকীয়",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2020-10%2F0ecf7067-d7c9-4778-946d-6ab4364b034e%2Feditorial_2.png?rect=0%2C114%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-09-22%2F5lwyn5je%2Fdefaultog.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৯:১৫"
+        },
+        {
+          "headline": "সকালেই পড়ুন আলোচিত ৫ খবর",
+          "excerpt": "শুভ সকাল। আজ ২৬ অক্টোবর, সোমবার। গতকাল রোববার প্রথম আলোর অনেক আলোচিত সংবাদ হয়তো আপনার চোখ এড়িয়ে গেছে। তাই আজ দিনের শুরুতেই পড়তে পারেন দেশ-বিদেশের আলোচিত পাঁচ খবর ও বিশ্লেষণ।১মোটরসাইকেলের সামনে নম্বরপ্লেট, খরচের বোঝা কার, আরএফআইডি কাজ করল না কেনমোটরসাইকেলমোটরসাইকেল মালিক ও বিশেষজ্ঞরা বলছেন, এআই ক্যামেরা দিয়ে অপরাধ শনাক্তের লক্ষ্যের কথা বলা হলেও রাজধানী ঢাকারও বেশির ভাগ জায়গায় এ ধরনের ক্যামেরা…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/3jaxo1i2p9",
+          "author": "প্রথম আলো ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2023-11%2F96ef562e-2cfa-4151-b57a-ce77cdb446ff%2FWhatsApp_Image_2023_02_27_at_08_34_41.jpeg?rect=0%2C106%2C1423%2C747&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৯:০৪"
+        },
+        {
+          "headline": "বিগ বসে যখন-তখন চুমু খেয়ে কী বার্তা দিচ্ছেন নন্দিনী–রাজবীর",
+          "excerpt": "দীর্ঘ ১০ বছর পর ভারতীয় টিভি চ্যানেল স্টার জলসায় শুরু হয়েছে বিগ বস বাংলার সিজন ৩। গত ৩০ আগস্ট শুরু হওয়া এই রিয়েলিটি শোয়ে ভারতের নানা পেশার প্রতিযোগী আছেন। তবে শুরু থেকেই আলোচনা–সমালোচনার কেন্দ্রে আছেন যে কজন, তাঁদের মধ্যে অন্যতম অভিনেত্রী নন্দিনী দত্ত। ঝগড়া, সহপ্রতিযোগীকে ফেলে দিয়ে আহত করা থেকে আরেক প্রতিযোগী রাজবীরের সঙ্গে তুমুল প্রেম—সবখানে নন্দিনী। ‘এখানে আকাশ নীল’, ‘বসন্ত বিলাস মেসবাড়ি’,…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/lifestyle/relation/4yrqniqqzo",
+          "author": "হাসান ইমাম",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-25%2Fux3pdhan%2F817551880_1377960614505709_8274823267796528888_n.jpg?rect=0%2C0%2C1440%2C756&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৯:০০"
+        },
+        {
+          "headline": "তারেক রহমানের জাপান সফর, ৭৭ হাজার কোটি টাকার বিনিয়োগ করতে চায় দেশটি",
+          "excerpt": "0পরবর্তী ভিডিওভিডিও থেকে আরও দেখুনপ্রধানমন্ত্রী তারেক রহমানজাপানবিনিয়োগতারেক রহমান",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/video/bangladesh/v3qgc4bvc4",
+          "author": "ভিডিও ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-25%2Fiflwv0i8%2FWEB00.jpg?rect=0%2C9%2C800%2C420&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2022-01%2F5a36c819-05a2-4bfb-ac50-57dd67355acb%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৯:০০"
+        },
+        {
+          "headline": "দুর্নীতি যেভাবে ইমান ক্ষয় করে",
+          "excerpt": "ধর্ম–দর্শন দুর্নীতি যেভাবে ইমান ক্ষয় করেধর্ম ডেস্ক ছবি: ফ্রিপিকদুর্নীতি, ঘুষ, স্বজনপ্রীতি, সরকারি বা অপরের সম্পদ আত্মসাৎ এবং আমানতের খেয়ানত মানুষের এই আত্মিক ভিত্তি তথা ইমানকে ধীরে ধীরে ক্ষয়িষ্ণু করে ফেলে।অসাধু উপায়ে উপার্জিত অর্থ বা ক্ষমতা আপাতদৃষ্টিতে বাহ্যিক সাফল্য এনে দিলেও তা মানুষের নৈতিক চেতনাকে পঙ্গু করে দেয় এবং আত্মিক জীবনকে অন্ধকারের দিকে ঠেলে দেয়।পবিত্র কোরআন–হাদিসের আলোকে…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/religion/islam/aqv4w27d7k",
+          "author": "ধর্ম ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-22%2F1ucsdypc%2F%E0%A6%86%E0%A6%A4%E0%A7%8D%E0%A6%AE%E0%A7%80%E0%A7%9F%E0%A6%A4%E0%A6%BE-%E0%A6%AD%E0%A6%BE%E0%A6%99%E0%A6%A4%E0%A7%87-%E0%A6%B0%E0%A6%BE%E0%A6%B8%E0%A7%81%E0%A6%B2-%E0%A6%B8%E0%A6%BE.%E2%80%93%E0%A6%8F%E0%A6%B0-%E0%A6%B8%E0%A6%A4%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A6%A4%E0%A6%BE%E0%A6%9B%E0%A6%AC%E0%A6%BF%E2%80%93%E0%A6%AB%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%AA%E0%A6%BF%E0%A6%95.jpg?rect=0%2C114%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৯:০০"
+        },
+        {
+          "headline": "মাছ চাষ করেই এক ইউনিয়নে শতজন কোটিপতি",
+          "excerpt": "ইকবাল হোসেন মিরসরাইনিজের মাছের খামারে খাবার দিচ্ছেন এক চাষি। সম্প্রতি মিরসরাই উপজেলার ওসমানপুর ইউনিয়নের পশ্চিম বাঁশখালী এলাকায়ছবি: প্রথম আলো একসময় অটোররিকশা চালিয়ে জীবিকা নির্বাহ করতেন মোহাম্মদ তৌহিদুল ইসলাম (৩৫)। আট বছর আগে চাচার সহযোগিতায় এলাকায় মাছ চাষ শুরু করেন তিনি। এখন তাঁর রয়েছে ৩০০ একরের মাছের খামার। সব খরচ বাদ দিয়ে মাছের খামার থেকে এখন তাঁর বছরে আয় প্রায় তিন কোটি টাকা। তৌহিদুল ইসলামের…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/district/adkqnfm2n1",
+          "author": "ইকবাল হোসেন",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-25%2Fp7agyl33%2FWhatsApp-Image-2026-10-25-at-5.32.52-PM.jpeg?rect=0%2C144%2C1280%2C672&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৯:০০"
+        },
+        {
+          "headline": "বৃদ্ধ ভ্যানচালকের পাশে পঞ্চগড় বন্ধুসভা, মেরামত করে দিল ভ্যান",
+          "excerpt": "একটি ভালো কাজ বৃদ্ধ ভ্যানচালকের পাশে পঞ্চগড় বন্ধুসভা, মেরামত করে দিল ভ্যানপ্রতিনিধি পঞ্চগড়পঞ্চগড় বন্ধুসভার একটি ভালো কাজছবি: বন্ধুসভাপ্রায় পাঁচ মাস ধরে নষ্ট হয়ে পড়ে ছিল পরিবারের একমাত্র উপার্জনের অবলম্বন প্যাডেলচালিত ভ্যানটি। একদিকে অসুস্থ স্ত্রীর চিকিৎসার খরচ, অন্যদিকে ভ্যান মেরামতের টাকা জোগাড় করা—এই দুশ্চিন্তায় দিন কাটছিল ৭০ বছর বয়সী ভ্যানচালক আবদুস সামাদের। অবশেষে তাঁর অসহায়ত্বের খবর পেয়ে…",
+          "source": "Prothom Alo",
+          "link": "https://www.bondhushava.com/activities/v0cb853qjl",
+          "author": "প্রতিনিধি",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-25%2Fc1bc80ig%2FPanchagar-bs-ValoKaj.jpg?rect=0%2C30%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2022-06%2Ffc02a57d-164a-4776-9604-2a467333b0e1%2FFinal_Bondhushava_OG_watermark_01.png&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৯:০০"
+        },
+        {
+          "headline": "ইপিজেড এলাকায় সড়কে নালার কাদাপানি, দুর্ভোগে নগরবাসী",
+          "excerpt": "চট্টগ্রাম নগরের বিমানবন্দর সড়কের ইপিজেড এলাকায় নালার কাদাপানি জমে দুর্ভোগ পোহাতে হচ্ছে নগরবাসীকে। সড়কের ওপর জমে থাকা পানি থেকে দুর্গন্ধ ছড়াচ্ছে। পাশাপাশি কাদা মাড়িয়ে চলাচল করতে হচ্ছে পথচারীদের। এতে ওই সড়ক দিয়ে চলাচলকারী পথচারী ও যানবাহনের যাত্রীরা ভোগান্তিতে পড়ছেন।জুয়েল শীল চট্টগ্রাম১ / ৮এক পথচারী পার হওয়ার জন্য ইট ফেলছেন২ / ৮কাদা মাড়িয়ে পথ চলতে হচ্ছে পথচারীদের৩ / ৮সড়কে লেগে আছে যানজট৪ / ৮জমে…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/photo/bangladesh/y4dzws6b3q",
+          "author": "জুয়েল শীল",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-25%2Fv5lsou7k%2F5.-Chittagong-hardship-pedestrians-vehicle-passengers-suffering26102026.JPG?rect=0%2C386%2C6516%2C3421&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2022-01%2F18c58c05-9e66-46f3-8946-4437460f8f90%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৯:০০"
+        },
+        {
+          "headline": "আমি ভুল করিনি",
+          "excerpt": "রস+আলোচ ল তি র স আমি ভুল করিনিসম্প্রতি নিয়মবহির্ভূত কাজ করে মন্ত্রিত্ব হারাতে হয়েছে সরকারদলীয় একজন সংসদ সদস্যকে। এরপর দোষ স্বীকার না করে দুঃখ প্রকাশ করেছেন তিনি। প্রাত্যহিক জীবনেও আমরা এমন ঘটনার সম্মুখীন হই; যেখানে যার দোষ, সে ভুল স্বীকার না করে কেবল ‘সরি’ বলে পাশ কাটিয়ে যায়। সেগুলো নিয়ে লিখেছেন তাহসিন আহমেদ এবং এঁকেছেন সৌখিন।১ / ১আইডিয়া: তাহসিন আহমেদ, কার্টুন: সৌখিনআরও পড়ুনএকটি আনপেইড…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/fun/j2xtgsfcge",
+          "author": "আহমেদ ইশতিয়াক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-25%2Fnzdcolpx%2Fvul.jpg?rect=0%2C87%2C1244%2C653&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2021-05%2Fba39cddb-a11d-47f9-971c-1458e27d6b8e%2Faktuthamun_OG_watermark.png&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৯:০০"
+        },
+        {
+          "headline": "সীমান্তে অপরাধ খুঁজতে গিয়েই সন্ত্রাসীদের নিশানা হন আলিফ",
+          "excerpt": "মাহমুদুল হাসান ও পল্লব চক্রবর্তী দুর্গাপুর থেকে ফিরেবাড়ির উঠানে খেলছে সাংবাদিক আলিফের মেয়ে প্রান্তি। পেছনে স্ত্রী আনন্দিতা সাংমা। শুক্রবার দুর্গাপুরের তেলনজিয়া গ্রামেছবি: শুভ্র কান্তি দাশআঞ্চলিক মহাসড়ক থেকে ইট বিছানো একটি রাস্তা গেছে গ্রামের দিকে। সেই রাস্তা ধরে মিনিট তিনেক যাওয়ার পর পাওয়া গেল রবিন রাংসার দোকান। সেখানে চা, বিস্কুট এবং কিছু মুদিপণ্য বিক্রি হয়।দোকানটির কাছেই ১৫ অক্টোবর রাত সাড়ে…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/crime/6oq7banhxy",
+          "author": "মাহমুদুল হাসান, পল্লব চক্রবর্তী",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-25%2F1gxzurbk%2FCapture.PNG?rect=0%2C69%2C977%2C513&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৯:০০"
+        },
+        {
+          "headline": "চিকিৎসাশিক্ষায় ৬৩ শতাংশই ছাত্রী, ডেন্টাল ও নার্সিংয়েও এগিয়ে",
+          "excerpt": "ঢাকাটিএমএসএস মেডিকেল কলেজের শিক্ষার্থী। ঢাকা-রংপুর মহাসড়ক, বগুড়াছবি: প্রথম আলোদেশে চিকিৎসাশিক্ষায় নারীদের অংশগ্রহণে বড় ধরনের পরিবর্তন এসেছে। সরকারি-বেসরকারি মেডিক্যাল কলেজগুলোয় এখন যত শিক্ষার্থী পড়াশোনা করছেন, তাঁদের প্রায় ৬৩ শতাংশই নারী। ডেন্টাল শিক্ষায়ও ছাত্রীর সংখ্যা ছাত্রদের চেয়ে বেশি; আর নার্সিং ও মিডওয়াইফারি শিক্ষায় শিক্ষার্থীদের প্রায় ৯০ শতাংশ নারী। তবে কর্মক্ষেত্রে, বিশেষ করে সরকারি…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/education/higher-education/vwa87lwbks",
+          "author": "মোশতাক আহমেদ",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2023-03%2F0eff823d-a918-4aef-a31b-7bf6102107b1%2FBogura__Tmss___1.jpg?rect=0%2C63%2C3000%2C1575&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৮:৫৭"
+        },
+        {
+          "headline": "প্রতিবন্ধী চার ভাই-বোনের কষ্টের জীবন",
+          "excerpt": "আব্দুল মোমিন , মানিকগঞ্জমায়ের সঙ্গে একই পরিবারে প্রতিবন্ধী চার ভাই-বোন। গত শনিবার সকালে মানিকগঞ্জ সদর উপজেলার ভাটবাউর গ্রামেছবি: প্রথম আলোআট ভাই-বোনের মধ্যে চারজন খর্বাকৃতির (বেঁটে)। প্রতিবন্ধী দুই ভাই কিছুটা হাঁটাচলা করতে পারলেও প্রতিবন্ধী দুই বোন দাঁড়াতে পারেন না। তাঁদের খাওয়াদাওয়া ও দৈনন্দিন কাজ সবই করতে হয় অন্যের সহযোগিতায়। এর মধ্যে বাড়িতে যাতায়াতের রাস্তা না থাকায় তাঁদের দুর্ভোগ আরও…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/district/0ev0dbpvh4",
+          "author": "আব্দুল মোমিন",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-25%2Fqjwlor3z%2FMANIKGONJDH053120261025MANIKGANJ-PICTURE-25.10.26-1.JPG.JPG?rect=0%2C346%2C3004%2C1577&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৮:৩০"
+        },
+        {
+          "headline": "আয়কর রিটার্ন না দিলে গ্যাস ও বিদ্যুৎ–সংযোগ বিচ্ছিন্ন করাসহ ৫ ধরনের শাস্তি",
+          "excerpt": "বিশেষ প্রতিবেদক ঢাকাআয়কর রিটার্নগ্রাফিকস: প্রথম আলোআপনি আয়কর রিটার্ন জমা দিলেন না। ভাবুন তো, আপনার কী হবে। কর কর্মকর্তারা কঠোর হলে ৫০ হাজার টাকা পর্যন্ত জরিমানা হতে পারে। এমনকি গ্যাস–বিদ্যুতের সংযোগ কেটে দেওয়া হতে পারে। দেশে সোয়া এক কোটি কর শনাক্তকরণ নম্বরধারী (টিআইএনধারী) আছেন। বছরে রিটার্ন দেন প্রায় ৫০ লাখ করদাতা। বাকি ৭৫ লাখ করদাতা রিটার্ন দেন না। আইন অনুসারে, টিআইএনধারী সবার রিটার্ন দেওয়া…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/business/personal-finance/tqnjgizh9d",
+          "author": "বিশেষ প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2023-11%2F47004a2a-c6e1-41db-9f0e-0f837032a27e%2Fp_alo.webp?rect=0%2C0%2C977%2C513&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৮:৩০"
+        },
+        {
+          "headline": "ধানের শীষে মনোনয়ন পেতে বিএনপির দ্বারে আসিফ: রাশেদের দাবি",
+          "excerpt": "0",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/video/bangladesh/4upgqrpf9t",
+          "author": "ভিডিও ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-25%2Fnhtrr51o%2Fasif-rashed-khan-controversy.00015306.Still001.jpg?rect=0%2C0%2C1920%2C1008&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2022-01%2F5a36c819-05a2-4bfb-ac50-57dd67355acb%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৮:৩০"
+        },
+        {
+          "headline": "কর্মক্ষেত্রে বেশি মানসিক চাপে থাকেন ইউরোপের যে ১০ দেশের কর্মীরা",
+          "excerpt": "প্রথম আলো ডেস্ক কর্মক্ষেত্রে মানসিক চাপ বা আবেগ-অনুভূতির সমস্যা থেকে ব্যক্তিজীবনেও স্থায়ী বিষণ্নতায় আক্রান্ত হতে পারেন কর্মীরা।ছবিটি প্রতীকী।কর্মক্ষেত্রে মানসিক চাপের দিক থেকে ইউরোপের কয়েকটি দেশের কর্মীরা সবচেয়ে বেশি চাপে রয়েছেন। কর্মীদের দৈনন্দিন মানসিক চাপের হার বিবেচনায় করা তালিকায় শীর্ষে রয়েছে গ্রিস। দেশটির ৬১ শতাংশ কর্মী উল্লেখযোগ্য মাত্রার মানসিক চাপ অনুভব করেন। তালিকায় এরপর রয়েছে মাল্টা,…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/chakri/chakri-news/l47ky49o2k",
+          "author": "প্রথম আলো ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo%2Fimport%2Fmedia%2F2014%2F07%2F15%2F65106d4ee36af9712c444dde854102b9-stressed-at-work.jpg?rect=0%2C20%2C1000%2C525&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৮:০৫"
+        },
+        {
+          "headline": "কোটি টাকার ফেলোশিপ-বৃত্তি নিয়ে যুক্তরাষ্ট্রে পিএইচডির সুযোগ পেলেন আশফাকুর রহমান",
+          "excerpt": "আব্দুর রাজ্জাক সরকার যুক্তরাষ্ট্র থেকেআশফাকুর রহমান ২০২৫ সালে যুক্তরাষ্ট্রের মিডওয়েস্ট সোশিওলজিক্যাল সোসাইটি আয়োজিত বেস্ট গ্র্যাজুয়েট স্টুডেন্ট রিসার্চ পেপার প্রতিযোগিতায় প্রথম স্থান অধিকার করেনছবি: লেখকের পাঠানোযুক্তরাষ্ট্রের সাইরাকিউজ বিশ্ববিদ্যালয়ের ম্যাক্সওয়েল স্কুল অব সিটিজেনশিপ অ্যান্ড পাবলিক অ্যাফেয়ার্স থেকে মর্যাদাপূর্ণ ম্যাক্সওয়েল ফেলোশিপ নিয়ে পিএইচডি প্রোগ্রামে ভর্তির সুযোগ…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/education/higher-education/uj8maasa2b",
+          "author": "আব্দুর রাজ্জাক সরকার",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-25%2Fkkcjj1ea%2F10.jpg?rect=0%2C162%2C1440%2C756&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৮:০৪"
+        },
+        {
+          "headline": "ভেঁপড়ার বিলে পাখির মেলা",
+          "excerpt": "প্রায় অর্ধশত বিঘা আয়তনের ভেঁপড়ার বিল। এর চারপাশে আমন ধানের খেত। শীত মৌসুমে বিলের পানি কমে যায়। এ সময় বিলে আসে বিভিন্ন প্রজাতির পাখি। সারা দিনই পাখির কলকাকলিতে মুখর থাকে বিলের আশপাশের বড় পাথার, বিল কেশ পাথার, জৈন্তিবাড়ী ও ফুটকোর্ট গ্রাম এলাকাসোয়েল রানা বগুড়া১ / ৭বিলের ওপর দিয়ে উড়ে যাচ্ছে খয়রা কাস্তেচরা পাখি২ / ৭দূর আকাশে উড়ে বেড়াচ্ছে বক, হট্টিটি ও কাস্তেচরা পাখি৩ / ৭বিলের ওপর দিয়ে ঝাঁক বেঁধে উড়ে…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/photo/bangladesh/ay4n68xnj0",
+          "author": "সোয়েল রানা",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-25%2Fjqwbqjle%2F7.-Bogra-Black-headed-Ibis-rare-wetland26102026.jpg?rect=0%2C113%2C1186%2C623&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2022-01%2F18c58c05-9e66-46f3-8946-4437460f8f90%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৮:০০"
+        },
+        {
+          "headline": "হলুদ কর্সেট গাউনে নজর কাড়া স্টাইলে পলক তিওয়ারি",
+          "excerpt": "হলুদ দেয়ালের সামনে সরষে হলুদ কর্সেট গাউনে ধরা দিলেন পলক তিওয়ারি। পোশাকের নকশা, কোমরের লেইস-আপ ডিটেইল আর ঢেউ খেলানো স্কার্টে রয়েছে আধুনিকতার ছোঁয়া। সোনালি দুল, নরম ঢেউ খেলানো চুল ও হালকা মেকআপে সাজ সম্পূর্ণ করেছেন তিনি। একই রঙের আবহে ছবিতে ফুটে উঠেছে উজ্জ্বল, রোমান্টিক ও শিল্পিত এক অনন্য ফ্যাশন মুহূর্ত।১/১০হলুদ পোশাকের সঙ্গে মিলিয়ে সাজানো হয়েছে পেছনের দেয়ালও। রং ও আলোয় ছবিতে তৈরি হয়েছে…",
+          "source": "Prothom Alo",
+          "link": "https://www.haal.fashion/celeb/look/03xojzyv2b",
+          "author": "হাল ফ্যাশন ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-25%2F7sjpgznv%2FPalok-T-W.jpg?rect=0%2C0%2C1300%2C683&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2023-10%2Fdf4c7d13-96dc-4875-b8bf-5aac7b6aa475%2FHaalfashion_gpi_sample3.png&overlay_position=bottom&overlay_opacity=1&w=1200&h=627&auto=format%2Ccompress&ogImage=true&overlay_width_pct=1",
+          "time": "সকাল ৮:০০"
+        },
+        {
+          "headline": "সরকার বদলে কেন রাষ্ট্রমালিকানাধীন ব্যাংকের এমডিরা বদলায়",
+          "excerpt": "মতামত সরকার বদলে কেন রাষ্ট্রমালিকানাধীন ব্যাংকের এমডিরা বদলায়ফখরুল ইসলাম এবার অন্তর্বর্তী সরকারের আমলে নিয়োগ পাওয়া এমডিদের সরিয়ে দিয়েছে বিএনপি সরকার।রাষ্ট্রমালিকানাধীন ছয় বাণিজ্যিক ব্যাংকে এখন কোনো নিয়মিত ব্যবস্থাপনা পরিচালক (এমডি) নেই। আওয়ামী লীগ সরকারের পতনের পর ২০২৪ সালে একবার এমন পরিস্থিতি তৈরি হয়েছিল। এবার অন্তর্বর্তী সরকারের আমলে নিয়োগ পাওয়া এমডিদের সরিয়ে দিয়েছে বিএনপি সরকার। দুই সরকারের…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/opinion/column/6iv4uq6fo7",
+          "author": "ফখরুল ইসলাম",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-25%2Ftpabfyw3%2Fuimage-3.jpg?rect=0%2C24%2C615%2C323&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-09-22%2F5lwyn5je%2Fdefaultog.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৮:০০"
+        },
+        {
+          "headline": "ইউরোপজুড়ে তরুণদের বিক্ষোভ, কেন ফুঁসছে জেন–জি?",
+          "excerpt": "0পরবর্তী ভিডিওভিডিও থেকে আরও দেখুনজেন জিকী ও কেনইউরোপবিক্ষোভছাত্র বিক্ষোভপরবর্তী ভিডিও",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/video/international/1tlkcz5fz2",
+          "author": "ভিডিও ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-25%2F87gneyer%2FWEB.jpg?rect=0%2C0%2C800%2C420&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2022-01%2F5a36c819-05a2-4bfb-ac50-57dd67355acb%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৮:০০"
+        },
+        {
+          "headline": "মধ্যপ্রাচ্যে ভেতরে-ভেতরে ‘লিবারেল বিপ্লব’",
+          "excerpt": "মতামত  মধ্যপ্রাচ্যে ভেতরে-ভেতরে ‘লিবারেল বিপ্লব’লেখা: মনসুর মোয়াদেলতেহরানের সড়কে ঝুলছে মার্কিন হামলায় নিহত ইরানের সর্বোচ্চ নেতা আয়াতুল্লাহ খামেনির পোস্টাররয়টার্সমধ্যপ্রাচ্যে উদারনীতি বা লিবারেল চিন্তাভাবনার বিকাশ ঘটছে—কথাটি শুনলে কারও কারও কাছে বাস্তবতাবিরোধী মনে হতে পারে। ধরেই নেওয়া হতো, মধ্যপ্রাচ্যের মানুষ বোধ হয় উদারনীতিতে আর আগ্রহী নয়—তারা যেন এক সম্পূর্ণ ভিন্ন, ধর্মকেন্দ্রিক ‘সত্যের…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/opinion/column/31i3i83n0o",
+          "author": "লেখা:",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-25%2F4mei8zi2%2F2026-03-23T091738Z635286987RC27AKAFPM28RTRMADP3IRAN-CRISIS.JPG.webp?rect=0%2C57%2C800%2C420&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-09-22%2F5lwyn5je%2Fdefaultog.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৮:০০"
+        },
+        {
+          "headline": "পুঁটি মাছের গায়ে বর্ষাকালে লাল রং আসে কেন",
+          "excerpt": "মাহমুদ নেওয়াজ বর্ষার শেষ। বিকেলের আলো পড়ে এসেছে। ধানখেতের ধারে ছোট একটা খাল, পানি প্রায় নড়ছে না। তুমি পাড়ে উবু হয়ে বসেছ। হঠাৎ পানির নিচে কী যেন ঝিলিক দিয়ে গেল। একটা না, অনেকগুলো। গায়ের রং রুপালি, তার ওপর হালকা লালচে ছোপ। কেউ যেন আঙুলে সিঁদুর নিয়ে ছুঁয়ে গেছে।গ্রামের লোকে এদের বলে সিঁদুরপুঁটিতবে এটা আলাদা কোনো মাছ নয়। আসলে এ হলো আমাদের চেনা জাত পুঁটি। বিজ্ঞানীরা একে বলেন Puntius sophore।…",
+          "source": "Prothom Alo",
+          "link": "https://www.kishoralo.com/feature/dnnk7e4hyf",
+          "author": "মাহমুদ নেওয়াজ",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-24%2F9ajtx1oi%2Fmedium.jpg?rect=0%2C36%2C500%2C263&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2021-06%2Fbe2d99ee-c039-4acf-a6fb-2356c69a08a6%2FKIA_OG_watermark_final.png&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৭:০০"
+        },
+        {
+          "headline": "মৃত্যুর পরও বেঁচে থাকে যেসব কোষ",
+          "excerpt": "লেখা: মোহসিন আলমমৃত্যুর পর মানুষের শরীরে ঠিক কী ঘটে? প্রশ্নটা শুনলে মনে হতে পারে, উত্তরটা বুঝি খুব সহজ। হৃৎপিণ্ড থেমে যায়, মস্তিষ্কের কাজ বন্ধ হয়ে যায় আর নিথর শরীরটা ধীরে ধীরে এগিয়ে চলে পচনের দিকে। বহুকাল ধরে মৃত্যুর এই ছবিটিই চূড়ান্ত সত্যি বলে মেনে নিয়েছি আমরা। কিন্তু এই চেনা পর্দার আড়ালে লুকিয়ে আছে অন্য এক অজানা গল্প।ধরুন, একজন মানুষের মৃত্যুর বেশ কিছুদিন পর গবেষকেরা তাঁর শরীর থেকে কিছু কোষ…",
+          "source": "Prothom Alo",
+          "link": "https://www.bigganchinta.com/biology/og2kfc4k7e",
+          "author": "লেখা:",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-25%2Fra9z2ryv%2F00.png?rect=0%2C0%2C2944%2C1546&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2021-04%2F18d6c66d-0fdc-4405-936e-afd304acc074%2Fbigganchinta.png&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৭:০০"
+        },
+        {
+          "headline": "গোলাপি সাটিনে জয়া আহসানের গ্ল্যামারাস লুক, দেখুন নতুন ছবিগুলো",
+          "excerpt": "১ / ৪প্যাস্টেল গোলাপি সাটিনের পোশাকে মোহনীয় এক লুকে ধরা দিয়েছেন জয়া আহসান। মসৃণ ও চকচকে কাপড়ের স্লিপ ড্রেসটিতে আছে গভীর নেকলাইন, ক্রিসক্রস স্ট্র্যাপ আর বুকের কাছে কুঁচি দিয়ে তৈরি নকশা। বৃত্তাকার অলংকারের মতো ডিটেইলিং পোশাকটিতে যোগ করেছে ভিন্ন মাত্রাছবি: ফেসবুক/শান্তনু কর্মকার২ / ৪জয়ার খোলা চুল এক পাশে এনে স্টাইল করে দিয়েছেন হেয়ার স্টাইলিস্ট সুদীপ্তা বিশ্বাস। চোখে গাঢ় আইলাইনার ও মাসকারার…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/lifestyle/style/tdn4ndw8cm",
+          "author": "জীবনযাপন ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-25%2Fbgmkejoe%2F867258585183485923482817678817076538220493034n.jpg?rect=0%2C51%2C2738%2C1437&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৭:০০"
+        },
+        {
+          "headline": "পদত্যাগ",
+          "excerpt": "পেয়েছি ছুটি, বিদায় দেহ ভাই,চেয়ারটিকে শেষ প্রণাম জানাই।ফিরিয়ে দিলাম দপ্তর-চাবি,রাখব না আর আসন দাবি,শেষবিদায়ের মিষ্টি বাণী চাই—পেয়েছি ছুটি, বিদায় দেহ ভাই! কত দিনই ছিলাম পদে,কত লোকই ঘুরত পিছে রথে!গাড়ি, পতাকা, স্যার সম্বোধন,সবই আজ অতীতের স্মরণ—আগের মতো ডাকটি আর না পাই!পেয়েছি ছুটি, বিদায় দেহ ভাই!নির্দেশ এসে বলল, ‘এবারনামতে হবে, সময় হয়েছে তোমার!’নিভল বাতি, সরল ফলক,চেয়ারখানায় পড়ল…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/fun/q829iguvy3",
+          "author": "লেখা:",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-25%2Ftb1d8fdu%2Fpodo.jpg.jpeg?rect=0%2C87%2C1244%2C653&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2021-05%2Fba39cddb-a11d-47f9-971c-1458e27d6b8e%2Faktuthamun_OG_watermark.png&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৭:০০"
+        },
+        {
+          "headline": "খেজুরের মিষ্টতা, কুমড়ার বীজের পুষ্টি: নাশতায় দারুণ এক জুটি",
+          "excerpt": "ক্ষুধা লাগলে কিংবা বিকেলের নাশতায় মিষ্টি কিছু খেতে ইচ্ছা করলে খেজুর ও কুমড়ার বীজ হতে পারে সহজ একটি পছন্দ। দুটি খেজুরের ভেতরে কয়েকটি কুমড়ার বীজ ভরে নিলেই তৈরি হয়ে যায় সুস্বাদু নাশতা। রান্নার ঝামেলা নেই, উপকরণও সহজলভ্য। খেজুর থেকে মিলবে প্রাকৃতিক শর্করা ও খাদ্যআঁশ, আর কুমড়ার বীজ যোগ করবে উদ্ভিজ্জ প্রোটিন, স্বাস্থ্যকর চর্বি ও প্রয়োজনীয় খনিজ।বিজ্ঞাপনখেজুরে প্রাকৃতিক শর্করা ও খাদ্যআঁশখেজুরে শর্করার…",
+          "source": "Prothom Alo",
+          "link": "https://www.haal.fashion/lifestyle/well-being/156ufwarud",
+          "author": "হাল ফ্যাশন ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-25%2Fk54pw8z6%2Fdates-2.jpg?overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2023-10%2Fdf4c7d13-96dc-4875-b8bf-5aac7b6aa475%2FHaalfashion_gpi_sample3.png&overlay_position=bottom&overlay_opacity=1&w=1200&h=627&auto=format%2Ccompress&ogImage=true&overlay_width_pct=1",
+          "time": "সকাল ৭:০০"
+        }
+      ],
+      "International": [
+        {
+          "headline": "ব্রাজিলে চতুর্থবারের মতো প্রেসিডেন্ট নির্বাচিত লুলা, সামনে বৈরী কংগ্রেস ও বিভক্ত দেশ",
+          "excerpt": "কম ডেটা ব্যবহার করতে শুধু টেক্সট পড়ুনছবির উৎস, EPA/Shutterstockছবির ক্যাপশান, লুলা ডা সিলভাPublished ৩ মিনিট আগেপড়ার সময়: ৪ মিনিটব্রাজিলের তীব্র প্রতিদ্বন্দ্বিতাপূর্ণ নির্বাচনী লড়াইয়ে প্রবীণ বামপন্থী প্রেসিডেন্ট লুলা ডা সিলভা তার ডানপন্থী প্রতিদ্বন্দ্বী ফ্লাভিও বলসোনারুকে হারিয়ে আবারো নির্বাচিত হয়েছেন।ভোট গণনা শেষে লুলা পেয়েছেন ৫১ দশমিক ৭৬ শতাংশ ভোট। অন্যদিকে ফ্লাভিও বলসোনারু পেয়েছেন ৪৮…",
+          "source": "BBC Bangla World",
+          "link": "https://www.bbc.com/bengali/articles/cqlye383181do?at_medium=RSS&at_campaign=rss",
+          "author": "BBC News বাংলা",
+          "image": "https://ichef.bbci.co.uk/news/1200/branded_bengali/a69f/live/3152f8a0-d0e7-11f1-a701-fddedf244c16.jpg",
+          "time": "সকাল ৯:১৯"
+        },
+        {
+          "headline": "Brazil election results 2026: Key takeaways from Lula’s historic win",
+          "excerpt": "Luiz Inacio Lula da Silva has pulled off a political comeback that no Brazilian presidential candidate has managed in nearly four decades.On Sunday, the 80-year-old leftist president won a record fourth non-consecutive term, overcoming a first-round defeat to right-wing Senator Flavio Bolsonaro, the son of jailed former President Jair Bolsonaro.Recommended Stories list of 3 itemslist 1 of…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/10/26/brazil-election-2026-key-takeaways-from-lulas-historic-win?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/reuters_6adea966-1792977254.jpg?resize=1920%2C1440",
+          "time": "সকাল ৮:৫৯"
+        },
+        {
+          "headline": "দেশে ফিরলেন নোবেলজয়ী মাচাদো, ট্রাম্প বললেন—‘কিছুই জানি না’",
+          "excerpt": "রয়টার্স প্রায় এক বছর বিদেশে থাকার পর নিজ দেশে ফিরে ভেনেজুয়েলার লারা রাজ্যের একটি গির্জায় উপস্থিত হন বিরোধীদলীয় নেতা মারিয়া কোরিনা মাচাদো। ২৫ অক্টোবর ২০২৬ছবি: রয়টার্সভেনেজুয়েলার বিরোধীদলীয় নেতা মারিয়া কোরিনা মাচাদো প্রায় এক বছর পর গতকাল রোববার দেশে ফিরেছেন। এর আগে তিনি দেশে ফেরার জন্য বেশ কয়েকবার ব্যর্থ চেষ্টা করেছিলেন। এ ঘটনায় যুক্তরাষ্ট্রের প্রেসিডেন্ট ডোনাল্ড ট্রাম্পের প্রশাসনের সঙ্গে…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/world/south-america/mwycxuodde",
+          "author": "রয়টার্স",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-26%2Fpyvxmpbd%2FVenezuela-Machado-1.jpg?rect=0%2C68%2C960%2C504&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-09-22%2F5lwyn5je%2Fdefaultog.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৯:১০"
+        },
+        {
+          "headline": "পত্রিকা: 'বিশেষ পাসপোর্ট পাচ্ছে ৬৯ হাজার রোহিঙ্গা'",
+          "excerpt": "কম ডেটা ব্যবহার করতে শুধু টেক্সট পড়ুনPublished ১৯ মিনিট আগেপড়ার সময়: ৭ মিনিটএই খবরে বলা হয়েছে, সৌদি আরবে থাকা ৬৯ হাজার রোহিঙ্গা বিশেষ পাসপোর্ট পাচ্ছেন। ইতোমধ্যে ২৪ হাজার ৩০০ জনের পাসপোর্ট সৌদি আরবে রোহিঙ্গাদের হাতে পৌঁছে দেওয়া হয়েছে।স্বরাষ্ট্র মন্ত্রণালয় হয়ে পররাষ্ট্র মন্ত্রণালয়ের মাধ্যমে তাদের কাছে পাসপোর্ট পাঠানো হয়েছে। বাকিদের পাসপোর্ট চলতি বছরের ডিসেম্বরের মধ্যে দেওয়া হবে।এ বিষয়ে…",
+          "source": "BBC Bangla World",
+          "link": "https://www.bbc.com/bengali/articles/c6kgqn0ndqw5o?at_medium=RSS&at_campaign=rss",
+          "author": "BBC News বাংলা",
+          "image": "https://ichef.bbci.co.uk/news/1200/branded_bengali/c185/live/e5b4be50-d0e2-11f1-ad70-07daa2562508.jpg",
+          "time": "সকাল ৯:০১"
+        },
+        {
+          "headline": "Seoul ‘fabricated” landmine blast, North Korea tells UN in letter",
+          "excerpt": "South Korea blames Pyongyang for September landmine blast, but North Korea says incident a ‘sinister obstructive move’.Pyongyang has sent a letter to the United Nations Security Council (UNSC) accusing Seoul of fabricating a landmine explosion that injured three South Korean soldiers, according to North Korea’s Korean Central News Agency.The North Korean permanent representative to the UN wrote…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/10/26/seoul-fabricated-landmine-blast-north-korea-tells-un-in-letter?traffic_source=rss",
+          "author": "By AFP",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/ap_6adeb88013b4e-1792981120.jpg?resize=1920%2C1440",
+          "time": "সকাল ৮:৫৫"
+        },
+        {
+          "headline": "বাংলাদেশে সাপের বিষের প্রতিষেধক বা অ্যান্টিভেনম তৈরির কাজ কতদূর?",
+          "excerpt": "কম ডেটা ব্যবহার করতে শুধু টেক্সট পড়ুনছবির উৎস, Getty Imagesছবির ক্যাপশান, ২০১৮ সালে বাংলাদেশে ভেনম রিসার্চ সেন্টার প্রতিষ্ঠিত হয়Author, জান্নাতুল তানভীRole,  বিবিসি নিউজ বাংলা, ঢাকাPublished এক ঘন্টা আগেপড়ার সময়: ৭ মিনিটরাসেলস ভাইপারের অ্যান্টিভেনম বা প্রতিষেধক তৈরির একটি গুরুত্বপূর্ণ পর্যায়, এন্টিবডি উৎপাদনের কাজ শেষ করে সরকারের কাছে দুই বছর আগে প্রতিবেদন জমা দিয়েছে বাংলাদেশের ভেনম রিসার্চ…",
+          "source": "BBC Bangla World",
+          "link": "https://www.bbc.com/bengali/articles/c70gleqrnljo?at_medium=RSS&at_campaign=rss",
+          "author": "জান্নাতুল তানভী",
+          "image": "https://ichef.bbci.co.uk/news/1200/branded_bengali/ff9b/live/cd9d7b20-9b8d-11f1-a291-b542ee92de7c.jpg",
+          "time": "সকাল ৭:৫৮"
+        },
+        {
+          "headline": "Two storms slam northern Europe, cut power to 150,000 homes",
+          "excerpt": "Storms Boelo and Austen kill a man in Scotland and cut power to thousands of homes in the UK, France and Germany.A pair of storms battering northern Europe have killed one man, cut power to more than 150,000 homes, and disrupted flights and phone networks.More than 82,000 homes in the United Kingdom, nearly 60,000 in France, and at least 10,000 in Germany had no electricity on Sunday after…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/10/26/two-storms-slam-northern-europe-cut-power-to-150000-homes?traffic_source=rss",
+          "author": "By AFP and AP",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/AFP__20261023__D47C3TM__v1__HighRes__BritainClimateWeather-1792973774.jpg?resize=1920%2C1440",
+          "time": "সকাল ৮:০৪"
+        },
+        {
+          "headline": "Netanyahu rival Eisenkot holds final rally before Israeli election",
+          "excerpt": "NewsFeedGadi Eisenkot, Benjamin Netanyahu’s rival in Israel’s upcoming election, held his final campaign rally on Sunday, declaring: “Netanyahu must go home.” The former military chief has positioned himself as a moderate alternative to Netanyahu in Israel’s first national election since the October 7 attacks.Published On 26 Oct 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/10/26/netanyahu-rival-eisenkot-holds-final-rally-before-israeli-election?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/Screenshot-2026-10-26-at-00.54.13-1792976150.png?resize=1200%2C675",
+          "time": "সকাল ৭:০২"
+        },
+        {
+          "headline": "Serbia celebrates historic election win for student-backed movement",
+          "excerpt": "NewsFeedCelebrations erupted across Belgrade as Serbia’s student-backed movement claimed a major victory over Aleksandar Vucic’s long-standing ruling party. The result follows nearly two years of protests after a railway station collapse in Novi Sad killed 16 people in 2024.Published On 26 Oct 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/10/26/serbia-celebrates-historic-election-win-for-student-backed-movement?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/image-1792976292.jpg?resize=1920%2C1080&quality=80",
+          "time": "সকাল ৬:৫৮"
+        },
+        {
+          "headline": "Lula holds off far right with victory in Brazil presidential election",
+          "excerpt": "Leftist President Luiz Inacio Lula da Silva has defeated right-wing Senator Flavio Bolsonaro in Brazil’s contentious presidential race, pulling off a remarkable comeback after a first-round loss that galvanised the country’s political right.Shortly after 9pm Brasilia time on Sunday (00:00 GMT), Brazil’s Superior Electoral Court called the race for Lula, who had earned more than 51 percent of the…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/10/26/lula-holds-off-far-right-with-victory-in-brazil-presidential-election?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/reuters_6ade7eaf-1792966319.jpg?resize=1920%2C1440",
+          "time": "সকাল ৬:১৬"
+        },
+        {
+          "headline": "Brazil runoff live updates: Bolsonaro says it is ‘impossible to concede’ election result after historic Lula win",
+          "excerpt": "From 1h agoBolsonaro says it is 'impossible to concede' poll resultTiago RogeroFar-right senator Flávio Bolsonaro said it was “impossible to concede the election result” and that his legal team would seek to have the election annulled.Following in the footsteps of his father, former president Jair Bolsonaro, who four years ago also refused to acknowledge his defeat by Lula – before attempting a…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/world/live/2026/oct/25/brazil-election-runoff-live-updates-flavio-bolsonaro-lula",
+          "author": "Marina Dunbar, Adam Fulton, Tiago Rogero, Tom Phillips, Felipe Maia",
+          "image": "https://i.guim.co.uk/img/media/12419465c89789c79295caff90cc2957feb4543c/512_0_3320_2656/master/3320.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=e32293a3abd038488dbbb9d84056cce1",
+          "time": "সকাল ৮:৫৯"
+        },
+        {
+          "headline": "Trump escalates anti-Muslim rhetoric in fierce attack on El-Sayed",
+          "excerpt": "NewsFeedWith the US midterms just over a week away US President Donald Trump has launched another fierce anti-Muslim attack on Democratic Senate candidate Abdul El-Sayed. El-Sayed’s race against Republican Mike Rogers could help determine control of the US Senate.Published On 26 Oct 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/10/26/trump-escalates-anti-muslim-rhetoric-in-fierce-attack-on-el-sayed?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/Screenshot-2026-10-25-at-23.53.09-1792972505.png?resize=1200%2C675",
+          "time": "সকাল ৬:০২"
+        },
+        {
+          "headline": "Lula wins fourth term as Brazil president after historic upset over far-right Flávio Bolsonaro",
+          "excerpt": "Luiz Inácio Lula da Silva, the Brazilian president, has staged a dramatic election fightback, defeating his far-right opponent, Flávio Bolsonaro, to claim a historic fourth term in power.With nearly 99% of votes counted the 80-year-old leftist received 51.75% of the vote to his 45-year-old rival’s 48.25%.Lula narrowly lost the first round of the election to Bolsonaro in early October, casting…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/world/2026/oct/26/lula-wins-brazil-election",
+          "author": "Tom Phillips, Tiago Rogero",
+          "image": "https://i.guim.co.uk/img/media/bead94b31547db304e7ffba0a1a723a386e5d2a8/299_122_7048_5638/master/7048.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=f259c01e157fe9ee8c813bb3dc01a40a",
+          "time": "সকাল ৬:১৯"
+        },
+        {
+          "headline": "Iran war live: Trump rules out strikes ‘today’; missile downed near Riyadh",
+          "excerpt": "Live updates, Trump’s statement comes as Iran says renewed US-Israeli attacks ‘will achieve no different outcome from those of the past’.Video Duration 04 minutes 07 seconds 04:07Israeli assault on Hebron displaces thousands as West Bank restrictions tightenPublished On 26 Oct 2026\nThe Saudi-led coalition intercepts a ballistic missile launched by the Houthis towards Riyadh as the rebels…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/liveblog/2026/10/26/iran-war-live-trump-rules-out-strikes-today-israeli-forces-raid-hebron?traffic_source=rss",
+          "author": "Leena Fraihat, Kristina Harazim",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/AFP__20261021__D3YC8TU__v1__HighRes__IranWarDailyLife-1792972215.jpg?resize=1920%2C1440",
+          "time": "সকাল ৬:০০"
+        },
+        {
+          "headline": "Brazil election 2026: Full second round results as Lula wins comeback against Flávio Bolsonaro",
+          "excerpt": "Live second round results   Luiz Inácio Lula da Silva 51.52% Workers' party (PT) | 56,506,197 votes  Flávio Bolsonaro 48.48% Liberal party (PL) | 53,164,037 votes   Guardian graphic. Source: TSE Results by state  How the election worksBrazil’s president is elected purely by the popular vote. A winning candidate needs one more vote than 50% of votes cast; there is no role for the parliament and…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/world/ng-interactive/2026/oct/25/brazil-election-2026-live-second-round-results",
+          "author": "Tom Phillips, Seán Clarke",
+          "image": "https://i.guim.co.uk/img/media/27cf0f75664744a7e5011e058a7d77262fc7dc20/0_0_5000_4000/master/5000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=0b5acc607fdbf54d7229640a21ccd3e5",
+          "time": "সকাল ৬:১৫"
+        },
+        {
+          "headline": "Ballon d’Or 2026: Can Barcelona phenom Lamine Yamal become youngest winner?",
+          "excerpt": "A once-in-a-generation talent. A superstar in the making. Equal parts audacious and ambitious.Those are just a few words that best encapsulate Lamine Yamal’s appeal.Recommended Stories list of 4 itemslist 1 of 4Man United’s Carrick not worried about his job despite ‘unacceptable’ losslist 2 of 4Man United captain Fernandes slams Carrick’s tactics after Como hammeringlist 3 of 4UEFA demands FIFA…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/sports/2026/10/25/ballon-dor-2026-can-barcelona-phenom-lamine-yamal-become-youngest-winner?traffic_source=rss",
+          "author": "Manasi Pathak",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/GettyImages-2298421748-1791187874_93b20f-1792580469.jpg?resize=1200%2C630&quality=80",
+          "time": "ভোর ৫:৩৮"
+        },
+        {
+          "headline": "Thousands protest in Prague against public media funding reforms",
+          "excerpt": "Demonstrators allege Prime Minister Andrej Babis and his coalition’s proposed reforms pose a threat to press freedom.Several thousand people have taken to the streets in Prague to protest against plans to change the funding system for the Czech Republic’s public media, accusing the government of stifling press freedom.On Sunday, protesters demanded the withdrawal of legislation seeking to…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/10/25/thousands-protest-in-prague-against-public-media-funding-reforms?traffic_source=rss",
+          "author": "By AFP and AP",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/getty_6ade7e134d-1792966163.jpg?resize=1920%2C1440",
+          "time": "ভোর ৫:২৯"
+        },
+        {
+          "headline": "Venezuela’s opposition leader Machado returns after months in exile",
+          "excerpt": "NewsFeedVenezuela’s opposition leader and Nobel Peace Prize winner Maria Corina Machado returned home after more than 10 months in exile, greeted by cheering crowds waving national flags. The US seized Venezuela’s then president Nicolas Maduro just weeks after she left.Published On 25 Oct 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/10/25/venezuelas-opposition-leader-machado-returns-after-months-in-exile?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/Screenshot-2026-10-25-at-23.18.27-1792970405.png?resize=1200%2C675",
+          "time": "ভোর ৫:২৩"
+        },
+        {
+          "headline": "Xi Jinping’s corruption crackdown in the spotlight as China prepares for meeting of top leaders",
+          "excerpt": "When Xi Jinping came to power in 2012, he pledged to stamp out corruption all through the ranks of the Communist party. More than a decade later, the pace of investigations has not slowed. Last year, China’s disciplinary authorities opened investigations into more than 1 million people, including more than 100 officials at or above ministerial or provincial level.As Chinese Communist party (CCP)…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/world/2026/oct/26/xi-jinping-corruption-crackdown-china-fifth-plenum",
+          "author": "Amy Hawkins",
+          "image": "https://i.guim.co.uk/img/media/548f928b2adc4b01830bad12755fd7be59f1fb3d/524_0_6498_5199/master/6498.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=20c2cff746232207ced621c62f333a8f",
+          "time": "সকাল ৬:৫৮"
+        },
+        {
+          "headline": "Bulgaria election heads to a run-off amid low voter turnout",
+          "excerpt": "Bulgarians will now choose between President Iliana Yotova and former caretaker Prime Minister Andrey Gyurov next week.Bulgaria’s presidential election is heading to a run-off after polls closed with low voter turnout and no candidate passing the required threshold.Incumbent President Iliana Iotova received between 35 and 36.5 percent of votes on Sunday, according to exit polls. She will now…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/10/25/bulgaria-election-heads-to-a-run-off-amid-low-voter-turnout?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/reuters_6ade68cb-1792960715.jpg?resize=1920%2C1440",
+          "time": "ভোর ৪:৫৭"
+        },
+        {
+          "headline": "Real Madrid beat Barcelona 2-1 at Camp Nou to halve gap to La Liga leaders",
+          "excerpt": "French superstar Kylian Mbappe scores a brace for Madrid to inflict Barcelona’s first domestic defeat of the campaign.Kylian Mbappe struck twice to earn Jose Mourinho’s Real Madrid a 2-1 El Clasico victory over La Liga leaders Barcelona at Camp Nou, cutting the gap to three points.French superstar Mbappe opened the scoring before half-time on Sunday, then slotted home late on to inflict Barca’s…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/sports/2026/10/25/real-madrid-beat-barcelona-2-1-at-camp-nou-to-halve-gap-to-la-liga-leaders?traffic_source=rss",
+          "author": "By AFP",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/reuters_6ade7efb-1792966395.jpg?resize=1920%2C1440",
+          "time": "ভোর ৪:২২"
+        },
+        {
+          "headline": "Marine Le Pen vows French ‘renaissance’ as far right eyes seat of power",
+          "excerpt": "Orleans, France – Marine Le Pen took to the stage with a clear message: She would lead France’s “renaissance” as the country sank into crisis – and she would do so soon.The far-right figure’s words were met with cheers from thousands of supporters gathered in Orleans in central France on Sunday, as she launched her presidential campaign against a backdrop of mass demonstrations and widespread…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/10/25/marine-le-pen-vows-a-french-renaissance-as-far-right-eyes-seat-of-power?traffic_source=rss",
+          "author": "Virginia Pietromarchi",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6ade66b4814e-1792960180.jpg?resize=1920%2C1440",
+          "time": "রাত ৩:৫০"
+        },
+        {
+          "headline": "US Attorney General Todd Blanche defends Alaska Senate election lawsuit",
+          "excerpt": "United States Attorney General Todd Blanche has defended the Department of Justice’s decision to sue to prevent the certification of a Republican loss in Alaska’s tight Senate race.On Sunday, Blanche did a tour of the morning political shows in the US, making stops at CNN’s State of the Union TV programme and CBS’s Face the Nation.Recommended Stories list of 3 itemslist 1 of 3Trump’s approval…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/10/25/us-attorney-general-todd-blanche-defends-alaska-senate-election-lawsuit?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/ap_6ade73fdb3f7d-1792963581.jpg?resize=1920%2C1440",
+          "time": "রাত ৩:৪১"
+        },
+        {
+          "headline": "Marine Le Pen launches French presidential campaign",
+          "excerpt": "NewsFeedFrench far-right leader Marine Le Pen has launched her presidential campaign before a cheering crowd. She presented herself as a leader who can restore order and stability in France following weeks of protests. Virginia Pietromarchi reports from Oleans.Published On 25 Oct 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/10/25/marine-le-pen-launches-french-presidential-campaign?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/image-1792964332.jpg?resize=1624%2C1080&quality=80",
+          "time": "রাত ৩:৩৯"
+        },
+        {
+          "headline": "Australia politics live: Haines’s first words after waking were of concern for staff and bystanders; parliament hears emotional tributes to MP",
+          "excerpt": "From 2h agoHaines’s first words after alleged attack relayed to parliamentIndependent MP Allegra Spender said she had spoken to Phil Haines about his wife’s first words since she was allegedly attacked.In Spender’s address to the House of Representatives, she said:\n double quotation markPhil told us about your first words when you woke up after the [alleged] attack, and said that your first…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/australia-news/live/2026/oct/26/australia-politics-live-helen-haines-tribute-anthony-albanese-labor-liberal-one-nation-pauline-hanson-angus-taylor-question-time-senate-estimates-ntwnfb",
+          "author": "Kat Wong, Sarah Basford Canales, Josh Butler, Petra Stock, Nick Visser, Nino Bucci",
+          "image": "https://i.guim.co.uk/img/media/1c740180242167a4bb09da6d76410b55c64ca3ed/647_80_5608_4487/master/5608.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=9ec52c615fc60a362ce7ab886dc861a5",
+          "time": "সকাল ৯:১৩"
+        },
+        {
+          "headline": "Trump VS California",
+          "excerpt": "NewsFeedThe Democrats have redrawn district lines in a bid to flip five Republican-held seats in California. President Trump calls it a ‘giant scam’ as the two sides clash over everything from immigration to healthcare. But will it work at the polls? Zeena Aqel breaks it down.Published On 25 Oct 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/10/25/trump-vs-california?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/zeena-clean-thumb-1792963445.jpg?resize=1920%2C1080&quality=80",
+          "time": "রাত ৩:২৯"
+        },
+        {
+          "headline": "‘Someone has been following me’: safety fears after bullet inscribed with ‘RAT’ left on Victorian minister’s car",
+          "excerpt": "Victoria’s emergency services minister believes he is being followed and fears for his family’s safety after a bullet, etched with the word “RAT” and his former firefighter number, was left on his car on Saturday.The Herald Sun first reported on Monday that Paul Edbrooke had returned to his car after a community event in his Frankston electorate on Saturday and found the bullet on the bonnet. He…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/australia-news/2026/oct/26/labor-mp-paul-edbrooke-bullet-on-car-rat-ntwnfb",
+          "author": "Benita Kolovos",
+          "image": "https://i.guim.co.uk/img/media/0f21d0257a7b0bde1c520ec5481a81e0e17af877/150_931_2848_2279/master/2848.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=f7d7df6a94a823c80bbc0aab0d4f5380",
+          "time": "সকাল ৮:৩৮"
+        },
+        {
+          "headline": "Kenya bus crash kills at least 24 as government vows road safety crackdown",
+          "excerpt": "Church mourners die on Kenya’s Nairobi-Mombasa Highway weeks after another crash killed 17 people.A bus carrying mourners has collided with a truck on a major highway in southeastern Kenya, killing at least 24 people, police say.The crash happened in the Kanga area near Mtito Andei, on the road linking the capital, Nairobi, to the coastal city of Mombasa, at about 7:45am (04:45 GMT) on Sunday,…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/10/25/kenya-bus-crash-kills-at-least-24-as-government-vows-road-safety-crackdown?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/AP26298440937150-1792959899.jpg?resize=1920%2C1440",
+          "time": "রাত ৩:০০"
+        },
+        {
+          "headline": "There’s no human right to Vegemite, court tells Australian prisoner who wanted ban overturned",
+          "excerpt": "A murderer who claimed a refusal to allow him Vegemite in prison is a breach of his human rights as an Australian has failed to overturn the ban on the polarising spread.Andre McKechnie sued Victoria’s corrections department after he was refused the salty, yeast-based condiment in prison.McKechnie claimed the refusal denied him his human right to “enjoy his culture” as an Australian.“Without…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/australia-news/2026/oct/26/no-human-right-to-vegemite-court-tells-prisoner-australia-ntwnfb",
+          "author": "Guardian staff reporter",
+          "image": "https://i.guim.co.uk/img/media/c2009c1bb47678a4ab5f0c29bc852cb6c2b0608e/125_2_6130_4904/master/6130.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=91737bf3beaa0602f2b93bfe398d6267",
+          "time": "সকাল ৮:৩৪"
+        },
+        {
+          "headline": "Helen Haines’s first words after alleged attack were about safety of staff and gratitude to bystanders, MP reveals",
+          "excerpt": "Helen Haines’s first words after an alleged attack last week were to ask about the safety of her staff and express gratitude to bystanders and doctors.Allegra Spender, the MP for Wentworth, told parliament on Monday that Haines’s husband, Phil Haines, had revealed the Indi MP expressed gratitude to bystanders who came to her rescue outside her Wangaratta electorate office.Haines is in a serious…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/australia-news/2026/oct/26/albanese-leads-helen-haines-tributes-as-parliament-pauses-ntwnfb",
+          "author": "Tom McIlroy",
+          "image": "https://i.guim.co.uk/img/media/1c740180242167a4bb09da6d76410b55c64ca3ed/630_0_5932_4746/master/5932.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=c818a6e99df0d4b9941efa54141d3c1b",
+          "time": "সকাল ৮:০৫"
+        },
+        {
+          "headline": "Unreasonable and unfair: damning investigation criticises Labor’s algorithm-based tool for aged care",
+          "excerpt": "An algorithm used by the federal government to assess the level of care older Australians are entitled to is unreasonable, unfair and lacks human oversight, according to a damning investigation by the commonwealth ombudsman.The investigation also found transparency recommendations from the robodebt royal commission have been ignored.The legislation must be changed to allow aged care assessors to…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/australia-news/2026/oct/26/damning-investigation-labor-algorithm-tool-aged-care-assessment",
+          "author": "Melissa Davey",
+          "image": "https://i.guim.co.uk/img/media/d2221a5e0688a942bad1b94428d6c97eb9012699/275_0_2953_2362/master/2953.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=52024dce77e7f163a703c632dd278520",
+          "time": "সকাল ৭:০০"
+        },
+        {
+          "headline": "Serbian leader Aleksandar Vučić ousted by student movement in seismic election",
+          "excerpt": "The long-serving leader of Serbia, Aleksandar Vučić, has conceded defeat, ushering in a seismic political shift after a historic election that saw ​the increasingly authoritarian leader pitted against a student-led movement that had spent two years protesting against his government.Vučić pointed to preliminary results that suggested voters had overwhelmingly backed the students, potentially…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/world/2026/oct/25/serbian-leader-aleksandar-vucic-concedes-defeat-in-fiercely-contested-parliamentary-election",
+          "author": "Ashifa Kassam",
+          "image": "https://i.guim.co.uk/img/media/d6c1accd42c5230ae9bc413911da12e6910aa7f3/354_0_5833_4667/master/5833.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=7fe6893617bef70cdd1bcaf9c7c9ed44",
+          "time": "ভোর ৫:৪২"
+        },
+        {
+          "headline": "‘Door to EU is open’ new Serbian government told after Vučić concedes election – Europe live as it happened",
+          "excerpt": "From 3h agoUpdated projection: Student List wins with 52.9% vote, 141 seats in new parliamentThe latest version of the Ipsos/CeSID poll, updated with the partial results, gives the Student List 141 out of 250 seats in the new parliament with 52.9% of the vote share.That’s well clear of the 126 required for majority.Vučić’s list will have 103 seats in the new parliament, with 38.8% of the vote…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/world/live/2026/oct/25/europe-serbia-elections-aleksander-vucic-student-list-protests-bulgaria-latest-news-updates",
+          "author": "Jakub Krupa, Jon Henley",
+          "image": "https://i.guim.co.uk/img/media/8bce13d4167acc55cf02c84f507f817d5f4be89b/248_0_4638_3713/master/4638.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=b70991b5881426ac151a2251581b4381",
+          "time": "ভোর ৫:৪০"
+        },
+        {
+          "headline": "ব্রাজিলে লুলার নাটকীয় জয়, চতুর্থবারের মতো ক্ষমতায় বসছেন",
+          "excerpt": "দ্য গার্ডিয়ান প্রেসিডেন্ট নির্বাচনের চূড়ান্ত ধাপের লড়াইয়ের আগে রিও ডি জেনিরোর কোপাকাবানা সৈকতে শেষ নির্বাচনী সমাবেশে অংশ নেন লুইজ ইনাসিও লুলা দা সিলভা। ব্রাজিল, ২৪ অক্টোবর ২০২৬ছবি: রয়টার্সব্রাজিলের প্রেসিডেন্ট লুইজ ইনাসিও লুলা দা সিলভা নির্বাচনে নাটকীয় জয় পেয়েছেন। কট্টর ডানপন্থী প্রতিদ্বন্দ্বী ফ্লাভিও বলসোনারোকে হারিয়ে তিনি ঐতিহাসিকভাবে চতুর্থবারের মতো ক্ষমতায় বসছেন।প্রায় ৯৯ শতাংশ ভোট গণনা শেষে…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/world/south-america/ibaab5b93l",
+          "author": "দ্য গার্ডিয়ান",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-26%2Fh5igaxj7%2FBrazil-Lula-da-silva-1.jpg?rect=0%2C270%2C3800%2C1995&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-09-22%2F5lwyn5je%2Fdefaultog.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৭:৫৭"
+        },
+        {
+          "headline": "দেশের জন্য জীবন বাজি রাখতে ‘জানফাদা’, যুক্ত তিন কোটি ইরানি, আছেন তরুণীরাও",
+          "excerpt": "‘জানফাদা’ কর্মসূচিতে তরুণদের অংশগ্রহণের ওপর বিশেষ গুরুত্ব দেওয়া হচ্ছে। তবে সব বয়সী মানুষই এতে যোগ দিতে পারেন। তাঁদের অস্ত্র ও অন্যান্য সরঞ্জাম দিয়ে প্রশিক্ষণ দেওয়া হচ্ছে। এর উদ্দেশ্য সরকারের ‘বিপ্লবী’ মূল্যবোধ রক্ষা করা।আল–জাজিরা দেশের জন্য জীবন বাজি রাখতে অস্ত্র হাতে নিচ্ছেন ইরানের তরুণীরাছবি: আল–জাজিরার ভিডিও থেকেযুক্তরাষ্ট্র ও ইসরায়েলের সঙ্গে ইরানের আবারও যেকোনো সময় যুদ্ধ শুরু হতে পারে বলে…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/world/middle-east/ril9kyq0pv",
+          "author": "আল–জাজিরা",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-25%2Fnnoyuvbi%2FIran_01.jpg?rect=0%2C0%2C1920%2C1008&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-09-22%2F5lwyn5je%2Fdefaultog.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৭:৩০"
+        },
+        {
+          "headline": "Burnham to double spending on homelessness amid drive to end rough sleeping by Christmas",
+          "excerpt": "Andy Burnham is to double spending on ending rough sleeping to almost £900m by the end of the current parliament, as he steps up efforts to get people off the streets by Christmas.The prime minister has pledged to offer every rough sleeper in England a safe route off the streets or wider support as a central part of his premiership.As he prepared for a Downing Street summit on ending rough…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/society/2026/oct/25/homelessness-rough-sleeping-double-spending-burnham",
+          "author": "Rowena Mason",
+          "image": "https://i.guim.co.uk/img/media/1fa605bedf4c63c0de58edf4306a5a04ec7e5ff4/418_0_4561_3648/master/4561.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=c3e7afa4d09d14db70446a3619c9293f",
+          "time": "ভোর ৪:৩০"
+        },
+        {
+          "headline": "Cabinet split emerges over controversial Rosebank oilfield decision",
+          "excerpt": "A cabinet split has emerged over whether to approve drilling at the Rosebank oilfield, with the chancellor, John Healey, in favour of the controversial North Sea project.The energy secretary, Miatta Fahnbulleh, is ultimately in charge of the decision, and the Guardian reported last week that she was leaning towards rejecting it after granting permission for the smaller Jackdaw gasfield.It is…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/environment/2026/oct/25/cabinet-split-emerges-over-controversial-rosebank-oilfield-decision",
+          "author": "Rowena Mason",
+          "image": "https://i.guim.co.uk/img/media/b2ce70c2ceab2ca5a147ab99f52dfe4e4b68a9c7/1708_2735_3588_2867/master/3588.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=16f9313efb23fea4a2ff14c2d4379683",
+          "time": "রাত ২:২৯"
+        },
+        {
+          "headline": "Trump rallies for Mike Rogers – and Nicki Minaj’s derriere – in Michigan",
+          "excerpt": "Donald Trump reiterated his apparent love for buxom bums during a rally in Michigan on Sunday where he encouraged the crowd to compliment rapper Nicki Minaj’s behind.Trump’s cheeky comments about Minaj’s derriere came as he explained his recent observation on the Republican Ohio senator Jon Husted’s rear end. Earlier in October, Trump said of the former college football player: “I don’t do this…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/us-news/2026/oct/25/trump-nicki-minaj-mike-rogers-michigan-rally",
+          "author": "Victoria Bekiempis",
+          "image": "https://i.guim.co.uk/img/media/cfcc724fcbcea840ba286d8048faeb6a92d72108/245_0_4760_3808/master/4760.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=159a73392ba85f4a5b5f3c0ec0c0914b",
+          "time": "ভোর ৪:৩৬"
+        },
+        {
+          "headline": "Alaska Senate candidate Mary Peltola delays campaign stops after car crash",
+          "excerpt": "Mary Peltola, a Democrat who is running for Alaska’s lone US Senate seat, and her family suffered minor injuries in a car crash while driving to a campaign stop on Saturday, her campaign said.The family was on its way to the Alaska Federation of Natives annual banquet when another vehicle crashed into the one transporting Peltola and her family, her campaign said in a statement on Sunday.…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/us-news/2026/oct/25/mary-peltola-family-car-crash-alaska-senate",
+          "author": "Coral Murphy Marcos",
+          "image": "https://i.guim.co.uk/img/media/c9ec35b18b3b7eea1144187cf87402bc680473f8/552_156_4389_3513/master/4389.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=fd7c7693228d6eed0c75b99c146fe6a9",
+          "time": "রাত ২:২৮"
+        }
+      ],
+      "Sports": [
+        {
+          "headline": "এমবাপ্পে ১০, রাফিনিয়া ৮—রিয়াল–বার্সার কে কত নম্বর পেলেন",
+          "excerpt": "এল ক্লাসিকো এমবাপ্পে ১০, রাফিনিয়া ৮—রিয়াল–বার্সার কে কত নম্বর পেলেনখেলা ডেস্ক বেলিংহাম থেকে বল কেড়ে নেওয়ার চেষ্টায় জেরার্দ মার্তিনএএফপিলা লিগায় উড়তে থাকা বার্সেলোনাকে বড় ধাক্কা দিয়েছে রিয়াল মাদ্রিদ। ক্যাম্প ন্যুতে গতকাল স্বাগতিকদের ২–১ গোলে হারিয়েছে রিয়াল মাদ্রিদ। জোড়া গোল করে ম্যাচের নায়ক কিলিয়ান এমবাপ্পে। বার্সেলোনার হয়ে একমাত্র গোলটি করেছেন রাফিনিয়া। দুই দলের খেলোয়াড়দের পারফরম্যান্সের…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/sports/football/ra2medbpyy",
+          "author": "খেলা ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-26%2Fjck1csb0%2F744201-01-02.jpg?rect=0%2C0%2C3827%2C2009&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2026-09-03%2F99dqhmx6%2Fog-banner-for-sports.png&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৯:০৯"
+        },
+        {
+          "headline": "বঙ্গোপসাগরের গভীর নিম্নচাপটি আরো ঘনীভূত হয়ে সোমবার ঘূর্ণিঝড়ে পরিণত হতে পারে বলে পূর্বাভাস",
+          "excerpt": "ছবির উৎস, Collected by Muhammad Abu Daudছবির ক্যাপশান, সাজেকে চতুর্থ দিনের মতো এই অনির্দিষ্টকালের এই অবরোধ চলছেরাঙামাটি জেলার সাজেকে তৃতীয়\nদফার অনির্দিষ্টকালের অবরোধ কর্মসূচির দিন রোববার কোনো ধরনের বিশৃঙ্খল পরিস্থিতি\nতৈরি হয়নি বলে জানিয়েছেন বাঘাইছড়ির উপজেলা নির্বাহী কর্মকর্তা আমেনা মারজান। রোববার দুপুরে এ কথা\nজানান তিনি। মিজ মারজান বলেন, “অবরোধ\nচলছে কিন্তু কোন ধরনের সহিংস পরিস্থিতির খবর…",
+          "source": "BBC Bangla Sport",
+          "link": "https://www.bbc.co.uk/bengali/live/cx98zpj6me8gt?at_medium=RSS&at_campaign=rss",
+          "author": "BBC News বাংলা",
+          "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/4dbf/live/e09c7740-d08e-11f1-b441-2b33b063138f.jpg",
+          "time": ""
+        },
+        {
+          "headline": "নিজেদের ভুলও খুঁজছে তামিমের বিসিবি",
+          "excerpt": "ক্রীড়া প্রতিবেদক ঢাকাটেস্টে বাংলাদেশ দল এখন যতটা ভালো খেলছে, সাদা বলের ক্রিকেটে ততটাই খারাপ।বিসিবিটেস্টে বাংলাদেশ দল এখন যতটা ভালো খেলছে, সাদা বলের ক্রিকেটে ততটাই খারাপ। সংযুক্ত আরব আমিরাতে আফগানিস্তান ও জিম্বাবুয়ের বিপক্ষে ত্রিদেশীয় সিরিজের পারফরম্যান্স সেটির সর্বশেষ উদাহরণ।কিন্তু সমস্যাটা কী ক্রিকেটারদেরই, নাকি গলদ রয়ে যাচ্ছে তাদের প্রস্তুত করার প্রক্রিয়াতেই? এ প্রশ্নের উত্তর খুঁজতে গতকাল…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/sports/cricket/lr9ks82s3u",
+          "author": "ক্রীড়া প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-25%2F2ws2t2sj%2FDSC1620.JPG?rect=0%2C0%2C5568%2C2923&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2026-09-03%2F99dqhmx6%2Fog-banner-for-sports.png&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৮:০০"
+        },
+        {
+          "headline": "আজ টিভিতে যা দেখবেন (২৬ অক্টোবর ২০২৬)",
+          "excerpt": "খেলা ডেস্ক ব্যালন ডি’অর আজ। কে পাবেন বিশ্বের সেরা ফুটবলারের স্বীকৃতি, সরাসরি দেখতে চোখ রাখুন ব্যালন ডি’অরের অফিশিয়াল ওয়েবসাইট ও ডিএজেডএনে।জাতীয় ক্রিকেট লিগসিলেট-খুলনাসকাল ৯-৩০ মি., ইউটিউব/বিসিবিময়মনসিংহ-চট্টগ্রামসকাল ৯-৩০ মি., ইউটিউব/বিসিবিঢাকা-রাজশাহীসকাল ৯-৩০ মি., ইউটিউব/বিসিবিরংপুর-বরিশালসকাল ৯-৩০ মি., ইউটিউব/বিসিবিটি-টুয়েন্টিগ্লোবাল টি-টুয়েন্টিরাত ৮টা ও ১টা, টি স্পোর্টসব্যালন ডি’অররেড…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/sports/tdfldsjk8q",
+          "author": "খেলা ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-25%2Fv4k3yzan%2FWhatsApp-Image-2025-09-07-at-18.49.56e919fcaf.jpg?rect=0%2C0%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2026-09-03%2Foj267urd%2Fog-banner-for-sports.png&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৭:০০"
+        },
+        {
+          "headline": "এমবাপ্পের জোড়া গোলে ঘরের ‘অহংকার’ তছনছ বার্সার",
+          "excerpt": "লা লিগা এমবাপ্পের জোড়া গোলে ঘরের ‘অহংকার’ তছনছ বার্সারখেলা ডেস্ক দ্বিতীয় গোলের পর এমবাপ্পের উদ্‌যাপনরয়টার্সবার্সেলোনা ১ : ২ রিয়াল মাদ্রিদলা লিগায় বার্সেলোনার জয়রথ থামালেন কিলিয়ান এমবাপ্পে। ক্যাম্প ন্যুতে তাঁর জোড়া গোলে মৌসুমের প্রথম এল ক্লাসিকোয় ২-১ গোলে জিতেছে রিয়াল মাদ্রিদ। লিগে টানা ৯ ম্যাচ জয়ের পর এটাই বার্সার প্রথম হার। তাতে রিয়ালকে পেছনে ফেলে হলো না লা লিগায় সেরা শুরুর নতুন রেকর্ড।ক্যাম্প…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/sports/football/b49m9a95jl",
+          "author": "খেলা ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-25%2Fou5nf1rn%2F4541.jxl?rect=0%2C0%2C1082%2C568&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2026-09-03%2F99dqhmx6%2Fog-banner-for-sports.png&overlay_position=bottom&overlay_width_pct=1",
+          "time": "ভোর ৪:০২"
+        },
+        {
+          "headline": "End approaching for Carrick but Man Utd fans make clear who they blame",
+          "excerpt": "There was an air of inevitability about Michael Carrick's walk around Old Trafford after the 3-0 home defeat by Bournemouth.It is not unusual for Carrick to applaud the Manchester United fans. If anything, his acknowledgements were not as pronounced as they were in Como after the equally devastating loss.But after eight games without a win, the worst run since 2015-16 and two horrific defeats in…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cwm24jk9743yo?at_medium=RSS&at_campaign=rss",
+          "author": "Simon Stone",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/a6b1/live/b4ad99d0-d0b5-11f1-960c-a30ffadcd9ea.jpg",
+          "time": "রাত ৩:২৪"
+        },
+        {
+          "headline": "Ronan, Mahe tasked with filling No 9 void",
+          "excerpt": "Published : 26 October 2026\n            \n          \n          •\n                Updated : 26 October 2026, 09:08\n            \n        \n\t\t\n\t\t\t\t\t\t\t\n\t\t\t\n\n\t\tSports Reporter\n\t\t\t\t\t\n\n\t\t\t\t\t\n\n\t\t\t\n  \n                  \n              \n                  \n\n  \n\n\n\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\nBangladesh coach Thomas Dooley has turned to overseas-based forwards Ronan Sullivan and Mohammed Mahe Khan in a bid to solve the…",
+          "source": "The Daily Star Sports",
+          "link": "https://www.thedailystar.net/sports/football/news/ronan-mahe-tasked-filling-no-9-void-4307581",
+          "author": "Sports Reporter",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-10/WhatsApp%20Image%202026-10-24%20at%2014.41.17_0.jpeg",
+          "time": "সকাল ৯:০৮"
+        },
+        {
+          "headline": "Antonelli delivers 'the race of a champion who isn't the champion yet'",
+          "excerpt": "The race that took Kimi Antonelli to the brink of a record-breaking world championship was, in the words of his Mercedes team boss Toto Wolff, \"the best he has delivered so far\" and \"the race of a champion who isn't the champion yet\".Not yet. Not quite. But so very near.The 20-year-old Italian's victory in the United States Grand Prix puts him in an impregnable position.Antonelli is so far ahead…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/formula1/articles/c6wyvnlx0erxo?at_medium=RSS&at_campaign=rss",
+          "author": "Andrew Benson",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/06ee/live/7c1a34e0-d0e0-11f1-ad70-07daa2562508.jpg",
+          "time": "সকাল ৭:২৪"
+        },
+        {
+          "headline": "What to watch on TV today (26 Oct, 2026)",
+          "excerpt": "Monday,\n\t\t\t\t\t\tOctober 26, 2026\n\t\t\t\t\n\n\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n    \n            \n  Main navigation\n  \n\n        \n              \n              \n        News\n                  \n                        \n              \n        Politics\n              \n          \n        Governance\n              \n          \n        Crime and Justice\n              \n          \n        Accidents and…",
+          "source": "The Daily Star Sports",
+          "link": "https://www.thedailystar.net/sports/more-sports/news/what-watch-tv-today-26-oct-2026-4307571",
+          "author": "Star Sports Desk",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-09/What%20to%20watch_1.png",
+          "time": "সকাল ৮:৫৭"
+        },
+        {
+          "headline": "Mourinho keeps Clasico midas touch 13 years on as La Liga heats up",
+          "excerpt": "Jose Mourinho has done it again.The Real Madrid manager celebrated Kylian Mbappe's late winner at Barcelona on Sunday with a trademark knee slide, as he maintained his midas touch over their bitter rivals.Mourinho has become just the third Real boss to go six El Clasicos in a row without defeat - 13 years after he last led Los Blancos in this fixture.Four wins and two draws in his past six…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cr3wvz20pglqo?at_medium=RSS&at_campaign=rss",
+          "author": "Elizabeth Conway",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/9581/live/b729bb60-d0cb-11f1-b86a-c167c5eb76b4.jpg",
+          "time": "সকাল ৬:০৭"
+        },
+        {
+          "headline": "Antonelli looks to seal title 'in style' after US Grand Prix win",
+          "excerpt": "Published : 26 October 2026\n            \n          \n          •\n                Updated : 26 October 2026, 08:50\n            \n        \n\t\t\n\t\t\t\t\t\t\t\n\t\t\t\n\n\t\tAFP\n\t\t\t\t\t\n\n\t\t\t\t\t\n\n\t\t\t\n  \n                  \n              \n                  \n\n  \n\n\n\t\t\t\n\t\t\t\t\t\t\tPhoto: AFP\n\t\t\t\t\t\t\n\t\t\t\t\t\nKimi Antonelli said his mindset will not change as he heads to next week's race in Mexico seeking the two points he needs to…",
+          "source": "The Daily Star Sports",
+          "link": "https://www.thedailystar.net/sports/more-sports/news/antonelli-looks-seal-title-style-after-us-grand-prix-win-4307561",
+          "author": "AFP",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-10/Kimi%20Antonelli.jpg",
+          "time": "সকাল ৮:৫০"
+        },
+        {
+          "headline": "Mourinho offers Real a blueprint to beat Barca",
+          "excerpt": "Published : 26 October 2026\n            \n          \n          •\n                Updated : 26 October 2026, 08:40\n            \n        \n\t\t\n\t\t\t\t\t\t\t\n\t\t\t\n\n\t\tReuters\n\t\t\t\t\t\n\n\t\t\t\t\t\n\n\t\t\t\n  \n                  \n              \n                  \n\n  \n\n\n\t\t\t\n\t\t\t\t\t\t\tPhoto: X\n\t\t\t\t\t\t\n\t\t\t\t\t\nReal Madrid recorded just a second victory in eight games against Barcelona on Sunday night, with the return of Jose…",
+          "source": "The Daily Star Sports",
+          "link": "https://www.thedailystar.net/sports/football/news/mourinho-offers-real-blueprint-beat-barca-4307556",
+          "author": "Reuters",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-10/mourinho.jpeg",
+          "time": "সকাল ৮:৪০"
+        },
+        {
+          "headline": "Inter snatch Serie A summit, depleted Bayern return to the top, Rennes soar in Ligue 1",
+          "excerpt": "In case you missed it \n\n  \n\n                  \n              Published : 26 October 2026\n            \n          \n          •\n                Updated : 26 October 2026, 04:36\n            \n        \n\t\t\n\t\t\t\t\t\t\t\n\t\t\t\n\n\t\tAgencies \n\t\t\t\t\t\n\n\t\t\t\t\t\n\n\t\t\t\n  \n                  \n              \n                  \n\n  \n\n\n\t\t\t\n\t\t\t\t\t\t\tPhotos: Reuters \n\t\t\t\t\t\t\n\t\t\t\t\t\nIt was a weekend of dramatic shifts, emotional…",
+          "source": "The Daily Star Sports",
+          "link": "https://www.thedailystar.net/sports/football/news/inter-snatch-serie-summit-depleted-bayern-return-the-top-rennes-soar-ligue-1-4307546",
+          "author": "Agencies",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-10/photo-collage.png%20-%202026-10-26T043527.653.png",
+          "time": "ভোর ৪:৩৬"
+        },
+        {
+          "headline": "Mbappe reigns supreme at Camp Nou as Real clinch Clasico win",
+          "excerpt": "Published : 26 October 2026\n            \n          \n          •\n                Updated : 26 October 2026, 04:12\n            \n        \n\t\t\n\t\t\t\t\t\t\t\n\t\t\t\n\n\n\t\t\t\n  \n                  \n              \n                  \n\n  \n\n\n\t\t\t\n\t\t\t\t\t\t\tReal Madrid's Kylian Mbappe celebrates scoring their second goal. Photo: Reuters \n\t\t\t\t\t\t\n\t\t\t\t\t\nKylian Mbappe struck twice to earn Jose Mourinho's Real Madrid a 2-1…",
+          "source": "The Daily Star Sports",
+          "link": "https://www.thedailystar.net/sports/football/news/mbappe-reigns-supreme-camp-nou-real-clinch-clasico-win-4307541",
+          "author": "AFP, Barcelona",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-10/2026-10-25T215505Z_593296957_UP1EMAP1OVREB_RTRMADP_3_SOCCER-SPAIN-BAR-RMA.JPG",
+          "time": "ভোর ৪:০৫"
+        },
+        {
+          "headline": "Who has made Troy's Premier League team of the week?",
+          "excerpt": "Shea Charles (Fulham): I didn't really want to put a Fulham player in because I thought these are games they should be winning. However, the fact that they've won at Coventry and they got a clean sheet, and Charles has been excellent since he's come from Southampton, I just thought he should go in.He controlled the game and adds a spark to a Fulham team that is pretty weak - lacklustre is the…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/c804013klnn0o?at_medium=RSS&at_campaign=rss",
+          "author": "BBC Sport",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/1b3e/live/b4b3c870-d0c2-11f1-a701-fddedf244c16.png",
+          "time": "ভোর ৪:১৬"
+        },
+        {
+          "headline": "Antonelli superb and Leclerc close to perfect - driver ratings",
+          "excerpt": "Championship leader Kimi Antonelli sealed his ninth victory of the season with victory at the United States Grand Prix in Austin. Ferrari's Charles Leclerc was second and Red Bull's Max Verstappen third. Mercedes' Antonelli, 20, can become the youngest world champion in Formula 1 history if he finishes ninth or higher at the Mexico City Grand Prix next weekend. Here are my ratings for how the…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/formula1/articles/cmpwgnekx1e0o?at_medium=RSS&at_campaign=rss",
+          "author": "Harry Benjamin",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/5b5a/live/614d1bc0-d0d9-11f1-a701-fddedf244c16.png",
+          "time": "সকাল ৭:৪৮"
+        },
+        {
+          "headline": "Smith holds on to beat Schindler in Euros final",
+          "excerpt": "Ross Smith held off home favourite Martin Schindler to win the European Championship title for a second time, with world champion Luke Littler having been knocked out in the quarter-finals.England's Smith reeled off six legs in a row as he took an 8-2 lead in the best-of-21 final against Germany's Schindler in Dortmund.Schindler got it back to 9-7 before Smith, who won the tournament in 2022,…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/darts/articles/cv5yn4w8x378o?at_medium=RSS&at_campaign=rss",
+          "author": "BBC Sport",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/5a62/live/b2908fc0-d0c1-11f1-b63a-2f4562e77934.jpg",
+          "time": "ভোর ৪:৪৪"
+        },
+        {
+          "headline": "Man Utd lacked intensity & fight - Alderweireld",
+          "excerpt": "Match of the Day pundits Toby Alderweireld and Ashley Williams analyse Manchester United's 3-0 defeat by Bournemouth, with Alderweireld suggesting there is no \"togetherness\" among the United squad.   MATCH REPORT: Manchester United 0-3 Bournemouth Available to UK users only.",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/videos/c6wyrg2vwjmgo?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/a573/live/0a17eca0-d0c9-11f1-93e1-3b657b665bcf.jpg",
+          "time": "ভোর ৫:৫১"
+        },
+        {
+          "headline": "How Liverpool's attack impressed against Brighton",
+          "excerpt": "Match of the Day pundits Toby Alderweireld and Ashley Williams analyse Liverpool's impressive attacking display in their 2-0 win against Brighton at Anfield. MATCH REPORT: Liverpool 2-0 Brighton Available to UK users only.",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/videos/ckq6nvp2ldz5o?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/af60/live/89141810-d0cb-11f1-b441-2b33b063138f.jpg",
+          "time": "ভোর ৫:৪৯"
+        },
+        {
+          "headline": "Man City's perfect start over after draw at rivals Man Utd",
+          "excerpt": "Manchester City's perfect record in the Women's Super League is ended by rivals Manchester United after Elisabeth Terland scores a late equaliser to snatch a 1-1 draw. MATCH REPORT: Manchester United 1-1 Manchester City Available to UK users only.",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/videos/cj3vq1ggw247o?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/2942/live/b4d98470-d0b8-11f1-a701-fddedf244c16.jpg",
+          "time": "ভোর ৫:৫২"
+        },
+        {
+          "headline": "Howe open to Man Utd talks - Monday's gossip",
+          "excerpt": "Eddie Howe is open to holding talks with Manchester United if they part ways with manager Michael Carrick, three Premier League clubs are monitoring Bayern Munich's Lennart Karl, Manchester United are targeting a move for Everton's Jarrad Branthwaite.Former Newcastle United boss Eddie Howe - who is out of work - would be interested in speaking to Manchester United if the Old Trafford club part…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cq1j3e889rg8o?at_medium=RSS&at_campaign=rss",
+          "author": "BBC Sport",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/17b5/live/5102a540-d0b2-11f1-93e1-3b657b665bcf.png",
+          "time": "রাত ৩:০৯"
+        },
+        {
+          "headline": "Antonelli wins in US but has to wait to secure title",
+          "excerpt": "Antonelli took control of the race from the very beginning, an excellent start combined with a gripping scrap through the first lap between Verstappen and Leclerc leaving him more than two seconds clear by the end of the first lap.No-one got near him from then on.Mercedes had chosen the medium tyres for the start, while Leclerc and the Red Bulls of Verstappen and Isack Hadjar started on new…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/formula1/articles/cm20w8154wn0o?at_medium=RSS&at_campaign=rss",
+          "author": "Andrew Benson",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/481a/live/1ef4b2c0-d0bf-11f1-b059-63397a00826b.jpg",
+          "time": "ভোর ৪:১৩"
+        }
+      ],
+      "Tech": [
+        {
+          "headline": "হোয়াটসঅ্যাপ অ্যাকাউন্ট হ্যাকড হলে উদ্ধার করবেন যেভাব",
+          "excerpt": "আহসান হাবীব হোয়াটসঅ্যাপছবি: রয়টার্সহোয়াটসঅ্যাপ অ্যাকাউন্ট হ্যাকড হলে ব্যক্তিগত কথোপকথন ও পরিচিত ব্যক্তিদের তথ্য ঝুঁকিতে পড়তে পারে। শুধু তা–ই নয়, হোয়াটসঅ্যাপ অ্যাকাউন্টের নিয়ন্ত্রণ নিয়ে কেউ আপনার পরিচয়ে বন্ধু, পরিবারের সদস্য ও পরিচিত ব্যক্তিদের কাছে অনাকাঙ্ক্ষিত বার্তা পাঠাতে পারে। তবে চাইলেই নিজের ফোন নম্বর ব্যবহার করে হ্যাকড হওয়া হোয়াটসঅ্যাপ অ্যাকাউন্ট উদ্ধার করা যায়।হোয়াটসঅ্যাপ অ্যাকাউন্ট ফিরে…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/technology/advice/qo3aqvq2zh",
+          "author": "আহসান হাবীব",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-25%2F4mr1pcih%2Fwhatsapp.reuters.jpg?rect=0%2C195%2C3500%2C1838&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৮:০০"
+        },
+        {
+          "headline": "The best apps for tracking your reading and discovering new books",
+          "excerpt": "From discovering new books and organizing your reading list to tracking your reading goal and sharing recommendations, book apps make it easier to maintain reading as a hobby. There are numerous apps on the market that promise to do just that, so we’ve compiled a list of some of the best ones to help you pick the right one for you. Whether you’re an occasional reader or a dedicated bookworm,…",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/10/25/5-best-apps-track-reading-discover-new-books/",
+          "author": "Aisha Malik",
+          "image": "https://techcrunch.com/wp-content/uploads/2022/12/Screenshot-2026-10-22-at-2.48.45-PM.png?resize=1200,831",
+          "time": "সকাল ৭:১০"
+        },
+        {
+          "headline": "iFixit&#8217;s look inside the iPhone Duo may explain those broken screens and hinges",
+          "excerpt": "Terrence O'Brien is the Verge’s weekend editor. He’s covered the tech industry for over 18 years and knows a thing or two about synths.As is tradition, iFixit has torn open the latest iPhone and laid its parts bare on a table. It found some interesting details about how Apple might be hiding the crease on the Duo’s folding screen and gave it a 5/10 repairability score. That might not seem…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/tech/1018233/ifixit-iphone-duo-teardown-repairability-hinge",
+          "author": "Terrence O'Brien",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/iPhone-Duo-layout01.jpg?quality=90&strip=all&crop=0%2C15.095986038394%2C100%2C69.808027923211&w=1200",
+          "time": "রাত ৩:৪০"
+        },
+        {
+          "headline": "Can you run regular Ethernet cables outside?",
+          "excerpt": "Just because you can do something doesn't mean you should.\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                   …",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2294283/ethernet-cables-use-outside-explained/",
+          "author": "Thomas Godwin",
+          "image": "https://www.engadget.com/img/gallery/can-you-run-regular-ethernet-cables-outside/l-intro-1792100149.jpg",
+          "time": "সকাল ৬:০০"
+        },
+        {
+          "headline": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
+          "excerpt": "Three months after Elon Musk declared that Grok would release a full-length, “historically accurate” movie version of “The Odyssey,” Grok has published a whole seven minutes, which the company is now calling “Episode 1 of our Odyssey series.”\n\nMusk had previously lashed out at Christopher Nolan’s version of “The Odyssey”  because Nolan cast nonwhite and transgender actors. And Nolan is, in many…",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+          "author": "Anthony Ha",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/03/grok-getty.jpg?resize=1200,800",
+          "time": "রাত ৩:৩১"
+        },
+        {
+          "headline": "Scott Walker’s The Drift will get under your skin",
+          "excerpt": "In my mind, Spooky Season music comes in two distinct flavors. There are the fun, occasionally goofy songs like “The Monster Mash” and John Carpenter’s “Halloween Theme.” Then there is the genuinely terrifying: Throbbing Gristle, The Body, or Scott Walker’s The Drift.This 2006 album from the singer-songwriter is truly upsetting. On it, Walker explores death, disease, and tragedy. But not just…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/entertainment/1018300/scott-walker-the-drift-music-album-review",
+          "author": "Terrence O'Brien",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/a1635465713_10.jpg?quality=90&strip=all&crop=0,23.821989528796,100,52.356020942408",
+          "time": "রাত ৩:০৮"
+        },
+        {
+          "headline": "Which Android phone is the closest equivalent to the iPhone Duo?",
+          "excerpt": "There are plenty of non-Apple foldables out there, but finding a perfect match is…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2294282/android-phone-closest-equivalent-to-iphone-duo/",
+          "author": "Yoni Yardeni",
+          "image": "https://www.engadget.com/img/gallery/which-android-phone-is-the-closest-equivalent-to-the-iphone-duo/l-intro-1791823946.jpg",
+          "time": "ভোর ৫:৪৫"
+        },
+        {
+          "headline": "Why Google chrome is always using so much RAM",
+          "excerpt": "Chrome has developed a reputation for being a memory hog, but is it…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2294261/why-google-chrome-using-so-much-ram/",
+          "author": "Nimrod Aldea",
+          "image": "https://www.engadget.com/img/gallery/why-google-chrome-is-always-using-so-much-ram/l-intro-1792684467.jpg",
+          "time": "ভোর ৫:৩০"
+        },
+        {
+          "headline": "Most Windows users are seriously underusing this powerful desktop feature",
+          "excerpt": "Gain more effective desktop space for free.\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                   …",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2294241/why-should-use-multiple-desktop-windows/",
+          "author": "Deven McClure",
+          "image": "https://www.engadget.com/img/gallery/most-windows-users-are-seriously-underusing-this-powerful-desktop-feature/l-intro-1792683535.jpg",
+          "time": "ভোর ৫:০০"
+        },
+        {
+          "headline": "Does TSA actually allow AirTags in your luggage? Here's what the rules say",
+          "excerpt": "Airline regulations are strict about batteries, but AirTags are thankfully a simple…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2294102/does-tsa-allow-airtags-in-luggage-what-rules-say/",
+          "author": "Deven McClure",
+          "image": "https://www.engadget.com/img/gallery/does-tsa-actually-allow-airtags-in-your-luggage-heres-what-the-rules-say/l-intro-1792679956.jpg",
+          "time": "ভোর ৪:৪৫"
+        },
+        {
+          "headline": "Don't throw away your old, unsupported Nest gadgets — Do this instead",
+          "excerpt": "Google recently dropped support for some of its early smart thermostats.\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                   …",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2294122/dont-throw-away-your-old-unsupported-nest-gadgets/",
+          "author": "Roger Fingas",
+          "image": "https://www.engadget.com/img/gallery/dont-throw-away-your-old-unsupported-nest-gadgets-do-this-instead/l-intro-1792679877.jpg",
+          "time": "ভোর ৪:৩০"
+        },
+        {
+          "headline": "Your devices could be on the wrong Wi-Fi band, and it's slowing them down",
+          "excerpt": "Even with a fast internet connection, the wrong Wi-Fi band can be killer.\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                   …",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2294022/devices-could-be-wrong-wifi-band-slowing-them-down/",
+          "author": "Calvin Wankhede",
+          "image": "https://www.engadget.com/img/gallery/your-devices-could-be-on-the-wrong-wi-fi-band-and-its-slowing-them-down/l-intro-1792677053.jpg",
+          "time": "ভোর ৪:০০"
+        },
+        {
+          "headline": "Ubuntu users can now file bugs against specific Launchpad PPAs",
+          "excerpt": "Launchpad now offers bug tracking for personal package archives (PPAs), making it easier for users to report issues specific to software within a PPA.\n\n\n\nWhy does that matter? Well, not all PPAs are maintained by their upstream counterparts – folks who, frankly, aren’t always minded to care about quirks in their software that might be down to someone else’s packaging methods.  \n\n\n\nPlus, PPAs are…",
+          "source": "omg! ubuntu",
+          "link": "https://www.omgubuntu.co.uk/2026/10/launchpad-ppa-dedicated-bug-tracker",
+          "author": "Joey Sneddon",
+          "image": "https://www.omgubuntu.co.uk/wp-content/uploads/2024/03/launchpad.jpg",
+          "time": "ভোর ৫:৪১"
+        },
+        {
+          "headline": "Redox OS Landed Nice Performance Improvements In September",
+          "excerpt": "The Rust-based open-source operating system Redox OS had a very eventful September as they outlined in a status update published this weekend.\n\nRedox OS developers continue making great strides in this from-scratch Rust operating system. Attracting my interest in their latest developments, a number of performance optimizations.\n\nRedox OS now supports direct context switching as a means to bypass…",
+          "source": "Phoronix",
+          "link": "https://www.phoronix.com/news/Redox-OS-September-2026",
+          "author": "Written by Michael Larabel in Operating Systems on 25 October 2026 at 08:24 PM EDT. 3 Comments",
+          "image": "",
+          "time": "সকাল ৬:২৪"
+        }
+      ],
+      "Entertainment": [
+        {
+          "headline": "নিষিদ্ধ হয়েছিল নাটকটি, স্তালিন দেখেছিলেন ১৪ বার",
+          "excerpt": "মাসুম অপু ঢাকা১৯২৬ সালে মঞ্চস্থ দ্য ডেজ অব দ্য টারবিনস নাটকের একটি দৃশ্য। ছবি: মস্কো আর্ট থিয়েটারের ওয়েবসাইট থেকে১০০ বছর আগে কথা। বিপ্লব হয়ে গেছে, জারের পতন ঘটেছে। কিন্তু গৃহযুদ্ধ থামেনি। একের পর এক বদলাচ্ছে কিয়েভের নিয়ন্ত্রণ। সেই অস্থির সময়ে একটি পরিবার নিজেদের ঘরের ভেতর আঁকড়ে ধরে আছে আগের জীবন, মূল্যবোধ আর স্মৃতি। বাইরে গোলাগুলি, মৃত্যু আর অনিশ্চয়তা। আজ যারা ক্ষমতাসীন, কাল তারাই পালিয়ে…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/entertainment/drama/6pd2wu2osm",
+          "author": "মাসুম অপু",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-10-25%2F0ng93otd%2F%E0%A6%A8%E0%A6%BE%E0%A6%9F%E0%A6%95%E0%A7%87%E0%A6%B0-%E0%A6%9B%E0%A6%AC%E0%A6%BF.png?rect=0%2C0%2C500%2C263&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৭:০০"
+        }
+      ]
+    }
+  },
+  {
     "dt": "2026-10-25T15:36:48.181Z",
     "file": "runs/2026-10-25-1536.html",
     "counts": {
