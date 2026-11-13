@@ -1,5 +1,1549 @@
 [
   {
+    "dt": "2026-11-13T13:58:39.190Z",
+    "file": "runs/2026-11-13-1358.html",
+    "counts": {
+      "Local": 45,
+      "International": 48,
+      "Entertainment": 8,
+      "Tech": 31,
+      "Sports": 37
+    },
+    "grouped": {
+      "Sports": [
+        {
+          "headline": "Henry's six-for, Young's hundred help New Zealand thrash India by 244 runs",
+          "excerpt": "Published : 13 November 2026\n            \n          \n          •\n                Updated : 13 November 2026, 15:04\n            \n        \n\t\t\n\t\t\t\t\t\t\t\n\t\t\t\n\n\n\t\t\t\n  \n                  \n              \n                  \n\n  \n\n\n\t\t\t\n\t\t\t\t\t\t\tNew Zealand's Matt Henry celebrates after taking the wicket of India's Rohit Sharma while Will Young celebrates his hundred during the fourth ODI at the Bay Oval in…",
+          "source": "The Daily Star Sports",
+          "link": "https://www.thedailystar.net/sports/cricket/news/henry-claims-six-wickets-after-youngs-hundred-new-zealand-thrash-india-244-runs-4322866",
+          "author": "AFP, Mount Maunganui",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/NZ.jpg",
+          "time": "দুপুর ২:৫২"
+        },
+        {
+          "headline": "Gambhir 'concerned' by India's frequent ODI batting collapses",
+          "excerpt": "Edition USNews\"I will be concerned because obviously these are conditions which are going to be closest to what we might get during the World Cup,\" Gambhir saidIndia head coach Gautam Gambhir is concerned about his batters - not just for being bowled out for 89 on their way to a 244-run defeat in the fourth ODI against New Zealand in Mount Maunganui, but also for slipping to 111 for 7 in their…",
+          "source": "ESPN Cricinfo",
+          "link": "https://www.cricinfo.com/ci/content/story/1562520.html?ex_cid=OTC-RSS",
+          "author": "Cricinfo staff",
+          "image": "https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/425100/425181.6.jpg",
+          "time": "সন্ধ্যা ৭:২৩"
+        },
+        {
+          "headline": "Matt Henry six-for and Will Young hundred crush India",
+          "excerpt": "Edition USNew Zealand won by 244 runsPlayer Of The Match, NZ6/27ReportNZ fast bowler dismissed Rohit Sharma, Virat Kohli and Shreyas Iyer in the first over to spearhead a 244-run winNew Zealand 333 (Young 125, Seifert 58, Axar 2-39) beat India 89 (Kishan 27, Henry 6-27, Fisher 3-31) by 244 runsIndia have been scrambling to get their Test players some Test-like preparation but Test cricket came…",
+          "source": "ESPN Cricinfo",
+          "link": "https://www.cricinfo.com/ci/content/story/1562500.html?ex_cid=OTC-RSS",
+          "author": "Sidharth Monga",
+          "image": "https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/425100/425177.6.jpg",
+          "time": "সন্ধ্যা ৬:৫৬"
+        },
+        {
+          "headline": "৯৩ ও ৯৭: জোড়া দুর্ভাগ্যে পাকিস্তানের প্রথম সৌদ শাকিল",
+          "excerpt": "খেলা ডেস্ক এক টেস্টে দুইবার সেঞ্চুরি মিস করেছেন শাকিলএএফপিএক টেস্টে দুইবার নব্বইয়ের ঘরে আউট। কপাল খারাপ বলবেন নাকি অন্য কিছু! সে যা–ই হোক, এক টেস্টে দুইবার নব্বইয়ের ঘরে আউট হয়ে ইতিহাসের পাতায় নাম তুলেছেন পাকিস্তানের বাঁহাতি ব্যাটসম্যান সৌদ শাকিল। পাকিস্তানের টেস্ট ইতিহাসে প্রথম ব্যাটসম্যান হিসেবে একই ম্যাচে দুবার নড়বড়ে নব্বইয়ে আউট হয়েছেন শাকিল। টেস্ট ক্রিকেটের ইতিহাসে এমন ঘটনা ঘটেছে মাত্র…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/sports/cricket/zb6jzyjssg",
+          "author": "খেলা ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-13%2Fdoh7rbti%2F875807-01-02.jpg?rect=0%2C0%2C4061%2C2132&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2026-09-03%2F99dqhmx6%2Fog-banner-for-sports.png&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সন্ধ্যা ৭:১৩"
+        },
+        {
+          "headline": "শ্রীলঙ্কার খেলোয়াড়দের প্রশ্ন: বাংলাদেশের খেলোয়াড়দের কী খাওয়ানো হয়",
+          "excerpt": "ক্রীড়া প্রতিবেদক ঢাকাশ্রীলঙ্কার বিপক্ষে গোলের পর ফারহানকে অভিনন্দন হামজা চৌধুরীরশামসুল হকশুধু মাঠের ফলই নয়, বাংলাদেশের ফুটবলারদের গতি ও খেলার ধরনও নজর কেড়েছে প্রতিপক্ষের। শ্রীলঙ্কার বিপক্ষে ৪-০ গোলের জয়ের পর এমনই এক অভিজ্ঞতার কথা জানালেন বাংলাদেশ দলের কোচ টমাস ডুলি। ম্যাচ শেষে শ্রীলঙ্কার কয়েকজন খেলোয়াড় বাংলাদেশের ড্রেসিংরুমে গিয়ে কোচ ও ফুটবলারদের সঙ্গে কথা বলেছেন। তাঁদের কৌতূহল ছিল, বাংলাদেশের…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/sports/football/w896apj5yp",
+          "author": "ক্রীড়া প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-11%2Fdnqs7rcz%2FWhatsApp-Image-2026-11-11-at-9.19.42-PM.jpeg?rect=0%2C27%2C1280%2C672&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2026-09-03%2F99dqhmx6%2Fog-banner-for-sports.png&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সন্ধ্যা ৬:৪২"
+        },
+        {
+          "headline": "‘এখনো কিছুই করা হয়নি’, সেমিফাইনালের আগে খাবার নিয়ে ভারত কোচ",
+          "excerpt": "সাফ ফুটবল ‘এখনো কিছুই করা হয়নি’, সেমিফাইনালের আগে খাবার নিয়ে ভারত কোচক্রীড়া প্রতিবেদক ঢাকাভারত ফুটবল দলের কোচ নওশাদ মুসাশামসুল হকসাফ ফুটবলের সেমিফাইনালের আগেও খাবার নিয়ে সমস্যা কাটেনি ভারতীয় দলের। মালদ্বীপকে হারিয়ে সেমিফাইনালে ওঠার পর সংবাদ সম্মেলনে বিষয়টি তুলেছিলেন দলের কোচ নওশাদ মুসা। তখন সমস্যা সমাধানের আশ্বাস পেয়েছিলেন তিনি। কিন্তু এখনো নাকি সেই আশ্বাসের বাস্তবায়ন হয়নি।আগামীকাল বেলা তিনটায়…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/sports/football/m5ikerlp05",
+          "author": "ক্রীড়া প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-11%2Fx2f2cm69%2FINDIA-Football-Team-Coach-meet-the-press-at-Sheraton-hotel1.jpg?rect=0%2C33%2C5472%2C2873&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2026-09-03%2F99dqhmx6%2Fog-banner-for-sports.png&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সন্ধ্যা ৬:৩৮"
+        },
+        {
+          "headline": "পচেত্তিনোই ম্যানচেস্টার ইউনাইটেডের নতুন কোচ, এসেছে আনুষ্ঠানিক ঘোষণা",
+          "excerpt": "খেলা ডেস্ক ম্যানচেস্টার ইউনাইটেডের নতুন কোচ হিসেবে নিয়োগ পেয়েছেন মরিসিও পচেত্তিনো। মৌসুমের শুরুতে দলের হতাশাজনক পারফরম্যান্সের কারণে বরখাস্ত হওয়া মাইকেল ক্যারিকের স্থলাভিষিক্ত হচ্ছেন আর্জেন্টাইন এই কোচ। আজ ইউনাইটেড এক বিবৃতিতে এই খবর নিশ্চিত করেছে।যুক্তরাষ্ট্র জাতীয় দলের দায়িত্বে আছেন পচেত্তিনো। তবে ১ কোটি ইউরোর বেশি অঙ্কের রিলিজ ক্লজ দিয়ে তাঁকে ছাড়িয়ে নিচ্ছে ম্যানচেস্টার ইউনাইটেড। ক্লাবের…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/sports/football/i1kh6kr5y6",
+          "author": "খেলা ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-13%2Frhzk56s8%2Ff67f1030-8f3f-11f1-8c3d-6f698d2b4d1e.jpg?rect=0%2C0%2C2560%2C1344&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2026-09-03%2F99dqhmx6%2Fog-banner-for-sports.png&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সন্ধ্যা ৬:১৯"
+        },
+        {
+          "headline": "আন্তর্জাতিক ক্রিকেটে সবচেয়ে বেশি বোল্ড আউট করেছেন কোন বোলার",
+          "excerpt": "বোলারের দৃষ্টিকোণ থেকে ক্রিকেটে সবচেয়ে সুন্দর দৃশ্য কোনটি? বোল্ড আউট। ব্যাটসম্যানের স্টাম্প ছত্রখান হতে দেখতে পছন্দ করেন পৃথিবীর যেকোনো বোলার। উপভোগ করেন দর্শকও।  চলুন, জেনে নিই তিন সংস্করণ মিলিয়ে আন্তর্জাতিক ক্রিকেটে ব্যাটসম্যানদের সবচেয়ে বেশি বোল্ড করেছেন কারা?খেলা ডেস্ক ৫জিমি অ্যান্ডারসন (ইংল্যান্ড)। বোল্ড: ২০১। মোট উইকেট: ৯৯১  জিমি অ্যান্ডারসনরয়টার্সইংলিশ পেসার জিমি অ্যান্ডারসনের…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/sports/cricket/xzbta3bjid",
+          "author": "খেলা ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-13%2Ffqu5ht35%2FWhatsApp-Image-2026-11-13-at-16.14.05.jpeg?rect=0%2C0%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2026-09-03%2F99dqhmx6%2Fog-banner-for-sports.png&overlay_position=bottom&overlay_width_pct=1",
+          "time": "বিকাল ৪:৫৯"
+        },
+        {
+          "headline": "শেষ কবে এত বড় ব্যবধানে হেরেছিল ভারত",
+          "excerpt": "হেনরির বলে বোল্ড হয়েছেন কোহলিমাউন্ট মঙ্গুনইতে সিরিজের চতুর্থ ওয়ানডেতে ভারতকে ২৪৪ রানের বিশাল ব্যবধানে হারিয়েছে নিউজিল্যান্ড। ২৬ বছর পর ওয়ানডেতে এত বড় ব্যবধানে হারল ভারত। রানের ব্যবধানে এর চেয়ে বড় হার তাদের ওয়ানডে ইতিহাসেই আছে আর মাত্র একটি। ২০০০ সালে শারজায় শ্রীলঙ্কার কাছে ২৪৫ রানে হেরেছিল ভারত। সেটিই এখন পর্যন্ত ওয়ানডেতে তাদের সবচেয়ে বড় হার। আজকের হারটি উঠে এসেছে তালিকার দুইয়ে। এ ছাড়া ২০১৫ সালে…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/sports/cricket/shess-kbe-et-brr-bybdhaane-herechil-bhaart",
+          "author": "শর্টস",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-13%2Fugmfsjj1%2F425181.webp?rect=0%2C0%2C1200%2C630&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2026-09-03%2F99dqhmx6%2Fog-banner-for-sports.png&overlay_position=bottom&overlay_width_pct=1",
+          "time": "বিকাল ৪:২৫"
+        },
+        {
+          "headline": "ইংল্যান্ডকে গুঁড়িয়ে ওয়ানডে অভিষেকে ৬ উইকেট নেওয়া কে এই বিয়ার্ডম্যান",
+          "excerpt": "খেলা ডেস্ক ৬ উইকেট নেওয়ার পর দর্শকদের ম্যাচের বলটা দেখাচ্ছেন বিয়ার্ডম্যানএএফপিমাঠের খেলার এই এক শক্তি।বল টেম্পারিং নিয়ে উসমান খাজার অভিযোগে তোলপাড় চলছে অস্ট্রেলিয়ান ক্রিকেটে। আট বছর আগে কেপটাউন টেস্টে আসলে কী ঘটেছিল—সেই প্রশ্ন এখন সবার মুখে। কিন্তু পার্থে আজ সিরিজের প্রথম ওয়ানডেতে আগে ব্যাট করতে নামা ইংল্যান্ডের ইনিংসের পরপর বল টেম্পারিং থেকে অনেকের নজর সরে গেছে মাহলি বিয়ার্ডম্যানে। কে এই ২১…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/sports/cricket/ouf22q5kiv",
+          "author": "খেলা ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-13%2Fia00sf0h%2F875935-01-02.jpg?rect=0%2C0%2C5644%2C2963&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2026-09-03%2F99dqhmx6%2Fog-banner-for-sports.png&overlay_position=bottom&overlay_width_pct=1",
+          "time": "দুপুর ২:৪৫"
+        },
+        {
+          "headline": "How Ferguson-inspired Pochettino can succeed where Carrick failed at Man Utd",
+          "excerpt": "Image source, Getty ImagesImage caption, Maurucio Pochettino (right) was first mentioned as a contender to manage Manchester United when Louis van Gaal was sacked in May 2016ByFootball tactics correspondentUpdated 1 hour agoWhen Mauricio Pochettino was asked the three Premier League managers he would have loved to have played for, he was unequivocal.\"Sir Alex Ferguson, Sir Alex Ferguson, Sir…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cm2kljzkw77ko?at_medium=RSS&at_campaign=rss",
+          "author": "Umir Irfan",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/f043/live/468fa2e0-dddf-11f1-b465-b9821c2582d4.jpg",
+          "time": "সন্ধ্যা ৬:০৯"
+        },
+        {
+          "headline": "Man Utd announce Pochettino as new manager",
+          "excerpt": "Manchester United announced Friday that Mauricio Pochettino would be their new manager following the dismissal of Michael Carrick.The club issued a statement saying the USA coach, who has previously managed Tottenham and Chelsea in the Premier League, would take charge from November 18.\"The club has reached an agreement with the US soccer federation for Mauricio and his staff to be released…",
+          "source": "The Daily Star Sports",
+          "link": "https://www.thedailystar.net/sports/football/news/man-utd-announce-pochettino-new-manager-4322926",
+          "author": "AFP, London",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/AFP__20261113__D7DL29E__v2__HighRes__FilesFblEngPrManUtdUsaPochettino.jpg",
+          "time": "সন্ধ্যা ৬:৩৮"
+        },
+        {
+          "headline": "Surfing speedster Beardman gives a glimpse of Ashes future",
+          "excerpt": "How would you celebrate after posting record bowling figures on a debut aged just 21?If you're Mahli Beardman, now the most exciting fast bowler in Australian cricket, it's easy: \"Try and get down to the beach!\"In his maiden one-day international, which was also his first match for Australia on home soil, Beardman took 6-24 - the best figures by an Australian on a one-day debut.In doing so, the…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/cricket/articles/c6vg2dkyxp00o?at_medium=RSS&at_campaign=rss",
+          "author": "Matthew Henry",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/7913/live/d3e15120-df51-11f1-b441-2b33b063138f.jpg",
+          "time": "বিকাল ৫:৩৯"
+        },
+        {
+          "headline": "'Cherry on top' as Beardman engineers England's downfall with six scalps on Australia debut",
+          "excerpt": "Published : 13 November 2026\n            \n          \n          •\n                Updated : 13 November 2026, 15:37\n            \n        \n\t\t\n\t\t\t\t\t\t\t\n\t\t\t\n\n\n\t\t\t\n  \n                  \n              \n                  \n\n  \n\n\n\t\t\t\n\t\t\t\t\t\t\tAustralia’s Mahli Beardman (centre R) celebrates a wicket with teammates during the first one-day international cricket match between Australia and England in Perth on…",
+          "source": "The Daily Star Sports",
+          "link": "https://www.thedailystar.net/sports/cricket/news/cherry-top-beardman-engineers-englands-downfall-six-scalps-australia-debut-4322871",
+          "author": "Reuters, Perth",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/Beardman%20Australia%20v%20England.jpg",
+          "time": "দুপুর ৩:৩৭"
+        },
+        {
+          "headline": "Fernandes rejects second Man Utd contract offer",
+          "excerpt": "In theory, the current contract stand-off between Manchester United and Bruno Fernandes is not a big deal.It is usual for the first, second and sometimes quite a few more offers to be rejected as part of the rough and tumble of negotiations.United do have the option to trigger an option to add an extra year. However, there is reason why both sides might be wary to commit beyond that at this…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cm782d4pz9jyo?at_medium=RSS&at_campaign=rss",
+          "author": "Simon Stone, Sean Kearns, Simon Stone",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/9f4c/live/65464ec0-df45-11f1-a48c-75dd2efdacb5.jpg",
+          "time": "দুপুর ৩:৫৫"
+        },
+        {
+          "headline": "44 wins in a row: Spain aim to extend record streak against England",
+          "excerpt": "Published : 13 November 2026\n            \n          \n          •\n                Updated : 13 November 2026, 14:35\n            \n        \n\t\t\n\t\t\t\t\t\t\t\n\t\t\t\n\n\t\tAgencies \n\t\t\t\t\t\n\n\t\t\t\t\t\n\n\t\t\t\n  \n                  \n              \n                  \n\n  \n\n\n\t\t\t\n\t\t\t\t\t\t\tPHOTO: REUTERS\n\t\t\t\t\t\t\n\t\t\t\t\t\nSpain will look to extend their remarkable unbeaten run to 44 competitive matches when they take on England in a…",
+          "source": "The Daily Star Sports",
+          "link": "https://www.thedailystar.net/sports/football/news/44-wins-row-spain-aim-extend-record-streak-against-england-4322861",
+          "author": "Agencies",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/Spain_0.jpg",
+          "time": "দুপুর ২:৩৫"
+        },
+        {
+          "headline": "The driving-maul try machine - why rugby's steamroller gained traction",
+          "excerpt": "Back in March, leading Italy by two points and with a penalty just outside their 22m, England captain Maro Itoje pulled rank.\"Don't argue with me, take the three!\" he told fly-half Fin Smith. Who duly did.It is an age-old tactical call: kick or twist? Whether to call for the tee, go for the posts and a likely three points, or aim for touch, an attacking line-out and five or, potentially,…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cmy0egy6zkk0o?at_medium=RSS&at_campaign=rss",
+          "author": "Mike Henson",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/b48a/live/395019f0-df4e-11f1-8364-2717a13d3b08.jpg",
+          "time": "বিকাল ৫:০৯"
+        },
+        {
+          "headline": "‘Don’t care about Hamza’: Pakistan captain backs their ‘amazing’ diaspora players for SAFF semi",
+          "excerpt": "Published : 13 November 2026\n            \n          \n          •\n                Updated : 13 November 2026, 13:54\n            \n        \n\t\t\n\t\t\t\t\t\t\t\n\t\t\t\n\n\t\tSports Reporter\n\t\t\t\t\t\n\n\t\t\t\t\t\n\n\t\t\t\n  \n                  \n              \n                  \n\n  \n\n\n\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\nPakistan are unfazed by Hamza Choudhury's impact in Bangladesh's 4-0 rout of Sri Lanka, with captain and goalkeeper Yousuf Ijaz…",
+          "source": "The Daily Star Sports",
+          "link": "https://www.thedailystar.net/sports/football/news/dont-care-about-hamza-pakistan-captain-backs-their-amazing-diaspora-players-4322856",
+          "author": "Sports Reporter",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/Bangladesh%20Hamza%20and%20Pakistan%20Butt.png",
+          "time": "দুপুর ১:৫০"
+        },
+        {
+          "headline": "Lazraq-Khlass banned for whereabouts violation",
+          "excerpt": "French heptathlete Auriana Lazraq-Khlass has been suspended for 22 months for failing to comply with anti-doping rules.Lazraq-Khlass, the 2024 European silver medallist, was accused of three breaches of the whereabouts requirements between February and November 2025.The World Anti-Doping Code states an athlete cannot miss three anti-doping tests and/or filing failures within a 12-month…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/athletics/articles/cqvg2lrkdz97o?at_medium=RSS&at_campaign=rss",
+          "author": "Mike Peter",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/f375/live/926c35b0-df57-11f1-9172-871e44a840d8.jpg",
+          "time": "সন্ধ্যা ৬:১২"
+        },
+        {
+          "headline": "England win Wheelchair World Cup for third time",
+          "excerpt": "England (28) 50Tries: Coyd 4, Hawkins 2, Brown 3 Goals: Hawkins, Collins 6France (22) 38Tries: Bourson, L Hivernat, Dore, Guttadoro, Denuwelaere 3 Goals: L Hivernat 3, N Clausells 2England can now paint the final rung gold on their dressing room ladder. On Friday in Wollongong, Australia, they became the first nation to lift the Wheelchair Rugby League World Cup on three occasions, defeating…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/rugby-league/articles/cmlyd6kxk72po?at_medium=RSS&at_campaign=rss",
+          "author": "Steve Sutcliffe",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/efff/live/622a2000-df58-11f1-93e1-3b657b665bcf.jpg",
+          "time": "বিকাল ৫:১০"
+        },
+        {
+          "headline": "The club preparing to play again after the death of a player",
+          "excerpt": "\"I messaged Ezekiel because we had a midweek cup game and I wanted to check he was still available,\" says Adam Fisher - manager of non-league Hendon.\"There was no reply. Then I found out what had happened.\"Ezekiel Williams died in hospital on 2 November from head injuries after an incident in Milton Keynes. He was 26.Two men have been charged with murder.Known to friends as 'Zekes' and 'Eze',…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/c6vg7gz9w5edo?at_medium=RSS&at_campaign=rss",
+          "author": "Neil Johnston",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/28f0/live/e7015f10-de76-11f1-9115-cfe6d179af3a.png",
+          "time": "বিকাল ৪:০০"
+        },
+        {
+          "headline": "From postcards to texts, the different ways a manager gets the sack - Pulis",
+          "excerpt": "When you hear about a manager parting company with a club, he has usually either been sacked or has resigned, but there are actually lots of different ways you can leave.Over the years I spent working at every level of the game in England, from the bottom to the top, I have witnessed and been involved in many break-ups.Some are smooth but others are far more fractious and don't happen…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cve8716dg46xo?at_medium=RSS&at_campaign=rss",
+          "author": "BBC Sport",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/c068/live/df157960-541c-11f1-8b8c-6d33e1d5abb6.jpg",
+          "time": "দুপুর ২:১৩"
+        },
+        {
+          "headline": "McIlroy and Hatton tied as Chacarra stays in hunt",
+          "excerpt": "DP World Tour Championship second-round leaderboard-5 T Hatton (Eng), R McIlroy (NI); -4 K Reitan (Nor), J Luiten (Ned); -3 M Lindberg (Swe), F Schott (Ger), V Perez (Fra); -2 J Schaper (SA), J Rahm (Spa), D Puig (Spa)Selected others: -1 E Chacarra (Spa); E A Scott (Aus), C Hill (Sco); +3 T Fleetwood (Eng); +6 A Rai (Eng); +8 P Reed (US)Full leaderboardRory McIlroy is tied for the lead at the…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/golf/articles/c3y0xlpkpg9lo?at_medium=RSS&at_campaign=rss",
+          "author": "BBC Sport",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/74e5/live/c72c4680-df63-11f1-a8af-15d7a25dc0d1.png",
+          "time": "সন্ধ্যা ৭:৩৬"
+        },
+        {
+          "headline": "Borthwick challenges Ojomoh to match talent with toughness",
+          "excerpt": "Centre Max Ojomoh - labelled \"one of the most talented players in English rugby\" - has been challenged to produce a relentless and physical performance against Japan on Saturday.The Bath man burst on to the international scene in a man-of-the-match display against Argentina at the end of 2025, but has not played for his country in the 12 months since.Ojomoh was initially left out of Steve…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c5rmg2djmm1lo?at_medium=RSS&at_campaign=rss",
+          "author": "Chris Jones",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/fc2d/live/ae5df250-df56-11f1-b8ca-0348146d1a32.jpg",
+          "time": "বিকাল ৫:৫৩"
+        },
+        {
+          "headline": "UFC boss White does not like Hokit's 'shtick'",
+          "excerpt": "Image source, Getty ImagesImage caption, Josh Hokit is fifth in the UFC's heavyweight rankingsByPaul BattisonBBC Sport JournalistUFC president Dana White says he doesn't like Josh Hokit's \"shtick\" but he has earned his heavyweight title shot against Ciryl Gane.American Hokit will face Frenchman Gane for the undisputed heavyweight title at UFC 334 at New York's Madison Square Garden on…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/cm1wrnl8qnd7o?at_medium=RSS&at_campaign=rss",
+          "author": "Paul Battison",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/19f2/live/9ea34040-df51-11f1-8364-2717a13d3b08.jpg",
+          "time": "বিকাল ৫:৩৯"
+        },
+        {
+          "headline": "All Blacks aim to eliminate threat of Wales flanker Morgan",
+          "excerpt": "Image source, Huw Evans Picture AgencyImage caption, Jac Morgan was the only Welsh player to be involved in the British and Irish Lions Test-winning side against Australia in 2025ByGareth GriffithsBBC Sport WalesNew Zealand head coach Dave Rennie says they have spoken about eliminating the breakdown threat of Wales flanker Jac Morgan in the Nations Championship match in Cardiff on Saturday.The…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c9p83mxp8gj2o?at_medium=RSS&at_campaign=rss",
+          "author": "Gareth Griffiths",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/c144/live/acb6a600-dec9-11f1-86d5-71a9f29d1c99.jpg",
+          "time": "বিকাল ৪:০৪"
+        },
+        {
+          "headline": "How do you stop Haaland? Wales show how it's done",
+          "excerpt": "It is a question many have asked but only a few have answered successfully. How do you stop Erling Haaland?Wales will be faced with that daunting task when they travel to Oslo on Saturday to face Norway in the Nations League.With a record 65 goals in just 59 games for his country – not to mention the hundreds he has scored for Manchester City and his previous clubs – Haaland has conquered most…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/c3y0e0z0r8kzo?at_medium=RSS&at_campaign=rss",
+          "author": "Dafydd Pritchard",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/dcae/live/7234f470-dd19-11f1-b4f2-5145cca625ab.jpg",
+          "time": "দুপুর ২:০৫"
+        },
+        {
+          "headline": "How big a problem is central defence for Pocognoli?",
+          "excerpt": "On Andy Robertson's night, it's difficult to not peek across the rest of the Scotland defensive line and worry.The left-back will be lauded - whether he likes it or not - as he earns his 102nd cap, equalling Kenny Dalglish's men's record, against North Macedonia on Friday.The captain is calling for it to be the King's night as much as his, and while the pair of Liverpool greats can have - and…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/ckwy9jyd2wq5o?at_medium=RSS&at_campaign=rss",
+          "author": "Amy Canavan",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/1721/live/73ca9230-ded2-11f1-a701-fddedf244c16.jpg",
+          "time": "দুপুর ১:২৩"
+        },
+        {
+          "headline": "Could AI help decide medals at LA28 Olympics?",
+          "excerpt": "Gymnastics is leading the way in applying artificial intelligence to the judging of elite sport, and it could be used to help decide medals at the LA Olympics.Bosses in the sport said they would be \"highly surprised\" if AI-assisted judging was not implemented at the Games in 2028.This is despite some leading gymnasts criticising its use at the recent World Championships, saying they were \"not…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/olympics/articles/ck8dvp681e94o?at_medium=RSS&at_campaign=rss",
+          "author": "Laura Scott",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/24fd/live/22ec9ac0-debe-11f1-8fb5-a771a656a227.png",
+          "time": "দুপুর ২:৪৬"
+        },
+        {
+          "headline": "England beat France to become back-to-back world champions",
+          "excerpt": "England become world champions for the third time after beating France 50-38 in the wheelchair Rugby League World Cup final in Australia.MATCH REPORT: England win Wheelchair World Cup for third timeAvailable to UK users only.",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/rugby-league/videos/cqy4jdxven1go?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/a1c3/live/3a68bc40-df56-11f1-a701-fddedf244c16.jpg",
+          "time": "বিকাল ৫:৪০"
+        },
+        {
+          "headline": "Beckham to be inducted into US Soccer Hall of Fame",
+          "excerpt": "He was told the news he had been chosen on the veterans' ballot at an MLS board of governors' meeting on Thursday and said his time in the US has been \"an incredible journey\". Beckham, who had two loan spells with AC Milan in 2009 and 2010 while at Galaxy, added: \"I'm looking to build this league and this sport in this great country for a long time.\" Meanwhile, former US internationals Megan…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cmx295q05l7eo?at_medium=RSS&at_campaign=rss",
+          "author": "Lorraine McKenna",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/c236/live/1d957c40-df36-11f1-86fa-cbe84eade4f1.jpg",
+          "time": "দুপুর ২:২২"
+        },
+        {
+          "headline": "Missing Israel games 'stressful' for captain Collins",
+          "excerpt": "Republic of Ireland captain Nathan Collins said he felt he left his team-mates \"on their own\" after missing the two controversial Nations League games against Israel in the last international window through injury.Collins was sidelined for the four-game window in September and October with a calf problem and had to watch on as the Irish lost 1-0 away to Kosovo, beat Israel 3-0 in Debrecen and…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cq7821vdgrevo?at_medium=RSS&at_campaign=rss",
+          "author": "BBC Sport",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/685e/live/266232e0-df55-11f1-b8ca-0348146d1a32.jpg",
+          "time": "সন্ধ্যা ৬:২৬"
+        },
+        {
+          "headline": "Who makes your Northern Ireland XI against Ukraine?",
+          "excerpt": "Image source, Press EyeImage caption, Northern Ireland have a number of options to pick from against Ukraine, who they beat 3-0 in the first fixtureAfter an impressive quadruple-header to kick off the Nations League, Northern Ireland are back in action and it's time for you to be the boss.Michael O'Neill's young side did not concede a goal as away victories over Georgia and Ukraine were joined…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/c5y4jlplner0o?at_medium=RSS&at_campaign=rss",
+          "author": "BBC Sport",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/0806/live/0c8ef120-ddf0-11f1-ba1a-f14c9b2af876.jpg",
+          "time": "দুপুর ২:২১"
+        },
+        {
+          "headline": "Cordina unlikely to fight Pacquiao on Joshua-Fury card",
+          "excerpt": "Reports indicate that Pacquiao, a 12-time world champion across eight different weights, may also have settled on facing an opponent in early 2027 instead, with an official announcement expected soon.While Cordina had agreed terms to face Pacquiao, the Filipino legend - who has not fought since July 2025 - has not reciprocated.Hearn previously admitted that he was unsure whether the final…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/boxing/articles/c6ly53515g7xo?at_medium=RSS&at_campaign=rss",
+          "author": "BBC Sport",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/ffeb/live/718323c0-de91-11f1-93e1-3b657b665bcf.png",
+          "time": "বিকাল ৫:৫৮"
+        },
+        {
+          "headline": "How Riley went from KSI's trainer to world-title dream",
+          "excerpt": "Viddal Riley had spent years learning how to fight. Then he taught a YouTuber, and that became the story.On Saturday, the Londoner defends his European cruiserweight title against unbeaten Frenchman Seydi Coupe at Wembley Arena, with a world-title shot within reach.Yet it was his work with social media star KSI that first brought him mainstream attention, training the YouTuber for his fights…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/boxing/articles/c623jlg88yymo?at_medium=RSS&at_campaign=rss",
+          "author": "Kal Sajad",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/099d/live/4d635300-ddda-11f1-b865-d17d8611efca.jpg",
+          "time": "দুপুর ১:৩০"
+        },
+        {
+          "headline": "BBC to show Dover v Leicester and Salisbury v Blackpool",
+          "excerpt": "Non-league clubs Dover Athletic and Salisbury will stage the BBC's two chosen FA Cup second-round ties next month.National League South side Dover welcome former Premier League and FA Cup winners Leicester City to Crabble on Saturday, 5 December (17:15 GMT, BBC Two/iPlayer).Another sixth-tier side, Salisbury, will host Blackpool, winners of one of the most memorable finals of all time in 1953,…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/c64gndwd2l0xo?at_medium=RSS&at_campaign=rss",
+          "author": "Alex Hoad",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/1c9a/live/02556c50-df4b-11f1-a48c-75dd2efdacb5.jpg",
+          "time": "বিকাল ৪:৪৯"
+        },
+        {
+          "headline": "Scots beaten by Sri Lanka in second group fixture",
+          "excerpt": "ICC Women's Emerging Nations TrophyScotland 111-8 (20 overs): Carter 62; Masqood 3-18Sri Lanka 115-6  (18.1 overs): Gunaratne 49; Kumari 2-15, Sandeepani 2-18Sri Lanka win by four wicketsScotland succumbed to a four-wicket defeat by Sri Lanka in their second Emerging Nations Trophy campaign Group A fixture.Having opened with victory over Papua New Guinea, the Scots batted first against Sri Lanka…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/cricket/articles/cr894ld7p4l9o?at_medium=RSS&at_campaign=rss",
+          "author": "BBC Sport",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/3c04/live/039253c0-df38-11f1-86fa-cbe84eade4f1.jpg",
+          "time": "দুপুর ২:১৬"
+        }
+      ],
+      "International": [
+        {
+          "headline": "Henry and Young shine as New Zealand thrash India by 244 runs",
+          "excerpt": "New Zealand trail India 2-1 and can no ​longer win the five-match series, but they can level it in Sunday’s final game.Matt Henry took six wickets and Will Young struck a century as New Zealand thrashed a ragged India by 244 runs in the fourth ODI at Mount Maunganui on Friday.Henry removed Rohit Sharma, Virat Kohli and Shreyas Iyer, all without scoring, in the first over of India’s chase to tear…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/sports/2026/11/13/matt-henry-will-young-new-zealand-india-fourth-odi?traffic_source=rss",
+          "author": "By AFP",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/GettyImages-2304890573-1794562006_be5306-1794562616.jpg?resize=1200%2C630&quality=80",
+          "time": "বিকাল ৪:২৬"
+        },
+        {
+          "headline": "টানা পাঁচ মাস বিদ্যুৎ নেই বাংলাদেশের ৩৫টি গ্রামে, কারণ কী?",
+          "excerpt": "কম ডেটা ব্যবহার করতে শুধু টেক্সট পড়ুনছবির উৎস, RAJAছবির ক্যাপশান, বিদ্যুৎ না থাকায় সংকটে প্রায় দশ হাজার গ্রামবাসীAuthor, আবুল কালাম আজাদRole,  বিবিসি নিউজ বাংলাPublished ২ ঘন্টা আগেপড়ার সময়: ৫ মিনিটএকটানা পাঁচ ঘণ্টা বিদ্যুৎ না থাকাটাও যেখানে অকল্পনীয় সেখানে টানা পাঁচ মাস ধরে বিদ্যুৎ নেই বাংলাদেশের একটি ইউনিয়নের ৩৫টি গ্রামে। গত জুন মাসে পদ্মা নদীর তলদেশের বিদ্যুতের কেবল ছিড়ে একটানা এই বিদ্যুৎ…",
+          "source": "BBC Bangla World",
+          "link": "https://www.bbc.com/bengali/articles/c65y1wwdey98o?at_medium=RSS&at_campaign=rss",
+          "author": "আবুল কালাম আজাদ",
+          "image": "https://ichef.bbci.co.uk/news/1200/branded_bengali/c399/live/b36bd3a0-deae-11f1-a701-fddedf244c16.jpg",
+          "time": "বিকাল ৫:১০"
+        },
+        {
+          "headline": "UK accused of ‘silencing’ pro-Palestine voices through entry bans",
+          "excerpt": "NewsFeedPalestinian American activist Mo Hamzeh is the latest person to be refused UK entry ahead of his charity’s Gaza fundraiser in London. A pro-Israel activist group says it was behind the effort to block him.Published On 13 Nov 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/13/uk-accused-of-silencing-pro-palestine-voices-through-entry-bans?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1794575753.jpg?resize=1920%2C1080&quality=80",
+          "time": "সন্ধ্যা ৭:১৯"
+        },
+        {
+          "headline": "ঝটিকা মিছিল, ঘরোয়া বৈঠকে যেভাবে সংগঠিত হচ্ছে কার্যক্রম নিষিদ্ধ থাকা আওয়ামী লীগ",
+          "excerpt": "কম ডেটা ব্যবহার করতে শুধু টেক্সট পড়ুনছবির ক্যাপশান, গোপালগঞ্জে আওয়ামী লীগের বিক্ষোভ  (ফাইল ছবি)Author, তাফসীর বাবুRole,  বিবিসি নিউজ বাংলা, ঢাকাPublished ৬ ঘন্টা আগেপড়ার সময়: ৬ মিনিট\"আমরা বাসা-বাড়িতে থাকি না। বাইরেই থাকি। বাইরে থেকেই যোগাযাগ করে চেষ্টা করি কীভাবে একসঙ্গে হয়ে একটা মিছিল করা যায়। এখন মিছিল ঘনঘন হচ্ছে, মিছিলে লোকও বেশি হচ্ছে।\"কথাগুলো বলছিলেন নিষিদ্ধঘোষিত ছাত্রলীগের ঢাকা…",
+          "source": "BBC Bangla World",
+          "link": "https://www.bbc.com/bengali/articles/crpdwqq6nxx3o?at_medium=RSS&at_campaign=rss",
+          "author": "তাফসীর বাবু",
+          "image": "https://ichef.bbci.co.uk/news/1200/branded_bengali/189e/live/ef8e8e20-deb5-11f1-8fb5-a771a656a227.jpg",
+          "time": "দুপুর ১:৪০"
+        },
+        {
+          "headline": "Kenyan building collapse near Nairobi kills six people",
+          "excerpt": "Following on the heels of a similar accident three weeks ago, the incident is encouraging calls for improved safety oversight on construction sites.The collapse of an unfinished eight-storey building in Kenya has killed six people.The structure fell on Friday morning in Syokimau on the outskirts of Nairobi. Coming on the heels of a similar recent incident in the capital, the accident has revived…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/11/13/kenyan-building-collapse-near-nairobi-kills-six-people?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-13T120621Z_1056672438_RC2ZMOAYNZUB_RTRMADP_3_KENYA-ACCIDENT-1794572788.jpg?resize=1920%2C1440",
+          "time": "সন্ধ্যা ৭:১১"
+        },
+        {
+          "headline": "দুধের দাম বাড়াল ভারতের দুই বড় সংস্থা; কেন এই মূল্যবৃদ্ধি?",
+          "excerpt": "কম ডেটা ব্যবহার করতে শুধু টেক্সট পড়ুনছবির উৎস, NurPhoto via Getty Imagesছবির ক্যাপশান, আমূল ১২ই নভেম্বর থেকে দুধের দাম বাড়িয়েছে- ফাইল ছবিPublished ১৩ মিনিট আগেপড়ার সময়: ৮ মিনিটদেশজুড়ে দুধের দাম বাড়ানোর সিদ্ধান্ত নিয়েছে ভারতের দুই নামকরা ডেয়ারি সংস্থা আমূল ও মাদার ডেয়ারি। ১২ই নভেম্বর থেকে টোনড মিল্কের দাম লিটার প্রতি ভারতীয় টাকায় দুই টাকা এবং ফুল ক্রিম দুধের দাম চার টাকা বেড়েছে।চলতি মাসের…",
+          "source": "BBC Bangla World",
+          "link": "https://www.bbc.com/bengali/articles/c8vg2lq2l0deo?at_medium=RSS&at_campaign=rss",
+          "author": "BBC News বাংলা",
+          "image": "https://ichef.bbci.co.uk/news/1200/branded_bengali/cfa3/live/d98bbd20-df44-11f1-93e1-3b657b665bcf.jpg",
+          "time": "সন্ধ্যা ৭:৪৫"
+        },
+        {
+          "headline": "Delhi overtakes Lahore as world’s most polluted city",
+          "excerpt": "NewsFeedIndia’s capital New Delhi has overtaken Pakistan’s Lahore as the world’s most polluted city, with its Air Quality Index crossing 400 and entering the ‘severe’ category.Published On 13 Nov 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/13/delhi-overtakes-lahore-as-worlds-most-polluted-city?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/wide-thumb-delhi-1311-1794575432.png?resize=1920%2C1080&quality=80",
+          "time": "সন্ধ্যা ৭:১১"
+        },
+        {
+          "headline": "পশ্চিমবঙ্গে ‘নাস্তিক’ কমিউনিস্ট ও ‘জামাত’ তৃণমূল রাজনীতি করতে পারবে না: শুভেন্দু অধিকারী",
+          "excerpt": "সংবাদদাতা কলকাতাবিজেপি নেতা শুভেন্দু অধিকারীপ্রথম আলো ফাইল ছবিপশ্চিমবঙ্গবাসীর সংস্পর্শ থেকে ‘নাস্তিক’ কমিউনিস্ট ও ‘জামাত’ তৃণমূলকে চিরতরে দূরে সরিয়ে রাখার কথা বলেছেন রাজ্যের মুখ্যমন্ত্রী শুভেন্দু অধিকারী। তিনি বলেন, রাজ্যে এই দলগুলো যেন আর কখনো মাথা তুলে দাঁড়াতে না পারে, সে বিষয়ে তিনি কাজ করবেন। অবাঙালিদের অন্যতম প্রধান উৎসব ছটপূজার আগে হাওড়ার কাজীপাড়ায় এক অনুষ্ঠানে বক্তব্য দেওয়ার সময় তিনি এ…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/world/india/kg6due3hw2",
+          "author": "সংবাদদাতা",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2023-01%2F44d6f304-f56c-4248-b942-af3de8e58bee%2Fprothomalo_Shuvendu_3.webp?rect=0%2C13%2C640%2C336&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-09-22%2F5lwyn5je%2Fdefaultog.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সন্ধ্যা ৭:২৮"
+        },
+        {
+          "headline": "France slams Israel’s ‘demagogic’ ban on left-wing leader Melenchon",
+          "excerpt": "Israeli ban on France Unbowed leader comes after Paris turned away a prominent advocate of illegal settlement in the occupied West Bank.Paris has condemned Israel’s “demagogic decision” to bar French opposition figure Jean-Luc Melenchon from entering the country.Late on Thursday, French Foreign Minister Jean-Noel Barrot slammed Israel’s earlier announcement that Melenchon, leader of the France…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/11/13/france-slams-israels-demagogic-ban-on-left-wing-leader-melenchon?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-13T101028Z_1944391379_RC2XL8A0RTK9_RTRMADP_3_ISRAEL-PALESTINIANS-FRANCE-1794568872.jpg?resize=1920%2C1440",
+          "time": "সন্ধ্যা ৬:৫৭"
+        },
+        {
+          "headline": "You haven’t got mail: Global Microsoft outage disrupts services",
+          "excerpt": "across 74 countriesNewsFeedNot receiving your work emails? That’s because Microsoft has been hit by a global outage disrupting Outlook, Teams and Copilot in 74 countries.Published On 13 Nov 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/13/13-11-sv-microsoft-global-outage?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1794573560.jpg?resize=1599%2C1080&quality=80",
+          "time": "সন্ধ্যা ৬:৪০"
+        },
+        {
+          "headline": "Mauricio Pochettino announced as new Manchester United manager",
+          "excerpt": "Pochettino replaces Michael Carrick, who was sacked after United’s disastrous start to the season.Manchester United have appointed ⁠⁠Mauricio Pochettino as the new manager to replace the ⁠sacked Michael Carrick, as the Premier League ⁠giants sit in the relegation zone after their worst start to a league ‌campaign in 40 years.Pochettino will lead the United States national team in their upcoming…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/sports/2026/11/13/manchester-united-new-manager-mauricio-pochettino-usa-soccer?traffic_source=rss",
+          "author": "Manasi Pathak",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6af705d4-1794573780.jpg?resize=1920%2C1440",
+          "time": "সন্ধ্যা ৬:৩৯"
+        },
+        {
+          "headline": "Storm Charles causes floods and flight cancellations across southern Europe",
+          "excerpt": "Storm Charles has brought destructive weather to the Iberian peninsula this week, particularly in Portugal and the far south of Spain. Heavy rain and strong south-westerly winds arrived first in the Portuguese island of Madeira, before the system headed towards the mainland on 11 November. A wind gust of 84.5mph (136 km/h) was recorded at Funchal airport, alongside rainfall totals reaching 355mm…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/environment/2026/nov/13/storm-charles-floods-flight-cancellations-southern-europe-weather",
+          "author": "Guardian staff reporter",
+          "image": "https://i.guim.co.uk/img/media/dd799d5cd22d85bdbac03ed558d6c0d812d92a01/327_0_3561_2849/master/3561.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=e2029e1a8105022678cca8e0aaffb22a",
+          "time": "দুপুর ২:৪৯"
+        },
+        {
+          "headline": "Why is Ukraine attacking Russian warships in the Baltic Sea amid talks?",
+          "excerpt": "Finland’s military says it detected “a strike” on a Russian warship in the Gulf of Finland on Wednesday, as Ukraine sent waves of drones towards Russia’s northwestern Leningrad region.The strike came as Russian and Ukrainian delegations met in Abu Dhabi for their first United States-brokered talks since February.It was a rare strike on a Russian navy vessel in the Baltic Sea.So why is Ukraine…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/11/13/why-is-ukraine-attacking-russian-warships-in-the-baltic-sea-amid-talks?traffic_source=rss",
+          "author": "Nils Adler",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6af6e73a-1794565946.jpg?resize=1920%2C1440",
+          "time": "সন্ধ্যা ৬:০৬"
+        },
+        {
+          "headline": "Pakistan military reports it killed 74 ‘terrorists’ during raids",
+          "excerpt": "Attacks around the border with Afghanistan continue to cause tension between the neighbours.Pakistan’s army has reported that it has killed 74 armed fighters in multiple raids in areas along the country’s borders with Afghanistan.Thirty-one “terrorists” have been killed in the southwestern Balochistan province since November 3, with multiple weapons, explosives and ammunition recovered, the…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/11/13/pakistan-military-reports-it-killed-74-terrorists-during-raids?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-02-28T064047Z_1130127645_RC2UUJAD7YRB_RTRMADP_3_AFGHANISTAN-PAKISTAN-1794559223.jpg?resize=1920%2C1440",
+          "time": "বিকাল ৫:৫৯"
+        },
+        {
+          "headline": "India cancels visa of Norwegian journalist who questioned Modi",
+          "excerpt": "NewsFeedThe Norwegian journalist who questioned Prime Minister Narendra Modi over press freedom has had her visa to India cancelled, ahead of a Congress-organised summit she was due to speak at. Helle Lyng says May’s confrontation in Oslo has a lot to do with it.By Deepali SaxenaPublished On 13 Nov 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/13/india-cancels-visa-of-norwegian-journalist-who-questioned-modi?traffic_source=rss",
+          "author": "Deepali Saxena",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/wide-thumb-helle-lyng-1794570754.png?resize=1920%2C1080&quality=80",
+          "time": "বিকাল ৫:৫৪"
+        },
+        {
+          "headline": "UN watchdog calls on Iran to reopen nuclear facilities to inspection",
+          "excerpt": "Tehran has told the IAEA that it is not possible to resume inspections in the current security situation.The United Nations nuclear watchdog has urged Iran to allow it to resume inspections of its nuclear facilities.The International Atomic Energy Agency (IAEA) called for Tehran to restore access for its inspectors in a report circulated by the watchdog among member states on Friday, insisting…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/11/13/un-watchdog-calls-on-iran-to-reopen-nuclear-facilities-to-inspection?traffic_source=rss",
+          "author": "By AFP, AP and Reuters",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/AFP__20260914__C8976PV__v1__HighRes__AustriaUnIaeaBoardGovernorsMeeting-1794560824.jpg?resize=1920%2C1440",
+          "time": "বিকাল ৫:৫১"
+        },
+        {
+          "headline": "Live: Microsoft struggles to restore services as outage hits global users",
+          "excerpt": "Skip linksSkip to Content Live Navigation menuNewsMiddle EastAfricaAsiaUS & CanadaLatin AmericaEuropeAsia PacificExplainedSportOpinionVideoInteractivesOriginalsFeaturesEconomyHuman RightsClimate CrisisInvestigationsIn PicturesScience & TechnologyPodcastsTravelSponsored Content Live Live updates, As disruption affects users worldwide, Microsoft admits fixes are not going ‘as expected’.A man uses…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/liveblog/2026/11/13/live-microsoft-struggles-to-restore-services-as-outage-hits-global-users?traffic_source=rss",
+          "author": "Nils Adler, Heba Habib",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-13T111651Z_2054199996_RC215JAWHMOW_RTRMADP_3_MICROSOFT-OUTAGES-1794573787.jpg?resize=1920%2C1440",
+          "time": "বিকাল ৫:১৮"
+        },
+        {
+          "headline": "Nvidia scandal: Howard Lutnick under pressure over alleged lack of action",
+          "excerpt": "One of Donald Trump’s top lieutenants reportedly could soon be fired, as criticism mounts over commerce secretary Howard Lutnick’s apparent lack of action over the Nvidia spying scandal.Jensen Huang resigned from Nvidia on Thursday, and was replaced on an interim basis by chief financial officer, Colette Kress, after reports emerged of his multiple affairs, most importantly with Alice Huang (no…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/technology/2026/nov/13/nvidia-scandal-sparks-us-national-security-concerns-china",
+          "author": "Jonathan Yerushalmy, Mark Sweney",
+          "image": "https://i.guim.co.uk/img/media/32216a34a823211e1918352cebe5089bd9ffadb0/661_0_4502_3602/master/4502.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=9e443fbddfd7c35a05353a69e1a603fb",
+          "time": "দুপুর ৩:৪১"
+        },
+        {
+          "headline": "El Salvador deploys armed robots to fight gangs in Haiti",
+          "excerpt": "NewsFeedEl Salvador’s President Nayib Bukele has released a video showing armed robots during an operation against gangs at the main stadium in Port-au-Prince, Haiti. The stadium has been under gang control for the last two years.Published On 13 Nov 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/13/el-salvador-deploys-armed-robots-to-fight-gangs-in-haiti?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1794567418.jpg?resize=1200%2C675",
+          "time": "বিকাল ৪:৫৭"
+        },
+        {
+          "headline": "Iran threatens unlimited response over Strait of Hormuz after US attack",
+          "excerpt": "NewsFeedIran’s Islamic Revolutionary Guard Corps says it destroyed a US early-warning radar in Bahrain in retaliation for an attack on a telecommunications centre in Iran. Al Jazeera’s Resul Serdar Atas reports from Tehran.Published On 13 Nov 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/13/13-11-reported-resul-serdar-iran-basij?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1794567001.jpg?resize=1920%2C1080&quality=80",
+          "time": "বিকাল ৪:৫৪"
+        },
+        {
+          "headline": "Why is Trump saying ‘no deal necessary’ with Iran as he sidelines JD Vance?",
+          "excerpt": "Just hours before Iran claimed it hit the United States military’s early warning radar system in Bahrain early on Friday, US President Donald Trump said he had told his country’s lead negotiator, Vice President JD Vance, that, “We don’t need a deal with Iran.”Instead, Trump said, he has told Vance to focus on unearthing what the president says is corruption and crime in Democratic-controlled…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/features/2026/11/13/why-is-trump-saying-no-deal-necessary-with-iran-as-he-sidelines-jd-vance?traffic_source=rss",
+          "author": "Yashraj Sharma",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-10-20T183134Z_99037278_RC267OA0Z53B_RTRMADP_3_USA-TRUMP-1794560172_c635cd-1794565751.jpg?resize=1200%2C630&quality=80",
+          "time": "বিকাল ৪:২৬"
+        },
+        {
+          "headline": "Russia and Ukraine report overnight attacks amid US diplomatic push",
+          "excerpt": "Russia and Ukraine have reported numerous overnight attacks, despite a diplomatic push to end the conflict.Russian officials reported on Friday that a swarm of about 1,200 Ukrainian drones were fired at the country, with oil infrastructure among the targets. Ukraine reported that a hospital was struck and that strikes on the port of Odesa were ongoing.Recommended Stories list of 2 itemslist 1 of…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/11/13/russia-and-ukraine-report-overnight-attacks-amid-us-diplomatic-push?traffic_source=rss",
+          "author": "By AP and Reuters",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/AP26316520987093-1794558218.jpg?resize=1920%2C1440",
+          "time": "বিকাল ৪:১১"
+        },
+        {
+          "headline": "With every rainfall, Gaza risks losing access to power and healthcare",
+          "excerpt": "Deir el-Balah, Gaza Strip – As the rain intensified, 65-year-old Abu Sajed rushed to place buckets and pots strategically around his modest room in central Gaza.The stone walls and tarpaulin roof offered little protection to his makeshift home, east of Salah al-Din Street, near the “Yellow Line” in Bureij refugee camp.“We could no longer stay in bed because of the heavy rain. We moved to chairs…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/11/13/with-every-rainfall-gaza-risks-losing-access-to-power-and-healthcare?traffic_source=rss",
+          "author": "Lina Ghassan Abu Zayed",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/2-1794559552.jpg?resize=1500%2C1080",
+          "time": "দুপুর ৩:৪৩"
+        },
+        {
+          "headline": "Microsoft hit by global outages: What happened and why?",
+          "excerpt": "Microsoft says it has had only “marginal success” in restoring its most widely used workplace services, more than 12 hours after a global outage knocked out Outlook and disrupted Teams and Copilot for users in 74 countries.In a statement on its service health page early on Friday, the company said it was monitoring activity across regions to assess server status and find ways to improve…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/11/13/microsoft-hit-by-global-outages-what-happened-and-why?traffic_source=rss",
+          "author": "Heba Habib",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6af6c919a6f5-1794558233.jpg?resize=1920%2C1440",
+          "time": "দুপুর ৩:৩০"
+        },
+        {
+          "headline": "Former NSW Liberal MP Rory Amon found guilty of raping 13-year-old boy",
+          "excerpt": "A former NSW Liberal politician is facing the possibility of a significant jail term after a jury found him guilty of raping a 13-year-old boy.The former MP Rory Amon was found guilty by a jury, after about four hours of deliberation on Friday, of one count of sexual intercourse with a person aged between 10 and 14 and indecently assaulting a child.The 37-year-old was facing his second NSW…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/australia-news/2026/nov/13/former-nsw-liberal-mp-rory-amon-found-guilty-of-raping-13-year-old-boy",
+          "author": "Guardian staff reporter",
+          "image": "https://i.guim.co.uk/img/media/d4c40932b33c6886f4f157bb1f96a159b2933a0e/396_0_7857_6286/master/7857.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=145352038b18285fc3715919246abe6e",
+          "time": "বিকাল ৪:৪৫"
+        },
+        {
+          "headline": "Pope Leo XIV warns on pressures facing modern families",
+          "excerpt": "NewsFeedPope Leo XIV has warned that digital technology risks replacing genuine human interaction. The Pope also stressed the need for gender equality during an address in Lima, Peru.Published On 13 Nov 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/13/pope-leo-xiv-warns-on-pressures-facing-modern-families?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1794561082.jpg?resize=1200%2C675",
+          "time": "দুপুর ৩:১১"
+        },
+        {
+          "headline": "A baffling trail from Australia to Singapore: what is Megaspeed, the company implicated in downfall of Nvidia’s Jensen Huang?",
+          "excerpt": "A lottery retailer in rural Australia, a dilapidated storefront in Kuala Lumpur, and a near-empty office in Singapore: the global facades of Megaspeed International, the company linked to the downfall of Nvidia chief Jensen Huang, form a puzzling corporate picture.The company, which is registered in Singapore, has registered affiliates across the US, Asia and Australia, but individuals at its…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/technology/2026/nov/13/a-baffling-trail-from-australia-to-singapore-what-is-megaspeed-the-company-implicated-in-downfall-of-nvidias-jensen-huang",
+          "author": "Kate Lamb, Josh Butler",
+          "image": "https://i.guim.co.uk/img/media/b6d8e7412b6ad0886ec252e47c04e538337b8daf/867_0_4345_3476/master/4345.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=15b5dfb0cf6ef819e5c5f9511ecbecb3",
+          "time": "দুপুর ১:০৭"
+        },
+        {
+          "headline": "Who gets to tell the world’s news?",
+          "excerpt": "A look back at the Global South's early efforts to challenge Western dominance of international news.The global flow of news has changed dramatically over the past 50 years, reshaping who tells the world's stories and how they reach audiences [Jawaher Al-Naimi/Al Jazeera]The global flow of news has changed dramatically over the past 50 years, reshaping who tells the world's stories and how they…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/features/longform/2026/11/13/who-gets-to-tell-the-worlds-news?traffic_source=rss",
+          "author": "Gouri Sharma",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/commtools-1794409173.jpg?resize=1620%2C1080&quality=80",
+          "time": "দুপুর ২:৫১"
+        },
+        {
+          "headline": "ভোটের আগে নতুন জোট উত্তর প্রদেশে, বিপদ কি বাড়বে কংগ্রেসের?",
+          "excerpt": "সংবাদদাতা কলকাতাউত্তর প্রদেশ বিধানসভা নির্বাচন সামনে রেখে নতুন রাজনৈতিক জোট গড়লেন আসাদউদ্দিন ওয়াইসি ও চন্দ্রশেখর আজাদছবি: সংগৃহীতভারতের উত্তর প্রদেশের ২০২৭ সালের বিধানসভা নির্বাচন সামনে রেখে নতুন রাজনৈতিক জোট গঠন করলেন হায়দরাবাদের সংসদ সদস্য আসাদউদ্দিন ওয়াইসি এবং দলিত ও অনগ্রসর জাতির নেতা চন্দ্রশেখর আজাদ। গতকাল বৃহস্পতিবার লক্ষ্ণৌতে এক যৌথ সংবাদ সম্মেলনে ওয়াইসির অল ইন্ডিয়া…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/world/india/uxtunajpvz",
+          "author": "সংবাদদাতা",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-13%2Fudz75it7%2F00-3.jpg?rect=0%2C113%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-09-22%2F5lwyn5je%2Fdefaultog.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সন্ধ্যা ৬:৪২"
+        },
+        {
+          "headline": "US Senate summons Nvidia’s Huang, Lutnick to testify",
+          "excerpt": "The Banking Committee says the ex-tech CEO and the US commerce secretary could face legal action if they fail to appear.United States lawmakers have summoned Nvidia’s former CEO Jensen Huang and US Commerce Secretary Howard Lutnick to testify about their roles in the scandal rocking the tech company.Senate Banking Committee Chairman Tim Scott on Thursday requested that they appear in a public…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/11/13/nvidias-huang-lutnick-summoned-to-testify-to-us-senate?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/AP26235650818174-1787509209.jpg?resize=1920%2C1440",
+          "time": "দুপুর ২:৪৯"
+        },
+        {
+          "headline": "Europe should not walk into Russia’s ‘traps’ on Ukraine talks, EU’s foreign policy chief Kallas says – Europe live",
+          "excerpt": "From 4h agoEurope should not 'walk into the traps that Russia is setting' on negotiating sequence, Kallas saysEU foreign policy chief Kaja Kallas has warned against the EU agreeing to Russia’s proposed sequence of talks on Ukraine, saying it would allow Moscow to “divert the attention away” from its actions and ultimately leave Europe “in a worse place.”European Union foreign policy chief Kaja…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/world/live/2026/nov/13/eu-leaders-negotiations-ukraine-russia-dublin-ai-summit-kushner-witkoff-latest-news-updates",
+          "author": "Jakub Krupa, Jennifer Rankin",
+          "image": "https://i.guim.co.uk/img/media/e308c3f7bef8218a6a291d8a4a13b3ac9c676166/1128_254_3855_3084/master/3855.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=b6038afc8430bffdb3a7968166ae98d5",
+          "time": "সন্ধ্যা ৭:১৫"
+        },
+        {
+          "headline": "Washington residents hold vigil after deadly shooting",
+          "excerpt": "NewsFeedResidents gathered in Washington, DC, to mourn victims of a shooting that left one person dead and four others wounded. The gunman, identified as 55-year-old Matt Lambert, was reportedly involved in a long-running dispute with building management over conditions in his apartment.Published On 13 Nov 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/13/13-11-sv-washington-dc-shooting-vigil?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1794557140.jpg?resize=1619%2C1080&quality=80",
+          "time": "দুপুর ২:০৬"
+        },
+        {
+          "headline": "Russia strikes hospital in central Kyiv after SpaceX system falters again",
+          "excerpt": "Russia has attacked a hospital in the centre of Kyiv, close to several western embassies, after Volodymyr Zelenskyy said speed restrictions on SpaceX’s Starshield system had made it harder for Ukraine to shoot down enemy drones.Three people were injured when a drone smashed into the National Institute of Traumatology and Orthopedics at 3am, hitting the second floor of the hospital and an…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/world/2026/nov/13/russia-strikes-hospital-central-kyiv-spacex-starshield-system-fails",
+          "author": "Luke Harding",
+          "image": "https://i.guim.co.uk/img/media/dc9a234fef04146303e642fa72a7e4133f5f0332/534_0_5600_4480/master/5600.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=5a1377b9fb503312505d92fc0efa04af",
+          "time": "বিকাল ৫:২৪"
+        },
+        {
+          "headline": "পার্বত্য পরিষদের ভোটের আগে সোনম ওয়াংচুক কার্যত গৃহবন্দী",
+          "excerpt": "প্রতিনিধি নয়াদিল্লিসোনম ওয়াংচুকফাইল ছবিভারতের লাদাখের ত্রিস্তরীয় নির্বাচনের আগে বিশিষ্ট শিক্ষাবিদ ও পরিবেশ আন্দোলনকর্মী সোনম ওয়াংচুককে কার্যত গৃহবন্দী করে রাখা হয়েছে। গতকাল বৃহস্পতিবার সামাজিক মাধ্যমে ওয়াংচুক জানিয়েছেন, তাঁকে বাড়ি থেকে বের হতে দেওয়া হচ্ছে না। বেশ কয়েকজন সশস্ত্র রক্ষী তাঁর বাসভবন ঘিরে রেখেছেন। সরকারিভাবে তাঁকে জানানো হয়েছে, তিনি যেন বাড়িতেই থাকেন। লাদাখে পঞ্চায়েত ও পৌরসভার…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/world/india/dehm9q8e0x",
+          "author": "প্রতিনিধি",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2024-10-01%2F27vgsg4u%2FUntitled-2.png?rect=0%2C0%2C1293%2C679&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-09-22%2F5lwyn5je%2Fdefaultog.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সন্ধ্যা ৬:৩২"
+        },
+        {
+          "headline": "Australia’s friendly against Jordan moved to Qatar over security concerns",
+          "excerpt": "Asian football giants Australia’s upcoming friendly with Jordan was initially scheduled to be played in Amman.The international ‌football friendly between Australia and Jordan next week has been moved to ⁠Doha, Football ⁠Australia (FA) said on Friday, after security concerns were raised over playing the fixture in Amman.Late last month, Jordan launched air strikes in Syria in “retaliation” for…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/sports/2026/11/13/australia-jordan-football-friendly-amman-doha-qatar-socceroos?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/GettyImages-2297681136-1794555713.jpg?resize=1920%2C1440",
+          "time": "দুপুর ১:৫৯"
+        },
+        {
+          "headline": "NBA: Cunningham scores 52 as Pistons win double OT thriller against Wizards",
+          "excerpt": "Cunningham became the first NBA player to record a 50-point, 10-assist game without committing a turnover since 1977-78.Cade Cunningham racked up 52 points as the Detroit Pistons edged a double-overtime thriller 144-140 against Washington on Thursday.The Wizards twice extended the game with clutch scores in the dying seconds but could not repeat the trick a third time as the Pistons held their…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/sports/2026/11/13/cade-cunningham-detroit-pistons-washington-wizards-nba?traffic_source=rss",
+          "author": "By AFP",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/AFP__20261113__2304857005__v1__HighRes__DetroitPistonsVWashingtonWizards-1794553820.jpg?resize=1920%2C1440",
+          "time": "দুপুর ১:৩৯"
+        },
+        {
+          "headline": "The real winner in Poland’s constitutional battle is Putin",
+          "excerpt": "Poland’s two main political camps are locked in an escalating fight for control of the Constitutional Tribunal, each claiming to defend the rule of law. In the process, they are undermining the legitimacy of the Polish state in the eyes of its own citizens, playing directly into Putin’s playbook.The roots of the dispute go back more than a decade. In 2015, the outgoing centre-right Civic…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/opinions/2026/11/13/the-real-winner-in-polands-constitutional-battle-is-putin?traffic_source=rss",
+          "author": "Mateusz Piotrowski",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/getty_6af6b8b6c8-1794554038.jpg?resize=1920%2C1440",
+          "time": "দুপুর ১:১৯"
+        },
+        {
+          "headline": "Iran says it destroyed US military radar in Bahrain in retaliatory strike",
+          "excerpt": "Iran’s Islamic Revolutionary Guard Corps says it has targeted and destroyed a US early-warning radar in Bahrain in response to a US airstrike on a communications tower in Sirik overlooking the strait of Hormuz. It is Iran’s first direct attack on US military installations for months.“This is a serious warning to the aggressor enemy to end its aerial mischief and oil smuggling in the strait of…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/world/2026/nov/13/iran-us-radar-bahrain-sirik-hormuz",
+          "author": "Patrick Wintour",
+          "image": "https://i.guim.co.uk/img/media/f76fa0a8488f1c05bc755c935f60793cc0caee3d/448_0_4480_3584/master/4480.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=12e413b956d97bfa5ca83ba65106b521",
+          "time": "সন্ধ্যা ৬:০৭"
+        },
+        {
+          "headline": "UK’s biggest insurer hit by rise in subsidence claims after record hot summer",
+          "excerpt": "The UK’s largest insurer has been hit by a rise in subsidence claims after an extremely hot summer left households across the country grappling with the fallout from the growing climate crisis.Aviva said on Friday it had experienced the jump amid an industry-wide surge in households filing subsidence claims with their insurers to cover repairs, which typically are needed to address cracks,…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/business/2026/nov/13/uk-insurer-rise-in-subsidence-claims-aviva-hastings-direct-axa",
+          "author": "Kalyeena Makortoff",
+          "image": "https://i.guim.co.uk/img/media/7e2a8ff0384e7fb6700c4719edde4c33999c311c/19_0_4529_3624/master/4529.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=90cfea1c9d84679fe1ce763f09afe590",
+          "time": "সন্ধ্যা ৭:৩৭"
+        },
+        {
+          "headline": "Row breaks out between Tories and Reform at Piddington news conference – UK politics live",
+          "excerpt": "From 1h agoRow breaks out between Tories and Reform at Piddington press conferenceA news conference in Piddington has descended into a shouting match between Reform’s Zia Yusuf and the Conservative’s Chris Philp.The two men, who are both home affairs spokespeople for their respective parties, appeared alongside Piddington parish council leader Tim McNally at a media event designed to outline…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/politics/live/2026/nov/13/uk-eu-post-brexit-deal-relationship-trade-food-standards-committee-latest-news-updates",
+          "author": "Tom Ambrose, Taz Ali, Rajeev Syal",
+          "image": "https://i.guim.co.uk/img/media/6a2188c2d16ad721b1cd8b78868f9ef4829d52e1/506_0_5989_4792/master/5989.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=7937c6ff9f6f927df9042b212ac977e4",
+          "time": "সন্ধ্যা ৭:২৯"
+        },
+        {
+          "headline": "The dark side of reselling apps: ‘If you include your pants, I’ll pay more’",
+          "excerpt": "In June, Hannah* listed her seven-year-old daughter’s pink swimming costume for sale on Vinted, hoping other parents surfing the reselling site would snap up the £1 offer. Her inbox pinged.“So a little girl wore this yh [yeah]?” wrote a user with a male handle.“She did yes,” Hannah replied.“Naked?”After sending back a barbed “What do you think?”, Hannah swiftly blocked the user and reported the…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/media/2026/nov/13/reselling-apps-dark-side-under-16s-social-media-ban-child-protection",
+          "author": "Miatta Mbriwa",
+          "image": "https://i.guim.co.uk/img/media/511023e145af02db32408f6e5b7af4f569939599/339_0_3505_2804/master/3505.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=6de2e55f122666a2471537bc1abea252",
+          "time": "সন্ধ্যা ৬:৫৪"
+        },
+        {
+          "headline": "Microsoft outage hits hospitals, GPs, schools and police across UK",
+          "excerpt": "Hospitals, GPs and police forces across the UK have been hit by the global Microsoft outage, which is also expected to disrupt schools, businesses and some travel.Key public services battled to get systems back online amid “widespread” and “serious” disruption to NHS services, as staff resorted to using patient’s paper records after being unable to access email and other IT facilities used to…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-hits-nhs-hospitals-gps-schools-and-police-across-uk",
+          "author": "Ben Quinn, Andrew Gregory",
+          "image": "https://i.guim.co.uk/img/media/d597beba95a7ab1cebd5e34273b7e1bb02e58d8c/284_0_4380_3505/master/4380.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=64223c921529d4415cb220dc737e2b8d",
+          "time": "সন্ধ্যা ৬:৫১"
+        },
+        {
+          "headline": "ক্ষমতা ও পুঁজির অন্যায়ের কাছে পরাজিত হবে না পৃথিবী",
+          "excerpt": "পাভেল পার্থর লেখা ক্ষমতা ও পুঁজির অন্যায়ের কাছে পরাজিত হবে না পৃথিবীআন্তালিয়া, তুরস্ক থেকেলেখক ও গবেষকজলবায়ু সম্মেলনস্থলে ইরান প্যাভিলিয়ন। মার্কিন–ইসরায়েলি হামলায় মিনাবে নিহত স্কুলশিশুদের স্মরণে স্থাপনাকর্ম। আন্তালিয়া, তুরস্ক, ১২ নভেম্বর ২০২৬ছবি: লেখকতুরস্ক জলবায়ু সম্মেলনের লিডার্স সামিটে বিশ্বনেতারা ইরান প্যাভিলিয়ন দেখেছেন কি না, জানি না। ফুলের মালা গলায় হাসিমুখে শিশুরা সেখানে সবাইকে স্বাগত…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/world/6xania72u0",
+          "author": "পাভেল পার্থ",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-13%2Fcsmfpenu%2FCop-31Iran.jpeg?rect=0%2C0%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-09-22%2F5lwyn5je%2Fdefaultog.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "বিকাল ৫:০৯"
+        },
+        {
+          "headline": "Man charged after seven women sexually assaulted in 30 minutes on UK campus",
+          "excerpt": "A 29-year-old man has been charged after seven women reported being sexually assaulted on the Huddersfield University campus over a 30 minute period.West Yorkshire police said Sophan Akbash had been charged with nine counts of sexual assault and would appear at Leeds magistrates court on Friday. Security staff called officers to Huddersfield University on Tuesday evening after reports of a man…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/uk-news/2026/nov/13/man-charged-women-sexually-assaulted-huddersfield-university",
+          "author": "Mark Brown",
+          "image": "https://i.guim.co.uk/img/media/80b08cb463150f8c38e5fb011a3a40f573e008be/1099_0_5371_4297/master/5371.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=a4acd51add52f3c0f9a2a652fb958b7c",
+          "time": "বিকাল ৫:১৭"
+        },
+        {
+          "headline": "Van Hollen takes aim at Schumer as Democrats face first big test after midterms – US politics live",
+          "excerpt": "From 3h agoVan Hollen takes aim at Schumer as Democrats face first big test after midterm winsGood morning, and welcome to the US politics live blog.Barely a week after sweeping to a stunning midterm victory, Democrats have found themselves facing an altogether different battle, one within their own ranks.Maryland Senator Chris Van Hollen has launched a challenge to Chuck Schumer, of New York,…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/us-news/live/2026/nov/13/us-politics-latest-news-updates-democrats-republicans-donald-trump-van-hollen-chuck-schumer",
+          "author": "Taz Ali, Shrai Popat, Lex McMenamin",
+          "image": "https://i.guim.co.uk/img/media/10932ac8c9cc15a1ae8c48d7b5b73278e22a95a3/813_0_4081_3265/master/4081.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=4c75d5135842eb8ce6191b644fcac30b",
+          "time": "সন্ধ্যা ৭:৩৬"
+        },
+        {
+          "headline": "New York is running out of room for its waste even with Statue of Liberty sized landfill",
+          "excerpt": "As a visual representation of how New York is running out of places to put its waste, the largest active landfill in the state is a striking one. The hulking Seneca Meadows landfill is already the height of the Statue of Liberty and its operators are seeking to raise it even further, to the consternation of nearby residents.The landfill, situated in the scenic Finger Lakes region in the northern…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/us-news/2026/nov/13/new-york-seneca-meadows-landfill",
+          "author": "Oliver Milman",
+          "image": "https://i.guim.co.uk/img/media/490a6771051d9647e624ef860358392e19646987/187_0_2926_2340/master/2926.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=59dde5a10f270bd7992f7ad8d2e416cd",
+          "time": "সন্ধ্যা ৬:৩০"
+        },
+        {
+          "headline": "First Thing: Global Microsoft outage chaos as tech firm says there are ‘signs of stabilisation’",
+          "excerpt": "Good morning. A global outage of vital Microsoft systems has crippled businesses and public services around the world. The tech company said it was seeing “early signs of stabilisation” after the failure affected millions of users for more than 12 hours on Thursday and Friday.Some but not all users were reporting problems with services including Microsoft Teams and Outlook email. More than 430…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/us-news/2026/nov/13/first-thing-global-microsoft-outage-chaos-signs-of-stabilisation",
+          "author": "Martin Belam",
+          "image": "https://i.guim.co.uk/img/media/3aca18d0542794fb6d35a0847224c88cc2663879/22_147_2871_2297/master/2871.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=3d7ab8359a2e336ab12dae6f3cce3af6",
+          "time": "সন্ধ্যা ৬:১৬"
+        },
+        {
+          "headline": "এনভিডিয়া কেলেঙ্কারির মধ্যে পদ হারানোর ঝুঁকিতে যুক্তরাষ্ট্রের বাণিজ্যমন্ত্রী হাওয়ার্ড লুটনিক",
+          "excerpt": "রয়টার্স যুক্তরাষ্ট্রের বাণিজ্যমন্ত্রী হাওয়ার্ড লুটনিকফাইল ছবি: রয়টার্সচীনে প্রযুক্তিপ্রতিষ্ঠান এনভিডিয়ার উন্নত কৃত্রিম বুদ্ধিমত্তার (এআই) চিপ বিক্রি নিয়ন্ত্রণে যথাযথ পদক্ষেপ না নেওয়ার অভিযোগ উঠেছে যুক্তরাষ্ট্রের বাণিজ্যমন্ত্রী হাওয়ার্ড লুটনিকের বিরুদ্ধে। তাঁকে পদ থেকে সরিয়ে দেওয়া হবে কি না, সে বিষয়ে হোয়াইট হাউসের জ্যেষ্ঠ কর্মকর্তাদের মধ্যে আলোচনা চলছে।গতকাল বৃহস্পতিবার এ বিষয়ে অবগত দুই ব্যক্তি…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/world/usa/yypgt8xcor",
+          "author": "রয়টার্স",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-01-09%2F527v6pit%2FLutnick.jpg?rect=0%2C5%2C640%2C336&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-09-22%2F5lwyn5je%2Fdefaultog.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "দুপুর ৩:৪৭"
+        }
+      ],
+      "Local": [
+        {
+          "headline": "এক দিনে মৌসুমের সর্বোচ্চ পর্যটক গেলেন সেন্ট মার্টিন",
+          "excerpt": "নিজস্ব প্রতিবেদক কক্সবাজারকক্সবাজার শহরের বিআইডব্লিউটিএ জেটিঘাট থেকে সকালে পর্যটক নিয়ে সেন্ট মার্টিন দ্বীপ রওনা দেয় চারটি জাহাজ। বেলা দেড়টায় জাহাজ পৌঁছে সেন্টমার্টিন জেটি ঘাটে। আজ দুপুরেছবি: প্রথম আলোপর্যটন মৌসুম শুরুর পর এক দিনে সর্বোচ্চসংখ্যক পর্যটক সেন্ট মার্টিন ভ্রমণ করেছেন আজ শুক্রবার। এদিন কক্সবাজার থেকে চারটি জাহাজে করে ১ হাজার ৭৫৪ জন পর্যটক দ্বীপটিতে গেছেন। চলতি ৫ নভেম্বর পর্যটকবাহী…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/district/2m2oihlj0i",
+          "author": "নিজস্ব প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-13%2Frggn4fdx%2FWhatsApp-Image-2026-11-13-at-7.31.47-PM.jpeg?rect=0%2C30%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সন্ধ্যা ৭:৪০"
+        },
+        {
+          "headline": "ধানমন্ডিতে বিনা মূল্যে ডায়াবেটিস ক্যাম্প ও চিকিৎসাসেবা কার্যক্রম অনুষ্ঠিত",
+          "excerpt": "নিজস্ব প্রতিবেদক ঢাকাধানমন্ডি স্পোর্টস ক্লাবে বাংলাদেশ এন্ডোক্রাইন সোসাইটি (বিইএস) আয়োজিত বিনা মূল্যে ডায়াবেটিস ক্যাম্প ও চিকিৎসাসেবা কার্যক্রমের উদ্বোধনী অনুষ্ঠানে বক্তব্য দিচ্ছেন সড়ক পরিবহন ও সেতুমন্ত্রী শেখ রবিউল আলম। ধানমন্ডি, ঢাকা। ১৩ নভেম্বর ২০২৬ছবি: আয়োজকদের সৌজন্যেরাজধানীর ধানমন্ডি স্পোর্টস ক্লাবে বাংলাদেশ এন্ডোক্রাইন সোসাইটির (বিইএস) আয়োজনে বিনা মূল্যে ডায়াবেটিস ক্যাম্প ও চিকিৎসাসেবা…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/capital/qpywqc420m",
+          "author": "নিজস্ব প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-13%2F3eti298b%2FRabiul-Alam.jpeg?rect=0%2C180%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সন্ধ্যা ৭:৩৬"
+        },
+        {
+          "headline": "দূরবীন বাংলা রেস্তোরাঁয় হামলা, ভাঙচুর",
+          "excerpt": "মহাখালীর দূরবীন বাংলা রেস্তোরাঁয় ভাঙচুর করছেন একদল যুবক। আজ শুক্রবার সকাল ১১টার দিকেছবি: ভিডিও থেকে নেওয়াআজ শুক্রবার মহাখালীর দূরবীন বাংলা রেস্তোরাঁয় খাবার খেতে সিরিয়ালকে কেন্দ্র করে সরকারি তিতুমীর কলেজের শিক্ষার্থীদের হামলায় ভাঙচুর ও সংঘর্ষ হয়। বেলা ১১টার দিকে এক শিক্ষার্থীর সঙ্গে সিরিয়াল নিয়ে বিতণ্ডার জেরে এ ঘটনা ঘটে। রেস্তোরাঁকর্মী খলিলকে মারধরের পর শিক্ষার্থীরা চেয়ার-টেবিল ভাঙচুর করে। এতে…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/crime/duurbiin-baanlaa-restoraanyy-haamlaa-bhaangcur",
+          "author": "শর্টস",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-13%2Fe8c8zzk8%2F00_5.jpg?rect=0%2C0%2C646%2C339&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সন্ধ্যা ৭:২৫"
+        },
+        {
+          "headline": "অফিসে ‘কৃতজ্ঞতা’ প্রকাশ বদলে দিতে পারে পরিবেশ",
+          "excerpt": "বন্ধুসভা প্রতিবেদক কৃতজ্ঞতা জানানো মানে একজনের অবদানকে স্বীকার করা এবং সে যে কঠিন সময় পার করছে, তা-ও বোঝাছবি: এআই/বন্ধুসভাদিনের সবচেয়ে বড় অংশ আমাদের কাটে কাজের জায়গায়। ঢাকার যানজট ঠেলে অফিসে পৌঁছানো, সারা দিন কাজ, তারপর আবার ক্লান্ত শরীরে ঘরে ফেরা। এই সময়টা কেমন কাটল, তা শুধু কাজের চাপ দিয়ে মাপা যায় না। কেউ যখন আমাদের কাজটা লক্ষ করেন, তখন মন ভালো হয়ে যায়। আবার সারা সপ্তাহের পরিশ্রম…",
+          "source": "Prothom Alo",
+          "link": "https://www.bondhushava.com/career/wfrg0l3a63",
+          "author": "বন্ধুসভা প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-12%2Fn1et18bq%2FA-Grateful-Moment-at-Work.png?rect=0%2C163%2C1448%2C760&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-06-18%2Fjupf28nh%2FFinalBondhushavaOGwatermark01.png&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সন্ধ্যা ৭:২০"
+        },
+        {
+          "headline": "মালিকেরা কারখানা বন্ধ করলে উসকানি দেওয়ার মতো হবে, বললেন শ্রমিকনেতারা",
+          "excerpt": "নিজস্ব প্রতিবেদক ঢাকাতৈরি পোশাকশিল্পের শ্রম পরিস্থিতি নিয়ে আয়োজিত সংবাদ সম্মেলনে বক্তব্য দেন শ্রমিকনেতারা। আজ শুক্রবার সন্ধ্যায় ঢাকা রিপোর্টার্স ইউনিটিতে।ছবি: প্রথম আলোশ্রম আইনের ১৩ (১) ধারায় (কাজ নেই, মজুরি নেই) তৈরি পোশাক কারখানা বন্ধ করা হলে শ্রম অসন্তোষের উসকানি দেওয়া হবে বলে মনে করছেন শ্রমিকনেতারা। তাঁরা বলেছেন, বর্তমানে এক-দুটি জায়গায় আন্দোলন হচ্ছে। তাই আলোচনার মাধ্যমে সমস্যা সমাধানের পথ…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/business/industry/f8p93tp1r6",
+          "author": "নিজস্ব প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-13%2Fz8zo0w78%2F4c0a95f7-3101-47fc-8587-89503bc126c2.jpg?rect=0%2C145%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সন্ধ্যা ৭:১৮"
+        },
+        {
+          "headline": "গাজীপুরে চলন্ত ট্রেনের ইঞ্জিনে আগুন, যাত্রীদের মধ্যে আতঙ্ক",
+          "excerpt": "প্রতিনিধি গাজীপুরগাজীপুর মহানগরীর পুবাইলের করমতলা এলাকায় ট্রেনের ইঞ্জিনে আগুন ধরে যায়। আগুন নিয়ন্ত্রণে এগিয়ে আসেন স্থানীয় বাসিন্দারাছবি: সংগৃহীতগাজীপুরের পূবাইলে ঢাকাগামী আন্তনগর এগারোসিন্দুর গোধূলি এক্সপ্রেস ট্রেনের ইঞ্জিনে আগুন ধরে যাওয়ার ঘটনা ঘটেছে। আজ শুক্রবার বিকেল সাড়ে চারটার দিকে পূবাইল রেলওয়ে স্টেশন পার হওয়ার কিছুক্ষণ পর এ ঘটনা ঘটে। তবে দ্রুত আগুন নিয়ন্ত্রণে আনায় বড় ধরনের দুর্ঘটনা…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/district/x4r8k1302g",
+          "author": "প্রতিনিধি",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-13%2Fmyj80vvz%2Fgazipurdh061520261113screenshot20261113172048gallery.jpg?rect=0%2C81%2C720%2C378&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সন্ধ্যা ৭:১৭"
+        },
+        {
+          "headline": "যুক্তরাষ্ট্রের ওয়াশিংটন ডিসিতে গুলি, নিহত এক ও আহত চারজন",
+          "excerpt": "সরাসরি কভারেজ১২ নভেম্বর ২০২৬বৃহস্পতিবার সারাদিন যা যা হলো\n      ইরানের সঙ্গে যুদ্ধ শেষ করার চুক্তি নিয়ে আলোচনার পরিবর্তে, ভাইস প্রেসিডেন্ট জে.ডি. ভ্যান্সকে অভ্যন্তরীণ দুর্নীতি দমনে মনোযোগ দেওয়ার নির্দেশ দিয়েছেন যুক্তরাষ্ট্রের প্রেসিডেন্ট ডোনাল্ড ট্রাম্প। তিনি বলেছেন,\"ইরানের সাথে চুক্তির কোনো প্রয়োজন আমাদের নেই।\"\n    \n      হোয়াইট হাউস থেকে এক মাইলেরও কম দুরত্বে\nওয়াশিংটন ডিসির লোগান…",
+          "source": "BBC Bangla",
+          "link": "https://www.bbc.co.uk/bengali/live/cwgklyvj7nrmt?at_medium=RSS&at_campaign=rss",
+          "author": "BBC News বাংলা",
+          "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/a7cb/live/e3d6c380-deac-11f1-8253-3f203a001288.jpg",
+          "time": ""
+        },
+        {
+          "headline": "এক ঝলক (১৩ নভেম্বর ২০২৬)",
+          "excerpt": "১ / ১২কাপ্তাই হ্রদে মাছ ধরছেন এক ব্যক্তি। লেমুছড়ি, রাঙামাটি, ১৩ নভেম্বরছবি: সুপ্রিয় চাকমা২ / ১২ভোরের আলো ফুটতেই শিশিরভেজা মাঠে ফুটবল খেলায় মেতে উঠেছে শিক্ষার্থীরা। খুলনা, ১৩ নভেম্বরছবি: সাদ্দাম হোসেন৩ / ১২কলার মোচার ফুলে বসে মধু খেতে ব্যস্ত একটি কাঠঠোকরা। খুলনা, ১৩ নভেম্বরছবি: সাদ্দাম হোসেন৪ / ১২বাজারে বাড়ছে শীতকালীন সবজির সরবরাহ। খেত থেকে তোলা ফুলকপি বিক্রির জন্য বাজারে এনেছেন এক কৃষক।…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/photo/glimpse/kt39660seg",
+          "author": "প্রথম আলো ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-13%2F7z1j8emt%2F9.jpg?rect=0%2C173%2C2448%2C1285&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2022-01%2F18c58c05-9e66-46f3-8946-4437460f8f90%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সন্ধ্যা ৭:১৬"
+        },
+        {
+          "headline": "সন্ধ্যায় সারা দিনের খবর",
+          "excerpt": "শুভসন্ধ্যা। আজ শুক্রবার। রাজনীতি, জাতীয়, আন্তর্জাতিক, ক্রীড়া, বিনোদনসহ আলোচিত বিভিন্ন বিষয় নিয়ে দিনভর প্রথম আলো অনলাইনে প্রকাশিত হয়েছে নানা খবর। এর অনেকগুলোই হয়তো আপনার চোখ এড়িয়ে গেছে। সন্ধ্যার অবসরে চোখ বুলিয়ে নিন সারা দিন প্রথম আলো অনলাইনে প্রকাশিত আলোচিত পাঁচ খবরে:১ক্যানসার রোগীদের জন্য ঢাকায় যেখানে থাকা–খাওয়া ফ্রি, আছে নার্স–অ্যাম্বুলেন্স সেবাবসুন্ধরা আবাসিক এলাকার মোসাব্বির মেমোরিয়াল আলোক…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/96ytvp22um",
+          "author": "প্রথম আলো ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-07-20%2Fuj1pffgp%2F2ce3bd4f_997e_4303_afd9_783b69cbdef4.jpg?rect=0%2C114%2C1597%2C838&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সন্ধ্যা ৭:০৭"
+        },
+        {
+          "headline": "ফোন করে ডাকেন সাবেক স্ত্রী, নতুন স্বামীকে সঙ্গে নিয়ে হত্যা: এসআরবি",
+          "excerpt": "শ্রমিক দল নেতার লাশ উদ্ধার ফোন করে ডাকেন সাবেক স্ত্রী, নতুন স্বামীকে সঙ্গে নিয়ে হত্যা: এসআরবিনিজস্ব প্রতিবেদক নোয়াখালীনিহত শ্রমিক দল নেতা মো. রাসেলছবি: সংগৃহীতনোয়াখালীর চাটখিলে শ্রমিক দলের নেতা মো. রাসেলকে (৩০) হত্যার অভিযোগে তাঁর সাবেক স্ত্রীসহ তিনজনকে গ্রেপ্তার করেছে স্পেশাল রেসপন্স ব্যাটালিয়ন (এসআরবি)। গতকাল বৃহস্পতিবার সন্ধ্যা থেকে রাত পর্যন্ত ঢাকা ও চট্টগ্রামের বিভিন্ন জায়গায় অভিযান চালিয়ে…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/district/sgqto07fap",
+          "author": "নিজস্ব প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-12%2F7ets04q6%2F01NirmanIssue10-2.jpg?rect=0%2C70%2C982%2C516&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সন্ধ্যা ৭:০৫"
+        },
+        {
+          "headline": "নুসরাতের বাড়িতে আগুন শর্টসার্কিট থেকে হওয়ার সুযোগ নেই: পল্লী বিদ্যুৎ কর্মকর্তা",
+          "excerpt": "নিজস্ব প্রতিবেদক কুষ্টিয়াকাট আউটের অক্ষত ফিউজছবি: সংগৃহীতকুষ্টিয়ায় জাতীয় নাগরিক পার্টির (এনসিপি) যুগ্ম আহ্বায়ক ও জাতীয় সংসদের সংরক্ষিত নারী আসনের সদস্য নুসরাত তাবাসসুমের পৈতৃক বাড়িতে আগুনের সূত্রপাত বৈদ্যুতিক শর্টসার্কিট থেকে হওয়ার সুযোগ নেই বলে জানিয়েছেন জেলার প্রাগপুর পল্লী বিদ্যুৎ সাবজোন কার্যালয়ের এজিএম (অপারেশনস ও মেইনটেন্যান্স) তোজাম্মেল হক।গত বুধবার দিবাগত গভীর রাতে নুসরাতের পৈতৃক…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/district/z4kobm7ru3",
+          "author": "নিজস্ব প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-13%2Fzcutyspx%2Fkustianusrat.jpeg?rect=0%2C552%2C1200%2C630&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সন্ধ্যা ৭:০০"
+        },
+        {
+          "headline": "মাত্র এক ঘণ্টা কম ঘুমালে স্ক্যামের শিকার হওয়ার প্রবণতা বাড়ে, বিশেষজ্ঞদের দাবি",
+          "excerpt": "ঘুম মস্তিষ্ককে শান্ত ও সতেজ রাখেছবি: আইস্টককেন ঘুম কম হলে আমাদের বিচার করার ক্ষমতা কমে যায়ঘুম আমাদের মনোযোগ, একাগ্রতা, স্মৃতিশক্তি এবং সম্ভাব্য বিপদ চেনার ক্ষমতা বাড়াতে সাহায্য করে।ইউনিভার্সিটি অব অ্যারিজোনার গবেষক ডাক্তার মাইকেল গ্র্যান্ডনার বলেন, ‘আমাদের মস্তিষ্ক কেবল জেগে থাকার চেয়েও অনেক বেশি কাজ করে। একে তথ্যের মধ্য থেকে দরকারি জিনিস বেছে নিতে হয়, কোনোটিতে মনোযোগ দিতে হবে, তা ঠিক করতে হয়…",
+          "source": "Prothom Alo",
+          "link": "https://www.kishoralo.com/feature/rfl0hpw3ly",
+          "author": "আরেফিন প্রিয়ন্তী",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2024-11-28%2Fi57a01ar%2Fpexels-olly-3808008.jpg?rect=0%2C408%2C5760%2C3024&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2021-06%2Fbe2d99ee-c039-4acf-a6fb-2356c69a08a6%2FKIA_OG_watermark_final.png&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সন্ধ্যা ৭:০০"
+        },
+        {
+          "headline": "চিজ ব্রেডের রেসিপি",
+          "excerpt": "বাড়িতে বিকেলের নাশতায় নতুন কিছু বানাতে চাইলে চিজ ব্রেড ট্রাই করে দেখতে পারেন। অল্প সময়ে যে কেউ বানিয়ে নিতে পারবেন এমন ব্রেড। রেসিপি দিয়েছেন নাজিয়া ফারহানা চিজ ব্রেডছবি: প্রথম আলোউপকরণময়দা ২ কাপইনস্ট্যান্ট ইস্ট ১ চা-চামচচিনি ১ টেবিল চামচলবণ আধা চা-চামচকুসুম গরম দুধ ৩/৪ কাপমাখন ২ টেবিল চামচমোজারেলা চিজ আধা কাপচেডার চিজ সিকি কাপপারমেজান চিজ সিকি কাপমিক্সড হার্বস আধা চা-চামচপ্রণালিময়দা, ইস্ট,…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/lifestyle/recipe/vcco0r8dre",
+          "author": "জীবনযাপন ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-12%2F5ehjkr0y%2FIMG20261024170425.jpg?rect=0%2C136%2C3643%2C1913&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সন্ধ্যা ৭:০০"
+        },
+        {
+          "headline": "‘মনে হচ্ছে আবার সেই শিক্ষাজীবনে ফিরে গেছি’",
+          "excerpt": "শতবর্ষে বরিশাল সরকারি বালিকা উচ্চবিদ্যালয় ‘মনে হচ্ছে আবার সেই শিক্ষাজীবনে ফিরে গেছি’নিজস্ব প্রতিবেদক বরিশালবাদ্যের তালে তালে রং উড়িয়ে বর্ণিল শোভাযাত্রা। আজ শুক্রবার সকালে বরিশাল নগরের বগুড়া রোডেছবি: প্রথম আলোবরিশাল সরকারি বালিকা উচ্চবিদ্যালয়ের শতবর্ষ পূর্তি উপলক্ষে দুই দিনের অনুষ্ঠান শুরু হয়েছে। আজ শুক্রবার সকাল সাড়ে ১০টায় বিদ্যালয় প্রাঙ্গণ থেকে বর্ণাঢ্য শোভাযাত্রার মধ্য দিয়ে অনুষ্ঠানের…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/district/7l6fixq84j",
+          "author": "নিজস্ব প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-13%2F5tlgcu1v%2Fbarishal-1.jpg?rect=0%2C194%2C2738%2C1437&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সন্ধ্যা ৬:৫৯"
+        },
+        {
+          "headline": "৩০০ টাকায় ১০ কেজি চাল কিনতে পারছেন পোশাকশ্রমিকেরা",
+          "excerpt": "প্রতিনিধি গাজীপুরগাজীপুরে ৩০ টাকা কেজি দরে চাল কেনার সুযোগ পাচ্ছেন পোশাক কারখানার শ্রমিকেরা। আজ শুক্রবার মহানগরের তিন সড়ক এলাকার একটি কারখানায়ছবি: প্রথম আলোবাজারে চালের দাম বাড়তি। মোটা চালের দামও ঊর্ধ্বমুখী। সংসারের খরচ সামলাতে হিমশিম খেতে হচ্ছে পোশাকশ্রমিকদের। এমন পরিস্থিতিতে গাজীপুরে ৩০ টাকা কেজি দরে চাল কেনার সুযোগ পাচ্ছেন তৈরি পোশাক কারখানার শ্রমিকেরা।প্রথম পর্যায়ে গাজীপুর মহানগরের ৩০টি…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/district/kzkbr5s3l1",
+          "author": "প্রতিনিধি",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-13%2Fg5xigmsd%2Fgazipur.jpg?rect=0%2C23%2C686%2C360&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সন্ধ্যা ৬:৪৮"
+        },
+        {
+          "headline": "খাবারের জন্য সিরিয়ালকে কেন্দ্র করে মহাখালীর দূরবীন বাংলা রেস্তোরাঁয় হামলা-ভাঙচুর",
+          "excerpt": "বিশেষ প্রতিবেদক ঢাকাহামলা-ভাঙচুরের পর বন্ধ রাখা হয়েছে মহাখালীর দূরবীন বাংলা রেস্তোরাঁ। আজ শুক্রবার দুপুরের চিত্রছবি: সংগৃহীতখাবারের জন্য সিরিয়ালকে কেন্দ্র করে রাজধানীর মহাখালীর আলোচিত ‘দূরবীন বাংলা’ রেস্তোরাঁয় হামলা চালিয়ে ভাঙচুর করেছে একদল যুবক। তাঁরা মহাখালীর সরকারি তিতুমীর কলেজের শিক্ষার্থী বলে পুলিশ জানিয়েছে।আজ শুক্রবার বেলা ১১টার দিকে মহাখালীর আমতলী এলাকায় তিতুমীর কলেজের কাছে সড়কের উল্টো…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/crime/hrwec4ig4j",
+          "author": "বিশেষ প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-13%2Fd6g8nqgh%2F00-5.jpg?rect=0%2C180%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সন্ধ্যা ৬:৪৫"
+        },
+        {
+          "headline": "পতিত স্বৈরাচারকে রাজনীতি কিংবা সন্ত্রাসের সুযোগ দেবে না দেশের মানুষ: আইনমন্ত্রী",
+          "excerpt": "0",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/video/bangladesh/bjbf8akwzk",
+          "author": "ভিডিও ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-13%2F331bt2fx%2FWEB.jpg?rect=0%2C0%2C1920%2C1008&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2022-01%2F5a36c819-05a2-4bfb-ac50-57dd67355acb%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সন্ধ্যা ৬:২০"
+        },
+        {
+          "headline": "ইরানের সঙ্গে যুদ্ধে ট্রাম্পের পিছু হটার ইঙ্গিত",
+          "excerpt": "0",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/video/bangladesh/uowidpj2zh",
+          "author": "ভিডিও ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-13%2Fj63z6hrr%2FWEB.jpg?rect=0%2C0%2C800%2C420&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2022-01%2F5a36c819-05a2-4bfb-ac50-57dd67355acb%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সন্ধ্যা ৬:১৮"
+        },
+        {
+          "headline": "গণিত অলিম্পিয়াডের প্রস্তুতি: মুখস্থ নয়, মাথা খাটাও",
+          "excerpt": "সাঈম সাদাত ছোট্ট বন্ধুরা, গণিত উৎসব ২০২৭-এর নিবন্ধন শুরু হয়েছে। আর এখনই তোমাদের কাছ থেকে তিনটি প্রশ্ন সবচেয়ে বেশি আসছে: প্রশ্ন কেমন হয়? সিলেবাস কী? কোন বই পড়ব?ছোট করে উত্তরটা হলো: বাঁধাধরা কোনো সিলেবাস নেই, প্রশ্ন আসে চিন্তা করার মতো সমস্যা হিসেবে, আর প্রস্তুতির শুরু তোমার নিজের শ্রেণির গণিত বই থেকেই। এবার একটু গুছিয়ে বলি।এ বছরের জুলাইয়ে চীনের সাংহাইয়ে ৬৭তম আন্তর্জাতিক গণিত অলিম্পিয়াডে…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/qyn2szuksl",
+          "author": "সাঈম সাদাত",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-13%2Fciwupsoc%2FGonit.jpg?rect=0%2C79%2C1080%2C567&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সন্ধ্যা ৬:০৬"
+        },
+        {
+          "headline": "বনানীর ‘ডুন’ রেস্তোরাঁ কেন এত ভাইরাল",
+          "excerpt": "ধরুন, এক বিকেলে শহরের যান্ত্রিকতা আর ভালো লাগছে না। মনে হলো, একটু যদি প্রকৃতির মাঝে ডুব দেওয়া যেত? ঠিক তখনই নিউজফিডে ভেসে এল শহরের মাঝে গড়ে ওঠা এক মরুগুহার ছবি। কী? শুনতে অবাক লাগছে? কাণ্ডটা করেছে বনানীতে অবস্থিত সামাজিক মাধ্যমে ভাইরাল রেস্তোরাঁ ডুন ঢাকায়।জাহিন যাঈমাহ্ কবির এই রেস্তোরাঁয় ঢুকলে মনে হবে বনানী নয়, বরং আছেন কোনো এক মরুভূমিতেছবি: কবির হোসেনডুনে ঢুকে প্রথমেই মনে হবে, বালুরঙা  গহিন এক…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/lifestyle/recipe/12kow8kbd3",
+          "author": "জাহিন যাঈমাহ্ কবির",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-12%2Fx9w8fgs8%2FLABL5501.JPG?rect=0%2C0%2C6720%2C3528&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সন্ধ্যা ৬:০০"
+        },
+        {
+          "headline": "‘পোলাপান চালানোর জন্য চাঁদা দেবেন, নইলে যেখানে পাব গুলি করব’",
+          "excerpt": "ইসলামী ফ্রন্ট নেতাকে হুমকি ‘পোলাপান চালানোর জন্য চাঁদা দেবেন, নইলে যেখানে পাব গুলি করব’প্রতিনিধি রাউজান, চট্টগ্রামইলিয়াস নুরীছবি: সংগৃহীত‘পোলাপান চালানোর জন্য আপনাকে চাঁদা দিতে হবে, ১৫ মিনিটের মধ্যে এই বিকাশ নম্বরে চাঁদা দেবেন, নইলে যেখানে পাব গুলি করব।’ চট্টগ্রামের রাউজানে একটি রাজনৈতিক দলের নেতাকে মুঠোফোনে কল করে এভাবে চাঁদার জন্য হুমকি দেওয়ার অভিযোগ উঠেছে। হুমকির বিষয়ে থানায় অভিযোগ করেছেন…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/district/jxk8ipc94k",
+          "author": "প্রতিনিধি",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-13%2F5yf7hqq5%2FWhatsApp-Image-2026-11-13-at-4.12.07-PM.jpeg?rect=0%2C178%2C1176%2C617&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "বিকাল ৫:৩২"
+        },
+        {
+          "headline": "জীবনসংগ্রাম পেরিয়ে উচ্চশিক্ষার পথে মো. সাকিব হাসান",
+          "excerpt": "সাফল্য জীবনসংগ্রাম পেরিয়ে উচ্চশিক্ষার পথে মো. সাকিব হাসাননিজস্ব প্রতিবেদক রাজশাহী আলোর পাঠশালার সাবেক শিক্ষার্থী মো. সাকিব হাসান।জীবনের নানা প্রতিকূলতা আর চরম সংগ্রামকে পেছনে ফেলে উচ্চশিক্ষার পথে আরও এক ধাপ এগিয়ে গেলেন প্রথম আলাে ট্রাস্ট পরিচালিত রাজশাহী আলোর পাঠশালার সাবেক শিক্ষার্থী মো. সাকিব হাসান। সম্প্রতি রাজশাহী মসজিদ মিশন একাডেমি থেকে মানবিক বিভাগে এইচএসসি পরীক্ষায় জিপিএ-৩.০৮ পেয়ে…",
+          "source": "Prothom Alo",
+          "link": "https://trust.prothomalo.com/activities/alor-school/5pnfvrq43e",
+          "author": "নিজস্ব প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-10%2Fficn67rj%2Fhaasan.jpg?rect=0%2C145%2C859%2C451&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2021-04%2Ffdb4c5e9-73c2-4121-9990-4feb270f5106%2Ftrust.png&overlay_position=bottom&overlay_width_pct=1",
+          "time": "বিকাল ৫:৩০"
+        },
+        {
+          "headline": "জলসিঁড়ির ফোর্টিস প্ল্যাটিনাম লাউঞ্জে চলছে উইন্টার ওয়েলনেস ফেস্ট",
+          "excerpt": "শহরের চেনা ব্যস্ততা থেকে একটু বিরতি নিয়ে খোলা আকাশের নিচে নিজের জন্য সময় কাটানোর আয়োজন। কেউ যোগব্যায়াম করছেন, কেউ নাচে মেতেছেন, আবার কেউ ছবি আঁকছেন কিংবা নতুন মানুষের সঙ্গে পরিচিত হচ্ছেন। শরীরচর্চার পাশাপাশি গান, সৃজনশীল কর্মকাণ্ড, মানসিক স্বাস্থ্য নিয়ে আলোচনা ও দেশি উদ্যোক্তাদের পণ্য নিয়ে সাজানো হয়েছে পুরো আয়োজন। জলসিঁড়ির ফোর্টিস প্ল্যাটিনাম লাউঞ্জে চলছে তিন দিনের ‘উইন্টার ওয়েলনেস ফেস্ট’। আজ…",
+          "source": "Prothom Alo",
+          "link": "https://www.haal.fashion/arrangement/event/r7yljrp4lb",
+          "author": "হাল ফ্যাশন ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-13%2Fg589pbrm%2Fflowfestherowide1300x732.jpg?rect=0%2C0%2C1300%2C683&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2023-10%2Fdf4c7d13-96dc-4875-b8bf-5aac7b6aa475%2FHaalfashion_gpi_sample3.png&overlay_position=bottom&overlay_opacity=1&w=1200&h=627&auto=format%2Ccompress&ogImage=true&overlay_width_pct=1",
+          "time": "বিকাল ৫:২২"
+        },
+        {
+          "headline": "অমর্ত্য সেনের মানব উন্নয়নচিন্তা",
+          "excerpt": "উন্নয়ন বলতে কি কেবল আয় বৃদ্ধি, অর্থনৈতিক প্রবৃদ্ধি কিংবা সম্পদের সঞ্চয় বোঝায়? নাকি মানুষের স্বাধীনতা, সক্ষমতা, মর্যাদা ও পছন্দমতো জীবন বেছে নেওয়ার সুযোগও উন্নয়নের মাপকাঠি? এ প্রবন্ধে অমর্ত্য সেনের সক্ষমতা তত্ত্বের আলোকে মানব উন্নয়নের ধারণা, দর্শন ও তাৎপর্য বিশ্লেষণ করা হয়েছে।সেলিম জাহান অমর্ত্য সেনের প্রতিকৃতি অবলম্বনেগ্রাফিকস: প্রথম আলোএ কথা বলার অপেক্ষা রাখে না যে আমাদের সমসাময়িক কালে বিশ্বের…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/onnoalo/treatise/3c8tfb5efq",
+          "author": "সেলিম জাহান",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-13%2Fesusdkde%2FOnnoalo-Th.jpg?rect=0%2C62%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "বিকাল ৫:২২"
+        },
+        {
+          "headline": "সমাধিতে লেখা প্রেমের গল্প",
+          "excerpt": "অন্য রকম সমাধিতে লেখা প্রেমের গল্পপল্লব চক্রবর্তী নেত্রকোনাএকই সমাধিতে সিরিল জেমস মূর ও তাঁর প্রেমিকা এডনা। পাশের সমাধিতে এডনার ভাই রোন্যাল্ড চেস্টারটন পটার। মোহনগঞ্জের কুলপতাক ব্যাপ্টিস্ট চার্চের আঙিনায়। সম্প্রতি তোলাছবি: প্রথম আলোপ্রেমের এক করুণ স্মৃতি বয়ে বেড়াচ্ছে নেত্রকোনার মোহনগঞ্জ উপজেলার কুলপতাক গ্রামের একটি ব্যাপ্টিস্ট চার্চ। চার্চের আঙিনায় পাশাপাশি শুয়ে আছেন অস্ট্রেলিয়ার নাগরিক সিরিল…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/87vdf59z47",
+          "author": "পল্লব চক্রবর্তী",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-12%2F3jgnjw82%2FWhatsApp-Image-2026-11-12-at-11.49.11-PM.jpeg?rect=0%2C30%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "বিকাল ৫:২০"
+        },
+        {
+          "headline": "ঘরের ওপর উল্টে পড়ল বালুবোঝাই ট্রাক, ঘুমন্ত শিশু নিহত, আহত অন্তঃসত্ত্বা মা",
+          "excerpt": "সংবাদদাতা রংপুরভোরে বালুবোঝাই ট্রাক ঘরের ওপর উল্টে পড়লে ঘুমন্ত এক শিশু নিহত হয়েছে। আহত হয়েছে তার মা। আজ বিকেলে রংপুর নগরের পশ্চিম খাসবাগ এলাকায়।ছবি: প্রথম আলোরংপুর নগরীতে বালুবোঝাই একটি ডাম্প ট্রাক নিয়ন্ত্রণ হারিয়ে সড়কের পাশে বসতঘরে উল্টে পড়লে চাপা পড়ে ওই ঘরের ঘুমন্ত অবস্থায় এক শিশু নিহত হয়েছে। আহত হয়েছেন তার অন্তঃসত্ত্বা মা। আজ শুক্রবার ভোর চারটার দিকে রংপুর নগরীর ৩০ নম্বর ওয়ার্ডের পশ্চিম…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/district/p0hxmad34s",
+          "author": "সংবাদদাতা",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-13%2Frf41725y%2Frangpurdh049420261113img9863.jpg?rect=0%2C351%2C3472%2C1823&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "বিকাল ৫:১৮"
+        },
+        {
+          "headline": "এইচএসসির সম্পূরক পরীক্ষার্থীদের জন্য ঢাবি, জাবি ও বুয়েট বাদ, ভর্তির সুযোগ পাবেন যেসব বিশ্ববিদ্যালয়ে",
+          "excerpt": "মোশতাক আহমেদ ঢাকাবিশ্ববিদ্যালয়ের ভর্তি পরীক্ষাফাইল ছবিঅবশেষে অধিকাংশ বিশ্ববিদ্যালয়ই এইচএসসিতে সম্পূরক (সাপ্লিমেন্টারি) পরীক্ষায় উত্তীর্ণ শিক্ষার্থীদের স্নাতকে (সম্মান) ভর্তি পরীক্ষায় অংশগ্রহণের সুযোগ দিচ্ছে। এ সুযোগ রেখেই বিশ্ববিদ্যালয়গুলো ভর্তি পরীক্ষার সময়সূচিতে পরিবর্তন আনছে বা আয়োজন করছে। তবে ঢাকা বিশ্ববিদ্যালয় ও বাংলাদেশ প্রকৌশল বিশ্ববিদ্যালয়ের (বুয়েট) মতো কোনো কোনো বিশ্ববিদ্যালয় সম্পূরক…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/3ettfmdpdg",
+          "author": "মোশতাক আহমেদ",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2025-01-12%2Fa3u1fz68%2FAZI8550.JPG?rect=0%2C0%2C3871%2C2032&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "বিকাল ৫:১৮"
+        },
+        {
+          "headline": "বঙ্গভবনে রাঙামাটির শিক্ষার্থীরা",
+          "excerpt": "টেলিভিশনের পর্দায় যাকে দেখেছে এত দিন, সেই রাষ্ট্রপতিকে এবার সামনাসামনি দেখার সুযোগ পেল রাঙামাটির লেকার্স পাবলিক স্কুল অ্যান্ড কলেজের শিক্ষার্থীরা। বৃহস্পতিবার ৩২ শিক্ষার্থী ও চার শিক্ষক বঙ্গভবন ঘুরে দেখে। তোশাখানা জাদুঘর, এয়ার রেইড শেল্টার ও বিভিন্ন ঐতিহাসিক স্থাপনা পরিদর্শনের পর দরবার হলে রাষ্ট্রপতি মির্জা ফখরুল ইসলাম আলমগীরের সঙ্গে সাক্ষাৎ করে তারা। রাষ্ট্রপতি শিক্ষার্থীদের সঙ্গে কথা বলেন,…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/photo/bangladesh/bu2rao0i7r",
+          "author": "সাজিদ হোসেন",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-13%2Ff7n7e7kc%2FBongo-Bhobon05.jpg?rect=0%2C178%2C6000%2C3150&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2022-01%2F18c58c05-9e66-46f3-8946-4437460f8f90%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "বিকাল ৫:১৭"
+        },
+        {
+          "headline": "তুরস্কের সঙ্গে বাংলাদেশের সম্পর্ক নতুন মাত্রায়, নেপথ্যে কী?",
+          "excerpt": "0পরবর্তী ভিডিওভিডিও থেকে আরও দেখুনকূটনৈতিক সম্পর্কতুরস্ক",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/video/bangladesh/p2bomb0n6v",
+          "author": "ভিডিও ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-13%2Fsujgc5km%2FWEB-.jpg?rect=0%2C0%2C800%2C420&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2022-01%2F5a36c819-05a2-4bfb-ac50-57dd67355acb%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "বিকাল ৫:০৮"
+        },
+        {
+          "headline": "গোপালগঞ্জে দুর্ঘটনায় সংসদ সদস্যের গাড়িবহরে থাকা বিএনপি নেতার মৃত্যু",
+          "excerpt": "প্রতিনিধি গোপালগঞ্জদুর্ঘটনাকবলিত প্রাইভেট কার। আজ শুক্রবার সকালে গোপালগঞ্জের মুকসুদপুরে ঢাকা–বরিশাল মহাসড়কের বরইতলা বাসস্ট্যান্ড এলাকায়ছবি: সংগৃহীতগোপালগঞ্জের মুকসুদপুরে ঢাকা–বরিশাল মহাসড়কে পরপর ১০টি যানবাহন দুর্ঘটনার কবলে পড়লে শতাধিক যাত্রী আহত হন। তাঁদের মধ্যে গুরুতর আহত স্থানীয় বিএনপি নেতা ইলিয়াস কাজী ঢাকার একটি বেসরকারি হাসপাতালে মারা গেছেন। আজ শুক্রবার সকাল সাড়ে ১০টার দিকে উপজেলার…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/district/92rw5t5hax",
+          "author": "প্রতিনিধি",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-13%2Fkgxl0lza%2Fgopalgonj.jpg?rect=0%2C0%2C1599%2C839&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "বিকাল ৫:০৭"
+        },
+        {
+          "headline": "জুবা",
+          "excerpt": "ছবি: এআই/বন্ধুসভাতেঁতুলিয়া নদীর একটি পরিচিতি আছে। দেশের মানুষ কমবেশি সবাই জানে। কিন্তু এর স্বভাব সম্পর্কে জানে কেবল তারাই যারা এটা পার হয়েছে। বরিশাল থেকে ভোলার পথে নদীর মাঝামাঝি কালাবদর এলাকায় পৌঁছলেই হঠাৎ বদলে যায় এর চেহারা। শান্ত জল যেন মুহূর্তেই অশান্ত হয়ে ওঠে। ঢেউগুলো দাঁড়াশ সাপের ফণার মতো মাথা তোলে, গর্জন করতে করতে লঞ্চের গায়ে আছড়ে পড়ে। অভিজ্ঞ যাত্রীরাও তখন চুপ হয়ে যায়। কেউ…",
+          "source": "Prothom Alo",
+          "link": "https://www.bondhushava.com/writings/avw5wzrk0p",
+          "author": "লেখা:",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-12%2F34o52q1e%2FMelancholy-at-the-Riverside-Ghat.png?rect=0%2C163%2C1448%2C760&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2022-05%2Feb8b952a-4710-4bb3-a408-066b4bbbd9a8%2FFinal_Bondhushava_OG_watermark_01.png&overlay_position=bottom&overlay_width_pct=1",
+          "time": "বিকাল ৫:০০"
+        },
+        {
+          "headline": "পিতা-পুত্র দুই নবীর রাজ্য শাসন",
+          "excerpt": "কোরআনের কথা পিতা-পুত্র দুই নবীর রাজ্য শাসন মাহমুদ হাসান ফাহিম ছবি: ম্যাগনিফিকপবিত্র কোরআনে এক পিতা-পুত্রের শাসনজীবনের কথা উঠে এসেছে, যাঁরা নবী ছিলেন, পাশাপাশি রাজত্বও পরিচালনা করেছেন। তাঁরা হলেন নবী দাউদ ও সোলাইমান (আ.)।তাঁদের জীবন ও শাসনব্যবস্থায় রয়েছে একজন আদর্শ শাসকের জন্য অনুসরণীয় বহু শিক্ষা।প্রজ্ঞা ও ন্যায়বিচারের মেলবন্ধন\n\nজ্ঞান ও প্রজ্ঞাহীন ক্ষমতা অনেক সময় অন্যায় ও বিশৃঙ্খলার কারণ হয়ে…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/religion/islam/i8p162i862",
+          "author": "মাহমুদ হাসান ফাহিম",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-10%2Fqsy487bp%2Fmajestic-mosque-islamic-new-year-celebration-with-fantasy-architecture.jpg?rect=0%2C381%2C5376%2C2822&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "বিকাল ৫:০০"
+        },
+        {
+          "headline": "ককটেলের সঙ্গে চিরকুট—এরপরও যদি না থামিস তো পথে মারা যাবি",
+          "excerpt": "যশোর অফিস যশোর সদর উপজেলার ছাতিয়ানতলা গ্রামে স্থানীয় এক বিএনপি নেতার বাড়ি থেকে অবিস্ফোরিত ককটেল ও চিরকুট উদ্ধার করে পুলিশছবি: প্রথম আলোযশোরে ইউনিয়ন বিএনপির এক নেতার বাড়ির উঠান থেকে দুটি অবিস্ফোরিত ককটেল ও একটি চিরকুট উদ্ধার করেছে পুলিশ। চিরকুটে তাঁকে হত্যার হুমকি দেওয়া হয়েছে। আজ শুক্রবার সকালে সদর উপজেলার ছাতিয়ানতলা গ্রামে এ ঘটনা ঘটে। বিএনপির ওই নেতার নাম শিমুল হোসেন। তিনি চুড়ামনকাটি…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/district/cuqlahoon8",
+          "author": "যশোর অফিস",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-13%2Fh0itvh3g%2Fjessore.jpg?rect=0%2C0%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "বিকাল ৪:৪৮"
+        },
+        {
+          "headline": "নুসরাতের বাড়িতে স্বরাষ্ট্র মন্ত্রণালয়ের তদন্ত কমিটি",
+          "excerpt": "নিজস্ব প্রতিবেদক কুষ্টিয়াজাতীয় নাগরিক পার্টির নেত্রী ও সংসদ সদস্য নুসরাত তাবাসসুমের পৈতৃক বাড়িতে আগুনের ঘটনায় তদন্ত শুরু করেছে স্বরাষ্ট্র মন্ত্রণালয়ের গঠিত কমিটি। আজ শুক্রবার দুপুরেছবি প্রথম আলোকুষ্টিয়ায় জাতীয় নাগরিক পার্টির (এনসিপি) নেত্রী ও জাতীয় সংসদে সংরক্ষিত নারী আসনের সদস্য নুসরাত তাবাসসুমের পৈতৃক বাড়িতে আগুনের ঘটনায় তদন্ত শুরু করেছে স্বরাষ্ট্র মন্ত্রণালয়ের গঠিত কমিটি। আজ শুক্রবার…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/district/rxgwrsdpl7",
+          "author": "নিজস্ব প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-13%2F2vpaxxtt%2Fkushtia.jpg?rect=0%2C0%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "বিকাল ৪:৪১"
+        },
+        {
+          "headline": "মোদি সরকার এখন কী করবে",
+          "excerpt": "ভারতের প্রধান নির্বাচন কমিশনার (সিইসি) জ্ঞানেশ কুমারের পদত্যাগের দাবিতে 'ইন্ডিয়া' জোটের ডাকা বিক্ষোভে রামলীলা ময়দানে নেতা–কর্মী ও সমর্থকেরা। নয়াদিল্লি, ০১ নভেম্বর, ২০২৬ছবি: এএনআইভারতে গ্রীষ্মকালজুড়ে অসন্তোষের পর এবার শুরু হয়েছে রাজনৈতিক সংকটের নতুন অধ্যায়। জুন ও জুলাই মাসে প্রচণ্ড গরমের মধ্যে শিক্ষাব্যবস্থার সংস্কারের দাবিতে রাজপথে নেমেছিল তরুণেরা। আন্দোলনের তীব্রতা এতটাই বেড়েছিল যে ক্ষমতাসীন…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/opinion/column/holzz23wn9",
+          "author": "শশী থারুর",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-01%2F0lxop7gl%2FRamlilaCongress.jpg?rect=0%2C66%2C1296%2C680&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-09-22%2F5lwyn5je%2Fdefaultog.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "বিকাল ৪:৪০"
+        },
+        {
+          "headline": "খালেদা জিয়ার মৃত্যুবার্ষিকী উপলক্ষে নাগরিক স্মরণসভা ২৮ ডিসেম্বর, স্মারকগ্রন্থের জন্য লেখা আহ্বান",
+          "excerpt": "বাসস ঢাকাসাবেক প্রধানমন্ত্রী খালেদা জিয়াফাইল ছবিসাবেক প্রধানমন্ত্রী খালেদা জিয়ার প্রথম মৃত্যুবার্ষিকী উপলক্ষে আগামী ২৮ ডিসেম্বর জাতীয় সংসদ ভবনের দক্ষিণ প্লাজায় নাগরিক স্মরণসভার আয়োজন করা হচ্ছে। নাগরিক সমাজের উদ্যোগে আয়োজিত এই স্মরণসভায় রাষ্ট্রপতি, প্রধানমন্ত্রী ও খালেদা জিয়ার পরিবারের সদস্যরা উপস্থিত থাকবেন বলে আশা করা হচ্ছে। আজ শনিবার নাগরিক সমাজের পক্ষে জাতীয় অধ্যাপক মাহবুব উল্লাহ স্বাক্ষরিত…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/politics/75yy2og93i",
+          "author": "বাসস",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2025-12-27%2Fkw4fwzcx%2FKhaleda.jpg?rect=0%2C26%2C1080%2C567&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2022-01%2F5a36c819-05a2-4bfb-ac50-57dd67355acb%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "বিকাল ৪:৩৩"
+        },
+        {
+          "headline": "গাজী নজরুলের আসনে উপনির্বাচনের দাবিতে গণস্বাক্ষর কর্মসূচি, কী বলছে জামায়াত",
+          "excerpt": "প্রতিনিধি সাতক্ষীরাগাজী নজরুল ইসলামছবি : সংগৃহীতসাতক্ষীরা–৪ (শ্যামনগর) আসনের সংসদ সদস্য (এমপি) গাজী নজরুল ইসলামের সংসদ সদস্য পদ শূন্য ঘোষণা করে উপনির্বাচন দেওয়ার দাবিতে গণস্বাক্ষর কর্মসূচি শুরু করেছে একটি পক্ষ। ‘সচেতন নাগরিক সমাজ’ নামে তারা উপজেলার ১১টি ইউনিয়ন ও একটি পৌরসভার ১০৮টি ওয়ার্ড থেকে গণস্বাক্ষর সংগ্রহ করে স্পিকার ও নির্বাচন কমিশন বরাবর স্মারকলিপি দেওয়ার ঘোষণা দিয়েছে।অন্যদিকে এ বিষয়ে…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/district/uvsf89mfzz",
+          "author": "প্রতিনিধি",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-07-23%2Fy1g30nhr%2Fgazi_nazrul_islam_satkhira.jpg?rect=0%2C14%2C1200%2C630&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "বিকাল ৪:২৬"
+        },
+        {
+          "headline": "সোমবার মজুরি প্রস্তাব দেবে মালিকপক্ষ, বিক্ষোভও হচ্ছে",
+          "excerpt": "তৈরি পোশাকশিল্প সোমবার মজুরি প্রস্তাব দেবে মালিকপক্ষ, বিক্ষোভও হচ্ছেনিজস্ব প্রতিবেদক ঢাকাপোশাক কারখানাফাইল ছবিশ্রমিকপক্ষের ৩২ হাজার টাকার ন্যূনতম মজুরি প্রস্তাবের বিপরীতে নিম্নতম মজুরি বোর্ডে আগামী সোমবার মজুরি প্রস্তাব দেবেন মালিকপক্ষের প্রতিনিধি। এদিকে মজুরি পুনর্নির্ধারণ প্রক্রিয়া চলমান থাকলেও তৈরি পোশাক শ্রম পরিস্থিতি পুরোপুরি শান্ত হচ্ছে না। গাজীপুরের কালিয়াকৈর উপজেলার কয়েকটি কারখানার…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/business/economics/5u64q4kcaw",
+          "author": "নিজস্ব প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-09-16%2Fwy3kxo8v%2Ff53de3352f7d2b4a7427fb0c4e77776c_5e12e8119fc54.jpg?rect=0%2C20%2C1200%2C630&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "বিকাল ৪:১৯"
+        },
+        {
+          "headline": "নিয়োগ পরীক্ষার ১০ মিনিট আগে স্থগিত, ৩০ লাখ টাকা ঘুষের অভিযোগ",
+          "excerpt": "প্রতিনিধি জয়পুরহাটজয়পুরহাটের কালাই ডিগ্রি কলেজের হিসাব সহকারী পদে নিয়োগ পরীক্ষার কেন্দ্র জয়পুরহাট সরকারি মহিলা কলেজ। সম্প্রতি তোলাছবি: প্রথম আলোজয়পুরহাটের কালাই ডিগ্রি কলেজের হিসাব সহকারী পদে নিয়োগ পরীক্ষা শুরুর মাত্র ১০ মিনিট আগে স্থগিত করা হয়েছে। পরীক্ষার আগের রাতে এ পদে নিয়োগের জন্য এক প্রার্থীর কাছ থেকে ৩০ লাখ টাকা ঘুষ নেওয়ার অভিযোগ সামাজিক যোগাযোগমাধ্যমে ছড়িয়ে পড়েছিল।আজ শুক্রবার সকাল ১০টায়…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/district/flvkk24amj",
+          "author": "প্রতিনিধি",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-13%2Fcymmahax%2Fjoypurhatdh061820261113img-20261113-wa0022-1.jpg?rect=0%2C2%2C1034%2C543&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "বিকাল ৪:১৪"
+        },
+        {
+          "headline": "‘চোখের সামনে ছেলেটা মারা গেল, আমি তো শেষ হয়ে গেলাম’",
+          "excerpt": "আব্দুর রাজ্জাক পটিয়া, চট্টগ্রামনিহত শেখ আবদুল্লাহছবি: সংগৃহীত‘আমার পাঁচ মেয়ে। একমাত্র ছেলে ছিল সে। একমাত্র ভাই হিসেবে আমার মেয়েদের কাছেও সে ছিল কলিজার টুকরা। তাকে নিয়ে কত আশা–ভরসা যে ছিল। চোখের সামনে ছেলেটা মারা গেল, আমি তো শেষ হয়ে গেলাম।’ কান্না করতে করতে কথাগুলো বলছিলেন মোহাম্মদ সোহেল। গতকাল বৃহস্পতিবার সকালে তাঁর সামনেই বিদ্যুৎস্পৃষ্ট হয়ে মারা গেছে একমাত্র ছেলে শেখ আবদুল্লাহ (১১)। বাড়ির উঠানে…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/district/3posq6q7zp",
+          "author": "আব্দুর রাজ্জাক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-13%2Fllrv2voo%2FAbdullah.jpg?rect=0%2C36%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "বিকাল ৪:০২"
+        },
+        {
+          "headline": "৫০ পেরিয়েও ‘মেইওয়াকু’ পদ্ধতি মেনে জাপানিরা যেভাবে সফল হন",
+          "excerpt": "‘কুড়িতেই বুড়ি’—এ ধারণা অনেক আগেই বদলেছে। কিন্তু ৫০ পেরোলেই যেন মাথায় ভর করে বার্ধক্য। শরীরের সঙ্গে সঙ্গে মনও যেন বুড়িয়ে যেতে থাকে। নিজেকে মনে হতে থাকে অচল আর মনে হয় যেন সমাজ ও পরিবারের বোঝা হয়ে যাচ্ছি। কিন্তু এ থেকে একেবারেই ব্যতিক্রম জাপানের প্রবীণেরা।তাশমিন নাহার জাপানের অনেক প্রবীণ বয়সের কাছে হার মানতে নারাজছবি: পেক্সেলসজাপান বর্তমানে বিশ্বের অন্যতম বয়স্ক জনসংখ্যার দেশ। কিন্তু দেশটির অনেক…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/lifestyle/relation/tch4nrknyx",
+          "author": "তাশমিন নাহার",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-12%2F0pf9xg14%2Fpexels-nakajima-benjamin-495853268-16125359.jpg?rect=0%2C0%2C4368%2C2293&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "বিকাল ৪:০০"
+        },
+        {
+          "headline": "হলুদ-লাল পাতায় সাজছে মিজুলা, হেমন্তের হাত ধরে আসছে শীত",
+          "excerpt": "যুক্তরাষ্ট্রের মন্টানা অঙ্গরাজ্যের ছোট্ট শহর মিজুলায় এখন হেমন্ত। শহরের রাস্তা, পার্ক, পাহাড়ের ঢাল আর ইউনিভার্সিটি অব মন্টানার ক্যাম্পাস ছেয়ে গেছে হলুদ, কমলা ও লাল পাতায়। গাছের ডাল থেকে ঝরে পড়া পাতায় তৈরি হয়েছে রঙিন পথ। হালকা বাতাসে পাতার উড়ে বেড়ানো আর পায়ের নিচে মচমচ শব্দ—সব মিলিয়ে প্রকৃতি যেন সাজিয়েছে নিজের এক মায়াবী ক্যানভাস।মিজুলার হেমন্তের সৌন্দর্য সবচেয়ে বেশি চোখে পড়ে ইউনিভার্সিটি অব…",
+          "source": "Prothom Alo",
+          "link": "https://www.haal.fashion/travel/abroad/asigk3ghpn",
+          "author": "হাল ফ্যাশন ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-12%2F10vrkkme%2FWhatsApp-Image-2026-11-06-at-10.22.58-AM-2.jpeg?rect=0%2C30%2C1600%2C840&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2023-10%2Fdf4c7d13-96dc-4875-b8bf-5aac7b6aa475%2FHaalfashion_gpi_sample3.png&overlay_position=bottom&overlay_opacity=1&w=1200&h=627&auto=format%2Ccompress&ogImage=true&overlay_width_pct=1",
+          "time": "বিকাল ৪:০০"
+        },
+        {
+          "headline": "টায়ারে আগুন জ্বালিয়ে মহাসড়ক অবরোধ ও বিক্ষোভ কার্যক্রম নিষিদ্ধ আওয়ামী লীগের",
+          "excerpt": "0",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/video/bangladesh/0nv6eyzc7o",
+          "author": "ভিডিও ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-13%2Fsporjsiy%2FWEB.jpg?rect=0%2C0%2C1920%2C1008&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2022-01%2F5a36c819-05a2-4bfb-ac50-57dd67355acb%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "দুপুর ৩:৫৬"
+        },
+        {
+          "headline": "ব্যাটারিচালিত রিকশার নিবন্ধন পেতে লাগবে বাড়তি চার তথ্য, চলবে নির্দিষ্ট এলাকায়",
+          "excerpt": "ডিএনসিসি ব্যাটারিচালিত রিকশার নিবন্ধন পেতে লাগবে বাড়তি চার তথ্য, চলবে নির্দিষ্ট এলাকায়নিজস্ব প্রতিবেদক ঢাকাবুয়েটের নকশা করা ব্যাটারিচালিত রিকশাফাইল ছবি: প্রথম আলোব্যাটারিচালিত রিকশার (ই–রিকশা) নিবন্ধনে আবেদনকারীর কাছ থেকে বাড়তি চার ধরনের তথ্য নেওয়ার সিদ্ধান্ত নিয়েছে ঢাকা উত্তর সিটি করপোরেশন। আবেদনকারী কোন এলাকার বাসিন্দা, তাঁর পেশা কী, মাসিক আয় কত এবং তিনি নিজেই ই–রিকশা চালাবেন কি না—এসব তথ্য…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/ewelroewuc",
+          "author": "নিজস্ব প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2025-06-27%2Fze3m3ec2%2FBuet-Rikshaw-01.jpeg?rect=0%2C144%2C1280%2C672&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "দুপুর ৩:৫৪"
+        },
+        {
+          "headline": "ক্যানসার চিকিৎসায় নতুন ইনস্টিটিউটসহ মলিকুলার বায়োলজি ল্যাব করবে সরকার: স্বাস্থ্য প্রতিমন্ত্রী",
+          "excerpt": "নিজস্ব প্রতিবেদক ঢাকাস্বাস্থ্য প্রতিমন্ত্রী এম এ মুহিত। আজ শুক্রবার ষষ্ঠ বাংলাদেশ ব্রেস্ট ক্যানসার কনফারেন্স–২০২৬–এর উদ্বোধনী অনুষ্ঠানেছবি: প্রথম আলোস্তন ক্যানসারের চিকিৎসায় আধুনিক প্রযুক্তি ও দক্ষ জনবল তৈরির ওপর সরকার গুরুত্ব দিচ্ছে বলে জানিয়েছেন স্বাস্থ্য প্রতিমন্ত্রী এম এ মুহিত। তিনি বলেছেন, ক্যানসারের চিকিৎসায় মলিকুলার বায়োলজির বিভিন্ন কৌশল গুরুত্বপূর্ণ ভূমিকা রাখছে। এ কারণে সরকার জাতীয়…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/o81j2ewqch",
+          "author": "নিজস্ব প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-13%2Fjpty4qq1%2FM-A-Mohit.jpeg?rect=0%2C117%2C1040%2C546&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "দুপুর ৩:৫৪"
+        }
+      ],
+      "Entertainment": [
+        {
+          "headline": "চীনের বাজারে ‘রামায়ণ’-এর সম্ভাবনা বাড়ছে, ভারতে ঝড় চলছেই",
+          "excerpt": "বিনোদন ডেস্ক ‘রামায়ণ’-এর পোস্টার থেকে। আইএমডিবিবিশ্বজুড়ে হাজার কোটি রুপির ব্যবসা—যেকোনো ভারতীয় সিনেমার জন্যই এটি ঈর্ষণীয় সাফল্য। কিন্তু নিতেশ তিওয়ারির ‘রামায়ণ’-এর ক্ষেত্রে এই সাফল্যও যেন যথেষ্ট নয়। রণবীর কাপুর, যশ ও সাই পল্লবী অভিনীত ছবিটি মুক্তির আট দিনের মাথায় বিশ্বব্যাপী আয় করেছে ১ হাজার ৩৩ কোটি ৫৫ লাখ রুপি। অথচ দুটি পর্ব মিলিয়ে ছবিটির বাজেট প্রায় ৪ হাজার কোটি রুপি। বিপুল এই বিনিয়োগের বিপরীতে…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/entertainment/bollywood/lz4jgdg8qe",
+          "author": "বিনোদন ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-13%2F9clrpbdp%2FMV5BNWJiMDQxZDEtZjJlMS00NzUyLWJmM2QtNmVlZjMyY2Y0NDg1XkEyXkFqcGc.V1.jpg?rect=0%2C0%2C1552%2C815&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সন্ধ্যা ৭:৩০"
+        },
+        {
+          "headline": "ঘুম ভাঙানো এক গান যেভাবে মন বদলে দিল হুমায়ূন আহমেদের",
+          "excerpt": "সৌমেন্দ্র গোস্বামী ঢাকাহুমায়ূন আহমেদফাইল ছবিকবি হতে চেয়েছিলেন। অথচ নিজেকে কবি বলতে তাঁর ছিল প্রবল সংকোচ। গল্পকার পরিচয়েই স্বচ্ছন্দ ছিলেন হুমায়ূন আহমেদ। কিন্তু তাঁর লেখা গান শুনলে মনে হয়, কবিতার সঙ্গে সম্পর্কটি কখনো ছিন্ন হয়নি। গল্পের মানুষগুলোর সুখ–দুঃখ বলতে বলতে কখন যে নিজের ভেতরের কবিকেও গানে জায়গা করে দিয়েছিলেন, এর সাক্ষী হয়ে আছে তাঁর সৃষ্টিগুলো। আজ ১৩ নভেম্বর হুমায়ূন আহমেদের জন্মদিন। ১৯৪৮…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/entertainment/song/dz9umtzg02",
+          "author": "সৌমেন্দ্র গোস্বামী",
+          "image": "https://media.prothomalo.com/prothomalo%2Fimport%2Fmedia%2F2018%2F07%2F19%2F73d5f27a55b43b60d96a96ce71552722-5b503fa199ecc.jpg?rect=0%2C0%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "দুপুর ৩:১৫"
+        },
+        {
+          "headline": "সাত বছর পর আবার সাবেক স্ত্রীর কাছেই ফিরলেন তিনি",
+          "excerpt": "বিনোদন ডেস্ক প্রিয়া রমন ও রঞ্জিত। এক্স থেকে প্রেম করে বিয়ে। সেই সংসারে দুই সন্তান। এরপর দীর্ঘ দাম্পত্যে ভাঙন, বিচ্ছেদ ও নতুন করে বিয়ে। কিন্তু দ্বিতীয় সংসারও টিকল না। শেষ পর্যন্ত ফিরে গেলেন প্রথম স্ত্রীর কাছেই। দক্ষিণ ভারতীয় অভিনেতা রঞ্জিত ও অভিনেত্রী প্রিয়া রমনের প্রেমের গল্প যেন সিনেমার চিত্রনাট্যকেও হার মানায়। একবার নয়, জীবনে দুবার একই মানুষের প্রেমে পড়েছেন তাঁরা। বিচ্ছেদের পর সাত বছরের দূরত্ব…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/entertainment/bollywood/649cpfmp11",
+          "author": "বিনোদন ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-12%2Fxr9fpdqr%2F3ededf24-8b6d-4bb0-92c5-8d7dc16b862d.jpg?rect=0%2C0%2C1024%2C538&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "বিকাল ৫:৩২"
+        },
+        {
+          "headline": "Humayun Ahmed's birth anniversary celebrated in Netrokona, Kendua",
+          "excerpt": "Published : 13 November 2026\n            \n          \n          •\n                Updated : 13 November 2026, 19:05\n            \n        \n\t\t\n\t\t\t\t\t\t\t\n\t\t\t\n\n\t\tNetrokona Correspondent\n\t\t\t\t\t\n\n\t\t\t\t\t\n\n\t\t\t\n  \n                  \n              \n                  \n\n  \n\n\n\t\t\t\n\t\t\t\t\t\t\tPhoto: STAR\n\t\t\t\t\t\t\n\t\t\t\t\t\nVarious programmes were held across Netrokona district town and his birthplace, Kendua, to mark the…",
+          "source": "The Daily Star Entertainment",
+          "link": "https://www.thedailystar.net/culture/entertainment/news/humayun-ahmeds-birth-anniversary-celebrated-netrokona-kendua-4322941",
+          "author": "Netrokona Correspondent",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/FB_IMG_1794574050329.jpg",
+          "time": "সন্ধ্যা ৭:০৫"
+        },
+        {
+          "headline": "Artemis Danza reimagines 'The Barber of Seville' through contemporary dance",
+          "excerpt": "Published : 13 November 2026\n            \n          \n          •\n                Updated : 13 November 2026, 16:03\n            \n        \n\t\t\n\t\t\t\t\t\t\t\n\t\t\t\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tNusrat Rusha\n\t\t\t\t\t\t\n\t\t\t\t\t\n\n\t\t\t\n  \n                  \n              \n                  \n\n  \n\n\n\t\t\t\n\t\t\t\t\t\t\tPhotos: Nusrat Rusha\n\t\t\t\t\t\t\n\t\t\t\t\t\nItalian comic opera and contemporary dance come together in “IL Barbiere di Siviglia” (The…",
+          "source": "The Daily Star Entertainment",
+          "link": "https://www.thedailystar.net/culture/entertainment/news/artemis-danza-reimagines-the-barber-seville-through-contemporary-dance-4322881",
+          "author": "Nusrat Rusha",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/Artemis%20Danza.png",
+          "time": "বিকাল ৪:০৩"
+        },
+        {
+          "headline": "Exhibitions, concerts, and theatre headline the capital’s cultural calendar today",
+          "excerpt": "Nine events across Dhanmondi, Banani, Uttara, and Segunbagicha offer a varied lineup for city audiences\n      \n  \n\n                  \n              Published : 13 November 2026\n            \n          \n          •\n                Updated : 13 November 2026, 13:36\n            \n        \n\t\t\n\t\t\t\t\t\t\t\n\t\t\t\n\n\t\tArts & Entertainment…",
+          "source": "The Daily Star Entertainment",
+          "link": "https://www.thedailystar.net/culture/entertainment/news/exhibitions-concerts-and-theatre-headline-the-capitals-cultural-calendar-today-4322851",
+          "author": "Arts & Entertainment Desk",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/Untitled%20design.png",
+          "time": "দুপুর ১:৩৬"
+        },
+        {
+          "headline": "Regional flavours find a shared table at ‘Flavourful Bangladesh’",
+          "excerpt": "Published : 13 November 2026\n            \n          \n          •\n                Updated : 13 November 2026, 13:19\n            \n        \n\t\t\n\t\t\t\t\t\t\t\n\t\t\t\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tNaveen Islam Toree\n\t\t\t\t\t\t\n\t\t\t\t\t\n\n\t\t\t\n  \n                  \n              \n                  \n\n  \n\n\n\t\t\t\n\t\t\t\t\t\t\tPhoto: Nusrat Rusha\n\t\t\t\t\t\t\n\t\t\t\t\t\nBangladesh has always been a country of diversity, whether it is its rivers, landscapes,…",
+          "source": "The Daily Star Entertainment",
+          "link": "https://www.thedailystar.net/culture/entertainment/news/regional-flavours-find-shared-table-flavourful-bangladesh-4322841",
+          "author": "Naveen Islam Toree",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/Screenshot%202026-11-13%20at%201.03.08%20PM.png",
+          "time": "দুপুর ১:১৩"
+        },
+        {
+          "headline": "Rafiq Azam's solo exhibition ‘Threshold’ reflects on art, architecture and memory",
+          "excerpt": "Published : 13 November 2026\n            \n          \n          •\n                Updated : 13 November 2026, 13:03\n            \n        \n\t\t\n\t\t\t\t\t\t\t\n\t\t\t\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tShahbaz Nahian\n\t\t\t\t\t\t\n\t\t\t\t\t\n\n\t\t\t\n  \n                  \n              \n                  \n\n  \n\n\n\t\t\t\n\t\t\t\t\t\t\tPhotos: Shahbaz Nahian\n\n\t\t\t\t\t\t\n\t\t\t\t\t\nMohammad Rafiq Azam is among the finest architectural minds to have emerged from…",
+          "source": "The Daily Star Entertainment",
+          "link": "https://www.thedailystar.net/culture/entertainment/news/rafiq-azams-solo-exhibition-threshold-reflects-art-architecture-and-memory-4322831",
+          "author": "Shahbaz Nahian",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/Threshold.png",
+          "time": "দুপুর ১:০৩"
+        }
+      ],
+      "Tech": [
+        {
+          "headline": "মাইক্রোসফটের বিশ্বব্যাপী কারিগরি বিভ্রাটের সম্ভাব্য যে কারণ জানা গেল",
+          "excerpt": "প্রযুক্তি ডেস্ক বিশ্বব্যাপী বড় ধরনের কারিগরি বিভ্রাটের কবলে পড়েছে মাইক্রোসফটফাইল ছবি: রয়টার্সবিশ্বব্যাপী বড় ধরনের কারিগরি বিভ্রাটের কারণে বাংলাদেশসহ প্রায় ৭৪টি দেশে মাইক্রোসফট আউটলুক, মাইক্রোসফট টিমস, কোপাইলটসহ বিভিন্ন সেবা গতকাল বৃহস্পতিবার রাত ১১টা ৩২ মিনিট (বাংলাদেশ সময়) থেকে অচল হয়ে আছে। দীর্ঘ ১৮ ঘণ্টার বেশি সময় বন্ধ থাকলেও বিশ্বের অন্যতম সেরা প্রযুক্তি প্রতিষ্ঠানটি এখন পর্যন্ত সমস্যার…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/technology/z550w5dqjp",
+          "author": "প্রযুক্তি ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-01%2Fok3ndck2%2FS7UYG3JMF5IXZGJJBLNZJ6TL4M.avif?rect=0%2C139%2C1920%2C1008&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সন্ধ্যা ৬:৫৮"
+        },
+        {
+          "headline": "যুক্তরাষ্ট্র ও চীনের প্রযুক্তিপ্রতিষ্ঠানের প্রতি আস্থা কমছে ইউরোপের",
+          "excerpt": "প্রযুক্তি ডেস্ক ইউরোপের বিভিন্ন দেশের নাগরিকেরা নিজেদের ব্যক্তিগত তথ্য দায়িত্বশীলভাবে পরিচালনার ক্ষেত্রে যুক্তরাষ্ট্র ও চীনের প্রযুক্তিপ্রতিষ্ঠানগুলোর ওপর আস্থা রাখেন নাফাইল ছবি: এএফপিযুক্তরাষ্ট্র ও চীনের প্রযুক্তিপ্রতিষ্ঠানের প্রতি আস্থা কমছে ইউরোপে বসবাসকারীদের। আর তাই নিজেদের তথ্য স্থানীয়ভাবে সংরক্ষণ এবং বিদেশি প্রযুক্তির ওপর নির্ভরতা কমাতে কয়েক বছর ধরেই বিভিন্ন উদ্যোগ গ্রহণ করেছে ইউরোপের…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/technology/g0pggmk4j1",
+          "author": "প্রযুক্তি ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-07-29%2Fmlngx8uz%2FEU-Logo-AFP.jpg?rect=0%2C272%2C6316%2C3316&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "বিকাল ৫:৪০"
+        },
+        {
+          "headline": "Rocket Report: Starship set for historic test flight; a century of Electron",
+          "excerpt": "All the news that’s fit to lift\n  \n\n    \n\n    \n\n    \n      “You can simplify it as a big tank feeding engines.”\n    \n\n          \n    \n    \n            \n              \n            \n    \n    \n      Electron goes golden with its 100th launch.\n\n              \n          Credit:\n\n          \n          Rocket Lab\n\n                  \n          \n  \n          \n\n    \n    \n    \n      Electron goes golden…",
+          "source": "Ars Technica",
+          "link": "https://arstechnica.com/space/2026/11/rocket-report-starship-set-for-historic-test-flight-a-century-of-electron/",
+          "author": "Eric Berger",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/electron-livery-1152x648.jpeg",
+          "time": "সন্ধ্যা ৬:০০"
+        },
+        {
+          "headline": "Microsoft’s latest email outage turned into a full blown global cloud crisis",
+          "excerpt": "Microsoft is slowly recovering from its day-long outage after much of the company’s systems were hit by a cascading software issue.\n\n\n\nThe problems, which started Thursday, were initially flagged as affecting the company’s services in the U.S. and the Americas, but quickly spread around the world, as engineers struggled to recover downed servers.\n\n\n\nWhat began as an Outlook email and Teams video…",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/11/13/microsoft-latest-email-outage-turned-into-a-full-blown-global-cloud-crisis/",
+          "author": "Zack Whittaker",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/ms-outage-hero-2304360163.jpg?resize=1200,894",
+          "time": "সন্ধ্যা ৭:১৫"
+        },
+        {
+          "headline": "Apple should have made the MacBook logo RGB",
+          "excerpt": "When Apple CEO John Ternus announced the first touchscreen Mac last month, the biggest reaction in the room wasn’t for the PROLED MacBook Pro’s OLED touchscreen or the thinner and lighter chassis; it was for the illuminated lid logo. It’s a throwback to the light-up logos on the old MacBooks, which Apple started phasing out in 2015, and which were completely gone by the 2018 MacBook Air…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/tech/1032550/apple-macbook-pro-proled-xdr-lid-logo-led-rgb-colors",
+          "author": "Antonio G. Di Benedetto",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268868_Apple_added_LEDs_to_its_logo_on_the_MacBook_Pro_and_now_I_want_RGB_CVirginia.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+          "time": "সন্ধ্যা ৭:০০"
+        },
+        {
+          "headline": "3 Best Walking Pad Treadmills for Homes and Offices (2026)",
+          "excerpt": "Nov 13, 2026 7:34 AMThe Best Walking Pads WIRED Staffers Use During Remote DaysOur remote team clocked serious hours walking, working, and sometimes jogging to find the best under-desk treadmills for home offices and small spaces.Courtesy of UrevoUnlike a bulky and almost always noisy treadmill, the best walking pad is a slim (ideally portable) machine that can slide under your standing desk or…",
+          "source": "Wired",
+          "link": "https://www.wired.com/story/best-walking-pads/",
+          "author": "Boutayna Chokrane",
+          "image": "https://media.wired.com/photos/6af64959c5d481da1362b325/191:100/w_1280,c_limit/The-Best-Walking-Pads-WIRED-Staffers-Use-During-Remote-Days.jpg",
+          "time": "সন্ধ্যা ৬:৩৪"
+        },
+        {
+          "headline": "Surface Laptop Ultra review: The most powerful Surface yet, but it still lags behind Apple",
+          "excerpt": "It’s a beautiful flagship device for NVIDIA’s RTX Spark.\n            \n\n    \n                \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                   …",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2314873/surface-laptop-ultra-review/",
+          "author": "Devindra Hardawar",
+          "image": "https://www.engadget.com/img/gallery/surface-laptop-ultra-review-the-most-powerful-surface-yet-but-it-still-lags-behind-apple/l-intro-1794499551.jpg",
+          "time": "সন্ধ্যা ৭:০০"
+        },
+        {
+          "headline": "When an AI Agent Goes Wrong, Can You Stop It?",
+          "excerpt": "Suppose an AI agent is asked to sort support tickets and look up account details. A ticket contains instructions that lead the agent to export records to an unfamiliar destination. The agent can make the request because its identity has access to the records and its connected tools allow the action.\n\nThat kind of scenario raises a response question: what does “stop the agent” actually mean? A…",
+          "source": "The Hacker News",
+          "link": "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html",
+          "author": "The Hacker News",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXkpxeEuWVGmGvK8wGnGdzjVbMHRyNOYd3GFjgzJZZN7TL2yyLt5Jof4gsujMYS9WfZnxUjFFs3mxFaejShy46vuXK38l_5R3RvospJ6J8IunrLPSDnI0sJgGtvNiNkc89XMR_KDDHWEOxAk800C2fKhwiOLMy433M3ASErPk_jMwoexS_5-1kpdJ8emE/s1600/Keeper.jpg",
+          "time": "বিকাল ৫:৫২"
+        },
+        {
+          "headline": "Specialized’s Tarmac SL9 S-Level is built to wreck your Zone 2 ride",
+          "excerpt": "Skip to content\n\n  \n\n\n\n            \n  \n  \n  \n    \n      \n    \n  \n  \n    Acceleration rules\n  \n\n    \n\n    \n\n    \n      Specialized’s second-fastest bike may be the smart buy.\n    \n\n          \n    \n    \n            \n              \n            \n    \n    \n      The Specialized Tarmac SL9 S-Level ready to ride.\n\n              \n          Credit:\n\n          \n          Eric Bangeman/Ars…",
+          "source": "Ars Technica",
+          "link": "https://arstechnica.com/gadgets/2026/11/specializeds-tarmac-sl9-s-level-is-built-to-wreck-your-zone-2-ride/",
+          "author": "Eric Bangeman",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/specialized_3170-1152x648.jpg",
+          "time": "বিকাল ৫:৫০"
+        },
+        {
+          "headline": "Israel’s VCs see opportunity for challengers in Nvidia’s turmoil",
+          "excerpt": "Former Nvidia CEO Jensen Huang’s resignation has been received with worry in Israel, the company’s “second home,” as Huang described it in 2023. The company’s importance flows both ways, as the semiconductor giant has provided a major boost to Israel’s economic forecasts in recent years.\n\nIntel, Microsoft and many homegrown startups also conduct a sizable share of their R&D in Israel. But owing…",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
+          "author": "Anna Heim",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2303769281.jpg?resize=1200,800",
+          "time": "সন্ধ্যা ৬:৫২"
+        },
+        {
+          "headline": "Microsoft&#8217;s massive Outlook outage continues",
+          "excerpt": "Microsoft 365 is starting to recover as its outage enters a second day.Microsoft 365 is starting to recover as its outage enters a second day.by  Jess WeatherbedNov 13, 2026, 12:48 PM UTCImage: The VergeJess Weatherbed is a news writer focused on creative industries, computing, and internet culture. Jess started her career at TechRadar, covering news and hardware reviews.Service is gradually…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/tech/1032862/microsoft-outlook-down-outage",
+          "author": "Jess Weatherbed",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/STK153_MICROSOFT_OUTLOOK_A.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+          "time": "সন্ধ্যা ৬:৪৮"
+        },
+        {
+          "headline": "TCL QM7L Mini-LED TV Review (2026)",
+          "excerpt": "The pedestal is also kind of a pain to assemble, with little help from the tiny diagrams in TCL’s otherwise decent setup guide. There are eight small screws used to connect the riser to the base, four more to attach it to the TV, and a bit of confusion over which of 10 mounting holes you’re meant to use.These are hardly dealbreakers. If you’re planning to wall-mount the TV, the base becomes a…",
+          "source": "Wired",
+          "link": "https://www.wired.com/review/tcl-qm7l/",
+          "author": "Rick Broida",
+          "image": "https://media.wired.com/photos/6af64cc07d3b549f19bbdcc7/191:100/w_1280,c_limit/Review--TCL-QM7L-Mini-LED-TV.jpg",
+          "time": "সন্ধ্যা ৬:০০"
+        },
+        {
+          "headline": "Bloomberg details web of Chinese AI companies with smuggled NVIDIA chips linked to Alice Huang",
+          "excerpt": "The NVIDIA chips involved are banned in China.\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                    Sean Gallup/Getty…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2315710/bloomberg-details-web-of-chinese-ai-companies-with-smuggled-nvidia-chips-linked-to-alice-huang/",
+          "author": "Mariella Moon",
+          "image": "https://www.engadget.com/img/gallery/companies-linked-to-alice-huang-reportedly-smuggled-nvidia-chips-installed-at-shanghai-data-center/l-intro-1794574510.jpg",
+          "time": "সন্ধ্যা ৬:৫৮"
+        },
+        {
+          "headline": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users",
+          "excerpt": "A newly identified spying group used hacked equipment inside Asian mobile operators to intercept the calls and texts of selected people, mostly in Taiwan.\n\nEnea, a telecom and cybersecurity software company based in Stockholm, found the group's attack sources in at least six Asian countries and named it SilentAir this week. It assessed with high confidence that SilentAir is a state-level actor,…",
+          "source": "The Hacker News",
+          "link": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html",
+          "author": "The Hacker News",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjskRPNlV_kYE1N2eF2J_J0fBvF_nQxnvtaS78Grj04KqkEauvr-R5jO-ynD9nm51SgF2XtCCAsWUbJrHU0wGRnXC9yHmblhNCF8Jt9NdVahMju3voR2z9xb2uqoSi7Nc085UqDBelqg4XDRdjJ2lsF7EeN28rjq7oBc_NpBUWRqLWXiOh9FBRIH28teHM/s1600/telecom-hack.jpg",
+          "time": "বিকাল ৫:১০"
+        },
+        {
+          "headline": "Jensen Huang didn’t show confidence in his successor, report says",
+          "excerpt": "In Brief\nPosted:\n\n\n4:28 AM PST · November 13, 2026\n\n\n\nImage Credits:Nvidia (opens in a new window)\n\n\n\n\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\n\n\n\n\n\nFormer NVIDIA CEO Jensen Huang described Collette Kress, the company’s CFO who has now replaced him as interim CEO, as “a deer in the headlights” during a presentation earlier in the summer, the Wall Street Journal reported, citing an anonymous…",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says/",
+          "author": "Ivan Mehta",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/colette-1920x1920_4d360fa4-e97d-4505-9857-284d03141162-prv-e1794568317250.jpg?resize=1200,676",
+          "time": "সন্ধ্যা ৬:২৮"
+        },
+        {
+          "headline": "Let’s talk about Jensen Huang’s many affairs!",
+          "excerpt": "Skip to main contentWhat a week today has been!What a week today has been!by  Elizabeth LopattoNov 13, 2026, 12:00 PM UTCImage: Cath Virginia / The Verge, Getty ImagesElizabeth Lopatto is a reporter who writes about tech, money, and human behavior. She joined The Verge in 2014 as science editor. Previously, she was a reporter at Bloomberg.Jess Weatherbed10:14 AM UTCJess Weatherbed9:23 AM UTCJay…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow",
+          "author": "Elizabeth Lopatto",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25835739/STKP210_JENSEN_HUANG_B.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+          "time": "সন্ধ্যা ৬:০০"
+        },
+        {
+          "headline": "This Startup Is Betting on AI Microdramas to Get More Black Stories in Hollywood",
+          "excerpt": "A zombie virus has overtaken South Los Angeles. Authorities, hoping to contain the outbreak, have decided to barricade the neighborhood, leaving residents to make do on their own. So begins They Left Us to Die, a new microdrama from media company Mansa that runs 30 episodes and is entirely AI-generated.“The plague was made here, made on us, on purpose,” says Imani Cross, an emergency room nurse…",
+          "source": "Wired",
+          "link": "https://www.wired.com/story/black-roles-are-disappearing-in-hollywood-this-startup-is-using-ai-microdramas-to-fight-back/",
+          "author": "Jason Parham",
+          "image": "https://media.wired.com/photos/6af65ba58bac4203b57b5ba0/191:100/w_1280,c_limit/Startup-Betting-on-AI-Microdramas-Culture.jpg",
+          "time": "বিকাল ৫:৪৫"
+        },
+        {
+          "headline": "Whoop Humans is a social network designed for fitness enthusiasts",
+          "excerpt": "Members can only share data from their Whoop wearables as guarantee of…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2315689/whoop-humans-is-a-social-network-designed-for-fitness-enthusiasts/",
+          "author": "Mariella Moon",
+          "image": "https://www.engadget.com/img/gallery/whoop-humans-is-a-social-network-designed-for-fitness-enthusiasts/l-intro-1794566195.jpg",
+          "time": "বিকাল ৪:৩৯"
+        },
+        {
+          "headline": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
+          "excerpt": "An international police operation took down servers behind Gootloader, CastleRAT and StealC this week. Criminals used the three malware tools to gain access to computers, steal passwords, and launch ransomware attacks.\n\nPolice also seized about 6.4 million stolen logins belonging to more than 40,000 victims, according to Germany's Federal Criminal Police Office (BKA).\n\nGootloader is a loader:…",
+          "source": "The Hacker News",
+          "link": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html",
+          "author": "The Hacker News",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsu6ZFyYFr1dxp2XHIaG_pyTwkoH58ICgyXLuTthkuYSJVcqAwX_O_bEJYfheyxpYmI7nnok1xrj97q7s-9l8JHFt1ogBAOJAEUqM8_vf6H3a8eYPKzB34d6XrvnkRu8zGaoKMgSJqWsE6u2zYXLdJKTtcDvk3beN6_o40ygJ4MVSMomS3Q1aEFV_jSq8/s1600/gootloader.jpg",
+          "time": "বিকাল ৪:৫৫"
+        },
+        {
+          "headline": "Even Black Friday Will Be More Expensive Than Usual",
+          "excerpt": "Black Friday, the deal-drenched marketing blitz that kicks off the holiday shopping spree, might feel more muted this year.That’s because just about everything is getting more expensive. As the global economy reckons with challenges from the AI industry’s memory crisis and the ongoing war in Iran, prices for many products have risen, especially consumer electronics like smartphones and gaming…",
+          "source": "Wired",
+          "link": "https://www.wired.com/story/even-black-friday-2026-will-be-more-expensive-than-usual/",
+          "author": "Boone Ashworth",
+          "image": "https://media.wired.com/photos/6af6e6f2994d125771f4b924/191:100/w_1280,c_limit/111326-Black%20Friday%20Memory%20Chip.jpg",
+          "time": "বিকাল ৫:৩০"
+        },
+        {
+          "headline": "BYD admits wheel assembly error on its flagship electric SUV",
+          "excerpt": "Some Great Tang SUVs had their wheels installed the wrong way.\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                   …",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2315638/byd-wheel-assembly-error-great-tang-electric-suv/",
+          "author": "Mariella Moon",
+          "image": "https://www.engadget.com/img/gallery/byd-admits-wheel-assembly-error-on-its-flagship-electric-suv/l-intro-1794557448.jpg",
+          "time": "দুপুর ২:১২"
+        },
+        {
+          "headline": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
+          "excerpt": "An unknown threat actor has been observed targeting unpatched Check Point Security Gateways to obtain initial access via the PHP2Shell vulnerabilities and then a previously unreported local privilege escalation flaw in Gaia OS  to deploy a backdoor called TSGA.\n\nThe activity, detailed by Check Point, began on October 30, 2026, and targeted Israeli organizations, with a broader follow-up wave on…",
+          "source": "The Hacker News",
+          "link": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html",
+          "author": "The Hacker News",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjP3B9ZQG1BXlSPUWzwVJ5qgwh899Ngm9u2GAbWiX5HDqhhT6q6gsmva9-TR2upR0fepas2i0k53VUxh1CH21LeUUv1Ipczl9huExytcqNdlqIoHP64CRYJuGyHe-OgLoov-JR6GziUT4JDJ92Ne83CshfWn9pr9Bt2HPKkv4phQJ2esJHcV6eZqzRretVu/s1600/php.jpg",
+          "time": "দুপুর ২:০৫"
+        },
+        {
+          "headline": "‘A Servant Class, Not a Working Class’: Stephen Miller’s Biographer on What Comes Next",
+          "excerpt": "Last week, President Donald Trump named Stephen Miller, his longtime adviser and architect of the administration’s widely unpopular immigration agenda, his new chief of staff. With the midterm elections delivering a Democratic majority in both the Senate and the House of Representatives, Miller, whose titles until now were deputy chief of staff for policy and homeland security adviser, will…",
+          "source": "Wired",
+          "link": "https://www.wired.com/story/a-servant-class-not-a-working-class-stephen-millers-biographer-on-what-comes-next/",
+          "author": "Vittoria Elliott",
+          "image": "https://media.wired.com/photos/6af48b9f1bbf3e7f3fba04d9/191:100/w_1280,c_limit/GettyImages-2214264559.jpg",
+          "time": "বিকাল ৫:১৫"
+        },
+        {
+          "headline": "Inside the 42-Year Journey to Bring ‘Neuromancer’ to the Screen",
+          "excerpt": "Nov 13, 2026 6:00 AMWilliam Gibson released his seminal novel Neuromancer in 1984. WIRED has an exclusive look at how it eventually made its way to Apple TV—thanks in no small part to Drake.Case and his cyberdeck in a still from Neuromancer.Photograph: Courtesy of AppleBriana Middleton has something to show me. “Wait!” she says just as we’re about to end our Zoom call, reaching for something…",
+          "source": "Wired",
+          "link": "https://www.wired.com/story/exclusive-apple-tv-neuromancer-creator-interviews/",
+          "author": "Angela Watercutter",
+          "image": "https://media.wired.com/photos/6aee55c49c22209c9f013e23/191:100/w_1280,c_limit/Neuromancer-BTS-Culture_102_18753F.jpg",
+          "time": "বিকাল ৫:০০"
+        },
+        {
+          "headline": "‘Call Him Out’: Cybertruck Loyalists Are in Mourning—and They Want Answers From Elon Musk",
+          "excerpt": "Last week, Elon Musk announced on X that Tesla would halt production of the Cybertruck at Gigafactory Texas “around the middle of next year,” supposedly to allow for increased production of self-driving Cybercabs.Automotive industry observers were quick to surmise that the vehicle’s weak sales, delayed deliveries, inflated pricing, numerous recalls, and connection to Musk’s far-right MAGA…",
+          "source": "Wired",
+          "link": "https://www.wired.com/story/cybertruck-fans-demand-answers-from-elon-musk-about-the-vehicles-demise/",
+          "author": "Miles Klee",
+          "image": "https://media.wired.com/photos/6af663e1fcffa2a0af03f00a/191:100/w_1280,c_limit/Cybertruck-Mourning-Culture.jpg",
+          "time": "বিকাল ৪:৩০"
+        },
+        {
+          "headline": "The Hubble Space Telescope Is Sinking. NASA Is Looking for Ways to Keep It Afloat",
+          "excerpt": "Skip to main contentMenuMenuAccountAccountMoreExpandNov 13, 2026 5:00 AMWith Hubble expected to reenter the atmosphere by 2034 and several malfunctions on board, NASA is asking commercial space companies for proposals on how to extend the telescope’s lifespan.The Hubble Space Telescope has spent over 30 years in Earth’s orbit, and like all low-flying satellites, it’s been getting dragged back…",
+          "source": "Wired",
+          "link": "https://www.wired.com/story/nasa-wants-to-keep-the-hubble-space-telescope-afloat/",
+          "author": "Ritsuko Kawai",
+          "image": "https://media.wired.com/photos/6af5dcf2d057d0b5e841ea04/191:100/w_1280,c_limit/27990737266_8b321346a4_o.jpg",
+          "time": "বিকাল ৪:০০"
+        },
+        {
+          "headline": "Bitdefender Antivirus Plus Review: Undercutting the Competition",
+          "excerpt": "I spent most of my time using Bitdefender Antivirus Plus on Windows, which I think is the best version of the software. The Android and iOS versions look largely similar to it, though of course compressed for a mobile device. However, macOS is the odd one out with an interface that looks different from its peers and, to my eyes, seems about five years out of date. It’s not terrible and has…",
+          "source": "Wired",
+          "link": "https://www.wired.com/review/bitdefender-antivirus-plus/",
+          "author": "Matthew S. Smith",
+          "image": "https://media.wired.com/photos/6ab18d47c9d4d635b849cb4e/191:100/w_1280,c_limit/Review--Bitdefender-Antivirus-Plus.jpg",
+          "time": "বিকাল ৪:০০"
+        },
+        {
+          "headline": "Developer's $300 Embroidery Machine Required a Subscription, So They Built This Open Source Tool",
+          "excerpt": "A tinkerer, Kathy Korevec, has made ZigZag available under the Apache 2.0 license. She says that the entire app was built with AI, using ChatGPT, and her goal was to get software made to her specs, similar to the Adobe suite, but with MCP support built in.That MCP support is a built-in server that lets AI agents draw and edit in the same window.Her post about this on Hacker News has already…",
+          "source": "It's FOSS",
+          "link": "https://feed.itsfoss.com/link/24361/17523834/zigzag-embroidery-software",
+          "author": "Sourav Rudra",
+          "image": "https://itsfoss.com/content/images/2026/11/zigzag-embroidery-project-banner.png",
+          "time": "সন্ধ্যা ৬:৫০"
+        },
+        {
+          "headline": "Beyond AI Applications: How openEuler Is Rethinking the Agentic Infra OS",
+          "excerpt": "Traditional operating systems are designed primarily to manage computing resources, including CPU scheduling, memory allocation, storage, networking, and application execution.Agentic AI introduces another layer of complexity: infrastructure must also support the lifecycle of intelligent agents.This includes agent deployment, task scheduling, execution isolation, context management, memory…",
+          "source": "It's FOSS",
+          "link": "https://feed.itsfoss.com/link/24361/17523787/openeuler-agentic-infra-os",
+          "author": "Edmar Pereira",
+          "image": "https://itsfoss.com/content/images/2026/11/open-euler-agentic-infra-os-1-.webp",
+          "time": "বিকাল ৪:৩০"
+        },
+        {
+          "headline": "Linux 7.5 To Upstream Driver For New Glanda GPU",
+          "excerpt": "Sent out today was the drm-misc-next pull request for the week of new material to queue in DRM-Next until the Linux 7.5 merge window gets underway in late December. Most notable this week is the introduction of the new GlandaGPU driver.\n\nGlandaGPU was covered a few months ago on Phoronix as an open-source soft GPU core design. GlandaGPU is designed in VHDL and running currently on FPGA hardware…",
+          "source": "Phoronix",
+          "link": "https://www.phoronix.com/news/Linux-7.5-GlandaGPU-Driver",
+          "author": "Written by Michael Larabel in Linux Kernel on 13 November 2026 at 07:55 AM EST. Add A Comment",
+          "image": "",
+          "time": "সন্ধ্যা ৬:৫৫"
+        },
+        {
+          "headline": "NVIDIA Highlights Their Open-Source vGPU Upstreaming Work Built Atop Nova",
+          "excerpt": "The Rust-based NVIDIA Linux kernel driver \"Nova\" is set to take on an important role in the official NVIDIA Linux driver stack of the future. This mainline kernel driver continues seeing a flurry of activity to bring it into a usable state and eventually parity and beyond compared to the existing out-of-tree NVIDIA Linux driver code or the incomplete and largely reverse engineered Nouveau kernel…",
+          "source": "Phoronix",
+          "link": "https://www.phoronix.com/news/NVIDIA-Upstream-vGPU-Nova",
+          "author": "Written by Michael Larabel in NVIDIA on 13 November 2026 at 06:09 AM EST. 5 Comments",
+          "image": "",
+          "time": "বিকাল ৫:০৯"
+        }
+      ]
+    }
+  },
+  {
     "dt": "2026-11-13T05:15:35.275Z",
     "file": "runs/2026-11-13-0515.html",
     "counts": {
