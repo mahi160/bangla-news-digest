@@ -1,5 +1,964 @@
 [
   {
+    "dt": "2026-11-14T21:59:41.898Z",
+    "file": "runs/2026-11-14-2159.html",
+    "counts": {
+      "Local": 11,
+      "International": 31,
+      "Entertainment": 2,
+      "Tech": 32,
+      "Sports": 28
+    },
+    "grouped": {
+      "Tech": [
+        {
+          "headline": "How to clear the cache on your Samsung TV",
+          "excerpt": "If your apps or menus have been a bit sluggish, it's worth a try.\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                   …",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2312222/how-to-clear-cache-samsung-tv/",
+          "author": "David Engle",
+          "image": "https://www.engadget.com/img/gallery/how-to-clear-the-cache-on-your-samsung-tv/l-intro-1794330105.jpg",
+          "time": "রাত ৩:০০"
+        },
+        {
+          "headline": "How to clear the cache on your Xbox Series X",
+          "excerpt": "Keep your Xbox Series X feeling like new by keeping your cache clear, and if that doesn't help, a reset is in…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2312189/how-to-clear-cache-xbox-series-x/",
+          "author": "Antony Terence",
+          "image": "https://www.engadget.com/img/gallery/how-to-clear-the-cache-on-your-xbox-series-x/l-intro-1794327413.jpg",
+          "time": "রাত ২:৪৫"
+        },
+        {
+          "headline": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+          "excerpt": "In Brief\nPosted:\n\n\n1:41 PM PST · November 14, 2026\n\n\n\nImage Credits:Li Hongbo/VCG / Getty Images\n\n\n\n\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\n\n\n\n\n\nA petition calling on Nvidia to reinstate the company’s recently ousted CEO Jensen Huang appears to have attracted more than 115,000 signatures as of Saturday afternoon.\n\nThe petition website said the signers include 5,965 current Nvidia employees,…",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+          "author": "Anthony Ha",
+          "image": "https://techcrunch.com/wp-content/uploads/2025/05/GettyImages-2216028442.jpg?w=1024",
+          "time": "রাত ৩:৪১"
+        },
+        {
+          "headline": "Watch SpaceX successfully execute the first ‘chopstick’ catch of Starship",
+          "excerpt": "Terrence O'Brien is the Verge’s weekend editor. He’s covered the tech industry for over 18 years and knows a thing or two about synths.After aborting a planned catch of Starship Flight 15’s booster, SpaceX successfully captured Starship with its “Mechazilla” launch and catch tower for the first time. The company has performed ‘chopstick’ catches of its boosters before, but this is the first time…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch",
+          "author": "Terrence O'Brien",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/52822624215_2e5d62e50a_o.jpg?quality=90&strip=all&crop=0%2C13.419374014038%2C100%2C73.161251971924&w=1200",
+          "time": "রাত ৩:৪৪"
+        },
+        {
+          "headline": "Here's when a dedicated graphics card is worth it",
+          "excerpt": "Modern iGPUs are surprisingly capable, but they aren’t without limitations.\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                   …",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2312688/when-dedicated-graphics-card-worth-it/",
+          "author": "Vincent Arogya",
+          "image": "https://www.engadget.com/img/gallery/heres-when-a-dedicated-graphics-card-is-worth-it/l-intro-1794342731.jpg",
+          "time": "রাত ৩:৪৫"
+        },
+        {
+          "headline": "Tesla opens Cybercab pre-orders ‘for personal use,’ with geo restrictions and a $299 monthly fee",
+          "excerpt": "In Brief\nPosted:\n\n\n12:04 PM PST · November 14, 2026\n\n\n\nImage Credits:Josh Edelson / AFP / Getty Images\n\n\n\n\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\n\n\n\n\n\nTesla said on Friday evening that “select customers” now have the opportunity to pre-order the company’s autonomous, golden Cybercab “for personal use.”\n\nMore details became clear as those select customers looked at the order page. Tech…",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/11/14/tesla-opens-cybercab-pre-orders-for-personal-use-with-geo-restrictions-and-a-299-monthly-fee/",
+          "author": "Anthony Ha",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/tesla-cybercab-getty.jpg?resize=1200,834",
+          "time": "রাত ২:০৪"
+        },
+        {
+          "headline": "Magic: The Gathering is getting a Netflix animated series. For real this time.",
+          "excerpt": "Terrence O'Brien is the Verge’s weekend editor. He’s covered the tech industry for over 18 years and knows a thing or two about synths.“It’s really happening. I promise. For real.” Those are the first words from Roy Graham, Head of Story at Magic: The Gathering, in a video posted yesterday announcing Planeswalker, the animated series heading to Netflix in 2027.An animated Magic: The Gathering…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/entertainment/1033909/magic-the-gathering-netflix-series",
+          "author": "Terrence O'Brien",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/IefaLy5uPLc-HD.jpg?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200",
+          "time": "রাত ১:৪৭"
+        },
+        {
+          "headline": "The reasons why your TV soundbar has an audio delay",
+          "excerpt": "And several possible fixes.\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                    Simpson33/Getty…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2312648/reasons-why-tv-soundbar-audio-delay/",
+          "author": "David Engle",
+          "image": "https://www.engadget.com/img/gallery/the-reasons-why-your-tv-soundbar-has-an-audio-delay/l-intro-1794341678.jpg",
+          "time": "রাত ৩:৩০"
+        },
+        {
+          "headline": "Got an iPhone Duo? These 9 settings make it easier to use",
+          "excerpt": "Image Credits:Apple\t\n\t\n\t\t\t\t\t\t10:00 AM PST · November 14, 2026\t\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\nApple’s new foldable, the iPhone Duo, has proven popular enough that the company can’t keep the device in stock. While the Duo introduces a new way to use an iPhone, getting the most out of this initial version may require adjusting a few settings to make it work better when it comes to everyday tasks, like unlocking…",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/11/14/got-an-iphone-duo-these-9-settings-make-it-easier-to-use/",
+          "author": "Sarah Perez",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/10/Apple-iPhone-Duo-closed-and-open.jpg?resize=1200,675",
+          "time": "রাত ১২:০০"
+        },
+        {
+          "headline": "Work to replace old copper wire led to the FAA’s ground stop",
+          "excerpt": "Terrence O'Brien is the Verge’s weekend editor. He’s covered the tech industry for over 18 years and knows a thing or two about synths.At a press conference today, Transportation Secretary Sean Duffy said that Friday’s nationwide ground stop ordered by the FAA was related to work replacing outdated copper wire with a fiber optic line at a “remote FAA facility.” The secretary said that this was…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/transportation/1033898/faa-ground-stop-sean-duffy-faa-copper-wire",
+          "author": "Terrence O'Brien",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2304493507.jpg?quality=90&strip=all&crop=0%2C10.654918655606%2C100%2C78.690162688789&w=1200",
+          "time": "রাত ১১:৪৪"
+        },
+        {
+          "headline": "Why some USB ports are yellow (and less common than others)",
+          "excerpt": "Yellow USB-A ports usually mean Always On charging, but the particulars are up to the…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2312464/why-some-usb-ports-yellow-less-common/",
+          "author": "Thomas Godwin",
+          "image": "https://www.engadget.com/img/gallery/why-some-usb-ports-are-yellow-and-less-common-than-others/l-intro-1794332281.jpg",
+          "time": "রাত ৩:১৫"
+        },
+        {
+          "headline": "Transportation secretary blames ‘routine’ equipment upgrade for grounding flights nationwide",
+          "excerpt": "Transportation Secretary Sean Duffy said Saturday that a nationwide ground stop halting flights across the United States was caused by seemingly routine maintenance work.\n\nDuffy said that during “routine maintenance,” copper wire at a remote location was being upgraded to fiber optic cable by L3Harris, a longtime contractor for the Federal Aviation Administration. After the upgrade, a router…",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/11/14/transportation-secretary-blames-routine-equipment-upgrade-for-grounding-flights-nationwide/",
+          "author": "Anthony Ha",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2304506223.jpg?w=1024",
+          "time": "রাত ১১:৪৫"
+        },
+        {
+          "headline": "Here are our favorite deals from REI’s giant Holiday Sale",
+          "excerpt": "From Garmin watches to seasonal camping gear, REI is offering a slate of deep discounts ahead of Black Friday.From Garmin watches to seasonal camping gear, REI is offering a slate of deep discounts ahead of Black Friday.by  Sheena VasaniNov 14, 2026, 3:00 PM UTCImage: GarminSheena Vasani writes about tech news, reviews gadgets, and helps readers save money by highlighting deals and product…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/gadgets/1032500/best-deals-rei-holiday-sale-2026",
+          "author": "Sheena Vasani",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/fenix8Pro3.jpg?quality=90&strip=all&crop=0%2C10.752556637471%2C100%2C78.494886725057&w=1200",
+          "time": "রাত ৯:০০"
+        },
+        {
+          "headline": "The AI graveyard: a running list of projects and startups that didn’t make it",
+          "excerpt": "Last month, chatbot platform Character.ai filed for bankruptcy just five years after launching. More recently, privacy-focused AI assistant Ollie announced its shutdown a few weeks ago. \n\nAside from Character.ai and Ollie, plenty of AI bets never even survive inside the companies that build them. According to S&P Global Market Intelligence, about 42% of AI initiatives are ultimately abandoned by…",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+          "author": "Lauren Forristal",
+          "image": "https://techcrunch.com/wp-content/uploads/2019/12/GettyImages-95927766-1.jpg?resize=1200,797",
+          "time": "রাত ১১:৩০"
+        },
+        {
+          "headline": "The OpenAI board member who fired Sam Altman says we still can&#8217;t trust AI CEOs",
+          "excerpt": "Today, I’m talking with Helen Toner, the executive director of the Center for Security and Emerging Technology at Georgetown University. This episode is part two of our series on AI in real life.Helen is a well-known figure in the AI safety and policy community, though she is perhaps best known for having served on the board of OpenAI, when she was one of four board members who voted to fire Sam…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
+          "author": "Nilay Patel",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/DCD-Helen-Toner.jpg?quality=90&strip=all&crop=0%2C10.711631919237%2C100%2C78.576736161526&w=1200",
+          "time": "রাত ৯:০০"
+        },
+        {
+          "headline": "SpaceX successfully catches Starship after launch for the first time",
+          "excerpt": "While the company has pulled off this trick a few times with Super Heavy boosters, it was a first for the…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2316926/watch-spacex-attempt-to-catch-the-starship-upper-stage-for-the-first-time/",
+          "author": "Cheyenne MacDonald",
+          "image": "https://www.engadget.com/img/gallery/watch-spacex-attempt-to-catch-the-starship-upper-stage-for-the-first-time/l-intro-1794693469.jpg",
+          "time": "রাত ২:৫৪"
+        },
+        {
+          "headline": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+          "excerpt": "Jensen Huang’s departure from Nvidia has drawn a range of responses across Asia, with some governments moving to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.\n\nOn Sunday, November 8, Nvidia’s board launched an independent investigation after reports that Huang was targeted by a Chinese spy operation; Huang admitted…",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+          "author": "Kate Park",
+          "image": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang.jpg?w=1024",
+          "time": "রাত ১০:৩৪"
+        },
+        {
+          "headline": "Is your car tracking your location? Here's how to check and opt out",
+          "excerpt": "Where you drive is your business. Your car may disagree.\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                   …",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2312168/car-location-tracking-how-to-opt-out/",
+          "author": "Gabriela Vătu",
+          "image": "https://www.engadget.com/img/gallery/is-your-car-tracking-your-location-heres-how-to-check-and-opt-out/l-intro-1794245169.jpg",
+          "time": "রাত ২:৩০"
+        },
+        {
+          "headline": "This built-in Windows tool can diagnose your PC's battery health",
+          "excerpt": "It's a bit hidden, but it's easy to find if you know where to look. \n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                   …",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2312107/built-in-windows-tool-diagnose-pc-battery-health-powercfg/",
+          "author": "Maddie Fisher",
+          "image": "https://www.engadget.com/img/gallery/this-built-in-windows-tool-can-diagnose-your-pcs-battery-health/l-intro-1794326458.jpg",
+          "time": "রাত ২:১৫"
+        },
+        {
+          "headline": "Change these Fitbit Edge settings for a better experience",
+          "excerpt": "How to get more out of your fitness tracker.\n            \n\n    \n                \n                \n                \n                For a while, the Fitbit brand seemingly had its back against the wall. After Google's takeover in 2019, it released a range of branded devices, like the Sense 2 and Charge 6, but the company really started to prioritize the Pixel Watch, to the point that people began…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2311860/change-fitbit-edge-settings-better-user-experience/",
+          "author": "Roger Fingas",
+          "image": "https://www.engadget.com/img/gallery/change-these-x-fitbit-edge-settings-for-a-better-experience/l-intro-1794309662.jpg",
+          "time": "রাত ২:০০"
+        },
+        {
+          "headline": "How much did home internet cost in 2001 vs 2026?",
+          "excerpt": "You're actually getting better value now than you did in 2001.\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                    Fizkes/Getty…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2311774/home-internet-2001-vs-2026-cost/",
+          "author": "Antony Terence",
+          "image": "https://www.engadget.com/img/gallery/how-much-did-home-internet-cost-in-2001-vs-2026/l-intro-1794281981.jpg",
+          "time": "রাত ১:৪৫"
+        },
+        {
+          "headline": "That key left of '1' on many keyboards is actually crucial for programmers",
+          "excerpt": "The humble tilde has many uses.\n            \n\n    \n                \n                \n                \n                The humble tilde (~) symbol, which is located left of the \"1\" key, has a few notable uses. It can represent approximations, which is useful in mathematics and statistics, and is found as an accent over letters in languages like Spanish and Portuguese. You've probably spent some…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2309616/that-key-left-of-1-on-many-keyboards-is-actually-crucial-for-programmers/",
+          "author": "Lawrence Bonk",
+          "image": "https://www.engadget.com/img/gallery/that-key-left-of-1-on-many-keyboards-is-actually-crucial-for-programmers/l-intro-1793993642.jpg",
+          "time": "রাত ১:৩০"
+        },
+        {
+          "headline": "How to make your Nintendo Switch 2 battery last longer",
+          "excerpt": "Try these tweaks if your Switch 2 won't run your favorite games away from the dock for…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2312052/how-to-make-switch-2-battery-last-longer/",
+          "author": "Matt Tate",
+          "image": "https://www.engadget.com/img/gallery/how-to-make-your-nintendo-switch-2-battery-last-longer/l-intro-1794324925.jpg",
+          "time": "রাত ১:১৫"
+        },
+        {
+          "headline": "5 excellent free Apple Watch apps every owner should know about",
+          "excerpt": "Plenty of watch apps are free to download and then put all wrist-related features behind a paywall. These ones…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2311959/free-apple-watch-apps/",
+          "author": "Luke James",
+          "image": "https://www.engadget.com/img/gallery/5-excellent-free-apple-watch-apps-every-owner-should-know-about/l-intro-1794320819.jpg",
+          "time": "রাত ১:০০"
+        },
+        {
+          "headline": "Your Apple AirPods Pro can test your hearing in five minutes, but are they accurate?",
+          "excerpt": "Your Apple AirPods Pro Can Test Your Hearing in Five Minutes, But Is It…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2311946/apple-airpods-pro-test-hearing-five-minutes-accuracy/",
+          "author": "Robin Bea",
+          "image": "https://www.engadget.com/img/gallery/your-apple-airpods-pro-can-test-your-hearing-in-five-minutes-but-are-they-accurate/l-intro-1794220922.jpg",
+          "time": "রাত ১২:৪৫"
+        },
+        {
+          "headline": "Common reasons your PC's camera and microphone aren't working",
+          "excerpt": "It's an annoying problem but one that can be easily fixed\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                   …",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2311859/pc-camera-microphone-not-working-common-reasons/",
+          "author": "Roger Fingas",
+          "image": "https://www.engadget.com/img/gallery/common-reasons-your-pcs-camera-and-microphone-arent-working/l-intro-1794311288.jpg",
+          "time": "রাত ১২:৩০"
+        },
+        {
+          "headline": "How to check which iOS version your iPhone is running",
+          "excerpt": "It's only ever just a few taps away.\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                    Adnan Ahmed for…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2311762/how-to-check-iphone-ios-version/",
+          "author": "Adnan Ahmed",
+          "image": "https://www.engadget.com/img/gallery/how-to-check-which-ios-version-your-iphone-is-running/l-intro-1794192074.jpg",
+          "time": "রাত ১২:১৫"
+        },
+        {
+          "headline": "What does an NPU do and why do so many laptops have them?",
+          "excerpt": "Almost nothing uses it yet.\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                    Quality Stock…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2311854/what-is-npu-why-many-laptops-have-them/",
+          "author": "Luke James",
+          "image": "https://www.engadget.com/img/gallery/what-does-an-npu-do-and-why-do-so-many-laptops-have-them/l-intro-1794310250.jpg",
+          "time": "রাত ১২:০০"
+        },
+        {
+          "headline": "Checking your Apple Watch's battery health is easier than you think",
+          "excerpt": "It just takes a couple of clicks and taps.\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                   …",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2311851/how-to-check-apple-watch-battery-health/",
+          "author": "Yoni Yardeni",
+          "image": "https://www.engadget.com/img/gallery/checking-your-apple-watchs-battery-health-is-easier-than-you-think/l-intro-1794307764.jpg",
+          "time": "রাত ১১:৪৫"
+        },
+        {
+          "headline": "Samsung may be getting rid of another One UI feature",
+          "excerpt": "Samsung's news aggregator may not be long for this world.\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                    Filipe Espósito…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2311763/samsung-one-ui-getting-rid-of-another-feature/",
+          "author": "Filipe Espósito",
+          "image": "https://www.engadget.com/img/gallery/samsung-may-be-getting-rid-of-another-one-ui-feature/l-intro-1794202783.jpg",
+          "time": "রাত ১১:৩০"
+        },
+        {
+          "headline": "Is 1TB enough storage for your Xbox Series X? Here's what gamers should know",
+          "excerpt": "Size really is everything when you're considering what storage to go for for your next games console…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2311827/1tb-storage-xbox-series-x-enough/",
+          "author": "Roger Fingas",
+          "image": "https://www.engadget.com/img/gallery/is-1tb-enough-storage-for-your-xbox-series-x-heres-what-gamers-should-know/l-intro-1794300311.jpg",
+          "time": "রাত ১১:১৫"
+        },
+        {
+          "headline": "Basic Support For The Apple M5 Expected To Land For Linux 7.5",
+          "excerpt": "Very basic support for the Apple M5 SoC base model is expected to be merged for the Linux 7.5 kernel now that it's been queued into the \"apple-soc/dt-7.5\" Git branch.\n\nFollowing initial Apple M4 support in Linux 7.4 or the Apple M3 support in Linux 7.2, Linux 7.5 is now expected to present the initial Device Tree support for the Apple M5 base model and the Apple Macs using it. But like that…",
+          "source": "Phoronix",
+          "link": "https://www.phoronix.com/news/Apple-M5-For-Linux-7.5",
+          "author": "Written by Michael Larabel in Apple on 14 November 2026 at 10:33 AM EST. 3 Comments",
+          "image": "",
+          "time": "রাত ৯:৩৩"
+        }
+      ],
+      "Local": [
+        {
+          "headline": "বকেয়া টাকা চাওয়াকে কেন্দ্র করে বিরোধ, ঘুসিতে প্রাণ গেল চা দোকানির",
+          "excerpt": "নিজস্ব প্রতিবেদক ঢাকাপ্রতীকী ছবি  এআই দিয়ে তৈরীরাজধানীর কল্যাণপুরে সিগারেটের বকেয়া টাকা চাওয়াকে কেন্দ্র করে বিরোধের জেরে এক চা দোকানিকে ঘুসি মারার অভিযোগ উঠেছে এক বিক্রয়কর্মীর বিরুদ্ধে। ঘুসির আঘাতে মাটিতে পড়ে যান চা দোকানি জুয়েল (৩২)। পরে হাসপাতালে নেওয়া হলে চিকিৎসক তাঁকে মৃত ঘোষণা করেন।এ ঘটনায় অভিযুক্ত সিগারেট কোম্পানির বিক্রয়কর্মী মো. ইব্রাহীম শেখকে (২৫) গ্রেপ্তার করেছে পুলিশ। তিনি জেটিআইয়ের…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/capital/n1eezay0c7",
+          "author": "নিজস্ব প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-14%2Fh991ncwl%2FCapture.PNG?rect=0%2C20%2C1178%2C618&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "রাত ২:৩৫"
+        },
+        {
+          "headline": "রাজধানীতে আওয়ামী লীগ ও সহযোগী সংগঠনের দুই নেতা গ্রেপ্তার",
+          "excerpt": "নিজস্ব প্রতিবেদক ঢাকাহাতকড়াপ্রতীকী ছবিরাজধানীর পৃথক এলাকায় অভিযান চালিয়ে কার্যক্রম নিষিদ্ধ আওয়ামী লীগ ও এর সহযোগী সংগঠনের দুই নেতাকে গ্রেপ্তার করেছে পুলিশ। গ্রেপ্তার ব্যক্তিরা হলেন যুবলীগের লালবাগ থানার ২৩ নম্বর ওয়ার্ডের সদস্য মো. সুমন চৌধুরী (৩৬) এবং মোহাম্মদপুর থানা আওয়ামী লীগের ৩২ নম্বর ওয়ার্ডের সদস্য মো. আবুল হোসেন (৫০)। আবুল হোসেন মোহাম্মদপুরের বাবর রোড ইউনিট আওয়ামী লীগের সাবেক…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/politics/2h8zagb20f",
+          "author": "নিজস্ব প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2025-04-21%2Fip86dsgz%2Frumorscanne_2.jpg?rect=0%2C72%2C664%2C349&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2022-01%2F5a36c819-05a2-4bfb-ac50-57dd67355acb%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "রাত ১:৪৭"
+        },
+        {
+          "headline": "টুঙ্গিপাড়ায় বিএনপি ও যুবদলের কার্যালয়ে আগুন, ভাঙচুর",
+          "excerpt": "প্রতিনিধি গোপালগঞ্জবিএনপির কার্যালয়ে আগুন ও ভাঙচুরের পর গোপালগঞ্জ-পাটগাতি সড়কে আগুন জ্বালিয়ে অবরোধ করে দুর্বৃত্তরাছবি: সংগৃহীতগোপালগঞ্জের টুঙ্গিপাড়ায় শনিবার রাতে বিএনপি ও যুবদলের কার্যালয়ে আগুন ও ভাঙচুরের ঘটনা ঘটেছে। এ সময় ব্যক্তিগত কার্যালয় ও কয়েকটি দোকানেও আগুন ও ভাঙচুর চালানো হয়। কার্যক্রম নিষিদ্ধ আওয়ামী লীগ ও যুবলীগ এবং নিষিদ্ধঘোষিত ছাত্রলীগের নেতা-কর্মীরা এ ঘটনা ঘটিয়েছেন বলে জানিয়েছেন…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/district/o6quxfkn3i",
+          "author": "প্রতিনিধি",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-14%2Fe0j8jura%2FWhatsApp-Image-2026-11-15-at-1.02.26-AM.jpeg?rect=0%2C21%2C1108%2C582&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "রাত ১:০৭"
+        },
+        {
+          "headline": "স্বামী-স্ত্রীর ভালোবাসা বৃদ্ধিতে নবীজির ৭ প্রেমময় সুন্নত",
+          "excerpt": "সিরাত স্বামী-স্ত্রীর ভালোবাসা বৃদ্ধিতে নবীজির ৭ প্রেমময় সুন্নতধর্ম ডেস্ক ছবি: পেক্সেলসস্ইবামীসলামে দাম্পত্য সম্পর্ক শুধু একটি সামাজিক বা আইনি চুক্তি নয়; বরং এটি ভালোবাসা, মায়া, মমতা ও আত্মিক প্রশান্তির এক পবিত্র বন্ধন। পবিত্র কোরআনে স্বামী-স্ত্রীকে একে অপরের ‘পোশাক’ হিসেবে উপমা দেওয়া হয়েছে, যা পরস্পরকে সুরক্ষা দেয় এবং সৌন্দর্য বৃদ্ধি করে।মহানবী (সা.) শুধু একজন সফল রাষ্ট্রনায়ক বা নবীই ছিলেন না,…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/religion/islam/frvd8arff7",
+          "author": "ধর্ম ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-14%2Fj2ktppp2%2Fpexels-faheem-ahamad-422934800-16814609.jpg?rect=0%2C2223%2C4160%2C2184&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "রাত ১:০০"
+        },
+        {
+          "headline": "শেখ হাসিনার ফেরার ঘোষণা ঘিরে মনোযোগ পেতে চায় আওয়ামী লীগ",
+          "excerpt": "বিশেষ প্রতিনিধি , ঢাকাডিসেম্বরে শেখ হাসিনা দেশে ফিরবেন—এমন ঘোষণাকে কেন্দ্র করে দেশে ও আন্তর্জাতিক মহলে মনোযোগ আকর্ষণ করতে চাইছে কার্যক্রম নিষিদ্ধ আওয়ামী লীগ। এ লক্ষ্যে দলটি এবং নিষিদ্ধ সংগঠন ছাত্রলীগের পক্ষ থেকে অনলাইনে ‘ধর্মঘট’, ‘লকডাউন’সহ নানা কর্মসূচি ঘোষণা করা হচ্ছে। তবে শেখ হাসিনার দেশে ফেরার ঘোষণা কীভাবে বাস্তবায়িত হবে, সে বিষয়ে আওয়ামী লীগের নেতাদেরও পরিষ্কার ধারণা নেই।আত্মগোপনে থাকা…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/politics/2tsqqwpl6v",
+          "author": "বিশেষ প্রতিনিধি",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-14%2F6lv574kj%2FSheikh-Hasina.jpg?rect=0%2C33%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2022-01%2F5a36c819-05a2-4bfb-ac50-57dd67355acb%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "রাত ১২:৫৫"
+        },
+        {
+          "headline": "সম্পূরক পরীক্ষা দিচ্ছেন সাড়ে ৩ লাখের বেশি শিক্ষার্থী",
+          "excerpt": "এইচএসসি সম্পূরক পরীক্ষা দিচ্ছেন সাড়ে ৩ লাখের বেশি শিক্ষার্থীবিশেষ প্রতিবেদক ঢাকাফাইল ছবি: প্রথম আলোএ বছরের উচ্চমাধ্যমিক সার্টিফিকেট (এইচএসসি) ও সমমানের পরীক্ষায় এক বা দুই বিষয়ে অকৃতকার্য হওয়া পরীক্ষার্থীদের মধ্যে ৩ লাখ ৬৫ হাজার ৯১১ জন পরীক্ষার্থী সম্পূরক (সাপ্লিমেন্টারি) পরীক্ষায় অংশ নিতে ফরম পূরণ করেছেন। এবার এক ও দুই বিষয়ে অকৃতকার্য হয়েছেন মোট ৪ লাখ ২২ হাজার ৯০৫ জন পরীক্ষার্থী।এরারই পরীক্ষার…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/4qe2gxobpc",
+          "author": "বিশেষ প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2024-07%2F16de8283-1ea9-44ee-9495-840962f03a08%2F%E0%A6%A4%E0%A6%BF%E0%A6%A8%20%E0%A6%A6%E0%A6%BF%E0%A6%A8%E0%A7%87%E0%A6%B0%20%E0%A6%8F%E0%A6%87%E0%A6%9A%E0%A6%8F%E0%A6%B8%E0%A6%B8%E0%A6%BF%20%E0%A6%AA%E0%A6%B0%E0%A7%80%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE%20%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A6%97%E0%A6%BF%E0%A6%A4?rect=0%2C72%2C1920%2C1008&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "রাত ১২:৫২"
+        },
+        {
+          "headline": "১৩২৪ কেজি গরুর মাংস ও ৭০০ লাউ দিয়ে মাষকলাই ডাল, মেজবান খেল ১০ হাজার মানুষ",
+          "excerpt": "নিজস্ব প্রতিবেদক ময়মনসিংহময়মনসিংহের ত্রিশাল উপজেলার ধানীখোলা দক্ষিণ ভাটিপাড়া গ্রামের নুরুদ্দীন খান ওয়েলফেয়ার ট্রাস্টের উদ্যোগে প্রতিবছর কার্তিক মাসের প্রথম সপ্তাহে মেজবানের আয়োজন করা হয়। আজ জাহিরুল উলুম দাখিল মাদ্রাসা মাঠে।ছবি: প্রথম আলোগ্রামে তখন কার্তিক মাস মানেই অভাব-অনটনের দিন। ঘরে ঘরে খাবারের সংকট। সেই সময়ে প্রতিবেশী ও স্বজনদের অন্তত এক বেলা ভালো খাবার খাওয়ানোর ইচ্ছা থেকে ৬০ বছর আগে ছোট্ট…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/district/9j75uy0gxj",
+          "author": "নিজস্ব প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-14%2F3k0brxd7%2Fmymensinghdh169420261114img-20261114-wa0126.jpg?rect=0%2C24%2C1280%2C672&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "রাত ১২:১০"
+        },
+        {
+          "headline": "চাঁদাবাজি ও কিশোর গ্যাংয়ের পৃষ্ঠপোষকতার অভিযোগ: সাবেক ছাত্রদল নেতা সজীব গ্রেপ্তার",
+          "excerpt": "নিজস্ব প্রতিবেদক ঢাকাগ্রেপ্তারপ্রতীকী ছবিরাজধানীর আদাবর এলাকা থেকে সাবেক ছাত্রদল নেতা সজীব আহমেদ রানাকে গ্রেপ্তার করেছে ঢাকা মহানগর গোয়েন্দা পুলিশ (ডিবি)। তিনি ঢাকা মহানগর পশ্চিম ছাত্রদলের যুগ্ম সাধারণ সম্পাদক ছিলেন বলে জানা গেছে।আজ শনিবার সন্ধ্যায় আদাবর এলাকা থেকে তাঁকে হেফাজতে নেয় ডিবির একটি দল। পরে তাঁকে গ্রেপ্তার দেখানো হয়।রাত ৯টার দিকে গোয়েন্দা পুলিশের (ডিবি) তেজগাঁও বিভাগের উপকমিশনার…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/crime/awt0v6ftb2",
+          "author": "নিজস্ব প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-07-09%2Frdle97jl%2F1.avif?rect=0%2C13%2C590%2C310&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "রাত ১১:৫১"
+        },
+        {
+          "headline": "প্রভাবশালীদের খুশি করার মানসিকতা থেকে বের হতে হবে পুলিশকে: বদিউল আলম মজুমদার",
+          "excerpt": "0",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/video/bangladesh/p27wp810hb",
+          "author": "ভিডিও ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-14%2F8264w9bo%2FNarayngaanj.00091217.Still002.jpg?rect=0%2C36%2C1920%2C1008&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2022-01%2F5a36c819-05a2-4bfb-ac50-57dd67355acb%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "রাত ১১:৪৯"
+        },
+        {
+          "headline": "মালিকদের মজুরি প্রস্তাবে প্রতিবার শ্রমিকদের অসন্তোষ কেন, এবার কী হবে",
+          "excerpt": "শুভংকর কর্মকার ঢাকা১৩ বছর আগের ঘটনা। ২০১৩ সালের সেপ্টেম্বরে নিম্নতম মজুরি বোর্ডে মালিকপক্ষ ন্যূনতম মজুরি ৬০০ টাকা বাড়ানোর প্রস্তাব দেয়। এত কম মজুরি বৃদ্ধির প্রস্তাবে ক্ষুব্ধ হয়ে সব শিল্পাঞ্চলের শ্রমিকেরা রাস্তায় নেমে বিক্ষোভ করেন। কারখানা ও যানবাহন ভাঙচুর ও সড়ক অবরোধের ঘটনা ঘটে। গাজীপুরে আনসার ক্যাম্পে হামলা চালিয়ে চারটি রাইফেল ছিনিয়ে নিয়ে পুড়িয়ে দেন তাঁরা। পুলিশের সঙ্গে সংঘর্ষে আহত হন…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/business/industry/wwvqhmzm3k",
+          "author": "শুভংকর কর্মকার",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-01%2F9zrh7phm%2F8.-Dhaka-garment-industry-garment-workers-salaries-labor-movement-road-blockade-protest01112026.jfif?rect=0%2C50%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "রাত ১১:০০"
+        },
+        {
+          "headline": "কথাসাহিত্যিক পূরবী বসু আর নেই",
+          "excerpt": "বিশেষ প্রতিনিধি নিউইয়র্কবিশিষ্ট কথাসাহিত্যিক পূরবী বসু (জন্ম: ১৯৪৯–মৃত্যু: ২০২৬)বিশিষ্ট কথাসাহিত্যিক পূরবী বসু মারা গেছেন। যুক্তরাষ্ট্রের ফ্লোরিডায় নিজ বাসভবনে স্থানীয় সময় শুক্রবার তিনি মারা যান। কয়েক বছর ধরে অসুস্থ ছিলেন তিনি।পূরবী বসুর (৭৭) মৃত্যুর খবর প্রথম আলোকে নিশ্চিত করেন তাঁর স্বামী কথাসাহিত্যিক জ্যোতিপ্রকাশ দত্ত। পূরবী বসুর আরেক পরিচয় বিজ্ঞানী। তিনি অনেক দিন ধরে নানা রোগে ভুগছিলেন। ১০…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/j0q2kv5kp6",
+          "author": "বিশেষ প্রতিনিধি",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-14%2Fh5ev96mv%2FPurabi-basu.PNG?rect=0%2C14%2C900%2C473&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "রাত ১০:৫৬"
+        }
+      ],
+      "International": [
+        {
+          "headline": "US flights resume after ageing technology blamed for outage",
+          "excerpt": "NewsFeedFlights across the US are resuming after a nationwide order to ground all outbound aircraft. US officials have blamed out-of-date technology for the failure which saw 12,000 flights cancelled. Thousands of passengers are still stranded.Published On 14 Nov 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/us-flights-resume-after-ageing-technology-blamed-for-outage?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1794692170.jpg?resize=1920%2C1080&quality=80",
+          "time": "রাত ৩:৩৬"
+        },
+        {
+          "headline": "US envoy Kushner says he aims to broker Europe-Russia talks on Ukraine",
+          "excerpt": "Europe’s direct engagement with Moscow as part of Ukraine-Russia peace talks is edging closer to becoming a reality.US envoy Jared Kushner has said he is working with Russia, Ukraine and Europe to move peace talks to the next stage, including facilitating direct engagement between Europe and Moscow.Kushner told reporters Saturday that “both sides” know that compromises will be necessary to end…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/11/14/us-envoy-kushner-says-he-aims-to-broker-europe-russia-talks-on-ukraine?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6af8c810ac51-1794689040.jpg?resize=1920%2C1440",
+          "time": "রাত ৩:১০"
+        },
+        {
+          "headline": "India’s Assam state demolishes homes of 132 Muslim families",
+          "excerpt": "NewsFeedAuthorities in India’s Assam have demolished the homes of 132 Muslim families, citing illegal encroachment on government land. Residents say they were settled there after fleeing the 1983 anti-Muslim riots. Researchers say the evictions have disproportionately targeted Bengali-origin Muslims.Published On 14 Nov 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/14-11-sv-assam-muslim-families-evicted-demolition-drive?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1794687262.jpg?resize=1920%2C1080&quality=80",
+          "time": "রাত ২:১৪"
+        },
+        {
+          "headline": "Can being ‘non-Western’ cost you your home in Denmark?",
+          "excerpt": "NewsFeedDenmark’s Supreme Court is set to rule on whether families can be forced from their homes under a law that divides residents into ‘Western’ and ‘non-Western’. Al Jazeera’s Nils Adler reports from Copenhagen, where evictees of majority ‘non-Western’ estates are fighting back.Published On 14 Nov 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/adlern-can_non-westren_cost_home_denmark-141126?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1794685914.jpg?resize=1920%2C1080&quality=80",
+          "time": "রাত ১:৫২"
+        },
+        {
+          "headline": "Deadly car bomb blast kills two near Syria’s capital",
+          "excerpt": "NewsFeedAt least two people, a man and a girl, have been killed in a car bomb explosion in Jaramana, near Syria’s capital Damascus. Security forces cordoned off the area and say they are launching an investigation into the blast.Published On 14 Nov 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/deadly-car-bomb-blast-kills-two-near-syrias-capital?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1794685590.jpg?resize=1918%2C1080&quality=80",
+          "time": "রাত ১:৪৬"
+        },
+        {
+          "headline": "More than 100,000 rally across France in new Yellow Vest protests",
+          "excerpt": "Protesters chanted against declining affordability, the Macron government, police violence and poor school conditions.More than 100,000 people have taken to the streets in France in another round of cost-of-living rallies organised by the “Yellow Vests” and various youth movements.Saturday’s protests saw a decline in turnout compared with previous weekends and stayed largely calm, authorities…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/11/14/more-than-100000-rally-across-france-in-new-yellow-vest-protests?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/epa_6af8b0272660-1794682919.jpg?resize=1920%2C1440",
+          "time": "রাত ১:৪৬"
+        },
+        {
+          "headline": "Tens of thousands march in latest Portugal housing protests",
+          "excerpt": "Tens of thousands of people have taken to the streets of more than 30 towns and cities in Portugal to protest against surging rental prices, demanding urgent government action to address the country’s worsening housing crisis.Organised by the Casa Para Viver (A Home to Live In) platform, demonstrations on Saturday took place under the slogan “They will not steal our right to a home,” with…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/11/14/tens-of-thousands-march-in-latest-portugal-housing-protests?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6af8a8f765ab-1794681079.jpg?resize=1920%2C1440",
+          "time": "রাত ১:২৭"
+        },
+        {
+          "headline": "Pope Leo urges end to violence in Peru during visit to remote Andes town",
+          "excerpt": "In Santa Cruz de Succhabamba, the pope urges people not to respond to injustice with brutality.Pope Leo XIV has called for an end to the violence gripping Peru, urging people not to respond to injustice with brutality, as he visited communities he once served as bishop.“We feel threatened by the uncertainty of widespread violence and by the unspeakable suffering that continues to afflict so many…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/11/14/pope-leo-urges-end-to-violence-in-peru-during-visit-to-remote-andes-town?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6af8ab157889-1794681621.jpg?resize=1920%2C1440",
+          "time": "রাত ১:২০"
+        },
+        {
+          "headline": "US blames outdated technology for nationwide flight disruption",
+          "excerpt": "NewsFeedUS Transportation Secretary Sean Duffy says a telecommunications failure during routine maintenance triggered widespread flight disruption and a nationwide ground stop. The fault affected communication with aircraft and radar feeds.Published On 14 Nov 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/us-blames-outdated-technology-for-nationwide-flight-disruption?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1794681142.jpg?resize=1920%2C1080&quality=80",
+          "time": "রাত ১২:৩২"
+        },
+        {
+          "headline": "US blames system upgrade for longest nationwide FAA ground stop since 9/11",
+          "excerpt": "Sean Duffy, the country’s transportation secretary, said his agency is ‘going to hold people accountable’.The top United States transportation official has said work being performed on an antiquated telecommunications system could be to blame for a rare, hours-long US Federal Aviation Administration (FAA) ground stop that halted all air traffic inside the country.At a news conference in…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/11/14/us-blames-system-upgrade-for-longest-nationwide-faa-ground-stop-since-9?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6af899d062d8-1794677200.jpg?resize=1920%2C1440",
+          "time": "রাত ১২:০২"
+        },
+        {
+          "headline": "Rising costs and arrests fuel protests in Central African Republic",
+          "excerpt": "Skip linksSkip to Content Live Navigation menuNewsMiddle EastAfricaAsiaUS & CanadaLatin AmericaEuropeAsia PacificExplainedSportOpinionVideoInteractivesOriginalsFeaturesEconomyHuman RightsClimate CrisisInvestigationsIn PicturesScience & TechnologyPodcastsTravelSponsored Content Live Navigation menuUS-Israel war on IranYemen conflictMiddle EastAfricaAsiaAsia PacificEuropeLatin AmericaUS &…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/rising-costs-and-arrests-fuel-protests-in-central-african-republic?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1794678621.jpg?resize=1918%2C1080&quality=80",
+          "time": "রাত ১১:৫০"
+        },
+        {
+          "headline": "Philippines’ Carmelle wins first Eurovision contest in Asia",
+          "excerpt": "Carmelle Collado has won the first Eurovision song contest Asia, taking the Philippines’ entry, Sobra-Sobra, to victory in Bangkok on Saturday night, at the first regional edition of the contest to be staged outside Europe.Eleven countries competed at the One Bangkok Forum in central Bangkok, and the show ran for two and a half hours including advertising.The winner, who performs under the…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/tv-and-radio/2026/nov/14/philippines-carmelle-wins-first-eurovision-contest-in-asia",
+          "author": "Raphael Rashid",
+          "image": "https://i.guim.co.uk/img/media/e086ead12105dc2c27d05464ce6db1d81b380886/300_0_3206_2564/master/3206.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=2f4f4e1e33604925a109fe90d3f5e91e",
+          "time": "রাত ১:০১"
+        },
+        {
+          "headline": "US suggested Ukraine cede parts of Donbas to Russia to become part of NATO",
+          "excerpt": "Zelenskyy rejected the possibility of Ukraine committing to neutrality and said he refused to cede territory to Russia.US negotiators have floated the idea that Ukraine should cede parts of eastern Donbas in exchange for NATO membership, Ukraine’s President Volodymyr Zelenskyy has said, after the latest rounds ⁠of Russia-Ukraine peace talks in Abu Dhabi and Ireland.This is the first time the…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/11/14/us-suggested-ukraine-cede-parts-of-donbas-to-russia-to-become-part-of-nato?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6af8821db843-1794671133.jpg?resize=1920%2C1440",
+          "time": "রাত ১০:৫৩"
+        },
+        {
+          "headline": "Portugal vs Denmark LIVE: UEFA Nations League",
+          "excerpt": "Skip linksSkip to ContentNavigation menuNewsMiddle EastAfricaAsiaUS & CanadaLatin AmericaEuropeAsia PacificExplainedSportOpinionVideoInteractivesOriginalsFeaturesEconomyHuman RightsClimate CrisisInvestigationsIn PicturesScience & TechnologyPodcastsTravelSponsored ContentLive Match, Published On 14 Nov 2026\nPortugal host Denmark for a Nations League clash as the home side play their first game…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/sports/liveblog/2026/11/14/portugal-vs-denmark-live-uefa-nations-league?traffic_source=rss",
+          "author": "Patrick Keddie, Rohan Sharma",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6af8ce9f8212c-1794690719.jpg?resize=1920%2C1440",
+          "time": "রাত ১০:৪৫"
+        },
+        {
+          "headline": "Italy fines Meta $880m over photo privacy",
+          "excerpt": "Regulator said Meta’s ‘lack of cooperation’ and the large number of people affected contributed to size of the fine.Italian regulators have fined Meta 805 million euros ($887m) for accessing users’ photos without their consent.The Facebook app on Android devices “accessed photos, videos and associated metadata stored on Italian users’ smartphones without specific consent and without informing…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/11/14/italy-fines-meta-880m-over-photo-privacy?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/getty_6af88117a3-1794670871.jpg?resize=1920%2C1440",
+          "time": "রাত ১০:১৬"
+        },
+        {
+          "headline": "Myanmar airstrike kills 12 at displacement camp in Rakhine state",
+          "excerpt": "NewsFeedA Myanmar military airstrike on a displacement camp in Rakhine state killed 12 people, including a five-year-old child, and wounded 18 others, according to rescuers.Published On 14 Nov 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/myanmar-airstrike-displacement-camp-rakhine?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1794672722.jpg?resize=1620%2C1080&quality=80",
+          "time": "রাত ১০:১৩"
+        },
+        {
+          "headline": "EU calls for immediate humanitarian access to Gaza",
+          "excerpt": "The EU said that “Israel must enable the work of the UN and its agencies” after the group was blocked access into Gaza.The European Union has urged Israel to reopen all Gaza border crossings and grant “immediate, unimpeded access” for aid groups to provide humanitarian relief in the territory following devastating flooding in Gaza this week.Civilian infrastructure and medical facilities in Gaza…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/11/14/eu-calls-for-immediate-humanitarian-access-to-gaza?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6af8704f4a9a8-1794666575.jpg?resize=1920%2C1440",
+          "time": "রাত ৯:৫৭"
+        },
+        {
+          "headline": "Even Labor MPs are at a loss over the Victorian premier’s ‘tough love’ plan for youth offenders",
+          "excerpt": "Until December last year, Meena Singh was the Victorian commissioner for Aboriginal children and young people, a role that saw her advocating for some of the state’s most vulnerable children.She had held the role since 2022. In all that time, she says, nobody from the Victorian government had approached her with a proposal like the one the Victorian premier, Ben Carroll, announced last week: a…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/australia-news/2026/nov/15/victoria-premier-ben-caroll-youth-crime-offenders-plan-ntwnfb",
+          "author": "Benita Kolovos",
+          "image": "https://i.guim.co.uk/img/media/0ddcc3866d426031d184b92ca5117f79edd2abd4/390_0_5750_4600/master/5750.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=79c78fa463fecdcb10b4879d136154f0",
+          "time": "রাত ১:০০"
+        },
+        {
+          "headline": "Jerusalem Daily: Israeli forces occupy Palestinian-American’s home",
+          "excerpt": "NewsFeedIsraeli forces occupied a Palestinian-American’s home in the occupied West Bank for 17 days. Meanwhile, Israeli soldiers raided a Palestinian wedding and arrested the groom, as deadly Israeli attacks across Gaza continue.\n\nAl Jazeera’s Mohamad Saleh has the latest.By Mohammad SalehPublished On 14 Nov 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/jerusalem-daily-israeli-forces-occupy-palestinian-americans-home?traffic_source=rss",
+          "author": "Mohammad Saleh",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1794670515.jpg?resize=1920%2C1080&quality=80",
+          "time": "রাত ৯:৩৬"
+        },
+        {
+          "headline": "Art ‘must not be sacrificed on the altar of corporate profit’ Liberal senator says as AI policy debate rages",
+          "excerpt": "Outspoken Liberal senator Andrew McLachlan has raised the alarm about the approach of his party and the Labor government to AI, urging artists’ copyright not be “sacrificed” for investment and that building new datacentres must not be prioritised above environmental concerns.As Labor considers copyright changes in an AI policy suite including datacentres, online safety, energy resources and…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/australia-news/2026/nov/15/art-over-profit-ai-policy-debate-andrew-mclachlan",
+          "author": "Tess Ikonomou, Josh Butler",
+          "image": "https://i.guim.co.uk/img/media/bb100c4ad17c64282442b40c27895d51765e32dd/0_0_3485_2789/master/3485.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=4cc8c16eac1f5108a0736b290b0363b0",
+          "time": "রাত ১:০০"
+        },
+        {
+          "headline": "NASA’s Voyager 1 to hit new space distance record of one light-day",
+          "excerpt": "The probe was launched in 1977 but it continues to relay space-related data back to a team of NASA scientists daily.NASA has announced that its Voyager 1 probe will soon become humanity’s first object to travel one light-day from Earth.On Wednesday, the robotic space probe will hit the milestone of travelling at least 16 billion miles since its launch in 1977, a distance equal to one light-day,…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/11/14/nasas-voyager-1-to-hit-new-space-distance-record-of-one-light-day?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/2013-09-12T120000Z_2135594600_GM1E99D08R201_RTRMADP_3_SPACE-VOYAGER-1794666602.jpg?resize=1920%2C1440",
+          "time": "রাত ৯:১৪"
+        },
+        {
+          "headline": "Canada’s Stelco to recall 175 workers after government pressure",
+          "excerpt": "Steelmaker promises back pay for workers whose layoffs its US owner blamed on tariffs, weak demand and imports.Canadian steelmaker Stelco says it will recall all 175 workers laid off at its plant in Hamilton and pay them retroactively, following a weeks-long standoff that pitted workers and the Canadian government against its owner in the United States.The announcement on Friday came shortly…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/economy/2026/11/14/canadas-stelco-to-recall-175-workers-after-government-pressure?traffic_source=rss",
+          "author": "Tamara Khandaker",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6af86f3f-1794666303.jpg?resize=1920%2C1440",
+          "time": "রাত ৯:০৬"
+        },
+        {
+          "headline": "How a US extradition bid over Hamas allegations put a wealthy activist before a Spanish court",
+          "excerpt": "A two-hour hearing in Spain’s high court Friday on the US extradition request of wealthy leftwing activist and philanthropist James “Fergie” Chambers turned out to be a study in contrasts.Chambers’s defense took most of the session to query the US citizen and detail irregularities in the Trump administration’s extradition request – several of which the Guardian has reported on – as well as the…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/us-news/2026/nov/14/activist-extradition-gaza-hamas-spanish-court",
+          "author": "Timothy Pratt",
+          "image": "https://i.guim.co.uk/img/media/dd871a986aabb7abca5224af03caccf474d981ca/468_0_4680_3744/master/4680.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=b0273fa8bc4b985425531f3705adc2b2",
+          "time": "রাত ৯:০০"
+        },
+        {
+          "headline": "Family of Watford woman set alight ‘desperate for answers’ after attack",
+          "excerpt": "The family of an elderly woman who was set on fire outside a block of flats in Watford have said they are “desperate for answers”.Brenda Raymond, 80, was found set alight outside her flat on Caractacus Cottage View on Monday. She was taken to a nearby hospital, where she is in critical condition.Hertfordshire constabulary have said a 33-year-old man was arrested on suspicion of conspiracy to…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/uk-news/2026/nov/14/family-of-watford-woman-set-alight-desperate-for-answers-after-attack",
+          "author": "Raphael Boyd",
+          "image": "https://i.guim.co.uk/img/media/6f2286e1b2b467534e5f0baa5dda7a77ba7cd596/0_150_528_422/master/528.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=b13d2d71ffb39418d04de8528274d711",
+          "time": "রাত ১১:৫৯"
+        },
+        {
+          "headline": "NHS England on track to miss key cancer treatment target by 10,000 patients",
+          "excerpt": "Nearly 10,000 more cancer patients in England will not be treated on time because the government will fail to meet its targets, amid a failure of leadership, focus and resource, experts have warned.The NHS set an interim target to treat 80% of cancer patients within 62 days of urgent referral or consultant upgrade by March 2027. But with little more than 100 days to go, the proportion of…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/society/2026/nov/14/nhs-england-62-day-cancer-treatment-target-by-10000-patients",
+          "author": "Anna Bawden",
+          "image": "https://i.guim.co.uk/img/media/b00e7ea04eeee225998f3f0ab4b1036edaafc939/631_0_3333_2667/master/3333.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=168a00959437cd0de01aa091e750b35d",
+          "time": "রাত ১১:০০"
+        },
+        {
+          "headline": "Cold weather health alerts issued for parts of UK on Sunday night",
+          "excerpt": "More cold health alerts have been issued for parts of the UK on Sunday night and next week.The alerts were issued by the UK Health Security Agency (UKHSA) for the north-west, West Midlands and Yorkshire and the Humber, and will be in place from 9pm on Sunday until 9am on Thursday.These alerts mean the weather is “likely to have minor impacts on health and social care services”, including an…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/uk-news/2026/nov/14/uk-weather-milder-weekend-autumn-freeze-frost",
+          "author": "Daniel Lavelle",
+          "image": "https://i.guim.co.uk/img/media/6035732eda45a68c9aabfbeb732079748dc463bf/113_0_4560_3648/master/4560.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=55d4fb0fca11b8019616a7f55edea7c7",
+          "time": "রাত ১০:৪২"
+        },
+        {
+          "headline": "A rapid interest rate rise seems inevitable – and households are expected to pick up the tab",
+          "excerpt": "A head of steam is building up behind the Bank of England raising interest rates again. With the latest forecasts by the central bank showing inflation rising to 5% next spring, another increase in the cost of borrowing seems inevitable, and may come as soon as next month.A growing number of analysts predict the Bank’s policymakers will don Scrooge masks when they meet on 17 December to deliver…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/business/2026/nov/14/interest-rate-rise-phillip-inman-inflation-economy",
+          "author": "Phillip Inman",
+          "image": "https://i.guim.co.uk/img/media/91a65d8728a29fe09fb1706e308ff8c46b77c4d6/187_0_2954_2363/master/2954.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMucG5n&enable=upscale&s=0d5ee51907da916a6c959bf53cb530c5",
+          "time": "রাত ১০:০০"
+        },
+        {
+          "headline": "Andy Burnham says UK has ‘lost more than we gained’ through Brexit",
+          "excerpt": "Andy Burnham has said the UK has “lost more than we gained” since leaving the EU, the prime minister’s latest in a string of comments criticising Brexit.Outlining his desire to form closer ties with Brussels, Burnham accused the Conservative party of having “burned all our bridges” with the bloc after Brexit and said a new deal he hopes to secure with the EU next week will “get food prices down”…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/world/2026/nov/14/andy-burnham-says-uk-lost-more-than-we-gained-brexit",
+          "author": "Sammy Gecsoyler",
+          "image": "https://i.guim.co.uk/img/media/2ea4cbf637966baf9c26015df59668f59c6fb69e/759_456_4582_3666/master/4582.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=f01ef8a3a85840f563084ac11433abef",
+          "time": "রাত ৯:৩৪"
+        },
+        {
+          "headline": "Evacuation zone lifted after bomb found at Illinois ethanol plant",
+          "excerpt": "Residents were ordered to evacuate parts of an Illinois community on Friday after the mayor there said authorities found a bomb at a local ethanol- and alcohol-production plant.The discovery reported at BioUrja Renewables in Peoria triggered a mandatory evacuation over a one-mile evacuation zone encompassing sections of that city as well as the adjacent municipality of East Peoria. Officials…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/us-news/2026/nov/14/peoria-illinois-evacuation-bomb",
+          "author": "Ramon Antonio Vargas",
+          "image": "https://i.guim.co.uk/img/media/c959bae56a786ff95913cb67d9c97a8fced81672/437_0_4680_3744/master/4680.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=e1c40f6f48243a838eed2adaf11bb471",
+          "time": "রাত ২:১৪"
+        },
+        {
+          "headline": "US officials say flight stoppage stemmed from ‘routine maintenance’ as travel chaos continues",
+          "excerpt": "The Trump administration says Friday’s four-hour nationwide Federal Aviation Administration (FAA) ground stop that delayed or canceled thousands of flight stemmed from routine maintenance.At a news briefing on Saturday, the US transportation secretary, Sean Duffy, said that the issues began when a contractor was performing “routine maintenance” at a remote FAA facility to “switch…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/world/2026/nov/14/faa-ground-stop-flights-resume-airport-chaos",
+          "author": "Anna Betts",
+          "image": "https://i.guim.co.uk/img/media/6934b82431c8fab49bd4a56b9baaca81b07d75ae/0_0_3333_2667/master/3333.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=df39ec2f66eadc002f0e2550196d56ad",
+          "time": "রাত ১১:১১"
+        },
+        {
+          "headline": "Democrat wins Alaska governor’s seat for first time in nearly 30 years",
+          "excerpt": "Democrats have captured Alaska’s governor’s seat for the first time in nearly three decades, marking another major victory for their party in a midterm election period that has dramatically shifted political power across the US.Former Alaska state legislator Jonathan Kreiss-Tomkins defeated three Republican opponents, including a candidate backed by Donald Trump, becoming the first Democrat…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/us-news/2026/nov/14/alaska-governor-democrat-jonathan-kreiss-tomkins-wins",
+          "author": "Marina Dunbar",
+          "image": "https://i.guim.co.uk/img/media/0e83e7d08933409bcc15b86d35740272644b415a/0_0_4305_3444/master/4305.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=d182321e6832b302d3de0295b3b1d3b3",
+          "time": "রাত ১০:৫৮"
+        }
+      ],
+      "Sports": [
+        {
+          "headline": "Ulva pulls off heist as India lift Under-19s Asia Cup after thriller against Pakistan",
+          "excerpt": "India 339 for 9 (Raichandani 80, Sehwag 58, Ulva 49*, Rizwanullah 3-53) beat Pakistan 337 for 9 (Usman 107, Qadir 80, Yousaf 63, Kavya 4-68, Venkata 3-40) by one wicketThis was the stuff of miracle, an instant India vs Pakistan classic, bursting into life right when it seemed to be all over, like all great cricket heists. Chasing 338 in the Under-19s Asia Cup final, India were 252 for 8 in the…",
+          "source": "ESPN Cricinfo",
+          "link": "https://www.cricinfo.com/ci/content/story/1562642.html?ex_cid=OTC-RSS",
+          "author": "Abhijato Sensarma",
+          "image": "https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/425200/425247.6.jpg",
+          "time": "রাত ১০:১৯"
+        },
+        {
+          "headline": "Suryakumar ready to 'knock down' selectors' door for India comeback",
+          "excerpt": "NewsThe Mumbai captain struck six fours and five sixes in his unbeaten 60 off 21 with national selector SS Das watching at the groundRajan RajPublished: Nov 14, 2026, 3:11 PM (6 hrs ago)Suryakumar Yadav hammered five sixes  •  Cricket Association of BengalMumbai captain Suryakumar Yadav is ready to \"knock down the [selectors'] door\" to make his India comeback after losing his place in T20I side…",
+          "source": "ESPN Cricinfo",
+          "link": "https://www.cricinfo.com/ci/content/story/1562646.html?ex_cid=OTC-RSS",
+          "author": "Rajan Raj",
+          "image": "https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/425200/425221.6.jpg",
+          "time": "রাত ৯:১৬"
+        },
+        {
+          "headline": "সকালে আর্জেন্টিনা, বিকেলে ব্রাজিল, রাতে বাংলাদেশ: এ দেশের ফুটবলপ্রেমীদের কী এক হতাশার দিন",
+          "excerpt": "কামরুল হাসান ঢাকাসকালে ঘুম থেকে উঠে কেউ হয়তো ফোনটা হাতে নিয়েছেন। খবরের কাগজের পাতা ওলটানোর আগেই চোখে পড়েছে, আর্জেন্টিনা হেরে গেছে। মনটা একটু খারাপ। তবু ভাবনা ছিল, দিন তো অনেক বাকি। বিকেলে ব্রাজিল খেলবে। নেইমার না থাকলেও ব্রাজিল তো ব্রাজিলই! আর রাতে বাংলাদেশ। সাফের সেমিফাইনাল। ফাইনালে ওঠার এত কাছে এসে এবার নিশ্চয়ই আর স্বপ্নভঙ্গ হবে না।দিন শেষে সেই মানুষটির মনের অবস্থা কেমন? প্রথম আলোর লাইভ ব্লগে…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/sports/football/amofy1vtqo",
+          "author": "কামরুল হাসান",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-14%2Fj43aovhp%2FNew-Phototastic-Collage.jpg?rect=0%2C74%2C4095%2C2150&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2026-09-03%2F99dqhmx6%2Fog-banner-for-sports.png&overlay_position=bottom&overlay_width_pct=1",
+          "time": "রাত ১২:১১"
+        },
+        {
+          "headline": "‘চাপ সামলাতে পারেনি বাংলাদেশ’",
+          "excerpt": "ম্যাচ শেষে বাংলাদেশের কোচ টমাস ডুলির কণ্ঠে হতাশা। তাঁর মতে, বড় ম্যাচের চাপই সামলাতে পারেননি খেলোয়াড়েরা। সংবাদ সম্মেলনে ডুলি বলেন, ‘আমরা জানতাম, ম্যাচটি কতটা গুরুত্বপূর্ণ। ঘরের মাঠে এত দর্শকের সামনে খেলার প্রত্যাশাও ছিল অনেক বেশি। কিন্তু শুরু থেকেই আমরা খেলায় ঢুকতে পারিনি। একের পর এক ভুল করেছি। একটা ভুলের পর খেলোয়াড়েরা আরও সতর্ক হতে চেয়েছে, কিন্তু তাতে উল্টো আরও ভুল হয়েছে। আসলে এই ম্যাচে চাপ…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/sports/football/q9syuj872g",
+          "author": "ক্রীড়া প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-14%2F0rf0wdcr%2FWhatsApp-Image-2026-11-14-at-23.46.58.jpeg?rect=0%2C0%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2026-09-03%2F99dqhmx6%2Fog-banner-for-sports.png&overlay_position=bottom&overlay_width_pct=1",
+          "time": "রাত ১১:৫৭"
+        },
+        {
+          "headline": "'One of the greatest wins' - Wales stun All Blacks to go from no-hopers to heroes",
+          "excerpt": "One of the greatest Wales wins of all time.That is how former captain Sam Warburton described the monumental result against New Zealand in Cardiff on Saturday.At the time of the kick-off, the All Blacks were effectively the top-ranked side in the world following South Africa's tension-filled loss to France on Friday night.So no-one gave Wales hope - even Warburton - with some bookmakers offering…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cmkg57rz2re9o?at_medium=RSS&at_campaign=rss",
+          "author": "Matt Lloyd",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/5668/live/7585ebc0-e05c-11f1-9e26-b3b65586122f.jpg",
+          "time": "রাত ১:৩৩"
+        },
+        {
+          "headline": "Heartbroken Hamza refuses to single out teammates",
+          "excerpt": "Published : 15 November 2026\n            \n          \n          •\n                Updated : 15 November 2026, 01:02\n            \n        \n\t\t\n\t\t\t\t\t\t\t\n\t\t\t\n\n\t\tStar Sports Report\n\t\t\t\t\t\n\n\t\t\t\t\t\n\n\t\t\t\n  \n                  \n              \n                  \n\n  \n\n\n\t\t\t\n\t\t\t\t\t\t\tHamza Choudhury consoles goalkeeper Mehedi Hasan Srabon after the game. Photo: Firoz Ahmed \n\t\t\t\t\t\t\n\t\t\t\t\t\nBangladesh captain Hamza…",
+          "source": "The Daily Star Sports",
+          "link": "https://www.thedailystar.net/sports/football/news/heartbroken-hamza-refuses-single-out-teammates-4323976",
+          "author": "Star Sports Report",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/Hamza-Srabon.jpg",
+          "time": "রাত ১:০২"
+        },
+        {
+          "headline": "Comeback kid Joseph thrills as England eye All Blacks",
+          "excerpt": "Eddie Jones aired a complaint about Twickenham's in-stadium experience when he appeared on BBC Radio 5 Live this week.\"Being a spectator and being told when to make noise is a bit funny,\" said the Japan boss, objecting to a big-screen request for an increase in volume.Jones sat stony-faced in the coaching box as the message appeared again in the midst of his team's 78-15 thrashing at England's…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cq0l3pn5z20xo?at_medium=RSS&at_campaign=rss",
+          "author": "Mike Henson",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/db18/live/8214b140-e06c-11f1-99e6-531f8829f5a3.jpg",
+          "time": "রাত ৩:০৬"
+        },
+        {
+          "headline": "2018 to 2026: Bangladesh haunted by the same old demons",
+          "excerpt": "Published : 15 November 2026\n            \n          \n          •\n                Updated : 15 November 2026, 00:55\n            \n        \n\t\t\n\t\t\t\t\t\t\t\n\t\t\t\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tSamsul Arefin Khan\n\t\t\t\t\t\t\n\t\t\t\t\t\n\n\t\t\t\n  \n                  \n              \n                  \n\n  \n\n\n\t\t\t\n\t\t\t\t\t\t\tPHOTO: FIROZ AHMED\n\t\t\t\t\t\t\n\t\t\t\t\t\nEight years on, a familiar nightmare returned to haunt Bangladesh football. And once…",
+          "source": "The Daily Star Sports",
+          "link": "https://www.thedailystar.net/sports/football/news/2018-2026-bangladesh-haunted-the-same-old-demons-4323971",
+          "author": "Samsul Arefin Khan",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/Sohel-Srabon.jpg",
+          "time": "রাত ১২:৪৩"
+        },
+        {
+          "headline": "Bompastor's risks pay off as Chelsea go top of WSL",
+          "excerpt": "In any big encounter you will often hear managers say it is the \"fine margins\" that decide a game of football.Sometimes it is luck. Sometimes it is individual brilliance. But on Saturday it was Sonia Bompastor's bold decisions that helped Chelsea beat Manchester City 1-0.The top-of-the-table Women's Super League clash was as intriguing as you would hope it to be and both managers needed to be on…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cmvg25w18q9qo?at_medium=RSS&at_campaign=rss",
+          "author": "Emma Sanders",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/8119/live/c11a1b50-e05d-11f1-b441-2b33b063138f.jpg",
+          "time": "রাত ১২:৫৫"
+        },
+        {
+          "headline": "Bangladesh’s familiar failure",
+          "excerpt": "Published : 15 November 2026\n            \n          \n          •\n                Updated : 15 November 2026, 00:15\n            \n        \n\t\t\n\t\t\t\t\t\t\t\n\t\t\t\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tTanvir Ahmed Pranto\n\t\t\t\t\t\t\n\t\t\t\t\t\n\n\t\t\t\n  \n                  \n              \n                  \n\n  \n\n\n\t\t\t\n\t\t\t\t\t\t\tHamza Choudhury holds his head in anguish as Pakistan’s coaching staff celebrate their 1-0 victory in the semifinals of…",
+          "source": "The Daily Star Sports",
+          "link": "https://www.thedailystar.net/sports/football/news/bangladeshs-familiar-failure-4323956",
+          "author": "Tanvir Ahmed Pranto",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/Hamza%20.jpg",
+          "time": "রাত ১২:১৫"
+        },
+        {
+          "headline": "'No racism in Spain' – De la Fuente message for Tuchel",
+          "excerpt": "Luis de la Fuente has dismissed concerns over racism in Spanish football before the national team's Uefa Nations League meeting with England in Madrid on Sunday.Three Lions boss Thomas Tuchel had earlier confirmed he would remind his players of Uefa's anti-racism protocol before the fixture, which will determine who finishes top of League A Group 3.While he has stressed he didn't expect there to…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/c893r74ryy3qo?at_medium=RSS&at_campaign=rss",
+          "author": "Elizabeth Conway",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/d168/live/23ffd600-e05f-11f1-9e26-b3b65586122f.jpg",
+          "time": "রাত ২:৪৩"
+        },
+        {
+          "headline": "Bangladesh's long wait for SAFF glory goes on after Pakistan heartbreak",
+          "excerpt": "Published : 14 November 2026\n            \n          \n          •\n                Updated : 14 November 2026, 22:52\n            \n        \n\t\t\n\t\t\t\t\t\t\t\n\t\t\t\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tTanvir Ahmed Pranto\n\t\t\t\t\t\t\n\t\t\t\t\t\n\n\t\t\t\n  \n                  \n              \n                  \n\n  \n\n\n\t\t\t\n\t\t\t\t\t\t\tPakistan players celebrate their 86th-minute winner against Bangladesh. Photo: Firoz Ahmed\n\t\t\t\t\t\t\n\t\t\t\t\t\nOne end of the…",
+          "source": "The Daily Star Sports",
+          "link": "https://www.thedailystar.net/sports/football/news/bangladeshs-long-wait-saff-glory-goes-after-pakistan-heartbreak-4323776",
+          "author": "Tanvir Ahmed Pranto",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/Pakistan%20celebrate.jpg",
+          "time": "রাত ১০:৪০"
+        },
+        {
+          "headline": "Tenerife boss says Owono's 12-match ban 'feels light'",
+          "excerpt": "Tenerife manager Alvaro Cervera says that goalkeeper Jesus Owono's 12-match ban \"might feel light\" but he accepts that the regulations do not \"specifically account for what happened\".FC Andorra's Owono, 25, was sent off after colliding with Tenerife forward Jesus de Miguel during the closing stages of the Spanish second-tier match between their two respective sides on 2 November. De Miguel died…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cmjeq0x815zko?at_medium=RSS&at_campaign=rss",
+          "author": "Ffion Wynne",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/b213/live/53f770d0-e040-11f1-88e1-eb4e155225b3.jpg",
+          "time": "রাত ১০:২৬"
+        },
+        {
+          "headline": "Bangladesh, Pakistan locked at 0-0 after entertaining first half",
+          "excerpt": "Bangladesh and Pakistan went into the half-time break locked in a goalless draw in the second semifinal of the SAFF Championship at the National Stadium tonight, with both sides coming agonisingly close to breaking the deadlock.The first half produced an evenly contested battle, with Bangladesh gradually growing into the game after Pakistan made a brighter start. Neither side lacked attacking…",
+          "source": "The Daily Star Sports",
+          "link": "https://www.thedailystar.net/sports/football/news/bangladesh-pakistan-locked-0-0-after-entertaining-first-half-4323761",
+          "author": "Star Sports Report",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/Hamza_1.jpg",
+          "time": "রাত ৯:৩৭"
+        },
+        {
+          "headline": "Rice close to signing new Arsenal contract",
+          "excerpt": "Declan Rice has confirmed he is close to signing a new contract with Arsenal.BBC Sport first revealed the midfielder was set to sign a new long-term deal at Emirates Stadium on 7 October, and the 27-year-old, speaking before England's game against Spain on Sunday, said: \"A new contract is hopefully on the horizon soon and I'm extremely lucky to be at a club like Arsenal where the manager shows…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cq0mdzrjn0j2o?at_medium=RSS&at_campaign=rss",
+          "author": "Sami Mokbel",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/1ab3/live/e7107780-e069-11f1-99e6-531f8829f5a3.jpg",
+          "time": "রাত ২:৪০"
+        },
+        {
+          "headline": "Highlights: Wales beat New Zealand for first time in 73 years",
+          "excerpt": "Watch the highlights as Wales beat New Zealand for the first time in 73 years. Wales scored five tries to earn their first win over the All Blacks since December 1953.This video is only available in the UK.",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/rugby-union/videos/ckdd10y25mm1o?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/d0b3/live/31db9fa0-e048-11f1-a701-fddedf244c16.png",
+          "time": "রাত ১০:৩৫"
+        },
+        {
+          "headline": "Joseph enjoys dream return as England thrash Japan at Twickenham",
+          "excerpt": "After four years away from international rugby, Will Joseph marks his return in style by scoring a record-equalling five tries as England humiliate Japan at Twickenham, scoring 13 tries in a 78-15 victory in the Nations Championship. READ MORE: Joseph scores record-equalling five tries as England rout JapanAvailable to UK users only.",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/rugby-union/videos/cmn0d1w0ry0no?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/801c/live/1d8ca750-e062-11f1-b441-2b33b063138f.jpg",
+          "time": "রাত ১:৩২"
+        },
+        {
+          "headline": "Haaland helps Norway to win over Wales in Nations League",
+          "excerpt": "Highlights: Haaland helps Norway to win over WalesThis content is not available in your location.There was an errorWatch the best of the action as Norway beat Wales in the Nations League in Oslo. Available to UK users only.Read more: Wales' top-tier survival hopes hit by Norway lossSubsectionFootballPublished2 hours agoRelated topicsFootballWales Men's Football TeamWales SportWelsh FootballNorway",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/videos/cr20vgxv43p8o?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/6958/live/cbfec630-e060-11f1-9e26-b3b65586122f.png",
+          "time": "রাত ১:২৩"
+        },
+        {
+          "headline": "Chelsea go top with 1-0 win against Man City",
+          "excerpt": "Chelsea return to the top of the Women's Super League with a crucial victory over rivals Manchester City who went down to 10 players in the second half.MATCH REPORT: WSL - Chelsea 1-0 Manchester CityAvailable to UK users only.",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/videos/cm702wwpj9keo?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/47ee/live/76b3b1a0-e041-11f1-93e1-3b657b665bcf.jpg",
+          "time": "রাত ৯:৫০"
+        },
+        {
+          "headline": "Le Tissier stars as Man Utd beat Crystal Palace to extend unbeaten run",
+          "excerpt": "Maya le Tissier scores a stunning strike on her 150th appearance for Manchester United to help her side beat Crystal Palace 2-0 in the WSL, as the home side extend their unbeaten run in all competitions to 12 matches. MATCH REPORT: WSL - Manchester United 2-0 Crystal PalaceAvailable to UK users only.",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/videos/cqglrkk7gr1xo?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/276e/live/9e2ede40-e03b-11f1-93e1-3b657b665bcf.jpg",
+          "time": "রাত ১২:২৭"
+        },
+        {
+          "headline": "Spain test will reveal if Tuchel and England have learned World Cup lessons",
+          "excerpt": "England's proof of progress and the lessons learned by head coach Thomas Tuchel since the disappointment of World Cup semi-final defeat by Argentina will be put to the sternest test when they face holders Spain in Madrid.Spain present the toughest assignment England could face, with the world champions' unbeaten run – in which they claimed the sport's biggest prize by beating Argentina in New…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cq2d9l3e313zo?at_medium=RSS&at_campaign=rss",
+          "author": "Phil McNulty",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/8a93/live/1896ea50-e038-11f1-9ca9-b3b288fceb81.jpg",
+          "time": "রাত ২:২২"
+        },
+        {
+          "headline": "Arsenal target Nusa could cost £66m - Sunday's gossip",
+          "excerpt": "Arsenal could have to pay £66m for RB Leipzig's Antonio Nusa, Real Betis reject Chelsea's bid for Jose Morante.RB Leipzig expected to want 80m euros (£66m) for Antonio Nusa, 21, as Arsenal plan a January bid for the Norway winger. (Teamtalk), externalChelsea have had a bid rejected by Real Betis for their 19-year-old Spanish forward Jose Antonio Morante. (ABC Sevilla via Metro), externalParis…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/c6e9kgn532gxo?at_medium=RSS&at_campaign=rss",
+          "author": "BBC Sport",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/4ca1/live/7aacbf20-e06b-11f1-99e6-531f8829f5a3.png",
+          "time": "রাত ৩:৪৮"
+        },
+        {
+          "headline": "All Blacks ran into a Welsh brick wall - Barrett",
+          "excerpt": "Beauden Barrett said it felt like New Zealand were running into a red brick wall after they became the first All Blacks side to lose to Wales since 1953.Steve Tandy's men created history with a 35-28 victory at Principality Stadium thanks to a stirring defensive effort.Wales scored five tries - a national record against New Zealand - but it was their effort without the ball that ended a 34-game…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cmly5dwnpvdzo?at_medium=RSS&at_campaign=rss",
+          "author": "Chris Kirwan",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/d81c/live/6be83210-e054-11f1-a701-fddedf244c16.jpg",
+          "time": "রাত ১২:১৯"
+        },
+        {
+          "headline": "What Wales need to stay in Nations League top tier",
+          "excerpt": "Image source, FAWImage caption, Having been unbeaten in Craig Bellamy's first nine games, Wales have only won four of their past 16 matchesByDafydd PritchardBBC Sport Wales in OsloIt can be easy to get tangled up in the complexities of Nations League permutations and, although Wales still have a few uncertainties to iron out, the picture is becoming clearer for Craig Bellamy's side.Following…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cmx28nxw1elvo?at_medium=RSS&at_campaign=rss",
+          "author": "Dafydd Pritchard",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/7f6a/live/8d336370-e065-11f1-b454-23ac84bf5ae9.jpg",
+          "time": "রাত ২:৫২"
+        },
+        {
+          "headline": "Wales believed they could create history - Lake",
+          "excerpt": "There might have been only 55,152 in the ground, which was the lowest attendance for a Wales and New Zealand fixture at the Principality Stadium, but they roared the home side onto a famous victory.Lake summed up the events at the final whistle as he was on the sidelines after being replaced.\"It was almost like you were blocked out things, said Lake.\"You heard the noise, but it was like…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c820q64ezyn7o?at_medium=RSS&at_campaign=rss",
+          "author": "Gareth Griffiths",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/ce3e/live/3be63d30-e056-11f1-9e26-b3b65586122f.jpg",
+          "time": "রাত ১২:৩০"
+        },
+        {
+          "headline": "Adames beats Welshman Warburton by unanimous decision",
+          "excerpt": "WBC middleweight champion Carlos Adames beat Gerome Warburton by unanimous decision in a non-title super middleweight bout in Riyadh, Saudi Arabia.Warburton, who holds the WBC continental title, climbed the ropes in the corner after the final round to celebrate going the distance against top-ranked Adames.The Welshman raised his gloves in pride, but surely knew the referee would raise Adames'…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/boxing/articles/cmkgkz244pgro?at_medium=RSS&at_campaign=rss",
+          "author": "BBC Sport",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/c140/live/46c51ab0-e064-11f1-b454-23ac84bf5ae9.png",
+          "time": "রাত ২:২৭"
+        },
+        {
+          "headline": "Meetmebythesea wins first Paddy Power Gold Cup for McManus",
+          "excerpt": "Jockey Harry Cobden rode Meetmebythesea to a first Paddy Power Gold Cup success for owner JP McManus at Cheltenham on Saturday. The 2-1 favourite was level with champion trainer Dan Skelton's Blueking D'Oroux (10-3) going over the last fence before pulling away to win by two-and-a-half lengths. Torneo - a 12-1 chance - was almost three lengths further back in third place. Cobden, the 2023-24…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/horse-racing/articles/c8p3v5wqgrzyo?at_medium=RSS&at_campaign=rss",
+          "author": "Craig Nelson",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/26bd/live/ce3a5e20-e03b-11f1-88e1-eb4e155225b3.jpg",
+          "time": "রাত ৯:১২"
+        },
+        {
+          "headline": "'I just play where the manager tells me to play!' - Walsh",
+          "excerpt": "Keira Walsh reacts after Chelsea go top of the Women's Super League with a 1-0 win against Manchester City.MATCH REPORT: WSL - Chelsea 1-0 Manchester CityAvailable to UK users only.",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/videos/c6d91n2x0e7ko?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/2bbf/live/a45e56c0-e044-11f1-b441-2b33b063138f.jpg",
+          "time": "রাত ১০:১৭"
+        }
+      ],
+      "Entertainment": [
+        {
+          "headline": "টাকার প্রশ্ন নয়, সিনেমাটা শেষ করতে চাই: তানজিন তিশা",
+          "excerpt": "বিনোদন প্রতিবেদক ঢাকাতানজিন তিশাছবি: ফেসবুক থেকেপ্রথমবার সিনেমায় অভিনয় করতে গিয়েই নতুন করে আলোচনায় আসেন ছোট পর্দার অভিনেত্রী তানজিন তিশা। কারণ, তাঁর সহশিল্পী শাকিব খান। বড় বাজেটের এই সিনেমার জন্য দীর্ঘ সময় অন্য কোনো কাজে যুক্ত হননি তিনি। কিন্তু অর্ধেকের বেশি শুটিং হওয়ার পর আটকে আছে সিনেমাটির কাজ। শোনা যাচ্ছিল, নভেম্বরে আবার শুটিং শুরু হতে পারে। এর মধ্যে এ মাসেই ঈদুল ফিতরের আরেকটি সিনেমায়…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/entertainment/dhallywood/xxfoogs3az",
+          "author": "বিনোদন প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2025-10-10%2Fk56whhjj%2FWhatsApp-Image-2025-10-10-at-12.52.036e2a2752.jpg?rect=0%2C0%2C995%2C522&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "রাত ১২:০৮"
+        },
+        {
+          "headline": "Philippines triumphs at Eurovision Asia as Beatmosphere reps Bangladesh",
+          "excerpt": "Published : 14 November 2026\n            \n          \n          •\n                Updated : 14 November 2026, 22:45\n            \n        \n\t\t\n\t\t\t\t\t\t\t\n\t\t\t\n\n\t\tArts & Entertainment Desk \n\t\t\t\t\t\n\n\t\t\t\t\t\n\n\t\t\t\n  \n                  \n              \n                  \n\n  \n\n\n\t\t\t\n\t\t\t\t\t\t\tPhoto: Screengrab from live video \n\t\t\t\t\t\t\n\t\t\t\t\t\nFor Bangladeshi music fans watching the Eurovision Song Contest Asia, the…",
+          "source": "The Daily Star Entertainment",
+          "link": "https://www.thedailystar.net/culture/music/news/philippines-triumphs-eurovision-asia-beatmosphere-reps-bangladesh-4323781",
+          "author": "Arts & Entertainment Desk",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/Featured_Image.jpg",
+          "time": "রাত ১০:৪৫"
+        }
+      ]
+    }
+  },
+  {
     "dt": "2026-11-14T05:05:34.218Z",
     "file": "runs/2026-11-14-0505.html",
     "counts": {
