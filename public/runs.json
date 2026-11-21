@@ -1,5 +1,1024 @@
 [
   {
+    "dt": "2026-11-21T22:48:04.122Z",
+    "file": "runs/2026-11-21-2248.html",
+    "counts": {
+      "Local": 11,
+      "International": 34,
+      "Tech": 30,
+      "Sports": 36
+    },
+    "grouped": {
+      "International": [
+        {
+          "headline": "Bahrain says Iranian attack hits industrial facility",
+          "excerpt": "NewsFeedBahrain’s Ministry of Interior says Iran has attacked a civilian industrial facility near Manama, sparking a fire at the site. Bahraini officials have issued another alert of a ‘potential threat’, urging citizens and residents to remain calm.Published On 21 Nov 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/21/bahrain-says-iranian-attack-hits-industrial-facility?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/bahrain-attack-horizontal-thumb-1795298461.jpg?resize=1920%2C1080&quality=80",
+          "time": "ভোর ৪:০২"
+        },
+        {
+          "headline": "Bahrain says Iranian attack causes fire at industrial facility",
+          "excerpt": "Bahrain reports no injuries, as Iran’s IRGC says it targeted US military positions at two bases in al-Riffa and Awali.Bahrain says an Iranian attack has struck a civilian industrial facility, starting a fire, in the latest escalation of the war in the Middle East.Bahrain’s Defence Force said its air defences intercepted a number of Iranian aerial attacks late on Saturday.Recommended Stories list…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/11/21/bahrain-says-iranian-attack-causes-fire-at-industrial-facility?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6b0202985284a-1795293848.jpg?resize=1920%2C1440",
+          "time": "রাত ৩:৩১"
+        },
+        {
+          "headline": "Impunity fuels surge in settler violence across occupied West Bank",
+          "excerpt": "NewsFeedA settler shot and killed a Palestinian man on November 20, as he tried to reach a water source near Ramallah. Settler attacks are rising across the occupied West Bank, driven by impunity. Al Jazeera’s Nour Odeh reports from Ramallah.Published On 21 Nov 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/21/impunity-fuels-surge-in-settler-violence-across-occupied-west-bank?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1795295433.jpg?resize=1920%2C1080&quality=80",
+          "time": "রাত ৩:১১"
+        },
+        {
+          "headline": "Indian man jailed over plot to kill Sikh separatist in US",
+          "excerpt": "Skip linksSkip to Content Live Navigation menuNewsMiddle EastAfricaAsiaUS & CanadaLatin AmericaEuropeAsia PacificExplainedSportOpinionVideoInteractivesOriginalsFeaturesEconomyHuman RightsClimate CrisisInvestigationsIn PicturesScience & TechnologyPodcastsTravelSponsored Content Live Navigation menuUS-Israel war on IranYemen conflictMiddle EastAfricaAsiaAsia PacificEuropeLatin AmericaUS &…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/21/21-11-sv-us-sikh-separatist-pannun-assassination-plot?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1795295264.jpg?resize=1920%2C1080&quality=80",
+          "time": "রাত ৩:০৯"
+        },
+        {
+          "headline": "Brazil’s Jair Bolsonaro in intensive care with bowel obstruction",
+          "excerpt": "The former president, serving a sentence for plotting a coup, is stable and breathing on his own, the hospital says.Brazil’s former President Jair Bolsonaro is in intensive care after being diagnosed with an acute bowel obstruction, according to the DF Star hospital where he is being treated.Bolsonaro, 71, was admitted on Friday with abdominal pain. In a bulletin on Saturday, the hospital said…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/11/21/brazils-jair-bolsonaro-in-intensive-care-with-bowel-obstruction?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6b01f9ee35b6-1795291630.jpg?resize=1920%2C1440",
+          "time": "রাত ৩:০২"
+        },
+        {
+          "headline": "Iran says held talks with Qatari mediators, urges US to accept conditions",
+          "excerpt": "Iran’s Foreign Minister Abbas Araghchi says reopening the strait is ‘not difficult’ if the US accepts reasonable conditions.Iran says Qatari mediators have travelled to Tehran as the country’s foreign minister urges the United States to accept Iranian conditions for reopening the Strait of Hormuz.News of the talks came as the commander of Iran’s Islamic Revolutionary Guard Corps (IRGC) toured an…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/11/21/iran-says-held-talks-with-qatari-mediators-urges-us-to-accept-conditions?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/epa_6b01e7c0bd47-1795286976.jpg?resize=1920%2C1440",
+          "time": "রাত ২:৫৬"
+        },
+        {
+          "headline": "Alleged Mexican drug cartel boss ‘El Chapo Isidro’ arrested in special forces raid",
+          "excerpt": "The Mexican military captured one of the FBI’s top 10 most wanted fugitives during a special forces raid in the Mexican state of Sinaloa on Friday night.Fausto Isidro Meza Flores, known as “El Chapo Isidro”, was arrested along with two other alleged leaders of his gang after a gun battle that triggered widespread panic in the city of Guasave.The alleged leader of a major drug-trafficking cartel,…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/world/2026/nov/21/alleged-mexican-drug-cartel-boss-el-chapo-isidro-meza-flores-arrested",
+          "author": "Donna Ferguson",
+          "image": "https://i.guim.co.uk/img/media/109833a4d1387ede241180856c6e37007aa8a6a3/264_354_897_717/master/897.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=b228975517691e02d9f2c13e8010a7ae",
+          "time": "রাত ১১:৪৬"
+        },
+        {
+          "headline": "Thousands protest across Europe over living costs and housing",
+          "excerpt": "Demonstrations in France and Portugal follow youth-led protests over education and economic hardship across Europe.Thousands of people have taken to the streets across Europe to protest against rising living costs, unaffordable housing and cuts to public services, as students and workers demand action from their governments.Demonstrators marched across France and Portugal on Saturday, following…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/11/21/thousands-protest-across-europe-over-living-costs-and-housing?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-21T171053Z_1177590545_RC2FSOAHFU7E_RTRMADP_3_PORTUGAL-POLITICS-PROTESTS-1795290649.jpg?resize=1920%2C1440",
+          "time": "রাত ২:৪৭"
+        },
+        {
+          "headline": "AOC challenged over AIPAC’s influence on Democratic leadership",
+          "excerpt": "NewsFeedUS Representative Alexandria Ocasio-Cortez was challenged by CODEPINK co-founder Medea Benjamin about her support for Hakeem Jeffries as House Speaker, and Jeffries’ ties to pro-Israel group AIPAC. The exchange came ahead of the House Democratic leadership elections.Published On 21 Nov 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/21/aje-onl-nf_aoc-challenged-over-aipacs-influence-on-democrats-211126?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1795293493.jpg?resize=1920%2C1080&quality=80",
+          "time": "রাত ২:৩৮"
+        },
+        {
+          "headline": "‘ঘাতক রোবট’ নিয়ন্ত্রণে আলোচনা চালিয়ে\nযাওয়ার অঙ্গীকার",
+          "excerpt": "রয়টার্স জেনেভা‘ঘাতক রোবটের’ ব্যবহার বন্ধের দাবিতে সমাবেশে একটি রোবটের প্রতিকৃতিছবি: রয়টার্সমানুষের নিয়ন্ত্রণ ছাড়া বা খুব কম তদারকিতে পরিচালিত অস্ত্রের ব্যবহার নিয়ন্ত্রণে জাতিসংঘে সম্মেলন শেষ হয়েছে। গতকাল শনিবার ছিল সম্মেলনের শেষ দিন। এ দিন আগামী দুই বছরের মধ্যে এমন অস্ত্রের বিষয়ে নতুন নীতিমালা প্রণয়নের জন্য আলোচনা চালিয়ে যাওয়ার অঙ্গীকার করেছে শতাধিক দেশ।এ ধরনের অস্ত্রকে ‘ঘাতক রোবটও’ বলা হয়।…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/world/europe/g0ishbp4gv",
+          "author": "রয়টার্স",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-21%2Fx34x1d5k%2FCapture.PNG?rect=0%2C86%2C905%2C475&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-09-22%2F5lwyn5je%2Fdefaultog.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "রাত ১:৩৭"
+        },
+        {
+          "headline": "Why is the US Army detonating lead-rich explosives in Iowa?",
+          "excerpt": "The United States Army is slated to conduct two controlled detonations at the Iowa Army Ammunition Plant in the Midwestern state of Iowa, aiming to destroy 68 drums of degraded lead azide — a highly volatile, lead-based explosive used to trigger the main charges in some conventional munitions.Announced just five days before an original Friday, November 20, detonation date, the Army’s decision…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/11/21/why-is-the-us-army-detonating-lead-rich-explosives-in-iowa?traffic_source=rss",
+          "author": "Hoda Sherif",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6affd5f9cea7-1795151353.jpg?resize=1920%2C1440",
+          "time": "রাত ২:১৫"
+        },
+        {
+          "headline": "Noni Madueke salvages draw for Arsenal at Newcastle United as Raya injured",
+          "excerpt": "League leaders Arsenal miss the chance to go eight points clear of second placed Brighton, who play on Sunday.Arsenal missed the chance to open up an eight-point lead at the top of the Premier League after a stirring second-half fightback from Newcastle held the defending champions to a 2-2 draw.The Gunners led on Saturday through Eberechi Eze’s strike after a dominant first 45 minutes.But Mikel…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/sports/2026/11/21/noni-madueke-salvages-draw-for-arsenal-at-newcastle-united-as-raya-injured?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/getty_6b01f4d3a5-1795290323.jpg?resize=1920%2C1440",
+          "time": "রাত ১:৫৩"
+        },
+        {
+          "headline": "Deadly attack in Kyiv as Russia launches barrage against Ukraine",
+          "excerpt": "NewsFeedRussia launched a massive overnight barrage of more than 400 drones and 110 missiles across Ukraine, killing at least eight people including six in Kyiv. Two residential fires broke out in the capital, but emergency crews managed to extinguish both.Published On 21 Nov 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/21/aje-onl-nf_deadly-attack-in-kyiv-as-russia-launches-barrage-211126?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1795286551.jpg?resize=1920%2C1080&quality=80",
+          "time": "রাত ১২:৪২"
+        },
+        {
+          "headline": "FBI national crime database suffers suspected breach: Reports",
+          "excerpt": "The reported hacking is the latest in ​a string of breaches and outages affecting the US government.The FBI’s national criminal database has suffered a suspected breach, according to multiple US media reports.President Donald Trump, who has repeatedly downplayed breaches affecting departments within his administration, appeared to confirm the FBI hacking during a television interview on…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/11/21/fbi-national-crime-database-suffers-suspected-breach-reports?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6aea660bba89a-1793746443.jpg?resize=1920%2C1440",
+          "time": "রাত ১২:১৯"
+        },
+        {
+          "headline": "Could Brexit be reversed?",
+          "excerpt": "Inside StoryUK Prime Minister Andy Burnham hopes his country will rejoin the EU in his lifetime. But what are the chances?The United Kingdom and European Union have struck new deals in Brussels for closer cooperation, more than a decade after Britain voted to leave the bloc.UK Prime Minister Andy Burnham hopes his country will rejoin the EU in his lifetime.But what are the chances?Presenter:…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/inside-story/2026/11/21/could-brexit-be-reversed?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1795283116.jpg?resize=1920%2C1080&quality=80",
+          "time": "রাত ১২:১৮"
+        },
+        {
+          "headline": "Trump says he wants ‘permanent’ deal to stop Iran getting nuclear weapons",
+          "excerpt": "NewsFeedUS President Donald Trump says he wants a permanent agreement to prevent Iran from developing nuclear weapons, saying his focus is on securing a deal rather than regime change.Published On 21 Nov 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/21/21-11-clip-trump-iran-permanent-nuclear-deal?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1795284233.jpg?resize=1920%2C1080&quality=80",
+          "time": "রাত ১২:০৫"
+        },
+        {
+          "headline": "UK police drag man from protest over ‘Pallet Sign Acton’ shirt",
+          "excerpt": "NewsFeedPolice pulled a man from a student protest in central London on November 20 after apparently taking the words “Pallet Sign Acton” on his T-shirt for “Palestine Action.” Acton is an area of west London. Supporting Palestine Action has been made a criminal offence in the UK.Published On 21 Nov 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/21/uk-police-drag-man-from-protest-over-pallet-sign-acton-shirt?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1795283760.jpg?resize=1920%2C1029&quality=80",
+          "time": "রাত ১১:৫৭"
+        },
+        {
+          "headline": "Israeli strike hits food aid vehicle in Gaza, killing three",
+          "excerpt": "NewsFeedThree Palestinians were killed in an Israeli air attack on a vehicle carrying food for forcibly displaced people in Gaza City. Papers bearing the logo of aid organisation World Central Kitchen were found inside.Published On 21 Nov 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/21/21-11-sv-israel-targets-gaza-food-truck?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1795283560.jpg?resize=1620%2C1080&quality=80",
+          "time": "রাত ১১:৫৪"
+        },
+        {
+          "headline": "‘Six, seven, maybe more preventable deaths’: Queensland’s LNP faces reckoning over broken health system",
+          "excerpt": "At the beginning of another Queensland parliamentary sitting week, anonymous sources were out in force, this time background briefing against the state’s Labor leader, Steven Miles.It is no great revelation to observers of Queensland politics that Miles, still seemingly bruised from his election loss two years ago, has struggled to find his feet as opposition leader. Many wondered why he wanted…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/australia-news/2026/nov/22/queensland-health-ambulance-deaths-lnp-labor-ntwnfb",
+          "author": "Andrew Messenger",
+          "image": "https://i.guim.co.uk/img/media/e9bb488d6f56a808e4c08a19e1ddea696735455d/410_0_2606_2085/master/2606.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=0f20881c54617e47d40ead0839fcb53e",
+          "time": "রাত ১:০০"
+        },
+        {
+          "headline": "Liverpool vs Manchester United: Premier League – teams, prediction, lineups",
+          "excerpt": "Who: Liverpool vs Manchester United\nWhat: English Premier League\nWhen: Sunday, November 22 , at 4:30pm (16:30 GMT)\nWhere: Anfield in Liverpool, United Kingdom\nHow to follow: Al Jazeera will have full text commentary coverage of the game with build-up from 13:30 GMTThe latest rebuild of Manchester United begins at Liverpool on Sunday with Mauricio Pochettino in the hot seat – a position that some…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/sports/2026/11/21/liverpool-vs-manchester-united-premier-league-teams-prediction-lineups?traffic_source=rss",
+          "author": "Kevin Hand",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/GettyImages-2305467715-1795257935.jpg?resize=1200%2C675",
+          "time": "রাত ১১:২৮"
+        },
+        {
+          "headline": "Cigarettes on silver platters at Bondi ‘clean’ beauty business lip gloss launch referred for investigation",
+          "excerpt": "An Australian beauty company that promotes “clean” ingredients “free from skin irritants” has been referred to state health regulators after appearing to offer cigarettes to guests at a beachside lip gloss launch.Photos from an event held earlier in November at a venue in Bondi, Sydney show what appears to be loose cigarettes without health warnings on a tiered silver platter alongside a bowl of…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/australia-news/2026/nov/22/cigarette-platter-bondi-copini-beauty-event-investigation",
+          "author": "Melissa Davey",
+          "image": "https://i.guim.co.uk/img/media/6ce0bb93a4da40d20b813c67e99af09399f8268b/214_0_1747_1398/master/1747.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=208dd0035436934aad3e7ca80f4c5085",
+          "time": "রাত ১:০০"
+        },
+        {
+          "headline": "Chelsea beaten 4-1 by Leeds to suffer third loss in four in Premier League",
+          "excerpt": "Leeds come from a goal down at Stamford Bridge to shock Chelsea and climb above their hosts to sixth in Premier League.Chelsea suffered an embarrassing 4-1 defeat against Leeds as the Blues were beaten for the third time in their last four Premier League matches.Xabi Alonso’s side were ripped apart on Saturday by rampant Leeds, who savoured their first Premier League win at Stamford Bridge in 27…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/sports/2026/11/21/chelsea-beaten-4-1-by-leeds-united-at-home-in-the-premier-league?traffic_source=rss",
+          "author": "By AFP",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/GettyImages-2306223602-1795281647.jpg?resize=1200%2C675",
+          "time": "রাত ১১:২১"
+        },
+        {
+          "headline": "Australian neo-Nazis among far-right groups raising hundreds of thousands via global crowdfunding platform",
+          "excerpt": "Australian neo-Nazis have raised hundreds of thousands of dollars on the global crowdfunding platform GiveSendGo, which has been accused of facilitating the financing of hate and extremism.Of the 68 Australian fundraisers on the site, the White Australia party has raised the fourth-highest amount of money with $200,000 for its high court battle to overturn its ban as a designated hate…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/australia-news/2026/nov/22/australian-neo-nazis-among-far-right-groups-raising-hundreds-of-thousands-via-global-crowdfunding-platform-ntwnfb",
+          "author": "Tory Shepherd",
+          "image": "https://i.guim.co.uk/img/media/f407e25401074b0d9b8e2c21e82c592c40e9f9f0/512_0_6880_5504/master/6880.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=69e199380da9c0759f1259f0ae0b5dab",
+          "time": "রাত ১:০০"
+        },
+        {
+          "headline": "Russian strike kills two, wounds 60, in Zelenskyy’s hometown",
+          "excerpt": "Attack on Kryvyi Rih comes as Russian missiles land in NATO member Poland and US-led peace efforts face uncertainty.A Russian attack on Ukrainian President Volodymyr Zelenskyy’s hometown of Kryvyi Rih has killed two people and wounded 60 others, according to local officials.The strikes hit the central Ukrainian city on Friday night, killing a seven-year-old boy and a 20-year-old woman, while six…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/11/21/russian-strike-kills-two-wounds-60-in-zelenskyys-hometown?traffic_source=rss",
+          "author": "By AFP and AP",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/AP26325498278414-1795277500.jpg?resize=1200%2C630",
+          "time": "রাত ১১:২০"
+        },
+        {
+          "headline": "India’s opposition stages protests against Meta over account removals",
+          "excerpt": "Youth wing of Congress party issues a seven-day ‘ultimatum’ to the US technology giant, urging it to lift all restrictions.The youth wing of India’s main opposition Congress party has staged protests outside Meta offices in three cities, demanding that the United States technology company restore the Instagram accounts of its leaders.The protests took place in Hyderabad, Mumbai and Gurugram,…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/11/21/indias-opposition-stages-protests-against-meta-over-account-removals?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6b01aa96-1795271318.jpg?resize=1200%2C675",
+          "time": "রাত ১০:১৪"
+        },
+        {
+          "headline": "Who is El Chapo Isidro, the alleged cartel boss arrested in Mexico?",
+          "excerpt": "Mexican forces arrested Chapo Isidro in Sinaloa. He was on the FBI’s most wanted list and faces US drug charges.Mexican special forces have arrested Fausto Isidro Meza-Flores, an alleged cartel leader known as “Chapo Isidro”, who is on the FBI’s Ten Most Wanted Fugitives list, Mexico’s defence ministry said.Meza-Flores was detained along with two other men on Friday night in Guasave, in the…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/11/21/who-is-el-chapo-isidro-the-alleged-cartel-boss-arrested-in-mexico?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6b01ba7ee1af-1795275390.jpg?resize=1920%2C1440",
+          "time": "রাত ১০:০৩"
+        },
+        {
+          "headline": "International UN talks on controlling use of autonomous weapons collapse",
+          "excerpt": "Week-long efforts to agree a negotiating mandate for a legally binding international treaty to control the use of autonomous weapons collapsed just before 5am after all-night talks failed to overcome Russian objections.Despite an overwhelming majority of states at the UN’s Convention on Certain Conventional Weapons (CCW) in Geneva wanting to agree a negotiating mandate leading to a legally…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/technology/2026/nov/21/international-talks-control-ai-autonomous-weapons-collapse",
+          "author": "Frances Mao, Patrick Wintour",
+          "image": "https://i.guim.co.uk/img/media/247601abada695f09f302253178bbc8f6e58cd42/415_0_4165_3333/master/4165.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=c468b8ddd2fe15972ddb451853201d79",
+          "time": "রাত ১০:৩৬"
+        },
+        {
+          "headline": "US midterms 2026: What happens before the new Congress takes office?",
+          "excerpt": "The United States midterm elections are over, and the Democrats have won control of both houses of Congress. However, they do not take power until January.Election officials are still certifying results, while the newly elected lawmakers are preparing to take office, and the outgoing Congress is continuing its legislative work.Recommended Stories list of 3 itemslist 1 of 3Jeffries shifts…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/11/21/us-midterms-2026-what-happens-before-the-new-congress-takes-office?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-17T122640Z_1733617564_RC2NPOA4FN91_RTRMADP_3_USA-CONGRESS-1794947507.jpg?resize=1920%2C1440",
+          "time": "রাত ৯:৪৯"
+        },
+        {
+          "headline": "Man charged with attempted murder after councillor stabbed in Bradford",
+          "excerpt": "A man has been charged with attempted murder after a local councillor was stabbed while working in the community in Bradford, police have said.Arfan Ali, 32, is accused of attacking Ibrar Ali, 52, at about 11am on Thursday in the West Yorkshire city.The alleged attacker has also been charged with assault and possession of an offensive weapon in a public place, West Yorkshire police said.He…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/uk-news/2026/nov/21/man-charged-with-attempted-after-councillor-stabbed-in-bradford",
+          "author": "Nadeem Badshah",
+          "image": "https://i.guim.co.uk/img/media/d5d63a095a45669cc7ca9471cec50901a1e1863d/0_688_1796_1437/master/1796.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=c06ca92d2109da5a1dc220a8a44b24a2",
+          "time": "রাত ১:৪২"
+        },
+        {
+          "headline": "Suffolk village votes to ‘leave the UK’ over plans to house asylum seekers nearby",
+          "excerpt": "Residents of a Suffolk village have voted to “leave the UK” in a referendum held in response to government plans to house 930 asylum seekers at a nearby former military base.Approximately 500 people in Barnham were eligible to take part in the symbolic vote on Saturday. There were 257 votes for independence, 16 against and one spoiled ballot.After the vote, Helen Beck, the chair of Barnham…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/uk-news/2026/nov/21/suffolk-village-votes-to-leave-the-uk-over-plans-to-house-asylum-seekers-nearby",
+          "author": "Harry Cockburn",
+          "image": "https://i.guim.co.uk/img/media/bfb4a0d197f8daee0456ecc459f3eddb4cc320cc/835_0_4628_3704/master/4628.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=d61639006bf904f3990b58161dc39181",
+          "time": "রাত ১২:২০"
+        },
+        {
+          "headline": "Two groups verify mathematician’s claim that Claude helped prove mathematics problem",
+          "excerpt": "A mathematician at Anthropic has said that the San Francisco-based artificial intelligence (AI) company’s software has helped crack one of the most important unsolved problems in mathematics – and experts say the claim checks out.Levent Alpöge, a Turkish American mathematician, on Friday posted a note on his personal website saying that Claude, the AI software, had helped prove the Riemann…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai",
+          "author": "José Olivares",
+          "image": "https://i.guim.co.uk/img/media/d3154f68df589c297fc3d173e2bb3d95faca05c9/530_0_4678_3742/master/4678.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=1a7ad1c833428adafc056e7f188ca63a",
+          "time": "রাত ২:১৫"
+        },
+        {
+          "headline": "Louisiana man charged with killing woman on hiking trail and murdering co-worker with crossbow",
+          "excerpt": "A man recently strangled a woman to death whom he did not know along a hiking trail north of New Orleans – then killed his co-worker with a crossbow two days later before being arrested in Mississippi after a police chase, authorities allege.Jared Schurr, 36, faces counts of second-degree murder in the killings of Lizeht Rodriguez, 24, and Woodrow Scott, 37, on 11 and 13 November, respectively,…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/us-news/2026/nov/21/louisiana-mississippi-hiking-trail-crossbow-murder-charges",
+          "author": "Keely Aouga",
+          "image": "https://i.guim.co.uk/img/media/f4c6abe204a85016df59a803d74bfc353e054666/430_0_4250_3400/master/4250.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=3d89a80db7011036e0f518269b0b73d9",
+          "time": "রাত ১২:৫০"
+        },
+        {
+          "headline": "Trump orders contractors to check with White House over any congressional inquiries",
+          "excerpt": "Donald Trump is directing federal contractors and subcontractors to consult with his administration about inquiries they receive from Congress and to withhold any communications that the White House considers privileged, according to an executive order issued late Friday.The companies must also coordinate with the White House and US agencies on “appropriate responses” to any such requests, the…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/us-news/2026/nov/21/trump-contractors-congress-executive-order",
+          "author": "Guardian staff reporter",
+          "image": "https://i.guim.co.uk/img/media/f021398e23c64249dd270de109b550a94bbd26fb/332_0_7200_5760/master/7200.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=fae59c1b274d2c92df3003df4d134fda",
+          "time": "রাত ১২:০৮"
+        },
+        {
+          "headline": "Vance stops short of endorsing Trump’s claim that Iran was close to nuclear weapon",
+          "excerpt": "At a White House news conference on Friday, JD Vance stopped short of endorsing Donald Trump’s claim that Iran was so close to obtaining a nuclear weapon in February that it was essential for the US to go to war with the Islamic republic.In the White House briefing room, Trump was asked about reporting this week that he was unhappy with the US vice-president’s statement blaming Republican losses…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/us-news/2026/nov/21/vance-trump-iran-nuclear-weapon",
+          "author": "Robert Mackey",
+          "image": "https://i.guim.co.uk/img/media/b5b32185795e8abee801ae63027a8874bf8934f3/853_0_6654_5323/master/6654.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=cef99a1c304f4e3848119bc0bd90afb9",
+          "time": "রাত ১১:২৪"
+        }
+      ],
+      "Sports": [
+        {
+          "headline": "এমবাপ্পের পেনাল্টি মিসের পর এস্পির ‘গোল্ডেন গোলে’ জিতল রিয়াল",
+          "excerpt": "খেলা ডেস্ক গোলের পর ভিনিসিয়ুসের সঙ্গে উদ্‌যাপন এস্পিররয়টার্সরিয়াল মাদ্রিদ ২-১ সেল্তা ভিগো ভিনিসিয়ুস জুনিয়র জানতেন সেল্তা ভিগোর বক্সে কার্লোস এস্পি ঠিক কোথায় দাঁড়িয়ে। বাঁকানো ক্রসটা দিলেন একদম নিখুঁত। ৬ ফুট ৪ ইঞ্চি উচ্চতার এস্পির হেড সেল্তা গোলকিপার রাদু ঠেকালেন বটে, ফিরতি শটে গোল ঠেকানো গেল না।বদলি নামা এস্পির ৮৫ মিনিটের সেই ‘গোল্ডেন গোলে’ সেল্তা ভিগোকে ২-১ গোলে হারিয়েছে রিয়াল মাদ্রিদ।…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/sports/football/2bc3zswonx",
+          "author": "খেলা ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-21%2Fyfrxt5aq%2F2026-11-21T215907Z363216861UP1EMBL1P2I9PRTRMADP3SOCCER-SPAIN-RMA-CEL.JPG?rect=0%2C0%2C1893%2C994&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2026-09-03%2F99dqhmx6%2Fog-banner-for-sports.png&overlay_position=bottom&overlay_width_pct=1",
+          "time": "ভোর ৪:১২"
+        },
+        {
+          "headline": "হারের মুখ থেকে পয়েন্ট কাড়ল আর্সেনাল",
+          "excerpt": "খেলা ডেস্ক নিজের দ্বিতীয় গোলে আর্সেনালকে সমতায় ফেরানোর পর মাদুয়েকেরয়টার্সনিউক্যাসল ইউনাইটেড ২-২ আর্সেনাল সেন্ট জেমস পার্কে রোমাঞ্চ ছড়াল নিউক্যাসল ইউনাইটেড ও আর্সেনাল। গোল হলো চারটি। কিন্তু কেউ কারও চেয়ে বেশি গোল করতে পারেনি। তাতে আর্সেনালের একটু স্বস্তিই পাওয়ার কথা। ২-২ গোলে ড্র ম্যাচে ইংলিশ প্রিমিয়ার লিগ চ্যাম্পিয়নরা যে ৭৭ মিনিট পর্যন্তও হার দেখছিল!পরের মিনিটে ননী মাদুয়েকের গোলে শেষ পর্যন্ত…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/sports/football/din16us9lk",
+          "author": "খেলা ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-21%2Fieemt4kn%2F2026-11-21T190849Z55406556UP1EMBL1H6P2JRTRMADP3SOCCER-ENGLAND-NEW-ARS.JPG?rect=0%2C0%2C2406%2C1263&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2026-09-03%2F99dqhmx6%2Fog-banner-for-sports.png&overlay_position=bottom&overlay_width_pct=1",
+          "time": "রাত ২:২৫"
+        },
+        {
+          "headline": "Match of the Day",
+          "excerpt": "Home            News            Sport            Weather            iPlayer            Sounds            Bitesize     CBeebies     CBBC     Food         Home     News     Sport     Business     Technology     Health     Culture     Arts     Travel     Earth     Audio     Video     Live             Home            News            Sport            Weather            iPlayer           …",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/iplayer/live/bbcone?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "",
+          "time": "দুপুর ৩:০০"
+        },
+        {
+          "headline": "Iqbal Emon turns hero as Bangladesh A reach semis with one-wicket win",
+          "excerpt": "Published : 21 November 2026\n            \n          \n          •\n                Updated : 21 November 2026, 23:53\n            \n        \n\t\t\n\t\t\t\t\t\t\t\n\t\t\t\n\n\t\tStar Sports Report\n\t\t\t\t\t\n\n\t\t\t\t\t\n\n\t\t\t\n  \n                  \n              \n                  \n\n  \n\n\n\t\t\t\n\t\t\t\t\t\t\tPhoto: ACC\n\t\t\t\t\t\t\n\t\t\t\t\t\nIqbal Hossain Emon produced late batting heroics as Bangladesh A secured a nail-biting one-wicket victory…",
+          "source": "The Daily Star Sports",
+          "link": "https://www.thedailystar.net/sports/cricket/news/iqbal-emon-turns-hero-bangladesh-reach-semis-one-wicket-win-4329766",
+          "author": "Star Sports Report",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/Partnership%20.jpg",
+          "time": "রাত ১১:৪৯"
+        },
+        {
+          "headline": "Leeds dominate Chelsea for first Stamford Bridge win since 1999",
+          "excerpt": "Noah Okafor scores twice to deliver Leeds United's first win at Chelsea in 27 years, in an impressive 4-1 victory at Stamford Bridge.MATCH REPORT: Premier League - Chelsea 1-4 Leeds UnitedAvailable to UK users only.",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/videos/c3ewvkk4qgxjo?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/ed41/live/db5e04d0-e5d6-11f1-99b6-a35a62fa4264.jpg",
+          "time": "রাত ১:৫৯"
+        },
+        {
+          "headline": "Leeds thrash Chelsea as Spurs continue climb",
+          "excerpt": "Chelsea's struggles continued as they slumped to a 4-1 defeat against Leeds United at Stamford Bridge on Saturday, while Tottenham Hotspur strengthened their push up the Premier League table with a 2-0 victory over Ipswich Town.Chelsea have now lost four of their last five league matches, putting manager Xabi Alonso under increasing scrutiny after a promising start to the campaign.Emmanuel…",
+          "source": "The Daily Star Sports",
+          "link": "https://www.thedailystar.net/sports/football/news/leeds-thrash-chelsea-spurs-continue-climb-4329721",
+          "author": "AFP, London",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/Leeds-Chelsea.jpg",
+          "time": "রাত ১১:৩৩"
+        },
+        {
+          "headline": "Arsenal go six points clear after lively draw at Newcastle",
+          "excerpt": "Noni Madueke's second-half goal earns Arsenal a 2-2 draw against Newcastle United at St James' Park, as the reigning champions move six points clear at the top of the Premier League table.MATCH REPORT: Premier League - Newcastle United 2-2 ArsenalAvailable to UK users only.",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/videos/cm702zzl66l6o?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/52d9/live/fcb7f580-e5e2-11f1-99a1-253766e7ad8b.jpg",
+          "time": "রাত ১:৫৯"
+        },
+        {
+          "headline": "BFF takes time to decide Dooley's future",
+          "excerpt": "Published : 21 November 2026\n            \n          \n          •\n                Updated : 21 November 2026, 22:12\n            \n        \n\t\t\n\t\t\t\t\t\t\t\n\t\t\t\n\n\t\tStar Sports Report\n\t\t\t\t\t\n\n\t\t\t\t\t\n\n\t\t\t\n  \n                  \n              \n                  \n\n  \n\n\n\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\nThe Bangladesh Football Federation (BFF) is undecided over whether to retain head coach Thomas Dooley following the national…",
+          "source": "The Daily Star Sports",
+          "link": "https://www.thedailystar.net/sports/football/news/bff-takes-time-decide-dooleys-future-4329686",
+          "author": "Star Sports Report",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-10/Dooley.jpg",
+          "time": "রাত ১০:০৯"
+        },
+        {
+          "headline": "Teenager Williams-Barnett shines as Spurs beat Ipswich",
+          "excerpt": "Tottenham Hotspur teenager Luca Williams-Barnett shines for Roberto de Zerbi's side as they comfortably beat Ipswich Town.MATCH REPORT: Premier League - Tottenham Hotspur 2-0 Ipswich TownAvailable to UK users only.",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/videos/c3174qq2j82zo?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/67dd/live/c58c8e30-e5cf-11f1-99b6-a35a62fa4264.jpg",
+          "time": "রাত ১:৫৯"
+        },
+        {
+          "headline": "Coventry beat Palace in Frank's first game after late own goal",
+          "excerpt": "A Dwight McNeil own goal in the 85th minute gives Coventry City a 3-2 win to move three points clear of the relegation zone, as Thomas Frank's first game in charge at Crystal Palace ends in defeat in the Premier League.MATCH REPORT: Premier League - Coventry City 3-2 Crystal PalaceAvailable to UK users only.",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/videos/c8wy5ddky5n9o?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/ca40/live/81c33140-e5cf-11f1-a094-5fdc692f3e33.jpg",
+          "time": "রাত ১:৫৮"
+        },
+        {
+          "headline": "Man City drop points to Fulham despite superb Anderson volley",
+          "excerpt": "Elliot Anderson's fantastic volley earns Manchester City a first Premier League point in over a month against Fulham.MATCH REPORT: Premier League - Manchester City 1-1 Fulham Available to UK users only.",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/videos/c30rkq9xyk8eo?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/aed1/live/772ed3d0-e5cd-11f1-99a1-253766e7ad8b.jpg",
+          "time": "রাত ১:৫৯"
+        },
+        {
+          "headline": "Evanilson strikes again as Bournemouth beat Forest",
+          "excerpt": "Evanilson scores in his sixth consecutive Premier League game, as Bournemouth defeat Nottingham Forest 2-0 at the Vitality Stadium.MATCH REPORT: Premier League - Bournemouth 2-0 Nottingham Forest Available to UK users only.",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/videos/cm4gn997yry2o?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/0efb/live/0c0d5f70-e5cf-11f1-a094-5fdc692f3e33.jpg",
+          "time": "রাত ১:৫৯"
+        },
+        {
+          "headline": "Villa's home woes continue as Sunderland earn point",
+          "excerpt": "Aston Villa's struggles at home this season continue as they are held to a goalless draw by Sunderland in the Premier League. MATCH REPORT: Premier League - Aston Villa 0-0 SunderlandAvailable to UK users only.",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/videos/c5j9m227l42do?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/0228/live/9a476370-e5e4-11f1-99a1-253766e7ad8b.jpg",
+          "time": "রাত ১:৫৮"
+        },
+        {
+          "headline": "Australia hold on for narrow win against Wales",
+          "excerpt": "Image source, Huw Evans Picture AgencyImage caption, Australia secured a record win against Wales on their previous visit to Cardiff in 2024ByGareth GriffithsBBC Sport WalesNations ChampionshipWales (7) 26Tries: Lake 2, Murray, Elias Cons: Costelow 3Australia (12) 29Tries: Tupou, Paenga-Amosa, Jorgensen, Ikitau Cons: Lonergan 2, Gordon Pens: GordonWales could not emulate their famous victory…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cwm25ev1z8y8o?at_medium=RSS&at_campaign=rss",
+          "author": "Gareth Griffiths",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/9dd5/live/e5f01650-e5ee-11f1-b1d8-fd34c88a50a0.jpg",
+          "time": "ভোর ৪:২৫"
+        },
+        {
+          "headline": "Can win over All Blacks finally break England's boom-bust cycle?",
+          "excerpt": "We have been here before of course.Twelve months ago, as today, England took a famous win over New Zealand.After a run of victories against lesser opponents, it was the litmus test of their progress. They passed with flying colours and a comfortable scoreline.It was a statement victory, a sign of things to come. England were building into world-beaters.The similarities to today's 37-12 success…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c6gregx71gjro?at_medium=RSS&at_campaign=rss",
+          "author": "Mike Henson",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/f051/live/35e3ad90-e5de-11f1-9ab8-8737221634d6.jpg",
+          "time": "ভোর ৪:২৭"
+        },
+        {
+          "headline": "Raya set to have scan on injury - how much would Arsenal miss him?",
+          "excerpt": "Injuries are never good news, but Arsenal's latest one to first-choice goalkeeper David Raya has come in the worst possible position.The 31-year-old was forced to leave the pitch 70 minutes into Saturday's 2-2 draw with Newcastle, appearing to hurt his shoulder in an innocuous challenge with Magpies forward William Osula.The Gunners arguably have the best depth in the league with at least two…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/ckx28w9ree9vo?at_medium=RSS&at_campaign=rss",
+          "author": "Alex Howell",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/b3a1/live/dec0b5d0-e5ec-11f1-99a1-253766e7ad8b.jpg",
+          "time": "রাত ৩:১৪"
+        },
+        {
+          "headline": "Ireland remind themselves that the best are beatable",
+          "excerpt": "After six deflating losses in a row to South Africa, New Zealand and France, Andy Farrell was asked this week what made him think Ireland could get back to the levels they had reached when considered squarely among that group.Because they had got there before came the typically uncomplicated response from the side's head coach.The longer the 2023 World Cup receded into memory, however, fewer and…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c820qxx2k7y2o?at_medium=RSS&at_campaign=rss",
+          "author": "Jonathan Bradley",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/985d/live/32b585d0-e5e3-11f1-9ab8-8737221634d6.jpg",
+          "time": "রাত ২:৩৯"
+        },
+        {
+          "headline": "France secure Nations Championship final with Springboks",
+          "excerpt": "Nations ChampionshipFrance (14) 45Tries: Guillard, Mauvaka, Gourgues 2, Gailleton, Duguid, Bielle-Biarrey Cons: Gourgues 5Argentina (10) 17Tries: Piccardo, Matera Cons: Albornoz 2 Pen: AlbornozFrance dispatched Argentina in Paris to book their spot against South Africa in the Nations Championship final at Allianz Stadium next Sunday.Knowing pre-game a bonus-point victory at Stade de France would…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c3zxv4e5g5g5o?at_medium=RSS&at_campaign=rss",
+          "author": "Alastair Telfer",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/594b/live/6226ae90-e5f0-11f1-b1d8-fd34c88a50a0.jpg",
+          "time": "ভোর ৪:২২"
+        },
+        {
+          "headline": "Madueke 'a consistent threat' - Newcastle v Arsenal player ratings",
+          "excerpt": "Lukas Hornicek: His kicking was slightly erratic. Nearly got caught on the ball by Kai Havertz after taking too long to release it. Could have done better with the second Arsenal goal. 5Amar Dedic: Booked after pulling back Eberechi Eze and had a tough evening against the England forward. 5Malick Thiaw: Scored the goal to put Newcastle in front, which capped an excellent performance in central…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cq4gn97e8ee4o?at_medium=RSS&at_campaign=rss",
+          "author": "Alex Howell",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/e6f4/live/7fb616a0-e5e4-11f1-9ab8-8737221634d6.jpg",
+          "time": "রাত ১:২৯"
+        },
+        {
+          "headline": "'The world got to see today' - Williams-Barnett announces himself as Spurs star",
+          "excerpt": "Luca Williams-Barnett's performance in his first Premier League start was that good it had two of his Tottenham team-mates labelling him \"incredible\".The 18-year-old winger delivered the opener with his first senior goal and then played a pivotal role in Dominic Solanke's second as Spurs comfortably beat Ipswich 2-0 at home.As full debuts go, it does not get much better than that.Yet what might…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cm9d7jg50e12o?at_medium=RSS&at_campaign=rss",
+          "author": "Chris McKenna",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/fccd/live/a1406b50-e5de-11f1-99b6-a35a62fa4264.jpg",
+          "time": "রাত ১:২১"
+        },
+        {
+          "headline": "'Fragile' and 'miles off it' - Alonso's Chelsea honeymoon is over",
+          "excerpt": "Figure caption, Leeds dominate Chelsea for first Stamford Bridge win since 1999ByFootball reporter at Stamford BridgeChelsea manager Xabi Alonso is already in firefighting mode.His team were booed by their own supporters at several points during a dominant 4-1 Leeds victory at Stamford Bridge, their first win there since 1999.The first negative reaction came at half-time while the score was…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cwe8944d004yo?at_medium=RSS&at_campaign=rss",
+          "author": "Nizaar Kinsella",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/0a7a/live/8ad75db0-e5d9-11f1-9ab8-8737221634d6.jpg",
+          "time": "রাত ১:০৪"
+        },
+        {
+          "headline": "Alcaraz battles back against Shelton to reach final",
+          "excerpt": "Carlos Alcaraz will have the chance to end his wait for a first ATP Finals title after completing a superb comeback victory over Ben Shelton.The indomitable Spaniard recovered from a flat start to outlast Shelton 3-6 6-3 7-6 (7-1) and secure a return to the showpiece, 12 months after losing to Jannik Sinner.Alcaraz again competed with strapping around his upper-left leg having injured his…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/tennis/articles/cw5y1gg7nyv0o?at_medium=RSS&at_campaign=rss",
+          "author": "Harry Poole",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/1c92/live/2353aa80-e5d0-11f1-a738-4787e1a18cce.jpg",
+          "time": "রাত ১১:৩৬"
+        },
+        {
+          "headline": "'Officials can't use common sense' - was Rogers handball correct?",
+          "excerpt": "The feeling among Premier League clubs is that handball is in a good place now, where the arm must either be fully extended away from the body, raised, or be a deliberate act to be punishable.And it is the last of these that applied to the penalty given against Rogers, which to some might seem a bit harsh, considering the Premier League's more relaxed interpretation of handball.There are,…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/c50md981n277o?at_medium=RSS&at_campaign=rss",
+          "author": "Dale Johnson",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/11ac/live/6985e260-e5d6-11f1-9ab8-8737221634d6.jpg",
+          "time": "রাত ১২:৩০"
+        },
+        {
+          "headline": "Rising star Stirling knocks out Prochazka",
+          "excerpt": "Rising star Navajo Stirling earned the biggest win of his career as he knocked out former champion Jiri Prochazka in the second round at UFC Qatar. New Zealand light-heavyweight Stirling stopped Prochazka with a clean right hook to extend the unbeaten start to his career to 12 fights.Victory marked the 29-year-old's fourth straight win in 2026, all by knockout, as he strengthened his claim to be…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/ckgj3l8nxev5o?at_medium=RSS&at_campaign=rss",
+          "author": "Paul Battison",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/0951/live/6d03f150-e5f1-11f1-b1d8-fd34c88a50a0.jpg",
+          "time": "রাত ৩:৫১"
+        },
+        {
+          "headline": "Kim holds one-shot lead at LPGA finale as Korda closes in",
+          "excerpt": "CME Group Tour Championship - round three leaderboard-18 AL Kim (Kor); -17 J Thitikul (Tha), Y Yoshida (Jap); -16 A Kim (US), N Korda (US)Selected others: -14 C Hull (Eng); -9 L Woad (Eng); -7 P Roussin-Bouchard (Fra); -2 L Maguire (Ire)Full leaderboardSouth Korea's A-Lim Kim holds a slender lead going into the final round of the CME Group Tour Championship, with world number one Nelly Korda…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/golf/articles/c3ewvg08gjggo?at_medium=RSS&at_campaign=rss",
+          "author": "BBC Sport",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/6f97/live/5716df90-e5ee-11f1-b1d8-fd34c88a50a0.jpg",
+          "time": "ভোর ৪:২৮"
+        },
+        {
+          "headline": "Fernandez dropped, Anderson scores - Man City's £327m midfield dilemma",
+          "excerpt": "There may have been some eyebrows raised before kick-off when Manchester City manager Enzo Maresca decided to drop club record signing Enzo Fernandez to the bench against Fulham.Fernandez's lengthy excursions back home to Argentina for their two fixtures during the international break may have been a factor in Maresca's thinking when selecting his starting XI for this game.If it was, the Italian…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cxe8944j188yo?at_medium=RSS&at_campaign=rss",
+          "author": "Shamoon Hafez",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/2997/live/fc265c50-e5c0-11f1-a188-ff49e70cc466.jpg",
+          "time": "রাত ১০:০৭"
+        },
+        {
+          "headline": "Nine wins in a row - Bournemouth & Evanilson continue to make history",
+          "excerpt": "Figure caption, Evanilson strikes again as Bournemouth see off ForestByKeifer MacDonaldBBC Sport journalist\"We have to stick together and face reality.\"That is how Bournemouth manager Marco Rose responded after his side had dropped into the Premier League relegation zone with a 5-1 defeat by Chelsea.Six weeks on, it is an entirely different story.The Cherries are up to fourth in the top flight,…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/c6p9d102k4mdo?at_medium=RSS&at_campaign=rss",
+          "author": "Keifer MacDonald",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/2ab8/live/8d13ad90-e5e3-11f1-99a1-253766e7ad8b.jpg",
+          "time": "রাত ২:০৭"
+        },
+        {
+          "headline": "AC Milan monitoring Man Utd's Fernandes - Sunday's gossip",
+          "excerpt": "AC Milan are monitoring Manchester United midfielder Bruno Fernandes, Arsenal pair are yet to start talks on new deals and Trabzonspor renew their interest in Tottenham forward Richarlison.AC Milan are monitoring the situation of Portugal midfielder Bruno Fernandes, 32, who has yet to agree a contract extension with Manchester United. (Corriere dello Sport - in Italian), externalManchester…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cq8j4e8nlvm1o?at_medium=RSS&at_campaign=rss",
+          "author": "BBC Sport",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/6a72/live/543c3860-e5da-11f1-99a1-253766e7ad8b.png",
+          "time": "রাত ২:৩৫"
+        },
+        {
+          "headline": "England beat New Zealand by record margin",
+          "excerpt": "England stun New Zealand, beating the three-time world champions by 25 points - compounding the All Blacks' disappointment after their loss to Wales last week.    READ MORE: Superb England run up record win over All BlacksAvailable to UK users only.",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/rugby-union/videos/c6742znzggeyo?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/e4b8/live/234086c0-e5c7-11f1-a094-5fdc692f3e33.jpg",
+          "time": "রাত ১০:২৮"
+        },
+        {
+          "headline": "Leeds 'created piece of history' in Chelsea win - Farke",
+          "excerpt": "Leeds United manager Daniel Farke is delighted his side \"created a piece of history\" following their 4-1 win against Chelsea, their first at Stamford Bridge since 1999.MATCH REPORT: Premier League - Chelsea 1-4 Leeds UnitedAvailable to UK users only.",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/videos/cmwy5ddwnygqo?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/c186/live/18b230e0-e5d2-11f1-99a1-253766e7ad8b.jpg",
+          "time": "রাত ১১:৪২"
+        },
+        {
+          "headline": "'We lost two points' - Arteta on 'unacceptable' Newcastle draw",
+          "excerpt": "Arsenal manager Mikel Arteta says his side squandered the chance to take all three points after their 2-2 draw against Newcastle United at St James' Park. The result sees the reigning Premier League champions go six points clear at the top of the table.MATCH REPORT: Premier League - Newcastle United 2-2 ArsenalAvailable to UK users only.",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/videos/ck1wrdd9ew11o?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/cd03/live/b44acb50-e5e8-11f1-a094-5fdc692f3e33.jpg",
+          "time": "রাত ২:৩০"
+        },
+        {
+          "headline": "Scotland kept 'foot on throat' in ruthless display - captain McDowall",
+          "excerpt": "While McConnell took the headlines for his try-scoring exploits, head coach Townsend was keen to highlight the work of the entire back row.\"Matt Fagerson went through a lot of work and hopefully his injury isn't serious. Ollie Leatherbarrow was great on both sides of the ball and Liam [McConnell] stands out for his tries.\"Graham extended his lead as Scotland's record try scorer with his 39th,…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cm62pz9xkvd7o?at_medium=RSS&at_campaign=rss",
+          "author": "George O'Neill",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/5c7e/live/0daf52d0-e5d3-11f1-99a1-253766e7ad8b.jpg",
+          "time": "ভোর ৪:২৮"
+        },
+        {
+          "headline": "Ex-captain Moody joins England in emotional haka response",
+          "excerpt": "With Twickenham energised, England started the match fast, with Henry Slade getting on the end of a Fin Smith grubber kick to score the first try after just four minutes.They went on to win 37-12, which was a record margin of victory for England over New Zealand.England coach Steve Borthwick told BBC Radio 5 Live: \"It was particularly significant. What was really powerful was Lewis did the shirt…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c5vg2ppp90w8o?at_medium=RSS&at_campaign=rss",
+          "author": "Mike Henson",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/4d0c/live/0a8a2760-e5ba-11f1-99b6-a35a62fa4264.jpg",
+          "time": "রাত ১০:৪২"
+        },
+        {
+          "headline": "Sale and Trailfinders open PWR season with wins",
+          "excerpt": "Former champions Gloucester-Hartpury made a losing start to the new Premiership Women's Rugby season, going down 31-17 to Sale Sharks two days after the departure of head coach Dan Murphy.Murphy's exit was confirmed on Thursday and a replacement head coach is not expected to be in place until January.Sale's success was their first ever league victory over Gloucester-Hartpury.After winger Rhona…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c5y4j8yre8y7o?at_medium=RSS&at_campaign=rss",
+          "author": "Grace Wheeler",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/e635/live/d1637230-e5db-11f1-9ab8-8737221634d6.jpg",
+          "time": "রাত ১:০৪"
+        },
+        {
+          "headline": "Big wins for Saracens, Exeter and Newcastle in Prem Cup",
+          "excerpt": "Image source, ShutterstockImage caption, Saracens beat Harlequins in an 11-try thriller at StoneX Stadium to go top of Pool BByBen MarvellBBC Sport EnglandSaracens retained their 100% record in this year's Prem Rugby Cup with an emphatic 43-26 derby win over previously undefeated Harlequins. On a day of big scores across the competition, Quins took an early lead through James Lang and Lucas…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cwn83x22m49mo?at_medium=RSS&at_campaign=rss",
+          "author": "Ben Marvell",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/088c/live/f5f97180-e5db-11f1-9ab8-8737221634d6.jpg",
+          "time": "রাত ১:৫৭"
+        },
+        {
+          "headline": "Keating stars as Liverpool hold high-flying Chelsea to goalless draw",
+          "excerpt": "Chelsea miss the chance to consolidate their lead over Manchester City at the top of the Women's Super League as they fail to breach a stubborn Liverpool.MATCH REPORT: WSL - Liverpool 0-0 ChelseaAvailable to UK users only.",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/videos/cmde1ll6pgj3o?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/4b74/live/92725440-e5ba-11f1-99b6-a35a62fa4264.jpg",
+          "time": "রাত ১২:৩৪"
+        }
+      ],
+      "Local": [
+        {
+          "headline": "নড়াইলের বেন্দারচর গ্রামে যা দেখা গেল",
+          "excerpt": "বিএনপির ২ জনকে হত্যার জেরে হামলা–আগুন নড়াইলের বেন্দারচর গ্রামে যা দেখা গেলপ্রতিনিধি নড়াইলনড়াইলের কালিয়ার বেন্দারচর গ্রামে বিএনপির দুই নেতাকে হত্যার জের ধরে কার্যক্রম নিষিদ্ধ আওয়ামী লীগের সাবেক সংসদ সদস্য (এমপি) বি এম কবিরুল হক মুক্তিসহ কয়েকজন নেতা–কর্মীর বাড়ি ও দোকানপাটে হামলা, ভাঙচুর, লুটপাট ও অগ্নিসংযোগের ঘটনা ঘটেছেছবি: প্রথম আলোনড়াইলের কালিয়া উপজেলায় কৃষক দল ও জাসাসের দুই নেতাকে হত্যার জের…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/district/1yjc43zwk8",
+          "author": "প্রতিনিধি",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-21%2Fa98geror%2FWhatsApp-Image-2026-11-21-at-12.58.37-PM-1.jpeg?rect=0%2C30%2C1599%2C839&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "রাত ২:৪৫"
+        },
+        {
+          "headline": "শিক্ষার্থীদের বিক্ষোভের মুখে ঢাবির মুজিব হলের পকেট গেট খুলে দিল প্রশাসন",
+          "excerpt": "প্রতিবেদক ঢাকা বিশ্ববিদ্যালয়শেখ মুজিবুর রহমান হলসংলগ্ন পকেট গেটের তালা খুলে দেওয়ার দাবিতে শিক্ষার্থীদের বিক্ষোভ। ঢাকা বিশ্ববিদ্যালয়, ২১ নভেম্বরছবি: ভিডিও থেকে নেওয়াশিক্ষার্থীদের বিক্ষোভের মুখে ঢাকা বিশ্ববিদ্যালয়ের (ঢাবি) শেখ মুজিবুর রহমান হলসংলগ্ন পকেট গেটের তালা খুলে দিয়েছে বিশ্ববিদ্যালয় প্রশাসন। শনিবার রাত ১০টা ২০ মিনিটে গেটটি খুলে দেওয়া হয়।এর আগে রাত ৯টা ৫০ মিনিটের দিকে গেটটি খুলে দেওয়ার…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/capital/h28nloculk",
+          "author": "প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-21%2Fcjo587hi%2FDU-pocket-gate.jpg?rect=0%2C280%2C720%2C378&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "রাত ২:৩১"
+        },
+        {
+          "headline": "কোনো সুসংবাদ পেলে নবীজি যে দুটি কাজ করতেন",
+          "excerpt": "সিরাত কোনো সুসংবাদ পেলে নবীজি যে দুটি কাজ করতেনফয়জুল্লাহ রিয়াদ ছবি: পেক্সেলসমানুষের জীবনে আনন্দের উপলক্ষ আসে নানা পথে। কাঙ্ক্ষিত কোনো সংবাদ, দীর্ঘ প্রতীক্ষার অবসান, বিপদমুক্তি কিংবা প্রিয়জনের সফলতা হৃদয়কে আনন্দে ভরিয়ে দেয়। এমন মুহূর্তে মানুষ সাধারণত উচ্ছ্বাস প্রকাশ করে, আনন্দ উদ্‌যাপন করে। কিন্তু একজন মুমিনের আনন্দ প্রকাশের সঙ্গে আল্লাহর প্রতি কৃতজ্ঞতাও জড়িত থাকা উচিত।ইসলাম আনন্দের মুহূর্তেও…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/religion/islam/m6rylydfi2",
+          "author": "ফয়জুল্লাহ রিয়াদ",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-17%2Fx9dezq6v%2Fpexels-muhammed-ulucay-257533486-20001484.jpg?rect=0%2C789%2C3024%2C1588&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "রাত ২:০০"
+        },
+        {
+          "headline": "খুলনায় বিএনপি নেতাকে গুলি",
+          "excerpt": "নিজস্ব প্রতিবেদক খুলনাগুলিপ্রতীকী ছবিখুলনার তেরখাদায় মধুপুর ইউনিয়ন বিএনপির সম্মেলন প্রস্তুতি কমিটির সদস্য মাফিজুর রহমানকে (৪৭) গুলি করেছে দুর্বৃত্তরা। শনিবার রাত ১০টার দিকে উপজেলার উত্তর মোকামপুর এলাকায় এ ঘটনা ঘটে। মাফিজুর রহমানের বাঁ হাত, ডান পা ও বাঁ পাঁজরের নিচে গুলি লেগেছে।পুলিশ ও স্থানীয় সূত্রে জানা যায়, মাফিজুর রহমান মোকামপুর বাজার থেকে ভ্যানে করে বাড়ি ফিরছিলেন। পথে মিকাইলের স মিলের সামনে…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/crime/ivmtogj80r",
+          "author": "নিজস্ব প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-21%2Flepnfseg%2F%E0%A7%A8.avif?rect=0%2C36%2C506%2C266&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "রাত ১:৪৮"
+        },
+        {
+          "headline": "খিলক্ষেতে বিশেষ চাহিদাসম্পন্ন শিশুকে ধর্ষণ, সাবেক ছাত্রদল নেতার বিরুদ্ধে মামলা",
+          "excerpt": "নিজস্ব প্রতিবেদক ঢাকাধর্ষণপ্রতীকী ছবিরাজধানীর খিলক্ষেতে ১২ বছর বয়সী বিশেষ চাহিদাসম্পন্ন এক শিশুকে ধর্ষণের অভিযোগে মামলা হয়েছে। এ ঘটনায় অভিযুক্ত ব্যক্তির নাম মো. ইমামুল হোসেন বাপ্পী (৩১)। তিনি স্থানীয় ছাত্রদলের একটি কমিটির সাবেক নেতা বলে জানিয়েছে পুলিশ।শুক্রবার শিশুটির বাবা বাদী হয়ে খিলক্ষেত থানায় নারী ও শিশু নির্যাতন দমন আইনে এ মামলা করেন। মামলার এজাহারে বলা হয়, গত ১৮ নভেম্বর রাত সাড়ে ৮টার দিকে…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/crime/oxrbevb5bt",
+          "author": "নিজস্ব প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2025-03-13%2Fzlogh3xr%2FRape-%E0%A6%A7%E0%A6%B0%E0%A7%8D%E0%A6%B7%E0%A6%A3-3.jpg?rect=0%2C0%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "রাত ১:৪৫"
+        },
+        {
+          "headline": "অভ্যুত্থানের মুখে পালিয়ে ক্ষমতায় ফেরার আশা দুঃস্বপ্নে পরিণত হবে: আবুল হাসান রুবেল",
+          "excerpt": "নিজস্ব প্রতিবেদক ঢাকাজুলাই গণহত্যার বিচার ত্বরান্বিত করা ও নৈরাজ্যের বিরুদ্ধে ঐক্য গড়ে তোলার আহ্বানে আয়োজিত গণসংহতি আন্দোলনের বিক্ষোভ সমাবেশে বক্তব্য দিচ্ছেন দলটির নির্বাহী সমন্বয়কারী আবুল হাসান রুবেল। পাশে দলের অন্য নেতা-কর্মীরা। জাতীয় প্রেসক্লাব, ঢাকা। ২১ নভেম্বর ২০২৬ছবি: গণসংহতি আন্দোলনের সৌজন্যেজনগণের অভ্যুত্থানে ক্ষমতাচ্যুত হয়ে যাঁরা দেশ ছেড়ে পালিয়েছিলেন, তাঁদের আবার ক্ষমতায় ফেরার আশা…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/politics/sja7pneie4",
+          "author": "নিজস্ব প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-21%2Fuewl6j5w%2FGono-Songhoti-Andolon.jpeg?rect=0%2C24%2C1280%2C672&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2022-01%2F5a36c819-05a2-4bfb-ac50-57dd67355acb%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "রাত ১:৪১"
+        },
+        {
+          "headline": "জ্ঞানভিত্তিক শোষণহীন সমাজের স্বপ্ন ছিল আহমদ রফিকের",
+          "excerpt": "প্রথম মৃত্যুবার্ষিকীতে স্মরণ অনুষ্ঠান জ্ঞানভিত্তিক শোষণহীন সমাজের স্বপ্ন ছিল আহমদ রফিকেরনিজস্ব প্রতিবেদক ঢাকাভাষাসংগ্রামী আহমদ রফিকের প্রথম মৃত্যুবার্ষিকী উপলক্ষে আয়োজিত স্মরণ অনুষ্ঠান। বাংলা একাডেমি, ঢাকা। ২১ নভেম্বর ২০২৬ছবি: প্রথম আলোজ্ঞানচর্চাকেই জীবনের পাথেয় করেছিলেন আহমদ রফিক। তাঁর রাজনৈতিক প্রজ্ঞা ছিল স্পষ্ট। তিনি চেয়েছিলেন জ্ঞানভিত্তিক ও শোষণ-বঞ্চনাহীন সমাজ প্রতিষ্ঠা করতে। সমাজ বদলের এই…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/capital/iwuh9a1rlb",
+          "author": "নিজস্ব প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-21%2Fqi5ggb5v%2FAhmed-Rafiq.jpeg?rect=0%2C144%2C1280%2C672&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "রাত ১:২৫"
+        },
+        {
+          "headline": "গণ-অভ্যুত্থানের পর দাপট তৈরি \nহয়েছে বৈষম্যবাদী রাজনীতির",
+          "excerpt": "অনুষ্ঠানে আনু মুহাম্মদ গণ-অভ্যুত্থানের পর দাপট তৈরি \nহয়েছে বৈষম্যবাদী রাজনীতিরনিজস্ব প্রতিবেদক ঢাকাত্রৈমাসিক সংকলন ‘সর্বজনকথা’র ১২ বছর পূর্তি উপলক্ষে আয়োজিত প্রীতিসম্মিলনীতে বক্তব্য দিচ্ছেন অর্থনীতিবিদ অধ্যাপক আনু মুহাম্মদ। বাংলা একাডেমি, ঢাকা। ২১ নভেম্বর ২০২৬ছবি: প্রথম আলোবৈষম্যবিরোধী লড়াইয়ের মধ্য দিয়ে কীভাবে বৈষম্যবাদী চিন্তার উত্থান ঘটল, সেই প্রশ্ন তুলেছেন অর্থনীতিবিদ অধ্যাপক আনু মুহাম্মদ।…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/politics/v4lnyz10u3",
+          "author": "নিজস্ব প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-21%2Fcivk7xak%2FAnu-Muhammad.jpeg?rect=0%2C180%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2022-01%2F5a36c819-05a2-4bfb-ac50-57dd67355acb%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "রাত ১:২০"
+        },
+        {
+          "headline": "ফরাসি অপেরার সঙ্গে বাংলা অপেরা\nসুরের সম্মিলনে মুখর সন্ধ্যা",
+          "excerpt": "বিশেষ প্রতিনিধি ঢাকামঞ্চে পরিবেশনায় ফরাসি অপেরা শিল্পী ভেরোনিক পেইন (ডানে) ও পিয়ানিস্ট ফ্যাব্রিস মেইত্রে। হোটেল ইন্টারকন্টিনেন্টাল, ঢাকা। ২১ নভেম্বর ২০২৬ছবি: প্রথম আলোফরাসি অপেরা সংগীতের সঙ্গে বাংলা অপেরা সুরের সম্মিলনে রাজধানীতে অনুষ্ঠিত হলো বিশেষ সংগীতানুষ্ঠান ‘ফ্রেঞ্চ অপেরা শো ব্লেন্ডেড উইথ বাংলা অপেরা’। ফ্রান্স দূতাবাসের আমন্ত্রণে ঢাকায় আসা দেশটির অপেরাশিল্পী ভেরোনিক পেইন ও পিয়ানিস্ট…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/capital/80dirk1z47",
+          "author": "বিশেষ প্রতিনিধি",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-21%2F1znguqq3%2FOpera.jpeg?rect=0%2C66%2C1600%2C840&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "রাত ১:০৭"
+        },
+        {
+          "headline": "‘নিরাপত্তা’র কথা বলে বৈশাখী টিভির ডিএমডি টিপুকে নেওয়ার ১০ ঘণ্টা পরও ছাড়েনি পুলিশ",
+          "excerpt": "নিজস্ব প্রতিবেদক ঢাকাবৈশাখী টেলিভিশনের অনলাইন বিভাগের প্রধানকে চাকরিচ্যুত করা নিয়ে সৃষ্ট বিশৃঙ্খল পরিস্থিতির মধ্যে শনিবার বিকেলে টেলিভিশন ট্যানেলটির  উপব্যবস্থাপনা পরিচালক (ডিএমডি) টিপু আলম মিলনকে নিয়ে যায় পুলিশছবি: ভিডিও থেকে নেওয়াবৈশাখী টেলিভিশনে হাঙ্গামা-হট্টগোল থেকে ‘নিরাপত্তা’র কথা বলে টেলিভিশন চ্যানেলটির উপব্যবস্থাপনা পরিচালক (ডিএমডি) টিপু আলম মিলনকে পুলিশ হেফাজতে নেওয়ার ১০ ঘণ্টা পরও ছাড়া…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/egfkric6km",
+          "author": "নিজস্ব প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-21%2Faq3llpvy%2FWhatsApp-Image-2026-11-22-at-12.49.18-AM.jpeg?rect=93%2C0%2C1350%2C709&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "রাত ১২:৫৯"
+        },
+        {
+          "headline": "ক্ষমতাকেন্দ্রিক সহিংস \nরাজনীতি মানুষকে বিপর্যয়ের \nদিকে ঠেলে দিচ্ছে: সিপিবি",
+          "excerpt": "নিজস্ব প্রতিবেদক ঢাকাবাংলাদেশের কমিউনিস্ট পার্টির (সিপিবি)ছবি: সংগৃহীতনড়াইলের কালিয়া উপজেলায় রাজনৈতিক সংঘাতের জেরে বিএনপির দুই নেতা হত্যা এবং আওয়ামী লীগের (কার্যক্রম নিষিদ্ধ) নেতা-কর্মীদের বাড়িঘর ও ব্যবসাপ্রতিষ্ঠানে অগ্নিসংযোগের ঘটনায় গভীর উদ্বেগ প্রকাশ করেছে বাংলাদেশের কমিউনিস্ট পার্টি (সিপিবি)। দলটি বলেছে, শাসক শ্রেণির ক্ষমতাকেন্দ্রিক সহিংস রাজনীতি মানুষকে বিপর্যয়ের দিকে ঠেলে দিচ্ছে। রাজনৈতিক…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/politics/jgkns629bz",
+          "author": "নিজস্ব প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2025-11-09%2F7mu5lsq4%2F2.avif?rect=0%2C31%2C432%2C227&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2022-01%2F5a36c819-05a2-4bfb-ac50-57dd67355acb%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "রাত ১২:৪১"
+        }
+      ],
+      "Tech": [
+        {
+          "headline": "Review: Godzilla Minus Zero joins the list of truly stellar sequels",
+          "excerpt": "Godzilla Minus Zero is set two years after the events of the first film, with Kamiki and Hamabe reprising their roles as Kōichi and Noriko, along with Nagatani as Akiko. The family is just trying to live in peace after the devastation Godzilla inflicted on their country. Alas, a new kaiju emerges, arriving via meteorite and using its tentacles to feed on local wildlife before morphing into a…",
+          "source": "Ars Technica",
+          "link": "https://arstechnica.com/culture/2026/11/review-godzilla-minus-zero-is-everything-we-could-want-in-a-sequel/",
+          "author": "Jennifer Ouellette",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/godzillaTOP-1152x648.jpg",
+          "time": "ভোর ৪:১২"
+        },
+        {
+          "headline": "Amazon is complaining about NYC Council on shipping labels, too",
+          "excerpt": "Terrence O'Brien is the Verge’s weekend editor. He’s covered the tech industry for over 18 years and knows a thing or two about synths.Amazon is leaving no venue unexplored in its fight against the New York City Council and the Delivery Protection Act. The company is now putting labels on shipments claiming that the Council could add up to $5 to any Amazon order. The Delivery Protection Act…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/tech/1039564/amazon-nyc-council-packages-shipping-label",
+          "author": "Terrence O'Brien",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/PXL_20261121_204528314.jpg?quality=90&strip=all&crop=0%2C27.608909762858%2C100%2C39.421004003696&w=1200",
+          "time": "রাত ৩:৫৯"
+        },
+        {
+          "headline": "Why does your phone say no service even with a SIM card?",
+          "excerpt": "If your calls and texts aren't going through, try these recommendations.\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                   …",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2319140/phone-says-no-service-with-sim-card/",
+          "author": "Maddie Fisher",
+          "image": "https://www.engadget.com/img/gallery/why-does-your-phone-say-no-service-even-with-a-sim-card/l-intro-1794929692.jpg",
+          "time": "ভোর ৪:৩০"
+        },
+        {
+          "headline": "Gemini app rolls out very slick camera redesign on Android",
+          "excerpt": "Google has thoroughly redesigned Gemini for Android’s in-app camera that lets you quickly add an image to prompts.\n\n\n\nAvailable from the ‘plus’ menu in the prompt box, the old interface launched a fullscreen viewfinder that was quite generic. This UI is still in use when you launch the camera from the Gemini overlay.\n\n\n\nThe new one appears inline on the Gemini homepage or inside a conversation.…",
+          "source": "9to5Google",
+          "link": "https://9to5google.com/2026/11/21/gemini-camera-redesign/",
+          "author": "Abner Li",
+          "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/05/gemini-app-4.jpg?quality=82&strip=all&resize=1200,628",
+          "time": "রাত ২:৫২"
+        },
+        {
+          "headline": "The UN fails to agree on rules regulating ‘killer robots’",
+          "excerpt": "Countries agree to ‘start discussing options’ for rules around autonomous weapons.Countries agree to ‘start discussing options’ for rules around autonomous weapons.by  Terrence O'BrienNov 21, 2026, 8:03 PM UTCPhoto by John Moore/Getty ImagesTerrence O'Brien is the Verge’s weekend editor. He’s covered the tech industry for over 18 years and knows a thing or two about synths.One of the items on…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+          "author": "Terrence O'Brien",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/13611631/503831564.jpg.jpg?quality=90&strip=all&crop=0%2C11.089604074363%2C100%2C77.820791851273&w=1200",
+          "time": "রাত ২:০৩"
+        },
+        {
+          "headline": "iPad Air vs. iPad Pro: The features you're actually paying $450 extra for",
+          "excerpt": "The iPad Pro is Apple's best tablet, but not everyone needs its power.\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                   …",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2319122/ipad-air-vs-pro-features-compared-price-difference/",
+          "author": "Antony Terence",
+          "image": "https://www.engadget.com/img/gallery/ipad-air-vs-ipad-pro-the-features-youre-actually-paying-450-extra-for/l-intro-1794929523.jpg",
+          "time": "ভোর ৪:১৫"
+        },
+        {
+          "headline": "Galaxy Z Fold 8 features: What you can do on a foldable",
+          "excerpt": "Folding phones have come in numerous variations over the years as the concept has evolved. The Galaxy Z Fold 8 is the latest evolution that introduces a form factor that fits every user. Its unique design makes it a foldable most people can actually use – which makes it a perfect gift. You might be surprised by what it can do.\n\n\n\nThis post is sponsored by Samsung.\n\n\n\nUnfold for a bigger…",
+          "source": "9to5Google",
+          "link": "https://9to5google.com/2026/11/21/galaxy-z-fold-8-features-what-you-can-do/",
+          "author": "Sponsored Post",
+          "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/10/Galaxy-Z-Fold-8-lavender-2.jpg?quality=82&strip=all&resize=1200,628",
+          "time": "রাত ১১:০০"
+        },
+        {
+          "headline": "The FBI and USDA were reportedly hacked",
+          "excerpt": "Terrence O'Brien is the Verge’s weekend editor. He’s covered the tech industry for over 18 years and knows a thing or two about synths.Friday, it was reported that both the US Department of Agriculture (USDA) and the FBI were hacked. In reporting on the FBI hack, CNN noted that this is the second such attack on the agency in the last few months, this time targeting the National Crime Information…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/tech/1039543/fbi-usda-hacked",
+          "author": "Terrence O'Brien",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23318430/akrales_220309_4977_0038.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+          "time": "রাত ১১:৪২"
+        },
+        {
+          "headline": "This built-in windows tool can tell if your DirectX has a problem",
+          "excerpt": "DxDiag is a handy and free resource for troubleshooting DirectX.\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                    Alex Photo…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2319109/built-in-windows-tool-find-problem-directx-diagnostic/",
+          "author": "Vincent Arogya",
+          "image": "https://www.engadget.com/img/gallery/this-built-in-windows-tool-can-tell-if-your-directx-has-a-problem/l-intro-1794929192.jpg",
+          "time": "ভোর ৪:০০"
+        },
+        {
+          "headline": "John Roberts, the voice of Linda Belcher, is just happy to finish a thing",
+          "excerpt": "You probably know John Roberts best as the voice of Linda Belcher on Bob’s Burgers. The show just wrapped up its 16th season and shows no signs of slowing down anytime soon. The show remains a reliable source of laughs, top-notch puns, and frankly wholesome fun.Comedy is just part of Roberts’ life, however. In addition to his appearances on Gravity Falls and Comedy Bang! Bang!, he’s also a…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/report/1038463/john-roberts-linda-belcher-bobs-burgers-interview",
+          "author": "Terrence O'Brien",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/John_Roberts_1.jpg?quality=90&strip=all&crop=0%2C1.4714305191972%2C100%2C34.904013961606&w=1200",
+          "time": "রাত ১০:০০"
+        },
+        {
+          "headline": "FBI and USDA were reportedly targeted in back-to-back cyberattacks",
+          "excerpt": "It’s still unclear who is responsible for the two incidents.\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                    Ceri…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2324179/fbi-and-usda-were-reportedly-targeted-in-back-to-back-cyberattacks/",
+          "author": "Jackson Chen",
+          "image": "https://www.engadget.com/img/gallery/fbi-and-usda-were-reportedly-targeted-in-back-to-back-cyberattacks/l-intro-1795297525.jpg",
+          "time": "রাত ৩:৫১"
+        },
+        {
+          "headline": "Amazon’s first digital photo frame is up to 50 percent off for Black Friday",
+          "excerpt": "Sheena Vasani writes about tech news, reviews gadgets, and helps readers save money by highlighting deals and product recommendations for The Verge.Amazon only announced its first digital photo frame less than a month ago, but it’s already getting a sizable discount for Black Friday. You can currently grab the Alexa Photo Frame at Amazon and Best Buy starting at $114 ($115 off), making it a…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/gadgets/1038762/amazon-alexa-photo-frame-black-friday-2026-deal-sale",
+          "author": "Sheena Vasani",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268832_Amazon_Alexa_Frame_JTuohy_0011.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+          "time": "রাত ১০:০০"
+        },
+        {
+          "headline": "The free Raspberry Pi tool you should be using to access it remotely",
+          "excerpt": "Avoid forwarding ports by using this handy tool.\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                    Pazargic…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2319090/free-raspberry-pi-tool-access-remotely/",
+          "author": "Charles Burgar",
+          "image": "https://www.engadget.com/img/gallery/the-free-raspberry-pi-tool-you-should-be-using-to-access-it-remotely/l-intro-1794928442.jpg",
+          "time": "রাত ৩:৪৫"
+        },
+        {
+          "headline": "How long can fiber optic cables be before they lose signal?",
+          "excerpt": "Pretty long, it turns out.\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                   …",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2319077/fiber-optic-cable-how-long-before-lose-signal/",
+          "author": "Calvin Wankhede",
+          "image": "https://www.engadget.com/img/gallery/how-long-can-fiber-optic-cables-be-before-they-lose-signal/l-intro-1794846286.jpg",
+          "time": "রাত ৩:৩০"
+        },
+        {
+          "headline": "How to easily factory reset your Fitbit",
+          "excerpt": "It can help fix a serious issue or prep your wearable for a new owner.\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                   …",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2319074/how-to-factory-reset-fitbit-device/",
+          "author": "Christine Persaud",
+          "image": "https://www.engadget.com/img/gallery/how-to-easily-factory-reset-your-fitbit/l-intro-1794927232.jpg",
+          "time": "রাত ৩:১৫"
+        },
+        {
+          "headline": "What's new with Apple's latest Siri Remote, and does your old Apple TV support it?",
+          "excerpt": "The 4th-gen Apple TV 4K comes with a new remote. Here's what you need to know about it. \n            \n\n    \n                \n                \n                \n                Earlier this October, Apple unveiled its latest Apple TV 4K streaming box. Like most product launches in recent months, the release centered around a \"supercharged\" AI offering, which Apple believes will transform \"how…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2319050/whats-new-siri-remote-does-older-apple-tv-support/",
+          "author": "Alec Hively",
+          "image": "https://www.engadget.com/img/gallery/whats-new-with-apples-latest-siri-remote-and-does-your-old-apple-tv-support-it/l-intro-1794593750.jpg",
+          "time": "রাত ৩:০০"
+        },
+        {
+          "headline": "The trade-offs of using Apple's AirPods Max headphones",
+          "excerpt": "Apple's AirPods Max sound great, but they come with a lot of compromises for $549…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2319042/trade-offs-using-apple-airpods-max-headphones/",
+          "author": "Filipe Espósito",
+          "image": "https://www.engadget.com/img/gallery/the-trade-offs-of-using-apples-airpods-max-headphones/l-intro-1794842835.jpg",
+          "time": "রাত ২:৪৫"
+        },
+        {
+          "headline": "Discs vs. disks: What's the difference?",
+          "excerpt": "There are more things that set them apart than spelling.\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                   …",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2319034/discs-vs-disks-differences/",
+          "author": "Maddie Fisher",
+          "image": "https://www.engadget.com/img/gallery/discs-vs-disks-whats-the-difference/l-intro-1794926692.jpg",
+          "time": "রাত ২:৩০"
+        },
+        {
+          "headline": "Why Apple Vision Pro never took off like Meta's VR headsets",
+          "excerpt": "Good hardware doesn't necessarily make for a successful product.\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                    Devindra…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2318875/why-apple-vision-pro-did-not-take-off-vs-meta-vr/",
+          "author": "Max Miller",
+          "image": "https://www.engadget.com/img/gallery/why-apple-vision-pro-never-took-off-like-metas-vr-headsets/l-intro-1794915957.jpg",
+          "time": "রাত ২:১৫"
+        },
+        {
+          "headline": "How to block a device from your home network",
+          "excerpt": "Lock down a home network by tracking down MAC addresses, tweaking your router’s access controls and kicking unwanted users off your…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2318874/how-to-block-device-home-network/",
+          "author": "Thomas Godwin",
+          "image": "https://www.engadget.com/img/gallery/how-to-block-a-device-from-your-home-network/l-intro-1794821930.jpg",
+          "time": "রাত ২:০০"
+        },
+        {
+          "headline": "Anthropic employee claims to have proven the most famous math problem using Claude",
+          "excerpt": "Levent Alpöge says he worked with Claude to discover a proof of the Riemann…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2324141/anthropic-employee-claims-to-have-proven-the-most-famous-math-problem-using-claude/",
+          "author": "Mariella Moon",
+          "image": "https://www.engadget.com/img/gallery/anthropic-employee-claims-to-have-proven-the-most-famous-math-problem-using-claude/l-intro-1795290107.jpg",
+          "time": "রাত ১:৪৫"
+        },
+        {
+          "headline": "Here's how much a Sony Walkman cost in 1980 vs. 2026",
+          "excerpt": "The Sony Walkman TPS-L2 cassette player cost a lot more than people think when considering…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2318873/how-much-sony-walkman-cost-1980-vs-2026/",
+          "author": "Antony Terence",
+          "image": "https://www.engadget.com/img/gallery/heres-how-much-a-sony-walkman-cost-in-1980-vs-2026/l-intro-1794562570.jpg",
+          "time": "রাত ১:৪৫"
+        },
+        {
+          "headline": "Signs it's time to replace your phone's screen protector",
+          "excerpt": "Should you take a screen protector off if it's broken? Here's all the key maintenance tips and when it's time for a…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2318871/signs-when-replace-phone-screen-protector/",
+          "author": "Erin Carson",
+          "image": "https://www.engadget.com/img/gallery/signs-its-time-to-replace-your-phones-screen-protector/l-intro-1794579381.jpg",
+          "time": "রাত ১:৩০"
+        },
+        {
+          "headline": "How does iCloud Private Relay's security compare to VPN alternatives?",
+          "excerpt": "iCloud Private Relay and VPNs protect your browsing in different ways.\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                   …",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2318772/how-does-icloud-private-relay-security-compare-vpn-alternatives/",
+          "author": "Filipe Espósito",
+          "image": "https://www.engadget.com/img/gallery/how-does-icloud-private-relays-security-compare-to-vpn-alternatives/l-intro-1794890895.jpg",
+          "time": "রাত ১:১৫"
+        },
+        {
+          "headline": "Which car has the largest infotainment touchscreen?",
+          "excerpt": "The biggest infotainment screen on the market keeps drivers and passengers connected.\n            \n\n    \n                \n                \n                \n                Car infotainment screens are huge right now — both literally and figuratively. New cars have overwhelmingly embraced Android Auto and Apple CarPlay-powered infotainment screens in place of physical buttons, using them to…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2318759/largest-car-infotainment-touchscreen/",
+          "author": "Robin Bea",
+          "image": "https://www.engadget.com/img/gallery/which-car-has-the-largest-infotainment-touchscreen/l-intro-1794886675.jpg",
+          "time": "রাত ১:০০"
+        },
+        {
+          "headline": "Six simple Raspberry Pi projects for beginners",
+          "excerpt": "Stop leaving your Pi builds unfinished with these fun and useful ideas.\n            \n\n    \n                \n                                \n                                \n                        \n\t\t\t\t            Raspberry Pi projects are infamous for fizzling out before completion. Sure, the truly dedicated will finish things like custom voice assistants, irrigation systems or creepy…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2318530/simple-raspberry-pi-projects-for-beginners/",
+          "author": "Will Shanklin",
+          "image": "https://www.engadget.com/img/gallery/six-simple-raspberry-pi-projects-for-beginners/l-intro-1794864633.jpg",
+          "time": "রাত ১২:৪৫"
+        },
+        {
+          "headline": "How to use a solar panel to charge your phone",
+          "excerpt": "Panel-only chargers, built-in batteries and portable power stations all work differently, so here's how to find the right…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2318512/how-to-use-solar-panel-charge-phone/",
+          "author": "Erin Carson",
+          "image": "https://www.engadget.com/img/gallery/how-to-use-a-solar-panel-to-charge-your-phone/l-intro-1794864126.jpg",
+          "time": "রাত ১২:৩০"
+        },
+        {
+          "headline": "Tesla's assisted driving system gets the green light for rollout in Italy",
+          "excerpt": "Tesla’s self-driving tech is awaiting another major vote from the European Union before the end of the…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2324122/teslas-assisted-driving-system-gets-the-green-light-for-rollout-in-italy/",
+          "author": "Jackson Chen",
+          "image": "https://www.engadget.com/img/gallery/teslas-assisted-driving-system-gets-the-green-light-for-rollout-in-italy/l-intro-1795285455.jpg",
+          "time": "রাত ১২:২৯"
+        },
+        {
+          "headline": "Owl OS is a New Kali Linux Competitor",
+          "excerpt": "Penetration testing, where a security professional probes a system for weaknesses before an attacker finds them, has become a routine part of defending anything that runs online.There are several security-focused Linux distributions, such as Kali Linux, Parrot, and Athena OS, and each of them ships with a ready-made set of security tools.Now another one is looking to join that list. The creator…",
+          "source": "It's FOSS",
+          "link": "https://feed.itsfoss.com/link/24361/17536916/owl-os-launch",
+          "author": "Sourav Rudra",
+          "image": "https://itsfoss.com/content/images/2026/11/owl-os-banner.png",
+          "time": "রাত ১১:০১"
+        },
+        {
+          "headline": "Intel Linux NPU Driver 1.39.1 Released With Nova Lake Support",
+          "excerpt": "Since last year there have been Linux patches for enabling the Intel Nova Lake NPU with its 6th Gen neural processing unit IP. Those patches were since mainlined with the Intel IVPU accelerator driver. Now the user-space Intel Linux NPU Driver was updated on Thursday with official Nova Lake support.\n\nLinux NPU Driver v1.39.1 released this week and its main addition for these user-space…",
+          "source": "Phoronix",
+          "link": "https://www.phoronix.com/news/Intel-LInux-NPU-Driver-1.39.1",
+          "author": "Written by Michael Larabel in Intel on 21 November 2026 at 10:51 AM EST. Add A Comment",
+          "image": "",
+          "time": "রাত ৯:৫১"
+        }
+      ]
+    }
+  },
+  {
     "dt": "2026-11-21T14:16:18.589Z",
     "file": "runs/2026-11-21-1416.html",
     "counts": {
