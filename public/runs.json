@@ -1,5 +1,838 @@
 [
   {
+    "dt": "2026-11-26T01:36:20.478Z",
+    "file": "runs/2026-11-26-0136.html",
+    "counts": {
+      "Local": 7,
+      "International": 35,
+      "Entertainment": 2,
+      "Tech": 21,
+      "Sports": 25
+    },
+    "grouped": {
+      "Local": [
+        {
+          "headline": "বিশেষায়িত পাঁচ শিশু হাসপাতাল অবশেষে ডিসেম্বরে চালু হচ্ছে",
+          "excerpt": "নিজস্ব প্রতিবেদক ঢাকানির্মাণ শেষ হওয়ার পরও পড়ে থাকা পাঁচটি বিশেষায়িত শিশু হাসপাতাল অবশেষে চালুর উদ্যোগ নিয়েছে সরকার। আগামী ডিসেম্বরের দ্বিতীয় সপ্তাহে প্রধানমন্ত্রী তারেক রহমান হাসপাতালগুলোর আনুষ্ঠানিক উদ্বোধন করবেন। প্রথম আলোয় গত ১২ এপ্রিল ‘৬ শিশু হাসপাতালের ভবন পড়ে আছে, বিপুল ব্যয়’ শিরোনামে একটি প্রতিবেদন প্রকাশিত হয়। সেটি ছিল প্রধান প্রতিবেদন। এতে বলা হয়, এসব হাসপাতালের ভবন নির্মাণ শেষের পর এক…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/bangladesh/ap6007783m",
+          "author": "নিজস্ব প্রতিবেদক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-25%2Fsm9qia8u%2F4.jpg?rect=0%2C36%2C1920%2C1008&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৭:২০"
+        },
+        {
+          "headline": "মানবদেহে টিউমার কীভাবে তৈরি হয়?",
+          "excerpt": "0",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/video/vtz9xjlv1o",
+          "author": "ভিডিও ডেস্ক, ডয়চে ভেলে",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-25%2Fbuocsanv%2Ftumor.jpg?rect=0%2C0%2C1920%2C1008&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2022-01%2F5a36c819-05a2-4bfb-ac50-57dd67355acb%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৭:০০"
+        },
+        {
+          "headline": "মশার কামড়ে পোষা প্রাণী থেকে মানুষের শরীরে ছড়াচ্ছে পরজীবী",
+          "excerpt": "লেখা: মো. লিখন ইসলামবাড়ির পোষা কুকুর বা বিড়াল কেবল শখের সঙ্গী নয়, এরা আমাদের পরিবারেরই অংশ। কিন্তু এদের সুস্থতার সঙ্গে আপনার ও আপনার পরিবারের স্বাস্থ্যও ওতপ্রোতভাবে জড়িয়ে আছে। বিশেষ করে বাংলাদেশের মতো মশাবাহিত রোগপ্রবণ দেশে পোষা প্রাণীর স্বাস্থ্যে সামান্য অবহেলাও ডেকে আনতে পারে বড় বিপদ। আমরা সাধারণত পোষা প্রাণীর টিকা, কৃমিনাশক ওষুধ, খাবার ও পরিচ্ছন্নতার দিকে বাড়তি নজর দিই। কিন্তু মশার…",
+          "source": "Prothom Alo",
+          "link": "https://www.bigganchinta.com/biology/6kc5pqyv46",
+          "author": "লেখা:",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-25%2Fqqk8xk8t%2F1.png?rect=0%2C75%2C2944%2C1546&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2021-04%2F18d6c66d-0fdc-4405-936e-afd304acc074%2Fbigganchinta.png&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৭:০০"
+        },
+        {
+          "headline": "গন্তব্য নয়, শখের টানেই ভ্রমণ: ২০২৭-এর নতুন ট্রেন্ড ‘হবি হাবস’",
+          "excerpt": "কখনো কি এমন হয়েছে, কোনো জায়গায় ঘুরতে যাওয়ার কথা ভেবেছেন শুধু সেখানে বসে ছবি আঁকবেন বলে? কিংবা বহুদিনের ইচ্ছা, পাহাড়ের কোনো নির্জন কটেজে বসে প্রিয় বইটি শেষ করবেন, রাতের আকাশে তারা গুনবেন, অথবা একদল নতুন মানুষের সঙ্গে মিলে শিখবেন কোনো পুরোনো হাতের কাজ? ভ্রমণের পরিকল্পনা করতে গিয়ে এত দিন আমরা সাধারণত ভাবতাম, কোথায় যাব, কী দেখব, কোথায় থাকব। কিন্তু সেই ভাবনায় এবার একটু বদল আসছে। অনেকেই এখন গন্তব্যের…",
+          "source": "Prothom Alo",
+          "link": "https://www.haal.fashion/travel/tourism/6chrz7jp2w",
+          "author": "হাল ফ্যাশন ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-25%2Fse03kj55%2Fpexels-rdne-8231185.jpg?rect=0%2C457%2C6447%2C3385&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2023-10%2Fdf4c7d13-96dc-4875-b8bf-5aac7b6aa475%2FHaalfashion_gpi_sample3.png&overlay_position=bottom&overlay_opacity=1&w=1200&h=627&auto=format%2Ccompress&ogImage=true&overlay_width_pct=1",
+          "time": "সকাল ৭:০০"
+        },
+        {
+          "headline": "জাদুর শহরে সোহেল, আমি ও আপনি",
+          "excerpt": "টা ট কা র স জাদুর শহরে সোহেল, আমি ও আপনি লেখা: সত্যজিৎ বিশ্বাসকার্টুন: এআইসোহেল দুহাত দিয়ে নাক-মুখ চেপে ধরে বসে আছে। না, না, অন্য কারওটা না। নিজেরটাই।কী বললেন, ও ডাস্টবিনের সামনে নাকি? আরে না, ব্রো। ও আর আমি দুজন চায়ের দোকানের বেঞ্চে বসে আছি। চা আসার অপেক্ষায় গল্প করছি আর মোবাইল স্ক্রল করছি। এখন এটাই চলছে। আঙুল চলে, আলাপও চলে।এমন সময়ে ঘটল ঘটনা। হঠাৎ দেখি, সোহেল ভুরু কুঁচকে চোখের সামনে নিল…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/fun/5m9xmzk7kz",
+          "author": "লেখা:",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-25%2F270k1n1c%2Fjaduweb.jpg.jpeg?rect=0%2C87%2C1244%2C653&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2021-05%2Fba39cddb-a11d-47f9-971c-1458e27d6b8e%2Faktuthamun_OG_watermark.png&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৭:০০"
+        },
+        {
+          "headline": "বেহেশতে কেন তাঁর পায়ের আওয়াজ",
+          "excerpt": "সাহাবিদের কথা বেহেশতে কেন তাঁর পায়ের আওয়াজনাহিদা সুলতানা ছবি: পেক্সেলসইসলামের ইতিহাসে এমন একজন সৌভাগ্যবান সাহাবি রয়েছেন, বেহেশতে নবীজি যাঁর পদধ্বনি শুনতে পেয়েছিলেন। তিনি হলেন ইসলামের প্রথম মুয়াজ্জিন, বিশিষ্ট সাহাবি বেলাল ইবনে রাবাহ (রা.)।একসময় যিনি মক্কার কাফেরদের হাতে নির্মম নির্যাতনের শিকার হয়েছিলেন, সেই বেলালের মর্যাদা এমন উচ্চতায় পৌঁছেছিল যে দুনিয়াতেই রাসুল (সা.) তাঁকে বেহেশতের সুসংবাদ…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/religion/islam/h09sdh31zl",
+          "author": "নাহিদা সুলতানা",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-25%2Fgai25okw%2Fpexels-abdullahoguk-33662070.jpg?rect=0%2C428%2C6016%2C3158&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2024-08-31%2F1m4oa2xi%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "ভোর ৫:৫৯"
+        },
+        {
+          "headline": "পাহাড় থেকে ঝরে পড়ল মেঘের জলপ্রপাত, হারিয়ে গেল চূড়ায় থাকা ভাস্কর্যও",
+          "excerpt": "আন্তর্জাতিকপাহাড় থেকে ঝরে পড়ল মেঘের জলপ্রপাত, হারিয়ে গেল চূড়ায় থাকা ভাস্কর্যওপ্রথম আলোকে নির্ভরযোগ্য সূত্র হিসেবে পেতে হলেএখানে ক্লিক করুনপ্রথম আলোর খবর পেতে গুগল নিউজ চ্যানেল ফলো করুনআন্তর্জাতিক থেকে আরও পড়ুনপাহাড়",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/video/international/utlkyhhjkg",
+          "author": "ভিডিও ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-25%2Fgniobj0f%2FWEB.jpg?rect=0%2C0%2C800%2C420&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2022-01%2F5a36c819-05a2-4bfb-ac50-57dd67355acb%2FBanner_7814X143.jpg&overlay_position=bottom&overlay_width_pct=1",
+          "time": "রাত ১:০০"
+        }
+      ],
+      "International": [
+        {
+          "headline": "গোপালগঞ্জে থানা, ট্রেন, সরকারি বরাদ্দ নিয়ে কী হচ্ছে?",
+          "excerpt": "ছবির উৎস, Chowdhury Hasan Mahmudছবির ক্যাপশান, হামলার পর গত ১৭ই নভেম্বর গোপালগঞ্জের টুঙ্গিপাড়া থানার ছবিAuthor, রাকিব হাসনাতRole,  বিবিসি নিউজ বাংলাPublished ২ মিনিট আগেপড়ার সময়: ৫ মিনিটবাংলাদেশের গোপালগঞ্জ জেলায় সহিংসতায় ধ্বংস হওয়া থানাসহ সরকারি স্থাপনা যেভাবে আছে সেভাবেই রাখা এবং ট্রেন চলাচল বন্ধ রাখার পাশাপাশি উন্নয়ন কর্মকাণ্ড ও সরকারি বরাদ্দ আপাতত স্থগিত রাখার কৌশল নিয়েছে সরকার।ফলে জেলার…",
+          "source": "BBC Bangla World",
+          "link": "https://www.bbc.com/bengali/articles/cq1j6wen2173o?at_medium=RSS&at_campaign=rss",
+          "author": "রাকিব হাসনাত",
+          "image": "https://ichef.bbci.co.uk/news/1200/branded_bengali/ec1c/live/7c644460-e8d5-11f1-a094-5fdc692f3e33.jpg",
+          "time": "সকাল ৭:৩৩"
+        },
+        {
+          "headline": "Judges recommend prosecutors end corruption case against Netanyahu",
+          "excerpt": "NewsFeedIsraeli judges have ruled there is little prospect Benjamin Netanyahu will be convicted of corruption and have recommended prosecutors drop the long-running case. The caretaker PM says the trial, which has dragged on for a decade, is politically motivated.Published On 26 Nov 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/26/judges-recommend-prosecutors-end-corruption-case-against-netanyahu?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1795655304.jpg?resize=1920%2C1080&quality=80",
+          "time": "সকাল ৭:০৮"
+        },
+        {
+          "headline": "Storms push Macy’s Thanksgiving Day Parade in New York City to Saturday",
+          "excerpt": "The parade, which marks its 100th edition, got a last-minute rain check ahead of heavy gusts on Thursday.New York City is famous for its annual Thanksgiving Day Parade, a procession of towering helium balloons, elaborate floats and marching bands.But on Wednesday, organisers in the United States announced that this year’s edition has been postponed because of an East Coast storm that threatens…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/11/26/storms-push-macys-thanksgiving-day-parade-in-new-york-city-to-saturday?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/epa_6b07734041ed-1795650368.jpg?resize=1920%2C1440",
+          "time": "সকাল ৬:৫২"
+        },
+        {
+          "headline": "ISIL blamed for multiple suicide attacks in Syria",
+          "excerpt": "NewsFeedTwo members of Syria’s security forces have been killed in a suicide attack on a security post in Hasakah, in north-eastern Syria. Five others were injured. Authorities accuse ISIL for sending four attackers who used suicide vests and a motorcycle laden with explosives.Published On 26 Nov 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/26/isil-blamed-for-multiple-suicide-attacks-in-syria?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1795654236.jpg?resize=1920%2C1080&quality=80",
+          "time": "সকাল ৬:৫১"
+        },
+        {
+          "headline": "Two Syrian security personnel killed in ISIL suicide attack",
+          "excerpt": "Syrian forces say the attack in northeastern Syria’s city of Hasakah involved four assailants who were all killed.A suicide attack by the ISIL (ISIS) group has killed two security personnel and wounded five others in Syria’s northeastern city of Hasakah, according to local authorities.Four gunmen targeted an Internal Security Forces (ISF) checkpoint on Wednesday in the Mushirfa neighbourhood of…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/11/26/two-syrian-security-personnel-killed-in-isil-suicide-attack?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1795648332.jpg?resize=1920%2C1061&quality=80",
+          "time": "সকাল ৬:৪১"
+        },
+        {
+          "headline": "Zambia bans protest against push to remove presidential term limits",
+          "excerpt": "Lusaka, Zambia – Zambian authorities have banned a planned protest against calls to remove presidential term limits, amid mounting concerns over political freedoms following President Hakainde Hichilema’s disputed re-election in August.The demonstration, scheduled for November 25, was organised by civil society groups and human rights defenders opposed to proposals that could allow Hichilema to…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/11/26/zambia-bans-protest-against-push-to-remove-presidential-term-limits?traffic_source=rss",
+          "author": "By Chiwoyu Sinyangwe",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2021/08/ZambiaElection-003.jpg?resize=1920%2C1440",
+          "time": "সকাল ৬:২২"
+        },
+        {
+          "headline": "A meeting with Democrats over healthcare? Trump says he’s open to it",
+          "excerpt": "Just weeks after attacking Abdul El-Sayed on the campaign trail, United States President Donald Trump says he will meet with the incoming Democratic senator to discuss Medicare for All, a proposal to establish a national healthcare programme.Trump confirmed his willingness to sit down with El-Sayed in an interview with the New York Post on Tuesday, calling the Democrat a “smart guy”.Recommended…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/11/26/a-meeting-with-democrats-over-healthcare-trump-says-hes-open-to-it?traffic_source=rss",
+          "author": "Evan Semones, Tamara Khandaker",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6b074666a71aa-1795638886.jpg?resize=1668%2C1080",
+          "time": "সকাল ৬:১৮"
+        },
+        {
+          "headline": "All hostages rescued after Colombian security forces storm supermarket, police say",
+          "excerpt": "Colombian police have stormed a supermarket in one of the country’s most popular tourist cities, ending a daylong siege in which all the hostages were freed and one man police described as a hostage-taker was killed.Abelardo de la Espriella, the far-right president, travelled to the Caribbean port city of Cartagena to follow the final hours of negotiations and the tactical assault, in which…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/world/2026/nov/25/hostages-freed-colombia-security-forces-storm-cartagena-supermarket",
+          "author": "Tiago Rogero",
+          "image": "https://i.guim.co.uk/img/media/a3585592d60a650e6033ad7e718f5e89458d216d/440_75_2600_2080/master/2600.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=bf4e54bf6a462f4c6c2d5ad8521e41aa",
+          "time": "রাত ২:২০"
+        },
+        {
+          "headline": "Iran war live: Explosion rocks Sanaa; missiles intercepted over Riyadh",
+          "excerpt": "Skip linksSkip to Content Live Navigation menuNewsMiddle EastAfricaAsiaUS & CanadaLatin AmericaEuropeAsia PacificExplainedSportOpinionVideoInteractivesOriginalsFeaturesEconomyHuman RightsClimate CrisisInvestigationsIn PicturesScience & TechnologyPodcastsTravelSponsored Content Live Navigation menuUS-Israel war on IranStrait of HormuzDid Iran capture a US submarine?Why have  strikes resumed?Al…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/liveblog/2026/11/26/iran-war-live-explosion-rocks-sanaa-missiles-intercepted-over-riyadh?traffic_source=rss",
+          "author": "Enes Abuomer",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-25T142119Z_494453788_RC22VOAYEVVA_RTRMADP_3_IRAN-CRISIS-SAUDI-HOUTHI-1795644562.jpg?resize=1920%2C1440",
+          "time": "সকাল ৬:০০"
+        },
+        {
+          "headline": "Houthis target Saudi Arabia’s Red Sea ports as strikes escalate",
+          "excerpt": "Explosion reported in Sanaa after Saudi air defenses intercept ballistic missiles targeting Riyadh.Yemen’s Houthi group has struck the port of Jizan on Saudi Arabia’s Red Sea coast as fighting intensifies near the Yemeni city of Taiz.A Saudi-led military coalition said a Houthi attack on Jizan caused only minor damage and no civilian casualties on Wednesday, adding that “efforts are underway to…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/11/25/houthis-target-saudi-arabias-red-sea-ports-as-strikes-escalate?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6b075e56efe1-1795645014.jpg?resize=1920%2C1440",
+          "time": "ভোর ৫:৩৩"
+        },
+        {
+          "headline": "King tides and big waves batter coastal California",
+          "excerpt": "NewsFeedMassive waves batter California as El Nino-driven storms bring king tides to the US West Coast. Video shows powerful waves breaking part of the Pacifica Pier near San Francisco, as severe weather and flooding threaten to disrupt Thanksgiving travel.Published On 25 Nov 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/25/king-tides-and-big-waves-batter-coastal-california?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/WIDE-THUMB-CAL-2511-1795648755.png?resize=1920%2C1080&quality=80",
+          "time": "ভোর ৫:২০"
+        },
+        {
+          "headline": "Deadly truck fire is latest of Egypt’s transport disasters",
+          "excerpt": "NewsFeedDozens were killed and injured when a truck carrying gas cylinders caught fire near Cairo’s Ring Road, just miles from the Great Pyramids of Giza. The disaster follows a deadly train collision in Giza, highlighting wider concerns over commuter safety in Egypt, where thousands die in road crashes each year.Published On 25 Nov 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/25/deadly-truck-fire-is-latest-of-egypts-transport-disasters?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1795646903.jpg?resize=1920%2C1080&quality=80",
+          "time": "ভোর ৪:৪৮"
+        },
+        {
+          "headline": "Malen and Roma deny injury-hit PSG in Champions League draw",
+          "excerpt": "Champions League holders Paris Saint-Germain held to 2-2 draw by Roma as injury-ravaged squad struggle.Donyell Malen’s penalty gave Roma a 2-2 draw away to Paris Saint-Germain in the Champions League on Wednesday, as the injury-hit reigning champions saw their perfect record in this season’s competition come to an end.Malen stroked in from the spot in the 78th minute on a bitterly cold and wet…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/sports/2026/11/25/malen-and-roma-deny-injury-hit-psg-in-champions-league-draw?traffic_source=rss",
+          "author": "By AFP",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/GettyImages-2306883216-1795645334.jpg?resize=1200%2C675",
+          "time": "ভোর ৪:৪১"
+        },
+        {
+          "headline": "Man United denied at Sporting as referee overshadows Fernandes double",
+          "excerpt": "Bruno Fernandes nets twice in Lisbon, but referee’s decisions in spotlight as Mauricio Pochettino denied first win.Mauricio Pochettino must wait for his first win as Manchester United coach, after a wild 2-2 Champions League draw at Sporting Lisbon on Wednesday, with the hosts equalising thanks to a goalkeeping error from Senne Lammens.The Belgian stopper’s poor handling allowed Luis Suarez to…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/sports/2026/11/25/man-united-denied-at-sporting-as-referee-overshadows-fernandes-double?traffic_source=rss",
+          "author": "By AFP",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/AFP__20261125__D8MP88Y__v1__HighRes__FblEurC1SportingManUtd-1795644890.jpg?resize=1920%2C1440",
+          "time": "ভোর ৪:১৫"
+        },
+        {
+          "headline": "Winter rains threaten 1,000 Gaza shelter sites, councils warn",
+          "excerpt": "About 200,000 tents need replacing, Gaza’s municipalities say, as the European Union urges Israel to reopen all crossings into the territory to aid.Gaza’s municipalities have warned that winter rains could flood about 1,000 camps and other sites hosting displaced Palestinians in the war-torn enclave, adding that damage to drains and sewers, and a shortage of pumps, have left their crews with…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/11/25/winter-rains-threaten-1000-gaza-shelter-sites-councils-warn?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6af49632-1794414130.jpg?resize=1920%2C1440",
+          "time": "রাত ৩:০৩"
+        },
+        {
+          "headline": "US Education Department probes Virginia schools after sexual abuse scandal",
+          "excerpt": "Virginia schools face scrutiny after revelations of abuse and widespread failures in mandatory staff background checks.The United States Department of Education says it is launching an investigation and withholding funding from a district in the state of Virginia after local officials shut down all of its schools in the wake of a child sexual abuse scandal involving its employees.“Parents should…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/11/25/us-education-department-probes-virginia-schools-after-sexual-abuse-scandal?traffic_source=rss",
+          "author": "Umar Farooq",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2025/03/AP25018750109439-1741282844.jpg?resize=1200%2C675",
+          "time": "রাত ২:৫২"
+        },
+        {
+          "headline": "Baby Aliyah steals the show during Australian Senate debate",
+          "excerpt": "NewsFeedAustralian Senator Fatima Payman addressed the Senate with her six-month-old daughter, Aliyah, in her arms while seeking support for amendments to online safety reforms. Fellow senator Lidia Thorpe couldn’t resist engaging the little one in a game of peekaboo.Published On 25 Nov 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/25/baby-aliyah-steals-the-show-during-australian-senate-debate?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1795639351.jpg?resize=1920%2C1080&quality=80",
+          "time": "রাত ২:৪২"
+        },
+        {
+          "headline": "What’s behind Europe’s protests?",
+          "excerpt": "Inside StoryEurope has seen a wave of protests and industrial action in recent weeks. High living costs, energy prices and a lack of affordable housing are fuelling the unrest.\nSo, how deep is this crisis – and can it be fixed?Presenter: Rishaad SalamatGuests:Vicky Pryce – Chief Economic Adviser at the Centre for Economics and Business Research in London and the former joint Head of the UK…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/inside-story/2026/11/25/whats-behind-europes-protests?traffic_source=rss",
+          "author": "Inside Story",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1795638389.jpg?resize=1920%2C1080&quality=80",
+          "time": "রাত ২:৩০"
+        },
+        {
+          "headline": "Australian politics live: Blyth did not ‘feel safe’ in the Liberal party before One Nation defection; Canavan vows ‘more united’ comeback",
+          "excerpt": "From 1h ago‘I did not feel safe in the Liberal party’: BlythBlyth tells the press conference she felt unsafe in the Liberal party and even had private security guards with her at a South Australian Liberal AGM in September.That AGM was where Alex Antic was elected the state party president, replacing Blyth who did not run but backed a different candidate.She says:\n double quotation markI did not…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/australia-news/live/2026/nov/26/labor-anthony-albanese-pauline-hanson-one-nation-angus-taylor-coalition-ntwnfb",
+          "author": "Krishani Dhanji, Luca Ittimani, Melissa Davey, Josh Butler, Catie McLeod, Tess Ikonomou",
+          "image": "https://i.guim.co.uk/img/media/f6b4122a7b255425d7edaf7051f990faebedc605/489_0_6591_5273/master/6591.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=9948e702ec7c82dc636f50ed9d18731f",
+          "time": "সকাল ৭:২৬"
+        },
+        {
+          "headline": "Netanyahu says corruption trial ‘must end’ as court suggests dropping case",
+          "excerpt": "Israel’s caretaker Prime Minister Benjamin Netanyahu called for an immediate end to his long-running corruption trial after judges cast doubt on the charges and recommended dropping a case in which he is accused of bribery.Netanyahu on Wednesday said the “fabricated cases” against him were falling apart, in a televised statement at the Israeli parliament.Recommended Stories list of 4 itemslist 1…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/11/25/netanyahu-says-corruption-trial-must-end-as-court-suggests-dropping-case?traffic_source=rss",
+          "author": "Al Jazeera Staff",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6b072e2c3fac-1795632684.jpg?resize=1920%2C1440",
+          "time": "রাত ২:২৯"
+        },
+        {
+          "headline": "Migrant wrongly deported by Trump leaves US for Spain",
+          "excerpt": "NewsFeedKilmar Abrego Garcia has arrived in Spain with his wife after a 20-month legal battle with the Trump administration. Wrongfully deported to El Salvador in 2025 and facing renewed deportation efforts, the Salvadoran father has voluntarily departed from the US.Published On 25 Nov 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/25/migrant-wrongly-deported-by-trump-leaves-us-for-spain?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1795637624.jpg?resize=1622%2C1080&quality=80",
+          "time": "রাত ২:১৪"
+        },
+        {
+          "headline": "Elderly man with Alzheimer’s rescued after 11 days in Amazon jungle",
+          "excerpt": "Skip linksSkip to Content Live Navigation menuNewsMiddle EastAfricaAsiaUS & CanadaLatin AmericaEuropeAsia PacificExplainedSportOpinionVideoInteractivesOriginalsFeaturesEconomyHuman RightsClimate CrisisInvestigationsIn PicturesScience & TechnologyPodcastsTravelSponsored Content Live Navigation menuUS-Israel war on IranYemen conflictMiddle EastAfricaAsiaAsia PacificEuropeLatin AmericaUS &…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/25/aje-onl-nf_man-with-alzheimers-rescued-after-11-days-in-amazon-251126?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1795636622.jpg?resize=1920%2C1080&quality=80",
+          "time": "রাত ১:৫৭"
+        },
+        {
+          "headline": "US Army declares Iowa lead azide detonation ‘tremendously successful’",
+          "excerpt": "Army hails Iowa’s lead azide detonation, claiming no traces of airborne lead have been detected so far.United States Army officials have hailed Wednesday’s mission to destroy 68 drums of volatile lead azide  — a sensitive munitions explosive — at a military base in Iowa as a success, saying it had “wildly exceeded their expectations”.Speaking at a news conference in Middletown, a southeastern…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/11/25/us-army-declares-iowa-lead-azide-detonation-tremendously-successful?traffic_source=rss",
+          "author": "Hoda Sherif",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/epa_6b07220b8aa6-1795629579.jpg?resize=1920%2C1440",
+          "time": "রাত ১:৪১"
+        },
+        {
+          "headline": "Dozens killed in Egypt vehicle fire",
+          "excerpt": "NewsFeedAt least 30 have been ⁠killed and ⁠15 injured when a vehicle carrying ‌petroleum products overturned and caught fire on a major ⁠ring road ⁠in Egypt, the ⁠health ministry said.Published On 25 Nov 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/25/aje-onl-nf_dozens-killed-in-egypt-vehicle-fire-251126?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1795635666.jpg?resize=1920%2C1080&quality=80",
+          "time": "রাত ১:৪১"
+        },
+        {
+          "headline": "Kilmar Ábrego García, target of Trump’s immigration crackdown, lands in Spain after ‘leaving happy’",
+          "excerpt": "Kilmar Ábrego García, the Salvadorian national whose mistaken deportation turned him into a symbol of Donald Trump’s mass deportation efforts, has landed in Spain.Ábrego García arrived in Madrid on Wednesday after leaving the United States of his own volition.“I feel free of everything evil that has followed me up until this point,” he told reporters on a video call just hours after he touched…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/us-news/2026/nov/25/kilmar-abrego-garcia-spain",
+          "author": "Ashifa Kassam, Shrai Popat",
+          "image": "https://i.guim.co.uk/img/media/546c0ebb54136f55c3f3a18f2bb47b1e31a9cb02/68_0_2390_1912/master/2390.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ed911f7fa0764eb47993371a0d18a777",
+          "time": "রাত ১:৩৬"
+        },
+        {
+          "headline": "Bellingham’s wondergoal sparks Zidane comparisons",
+          "excerpt": "Skip linksSkip to Content Live Navigation menuNewsMiddle EastAfricaAsiaUS & CanadaLatin AmericaEuropeAsia PacificExplainedSportOpinionVideoInteractivesOriginalsFeaturesEconomyHuman RightsClimate CrisisInvestigationsIn PicturesScience & TechnologyPodcastsTravelSponsored Content Live Bellingham’s wondergoal sparks Zidane comparisonsNewsFeedJude Bellingham’s spectacular goal in Real Madrid’s 5-1…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/25/bellinghams-wondergoal-sparks-zidane-comparisons?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1795634807.jpg?resize=1620%2C1080&quality=80",
+          "time": "রাত ১:২৭"
+        },
+        {
+          "headline": "Ukrainian laser downs Russian jet-powered drone in world first",
+          "excerpt": "NewsFeedUkraine says that its Blysk laser system has intercepted a Russian jet-powered drone in combat for the first time. The development marks a significant milestone for experimental air-defence technology.Published On 25 Nov 2026",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/video/newsfeed/2026/11/25/ukrainian-laser-downs-russian-jet-powered-drone-in-world-first?traffic_source=rss",
+          "author": "",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1795634127.jpg?resize=1800%2C1080&quality=80",
+          "time": "রাত ১:১৬"
+        },
+        {
+          "headline": "Could renewed strikes on Hodeidah port worsen Yemen’s humanitarian crisis?",
+          "excerpt": "The Saudi-led coalition has launched renewed attacks on Houthi targets at Yemen’s port of Hodeidah as the armed group fights Yemen’s internationally recognised government.The strikes come amid significant Houthi territorial gains in recent weeks and escalating attacks by the group on Saudi Arabia.Recommended Stories list of 3 itemslist 1 of 3Saudi coalition hits 60 Houthi military sites; Taiz…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/11/25/could-renewed-strikes-on-hodeidah-port-worsen-yemens-humanitarian-crisis?traffic_source=rss",
+          "author": "Rached El-Moctar",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/2024-08-01T035613Z_1041386517_RC2969A0L0UQ_RTRMADP_3_ISRAEL-PALESTINIANS-YEMEN-PORT-1795601478.jpg?resize=1920%2C1440",
+          "time": "রাত ১:১৫"
+        },
+        {
+          "headline": "UK military ‘moving aircraft to hangars in case of drone attacks’",
+          "excerpt": "Experts say the move is a ‘logical response’ if there is intelligence suggesting a likely drone threat.Britain’s Ministry of Defence (MoD) says it takes “the security of our bases, equipment and personnel very seriously,” after media outlets reported the Royal Air Force (RAF) had taken new precautions against possible drone attacks.The Times and Sky News reported on Wednesday that planes would…",
+          "source": "Al Jazeera",
+          "link": "https://www.aljazeera.com/news/2026/11/25/uk-military-moving-aircraft-to-hangars-in-case-of-drone-attacks?traffic_source=rss",
+          "author": "David Mac Dougall",
+          "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/getty_6b07277337-1795630963.jpg?resize=1920%2C1440",
+          "time": "রাত ১:১৫"
+        },
+        {
+          "headline": "Palestinian journalist killed by Israel in Gaza wins Rory Peck prize",
+          "excerpt": "Mariam Dagga, the Palestinian war correspondent who was killed at the age of 33 in Gaza in an Israeli strike, has posthumously won the prestigious Rory Peck prize for freelance video journalists, the organisers announced on Wednesday.She shares the award with two of her colleagues from the Associated Press (AP), Abdel Kareem Hana and Jehad Alshrafi, “for their powerful coverage of the human cost…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/media/2026/nov/25/palestinian-journalist-killed-by-israel-in-gaza-wins-rory-peck-prize",
+          "author": "Nadeem Badshah",
+          "image": "https://i.guim.co.uk/img/media/b68724a0542029782beeb20a27ab4fd1a7f413d0/464_0_5000_4000/master/5000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=849a5fff97313d410d8379df2985b37e",
+          "time": "ভোর ৫:০৬"
+        },
+        {
+          "headline": "Social media making it harder for UK parents to raise families, survey finds",
+          "excerpt": "Parents of children aged five and under say pressure from social media influencers to be “the perfect parent” is making it harder to raise a family, according to a survey.Three-quarters (76%) of those who took part in the UK-wide poll agreed social media had increased anxiety around parenting, while three out of five (59%) complained of “impossible expectations” and “feeling judged”.What…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/media/2026/nov/26/social-media-making-it-harder-for-uk-parents-to-raise-families-survey-finds",
+          "author": "Sally Weale",
+          "image": "https://i.guim.co.uk/img/media/632b3486c298f226a8d638fc6ee0188f92d63e9f/161_0_1929_1543/master/1929.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=0e19150de83c5693677bea62e0c16d1d",
+          "time": "সকাল ৬:০১"
+        },
+        {
+          "headline": "Patrick Radden Keefe’s London Falling named Waterstones book of the year",
+          "excerpt": "London Falling, Patrick Radden Keefe’s bestselling investigation into the mysterious death of a London teenager, has been named Waterstones book of the year.The book follows the parents of Zac Brettler, a 19-year-old who fell from the balcony of a luxury London apartment after pretending to be the son of a wealthy Russian oligarch, as they discover the murky, dangerous underworld of the city…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/books/2026/nov/26/patrick-radden-keefes-london-falling-named-waterstones-book-of-the-year",
+          "author": "Emma Loffhagen",
+          "image": "https://i.guim.co.uk/img/media/57211361d63b75554de53c3c74f80426be74e3d5/0_3689_8742_6994/master/8742.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=49654dc564415dc09b38258eea0e0b51",
+          "time": "সকাল ৬:০১"
+        },
+        {
+          "headline": "Chris Van Hollen picks up more support for Senate majority leader role ahead of Democrats vote next week – live",
+          "excerpt": "From 6h agoSenator-elect Troy Jackson backs Van Hollen over Schumer for Senate majority leaderSenator-elect Troy Jackson, of Maine, has endorsed Chris Van Hollen for Senate majority leader, a blow to the current minority leader, Chuck Schumer, ahead of a vote among Senate Democrats next Tuesday.The Maryland senator has successfully cast himself as a “change” candidate following Democrats’…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/us-news/live/2026/nov/25/donald-trump-jensen-huang-nvidia-pardon-senate-hearing-iowa-abdul-el-sayed-latest-news-updates",
+          "author": "Tom Ambrose, Ariana Baio, Uwa Ede-Osifo, Lucy Campbell, Robert Mackey, Edward Helmore, Shrai Popat, Michael Savage, Lauren Aratani, Lisa O’Carroll, Anna Betts, Graeme Wearden, Ashley Kirk, Oliver Milman",
+          "image": "https://i.guim.co.uk/img/media/1ded0ee0250a7ae31faed7b6ee3dc216c3eee7d6/683_0_6827_5464/master/6827.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=491e4ffa9c2560932dcf51ca2d4cf2ec",
+          "time": "সকাল ৬:০২"
+        },
+        {
+          "headline": "Brad Pitt and Angelina Jolie settle years-long legal battle over joint French winery",
+          "excerpt": "Brad Pitt and Angelina Jolie have settled a years-long legal battle over their French winery, according to a joint statement from the former Hollywood couple.“We have settled out of court in the best interests of our family and will not be commenting further,” representatives for Jolie and Pitt said in a statement. “Any comments in media stories attributed to ‘sources’ are in fact not coming…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/film/2026/nov/25/brad-pitt-angelina-jolie-settle-french-winery-lawsuit",
+          "author": "Cecilia Nowell",
+          "image": "https://i.guim.co.uk/img/media/557ec712bb67d529e9eeb9449bd3462b337c8cd6/56_0_2887_2309/master/2887.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=47e11aef8ee99d6e3a147bdc43e8f1f6",
+          "time": "ভোর ৪:৪৪"
+        },
+        {
+          "headline": "Oregon man and dog narrowly escape being swept away by high tides as officials urge caution at beaches",
+          "excerpt": "The US west coast has seen record-breaking tides this week and authorities have urged residents to avoid beaches, but not everyone is heeding those warnings.In Cannon Beach, Oregon, viral footage showed a man and his dog nearly getting swept away by a so-called king tide on Tuesday morning. The man had been standing on a staircase holding his leashed dog, who was walking in the sand, when the…",
+          "source": "The Guardian World",
+          "link": "https://www.theguardian.com/us-news/2026/nov/25/oregon-man-dog-escape-waves-king-tides",
+          "author": "Dani Anguiano",
+          "image": "https://i.guim.co.uk/img/media/ef6af85495b81c7ebc8b95c8a3494fc818211960/8_87_1029_823/master/1029.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=5eb5e0bf6d08ddca12e7b27b5bf82640",
+          "time": "রাত ২:০৩"
+        }
+      ],
+      "Entertainment": [
+        {
+          "headline": "বাংলাদেশসহ বিভিন্ন দেশের ওপর নতুন শুল্ক আরোপ যুক্তরাষ্ট্রের",
+          "excerpt": "ছবির ক্যাপশান, ভারতের পররাষ্ট্র মন্ত্রণালয়ের মুখপাত্র রণধীর জয়সওয়ালবাংলাদেশের ক্ষমতাচ্যুত প্রধানমন্ত্রী শেখ হাসিনার বাংলাদেশে ফিরতে চাওয়ার বিষয়ে ভারতের পররাষ্ট্র মন্ত্রণালয়ের মুখপাত্র রণধীর জয়সওয়াল বলেছেন, শেখ হাসিনার বাংলাদেশে যাওয়ার বিষয়টি তার ও বাংলাদেশ সরকারের বিষয়। সাবেক প্রধানমন্ত্রী শেখ হাসিনার বাংলাদেশে যেতে চাওয়ার বিষয়টি প্রত্যপর্ণ চুক্তির বাইরের বিষয় বলেও তিনি মন্তব্য করেন। বুধবার…",
+          "source": "BBC Bangla Entertainment",
+          "link": "https://www.bbc.co.uk/bengali/live/c3rrgqqr0dk1t?at_medium=RSS&at_campaign=rss",
+          "author": "BBC News বাংলা",
+          "image": "https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/fd8b/live/d259e510-e8d9-11f1-99a1-253766e7ad8b.jpg",
+          "time": ""
+        },
+        {
+          "headline": "মেরিলিন মনরোর সুইমিংপুলের আলোচিত ছবি এবার প্রদর্শনীতে",
+          "excerpt": "বিনোদন ডেস্ক মেরিলিন মনরোইনস্টাগ্রামহলিউডের কিংবদন্তি অভিনেত্রী মেরিলিন মনরোর জন্মশতবর্ষ উপলক্ষে যুক্তরাষ্ট্রের নিউইয়র্কে আয়োজন করা হচ্ছে বিশেষ আলোকচিত্র প্রদর্শনী। এতে স্থান পাবে অভিনেত্রীর জীবনের নানা মুহূর্তের ৩৬টি ছবি, যেগুলো তুলেছিলেন আলোকচিত্রী লরেন্স শিলার। মেরিলিন মনরোর সঙ্গে কাজ করা পেশাদার আলোকচিত্রীদের মধ্যে লরেন্স শিলারই বর্তমানে একমাত্র জীবিত। ১৯৬২ সালের ৪ আগস্ট, মৃত্যুর দিন সকালে…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/entertainment/91bun3w0k5",
+          "author": "বিনোদন ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2021-06%2Fecfea4c4-f46b-49ce-9e73-885d41805395%2F172228303_479890603134657_3680868893094315020_n.jpg?rect=0%2C0%2C1080%2C567&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
+          "time": "সকাল ৭:০০"
+        }
+      ],
+      "Sports": [
+        {
+          "headline": "নাটকীয় ম্যাচে ইউনাইটেডের ড্র, আত্মঘাতী গোলে হেরেই গেল বায়ার্ন",
+          "excerpt": "খেলা ডেস্ক ম্যাচের শেষ বাঁশির পর কোচের সঙ্গে ব্রুনো ফার্নান্দেজউয়েফাস্পোর্তিং ২ : ২  ইউনাইটেড, লিল ২ : ১ বায়ার্নএক ম্যাচে তিনটি পেনাল্টি, দুবার গোল বাতিল, দুই গোলরক্ষকের গুরুতর ভুল আর শেষ দিকে এক দলের ১০ জনের দলে পরিণত হওয়া—নাটকীয়তার কমতি রাখেনি স্পোর্তিং সিপি-ম্যানচেস্টার ইউনাইটেড ম্যাচে।লিসবনে হওয়া চ্যাম্পিয়নস লিগের লিগ পর্বের ম্যাচটি শেষ পর্যন্ত ২-২ গোলে ড্র করে মাঠ ছেড়েছে দুই দল। তাতে…",
+          "source": "Prothom Alo",
+          "link": "https://www.prothomalo.com/sports/football/jkqknindxj",
+          "author": "খেলা ডেস্ক",
+          "image": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-25%2Fnus173a0%2Ffbl-eur-c1-sporting-manutd.avif?rect=0%2C28%2C988%2C519&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2026-09-03%2F99dqhmx6%2Fog-banner-for-sports.png&overlay_position=bottom&overlay_width_pct=1",
+          "time": "ভোর ৪:১৪"
+        },
+        {
+          "headline": "Frustration reigns for Pochettino in chaotic start to Man Utd job",
+          "excerpt": "Two games, no wins. Two red cards, two goals scored. One goal disallowed, six conceded. Is it possible for Mauricio Pochettino to have learned anything from a crazy first week as Manchester United boss?United and Pochettino went on the warpath before the Champions League encounter with Sporting, furious at Leny Yoro's dismissal at Liverpool which they believe was unjust and shaped the eventual…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/c6vg24l724l4o?at_medium=RSS&at_campaign=rss",
+          "author": "Simon Stone",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/7aff/live/89296710-e930-11f1-99a1-253766e7ad8b.jpg",
+          "time": "সকাল ৬:২৪"
+        },
+        {
+          "headline": "Gordon double helps Barca cruise past Sabah 4-1",
+          "excerpt": "Anthony Gordon scored twice as Barcelona cruised to a 4-1 victory at Sabah in the Champions League on Wednesday, maintaining Hansi Flick's side's push for a top-eight finish with their fourth victory from five league-phase matches.Karim Adeyemi and Gabriel Jesus also struck in the space of five second-half minutes for the Spanish giants, who are fourth in Europe's elite club competition while…",
+          "source": "The Daily Star Sports",
+          "link": "https://www.thedailystar.net/sports/football/news/gordon-double-helps-barca-cruise-past-sabah-4-1-4333511",
+          "author": "Reuters, Baku",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/Gordon%20%282%29.jpg",
+          "time": "রাত ২:০৮"
+        },
+        {
+          "headline": "'All coming together' - Isak repaying Liverpool faith",
+          "excerpt": "When Isak scored his opener against Club Brugge, it marked a sixth consecutive away game in which he has struck.That meant he joined an exclusive club of just eight players to have achieved that feat, following in the footsteps of Dick Forshaw, Sam English, Gordon Hodgson, John Evans, John Aldridge, John Barnes and Mohamed Salah.Isak has now scored the joint-most away goals across all…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cqm2l0gelkzxo?at_medium=RSS&at_campaign=rss",
+          "author": "Gary Rose",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/60ef/live/25c99400-e927-11f1-a094-5fdc692f3e33.jpg",
+          "time": "ভোর ৫:২৫"
+        },
+        {
+          "headline": "Cricketer dismissed in bizarre fashion in women’s Big Bash",
+          "excerpt": "Deandra Dottin could only watch as Brisbane Heat's Sarah Glenn's delivery hit her unattended stumps after the Melbourne Renegades all-rounder failed to reach the crease in time in Australia's Women's Big Bash League on Wednesday.Under the competition's new timed-out rule, an incoming batter who is not ready within 75 seconds of a dismissal must stand aside for the first ball of their innings…",
+          "source": "The Daily Star Sports",
+          "link": "https://www.thedailystar.net/sports/cricket/news/cricketer-dismissed-bizarre-fashion-womens-big-bash-4333506",
+          "author": "Agencies",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/Dottin.png",
+          "time": "রাত ১:৫৪"
+        },
+        {
+          "headline": "Lammens howler denies Man Utd victory against Sporting in incident-packed game",
+          "excerpt": "This content is not available in your location.There was an errorGoalkeeper Senne Lammens endures a topsy-turvy night as Manchester United draw with Sporting.MATCH REPORT: Champions League - Sporting 2-2 Manchester United Available to UK users only.SubsectionUEFA Champions LeaguePublished3 hours agoRelated topicsFootballUEFA Champions LeagueManchester United",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/videos/c6ly5145gg1do?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/6340/live/dffcada0-e920-11f1-99a1-253766e7ad8b.jpg",
+          "time": "ভোর ৪:৩২"
+        },
+        {
+          "headline": "Williamson named head coach of Durban’s Super Giants for SA20",
+          "excerpt": "Former New Zealand captain Kane Williamson has been appointed head coach of Durban's Super Giants ahead of the 2027 SA20 season, the franchise said on Wednesday.The 36-year-old played for Durban in 2025 and 2026, scoring 343 runs in 15 matches.It will be Williamson's first head coaching role since retiring from international cricket five months ago as New Zealand's leading Test run-scorer with…",
+          "source": "The Daily Star Sports",
+          "link": "https://www.thedailystar.net/sports/cricket/news/williamson-named-head-coach-durbans-super-giants-sa20-4333501",
+          "author": "Agencies",
+          "image": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/Williamson.jpg",
+          "time": "রাত ১:৩৫"
+        },
+        {
+          "headline": "Motorcycle rider who took stunning cricket catch found",
+          "excerpt": "\"I told my friend riding the motorcycle to duck his head. I'm going to catch it.\"These are the words of Mehran Khan, who amazed sports fans around the world when he caught a cricket ball while sitting on the back of a moving motorcycle.Mehran was passing a match in the Swat Premier League in Mingora when a ball sailed out of the ground towards him, with the passenger reaching out to catch it…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/cricket/articles/ckwy8gj013elo?at_medium=RSS&at_campaign=rss",
+          "author": "Mike Peter",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/3dfc/live/68cad6e0-e8e3-11f1-a3b9-79c60ec9ab33.jpg",
+          "time": "ভোর ৫:৫০"
+        },
+        {
+          "headline": "Isak scores twice as clinical Liverpool beat Brugge",
+          "excerpt": "Liverpool defeat Club Brugge in a clinical performance thanks to goals from Alexander Isak and Florian Wirtz, bouncing back after a defeat in their last  Champions League match.MATCH REPORT: Champions League - Club Brugge 0-3 Liverpool Available to UK users only.",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/videos/cqvg28l0z8mro?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/7011/live/1961c530-e91c-11f1-99b6-a35a62fa4264.jpg",
+          "time": "ভোর ৪:১২"
+        },
+        {
+          "headline": "Regulator chief 'has stomach' to face Man City",
+          "excerpt": "The chair of English football's independent regulator has told MPs he \"has the stomach\" to take potential action against Manchester City.The club was found guilty of breaching Premier League financial rules over a nine-season period by an independent commission.The verdict, published in September, found City's Abu Dhabi owners - a private investment company belonging to United Arab Emirates…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/c65y10z8k59jo?at_medium=RSS&at_campaign=rss",
+          "author": "Dan Roan",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/894b/live/46715940-e913-11f1-8383-53f283141713.jpg",
+          "time": "রাত ৩:২৭"
+        },
+        {
+          "headline": "Divots, howlers and bad decisions - dissecting Man Utd's draw in Lisbon",
+          "excerpt": "Amad Diallo thought he had equalised for United before half-time when he headed in after his first attempted was turned on to the cross bar.However, referee Marciniak blew his whistle for a foul against Youri Tielemans. Replays showed Tielemans won the ball and pulled out of the challenge after he played the ball through to Amad.BBC Sport's Dale Johnson: \"Marciniak believed that Goncalo Inacio…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cvrlg074ld74o?at_medium=RSS&at_campaign=rss",
+          "author": "Chris McKenna",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/8572/live/fb0ba300-e92d-11f1-a094-5fdc692f3e33.jpg",
+          "time": "সকাল ৬:২২"
+        },
+        {
+          "headline": "Gordon stars in comfortable Barca win over Sabah",
+          "excerpt": "Anthony Gordon scores Barcelona's opening two goals as they ease past Sabah with a 4-1 win in the Champions League.MATCH REPORT: Champions League - Sabah 1-4 BarcelonaAvailable to UK users only.",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/videos/c6z74ljxjv2xo?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/ebd6/live/0a4713c0-e903-11f1-a094-5fdc692f3e33.jpg",
+          "time": "ভোর ৪:০৭"
+        },
+        {
+          "headline": "Terrible Pavlovic own goal gifts Lille shock win against Bayern",
+          "excerpt": "Bayern Munich suffer their first defeat of the Champions League campaign as Lille find the net twice in three minutes in the second half, including a comical Aleksander Pavlovic own goal, to inflict a huge upset.MATCH REPORT: Champions League - Lille 2-1 Bayern MunichAvailable to UK users only.",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/videos/cq36gx1g10p6o?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/2605/live/bdc03610-e91d-11f1-a094-5fdc692f3e33.jpg",
+          "time": "ভোর ৪:২৪"
+        },
+        {
+          "headline": "How Isak and Wirtz are becoming Liverpool's 'big-game players'",
+          "excerpt": "Match of the Day's Stephen Warnock and Nedum Onuoha analyse the recent resurgence of Alexander Isak and Florian Wirtz for as they led Liverpool to victory against Club Brugge.READ MORE: Isak scores twice as Liverpool win at Club BruggeAvailable to UK users only.",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/videos/cmqx527v3x19o?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/70be/live/120c5330-e927-11f1-99b6-a35a62fa4264.jpg",
+          "time": "ভোর ৫:৩৮"
+        },
+        {
+          "headline": "Borussia Dortmund fight back to draw with Arsenal",
+          "excerpt": "This content is not available in your location.There was an errorBorussia Dortmund fight back from a goal behind to draw with Arsenal in the Champions League.MATCH REPORT: Champions League - Arsenal 1-1 Borussia DortmundAvailable to UK users only.SubsectionChampions LeaguePublished3 hours agoRelated topicsFootballUEFA Champions LeagueArsenalBorussia Dortmund",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/videos/cmedqg06d8vwo?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/e240/live/832f36d0-e860-11f1-a094-5fdc692f3e33.jpg",
+          "time": "ভোর ৪:০৫"
+        },
+        {
+          "headline": "PSG held by Roma as in-form Malen scores again",
+          "excerpt": "Donyell Malen scores for the fourth Champions League game running as Roma ends Paris St-Germain's 100% start to the competition.MATCH REPORT: Champions League - PSG 2-2 RomaAvailable to UK users only.",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/videos/cwvg2832elr4o?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/174b/live/89b8f780-e91d-11f1-a094-5fdc692f3e33.jpg",
+          "time": "ভোর ৪:২৭"
+        },
+        {
+          "headline": "Liverpool mull Quansah return - Thursday's gossip",
+          "excerpt": "Liverpool consider return for Jarell Quansah, Tottenham scout Vangelis Pavlidis and Paris St-Germain target Estevao Willian.Liverpool have not ruled out triggering their buy-back option for Bayer Leverkusen's Jarell Quansah, 23, which would mean a fee of just over £50m would secure the England defender in 2027. (Teamtalk), externalTottenham Hotspur have sent scouts to watch Greece striker…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/articles/c6n831jk3x4mo?at_medium=RSS&at_campaign=rss",
+          "author": "BBC Sport",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/7cda/live/3cd95070-e901-11f1-a094-5fdc692f3e33.png",
+          "time": "রাত ২:৫৭"
+        },
+        {
+          "headline": "Dubois to defend title against Parker in Manchester",
+          "excerpt": "WBO heavyweight world champion Daniel Dubois will make the second defence of his title against former WBO champion Joseph Parker next year at Co-op Live in Manchester on 30 January.The pair were set to meet in February 2025, but Dubois, then the IBF title holder, was forced to withdraw through illness in fight week.New Zealand's Parker has not fought since his provisional doping suspension was…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/boxing/articles/cmde1zjykky6o?at_medium=RSS&at_campaign=rss",
+          "author": "Alastair Telfer",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/3185/live/c0984500-e90c-11f1-b9b5-17bef7133655.jpg",
+          "time": "রাত ২:৩৭"
+        },
+        {
+          "headline": "Match of the Day: Champions League goals, highlights & analysis",
+          "excerpt": "Homepage    Accessibility links   Skip to content   Accessibility Help    BBC Account     Home            News            Sport            Weather            iPlayer            Sounds            Bitesize     CBeebies     CBBC     Food         Home     News     Sport     Business     Technology     Health     Culture     Arts     Travel     Earth     Audio     Video     Live               More…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/iplayer/episode/m0034rj1/uefa-champions-league-match-of-the-day-matchday-5?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "",
+          "time": "সকাল ৬:০২"
+        },
+        {
+          "headline": "Tandy to tinker Wales team for Japan finale",
+          "excerpt": "Wales head coach Steve Tandy will tinker with his side to face Japan in the Nations Championship finale at the Allianz Stadium in Twickenham on Saturday (13:10 GMT).Scrum-half Tomos Williams, who has started 14 out of 15 matches under Tandy, including the past 11, is battling to shake off a groin injury that forced him off early in the second half against Australia.If Williams is ruled out,…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cm62pgnw23wqo?at_medium=RSS&at_campaign=rss",
+          "author": "BBC Sport",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/1ed2/live/65739df0-e8d5-11f1-a3b9-79c60ec9ab33.jpg",
+          "time": "রাত ৩:০৭"
+        },
+        {
+          "headline": "Real Madrid put in five-star second half to win against PSV",
+          "excerpt": "Jude Bellingham comes off the bench to score a stunning goal as Real Madrid come from behind to beat PSV Eindhoven and maintain their 100% record in the Champions League.MATCH REPORT: Champions League - Real Madrid 5-1 PSVAvailable to UK users only.",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/videos/c5evr0y83197o?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/1ba5/live/0ccb6090-e8f6-11f1-99a1-253766e7ad8b.jpg",
+          "time": "ভোর ৪:০৫"
+        },
+        {
+          "headline": "Cherki rescues point for Man City against Napoli",
+          "excerpt": "Rayan Cherki's late equaliser rescues a point for Manchester City at home to Napoli in the Champions League, who have now won just one of their past seven games in all competitions.MATCH REPORT: Champions League - Manchester City 2-2 NapoliAvailable to UK users only.",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/videos/cjy5xwygqg9do?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/7d0a/live/4cdf0f20-e85f-11f1-99a1-253766e7ad8b.jpg",
+          "time": "ভোর ৪:০৫"
+        },
+        {
+          "headline": "Blunt Villa beaten by late Galatasaray winner",
+          "excerpt": "Deniz Gul scores a late winner for Galatasaray as Aston Villa slip to successive Champions League defeats.MATCH REPORT: Champions League - Galatasaray 1-0 Aston VillaAvailable to UK users only.",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/football/videos/c6r7g92p5k79o?at_medium=RSS&at_campaign=rss",
+          "author": "",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/af90/live/aa1d08d0-e860-11f1-99a1-253766e7ad8b.jpg",
+          "time": "ভোর ৪:০৫"
+        },
+        {
+          "headline": "NBA plans to invest 10bn euros in European arenas",
+          "excerpt": "The NBA has stepped up its plans for a European league by announcing a strategy to invest at least 10bn euros in the development and renovation of basketball arenas across the continent.The league has assembled a group of investment firms for the project, which would also look to improve the sports and entertainment districts around the arenas.The initiative forms part of the NBA and the…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/basketball/articles/crjeqlpnqjxjo?at_medium=RSS&at_campaign=rss",
+          "author": "Mike Peter",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/0123/live/0ec2ed00-e905-11f1-b9b5-17bef7133655.jpg",
+          "time": "রাত ১:৫৮"
+        },
+        {
+          "headline": "Farrell picks side to 'back up' South Africa win",
+          "excerpt": "Ireland head coach Andy Farrell believes the Nations Championship can be good preparation for next year's World Cup.With his side facing Australia in the fifth-place play-off on Friday night (20:10 GMT), Farrell has made just two changes to the starting team that beat South Africa last weekend with the injured Mack Hansen and banned Dan Sheehan missing out.Having resisted any urge to rotate his…",
+          "source": "BBC Sport",
+          "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c6p3elx72l7qo?at_medium=RSS&at_campaign=rss",
+          "author": "BBC Sport",
+          "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/bd81/live/65e2d8b0-e910-11f1-8383-53f283141713.jpg",
+          "time": "ভোর ৪:১২"
+        }
+      ],
+      "Tech": [
+        {
+          "headline": "European spacecraft finds chaotic scene after asteroid deflection experiment",
+          "excerpt": "Hello again\n  \n\n    \n\n    \n\n    \n      “DART made a really, really large mess. However, we didn’t really know what kind of mess.”\n    \n\n          \n    \n    \n            \n              \n            \n    \n    \n      This image from the Hera spacecraft's asteroid framing camera shows Didymos and its smaller companion Dimorphos, revealing the stadium-sized crater created by the impact of NASA's DART…",
+          "source": "Ars Technica",
+          "link": "https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup/",
+          "author": "Stephen Clark",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/hera_arrival1-1020x648.jpg",
+          "time": "ভোর ৪:৩৬"
+        },
+        {
+          "headline": "Now Google’s Familiar Faces AI feature works on Walmart’s $35 smart home camera too",
+          "excerpt": "Skip to main contentYou can get Familiar Faces alerts from Walmart’s budget smart home cameras.﻿You can get Familiar Faces alerts from Walmart’s budget smart home cameras.﻿by  Stevie BonifieldNov 26, 2026, 12:04 AM UTCIllustration by Alex Castro / The VergeStevie Bonifield is a news writer covering all things consumer tech. Stevie started out at Laptop Mag writing news and reviews on hardware,…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/tech/1042938/google-home-familiar-faces-onn-cameras",
+          "author": "Stevie Bonifield",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23451196/acastro_220510_STK123_0002.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+          "time": "সকাল ৬:০৪"
+        },
+        {
+          "headline": "The Iowa Lead Detonation Happened. Now the Real Work Begins to Study It",
+          "excerpt": "On Wednesday morning, the US Army detonated nearly five tons of degraded lead azide outside of Middletown, Iowa.Environmental Protection Administration chief Lee Zeldin told CNN shortly after the explosion that preliminary monitoring from the site detected no lead in the air around the site.But the full extent of the fallout may not be certain for at least a few days. A barrage of government,…",
+          "source": "Wired",
+          "link": "https://www.wired.com/story/iowa-lead-detonation-real-monitoring-work-begins/",
+          "author": "Molly Taft",
+          "image": "https://media.wired.com/photos/6b070bb9c3af37e5a5192585/191:100/w_1280,c_limit/GettyImages-2306835116.jpg",
+          "time": "রাত ১২:৩৮"
+        },
+        {
+          "headline": "We reviewed these 10 gadgets, and they're now on sale for Black Friday",
+          "excerpt": "Black Friday sales can save you money on the latest from Apple, Google and…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2328876/black-friday-2026-deals-on-reviewed-gadgets/",
+          "author": "Ian Carlos Campbell",
+          "image": "https://www.engadget.com/img/gallery/we-reviewed-these-10-gadgets-and-theyre-now-on-sale-for-black-friday/l-intro-1795649274.jpg",
+          "time": "ভোর ৫:৩৬"
+        },
+        {
+          "headline": "Motorola Signature 27 hands-on: Pure elegance on display",
+          "excerpt": "It’s hard to believe we finally got a proper premium phone from Motorola again, and it feels a bit like the return of the Moto X.\n\n\n\nMotorola’s slow regeneration in North America from a mostly budget device-minded company to one offering the most expensive non-folding flagship phone might become the thing of legend. That’s not to say the company hasn’t shown true greatness in the past — the Moto…",
+          "source": "9to5Google",
+          "link": "https://9to5google.com/2026/11/25/motorola-signature-27-hands-on/",
+          "author": "Nicholas Sutrich",
+          "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/11/motorola-signature-27-back-green-hands-on.jpg?quality=82&strip=all&resize=1200,628",
+          "time": "ভোর ৪:১২"
+        },
+        {
+          "headline": "Google search alternative Kagi launches Gmail rival",
+          "excerpt": "Kagi, a small, Palo Alto, California-based software company that provides a subscription-based search engine as an alternative to Google, has launched a Gmail-like e-mail service. Dubbed Kagi Mail, it makes many of the same claims as the search engine product: privacy, personal data sovereignty, customization, and control.\nAdditionally, Kagi is rolling out a calendar as part of the mail service.…",
+          "source": "Ars Technica",
+          "link": "https://arstechnica.com/gadgets/2026/11/google-search-alternative-kagi-launches-gmail-rival/",
+          "author": "Samuel Axon",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/kagi-mail-announcement-1152x648.jpg",
+          "time": "রাত ২:৫৭"
+        },
+        {
+          "headline": "Amazon loses its latest attempt to get out of handling more recall notices",
+          "excerpt": "Emma Roth is a news writer who covers the streaming wars, consumer tech, crypto, social media, and much more. Previously, she was a writer and editor at MUO.Amazon is on the hook to recall more than 400,000 hazardous products after losing its legal battle against the US Consumer Product Safety Commission (CPSC). The US District Court for the District of Maryland ruled in favor of the CPSC, which…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/tech/1042870/amazon-recall-order-cpsc",
+          "author": "Emma Roth",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23935558/acastro_STK103__01.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+          "time": "ভোর ৫:৫৬"
+        },
+        {
+          "headline": "Can you play GTA 6 from an external hard drive on PS5 or Xbox Series X/S?",
+          "excerpt": "Rockstar’s behemoth takes up a lot of storage space.\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                    Asanka Ratnayake/Getty…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2328792/can-you-play-gta-6-from-external-hard-drive/",
+          "author": "Kris Holt",
+          "image": "https://www.engadget.com/img/gallery/can-you-play-gta-6-from-an-external-hard-drive-on-ps5-or-xbox-series-xs/l-intro-1795642883.jpg",
+          "time": "ভোর ৪:০৭"
+        },
+        {
+          "headline": "Big Google Home update adds these new Nest Cam, app, and Gemini features",
+          "excerpt": "Google Home is rolling out another big update, this time adding features and bringing improvements across Nest Cam, Nest Thermostarts, Gemini, and more.\n\n\n\nDetailed on Google’s usual changelog, the November 25 update is now rolling out and makes improvements across the board, starting with the Gemini for Home early access program. “Hey Google, tell me a story” is returning with Gemini able to…",
+          "source": "9to5Google",
+          "link": "https://9to5google.com/2026/11/25/google-home-update-nest-cam-thermostat-gemini-features/",
+          "author": "Ben Schoon",
+          "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/07/google-home-speaker-nest-hub-1.jpg?quality=82&strip=all&resize=1200,628",
+          "time": "রাত ৩:৫০"
+        },
+        {
+          "headline": "Backblaze explains why it's sharing customer information with advertisers",
+          "excerpt": "Some customers have raised concerns about Backblaze’s privacy policy taking effect next month, which says the backup and cloud storage company may sell certain personal information to advertisers.\nBackblaze’s current privacy policy says that in addition to the personal information that users may provide, such as their email address when creating an account, it may also “automatically” collect…",
+          "source": "Ars Technica",
+          "link": "https://arstechnica.com/information-technology/2026/11/backblaze-explains-why-its-sharing-customer-information-with-advertisers/",
+          "author": "Scharon Harding",
+          "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1219679299-1152x648.jpg",
+          "time": "রাত ১২:৩৮"
+        },
+        {
+          "headline": "Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future",
+          "excerpt": "Last year, Google filed a patent for a system called My Channel that’s designed to create feeds filled with personalized, AI-generated videos and advertisements based on information the company knows about its users. The patent has been rejected, but unfortunately, Google might appeal or resubmit an amended version, and we could see this monstrosity come to market.First spotted by Patentlyze,…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
+          "author": "Charles Pulliam-Moore",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Screenshot-2026-11-25-at-11.34.07-AM.png?quality=90&strip=all&crop=2.859375%2C11.97652241473%2C93.788122558594%2C75.148782257541&w=1200",
+          "time": "রাত ৩:৫১"
+        },
+        {
+          "headline": "7 gadgets that'll instantly upgrade your Thanksgiving feast",
+          "excerpt": "These tools will make turkey day just a little easier.\n            \n\n    \n                \n                                \n                                \n                         \n                                             \n                                                    \n                            \n                        \n                    \n                    Sam Rutherford for…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2328767/gadgets-instantly-upgrade-thanksgiving-feast/",
+          "author": "Sam Rutherford",
+          "image": "https://www.engadget.com/img/gallery/7-cool-gadgets-to-instantly-upgrade-your-thanksgiving-feast/l-intro-1795617573.jpg",
+          "time": "রাত ৩:৪১"
+        },
+        {
+          "headline": "9to5Google’s Best of 2026",
+          "excerpt": "We reviewed dozens of products in 2026, and the one through line across all of them was cost. Because of RAMageddon, everything was more expensive, and it became somewhat easier to separate the products that were good because they were cheap from the ones that were good at any price.\n\n\n\nThis year was a lot of things, but it was primarily a reminder that the best products are created through…",
+          "source": "9to5Google",
+          "link": "https://9to5google.com/2026/11/25/9to5googles-best-of-2026/",
+          "author": "9to5 Staff",
+          "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/11/9to5google-best-of-2026-feature-composite.jpg?quality=82&strip=all&resize=1200,628",
+          "time": "রাত ২:২৯"
+        },
+        {
+          "headline": "State AGs are trying to stop Character.AI from auctioning off users' chat histories",
+          "excerpt": "The proposed sale would include explicit conversations with children, officials…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2328630/state-ags-are-trying-to-stop-characterai-from-auctioning-off-users-chat-histories/",
+          "author": "Karissa Bell",
+          "image": "https://www.engadget.com/img/gallery/state-ags-are-trying-to-stop-character-ai-from-auctioning-off-users-chat-histories/l-intro-1795637016.jpg",
+          "time": "রাত ২:০৪"
+        },
+        {
+          "headline": "‘Old’ Galaxy phones are a better deal; here’s what you should buy",
+          "excerpt": "Old is a label, and saying last year’s Galaxy flagships from Samsung are dated or worthless is disingenuous. You can get a killer deal on a phone a generation or two old.\n\n\n\nSure, the Galaxy S26 is a fantastic phone. It introduced the Privacy Display, which hides parts of your screen from off-angles. It also brings a slightly better camera, as Samsung would have you believe from the initial…",
+          "source": "9to5Google",
+          "link": "https://9to5google.com/2026/11/25/old-galaxy-phones-are-a-better-deal-heres-what-you-should-buy/",
+          "author": "Andrew Romero",
+          "image": "https://9to5google.com/wp-content/uploads/sites/4/2025/02/Galaxy-S23-and-S25-Ultra-cameras.jpg?quality=82&strip=all&resize=1200,628",
+          "time": "রাত ১:১৫"
+        },
+        {
+          "headline": "WhatsApp’s new scheduled messages let you choose the right time to send",
+          "excerpt": "Stevie Bonifield is a news writer covering all things consumer tech. Stevie started out at Laptop Mag writing news and reviews on hardware, gaming, and AI.WhatsApp’s 3 billion users are getting an option that Meta says is one of the most requested features, with the ability to schedule messages in advance for both private conversations and group chats. Most messaging platforms have had this for…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/tech/1042532/whatsapp-scheduled-messages",
+          "author": "Stevie Bonifield",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/whatsapp-scheduled-messages-launch.jpeg?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200",
+          "time": "রাত ২:৩১"
+        },
+        {
+          "headline": "NASA's DART mission left a stadium-sized crater in an asteroid, the ESA finds",
+          "excerpt": "The ESA’s Hera mission has begun capturing images of the aftermath of DART’s…",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2328617/nasas-dart-mission-left-a-stadium-sized-crater-in-an-asteroid-the-esa-finds/",
+          "author": "Ian Carlos Campbell",
+          "image": "https://www.engadget.com/img/gallery/nasas-dart-mission-left-a-stadium-sized-crater-in-an-asteroid-the-esa-finds/l-intro-1795636789.jpg",
+          "time": "রাত ২:০১"
+        },
+        {
+          "headline": "‘Enough Phone’ is stuffing a bigger battery, more RAM & storage into its small Android phone at no extra cost",
+          "excerpt": "The “Enough Phone” is trying to fulfill the small Android phone dream and, now, it’s getting some spec upgrades to the battery, RAM, and storage, all with no added cost.\n\n\n\nAnnounced earlier this month, the “Enough Phone” is an Android phone set to launch in 2027 at a size about the same as an iPhone 13 Mini. \n\n\n\n\n‘Enough Phone’ is an Android phone roughly the size of iPhone 13 Mini, launching…",
+          "source": "9to5Google",
+          "link": "https://9to5google.com/2026/11/25/enough-phone-ram-storage-battery-upgrades/",
+          "author": "Ben Schoon",
+          "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/11/enough-phone-1.jpg?quality=82&strip=all&resize=1200,628",
+          "time": "রাত ১:১০"
+        },
+        {
+          "headline": "EPA reports ‘zero’ airborne lead following controlled Army detonation in Iowa",
+          "excerpt": "Saying it was necessary to prevent the possible spontaneous explosion of a stockpile of material used in igniters and blasting caps, the US Army conducted a controlled detonation of over 9,700 pounds of lead azide today at the Iowa Army Ammunition Plant (IAAAP) in Middletown, Iowa. Videos of the detonation showed plumes of smoke several hundred feet high drifting south before quickly…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/science/1042109/us-army-detonation-lead-azide-explosives-iowa-ammunition-plant",
+          "author": "Andrew Liszewski",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2306835116.jpg?quality=90&strip=all&crop=0%2C10.755695117778%2C100%2C78.488609764443&w=1200",
+          "time": "রাত ১:৪৫"
+        },
+        {
+          "headline": "Hello Weather is the best Apple Weather app on Android",
+          "excerpt": "While Pixel Weather serves my needs quite well, I’ve been looking for a way to check Apple Weather (previously Dark Sky) forecast data on Android, and I’ve finally found it with Hello Weather by Electric Dream Machine.\n\n\n\nHello Weather started out on iOS before coming to Android a few years ago. On Apple devices, the app got a big redesign last year, and it just came to Android last month with a…",
+          "source": "9to5Google",
+          "link": "https://9to5google.com/2026/11/25/hello-weather-android-apple/",
+          "author": "Abner Li",
+          "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/11/Hello-Weather-cover.jpg?quality=82&strip=all&resize=1200,628",
+          "time": "রাত ১২:৪৪"
+        },
+        {
+          "headline": "1Password breach leaked customer names and emails, but not passwords",
+          "excerpt": "Emma Roth is a news writer who covers the streaming wars, consumer tech, crypto, social media, and much more. Previously, she was a writer and editor at MUO.1Password says a hacker stole customer names and email addresses after gaining access to its backend systems. The breach didn’t expose passwords or other information stored in customer vaults, but could put users at risk of phishing…",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/tech/1042409/1password-data-breach-leak",
+          "author": "Emma Roth",
+          "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/STKB339_1PASSWORD.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+          "time": "রাত ১:১০"
+        }
+      ]
+    }
+  },
+  {
     "dt": "2026-11-25T16:50:58.262Z",
     "file": "runs/2026-11-25-1650.html",
     "counts": {
