@@ -1053,22 +1053,6 @@
   },
   "Al Jazeera": {
     "seen_urls": [
-      "https://www.aljazeera.com/news/2026/11/18/icj-to-rule-on-rohingya-genocide-case-what-to-expect?traffic_source=rss",
-      "https://www.aljazeera.com/features/2026/11/18/palestinians-find-refuge-in-ancient-caves-after-israel-demolish-homes?traffic_source=rss",
-      "https://www.aljazeera.com/news/2026/11/18/partnership-buys-silence-fears-grow-over-eu-rwanda-deportation-plans?traffic_source=rss",
-      "https://www.aljazeera.com/news/2026/11/18/houthis-advance-on-aden-as-saudi-coalition-targets-military-sites?traffic_source=rss",
-      "https://www.aljazeera.com/sports/2026/11/18/cameron-bancroft-claims-entire-australian-team-knew-about-sandpapergate?traffic_source=rss",
-      "https://www.aljazeera.com/video/newsfeed/2026/11/18/11-16-hosted-pakistan-provinces-plan-explainer?traffic_source=rss",
-      "https://www.aljazeera.com/video/newsfeed/2026/11/18/trump-arrives-in-china-ahead-of-trilateral-summit-with-xi-putin?traffic_source=rss",
-      "https://www.aljazeera.com/sports/2026/11/18/india-lodges-complaint-against-palestinian-footballer-after-under-17-match?traffic_source=rss",
-      "https://www.aljazeera.com/news/2026/11/18/tim-hortons-app-sharing-extensive-data-with-israeli-military-linked-firm?traffic_source=rss",
-      "https://www.aljazeera.com/news/2026/11/18/why-has-an-nyt-report-on-irans-dams-ignited-fierce-pushback?traffic_source=rss",
-      "https://www.aljazeera.com/features/2026/11/18/traumas-of-sudan-war-is-seeing-a-wave-of-drug-addiction?traffic_source=rss",
-      "https://www.aljazeera.com/video/newsfeed/2026/11/18/gta-6-launches-after-13-year-wait-breaking-pre-order-records?traffic_source=rss",
-      "https://www.aljazeera.com/news/2026/11/18/us-steps-up-pressure-on-iran-backed-hezbollah-with-new-sanctions?traffic_source=rss",
-      "https://www.aljazeera.com/news/2026/11/18/iraq-sentences-six-french-nationals-to-life-in-prison-for-joining-isil?traffic_source=rss",
-      "https://www.aljazeera.com/economy/2026/11/18/us-lawmakers-push-to-raise-minimum-wage-to-25-end-tipped-pay-system?traffic_source=rss",
-      "https://www.aljazeera.com/video/newsfeed/2026/11/18/aje-onl-nf_floodwaters-submerge-cars-in-florida-181126?traffic_source=rss",
       "https://www.aljazeera.com/news/2026/11/18/us-defence-secretary-announces-military-partnership-on-trip-to-venezuela?traffic_source=rss",
       "https://www.aljazeera.com/news/2026/11/18/what-does-israels-new-ground-offensive-mean-for-palestinians-in-gaza?traffic_source=rss",
       "https://www.aljazeera.com/news/2026/11/18/pew-research-islam-on-track-to-become-worlds-largest-religion-by-2035?traffic_source=rss",
@@ -1552,17 +1536,27 @@
       "https://www.aljazeera.com/video/newsfeed/2026/11/27/27-11-sv-pakistan-viral-cricket-catch?traffic_source=rss",
       "https://www.aljazeera.com/economy/2026/11/27/us-shoppers-get-ready-for-black-friday-and-cyber-monday?traffic_source=rss",
       "https://www.aljazeera.com/video/newsfeed/2026/11/27/why-benjamin-netanyahus-corruption-trial-could-be-unravelling?traffic_source=rss",
-      "https://www.aljazeera.com/sports/2026/11/27/manchester-united-brentford-pochettino-first-home-game-premier-league-football?traffic_source=rss"
+      "https://www.aljazeera.com/sports/2026/11/27/manchester-united-brentford-pochettino-first-home-game-premier-league-football?traffic_source=rss",
+      "https://www.aljazeera.com/video/newsfeed/2026/11/28/francesca-albanese-seeks-apology-from-costa-rica-after-entry-ban?traffic_source=rss",
+      "https://www.aljazeera.com/news/liveblog/2026/11/28/iran-war-live-italy-says-drone-in-deadly-kuwait-attack-was-made-in-iran?traffic_source=rss",
+      "https://www.aljazeera.com/news/2026/11/27/at-least-eight-found-dead-on-migrant-boat-off-spains-canary-islands?traffic_source=rss",
+      "https://www.aljazeera.com/video/newsfeed/2026/11/27/us-disables-ship-attempting-to-breach-iran-blockade?traffic_source=rss",
+      "https://www.aljazeera.com/news/2026/11/27/will-taiwan-vote-to-revive-nuclear-power-and-why-does-that-matter-for-ai?traffic_source=rss",
+      "https://www.aljazeera.com/news/2026/11/27/kenyan-cult-leader-guilty-of-manslaughter-more-than-123-starvation-deaths?traffic_source=rss",
+      "https://www.aljazeera.com/news/2026/11/27/us-military-says-it-disabled-merchant-ship-trying-to-breach-iran-blockade?traffic_source=rss",
+      "https://www.aljazeera.com/video/newsfeed/2026/11/27/activists-of-rhythm-fighting-spains-far-right-through-art?traffic_source=rss",
+      "https://www.aljazeera.com/economy/2026/11/27/why-are-families-going-hungry-in-northern-yemen-even-where-food-is-on-sale?traffic_source=rss",
+      "https://www.aljazeera.com/news/2026/11/27/venezuela-to-repeal-law-that-bans-opposition-figures-from-office?traffic_source=rss",
+      "https://www.aljazeera.com/economy/2026/11/27/openai-countersues-apple-over-trade-secrets-as-ai-race-heats-up?traffic_source=rss",
+      "https://www.aljazeera.com/news/2026/11/27/putin-unveils-new-russian-nuclear-powered-submarine-with-hypersonic-weapons?traffic_source=rss",
+      "https://www.aljazeera.com/video/newsfeed/2026/11/27/aje-onl-nf_-hamas-chiefs-son-escapes-israeli-strike-gaza-271126?traffic_source=rss",
+      "https://www.aljazeera.com/video/newsfeed/2026/11/27/un-gaza-rapporteur-francesca-albanese-denied-entry-into-costa-rica?traffic_source=rss",
+      "https://www.aljazeera.com/video/inside-story/2026/11/27/is-iraq-facing-renewed-instability?traffic_source=rss",
+      "https://www.aljazeera.com/news/2026/11/27/israel-kills-four-in-gaza-as-hamas-chief-al-hayyas-son-survives-strike?traffic_source=rss"
     ]
   },
   "The Guardian World": {
     "seen_urls": [
-      "https://www.theguardian.com/australia-news/2026/nov/11/one-nation-candidate-apologises-offensive-comments-ntwnfb",
-      "https://www.theguardian.com/australia-news/2026/nov/11/property-investor-lending-rates-fall-cba-mortgage-repayments",
-      "https://www.theguardian.com/business/2026/nov/11/nissan-reduces-petrol-car-production-as-ev-sales-boom-in-china",
-      "https://www.theguardian.com/world/live/2026/nov/11/europe-ukraine-russia-us-talks-abu-dhabi-zelenskyy-latest-news-updates",
-      "https://www.theguardian.com/world/2026/nov/11/belgium-ice-style-home-raids-immigration",
-      "https://www.theguardian.com/world/2026/nov/11/ai-datacentres-on-site-gas-fired-power-stations",
       "https://www.theguardian.com/film/2026/nov/11/naza-documentary-on-gaza-killings-becomes-one-of-years-most-watched",
       "https://www.theguardian.com/global-development/2026/nov/11/woman-in-saudi-arabia-sentenced-to-100-lashes-for-giving-birth-outside-marriage",
       "https://www.theguardian.com/us-news/2026/nov/11/us-treasury-chief-scott-bessent-moves-military-base-iran-threats",
@@ -2056,7 +2050,13 @@
       "https://www.theguardian.com/stage/2026/nov/27/play-12-year-old-ecojustice-influencer-wins-shakespeares-globe-prize",
       "https://www.theguardian.com/us-news/2026/nov/27/newly-released-documents-cia-waterboarding-9-11",
       "https://www.theguardian.com/technology/2026/nov/27/hackers-breach-us-air-force-cloud-computing",
-      "https://www.theguardian.com/us-news/2026/nov/27/bigfoot-enthusiasts-sightings"
+      "https://www.theguardian.com/us-news/2026/nov/27/bigfoot-enthusiasts-sightings",
+      "https://www.theguardian.com/australia-news/live/2026/nov/28/victorian-election-live-results-updates-premier-ben-carroll-jess-wilson-warren-pickering-2026-victoria-polls-votes-latest-news-ntwnfb",
+      "https://www.theguardian.com/education/2026/nov/27/schools-in-england-must-set-aside-time-for-pupils-to-read-for-pleasure",
+      "https://www.theguardian.com/uk-news/2026/nov/27/catherine-princess-of-wales-heal-documentary-cancer",
+      "https://www.theguardian.com/uk-news/2026/nov/27/graham-thorpe-widow-legal-action-against-nhs-trust-after-inquest",
+      "https://www.theguardian.com/technology/2026/nov/27/openai-countersues-apple-trade-secrets",
+      "https://www.theguardian.com/us-news/2026/nov/27/biden-promise-me-america-memoir-sales-fall-short"
     ]
   },
   "ESPN Cricinfo": {
@@ -2260,18 +2260,6 @@
   },
   "BBC Sport": {
     "seen_urls": [
-      "https://www.bbc.co.uk/sport/boxing/articles/cm752n322gn9o?at_medium=RSS&at_campaign=rss",
-      "https://www.bbc.co.uk/sport/football/articles/c6n8d8kl125vo?at_medium=RSS&at_campaign=rss",
-      "https://www.bbc.co.uk/sport/rugby-union/articles/cq742lw1v3pvo?at_medium=RSS&at_campaign=rss",
-      "https://www.bbc.co.uk/sport/football/videos/cm3vgx55kp3ro?at_medium=RSS&at_campaign=rss",
-      "https://www.bbc.co.uk/sport/football/articles/c5zjxjj91dn1o?at_medium=RSS&at_campaign=rss",
-      "https://www.bbc.co.uk/sport/football/articles/c3x2wz2kg0lno?at_medium=RSS&at_campaign=rss",
-      "https://www.bbc.co.uk/news/articles/cwdd172l2nedo?at_medium=RSS&at_campaign=rss",
-      "https://www.bbc.co.uk/sport/rugby-league/articles/c90k0k3647r2o?at_medium=RSS&at_campaign=rss",
-      "https://www.bbc.co.uk/sport/football/articles/cm5ynnklgl9xo?at_medium=RSS&at_campaign=rss",
-      "https://www.bbc.co.uk/sport/rugby-union/articles/c6qx5jexrx89o?at_medium=RSS&at_campaign=rss",
-      "https://www.bbc.co.uk/sport/football/articles/cm752n34wek9o?at_medium=RSS&at_campaign=rss",
-      "https://www.bbc.co.uk/sport/tennis/articles/cq1md03gz0zvo?at_medium=RSS&at_campaign=rss",
       "https://www.bbc.co.uk/sport/tennis/articles/cmwyvgvlv2qwo?at_medium=RSS&at_campaign=rss",
       "https://www.bbc.co.uk/sport/football/articles/cm1ewpjyy3dzo?at_medium=RSS&at_campaign=rss",
       "https://www.bbc.co.uk/sport/football/articles/c62l51xyl98no?at_medium=RSS&at_campaign=rss",
@@ -2759,7 +2747,19 @@
       "https://www.bbc.co.uk/sport/football/articles/cm4gnqxvy34wo?at_medium=RSS&at_campaign=rss",
       "https://www.bbc.co.uk/sport/football/articles/cry49dpy9zdyo?at_medium=RSS&at_campaign=rss",
       "https://www.bbc.co.uk/sport/football/articles/cq23jpng4gy9o?at_medium=RSS&at_campaign=rss",
-      "https://www.bbc.co.uk/sport/football/articles/cw7726543kyzo?at_medium=RSS&at_campaign=rss"
+      "https://www.bbc.co.uk/sport/football/articles/cw7726543kyzo?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.co.uk/sport/rugby-union/articles/cw987l0ej11mo?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.co.uk/sport/rugby-union/articles/cmkgkl7de60go?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.co.uk/sport/football/articles/cmwy85xxjgxvo?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.co.uk/sport/football/articles/cm1dvn9w1px4o?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.co.uk/sport/football/articles/cmqlqeqd4wg5o?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.co.uk/sport/football/articles/cqvg23jg6x78o?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.co.uk/sport/rugby-union/articles/cr0jx98elggxo?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.co.uk/sport/football/videos/cm5y10n8e737o?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.co.uk/sport/football/videos/cq3dgpj5xn0do?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.co.uk/sport/football/videos/cm0qjlq19qw3o?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.co.uk/sport/football/videos/ck7v2lpe2rpgo?at_medium=RSS&at_campaign=rss",
+      "https://www.bbc.co.uk/sport/rugby-union/articles/c6879ezd5r5qo?at_medium=RSS&at_campaign=rss"
     ]
   },
   "The Daily Star Sports": {
@@ -4268,7 +4268,8 @@
       "https://www.phoronix.com/news/Linux-Another-Net-Maintainer",
       "https://www.phoronix.com/news/Linux-Mint-27-Beta",
       "https://www.phoronix.com/news/Intel-Efficient-64-bit-e64-ANV",
-      "https://www.phoronix.com/news/Intel-Compute-26.44.40734.8"
+      "https://www.phoronix.com/news/Intel-Compute-26.44.40734.8",
+      "https://www.phoronix.com/news/Earthqaic-Gallium3D-Mesa-27.0"
     ]
   },
   "TechShohor": {
@@ -5284,15 +5285,6 @@
   },
   "The Verge": {
     "seen_urls": [
-      "https://www.theverge.com/transportation/1006536/jaguar-type-01-design-specs-price-reveal",
-      "https://www.theverge.com/ai-artificial-intelligence/1006355/openai-chatgpt-for-teens-common-sense-media",
-      "https://www.theverge.com/transportation/1006837/bmw-ix4-ev-range-price-specs-tesla-china",
-      "https://www.theverge.com/gadgets/1007489/teengage-engineering-stop-making-synths",
-      "https://www.theverge.com/tech/1007409/androids-physical-navigation-buttons-are-back-on-googlebooks-but-not-the-way-you-think",
-      "https://www.theverge.com/gadgets/1007110/october-prime-day-budget-deals-under-50",
-      "https://www.theverge.com/gadgets/1007149/roku-oled-tv-pro-prime-day-deal-sale",
-      "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6",
-      "https://www.theverge.com/gadgets/1007040/nvidias-powerful-rtx-spark-laptops-can-cost-up-to-7000",
       "https://www.theverge.com/tech/1007132/icann-domains-2026-ai-agi",
       "https://www.theverge.com/tech/1007147/microsoft-surface-laptop-ultra-windows-event-everything-announced",
       "https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence",
@@ -5783,20 +5775,20 @@
       "https://www.theverge.com/gadgets/1041299/oura-ring-5-black-friday-2026-deal-sale",
       "https://www.theverge.com/entertainment/1043362/grand-theft-auto-6-ending",
       "https://www.theverge.com/gadgets/1042744/best-black-friday-tv-deals-2026",
-      "https://www.theverge.com/gadgets/1040313/apple-watch-se-3-black-friday-2026-deal-sale"
+      "https://www.theverge.com/gadgets/1040313/apple-watch-se-3-black-friday-2026-deal-sale",
+      "https://www.theverge.com/gadgets/1043976/sony-wh1000xm4c-noise-canceling-headphones-black-friday-2026-deal-sale",
+      "https://www.theverge.com/transportation/1044706/this-purple-electric-chinese-minivan-can-go-up-to-559-miles-on-a-charge",
+      "https://www.theverge.com/gadgets/1043935/best-black-friday-apple-deals-2026",
+      "https://www.theverge.com/gadgets/1044487/best-black-friday-robot-vacuum-mop-deals-2026",
+      "https://www.theverge.com/games/1044715/yooka-laylees-free-upgrade-is-skipping-xbox",
+      "https://www.theverge.com/gadgets/1040471/4k-bluray-movie-film-black-friday-deal-sale",
+      "https://www.theverge.com/gadgets/1042705/ipad-mini-black-friday-deal-sale-2026",
+      "https://www.theverge.com/tech/1044612/allstate-has-been-suffering-an-outage-since-monday",
+      "https://www.theverge.com/gadgets/1042951/best-black-friday-gaming-deals-ps5-nintendo-2026-sale"
     ]
   },
   "Wired": {
     "seen_urls": [
-      "https://www.wired.com/story/best-prime-day-laptop-deals/",
-      "https://www.wired.com/story/absolute-best-amazon-prime-day-deals-10-06-2026/",
-      "https://www.wired.com/live/amazon-prime-day-live-tracker-october-06-2026/",
-      "https://www.wired.com/story/best-amazon-prime-day-deals-under-50-10-06-2026/",
-      "https://www.wired.com/story/prime-day-vacuum-deals-10-06-2026/",
-      "https://www.wired.com/story/samsung-the-frame-tv-deal-prime-day-10-6-2026/",
-      "https://www.wired.com/story/artificial-roasts-ais-creators-and-sends-a-dark-warning-about-its-dangers/",
-      "https://www.wired.com/story/apple-airpods-max-2-deal-october-2026/",
-      "https://www.wired.com/story/best-smart-home-prime-day-10-6-2026/",
       "https://www.wired.com/story/amazon-prime-day-2026-yeti-deals/",
       "https://www.wired.com/story/prime-day-espresso-machine-deals-10-06-2026/",
       "https://www.wired.com/story/amazon-prime-day-wearable-deals-10-6-2026/",
@@ -6287,16 +6279,20 @@
       "https://www.wired.com/story/early-black-friday-tv-deals-11-27-2026/",
       "https://www.wired.com/story/best-black-friday-tech-deals-11-27-26/",
       "https://www.wired.com/story/best-black-friday-phone-deals-11-27-26/",
-      "https://www.wired.com/story/best-black-friday-deals-under-100-11-27-2026/"
+      "https://www.wired.com/story/best-black-friday-deals-under-100-11-27-2026/",
+      "https://www.wired.com/story/yeti-black-friday-sale-11-2026/",
+      "https://www.wired.com/story/shark-depuffi-black-friday-deals-11-27-2026/",
+      "https://www.wired.com/story/black-friday-gaming-deals-11-27-2026/",
+      "https://www.wired.com/story/shark-vacuum-black-friday-deals-11-27-2026/",
+      "https://www.wired.com/story/best-amazon-device-black-friday-deals-11-27-2026/",
+      "https://www.wired.com/story/best-black-friday-airpods-deals-11-27-2026/",
+      "https://www.wired.com/story/black-friday-deals-essentials-11-27-2026/",
+      "https://www.wired.com/story/black-friday-mattress-deals-11-27-2026/",
+      "https://www.wired.com/story/black-friday-coffee-espresso-deals-11-27-2026/"
     ]
   },
   "Engadget": {
     "seen_urls": [
-      "https://www.engadget.com/2300216/engadget-is-hiring-writers-october-2026/",
-      "https://www.engadget.com/2300152/sonys-new-see-through-dualsense-controllers-let-you-game-like-its-1999/",
-      "https://www.engadget.com/2300023/apples-first-touchscreen-macbook-pro-feels-both-familiar-and-radically-improved/",
-      "https://www.engadget.com/2300009/heres-how-the-touchscreen-on-the-macbook-pro-with-proled-display-works/",
-      "https://www.engadget.com/2299925/apples-redesigned-macbook-pro-has-an-oled-touchscreen-weighs-just-three-pounds/",
       "https://www.engadget.com/2299912/fake-ps5-emulators-on-github-are-spreading-password-stealing-malware/",
       "https://www.engadget.com/2299633/the-xreal-aura-smartglasses-are-now-on-sale-for-a-discounted-launch-price/",
       "https://www.engadget.com/2299823/new-york-governor-signs-ai-chatbot-child-safety-law/",
@@ -6791,20 +6787,16 @@
       "https://www.engadget.com/2329256/backloggd-breach-november-2026-password-reset/",
       "https://www.engadget.com/2329013/1password-hacked-but-users-vaults-are-safe/",
       "https://www.engadget.com/2329231/amazon-workers-plan-protests-on-black-friday-and-cyber-monday/",
-      "https://www.engadget.com/2329389/google-will-soon-share-android-developers-addresses-publicly/"
+      "https://www.engadget.com/2329389/google-will-soon-share-android-developers-addresses-publicly/",
+      "https://www.engadget.com/2329878/gta-6-performance-ways-make-sure-console-not-holding-back/",
+      "https://www.engadget.com/2329851/la-school-district-blocks-google-ai-search-features/",
+      "https://www.engadget.com/2329765/samsung-is-reportedly-giving-its-camera-app-an-ai-mode/",
+      "https://www.engadget.com/2329748/restricted-nvidia-chips-were-installed-at-a-chinese-data-center-linked-to-alice-huang/",
+      "https://www.engadget.com/2329747/openai-countersues-apple-and-accuses-it-of-stealing-trade-secrets/"
     ]
   },
   "9to5Google": {
     "seen_urls": [
-      "https://9to5google.com/2026/09/21/apple-iphone-duo-stylus-support-report/",
-      "https://9to5google.com/2026/09/21/googlebook-laptop-poll/",
-      "https://9to5google.com/2026/09/21/xiaomi-18-pro-has-a-privacy-display-that-does-more-than-galaxy-s26-ultra-launches-this-week-video/",
-      "https://9to5google.com/2026/09/21/mediatek-googlebook-dimensity-cx-c10-max/",
-      "https://9to5google.com/2026/09/21/deals-googlebook-free-pixel-buds-nothing-ear-3a/",
-      "https://9to5google.com/2026/09/21/heres-the-oneplus-16-that-you-probably-wont-be-able-to-buy-video/",
-      "https://9to5google.com/2026/09/21/google-chrome-extensions-taking-too-long-to-load-on-macos/",
-      "https://9to5google.com/2026/09/21/pixel-vips-2-0-widget-redesign/",
-      "https://9to5google.com/2026/09/23/disney-plus-price-hike-september-2026/",
       "https://9to5google.com/2026/09/23/deals-galaxy-fold-8-nothing-buds-neo-ring-doorbell-4k/",
       "https://9to5google.com/2026/09/23/youtube-music-ask-gemini/",
       "https://9to5google.com/2026/09/23/made-on-youtube-2026/",
@@ -7295,7 +7287,16 @@
       "https://9to5google.com/2026/11/27/all-xreal-glasses-black-friday-sale-2026/",
       "https://9to5google.com/2026/11/27/samsung-galaxy-z-fold-8-black-friday-deal/",
       "https://9to5google.com/2026/11/27/garmin-bark-watch-black-friday-deals-2026/",
-      "https://9to5google.com/2026/11/27/meta-quest-3s-black-friday-week-2026-deal/"
+      "https://9to5google.com/2026/11/27/meta-quest-3s-black-friday-week-2026-deal/",
+      "https://9to5google.com/2026/11/27/amazon-echo-show-black-friday-google-nest-hub/",
+      "https://9to5google.com/2026/11/27/pixelated-127-nobody-reads-nobody-writes/",
+      "https://9to5google.com/2026/11/27/which-waterdrop-water-filters-are-actually-worth-buying-this-black-friday/",
+      "https://9to5toys.com/2026/11/27/google-play-black-friday-deals/",
+      "https://9to5google.com/2026/11/27/the-oneplus-coloros-17-update-is-proving-to-be-a-disappointment-for-fans/",
+      "https://9to5google.com/2026/11/27/i-didnt-give-up-on-the-galaxy-z-fold-8/",
+      "https://9to5google.com/2026/11/27/amazon-alexa-tablet-12-pro-review/",
+      "https://9to5google.com/2026/11/27/new-google-messages-features/",
+      "https://9to5google.com/2026/11/27/pixel-watch-5-black-friday-deal-2026/"
     ]
   },
   "The Hacker News": {
